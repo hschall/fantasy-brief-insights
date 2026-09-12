@@ -1,58 +1,63 @@
 {
-  "week": 1,
-  "generatedAt": "2026-09-11T20:40:00Z",
-  "summary": "One real move: Michael Mayer over Kyle Pitts at TE. The rest of the lineup is settled.",
-  "items": [
-    {
-      "kind": "NOTE",
-      "headline": "TEST Chem \u2014 written by Claude, no hands",
-      "body": "Claude fetched this league's dump from the Firebase endpoint, researched it, and published this file to GitHub directly. Nothing was pasted or run manually. Posted 02:42 UTC on Sat 12 Sep.",
-      "confidence": "high"
-    },
-    {
-      "kind": "WAIVER",
-      "playerId": 4429086,
-      "headline": "Claim Michael Mayer, start him over Pitts",
-      "body": "Bowers ruled OUT Friday after a meniscus trim, out one or two games. ESPN own splits on Mayer: 6.0 targets and 10.9 PPG across the four games Bowers missed last season, against 2.9 and 3.4 alongside him. Cousins has fed tight ends everywhere he has been. Pitts projects 7.6 against an 8.7 TE median here, so he is below replacement this week. Mayer is 24.2% owned and climbing 2.9 a day.",
-      "confidence": "high"
-    },
-    {
-      "kind": "LOCK",
-      "playerId": 3918298,
-      "headline": "Josh Allen",
-      "body": "Nothing on your bench competes."
-    },
-    {
-      "kind": "LOCK",
-      "playerId": 4429160,
-      "headline": "De Von Achane",
-      "body": "Clear RB1 role, no reason to look elsewhere."
-    },
-    {
-      "kind": "LOCK",
-      "playerId": 4262921,
-      "headline": "Justin Jefferson",
-      "body": "Your highest projected receiver against Green Bay."
-    },
-    {
-      "kind": "START",
-      "playerId": 4882093,
-      "headline": "Tuten is fine to start, but it is a committee",
-      "body": "Absent from the Week 1 injury report entirely, so the earlier illness is a non-issue. He opens drives, Rodriguez comes in inside the 10, Allen normally takes third downs. Allen missed Wednesday with a hip and is trending toward sitting, which pushes a few pass-catching snaps back to Tuten.",
-      "confidence": "medium"
-    },
-    {
-      "kind": "NOTE",
-      "playerId": 4569987,
-      "headline": "Warren over Tuten is a coin flip, not an upgrade",
-      "body": "The 11.3 to 10.9 gap implies more separation than exists. Warren is RB1 on the depth chart but Rico Dowdle is a genuine 1A with back-to-back 1,000-yard seasons. Both your backs are in committees. Not worth a swap on 0.4.",
-      "confidence": "medium"
-    },
-    {
-      "kind": "WARNING",
-      "headline": "Nabers is a coin flip and he is not yours",
-      "body": "Full participant Wednesday through Friday, then downgraded to questionable on the final report. He has said the decision is his. Practising fully all week and still carrying a designation is highly unusual. He belongs to Footballers, so this is a trade angle only.",
-      "confidence": "medium"
-    }
-  ]
+ "week": 1,
+ "generatedAt": "2026-09-12T16:00:02Z",
+ "summary": "Lineup is already optimal \u2014 no changes. One free waiver claim worth making: Mark Andrews is unrostered and outprojects Pitts. Tuten is a committee back, not a lead back.",
+ "items": [
+  {
+   "kind": "WAIVER",
+   "playerId": 3116365,
+   "headline": "Mark Andrews \u2014 claim, drop Stafford",
+   "body": "Unrostered in this league. Likely and Kolar both left Baltimore; Andrews is the unchallenged TE1 on a Lamar Jackson offense and faces Indy, which allowed the 4th-most yards per target to TEs last year. ESPN projects 10.1 vs 7.6 for Pitts. Camp reports on his hands were poor, so this is a projection-and-role bet, not a lock. Priority resets weekly, so the claim costs nothing.",
+   "confidence": "medium"
+  },
+  {
+   "kind": "DROP",
+   "playerId": 12483,
+   "headline": "Stafford is the drop",
+   "body": "He is a QB2 behind Josh Allen in a 10-team 1-QB league, which is the lowest-value bench slot you own. He posted 4.1 on Thursday: 155 yards, one pick, no TDs in a 27-7 loss. 93% rostered, but rostered elsewhere as a starter, not as a backup. Allen's week 7 bye is streamable for free.",
+   "confidence": "high"
+  },
+  {
+   "kind": "WARNING",
+   "playerId": 4882093,
+   "headline": "Tuten is a co-starter, not a lead back",
+   "body": "Jacksonville lists Tuten and Chris Rodriguez as co-starters and the beat expects a near-even split; the pre-season read that only an injured Rodriguez sat behind him is wrong. LeQuint Allen (hip) is trending toward sitting, which pushes pass-down work to Tuten. Still starts at RB2 \u2014 there is nothing better \u2014 but treat 10.9 as the ceiling case.",
+   "confidence": "high"
+  },
+  {
+   "kind": "SIT",
+   "playerId": 4569987,
+   "headline": "Warren stays benched",
+   "body": "Listed RB1 over Rico Dowdle, but McCarthy brought Dowdle in and the expectation is Dowdle gets early-down work with roughly a 3:2 touch edge in week 1. Warren was also limited Wednesday with a hip. His edge is receiving, which is worth half here.",
+   "confidence": "high"
+  },
+  {
+   "kind": "START",
+   "playerId": 3121422,
+   "headline": "McLaurin holds the flex over Warren",
+   "body": "Off the final injury report entirely, full practices Thursday and Friday, and Washington has cleared its full squad for Philadelphia. He is the unquestioned alpha with the OC targeting roughly 10 looks a game.",
+   "confidence": "high"
+  },
+  {
+   "kind": "LOCK",
+   "playerId": -16030,
+   "headline": "Jaguars D/ST",
+   "body": "Consensus number-one defense of the week. Cleveland starts Deshaun Watson behind the league's worst-graded offensive line, carries the lowest implied team total on the slate, and Jacksonville is a 7.5-point home favorite.",
+   "confidence": "high"
+  },
+  {
+   "kind": "LOCK",
+   "playerId": 4429160,
+   "headline": "De'Von Achane",
+   "body": "Confirmed focal point of the Miami offense with no committee. Malik Willis' designed-run usage is the only real drag, and Miami is only a 3-point underdog.",
+   "confidence": "high"
+  },
+  {
+   "kind": "WARNING",
+   "playerId": 4373626,
+   "headline": "Allgeier may actually start for Arizona",
+   "body": "Jeremiyah Love is questionable with the ankle and listed second on the depth chart; Allgeier is expected to open as the early-down back. ESPN's 6.9 projection has not caught up. Hold him over the other bench bodies.",
+   "confidence": "medium"
+  }
+ ]
 }
