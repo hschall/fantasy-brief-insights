@@ -1,0 +1,15 @@
+{
+  "week": 1,
+  "generatedAt": "2026-09-11T20:40:00Z",
+  "summary": "No claims worth making. Priority does not reset here and nothing available beats what you have.",
+  "items": [
+    {"kind":"WARNING","headline":"Do not claim Tyler Allgeier, even though you dropped him","body":"Love is questionable with a high ankle sprain, limited all three practices, and LaFleur called him a game-time decision Friday. ESPN reports he is expected to play. Allgeier is listed first string on Arizona depth chart, so if Love sits Allgeier has real volume. But he projects 7.6 and your RB room is Taylor 17.8, Barkley 17.7, Tuten 12.0, Lloyd 12.8 — he would never start. Priority does NOT reset here, so a claim drops you to last for the season. Season-altering price for a bench body.","confidence":"high"},
+    {"kind":"NOTE","playerId":4429086,"headline":"You already own the Bowers handcuff","body":"Bowers ruled OUT Friday, one or two games. Mayer takes over as TE1 and averaged 6.0 targets and 10.9 PPG across the four games Bowers missed last season. He is on your bench where he belongs — Loveland projects 12.1 against an 11.0 TE median, so Loveland stays your starter. Mayer is insurance and a trade chip while the rest of the league scrambles.","confidence":"high"},
+    {"kind":"LOCK","playerId":4242335,"headline":"Jonathan Taylor","body":"Highest projected player on your roster."},
+    {"kind":"LOCK","playerId":3929630,"headline":"Saquon Barkley","body":"No competing option at the position."},
+    {"kind":"LOCK","playerId":4569618,"headline":"Garrett Wilson","body":"Clear WR1 role, nothing on your bench close."},
+    {"kind":"START","playerId":4882093,"headline":"Tuten in the flex is fine","body":"Not on the Week 1 injury report. He opens drives for Jacksonville, Rodriguez works inside the 10, LeQuint Allen normally takes third downs — Allen missed Wednesday with a hip and is trending toward sitting. Full PPR helps him here more than in your other league.","confidence":"medium"},
+    {"kind":"WARNING","headline":"Nabers is a coin flip and he belongs to Los Cachanillas","body":"Full participant all week, then downgraded to questionable on the final report. He has said the decision is his. Los Cachanillas also has A.J. Brown on IR, so their receiving corps could be very thin Sunday night. That is a trade window, not a waiver one."},
+    {"kind":"NOTE","playerId":12483,"headline":"Check whether Stafford has already played","body":"The Rams played San Francisco Thursday in Melbourne. Your dump still shows a projection rather than a result, which suggests the app has not picked up that game. If it has been played his score is locked either way."}
+  ]
+}
