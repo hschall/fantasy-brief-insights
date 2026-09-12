@@ -1,0 +1,14 @@
+{
+  "week": 1,
+  "generatedAt": "2026-09-11T20:40:00Z",
+  "summary": "One real move: Michael Mayer over Kyle Pitts at TE. The rest of the lineup is settled.",
+  "items": [
+    {"kind":"WAIVER","playerId":4429086,"headline":"Claim Michael Mayer, start him over Pitts","body":"Bowers ruled OUT Friday after a meniscus trim, out one or two games. ESPN own splits on Mayer: 6.0 targets and 10.9 PPG across the four games Bowers missed last season, against 2.9 and 3.4 alongside him. Cousins has fed tight ends everywhere he has been. Pitts projects 7.6 against an 8.7 TE median here, so he is below replacement this week. Mayer is 24.2% owned and climbing 2.9 a day.","confidence":"high"},
+    {"kind":"LOCK","playerId":3918298,"headline":"Josh Allen","body":"Nothing on your bench competes."},
+    {"kind":"LOCK","playerId":4429160,"headline":"De Von Achane","body":"Clear RB1 role, no reason to look elsewhere."},
+    {"kind":"LOCK","playerId":4262921,"headline":"Justin Jefferson","body":"Your highest projected receiver against Green Bay."},
+    {"kind":"START","playerId":4882093,"headline":"Tuten is fine to start, but it is a committee","body":"Absent from the Week 1 injury report entirely, so the earlier illness is a non-issue. He opens drives, Rodriguez comes in inside the 10, Allen normally takes third downs. Allen missed Wednesday with a hip and is trending toward sitting, which pushes a few pass-catching snaps back to Tuten.","confidence":"medium"},
+    {"kind":"NOTE","playerId":4569987,"headline":"Warren over Tuten is a coin flip, not an upgrade","body":"The 11.3 to 10.9 gap implies more separation than exists. Warren is RB1 on the depth chart but Rico Dowdle is a genuine 1A with back-to-back 1,000-yard seasons. Both your backs are in committees. Not worth a swap on 0.4.","confidence":"medium"},
+    {"kind":"WARNING","headline":"Nabers is a coin flip and he is not yours","body":"Full participant Wednesday through Friday, then downgraded to questionable on the final report. He has said the decision is his. Practising fully all week and still carrying a designation is highly unusual. He belongs to Footballers, so this is a trade angle only.","confidence":"medium"}
+  ]
+}
