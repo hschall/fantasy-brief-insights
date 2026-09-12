@@ -1,63 +1,93 @@
 {
  "week": 1,
- "generatedAt": "2026-09-12T16:00:02Z",
- "summary": "Lineup is already optimal \u2014 no changes. One free waiver claim worth making: Mark Andrews is unrostered and outprojects Pitts. Tuten is a committee back, not a lead back.",
+ "generatedAt": "2026-09-12T19:11:32Z",
+ "summary": "Lineup is right as it stands and there is no claim worth making \u2014 Thomas already landed. Three opponent starters are game-time calls; only one has a handcuff worth a free claim.",
  "items": [
   {
-   "kind": "WAIVER",
-   "playerId": 3116365,
-   "headline": "Mark Andrews \u2014 claim, drop Stafford",
-   "body": "Unrostered in this league. Likely and Kolar both left Baltimore; Andrews is the unchallenged TE1 on a Lamar Jackson offense and faces Indy, which allowed the 4th-most yards per target to TEs last year. ESPN projects 10.1 vs 7.6 for Pitts. Camp reports on his hands were poor, so this is a projection-and-role bet, not a lock. Priority resets weekly, so the claim costs nothing.",
-   "confidence": "medium"
+   "kind": "AT_RISK",
+   "section": "AT_RISK",
+   "playerId": 4595348,
+   "headline": "Malik Nabers \u2014 game-time decision",
+   "verdict": "PLAYS",
+   "evidence": "Full practice Friday and off the practice report, but the Giants left him questionable and both he and Harbaugh declined to confirm. Beat consensus is that he plays; he has said the call is his and he will not risk the knee. Sunday night game, so you will know last.",
+   "body": "Footballers' WR1. If he sits, Malachi Fields is the direct beneficiary at 8.9% rostered and free. Chem priority resets weekly so the claim costs nothing \u2014 but it is a lottery ticket on a player who is probably playing, and you would be dropping someone to hold it.",
+   "confidence": "medium",
+   "sourceAt": "2026-09-12T14:00:00Z",
+   "expiresAt": "2026-09-14T00:20:00.000Z",
+   "action": {
+    "type": "ADD",
+    "playerId": 4682648,
+    "label": "Add Fields"
+   }
   },
   {
-   "kind": "DROP",
-   "playerId": 12483,
-   "headline": "Stafford is the drop",
-   "body": "He is a QB2 behind Josh Allen in a 10-team 1-QB league, which is the lowest-value bench slot you own. He posted 4.1 on Thursday: 155 yards, one pick, no TDs in a 27-7 loss. 93% rostered, but rostered elsewhere as a starter, not as a backup. Allen's week 7 bye is streamable for free.",
-   "confidence": "high"
+   "kind": "AT_RISK",
+   "section": "AT_RISK",
+   "playerId": 4431299,
+   "headline": "Rome Odunze \u2014 plays, calf",
+   "verdict": "PLAYS",
+   "evidence": "Limited a third straight day and officially questionable, but he told reporters he plans to play. A calf that practices three days is a snap-count story, not an availability one.",
+   "body": "Los Gigantes' WR1. No handcuff available \u2014 Burden is rostered by Bok-aneers and Loveland by Nicky Jam. Nothing to claim here; this is a note, not a move.",
+   "confidence": "medium",
+   "sourceAt": "2026-09-12T01:00:00Z",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   },
   {
-   "kind": "WARNING",
-   "playerId": 4882093,
-   "headline": "Tuten is a co-starter, not a lead back",
-   "body": "Jacksonville lists Tuten and Chris Rodriguez as co-starters and the beat expects a near-even split; the pre-season read that only an injured Rodriguez sat behind him is wrong. LeQuint Allen (hip) is trending toward sitting, which pushes pass-down work to Tuten. Still starts at RB2 \u2014 there is nothing better \u2014 but treat 10.9 as the ceiling case.",
-   "confidence": "high"
+   "kind": "AT_RISK",
+   "section": "AT_RISK",
+   "playerId": 4870808,
+   "headline": "Jeremiyah Love \u2014 plays, but he is the RB2",
+   "verdict": "PLAYS CAPPED",
+   "evidence": "High ankle sprain from mid-August, limited Thursday, and Garafolo's source put Week 1 at 50-50. LaFleur now says he feels good about him being in the lineup. The Cardinals' first regular-season depth chart lists Allgeier RB1 and Love RB2.",
+   "body": "Aye-Aye drafted him at ADP 25 as a bell cow and is starting him. He is behind your own Tyler Allgeier on the official chart. That is worth knowing before you offer for him in two weeks, and worth knowing about Allgeier now.",
+   "confidence": "high",
+   "sourceAt": "2026-09-12T01:00:00Z",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
   },
   {
-   "kind": "SIT",
-   "playerId": 4569987,
-   "headline": "Warren stays benched",
-   "body": "Listed RB1 over Rico Dowdle, but McCarthy brought Dowdle in and the expectation is Dowdle gets early-down work with roughly a 3:2 touch edge in week 1. Warren was also limited Wednesday with a hip. His edge is receiving, which is worth half here.",
-   "confidence": "high"
+   "kind": "LINEUP",
+   "section": "LINEUP",
+   "playerId": 4373626,
+   "headline": "Allgeier's 6.9 is stale \u2014 he is Arizona's listed RB1",
+   "verdict": "BENCH",
+   "evidence": "Cardinals' Week 1 depth chart has Allgeier first and Love second. ESPN still projects him as a backup because Love was drafted third overall.",
+   "body": "Still sits this week \u2014 Tuten at 10.9 and Warren at 11.3 are both ahead of him even discounted. But do not drop him for a marginal TE upgrade: a two-man committee where he is the listed starter is worth more than 6.9 implies.",
+   "confidence": "high",
+   "sourceAt": "2026-09-12T01:00:00Z",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
   },
   {
-   "kind": "START",
+   "kind": "LINEUP",
+   "section": "LINEUP",
    "playerId": 3121422,
    "headline": "McLaurin holds the flex over Warren",
-   "body": "Off the final injury report entirely, full practices Thursday and Friday, and Washington has cleared its full squad for Philadelphia. He is the unquestioned alpha with the OC targeting roughly 10 looks a game.",
-   "confidence": "high"
+   "verdict": "START",
+   "evidence": "Off the injury report entirely, full practices Thursday and Friday, Washington cleared its whole squad for Philadelphia. Warren is in a committee where Dowdle is expected to take early downs, and Warren's edge is receiving \u2014 worth half in this league.",
+   "body": "ESPN has Warren 11.3 to McLaurin 10.1. This is the one place this week where the projection and the reporting disagree, and the reporting wins.",
+   "confidence": "high",
+   "sourceAt": "2026-09-12T01:00:00Z",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
   },
   {
-   "kind": "LOCK",
+   "kind": "MATCHUP",
+   "section": "MATCHUP",
    "playerId": -16030,
-   "headline": "Jaguars D/ST",
-   "body": "Consensus number-one defense of the week. Cleveland starts Deshaun Watson behind the league's worst-graded offensive line, carries the lowest implied team total on the slate, and Jacksonville is a 7.5-point home favorite.",
-   "confidence": "high"
+   "headline": "Jaguars D/ST is the consensus number-one defense this week",
+   "evidence": "Cleveland carries the lowest implied team total on the slate behind the worst-graded offensive line in the league, and Jacksonville is a 7.5-point home favourite.",
+   "body": "Already started. The related exposure is worth naming: Tuten, Thomas and the defence are all Jacksonville, so one blowout moves three of your slots together.",
+   "confidence": "high",
+   "sourceAt": "2026-09-12T01:00:00Z",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   },
   {
-   "kind": "LOCK",
-   "playerId": 4429160,
-   "headline": "De'Von Achane",
-   "body": "Confirmed focal point of the Miami offense with no committee. Malik Willis' designed-run usage is the only real drag, and Miami is only a 3-point underdog.",
-   "confidence": "high"
-  },
-  {
-   "kind": "WARNING",
-   "playerId": 4373626,
-   "headline": "Allgeier may actually start for Arizona",
-   "body": "Jeremiyah Love is questionable with the ankle and listed second on the depth chart; Allgeier is expected to open as the early-down back. ESPN's 6.9 projection has not caught up. Hold him over the other bench bodies.",
-   "confidence": "medium"
+   "kind": "BAD_NEWS",
+   "section": "BAD_NEWS",
+   "playerId": 4882093,
+   "headline": "Tuten is a co-starter, not a lead back",
+   "evidence": "Jacksonville lists Tuten and Chris Rodriguez as co-starters and the beat expects a near-even split. The draft-board read that only an injured Rodriguez sat behind him was wrong.",
+   "body": "He still starts at RB2 because nothing better exists. LeQuint Allen's hip likely keeps him out, which pushes pass-down work to Tuten \u2014 worth less here at half PPR than it would be in IPADE. Treat 10.9 as the ceiling.",
+   "confidence": "high",
+   "sourceAt": "2026-09-12T01:00:00Z"
   }
  ]
 }
