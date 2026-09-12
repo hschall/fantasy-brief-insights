@@ -96,6 +96,24 @@
    "confidence": "high",
    "sourceAt": "2026-09-12T01:00:00Z",
    "impact": "SOLID"
+  },
+  {
+   "kind": "TEST",
+   "section": "LINEUP",
+   "playerId": 4432773,
+   "headline": "Wiring test \u2014 do not apply",
+   "verdict": "TEST",
+   "evidence": "This card exists to check that the swap button opens the lineup sheet with both players already chosen. It is not a recommendation.",
+   "body": "Thomas at 8.6 into the flex over McLaurin at 10.1 is the wrong move and I am not advising it. Open the sheet, confirm McLaurin is preselected as the player coming out, then dismiss without applying.",
+   "confidence": "low",
+   "impact": "WATCH",
+   "expiresAt": "2026-09-13T16:55:00Z",
+   "action": {
+    "type": "SWAP",
+    "playerId": 4432773,
+    "dropPlayerId": 3121422,
+    "label": "Open sheet"
+   }
   }
  ]
 }
