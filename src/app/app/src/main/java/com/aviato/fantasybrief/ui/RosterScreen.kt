@@ -200,6 +200,46 @@ fun RosterScreen(
         TeamMasthead(team.name, team.logoUrl, projected, medianLineup,
             belowMedian, starters.size, atRisk)
 
+        // Two panes over the same roster: the lineup, and when it plays.
+        // Calendar is a Sunday-afternoon read rather than a daily one, so it
+        // sits behind a sub-tab instead of taking permanent nav space.
+        Row(Modifier.fillMaxWidth()) {
+            listOf("ROSTER", "CALENDAR").forEachIndexed { i, label ->
+                Column(
+                    Modifier.weight(1f).clickable { state.teamPane = i },
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        label,
+                        style = inkLabel(
+                            11.0,
+                            if (state.teamPane == i) Ink.accent else Ink.mid
+                        ),
+                        modifier = Modifier.padding(vertical = 10.dp)
+                    )
+                    Box(
+                        Modifier.fillMaxWidth().height(2.dp).background(
+                            if (state.teamPane == i) Ink.accent else Color.Transparent
+                        )
+                    )
+                }
+            }
+        }
+        Box(Modifier.fillMaxWidth().height(1.dp).background(Ink.border))
+
+        if (state.teamPane == 1) {
+            CalendarPane(
+                roster = team.roster,
+                pro = pro,
+                week = week,
+                ownerTeamId = team.id,
+                bottomInset = bottomInset,
+                listState = state.calendarScroll,
+                onPlayer = { onPlayer(it.focus(team.id)) }
+            )
+            return@Column
+        }
+
         LazyColumn(
             state = state.rosterScroll,
             modifier = Modifier.fillMaxSize(),
