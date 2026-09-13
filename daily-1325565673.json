@@ -1,77 +1,64 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T16:28:00Z",
+  "generatedAt": "2026-09-13T18:39:38Z",
   "leagueId": "1325565673",
-
   "defense": {
-    "CLE": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "AVERAGE"},
-    "CAR": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "GREAT"},
-    "WSH": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "AVERAGE"},
-    "MIA": {"QB": "GOOD", "RB": "GOOD", "WR": "GREAT", "TE": "GREAT"},
-    "TEN": {"QB": "POOR", "RB": "AVERAGE", "WR": "SHAKY", "TE": "SHAKY"},
-    "LAC": {"QB": "SHAKY", "RB": "SHAKY", "WR": "SHAKY", "TE": "SHAKY"}
-  },
-
-  "doFirst": [
-    {
-      "id": "add-mwilson-drop-boutte",
-      "tier": "SOLID",
-      "source": "Free agent",
-      "status": "FREEAGENT",
-      "deadline": "2026-09-13T17:00:00Z",
-      "in": {
-        "playerId": 4360761,
-        "role": "Cardinals receiver carrying an 11-target-a-game role, unrostered here at 85.8% owned elsewhere",
-        "alert": null
-      },
-      "out": {
-        "playerId": 4429022,
-        "role": "Texans WR4 at 15.9% rostered — the one seat on your bench the market agrees is spare",
-        "alert": null
-      },
-      "why": "This is a free agent, not a claim, which is the whole point in a league where waiver order never resets and you sit fifth: it costs you nothing. Michael Wilson sitting unrostered at 85.8% ownership elsewhere is the genuine market error on this wire — Yahoo and PFN both peg him at roughly 11 targets a game. Be clear about what you are buying: it is the role, not this Sunday. SI has him a must-sit in Week 1 and PFN gives Marvin Harrison the nod in that offence, with Arizona a 9.5-point road dog at 19.0 implied. The deadline is Houston's kickoff, because after 17:00Z Boutte locks and you cannot drop him at all.",
-      "action": {
-        "type": "ADD",
-        "playerId": 4360761,
-        "dropPlayerId": 4429022,
-        "label": "Add Michael Wilson, drop Kayshon Boutte"
-      }
+    "WSH": {
+      "RB": "GREAT"
+    },
+    "DEN": {
+      "WR": "POOR",
+      "RB": "POOR",
+      "TE": "AVERAGE"
+    },
+    "MIN": {
+      "WR": "AVERAGE"
+    },
+    "MIA": {
+      "WR": "GOOD"
+    },
+    "LAC": {
+      "WR": "POOR",
+      "RB": "POOR"
     }
-  ],
-
+  },
+  "doFirst": [],
   "trades": [
     {
-      "id": "t13-lloyd-lamar",
+      "id": "t13-tuten-lamar",
       "partnerTeamId": 13,
       "odds": "LIKELY",
-      "youGive": [4429023],
-      "youGet": [3916387],
-      "yourGain": 0.7,
-      "theirGain": 3.4,
-      "headline": "Their second quarterback scores them nothing every week, and Lloyd upgrades their RB2 by nearly four points — they gain more than you do",
-      "yourSurplus": "Lamar Jackson is benched behind Josh Allen on their roster; one of those two is dead weight every single week and they cannot start both. Lloyd is the piece of yours current reporting likes least — Green Bay's OC Adam Stenavich said flatly it is 'running back by committee for a little bit', with Kaleb Johnson arriving by trade on Aug 30 and Chris Brooks also in the mix. ESPN's 12.8 prices Lloyd as a starter; the beat does not.",
-      "theirHole": "Their RB2 is Rachaad White at 8.9. Lloyd steps straight into that slot for roughly a four-point weekly upgrade, and it costs them a quarterback they never play. That is the largest single-slot gain available to any team in this league.",
-      "yourLineup": "Your quarterback room is Stafford plus Trevor Lawrence. Lamar replaces Stafford at QB from next week — Stafford managed 4.1 against San Francisco. Your flex is unaffected: Tuten stays there and MarShawn Lloyd was never going to displace him.",
-      "theirLineup": "Josh Allen keeps the QB slot, Lamar's bench seat becomes Lloyd, and Lloyd takes the RB2 slot off Rachaad White.",
-      "risk": "Trades here are priced on one week only, because weekly projections are all that is published — and on a season-long view this is more lopsided in your favour than the 0.7 suggests, which is the reason they might read it twice. Note also why your gain reads only 0.7: the model assumes Lloyd takes your flex at 12.8 over Tuten at 12.0, and that assumption is the one I am rejecting on the reporting above — price this as giving up a bench committee back, not a flex starter. If they counter asking for Tuten instead of Lloyd, that version also clears both sides (+1.5 you, +2.6 them) but costs you the Jaguars' lead back; take it only if you have replaced him first. The Golden-for-Lamar version clears too (+1.5 you, +1.2 them) — it pays you more on paper for the same reason, and offers them a third as much, so lead with Lloyd."
+      "youGive": [
+        4882093
+      ],
+      "youGet": [
+        3916387
+      ],
+      "yourGain": 1.5,
+      "theirGain": 2.6,
+      "headline": "Their second quarterback scores them nothing every week and their RB2 is Rachaad White",
+      "yourSurplus": "You have four running backs for two RB slots and a flex: Jonathan Taylor, Barkley, Lloyd and Tuten. Tuten is the fourth and he put up 3.7 today.",
+      "theirHole": "Team 13 start Josh Allen at 18.5 and bench Lamar Jackson at 18.1. The second one cannot score for them. Meanwhile their RB2 is Rachaad White at 8.9 behind McCaffrey. Tuten at 12.0 replaces White outright and they keep Allen - that is +2.6 to their starting lineup, more than you gain.",
+      "yourLineup": "Lamar replaces Stafford in your QB slot, 18.1 against 16.6, +1.5. Losing Tuten costs you nothing this week because Lloyd covers the flex behind Taylor and Barkley.",
+      "theirLineup": "Allen stays at quarterback, Tuten takes the RB2 slot from White, Lamar's bench seat converts into a real starter.",
+      "risk": "Priced on one week, which is the wrong unit for a trade - only weekly projections are published, so Tuten's rest-of-season value is not in the +1.5. You would also be carrying three quarterbacks on a five-man bench (Lamar, Stafford, Lawrence) and should move Stafford straight after. Ask for Lamar rather than Allen: it gains you 0.4 less but gains them 0.4 more, and a manager parts with his backup far more readily than his starter."
     }
   ],
-
   "candidates": [
     {
       "playerId": 4428718,
       "tier": "SOLID",
-      "note": "Tre Tucker is free here at 31.9% rostered and rising faster than any receiver on the wire (+0.72). Brock Bowers' knee surgery vacates a 30% target share and Tucker is projected for 5.9 targets as the Raiders' main aerial option against a Miami defence reporting rates among the league's worst. The honest limit: SI reports Bowers misses 'a game or two', so this is a one-to-two-week window, not a role change. He is a candidate rather than a card here because your one spare bench seat is better spent on Michael Wilson's durable target share — in Chem, where you have a genuinely droppable fifth running back, Tucker is the card instead."
+      "note": "Tre Tucker, Raiders, free agent - and in this league free agents are the only cheap way in, because IPADE waiver priority never resets and one claim drops you from fifth to last for the season. Bowers is out after a meniscus procedure and Tucker played 94.9% of Raiders snaps last season. He is the better half of the Bowers bet than Michael Mayer, whom you already own: DraftKings Network have Tucker absorbing part of the vacated volume in a favourable Miami matchup, while Pro Football Network rank Mayer TE37 and say nobody knows where the Vegas targets land. If you want to make one move before 20:25Z, Tucker for Mayer is it - but it is inside the projection noise band (10.0 against 9.3), which is why it is not a card."
     },
     {
-      "playerId": 4685415,
+      "playerId": 4360761,
       "tier": "DEPTH",
-      "note": "The app will show Travis Hunter as the consensus No. 1 and available free at 65.6% rostered, and Maye-day dropped him on 09-09 to add Mark Andrews. Do not chase it — that drop was correct. PFN's 2026 profile has him fourth or fifth in the Jaguars' route order behind Brian Thomas Jr., Parker Washington, Brenton Strange and Jakobi Meyers, projects 8.36 points a game and ranks him WR58, and Jacksonville's GM has confirmed his cornerback snap count is going up, not down. He is a backup-running-back-shaped asset: worth something only if an injury lands ahead of him. The rank field and the 5.6 projection in the same row are not a contradiction to arbitrage; the projection is the one telling the truth."
+      "note": "Michael Wilson, Cardinals, free agent at 85.8% rostership - the highest-owned unrostered player in either of your leagues, and the one most likely to tempt you. Do not take it. Pro Football Network have him WR42 and a sit: he is third in his own target queue behind Marvin Harrison Jr and Trey McBride, Arizona are 10-point underdogs with an 18.75 implied total, and the Chargers allowed a league-low 9.7 passing points per game and ranked fourth in the red zone. His 128 targets last year are why the rostership is high; the pecking order is why the projection is not."
     },
     {
-      "playerId": 3916433,
+      "playerId": 4373626,
       "tier": "DEPTH",
-      "note": "Jakobi Meyers is free at 79.4% rostered — you dropped him on 09-09 for Kayshon Boutte, and today's card drops Boutte, so this is the seat coming back around. PFN's depth-chart reporting places Meyers in Jacksonville's top four route runners, and the Jaguars carry a 25.0 implied total as 9.5-point favourites, the best offensive environment of the early window. For this Sunday alone he is the better play than Michael Wilson; over the season Wilson's 11 targets a game is the bigger role, which is why Wilson is the card. If a second seat opens, this is the name."
+      "note": "Tyler Allgeier, Cardinals, free agent - the player you dropped here on 10 September to add Mayer. Holding that line was right, and the final injury report confirms it rather than contradicting it: Jeremiyah Love was limited all three practice days with the high ankle sprain rather than ramping up, is expected to play on a pitch count, and Arizona's own depth chart still lists Allgeier first string. That is a real role, but it is a role on a 10-point underdog with the lowest implied total on the board, and it evaporates the week Love is right. Watch, do not chase."
     }
   ]
 }
