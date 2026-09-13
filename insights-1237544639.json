@@ -1,8 +1,50 @@
 {
  "week": 1,
- "generatedAt": "2026-09-13T02:13:45Z",
- "summary": "Lineup is set and eight of nine slots are locked. RB2 is the only live call: Warren has passed Tuten on projection and is Pittsburgh's listed RB1, but the game script favours Tuten. Staying with Tuten.",
+ "generatedAt": "2026-09-13T04:41:51Z",
+ "summary": "Chem switched to full PPR tonight, between 7pm and 9pm. Every pass-catcher gained about half a reception's worth and the RB2 call flips with it: Warren now outprojects Tuten and the receiving edge that made him a sit is worth full value.",
  "items": [
+  {
+   "kind": "WARNING",
+   "section": "BAD_NEWS",
+   "playerId": null,
+   "impact": "LEGENDARY",
+   "verdict": "SCORING CHANGED",
+   "headline": "Chem is full PPR now, not half",
+   "evidence": "settings.scoring read 0.5 at 7:01pm UTC and 1.0 at 9:01pm. Quarterbacks, the kicker and the defence moved +0.0; Jefferson +3.2, Wilson +3.0, Pitts +2.2, McLaurin +2.2. That shape is a reception multiplier, not a projection refresh.",
+   "body": "Every valuation I gave you before tonight assumed half. Pass-catching backs and target-heavy receivers are worth more than I said; touchdown-dependent runners less. It also collapses the difference between your two leagues \u2014 both are full PPR now, and only the flex rule still separates them, RB/WR here against RB/WR/TE in IPADE.",
+   "confidence": "high"
+  },
+  {
+   "kind": "SWAP",
+   "section": "LINEUP",
+   "playerId": 4569987,
+   "impact": "ELITE",
+   "impactPoints": 0.6,
+   "verdict": "START",
+   "headline": "Start Warren over Tuten at RB2",
+   "evidence": "Warren is Pittsburgh's listed RB1 on the official Week 1 depth chart, is the primary passing-down back, caught 40 of 45 targets last season and ranked third in yards per route run. ESPN now has him 12.6 to Tuten's 12.0.",
+   "body": "I sat him this morning because his receiving edge was worth half. It is not any more. Against that: Jacksonville is a 7.5-point home favourite, which is the better game script, and PFN still models a 3:2 touch edge to Dowdle. Genuinely close \u2014 0.6 points \u2014 but the reason I had for sitting him no longer exists.",
+   "confidence": "medium",
+   "expiresAt": "2026-09-13T17:00:00.000Z",
+   "action": {
+    "type": "SWAP",
+    "playerId": 4569987,
+    "dropPlayerId": 4882093,
+    "label": "Swap in Warren"
+   }
+  },
+  {
+   "kind": "START",
+   "section": "LINEUP",
+   "playerId": 3121422,
+   "impact": "SOLID",
+   "verdict": "START",
+   "headline": "McLaurin holds the flex",
+   "evidence": "Off the injury report entirely, full practices Thursday and Friday, Washington cleared its whole squad for Philadelphia. 12.3 after the scoring change.",
+   "body": "Warren at 12.6 is the only player above him, and he is better used at RB2.",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
+  },
   {
    "kind": "AT_RISK",
    "section": "AT_RISK",
