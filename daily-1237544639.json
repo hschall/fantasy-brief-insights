@@ -1,0 +1,120 @@
+{
+ "week": 1,
+ "generatedAt": "2026-09-13T07:59:25Z",
+ "leagueId": "1237544639",
+ "defense": {
+  "HOU": {
+   "QB": "SHAKY"
+  },
+  "LV": {
+   "RB": "SHAKY"
+  },
+  "GB": {
+   "WR": "AVERAGE"
+  },
+  "TEN": {
+   "WR": "SHAKY"
+  },
+  "ATL": {
+   "RB": "GOOD",
+   "K": "GOOD"
+  },
+  "PHI": {
+   "WR": "GOOD"
+  },
+  "PIT": {
+   "TE": "POOR"
+  },
+  "CLE": {
+   "RB": "GOOD",
+   "WR": "GOOD",
+   "DST": "GREAT"
+  },
+  "CAR": {
+   "RB": "GOOD"
+  },
+  "LAC": {
+   "RB": "POOR"
+  },
+  "MIA": {
+   "WR": "GREAT",
+   "TE": "GREAT"
+  },
+  "IND": {
+   "TE": "GREAT"
+  }
+ },
+ "doFirst": [
+  {
+   "id": "swap-warren-tuten",
+   "tier": "ELITE",
+   "source": "Your bench",
+   "status": "ROSTERED",
+   "deadline": "2026-09-13T17:00:00.000Z",
+   "in": {
+    "playerId": 4569987,
+    "role": "Listed RB1, takes the backfield targets",
+    "alert": null
+   },
+   "out": {
+    "playerId": 4882093,
+    "role": "Early downs only, no goal line",
+    "alert": null
+   },
+   "why": "Chem went full PPR tonight. Warren's receiving edge is the reason I sat him this morning and it is now worth double.",
+   "action": {
+    "type": "SWAP",
+    "playerId": 4569987,
+    "dropPlayerId": 4882093,
+    "label": "Start Warren, bench Tuten"
+   }
+  },
+  {
+   "id": "add-tucker-drop-stafford",
+   "tier": "SOLID",
+   "source": "Free agent",
+   "status": "FREEAGENT",
+   "deadline": "2026-09-13T20:25:00.000Z",
+   "in": {
+    "playerId": 4428718,
+    "role": "Raiders WR1 with Bowers out",
+    "alert": null
+   },
+   "out": {
+    "playerId": 12483,
+    "role": "QB2 behind Allen",
+    "alert": "Game already scored"
+   },
+   "why": "Bowers vacates 86 targets. Tucker played 94.9% of snaps last season, the highest share of any receiver, so he absorbs them without a role change \u2014 and Miami's secondary starts a rookie who has never played a regular-season snap.",
+   "action": {
+    "type": "ADD",
+    "playerId": 4428718,
+    "dropPlayerId": 12483,
+    "label": "Add Tre Tucker, drop Stafford"
+   }
+  }
+ ],
+ "trades": [],
+ "candidates": [
+  {
+   "playerId": 3116365,
+   "tier": "SOLID",
+   "note": "83% rostered everywhere and free here. Unchallenged Baltimore TE1 now Likely and Kolar have gone, facing an Indianapolis side that allowed the fourth-most yards per target to tight ends. Outprojects Pitts by 0.3 \u2014 not enough to move on, enough to know about."
+  },
+  {
+   "playerId": 3916433,
+   "tier": "DEPTH",
+   "note": "79% rostered, free here, and he is a Jaguar \u2014 which is the problem. You already have Tuten, Thomas and the defence in that game."
+  },
+  {
+   "playerId": 4429086,
+   "tier": "DEPTH",
+   "note": "Bowers is out one to two weeks and Las Vegas just gave Mayer three years. The cheaper way into the same target vacuum as Tucker if you would rather not drop a quarterback."
+  },
+  {
+   "playerId": 4382466,
+   "tier": "DEPTH",
+   "note": "13% rostered. Several analysts prefer him to Tucker for the Bowers targets on the grounds that he already has chemistry with Cousins from Minnesota. Worth watching what the snap split looks like Sunday."
+  }
+ ]
+}
