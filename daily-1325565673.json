@@ -1,81 +1,67 @@
 {
- "week": 1,
- "generatedAt": "2026-09-13T08:35:52Z",
- "leagueId": "1325565673",
- "defense": {
-  "HOU": {
-   "QB": "SHAKY"
+  "week": 1,
+  "generatedAt": "2026-09-13T10:05:00Z",
+  "leagueId": "1325565673",
+
+  "defense": {
+    "CAR": {"TE": "GREAT", "RB": "GOOD"},
+    "WSH": {"RB": "GREAT"},
+    "MIN": {"RB": "GOOD"},
+    "CLE": {"WR": "SHAKY"},
+    "TEN": {"RB": "SHAKY"},
+    "IND": {"QB": "GOOD", "WR": "GOOD", "TE": "GREAT"}
   },
-  "LV": {
-   "RB": "SHAKY"
-  },
-  "GB": {
-   "WR": "AVERAGE"
-  },
-  "TEN": {
-   "WR": "SHAKY"
-  },
-  "ATL": {
-   "RB": "GOOD",
-   "K": "GOOD"
-  },
-  "PHI": {
-   "WR": "GOOD"
-  },
-  "PIT": {
-   "TE": "POOR"
-  },
-  "CLE": {
-   "RB": "GOOD",
-   "WR": "GOOD",
-   "DST": "GREAT"
-  },
-  "CAR": {
-   "RB": "GOOD"
-  },
-  "LAC": {
-   "RB": "POOR"
-  },
-  "MIA": {
-   "WR": "GREAT",
-   "TE": "GREAT"
-  },
-  "IND": {
-   "TE": "GREAT"
-  }
- },
- "doFirst": [],
- "trades": [
-  {
-   "id": "t13-tuten-lamar",
-   "partnerTeamId": 13,
-   "odds": "LIKELY",
-   "youGive": [
-    4882093
-   ],
-   "youGet": [
-    3916387
-   ],
-   "yourGain": 1.5,
-   "theirGain": 2.6,
-   "headline": "Their second quarterback scores them nothing every week",
-   "yourSurplus": "Tuten is your flex and his role is capped \u2014 Rodriguez takes the goal line, Allen takes third downs. You still hold Lloyd and Golden for that slot.",
-   "theirHole": "Team 13 roster Josh Allen and Lamar Jackson in a one-quarterback league. Behind McCaffrey their backs are Rachaad White at 8.9 and Blake Corum at 9.4, and one of them starts every week.",
-   "yourLineup": "Lamar replaces Stafford at quarterback, worth about 1.5 a week on current projections. He also ranks QB2 to Allen's QB3, so you are asking for the better of the two.",
-   "theirLineup": "+2.6. Tuten walks into their RB2 slot over White, and they keep the quarterback they use.",
-   "risk": "Tuten's role could expand if Rodriguez gets hurt, and you would have sold at the bottom. Against that, Lamar's bye is week 13 while Jacksonville's is week 7 \u2014 the week Tuten, the Jaguars defence and Cam Little are all out together."
-  }
- ],
- "candidates": [
-  {
-   "playerId": 4428718,
-   "tier": "SOLID",
-   "note": "31% rostered and free. Bowers is out one to two weeks, Tucker played 94.9% of Raiders snaps last season, and Miami's secondary starts a rookie corner who has never taken a regular-season snap."
-  },
-  {
-   "playerId": 4382466,
-   "tier": "DEPTH",
-   "note": "13% rostered. The other half of the Bowers target vacuum, and he already has chemistry with Cousins from Minnesota. Cheaper than Tucker if you would rather not use a roster spot on the obvious name."
-  }
- ]
+
+  "doFirst": [
+    {
+      "id": "start-lloyd-bench-tuten",
+      "tier": "SOLID",
+      "source": "Roster",
+      "status": null,
+      "deadline": "2026-09-13T17:00:00.000Z",
+      "in": {
+        "playerId": 4429023,
+        "role": "Green Bay's lead ball-carrier with Josh Jacobs on the commissioner's exempt list",
+        "alert": null
+      },
+      "out": {
+        "playerId": 4882093,
+        "role": "Co-starter in Jacksonville who does not get the goal line",
+        "alert": "Chris Rodriguez takes over inside the 10"
+      },
+      "why": "This is a lean, not a lock, and the projections are nearly tied — 12.8 to 12.0. The reason to move is role, not the number. Jacksonville has settled on Tuten starting drives and Chris Rodriguez coming on inside the ten, so in a game the Jaguars are favoured to lead by 7.5 at home, Tuten is the back who does not get the carries that turn into points. His path to a big day runs through LeQuint Allen's hip, and Allen is a genuine game-time decision after a did-not-practice Wednesday and limited Thursday and Friday. Lloyd's own risk is real — Adam Stenavich said out loud it will be committee 'for a little bit', Kaleb Johnson arrived at cutdowns, and Lloyd has six career carries — but he is the only Packers back with a defined early-down job against a Minnesota front that allowed the sixth-highest rushing success rate last year. Tuten's kickoff at 17:00 is the binding deadline; after that the flex is locked either way.",
+      "action": {
+        "type": "SWAP",
+        "playerId": 4429023,
+        "dropPlayerId": 4882093,
+        "label": "Start MarShawn Lloyd in the flex, bench Bhayshul Tuten"
+      }
+    }
+  ],
+
+  "trades": [
+    {
+      "id": "t13-tuten-lamar",
+      "partnerTeamId": 13,
+      "odds": "EVEN",
+      "youGive": [4882093],
+      "youGet": [3916387],
+      "yourGain": 1.5,
+      "theirGain": 2.6,
+      "headline": "Team 13 is starting Josh Allen and benching Lamar Jackson — the spare scores them zero every week, and Tuten adds +2.6 to their starting lineup",
+      "yourSurplus": "You have four running backs and only three slots that can hold one. Taylor and Barkley are locked into RB1 and RB2, Lloyd and Tuten compete for a single flex, and whichever loses that argument scores you nothing. Tuten is the one who loses it — 12.0 against Lloyd's 12.8 — so he is the piece that costs you least to move.",
+      "theirHole": "Team 13's running back room projects 19, 9, 9. They are starting a 19 and then falling off a cliff, and they have no flex-worthy back at all. Tuten slots straight in as their RB2 and is a co-starter on an offense favoured in most weeks. Meanwhile they are carrying two top-three quarterbacks in a one-quarterback league — Allen at 18.5 in the starting slot, Jackson at 18.1 on the bench — and the bench one is pure dead weight.",
+      "yourLineup": "Your quarterback slot is the worst thing about this roster. Stafford has already played Thursday and finished with 4.1 while Trevor Lawrence sat on your bench projected 16.0. Lawrence is your Week 2 starter regardless, but Jackson is a clear tier above him: back to full health after a hamstring-and-toe season, a new coordinator in Declan Doyle, and a rushing floor Lawrence does not have. Full rosters, ignoring this week's kickoffs, the swap is worth +1.5 to your best lineup.",
+      "theirLineup": "+2.6. They keep Allen, who is their higher projection anyway, and convert a bench quarterback who can never score for them into the second-best back on their roster.",
+      "risk": "Two things. First, this is priced on one week of projections, which is the wrong unit for a trade — Jackson's season-long value is far above Tuten's and the +1.5 badly understates what you are getting, but it also means a manager who thinks in season-long terms will see the same thing and ask for more. Expect to have to add a piece. Second, Tuten's value is live: if LeQuint Allen sits today and Tuten catches passes, his price goes up by tonight, and if Rodriguez vultures two scores it goes down. Send this before kickoff or wait until Tuesday and re-price it."
+    }
+  ],
+
+  "candidates": [
+    {
+      "playerId": 3916433,
+      "tier": "SOLID",
+      "note": "Jakobi Meyers is 79% rostered across ESPN and free here. With Brian Thomas Jr. healthy on the field over the back half of last season, Meyers still ran a 22.6% target share and a 26.7% first-read share and finished as the WR28 in points per game — he is Jacksonville's de facto WR1, not their WR2, and the jammed thumb is resolved. Your receiver room behind Rice and Garrett Wilson is Golden at 11.0 and Boutte at 8.8, so he is a genuine upgrade to the third receiver spot. He is a free agent, which matters more here than in your other league: a waiver claim in this league drops you to last for the entire season, and this one costs nothing."
+    }
+  ]
 }
