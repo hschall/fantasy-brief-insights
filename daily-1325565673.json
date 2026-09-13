@@ -1,0 +1,81 @@
+{
+ "week": 1,
+ "generatedAt": "2026-09-13T08:35:52Z",
+ "leagueId": "1325565673",
+ "defense": {
+  "HOU": {
+   "QB": "SHAKY"
+  },
+  "LV": {
+   "RB": "SHAKY"
+  },
+  "GB": {
+   "WR": "AVERAGE"
+  },
+  "TEN": {
+   "WR": "SHAKY"
+  },
+  "ATL": {
+   "RB": "GOOD",
+   "K": "GOOD"
+  },
+  "PHI": {
+   "WR": "GOOD"
+  },
+  "PIT": {
+   "TE": "POOR"
+  },
+  "CLE": {
+   "RB": "GOOD",
+   "WR": "GOOD",
+   "DST": "GREAT"
+  },
+  "CAR": {
+   "RB": "GOOD"
+  },
+  "LAC": {
+   "RB": "POOR"
+  },
+  "MIA": {
+   "WR": "GREAT",
+   "TE": "GREAT"
+  },
+  "IND": {
+   "TE": "GREAT"
+  }
+ },
+ "doFirst": [],
+ "trades": [
+  {
+   "id": "t13-tuten-lamar",
+   "partnerTeamId": 13,
+   "odds": "LIKELY",
+   "youGive": [
+    4882093
+   ],
+   "youGet": [
+    3916387
+   ],
+   "yourGain": 1.5,
+   "theirGain": 2.6,
+   "headline": "Their second quarterback scores them nothing every week",
+   "yourSurplus": "Tuten is your flex and his role is capped \u2014 Rodriguez takes the goal line, Allen takes third downs. You still hold Lloyd and Golden for that slot.",
+   "theirHole": "Team 13 roster Josh Allen and Lamar Jackson in a one-quarterback league. Behind McCaffrey their backs are Rachaad White at 8.9 and Blake Corum at 9.4, and one of them starts every week.",
+   "yourLineup": "Lamar replaces Stafford at quarterback, worth about 1.5 a week on current projections. He also ranks QB2 to Allen's QB3, so you are asking for the better of the two.",
+   "theirLineup": "+2.6. Tuten walks into their RB2 slot over White, and they keep the quarterback they use.",
+   "risk": "Tuten's role could expand if Rodriguez gets hurt, and you would have sold at the bottom. Against that, Lamar's bye is week 13 while Jacksonville's is week 7 \u2014 the week Tuten, the Jaguars defence and Cam Little are all out together."
+  }
+ ],
+ "candidates": [
+  {
+   "playerId": 4428718,
+   "tier": "SOLID",
+   "note": "31% rostered and free. Bowers is out one to two weeks, Tucker played 94.9% of Raiders snaps last season, and Miami's secondary starts a rookie corner who has never taken a regular-season snap."
+  },
+  {
+   "playerId": 4382466,
+   "tier": "DEPTH",
+   "note": "13% rostered. The other half of the Bowers target vacuum, and he already has chemistry with Cousins from Minnesota. Cheaper than Tucker if you would rather not use a roster spot on the obvious name."
+  }
+ ]
+}
