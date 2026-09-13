@@ -1,16 +1,18 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T15:28:32Z",
+  "generatedAt": "2026-09-13T16:28:00Z",
   "leagueId": "1237544639",
 
   "defense": {
-    "HOU": {"QB": "SHAKY"},
-    "PIT": {"TE": "GREAT"},
-    "TEN": {"WR": "GREAT"},
-    "CLE": {"RB": "GOOD", "WR": "GOOD"},
-    "LV":  {"RB": "GOOD"},
-    "PHI": {"WR": "AVERAGE"},
-    "GB":  {"WR": "AVERAGE"}
+    "CLE": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "AVERAGE"},
+    "MIA": {"QB": "GOOD", "RB": "GOOD", "WR": "GREAT", "TE": "GREAT"},
+    "LV":  {"QB": "GOOD", "RB": "GREAT", "WR": "GOOD", "TE": "GOOD"},
+    "ATL": {"QB": "AVERAGE", "RB": "GOOD", "WR": "AVERAGE", "TE": "AVERAGE"},
+    "GB":  {"QB": "AVERAGE", "RB": "AVERAGE", "WR": "GOOD", "TE": "AVERAGE"},
+    "HOU": {"QB": "AVERAGE", "RB": "AVERAGE", "WR": "AVERAGE", "TE": "AVERAGE"},
+    "PHI": {"QB": "AVERAGE", "RB": "SHAKY", "WR": "SHAKY", "TE": "AVERAGE"},
+    "TEN": {"QB": "POOR", "RB": "AVERAGE", "WR": "SHAKY", "TE": "SHAKY"},
+    "PIT": {"QB": "POOR", "RB": "SHAKY", "WR": "SHAKY", "TE": "SHAKY"}
   },
 
   "doFirst": [
@@ -22,15 +24,15 @@
       "deadline": "2026-09-13T17:00:00Z",
       "in": {
         "playerId": 4429086,
-        "role": "Las Vegas' starting tight end while Brock Bowers is out — signed an extension on Friday to do exactly that",
+        "role": "Raiders' starting tight end while Brock Bowers is out after knee surgery",
         "alert": null
       },
       "out": {
         "playerId": 4608686,
-        "role": "Bears RB behind a healthy D'Andre Swift, one week back from a month out",
-        "alert": "Hyperextended right knee Aug 16, first practice back Sept 7, never cleared"
+        "role": "Bears RB behind D'Andre Swift, hyperextended knee on Aug 16, DNP Wednesday",
+        "alert": "ESPN still lists him ACTIVE at 10.3. He was a DNP on Wednesday and Chicago has cast doubt on his Week 1 status."
       },
-      "why": "This is insurance, not a starter. Pitts keeps the tight end slot — see below. You carry five running backs and exactly one tight end, and Mayer is the largest ownership move on either league's wire (+3.02 in a day) at only 27.8% rostered, which is the market catching up to a role that has already changed: Bowers is OUT with a knee and Las Vegas extended Mayer on Friday to start in his place. On the drop: Monangai is rostered in 78.6% of leagues and I am telling you to cut him anyway. He hyperextended his knee on Aug 16, missed roughly a month, practised for the first time on Sept 7, was never cleared, and Swift sits above him on Chicago's depth chart. ESPN lists him ACTIVE at 10.3 — that label is a guess the market has not repriced. Chem's only flex is RB/WR and both McLaurin and Tuten project ahead of him, so he is your RB5 in a slot you cannot use. Act before 17:00Z: Mayer's game is at 20:25, but Chicago kicks at 17:00 and a locked Monangai cannot be dropped.",
+      "why": "Pitts keeps the tight end slot — this is the seat behind him, which you currently do not have. Mayer is the largest ownership move on either wire (+3.24) at 28.2% rostered, and the move is a real role change rather than a projection wobble: Bowers had knee surgery and misses a game or two, and Mayer starts in his place against a Miami defence reporting rates among the league's worst. SI's Week 1 tight end piece says pick him up; PFN says your current tight end is better. Both are right — take him as the seat behind Pitts, not ahead of him. On the drop, I am telling you to cut a back rostered in 78.6% of leagues and the market has this one stale: Monangai hyperextended his knee on Aug 16, was listed DNP on Wednesday, and multiple Chicago outlets spent the back half of the week casting doubt on his Week 1 status while ESPN's file still says ACTIVE at 10.3. Practice participation beats a designation. He is also your RB5 in a league whose only flex is RB/WR. Act before 17:00Z — Chicago kicks then and a locked player cannot be dropped.",
       "action": {
         "type": "ADD",
         "playerId": 4429086,
@@ -46,15 +48,15 @@
       "deadline": "2026-09-13T20:25:00Z",
       "in": {
         "playerId": 4428718,
-        "role": "Las Vegas' lead perimeter target with Bowers out",
+        "role": "Raiders' primary aerial threat with Bowers out — 5.9 projected targets, WR37 for the week",
         "alert": null
       },
       "out": {
         "playerId": 4373626,
-        "role": "Arizona's No. 2 back behind Jeremiyah Love, no standalone role",
-        "alert": null
+        "role": "Cardinals' tough-yardage complement behind a Jeremiyah Love who is expected to play",
+        "alert": "If Love's ankle flares in-game, Allgeier is Arizona's lead back with James Conner on IR. That is the one thing this drop gives up."
       },
-      "why": "Tucker's ownership moved +0.64 in a day, the largest receiver move on this wire, and the reporting behind it is real rather than a projection artefact: with Bowers out, the beat and fantasy coverage has Tucker leading the Raiders' passing game this week. Allgeier is a handcuff to a back you do not own — Jeremiyah Love is QUESTIONABLE with an ankle but is expected to play — and Arizona draws the Chargers, the No. 4 defence this week. Tucker is a free agent rather than a waiver claim, so this costs nothing, and Chem's waiver order resets weekly regardless. If you would rather not touch a bench spot twice in one morning, this is the one to skip; the Mayer card is the one that matters.",
+      "why": "The second-order effect of the same injury: Bowers' surgery vacates a 30% target share and Tucker is the Raiders' main beneficiary on a shallow depth chart, in full PPR where that reception volume counts double. Allgeier is the opposite bet — LaFleur rotates his backs by policy, Rapoport reports Love is expected to play, and Arizona is a 9.5-point road dog with a 19.0 implied total, the worst script on the slate for a short-yardage specialist. Both men here are free agents and Chem's waiver order resets weekly, so neither card costs you anything lasting. If you only want to touch the bench once today, make it the Mayer card and skip this one.",
       "action": {
         "type": "ADD",
         "playerId": 4428718,
@@ -68,17 +70,17 @@
     {
       "id": "t7-stafford-odunze",
       "partnerTeamId": 7,
-      "odds": "LONGSHOT",
+      "odds": "EVEN",
       "youGive": [12483],
       "youGet": [4431299],
       "yourGain": 0.2,
       "theirGain": 0.9,
-      "headline": "Teca carry exactly one quarterback. Stafford outprojects Drake Maye and is worth +0.9 a week to them, before the bye they have no answer for.",
-      "yourSurplus": "Josh Allen is your QB1 every week of the season. Stafford has never started for you and this week returned 4.1 points from a Thursday game you had no reason to watch. The seat returns nothing.",
-      "theirHole": "Drake Maye is the only quarterback on their roster. One bad Sunday, one injury, or the New England bye and their QB slot is empty.",
-      "yourLineup": "Odunze becomes your fourth receiver behind Jefferson, Garrett Wilson and McLaurin, and a real body for the Achane and Warren byes. Your flex does not change this week.",
-      "theirLineup": "Stafford (17.6) starts over Maye (16.4) for +1.2 at quarterback; DK Metcalf (12.2) fills Odunze's flex seat for -0.3. Net +0.9. They are six receivers deep, so Odunze is the one they can lose without touching their top two.",
-      "risk": "Called LONGSHOT for a reason: nobody trades a starting receiver for a quarterback who has already played his week, so do not send this today — propose it once this slate is over and Stafford is next week's asset again. Odunze is also QUESTIONABLE with a calf and is a genuine game-time call. And be honest about the shape of it: the one-week gain to you is +0.2. The case is season-long — a quarterback who will never start for you becoming a receiver who might — and season-long value is the one thing this brief cannot price, because only weekly projections are published."
+      "headline": "Drake Maye is the weakest starting slot on their roster and Stafford beats him outright — they gain 0.9 a week, more than you do on paper",
+      "yourSurplus": "Stafford is your QB2 behind Josh Allen and you will never start him. He already played this week for 4.1 and is a dead bench seat from here to the Allen bye. Odunze is startable: SI has him a must-start receiver in Week 1 and PFN calls him a WR3 you can trust, in Chicago's 24.5-implied-total game at Carolina.",
+      "theirHole": "They start Drake Maye at 16.4. Stafford's 17.6 is a straight upgrade at the one slot they cannot improve from their own bench, and they are six receivers deep — Chase, London, Metcalf, Godwin, Jayden Reed — so Odunze leaves the flex without opening a hole.",
+      "yourLineup": "No change to your starting nine today. From next week Odunze competes with McLaurin and Brian Thomas Jr. for the RB/WR flex, which is the slot your bench currently cannot reach.",
+      "theirLineup": "Maye to the bench, Stafford under centre, DK Metcalf re-fills the flex.",
+      "risk": "Do not send it today — nobody trades a starting receiver for a quarterback who has already played his week; propose it once this slate is done and Stafford is next week's asset again. Odunze also carried a Week 1 injury question and is reported likely rather than certain to play, while the league file shows him ACTIVE, so confirm before you send. And be honest about the shape: the one-week edge to you is 0.2. The real case is positional — an unstartable backup quarterback becoming a startable receiver — and season-long value is exactly what this brief cannot price, because only weekly projections are published."
     }
   ],
 
@@ -86,22 +88,17 @@
     {
       "playerId": 3116365,
       "tier": "DEPTH",
-      "note": "Mark Andrews looks like the league's biggest blunder and is not one. He is rostered in 83.3% of leagues and free here, which is exactly the shape of a real error — but the market is slow to demote a name, and ESPN's 10.1 is well above the consensus, which has him around TE16 for Week 1. The sources genuinely split: PFN's Week 1 piece says start him now and sell high, on the grounds that Likely's departure opens snaps and Indianapolis allowed the third-most red-zone trips last season; SI says fade him, on no season above 55 catches since 2022, yards-after-catch collapsing to 23.9% of his receiving yards in 2025, and a run-heavy script against the Colts. Side with the fade for this week: a touchdown-dependent tight end in a run-heavy game is a coin flip, and Pitts has the better matchup by a distance. Worth holding in mind for the Pitts bye, not worth a roster spot today."
+      "note": "Mark Andrews is free here at 83.4% rostered elsewhere, which is exactly the shape the OWNED band flags as somebody's blunder. It is not one. Yahoo's 2026 outlook calls him a strong fade even if you punt tight end, and ESPN's 10.1 is the optimistic number for him rather than the pessimistic one. This row exists so you spend the bench seat on Mayer instead, whose role changed this week for a reason you can point at. Revisit Andrews only if Pitts gets hurt."
     },
     {
       "playerId": 3916433,
       "tier": "SOLID",
-      "note": "Jakobi Meyers is rostered in 79.4% of leagues and is a free agent here — the most valuable thing a wire can hold. He is the steady-volume receiver in a Jacksonville offence that is heavily favoured, and he is the slot starter on the Jaguars' official Week 1 depth chart rather than a projection guess. He does not crack your lineup behind Jefferson, Garrett Wilson and McLaurin, so there is nothing urgent here — he is the first name to take if McLaurin's flex seat stops paying, and in Chem a claim costs nothing lasting anyway because priority resets weekly."
+      "note": "Jakobi Meyers is free at 79.4% rostered — the most valuable thing a wire can hold, a starter somebody let go. PFN's Jacksonville depth-chart reporting places him in the Jaguars' top four route runners, ahead of Travis Hunter, and Jacksonville carries a 25.0 implied total as 9.5-point favourites, the best offensive environment of the early window. He does not crack a lineup behind Jefferson, Garrett Wilson and McLaurin, so nothing is urgent — he is the first name to take if McLaurin's flex seat stops paying, and a claim costs nothing lasting here because priority resets weekly."
     },
     {
       "playerId": 4360310,
       "tier": "DEPTH",
-      "note": "Trevor Lawrence is rostered in 88.3% of leagues and is a free agent in Chem. Guillo-tinas dropped him on Friday to add Keenan Allen, which is the kind of mistake that does not usually sit on a wire for long. You do not need a QB2 behind Josh Allen and this is not a move for today — but Allen's bye is Week 7, and Lawrence is the best quarterback anyone in this league can have for nothing."
-    },
-    {
-      "playerId": -16033,
-      "tier": "DEPTH",
-      "note": "Ravens D/ST is rostered in 90.2% of leagues and unowned here — the single most widely rostered player on Chem's wire. Not a Week 1 move: your Jaguars project 8.6 against Deshaun Watson's Browns and rank as a top-three streaming defence this week. Note it for the Jacksonville bye in Week 7."
+      "note": "Trevor Lawrence is rostered in 88.3% of leagues and sits free in Chem — Guillo-tinas dropped him on Friday to add Keenan Allen. PFN has him on an eighth straight QB1 week against Cleveland. You do not need a QB2 behind Josh Allen and this is not a move for today, but Buffalo's bye is Week 7, and Lawrence is the best quarterback anyone in this league can have for nothing. If the Stafford trade lands, this is the seat that replaces him."
     }
   ]
 }
