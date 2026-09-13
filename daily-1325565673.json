@@ -1,64 +1,62 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T18:39:38Z",
+  "generatedAt": "2026-09-13T22:20:00Z",
   "leagueId": "1325565673",
+
   "defense": {
-    "WSH": {
-      "RB": "GREAT"
-    },
-    "DEN": {
-      "WR": "POOR",
-      "RB": "POOR",
-      "TE": "AVERAGE"
-    },
-    "MIN": {
-      "WR": "AVERAGE"
-    },
-    "MIA": {
-      "WR": "GOOD"
-    },
-    "LAC": {
-      "WR": "POOR",
-      "RB": "POOR"
-    }
+    "DEN": {"QB": "SHAKY", "WR": "SHAKY", "TE": "AVERAGE", "RB": "AVERAGE"},
+    "DAL": {"QB": "GREAT", "WR": "GREAT", "TE": "GREAT", "RB": "GOOD"}
   },
+
   "doFirst": [],
+
   "trades": [
+    {
+      "id": "t13-golden-allen",
+      "partnerTeamId": 13,
+      "odds": "EVEN",
+      "youGive": [4701936],
+      "youGet": [3918298],
+      "yourGain": 1.9,
+      "theirGain": 0.8,
+      "headline": "Their second quarterback scores them nothing every week, and their flex is currently a tight end",
+      "yourSurplus": "Golden is your WR4 on a Green Bay offense that DraftKings Network flatly said to sit, calling his opportunities infrequent by design. He scored 1.5. He is not entering your lineup over Rice or Wilson.",
+      "theirHole": "Team 13 rosters Josh Allen and Lamar Jackson and can only start one. They are also starting Travis Kelce in the RB/WR/TE flex because their third receiver does not clear him. Golden fixes the flex; the quarterback they give up was never going to play.",
+      "yourLineup": "Allen replaces Stafford under center, which is the single largest weekly upgrade available to you anywhere on this roster, and it makes Trevor Lawrence tradeable next.",
+      "theirLineup": "They keep Lamar Jackson at quarterback, a 0.4 point weekly step down, and put Golden in the flex over Kelce for a 1.2 point step up.",
+      "risk": "Ask for the quarterback they value less and they may counter with Lamar instead, which is fine. The real risk is that a manager who hoards two elite quarterbacks is emotionally attached to both. Lead with their flex problem, not with your quarterback problem."
+    },
     {
       "id": "t13-tuten-lamar",
       "partnerTeamId": 13,
       "odds": "LIKELY",
-      "youGive": [
-        4882093
-      ],
-      "youGet": [
-        3916387
-      ],
+      "youGive": [4882093],
+      "youGet": [3916387],
       "yourGain": 1.5,
       "theirGain": 2.6,
-      "headline": "Their second quarterback scores them nothing every week and their RB2 is Rachaad White",
-      "yourSurplus": "You have four running backs for two RB slots and a flex: Jonathan Taylor, Barkley, Lloyd and Tuten. Tuten is the fourth and he put up 3.7 today.",
-      "theirHole": "Team 13 start Josh Allen at 18.5 and bench Lamar Jackson at 18.1. The second one cannot score for them. Meanwhile their RB2 is Rachaad White at 8.9 behind McCaffrey. Tuten at 12.0 replaces White outright and they keep Allen - that is +2.6 to their starting lineup, more than you gain.",
-      "yourLineup": "Lamar replaces Stafford in your QB slot, 18.1 against 16.6, +1.5. Losing Tuten costs you nothing this week because Lloyd covers the flex behind Taylor and Barkley.",
-      "theirLineup": "Allen stays at quarterback, Tuten takes the RB2 slot from White, Lamar's bench seat converts into a real starter.",
-      "risk": "Priced on one week, which is the wrong unit for a trade - only weekly projections are published, so Tuten's rest-of-season value is not in the +1.5. You would also be carrying three quarterbacks on a five-man bench (Lamar, Stafford, Lawrence) and should move Stafford straight after. Ask for Lamar rather than Allen: it gains you 0.4 less but gains them 0.4 more, and a manager parts with his backup far more readily than his starter."
+      "headline": "The version they say yes to: a real running back for the quarterback who watches from their bench",
+      "yourSurplus": "On this week's numbers Tuten costs you nothing, because MarShawn Lloyd's 12.8 backfills the flex behind him. That is the whole catch, and it is stated below.",
+      "theirHole": "Christian McCaffrey and then a cliff. Rachaad White and Blake Corum are their second and third backs. Tuten is a Jacksonville starter at 93.8% rostered and he immediately replaces Kelce in their flex.",
+      "yourLineup": "Lamar goes in at quarterback over Stafford. Lloyd takes the flex. You still hold Jonathan Taylor and Saquon Barkley at running back.",
+      "risk": "This is the trap in the number. Tuten is 93.8% rostered and ranked 21st at his position with a real role in Jacksonville; Lloyd is a committee back whose own head coach said this week it will be running back by committee for a little bit. The single-week model says the swap is free because Lloyd's projection is higher today. Season-long it is not free, and season-long is the right unit, which this brief does not have. Prefer the Golden offer. Use this one only if they turn that down."
     }
   ],
+
   "candidates": [
     {
-      "playerId": 4428718,
+      "playerId": 4682648,
       "tier": "SOLID",
-      "note": "Tre Tucker, Raiders, free agent - and in this league free agents are the only cheap way in, because IPADE waiver priority never resets and one claim drops you from fifth to last for the season. Bowers is out after a meniscus procedure and Tucker played 94.9% of Raiders snaps last season. He is the better half of the Bowers bet than Michael Mayer, whom you already own: DraftKings Network have Tucker absorbing part of the vacated volume in a favourable Miami matchup, while Pro Football Network rank Mayer TE37 and say nobody knows where the Vegas targets land. If you want to make one move before 20:25Z, Tucker for Mayer is it - but it is inside the projection noise band (10.0 against 9.3), which is why it is not a card."
+      "note": "Free agent, no waiver priority at risk, which matters more here than in your other league because IPADE priority never resets. He starts at receiver for the Giants tonight with Nabers questionable, against a Dallas defense that allowed 30.1 points per game in 2025. Your flex takes RB, WR or TE, so he has a path in. You cannot add him right now without dropping Rashee Rice, who is your only unlocked player and is starting on Monday night. Revisit Tuesday."
     },
     {
-      "playerId": 4360761,
+      "playerId": 4428718,
       "tier": "DEPTH",
-      "note": "Michael Wilson, Cardinals, free agent at 85.8% rostership - the highest-owned unrostered player in either of your leagues, and the one most likely to tempt you. Do not take it. Pro Football Network have him WR42 and a sit: he is third in his own target queue behind Marvin Harrison Jr and Trey McBride, Arizona are 10-point underdogs with an 18.75 implied total, and the Chargers allowed a league-low 9.7 passing points per game and ranked fourth in the red zone. His 128 targets last year are why the rostership is high; the pecking order is why the projection is not."
+      "note": "Worth knowing about, not worth claiming. Tucker is one of three core Las Vegas pass-catchers and gains from Brock Bowers going on injured reserve, but he sits on waivers here until Wednesday 07:00 UTC and your priority is 5th and never resets. Burning it on a WR4 costs you the one claim you will want when a starter goes down in October. If he reaches free agency unclaimed, take him then."
     },
     {
-      "playerId": 4373626,
+      "playerId": 4685415,
       "tier": "DEPTH",
-      "note": "Tyler Allgeier, Cardinals, free agent - the player you dropped here on 10 September to add Mayer. Holding that line was right, and the final injury report confirms it rather than contradicting it: Jeremiyah Love was limited all three practice days with the high ankle sprain rather than ramping up, is expected to play on a pitch count, and Arizona's own depth chart still lists Allgeier first string. That is a real role, but it is a role on a 10-point underdog with the lowest implied total on the board, and it evaporates the week Love is right. Watch, do not chase."
+      "note": "This row exists to stop a mistake. Hunter shows rank 1 in this file, which will read like the best player on the wire. He is not. Jacksonville lists him as a starting cornerback and a backup receiver, he played four offensive snaps in Week 1 with a single target on a designed eight-yard touch, and the staff prefers him on the sideline taking mental reps rather than rotating onto offense. His ownership fell 0.66 today, which is the market catching up. The rank is a preseason artifact; do not spend a never-resetting waiver claim on it."
     }
   ]
 }

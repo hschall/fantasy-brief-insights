@@ -1,93 +1,73 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T18:39:38Z",
+  "generatedAt": "2026-09-13T22:20:00Z",
   "leagueId": "1237544639",
+
   "defense": {
-    "LV": {
-      "RB": "AVERAGE"
-    },
-    "PHI": {
-      "WR": "POOR"
-    },
-    "LAC": {
-      "RB": "POOR",
-      "WR": "POOR"
-    },
-    "DAL": {
-      "TE": "GOOD",
-      "WR": "AVERAGE"
-    },
-    "MIA": {
-      "WR": "GOOD"
-    }
+    "DAL": {"QB": "GREAT", "WR": "GREAT", "TE": "GREAT", "RB": "GOOD"},
+    "DEN": {"QB": "SHAKY", "WR": "SHAKY", "TE": "AVERAGE", "RB": "AVERAGE"}
   },
+
   "doFirst": [
     {
-      "id": "add-likely-drop-allgeier",
+      "id": "add-worthy-drop-likely",
       "tier": "ELITE",
       "source": "Free agent",
       "status": "FREEAGENT",
-      "deadline": "2026-09-13T20:25:00.000Z",
+      "deadline": "2026-09-14T00:20:00.000Z",
       "in": {
-        "playerId": 4361050,
-        "role": "Giants TE1 and the No. 2 target behind Malik Nabers; top-five Week 1 TE on SI's board",
+        "playerId": 4683062,
+        "role": "Chiefs WR2 opposite Rashee Rice, full practice all week on the shoulder",
         "alert": null
       },
       "out": {
-        "playerId": 4373626,
-        "role": "Arizona's listed RB1 only while Jeremiyah Love is hurt, in an 18.75-point implied total",
-        "alert": "Arizona are 10-point dogs with the lowest implied total on the slate"
+        "playerId": 4361050,
+        "role": "Second tight end with no path into the lineup behind Pitts",
+        "alert": "Giants kick at 8:20 ET tonight. After that he locks and this move is gone until Tuesday."
       },
-      "why": "Likely is rostered in 82.5% of ESPN leagues and is sitting here as a free agent, costing nothing. He moved to New York this offseason and is the clear No. 2 target behind Nabers, who is a game-time decision and being eased back in - SI have Likely top five at the position this week. Allgeier is the opposite trade: ESPN's 7.6 and the Cardinals' official depth chart both say RB1, but Love was limited all three practices rather than building up, is expected to play on a pitch count, and Arizona are 10-point underdogs with an 18.75 implied total against a Chargers defense that allowed a league-low 9.7 passing points per game and ranked fourth in the red zone. Allgeier's job disappears the week Love is healthy; Likely's does not.",
+      "why": "Worthy is rostered in 75.3% of ESPN leagues and is a free agent here, which costs nothing and no waiver priority. Kansas City's own injury report had him a full participant all week with a shoulder issue, and Yahoo has him locked in as the WR2 opposite Rice. Likely is 82.5% rostered and dropping him needs a reason, so here it is: Chem's flex is RB/WR only, so a second tight end can never enter this lineup while Pitts holds slot 6, and DraftKings Network called Likely's TE13 price too high on a Jaxson Dart offense whose sideline-heavy throws do not fit his middle-of-field game. A startable WR you can own for free beats a bench tight end who is structurally unplayable.",
       "action": {
         "type": "ADD",
-        "playerId": 4361050,
-        "dropPlayerId": 4373626,
-        "label": "Add Isaiah Likely, drop Tyler Allgeier"
+        "playerId": 4683062,
+        "dropPlayerId": 4361050,
+        "label": "Add Xavier Worthy, drop Isaiah Likely"
       }
     }
   ],
+
   "trades": [
     {
       "id": "t7-stafford-odunze",
       "partnerTeamId": 7,
       "odds": "EVEN",
-      "youGive": [
-        12483
-      ],
-      "youGet": [
-        4431299
-      ],
+      "youGive": [12483],
+      "youGet": [4431299],
       "yourGain": 0.2,
       "theirGain": 0.9,
-      "headline": "They start a 16-point quarterback and you have a 17.6 sitting on your bench doing nothing",
-      "yourSurplus": "Josh Allen is your quarterback every week. Stafford is a bye-week seat that scores you zero points until Week 7, and he has already played this week for 4.1.",
-      "theirHole": "Los Gigantes start the lowest-projected quarterback in the league at 16 and carry no backup. Stafford is an immediate +0.9 to their starting lineup.",
-      "yourLineup": "Odunze slots into the RB/WR flex ahead of nobody this week, so the one-week gain is only +0.2. The point is shape, not this Sunday: you convert a dead roster seat into a startable third receiver behind Jefferson and Garrett Wilson.",
-      "theirLineup": "Stafford replaces their starter outright and gives them a real bye-week plan.",
-      "risk": "Priced on one week, which is the wrong unit and undersells your side. Only weekly projections are published, so a +0.2 headline is what the model can see; the roster-shape argument is judgement. If you think Stafford is your insurance against a Josh Allen injury, do not make this trade."
+      "headline": "They are one quarterback deep and you are paying a bench slot to hold a backup who can never start",
+      "yourSurplus": "Stafford sits behind Josh Allen every week of the season. He is worth exactly zero points to you and occupies one of five bench seats.",
+      "theirHole": "Los Gigantes carry Drake Maye and no second quarterback. Stafford is both an upgrade on the weekly number and their only insurance if Maye misses time.",
+      "yourLineup": "Odunze slides into the flex or WR3 conversation behind Jefferson, Wilson and McLaurin, and gives you a real body at a position where your fourth option is Brian Thomas Jr.",
+      "theirLineup": "They start Chase, London and Odunze at WR with Metcalf, Godwin and Reed on the bench. Losing Odunze costs them a starter they can immediately replace from their own bench.",
+      "risk": "Odunze was limited in all three practices this week with a calf strain and played anyway. Limited every day is the weaker version of that signal, not the stronger one. He is also a Bears receiver on a roster that spreads the ball, and the weekly gain here is only 0.2 points. The reason to do this is structural, not numerical."
     }
   ],
+
   "candidates": [
     {
-      "playerId": 4428718,
+      "playerId": 4682648,
       "tier": "SOLID",
-      "note": "Tre Tucker, Raiders, free agent. Bowers had a meniscus procedure and is out, and Tucker played 94.9% of the Raiders' offensive snaps last season - the highest share among their receivers - so he absorbs part of the vacated target load against a Miami defence DraftKings Network called a favourable matchup. The counterweight, from that same piece: he is not the clear No. 1, Kubiak will spread the work, and 60% of his touchdowns last season came in a single game against Washington. A flex-quality dart, not a starter. Kicks off 20:25Z."
+      "note": "Free agent at 10.7% rostered and rising, and he is starting at receiver for the Giants tonight against a Dallas defense that gave up 30.1 points and over 251 passing yards a game in 2025 and is breaking in a rookie safety. Athlon has him playing across all personnel groups with Nabers limited. You cannot add him today because Likely is the only unlocked player you can drop and Worthy is the better use of that seat. Revisit first thing Tuesday when your Sunday players unlock, and expect his price to have gone up if he produces in primetime."
     },
     {
       "playerId": 4429086,
-      "tier": "DEPTH",
-      "note": "Michael Mayer, Raiders, free agent, and the biggest ownership riser on this wire at +3.91 - that move is entirely Bowers' knee. He is the Raiders' starting tight end while Bowers is out. Two sources split: SI say you must pick him up, Pro Football Network rank him TE37 and say sit, because nobody is confident where the Vegas targets go. Believe PFN for this week and SI for the stash - Bowers is expected back in a game or two, which caps the window either way. You already own him in IPADE; that does not make him right here, where Kyle Pitts is your tight end."
+      "tier": "SOLID",
+      "note": "The largest ownership move on your wire, up 3.88 points in a day, and the reporting explains it: Brock Bowers is headed to injured reserve and Las Vegas handed Mayer a 45 million dollar extension on the eve of Week 1 to be the starting tight end. This matters to you because Kyle Pitts saw one target and caught nothing against Pittsburgh, the second straight opener where he was invisible. Chem waiver priority resets weekly so a claim costs you nothing lasting. He clears Wednesday at 07:00 UTC."
     },
     {
-      "playerId": 3116365,
+      "playerId": 4428718,
       "tier": "DEPTH",
-      "note": "Mark Andrews, Ravens, on waivers until 2026-09-16T07:00Z, 83.4% rostered. Chem resets waiver priority every week, so a claim here costs you nothing lasting - this is the one league where a speculative claim is genuinely free. Worth a claim only if Kyle Pitts' zero today turns into a pattern; you cannot drop anyone else to make room until Monday anyway."
-    },
-    {
-      "playerId": 4683062,
-      "tier": "DEPTH",
-      "note": "Xavier Worthy, Chiefs, free agent at 75.4% rostership - the kind of number that usually means someone blundered. It is not a blunder here. He is still working back from shoulder surgery and Sharp Football grade him a WR4/flex this week against a Denver defence that gave up 9.0 fantasy points per game to opposing WR1s and finished second in completion rate, yards per attempt and touchdown rate. Leave him. Monday night, 2026-09-15T00:15Z."
+      "note": "Sports Illustrated lists Tucker as one of only three core starting pass-catchers in Las Vegas, and with Bowers on injured reserve that target pool gets smaller and his share of it gets bigger. His ownership rose a full point today. Full PPR is the right scoring for a high-volume short-area receiver. Free claim in this league when he clears Wednesday, but he is behind Worthy and Mayer in priority."
     }
   ]
 }
