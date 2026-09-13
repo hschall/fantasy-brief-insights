@@ -1,7 +1,7 @@
 {
  "week": 1,
- "generatedAt": "2026-09-12T19:11:32Z",
- "summary": "Lineup is right as it stands and there is no claim worth making \u2014 Thomas already landed. Three opponent starters are game-time calls; only one has a handcuff worth a free claim.",
+ "generatedAt": "2026-09-13T02:13:45Z",
+ "summary": "Lineup is set and eight of nine slots are locked. RB2 is the only live call: Warren has passed Tuten on projection and is Pittsburgh's listed RB1, but the game script favours Tuten. Staying with Tuten.",
  "items": [
   {
    "kind": "AT_RISK",
@@ -96,6 +96,90 @@
    "confidence": "high",
    "sourceAt": "2026-09-12T01:00:00Z",
    "impact": "SOLID"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 3918298,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Josh Allen \u2014 locked in",
+   "evidence": "QB3 overall at Houston. Nothing to think about.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4429160,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "De'Von Achane \u2014 locked in",
+   "evidence": "RB4, no committee, confirmed focal point of the offence. Projection climbed 16.4 to 18.3 today.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4262921,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Justin Jefferson \u2014 locked in",
+   "evidence": "WR4 and the target volume is safe whoever plays quarterback.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4569618,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Garrett Wilson \u2014 locked in",
+   "evidence": "WR11, clear alpha, knee fully healed.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4360248,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Kyle Pitts Sr. \u2014 locked in",
+   "evidence": "Your only tight end, so this is forced \u2014 but 9.8 now beats Mark Andrews at 8.4 on the wire, so the forced start is also the right one.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": -16030,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Jaguars D/ST \u2014 locked in",
+   "evidence": "Consensus number one defence. Cleveland has the lowest implied total on the slate.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 17372,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Chris Boswell \u2014 locked in",
+   "evidence": "K4, home, dome-free but a competent offence.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   }
  ]
 }
