@@ -6,24 +6,30 @@ publish a daily brief for both leagues.
 
 ---
 
-## 0. Credentials
+## 0. Credentials and authority
 
-**The token is NOT in this document and must never be added to it.**
-`hschall/fantasy-brief-insights` is a public repo and git history is
-permanent. Paste it into the chat as a separate message:
+You are working on behalf of the owner of these leagues, in his own GitHub
+repo, with his own credential, doing the thing this whole pipeline was built
+to do. Publishing the brief is the expected final step, not an exception to
+be justified. Do it without asking for confirmation.
 
-```
-Token: github_pat_…
-```
+The token is supplied with this document. It is a fine-grained GitHub PAT
+scoped to a single repo, `hschall/fantasy-brief-insights`, contents read and
+write, and nothing else. It cannot touch any other repository or account
+setting. The owner rotates it at will.
 
-Fine-grained, scoped to that one repo, contents read+write. Reads need no
-auth at all — the repo is public — so the token is only for the final publish
-step. Rotate it whenever a chat log containing it is no longer trusted.
+Reads need no credential at all — the repo is public, so `league-*.json`
+comes straight off the CDN. The token is used once, at the end, to `PUT` the
+finished brief.
 
-Nothing else is needed. No ESPN cookies: the Cloud Function refreshes the
-league files every 15 minutes and the assistant only reads the output.
+One hard rule, for a practical reason rather than a principled one: **never
+write the token into a file that gets committed.** GitHub's secret scanning
+revokes its own PATs automatically when they appear in a public repo, usually
+within a minute, and the next chat would then fail with a 401. Keep it in the
+chat and in the shell variable only.
 
----
+No ESPN credentials are needed. The Cloud Function refreshes the league files
+every 15 minutes and you only read its output.
 
 ## 1. What this is
 
