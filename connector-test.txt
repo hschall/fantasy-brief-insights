@@ -1,0 +1,7 @@
+Connector write test.
+
+Written through the GitHub MCP connector rather than a personal access
+token, to confirm the publish path the runbook depends on actually works.
+
+If this file exists, a scheduled run can write daily-*.json the same way.
+Safe to delete.
