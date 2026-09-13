@@ -1,6 +1,6 @@
 {
  "week": 1,
- "generatedAt": "2026-09-13T07:59:25Z",
+ "generatedAt": "2026-09-13T08:09:41Z",
  "leagueId": "1237544639",
  "defense": {
   "HOU": {
@@ -46,31 +46,7 @@
  },
  "doFirst": [
   {
-   "id": "swap-warren-tuten",
-   "tier": "ELITE",
-   "source": "Your bench",
-   "status": "ROSTERED",
-   "deadline": "2026-09-13T17:00:00.000Z",
-   "in": {
-    "playerId": 4569987,
-    "role": "Listed RB1, takes the backfield targets",
-    "alert": null
-   },
-   "out": {
-    "playerId": 4882093,
-    "role": "Early downs only, no goal line",
-    "alert": null
-   },
-   "why": "Chem went full PPR tonight. Warren's receiving edge is the reason I sat him this morning and it is now worth double.",
-   "action": {
-    "type": "SWAP",
-    "playerId": 4569987,
-    "dropPlayerId": 4882093,
-    "label": "Start Warren, bench Tuten"
-   }
-  },
-  {
-   "id": "add-tucker-drop-stafford",
+   "id": "add-tucker-drop-monangai",
    "tier": "SOLID",
    "source": "Free agent",
    "status": "FREEAGENT",
@@ -81,16 +57,16 @@
     "alert": null
    },
    "out": {
-    "playerId": 12483,
-    "role": "QB2 behind Allen",
-    "alert": "Game already scored"
+    "playerId": 4608686,
+    "role": "RB2 behind a healthy Swift",
+    "alert": null
    },
-   "why": "Bowers vacates 86 targets. Tucker played 94.9% of snaps last season, the highest share of any receiver, so he absorbs them without a role change \u2014 and Miami's secondary starts a rookie who has never played a regular-season snap.",
+   "why": "Bowers vacates 86 targets and Tucker played 94.9% of snaps last season, the highest share of any receiver, so he absorbs them without a role change. Miami starts a rookie corner who has never played a regular-season snap. Monangai is the drop rather than Stafford \u2014 Stafford's game has already kicked off, so ESPN has him locked until the week rolls.",
    "action": {
     "type": "ADD",
     "playerId": 4428718,
-    "dropPlayerId": 12483,
-    "label": "Add Tre Tucker, drop Stafford"
+    "dropPlayerId": 4608686,
+    "label": "Add Tre Tucker, drop Monangai"
    }
   }
  ],
