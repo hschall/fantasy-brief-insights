@@ -1,17 +1,15 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T15:28:32Z",
+  "generatedAt": "2026-09-13T16:28:00Z",
   "leagueId": "1325565673",
 
   "defense": {
-    "WSH": {"RB": "GREAT"},
-    "CAR": {"TE": "GREAT"},
-    "TEN": {"WR": "GREAT"},
-    "ARI": {"WR": "GREAT"},
-    "CLE": {"RB": "GOOD"},
-    "BAL": {"RB": "SHAKY"},
-    "DEN": {"WR": "SHAKY"},
-    "LAC": {"WR": "SHAKY"}
+    "CLE": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "AVERAGE"},
+    "CAR": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "GREAT"},
+    "WSH": {"QB": "GOOD", "RB": "GOOD", "WR": "GOOD", "TE": "AVERAGE"},
+    "MIA": {"QB": "GOOD", "RB": "GOOD", "WR": "GREAT", "TE": "GREAT"},
+    "TEN": {"QB": "POOR", "RB": "AVERAGE", "WR": "SHAKY", "TE": "SHAKY"},
+    "LAC": {"QB": "SHAKY", "RB": "SHAKY", "WR": "SHAKY", "TE": "SHAKY"}
   },
 
   "doFirst": [
@@ -23,15 +21,15 @@
       "deadline": "2026-09-13T17:00:00Z",
       "in": {
         "playerId": 4360761,
-        "role": "Arizona's WR1 this week",
+        "role": "Cardinals receiver carrying an 11-target-a-game role, unrostered here at 85.8% owned elsewhere",
         "alert": null
       },
       "out": {
         "playerId": 4429022,
-        "role": "Houston's third receiver behind Nico Collins",
+        "role": "Texans WR4 at 15.9% rostered — the one seat on your bench the market agrees is spare",
         "alert": null
       },
-      "why": "Wilson is rostered in 85.8% of leagues and is a free agent here. That is the largest standing error on either wire and the most valuable thing a wire can hold — someone in this league let a starting receiver go. PFF has him stepping into Arizona's WR1 role this week. Read the status field before you act: he is a FREE AGENT, not a waiver claim, so he costs you nothing. That distinction matters more here than anywhere else, because IPADE's waiver order never resets and you sit fifth — a claim would drop you to tenth for the rest of the season. This one does not. He is not a Week 1 start: Arizona draws the Chargers, the No. 4 defence this week. Boutte leaves because he is 15.9% rostered and third in Houston's receiver room. The deadline is Houston's 17:00 kickoff, not Arizona's 20:25 — Boutte locks first and a locked player cannot be dropped.",
+      "why": "This is a free agent, not a claim, which is the whole point in a league where waiver order never resets and you sit fifth: it costs you nothing. Michael Wilson sitting unrostered at 85.8% ownership elsewhere is the genuine market error on this wire — Yahoo and PFN both peg him at roughly 11 targets a game. Be clear about what you are buying: it is the role, not this Sunday. SI has him a must-sit in Week 1 and PFN gives Marvin Harrison the nod in that offence, with Arizona a 9.5-point road dog at 19.0 implied. The deadline is Houston's kickoff, because after 17:00Z Boutte locks and you cannot drop him at all.",
       "action": {
         "type": "ADD",
         "playerId": 4360761,
@@ -43,42 +41,37 @@
 
   "trades": [
     {
-      "id": "t13-golden-lamar",
+      "id": "t13-lloyd-lamar",
       "partnerTeamId": 13,
       "odds": "LIKELY",
-      "youGive": [4701936],
+      "youGive": [4429023],
       "youGet": [3916387],
-      "yourGain": 1.5,
-      "theirGain": 1.2,
-      "headline": "Team 13's second quarterback scores them nothing every week. Golden is worth a real +1.2 to them, and he is the piece you can lose without touching a starting slot.",
-      "yourSurplus": "Golden is outside your best lineup — Garrett Wilson and Rice hold the receiver slots and the flex goes to a running back — so trading him costs you zero points this week. He is a genuine asset, not a throwaway, which is why this offer stands a chance of being accepted.",
-      "theirHole": "Lamar Jackson (18.1) sits on their bench behind Josh Allen (18.5) in a one-quarterback league and cannot score for them all season. Their flex is Travis Kelce at 9.8.",
-      "yourLineup": "Lamar replaces Stafford at quarterback for +1.5, and that understates it — Stafford already gave you 4.1 this week in a slot you could not move, and Lawrence at 16.0 is the ceiling of your QB room otherwise.",
-      "theirLineup": "Golden (11.0) takes Kelce's (9.8) flex seat for +1.2, and they still start Josh Allen at quarterback. Nothing they actually use gets worse.",
-      "risk": "Golden is a second-year receiver whose role is still growing in a crowded Green Bay passing game, so you may be selling before the price peaks — if he breaks out, this looks bad in November. Take that risk anyway: a quarterback you can never start is worth less than one who starts every week. If they accept, drop Stafford; you do not need three quarterbacks. The honest limitation: both gains are one-week numbers, because only weekly projections are published, and season-long is the right unit for a trade. Season-long, a WR4 for a top-two fantasy quarterback is a larger win than +1.5 suggests."
+      "yourGain": 0.7,
+      "theirGain": 3.4,
+      "headline": "Their second quarterback scores them nothing every week, and Lloyd upgrades their RB2 by nearly four points — they gain more than you do",
+      "yourSurplus": "Lamar Jackson is benched behind Josh Allen on their roster; one of those two is dead weight every single week and they cannot start both. Lloyd is the piece of yours current reporting likes least — Green Bay's OC Adam Stenavich said flatly it is 'running back by committee for a little bit', with Kaleb Johnson arriving by trade on Aug 30 and Chris Brooks also in the mix. ESPN's 12.8 prices Lloyd as a starter; the beat does not.",
+      "theirHole": "Their RB2 is Rachaad White at 8.9. Lloyd steps straight into that slot for roughly a four-point weekly upgrade, and it costs them a quarterback they never play. That is the largest single-slot gain available to any team in this league.",
+      "yourLineup": "Your quarterback room is Stafford plus Trevor Lawrence. Lamar replaces Stafford at QB from next week — Stafford managed 4.1 against San Francisco. Your flex is unaffected: Tuten stays there and MarShawn Lloyd was never going to displace him.",
+      "theirLineup": "Josh Allen keeps the QB slot, Lamar's bench seat becomes Lloyd, and Lloyd takes the RB2 slot off Rachaad White.",
+      "risk": "Trades here are priced on one week only, because weekly projections are all that is published — and on a season-long view this is more lopsided in your favour than the 0.7 suggests, which is the reason they might read it twice. Note also why your gain reads only 0.7: the model assumes Lloyd takes your flex at 12.8 over Tuten at 12.0, and that assumption is the one I am rejecting on the reporting above — price this as giving up a bench committee back, not a flex starter. If they counter asking for Tuten instead of Lloyd, that version also clears both sides (+1.5 you, +2.6 them) but costs you the Jaguars' lead back; take it only if you have replaced him first. The Golden-for-Lamar version clears too (+1.5 you, +1.2 them) — it pays you more on paper for the same reason, and offers them a third as much, so lead with Lloyd."
     }
   ],
 
   "candidates": [
     {
+      "playerId": 4428718,
+      "tier": "SOLID",
+      "note": "Tre Tucker is free here at 31.9% rostered and rising faster than any receiver on the wire (+0.72). Brock Bowers' knee surgery vacates a 30% target share and Tucker is projected for 5.9 targets as the Raiders' main aerial option against a Miami defence reporting rates among the league's worst. The honest limit: SI reports Bowers misses 'a game or two', so this is a one-to-two-week window, not a role change. He is a candidate rather than a card here because your one spare bench seat is better spent on Michael Wilson's durable target share — in Chem, where you have a genuinely droppable fifth running back, Tucker is the card instead."
+    },
+    {
       "playerId": 4685415,
       "tier": "DEPTH",
-      "note": "Ignore the rank. Travis Hunter carries an analyst-consensus rank of 1 in this file against a 5.6 projection, and the projection is the one telling the truth: Liam Coen has him taking more work at cornerback than receiver, and Jacksonville's official Week 1 depth chart lists him second at right wide receiver behind Brian Thomas Jr., which puts him roughly fourth in the route order behind Thomas, Jakobi Meyers and Parker Washington. Maye-day dropping him on the 9th was correct, not a blunder, and he is 65.7% rostered here because the rest of the league has not looked past the label. This row exists so you skip him rather than wonder why a rank-1 player is free."
+      "note": "The app will show Travis Hunter as the consensus No. 1 and available free at 65.6% rostered, and Maye-day dropped him on 09-09 to add Mark Andrews. Do not chase it — that drop was correct. PFN's 2026 profile has him fourth or fifth in the Jaguars' route order behind Brian Thomas Jr., Parker Washington, Brenton Strange and Jakobi Meyers, projects 8.36 points a game and ranks him WR58, and Jacksonville's GM has confirmed his cornerback snap count is going up, not down. He is a backup-running-back-shaped asset: worth something only if an injury lands ahead of him. The rank field and the 5.6 projection in the same row are not a contradiction to arbitrage; the projection is the one telling the truth."
     },
     {
-      "playerId": 4362249,
-      "tier": "SOLID",
-      "note": "Jayden Reed is rostered in 70.7% of leagues and free here. He is Green Bay's most established receiver, and with Josh Jacobs unavailable the offence will lean on the pass more than it planned to. If you make the Lamar trade and send Golden out, Reed is the receiver to replace him with — same offence, more established role, and he is a free agent, so replacing Golden costs you nothing and no waiver priority in a league where priority never resets."
-    },
-    {
-      "playerId": 4429025,
+      "playerId": 3916433,
       "tier": "DEPTH",
-      "note": "Quentin Johnston is rostered in 75.0% of leagues and free here — Los Angeles' outside receiver opposite Ladd McConkey. Read his 10.4 with care: Arizona is the lowest-ranked defence in the league this week, so that number is matchup, not role. Worth watching to see whether the role holds up against someone competent."
-    },
-    {
-      "playerId": 4360569,
-      "tier": "DEPTH",
-      "note": "Jordan Mason is rostered in 68.1% of leagues and free here — Minnesota's short-yardage and early-down back. He matters only because your running back depth behind Taylor, Barkley, Tuten and Lloyd thins out fast, and because Lloyd's entire workload rests on Josh Jacobs being on the Commissioner's Exempt List, which can be lifted without warning. Free agent, so no waiver cost and no rush."
+      "note": "Jakobi Meyers is free at 79.4% rostered — you dropped him on 09-09 for Kayshon Boutte, and today's card drops Boutte, so this is the seat coming back around. PFN's depth-chart reporting places Meyers in Jacksonville's top four route runners, and the Jaguars carry a 25.0 implied total as 9.5-point favourites, the best offensive environment of the early window. For this Sunday alone he is the better play than Michael Wilson; over the season Wilson's 11 targets a game is the bigger role, which is why Wilson is the card. If a second seat opens, this is the name."
     }
   ]
 }
