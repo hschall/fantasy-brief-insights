@@ -1,56 +1,78 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T10:05:00Z",
+  "generatedAt": "2026-09-13T10:40:00Z",
   "leagueId": "1237544639",
 
   "defense": {
-    "IND": {"QB": "GOOD", "WR": "GOOD", "TE": "GREAT"},
-    "PIT": {"TE": "SHAKY", "WR": "SHAKY"},
-    "PHI": {"WR": "SHAKY"},
-    "ATL": {"RB": "GOOD"},
-    "LV": {"RB": "AVERAGE"},
-    "TEN": {"RB": "SHAKY"}
+    "GB":  {"WR": "GREAT"},
+    "PIT": {"TE": "GREAT"},
+    "TEN": {"WR": "GOOD"},
+    "CLE": {"QB": "AVERAGE", "RB": "GOOD", "WR": "SHAKY"},
+    "LV":  {"RB": "AVERAGE"},
+    "ATL": {"RB": "AVERAGE"},
+    "PHI": {"WR": "SHAKY"}
   },
 
   "doFirst": [
     {
-      "id": "add-andrews-drop-allgeier",
-      "tier": "ELITE",
+      "id": "add-mayer-drop-monangai",
+      "tier": "SOLID",
       "source": "Free agent",
       "status": "FREEAGENT",
       "deadline": "2026-09-13T17:00:00.000Z",
       "in": {
-        "playerId": 3116365,
-        "role": "Baltimore's only pass-catching TE — Likely and Kolar both left, Smythe is a blocker",
+        "playerId": 4429086,
+        "role": "Raiders' starting TE while Bowers recovers from a meniscus procedure. Signed a 3yr/$45M extension Saturday ($15M APY, 4th among TEs) and plays a majority of Las Vegas snaps in line.",
         "alert": null
       },
       "out": {
-        "playerId": 4373626,
-        "role": "RB5 in Arizona, 42% rostered, no path to touches",
-        "alert": null
+        "playerId": 4608686,
+        "role": "Bears RB2 behind a healthy D'Andre Swift, one week back from a month-long knee absence.",
+        "alert": "Right knee hyperextension on Aug 16, first practice back last Monday, coach called him week-to-week."
       },
-      "why": "Pitts catches passes from Cooper Rush today. Tua is out with an oblique, Rush was QB3 until Thursday and is himself dealing with back spasms, Atlanta's pass rate was cut from 58.5% to 55.5%, and the right tackle is banged up against a Steelers front that returns every starter. Andrews goes the other way: Likely and Kolar are gone, he is close to an every-snap player for the first time in years, he has been top-ten in end-zone targets seven seasons running, and Indianapolis allowed the second-most yards and seventh-most points to tight ends last season. ESPN has them 10.1 to 9.8 — the reporting widens that gap in Andrews' favour, and Andrews costs nothing because he is a free agent.",
+      "why": "Pitts stays your starter and this is the insurance behind him, not a replacement for him. Tua Tagovailoa is out with an oblique and Cooper Rush starts in Atlanta today, which is real damage — but your snapshot was published at 10:16Z, after that ruling, so the 9.8 already prices Rush in, and the matchup is the best a tight end gets this week: Pittsburgh allowed 1,121 yards, 106 catches and 11 scores to tight ends last season, fourth- or fifth-most in every one of those. Pitts caught 88 balls in 2025 under a coordinator who features the position, and at full PPR volume survives a backup quarterback better than ceiling does. You have five running backs and one tight end. Mayer is 27.1% rostered and rising faster than anyone in this file (+2.54), which is the market catching up to a role that already changed: in four games without Bowers last season he caught 18 of 24 for 196 and a score, and at full PPR those 4.5 catches a game are worth about as much as the yardage. He cannot start over Pitts this week, so this is insurance on a one-TE roster plus a bet on a player who just got paid. Monangai is the drop even at 78.6% rostered, because Chem's only flex is RB/WR and McLaurin and Tuten both project ahead of him: the market is still paying for his 783-yard rookie year and a path to volume that Swift's healthy return has closed. Do it before 17:00Z: Mayer's game does not start until 20:25, but Chicago kicks at 17:00 and a locked Monangai cannot be dropped.",
       "action": {
         "type": "ADD",
-        "playerId": 3116365,
-        "dropPlayerId": 4373626,
-        "label": "Add Mark Andrews, drop Tyler Allgeier — then start Andrews at TE over Pitts"
+        "playerId": 4429086,
+        "dropPlayerId": 4608686,
+        "label": "Add Michael Mayer, drop Kyle Monangai"
       }
     }
   ],
 
-  "trades": [],
+  "trades": [
+    {
+      "id": "t7-stafford-odunze",
+      "partnerTeamId": 7,
+      "odds": "LONGSHOT",
+      "youGive": [12483],
+      "youGet": [4431299],
+      "yourGain": 0.2,
+      "theirGain": 0.9,
+      "headline": "Stafford out-projects Drake Maye, and they are one injury from having no quarterback at all",
+      "yourSurplus": "Stafford is a quarterback you cannot ever start. Josh Allen is your QB1 every week of the season, so the roster spot returns nothing — this week it returned 4.1 points from a Thursday game you had no reason to watch.",
+      "theirHole": "Drake Maye is the only quarterback on their roster. Stafford projects 17.6 against Maye's 16.4, so he is both an upgrade this week and the insurance policy they do not have.",
+      "yourLineup": "Odunze walks into your RB/WR flex ahead of McLaurin's soft 12.3, and more to the point he is a 94.5%-rostered starting receiver filling a seat that currently holds a backup quarterback.",
+      "theirLineup": "They start six receivers deep — Chase, London, Odunze, Metcalf, Godwin, Reed. Odunze is the one they can lose without touching their top two.",
+      "risk": "Odunze was limited in all three practices with a calf and is questionable; the coach hedged about the long season even as Odunze said he plans to play. Priced on one week the edge is only +0.2 for you, so the real case is season-long: a dead quarterback seat becomes a real receiver. Propose it after today's games finish — nobody trades a starting receiver for a quarterback who has already played his week."
+    }
+  ],
 
   "candidates": [
     {
       "playerId": 3916433,
       "tier": "SOLID",
-      "note": "Jakobi Meyers is 79% rostered across ESPN and sitting here as a free agent. Over the back half of last season, with Brian Thomas Jr. healthy and on the field, Meyers was the WR28 in points per game on a 22.6% target share and a 26.7% first-read share — he was functionally Jacksonville's number one, not their number two. The thumb he jammed is a non-issue; he told reporters himself he is playing. He is not a Week 1 start over what you already have, but he is the best free agent in this league and the one most likely to be gone by Tuesday."
+      "note": "Jakobi Meyers is 79.4% rostered across ESPN and a free agent here, which is the most valuable thing a wire can hold. He is the highest-floor receiver in a Jacksonville offense favoured by 9.5 with a ~24.75 implied total — 53.7 yards a game after the midseason trade last year and Lawrence's top option at times. He does not crack your lineup behind Jefferson, Wilson and McLaurin, so he is not urgent; he is the first name to take if McLaurin keeps producing like the WR52 he was last season, and in Chem a claim costs you nothing lasting anyway because priority resets weekly."
     },
     {
-      "playerId": 4429086,
-      "tier": "SOLID",
-      "note": "Michael Mayer's ownership moved +2.54 in a day — every other player on this wire moved less than half a point, in either direction. The reason is Brock Bowers, who had a meniscus trim and is reported out one to two games, which makes Mayer the Raiders' starting tight end against Miami. He is 27% rostered. If you do not take the Andrews card above, Mayer is the cheaper version of the same idea; if you do, he is the tight end to watch when Andrews' bye or a Pitts rebound forces a decision."
+      "playerId": 3116365,
+      "tier": "DEPTH",
+      "note": "Do not chase Mark Andrews, and do not start him over Pitts. Being 83.3% rostered across ESPN and free here looks like the league's biggest blunder, and it is not one — the market is slow to demote a name. Consensus has him TE12 in Week 1 on a 6.4-point projection against ESPN's 10.1, he finished TE23 last season on a 62.9% route share, and among 59 qualifying tight ends he ranked 41st in yards per route run and 27th in generating first downs. Likely's departure does open snaps and Indianapolis is the seventh-easiest tight-end matchup in the league, which is why the projection reads high; the efficiency underneath it is the problem. He is a name to hold in mind for a Pitts bye, not a starter to trust this week."
+    },
+    {
+      "playerId": 4362619,
+      "tier": "DEPTH",
+      "note": "Chris Rodriguez Jr. is the reason Tuten's 12.0 projection is soft — he is the goal-line back in Jacksonville and the specific worry analysts name against Tuten's touch count. At 31.1% rostered he is both a handcuff and a way to stop the player capping your own RB3 from helping someone else. Marginal on a full roster; worth knowing the name before you need it."
     }
   ]
 }
