@@ -1,63 +1,114 @@
 {
  "week": 1,
- "generatedAt": "2026-09-12T16:00:02Z",
- "summary": "Stafford already cost you the QB slot \u2014 4.1 points, and Lawrence was on the bench. Lineup is otherwise right. The real move is a trade: Team 13 is starting Rachaad White at RB2 with Lamar Jackson rotting on their bench.",
+ "generatedAt": "2026-09-13T02:13:45Z",
+ "summary": "Seven of nine slots locked. Stafford's game is the one that hurts \u2014 4.1 showing against a 16.6 projection with Lawrence on your bench. Flex is the only live call and I am staying with Tuten over Lloyd.",
  "items": [
   {
-   "kind": "WARNING",
-   "playerId": 12483,
-   "headline": "Stafford busted and it is already banked",
-   "body": "155 yards, one interception, no touchdowns in a 27-7 loss in Melbourne; the Rams benched the starters late. 4.1 points from your QB slot, locked. Lawrence projected 16.0 at rank 8 on your bench. Start Lawrence from week 2 unless the matchup says otherwise.",
-   "confidence": "high"
-  },
-  {
-   "kind": "START",
-   "playerId": 4360310,
-   "headline": "Trevor Lawrence is the QB going forward",
-   "body": "Rank 8 among quarterbacks against Stafford's unranked, and Jacksonville is a 7.5-point home favorite over a Browns team with the worst line in football. Stafford is 38, coming off an MVP year built on a career-high 7.7% touchdown rate that will regress.",
-   "confidence": "medium"
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4239996,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Jonathan Taylor \u2014 locked in",
+   "evidence": "RB4, clean bell cow, no committee. Baltimore at home.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   },
   {
    "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 3929630,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Saquon Barkley \u2014 locked in",
+   "evidence": "RB5 against Washington. Bigsby's camp split has not shown up in the projection and should not change the start.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T20:25:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4569618,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Garrett Wilson \u2014 locked in",
+   "evidence": "WR11, clear alpha, knee healed.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4241416,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Rashee Rice \u2014 locked in",
+   "evidence": "WR13, camp target leader, no further suspension. Sunday night.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-15T00:15:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
    "playerId": 4723086,
-   "headline": "Colston Loveland",
-   "body": "Rome Odunze is day-to-day with a calf. If he sits, Loveland and Luther Burden absorb the target share in Ben Johnson's offense. Rank 2 at the position already.",
-   "confidence": "high"
-  },
-  {
-   "kind": "WARNING",
-   "playerId": 4882093,
-   "headline": "Tuten is a co-starter, not a lead back",
-   "body": "Jacksonville lists Tuten and Chris Rodriguez as co-starters and the beat expects a near-even split. LeQuint Allen (hip) likely sits, which pushes receiving work to Tuten \u2014 worth more here at full PPR. He keeps the flex, but the lead-back premise is gone.",
-   "confidence": "high"
-  },
-  {
-   "kind": "SIT",
-   "playerId": 4429023,
-   "headline": "Lloyd stays on the bench despite the higher projection",
-   "body": "ESPN has him at 12.8 to Tuten's 12.0, but OC Adam Stenavich said plainly it will be committee 'for a little bit' across Lloyd, Chris Brooks and Kaleb Johnson. Lloyd has 10 career regular-season snaps. The projection is pricing a bell-cow role nobody has promised.",
-   "confidence": "medium"
-  },
-  {
-   "kind": "START",
-   "playerId": 4429086,
-   "headline": "Mayer is a hold, not a start \u2014 yet",
-   "body": "Bowers had a meniscus trim on Sept 8 and is out one to two games; Mayer is the TE1 against Miami and Las Vegas just gave him three years and $45M. Ownership moved +1.56 in a day, the largest move on either roster. Loveland still outprojects him, so he sits this week \u2014 but do not drop him while Bowers is out.",
-   "confidence": "high"
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Colston Loveland \u2014 locked in",
+   "evidence": "TE2 overall. Odunze is questionable with a calf, which only concentrates the targets further.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   },
   {
    "kind": "LOCK",
+   "section": "LINEUP",
    "playerId": -16030,
-   "headline": "Jaguars D/ST",
-   "body": "Consensus number-one defense of the week against Deshaun Watson and the worst offensive line in the league.",
-   "confidence": "high"
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Jaguars D/ST \u2014 locked in",
+   "evidence": "Consensus number one defence this week.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
+  },
+  {
+   "kind": "LOCK",
+   "section": "LINEUP",
+   "playerId": 4686361,
+   "impact": "SOLID",
+   "verdict": "LOCK",
+   "headline": "Cam Little \u2014 locked in",
+   "evidence": "K5, home, seven-and-a-half point favourite.",
+   "body": "",
+   "confidence": "high",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   },
   {
    "kind": "WARNING",
-   "playerId": 4686361,
-   "headline": "You are heavily concentrated on Jacksonville",
-   "body": "Tuten in the flex, Cam Little at kicker, the Jaguars defense, and Lawrence on the bench. A blowout win caps Little and Tuten's receiving work; a blowout loss craters the defense. Worth knowing before it happens, not after.",
-   "confidence": "medium"
+   "section": "BAD_NEWS",
+   "playerId": 12483,
+   "impact": "ELITE",
+   "verdict": "DONE",
+   "headline": "Stafford is showing 4.1 against a 16.6 projection",
+   "evidence": "His actual has not moved in ten hours, so the number is settled rather than live.",
+   "body": "Lawrence projected 16.0 at rank 8 on your bench. Start Lawrence from week 2 unless a matchup says otherwise \u2014 and note his bye is week 7, the same week Tuten, the Jaguars defence and Little are all out.",
+   "confidence": "high"
+  },
+  {
+   "kind": "START",
+   "section": "LINEUP",
+   "playerId": 4882093,
+   "impact": "ELITE",
+   "verdict": "START",
+   "headline": "Tuten holds the flex over Lloyd",
+   "evidence": "Lloyd projects higher at 12.8 but Stenavich called it committee across three backs, and Green Bay is on the road against a Minnesota front that gave up the fourth-lowest stuff rate. Jacksonville is a 7.5-point home favourite against the worst offensive line in football, which is the game script a running back wants.",
+   "body": "Closer than it was this morning. If Lloyd takes the first two series outright this becomes a week-2 problem worth revisiting.",
+   "confidence": "medium",
+   "expiresAt": "2026-09-13T17:00:00.000Z"
   }
  ]
 }
