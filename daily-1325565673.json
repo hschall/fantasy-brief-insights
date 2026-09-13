@@ -1,67 +1,72 @@
 {
   "week": 1,
-  "generatedAt": "2026-09-13T10:05:00Z",
+  "generatedAt": "2026-09-13T10:40:00Z",
   "leagueId": "1325565673",
 
   "defense": {
-    "CAR": {"TE": "GREAT", "RB": "GOOD"},
+    "BAL": {"RB": "GREAT"},
     "WSH": {"RB": "GREAT"},
-    "MIN": {"RB": "GOOD"},
-    "CLE": {"WR": "SHAKY"},
-    "TEN": {"RB": "SHAKY"},
-    "IND": {"QB": "GOOD", "WR": "GOOD", "TE": "GREAT"}
+    "TEN": {"WR": "GOOD"},
+    "CLE": {"QB": "AVERAGE", "RB": "GOOD", "WR": "SHAKY"},
+    "DEN": {"WR": "AVERAGE"},
+    "MIN": {"RB": "AVERAGE"}
   },
 
   "doFirst": [
     {
-      "id": "start-lloyd-bench-tuten",
+      "id": "add-meyers-drop-boutte",
       "tier": "SOLID",
-      "source": "Roster",
-      "status": null,
+      "source": "Free agent",
+      "status": "FREEAGENT",
       "deadline": "2026-09-13T17:00:00.000Z",
       "in": {
-        "playerId": 4429023,
-        "role": "Green Bay's lead ball-carrier with Josh Jacobs on the commissioner's exempt list",
+        "playerId": 3916433,
+        "role": "Jacksonville's highest-floor receiver — 53.7 yards a game after last season's trade and Lawrence's top option at times — in an offence favoured by 9.5 with a ~24.75 implied total.",
         "alert": null
       },
       "out": {
-        "playerId": 4882093,
-        "role": "Co-starter in Jacksonville who does not get the goal line",
-        "alert": "Chris Rodriguez takes over inside the 10"
+        "playerId": 4429022,
+        "role": "Texans WR3/4. Xavier Hutchinson and Jaylin Noel keep their roles, so he is not the every-down WR2 even with Higgins out for the year.",
+        "alert": "33 catches all of last season — a vertical, low-volume profile is the worst possible fit for full-PPR bench depth."
       },
-      "why": "This is a lean, not a lock, and the projections are nearly tied — 12.8 to 12.0. The reason to move is role, not the number. Jacksonville has settled on Tuten starting drives and Chris Rodriguez coming on inside the ten, so in a game the Jaguars are favoured to lead by 7.5 at home, Tuten is the back who does not get the carries that turn into points. His path to a big day runs through LeQuint Allen's hip, and Allen is a genuine game-time decision after a did-not-practice Wednesday and limited Thursday and Friday. Lloyd's own risk is real — Adam Stenavich said out loud it will be committee 'for a little bit', Kaleb Johnson arrived at cutdowns, and Lloyd has six career carries — but he is the only Packers back with a defined early-down job against a Minnesota front that allowed the sixth-highest rushing success rate last year. Tuten's kickoff at 17:00 is the binding deadline; after that the flex is locked either way.",
+      "why": "He is 79.4% rostered across ESPN and sitting as a free agent here, so he costs you nothing — and that matters more in this league than in Chem, because a waiver claim would drop you to last for the entire season and never reset. You dropped Meyers on the 9th to add Boutte; the reporting has moved since, and this is the same transaction back the other way at zero cost. He does not start this week — Golden projects ahead of him and the flex is spoken for — so take him as the floor piece behind Wilson and Rice, not as an upgrade you play today.",
       "action": {
-        "type": "SWAP",
-        "playerId": 4429023,
-        "dropPlayerId": 4882093,
-        "label": "Start MarShawn Lloyd in the flex, bench Bhayshul Tuten"
+        "type": "ADD",
+        "playerId": 3916433,
+        "dropPlayerId": 4429022,
+        "label": "Add Jakobi Meyers, drop Kayshon Boutte"
       }
     }
   ],
 
   "trades": [
     {
-      "id": "t13-tuten-lamar",
+      "id": "t13-lloyd-lamar",
       "partnerTeamId": 13,
-      "odds": "EVEN",
-      "youGive": [4882093],
+      "odds": "LIKELY",
+      "youGive": [4429023],
       "youGet": [3916387],
-      "yourGain": 1.5,
-      "theirGain": 2.6,
-      "headline": "Team 13 is starting Josh Allen and benching Lamar Jackson — the spare scores them zero every week, and Tuten adds +2.6 to their starting lineup",
-      "yourSurplus": "You have four running backs and only three slots that can hold one. Taylor and Barkley are locked into RB1 and RB2, Lloyd and Tuten compete for a single flex, and whichever loses that argument scores you nothing. Tuten is the one who loses it — 12.0 against Lloyd's 12.8 — so he is the piece that costs you least to move.",
-      "theirHole": "Team 13's running back room projects 19, 9, 9. They are starting a 19 and then falling off a cliff, and they have no flex-worthy back at all. Tuten slots straight in as their RB2 and is a co-starter on an offense favoured in most weeks. Meanwhile they are carrying two top-three quarterbacks in a one-quarterback league — Allen at 18.5 in the starting slot, Jackson at 18.1 on the bench — and the bench one is pure dead weight.",
-      "yourLineup": "Your quarterback slot is the worst thing about this roster. Stafford has already played Thursday and finished with 4.1 while Trevor Lawrence sat on your bench projected 16.0. Lawrence is your Week 2 starter regardless, but Jackson is a clear tier above him: back to full health after a hamstring-and-toe season, a new coordinator in Declan Doyle, and a rushing floor Lawrence does not have. Full rosters, ignoring this week's kickoffs, the swap is worth +1.5 to your best lineup.",
-      "theirLineup": "+2.6. They keep Allen, who is their higher projection anyway, and convert a bench quarterback who can never score for them into the second-best back on their roster.",
-      "risk": "Two things. First, this is priced on one week of projections, which is the wrong unit for a trade — Jackson's season-long value is far above Tuten's and the +1.5 badly understates what you are getting, but it also means a manager who thinks in season-long terms will see the same thing and ask for more. Expect to have to add a piece. Second, Tuten's value is live: if LeQuint Allen sits today and Tuten catches passes, his price goes up by tonight, and if Rodriguez vultures two scores it goes down. Send this before kickoff or wait until Tuesday and re-price it."
+      "yourGain": 0.7,
+      "theirGain": 3.4,
+      "headline": "Their second quarterback scores them nothing every week and their RB2 is Rachaad White",
+      "yourSurplus": "Lloyd is your fourth running back behind Taylor, Barkley and Tuten, and he is the one asset here where ESPN and the consensus point opposite ways. ESPN has Lloyd 12.8 to Tuten's 12.0; the consensus has Tuten RB25 and Lloyd RB33. Believe the consensus: PFN gives Lloyd 14-17 carries but says plainly there is no evidence he can withstand an NFL beating, on one career game and a lost 2025, while Tuten is the lead back on a team favoured by 9.5 with the highest implied total of anyone you own. So Tuten keeps the flex and Lloyd is the piece to move — you are selling the back ESPN prices high and the market prices low.",
+      "theirHole": "Team 13 starts Josh Allen and benches Lamar Jackson in a one-quarterback league, so one of the two best quarterbacks in football scores them zero all season. Meanwhile their starting RB2 is Rachaad White at 8.9 and their bench answer is Blake Corum at 9.4.",
+      "yourLineup": "Your quarterback becomes Lamar (18.1, QB rank 2) instead of the Stafford/Lawrence committee that has been projecting about 16. Tuten stays in the flex, so the only thing you actually give up is your RB4.",
+      "theirLineup": "Lloyd walks into their RB2 slot as Green Bay's listed starter with Jacobs barred for the season, worth about +3.4 to their best lineup, and costs them a quarterback they can never play.",
+      "risk": "Lloyd is the one piece here with real upside — if he holds the Green Bay job with Jacobs on the exempt list all year, he could out-earn a quarterback upgrade in full PPR. You are selling the volatile asset and buying the certain one. Also note the honest limitation: only weekly projections are published, so both gains above are one-week numbers and season-long value is the right unit for a trade. The season-long case is stronger than +0.7 suggests, because it also lets you drop a quarterback."
     }
   ],
 
   "candidates": [
     {
-      "playerId": 3916433,
-      "tier": "SOLID",
-      "note": "Jakobi Meyers is 79% rostered across ESPN and free here. With Brian Thomas Jr. healthy on the field over the back half of last season, Meyers still ran a 22.6% target share and a 26.7% first-read share and finished as the WR28 in points per game — he is Jacksonville's de facto WR1, not their WR2, and the jammed thumb is resolved. Your receiver room behind Rice and Garrett Wilson is Golden at 11.0 and Boutte at 8.8, so he is a genuine upgrade to the third receiver spot. He is a free agent, which matters more here than in your other league: a waiver claim in this league drops you to last for the entire season, and this one costs nothing."
+      "playerId": 4685415,
+      "tier": "DEPTH",
+      "note": "Ignore the rank. Travis Hunter carries an analyst-consensus rank of 1 in this file against a 5.6 projection, and the projection is the one telling the truth: Jacksonville lists him as a starting cornerback and a backup receiver behind Parker Washington, Brian Thomas Jr. and Jakobi Meyers. Liam Coen has described a steady increase in his defensive work, and the staff would rather he take mental reps on the sideline than play offence — he ran 67% of offensive snaps in 2025 and will not come close to that now. Maye-day dropping him on the 9th was correct, not a blunder, and he is 65.8% rostered here because the rest of the league has not looked past the label. This row exists so you do not spend a roster spot on it."
+    },
+    {
+      "playerId": 4362619,
+      "tier": "DEPTH",
+      "note": "Chris Rodriguez Jr. is the reason your flex starter's projection is soft — he is Jacksonville's goal-line back and the specific worry analysts name against Tuten's touch count. At 31.1% rostered he is a handcuff to the player you are starting today and a free agent, so he costs no waiver priority in a league where priority never resets. Marginal while your roster is full; the name to reach for if Tuten's touches go the wrong way."
     }
   ]
 }
