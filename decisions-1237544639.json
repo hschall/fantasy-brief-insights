@@ -1,0 +1,54 @@
+{
+ "leagueId": "1237544639",
+ "updatedAt": "2026-09-14T02:05:20Z",
+ "seededFrom": "activity log, 14 Sep 2026",
+ "open": [
+  {
+   "id": "chem-add-thomas-2026-09-12",
+   "at": "2026-09-12T18:06:00Z",
+   "week": 1,
+   "kind": "ADD",
+   "source": "assistant",
+   "playerId": 4432773,
+   "playerName": "Brian Thomas Jr.",
+   "gaveUpName": "Stefon Diggs",
+   "thesis": "84% rostered nationally and dropped by Footballers \u2014 an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers.",
+   "falsifiedIf": "Target share stays under about 18% through week 3, or Meyers/Hunter pass him on the depth chart.",
+   "reviewAfterWeek": 3
+  },
+  {
+   "id": "chem-start-warren-2026-09-13",
+   "at": "2026-09-13T08:00:00Z",
+   "week": 1,
+   "kind": "LINEUP",
+   "source": "assistant",
+   "playerId": 4569987,
+   "playerName": "Jaylen Warren",
+   "gaveUpName": "Bhayshul Tuten (benched)",
+   "thesis": "Pittsburgh's listed RB1 and the primary passing-down back. Chem switched to full PPR, which doubles the value of the receiving edge that had made him a sit.",
+   "falsifiedIf": "Dowdle out-touches him materially two weeks running, or Warren's target share drops below Dowdle's.",
+   "reviewAfterWeek": 3
+  },
+  {
+   "id": "chem-add-likely-2026-09-13",
+   "at": "2026-09-13T19:03:00Z",
+   "week": 1,
+   "kind": "ADD",
+   "source": "unknown",
+   "playerId": null,
+   "playerName": "Isaiah Likely",
+   "gaveUpName": "Tyler Allgeier",
+   "thesis": "NOT RECORDED. Added by a run whose reasoning was not logged \u2014 this is the gap the log exists to close. Do not drop him without first establishing what he was added for.",
+   "falsifiedIf": "Unknown. Treat as open until a thesis is written or he is clearly redundant behind Pitts.",
+   "reviewAfterWeek": 3
+  }
+ ],
+ "closed": [
+  {
+   "at": "2026-09-13T19:03:00Z",
+   "week": 1,
+   "outcome": "CHURN",
+   "summary": "One bench slot went Goedert -> Allgeier -> Likely in five days. Each step was defensible on projection; the sequence gained nothing and cost two roster moves. The Allgeier drop also came two days after he was named Arizona's listed RB1."
+  }
+ ]
+}
