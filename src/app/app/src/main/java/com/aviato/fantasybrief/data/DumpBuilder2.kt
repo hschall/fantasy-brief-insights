@@ -191,8 +191,8 @@ object DumpBuilder2 {
 
     private fun wire(sb: StringBuilder, b: Brief, week: Int, deep: Boolean) {
         val tiers = if (deep)
-            listOf(Tier.ELITE, Tier.SOLID, Tier.LOTTERY, Tier.HANDCUFF)
-        else listOf(Tier.ELITE, Tier.SOLID, Tier.LOTTERY)
+            listOf(Tier.ELITE, Tier.SOLID, Tier.ORPHAN, Tier.LOTTERY, Tier.HANDCUFF)
+        else listOf(Tier.ELITE, Tier.SOLID, Tier.ORPHAN, Tier.LOTTERY)
 
         sb.append("\n== WIRE ==\n")
         var any = false

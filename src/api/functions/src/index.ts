@@ -270,6 +270,220 @@ const VIEWS = [
   "mPendingTransactions",
 ];
 
+/**
+ * The free agent pool.
+ *
+ * One UNFILTERED call, not a filterStatus one. An available player is a
+ * market player whose status is FREEAGENT or WAIVERS, so the unfiltered pull
+ * is a strict superset at the same request cost, and it carries the ownership
+ * of rostered players too. This is the shape WireRepository.loadAll already
+ * uses in the app, so the filter is proven in production rather than new.
+ *
+ * A `limit` with no valid `sort` returns 400. sortPercOwned works;
+ * sortPercOwnedChange does not exist, which is why velocity is sorted here.
+ */
+const WIRE_FILTER = JSON.stringify({
+  players: { limit: 500, sortPercOwned: { sortAsc: false, sortPriority: 1 } },
+});
+
+/**
+ * Kept per league. Egress was already ~29% of the free tier at 29 KB a file,
+ * and the spend cap pauses the service rather than warning. 120 rows costs
+ * ~25 KB, which lands around 54%. 200 fits today but leaves no room for a
+ * third league, and the way you would find out is the service stopping.
+ */
+const WIRE_KEEP = 120;
+
+/**
+ * Slims the free agent pool.
+ *
+ * NOTE THE SHAPE DIFFERENCE. On kona_player_info, `status` and
+ * `waiverProcessDate` sit on the ENTRY, while everything else sits on
+ * entry.player. On mRoster the player hangs off playerPoolEntry.player and
+ * there is no status at all. slim() cannot be reused here, and a slimWire()
+ * written by analogy to it returns empty statuses and zero clear times
+ * without failing.
+ */
+function slimWire(d: any, period: number): any[] {
+  const POS: Record<number, string> = {
+    1: "QB", 2: "RB", 3: "WR", 4: "TE", 5: "K", 16: "DST",
+  };
+
+  const rows = (d.players || []).map((e: any) => {
+    const p = e.player || {};
+    const own = p.ownership || {};
+    const ranks = (p.rankings?.[String(period)] || [])
+      .filter((r: any) =>
+        r.rankType === "PPR" && r.rankSourceId !== 0 && r.published && r.rank > 0)
+      .map((r: any) => r.rank)
+      .sort((a: number, b: number) => a - b);
+
+    // Presence, not truthiness. A waiverProcessDate of 0 means "not on
+    // waivers", not "clears at the epoch".
+    const clears =
+      Object.prototype.hasOwnProperty.call(e, "waiverProcessDate") &&
+      e.waiverProcessDate > 0
+        ? new Date(e.waiverProcessDate).toISOString()
+        : null;
+
+    return {
+      id: p.id,
+      name: p.fullName,
+      pos: POS[p.defaultPositionId] || String(p.defaultPositionId),
+      proTeamId: p.proTeamId,
+      injury: p.injuryStatus,
+      proj: weekProj(p, period),
+      owned: own.percentOwned,
+      ownedChange: own.percentChange,
+      started: own.percentStarted,
+      status: e.status,
+      clearsAt: clears,
+      rank: ranks.length ? ranks[Math.floor(ranks.length / 2)] : null,
+    };
+  });
+
+  const available = rows.filter(
+    (w: any) => w.status === "FREEAGENT" || w.status === "WAIVERS"
+  );
+
+  // The founding signal: low absolute ownership plus a fast rise. Same gate
+  // as WirePlayer.isMoneySignal in the app, so the two cannot drift.
+  /**
+   * Three bands, merged — deliberately not one sort key.
+   *
+   * Ownership velocity catches a player the wider world is reacting to before
+   * this league notices, and it is the founding signal of the project. But it
+   * is blind to a good player who is simply available because someone made a
+   * mistake: a just-dropped star has a flat or negative delta and sorts to the
+   * bottom. Brian Thomas Jr was dropped in Chem and fell outside the top 120
+   * on a pure-velocity sort — the single most valuable thing on the wire,
+   * cut by the ranking meant to surface it.
+   *
+   * Those are different signals. Collapsing them into one key loses the
+   * second, so each band takes its own slice and they merge by first-seen.
+   */
+  const money = (w: any) => (w.owned || 0) < 25 && (w.ownedChange || 0) >= 1.5;
+  const byOwned = (a: any, b: any) => (b.owned || 0) - (a.owned || 0);
+  const byProj = (a: any, b: any) => (b.proj || 0) - (a.proj || 0);
+  const byDelta = (a: any, b: any) => (b.ownedChange || 0) - (a.ownedChange || 0);
+
+  const tag = (rows: any[], why: string) => rows.map((r) => ({ ...r, why }));
+
+  const bands = [
+    // Everyone clearing the gate, however many that is.
+    tag(available.filter(money).sort(byDelta), "MONEY"),
+    // Widely rostered elsewhere but free here: someone blundered.
+    tag(available.slice().sort(byOwned).slice(0, 45), "OWNED"),
+    // This week's startable bodies, whatever their ownership.
+    tag(available.slice().sort(byProj).slice(0, 40), "PROJ"),
+    // Rising but short of the money gate.
+    tag(available.slice().sort(byDelta).slice(0, 35), "RISER"),
+  ];
+
+  const seen = new Set<number>();
+  const merged: any[] = [];
+  for (const band of bands) {
+    for (const r of band) {
+      if (!seen.has(r.id)) { seen.add(r.id); merged.push(r); }
+    }
+  }
+  return merged.slice(0, WIRE_KEEP);
+}
+
+/**
+ * Byes, opponents and kickoffs for every NFL team.
+ *
+ * Season level: NO /segments path. Sending one returns 404.
+ *
+ * This retires the hardcoded proTeamId table. `abbrev` covers all 33 entries,
+ * including id 0, which is ESPN's free-agency placeholder and not a team —
+ * hence the guard.
+ */
+async function fetchProTeams(season: number, period: number) {
+  const d = await espnGet(`/apis/v3/games/ffl/seasons/${season}?view=proTeamSchedules_wl`);
+  const out: Record<string, any> = {};
+  for (const t of d.settings?.proTeams || []) {
+    if (!t.id) continue;
+    const games = t.proGamesByScoringPeriod?.[String(period)] || [];
+    const g = games[0];
+    out[t.id] = {
+      abbrev: t.abbrev,
+      bye: t.byeWeek,
+      // An empty games array for the week IS the bye, and survives a
+      // reschedule in a way the static byeWeek field does not.
+      onBye: games.length === 0,
+      opp: g ? (g.homeProTeamId === t.id ? g.awayProTeamId : g.homeProTeamId) : null,
+      home: g ? g.homeProTeamId === t.id : null,
+      // startTimeTBD is an explicit flag. Do not infer it from date === 0.
+      kickoff: g && !g.startTimeTBD && g.date ? new Date(g.date).toISOString() : null,
+      tbd: g ? !!g.startTimeTBD : null,
+    };
+  }
+  return out;
+}
+
+const ACTIVITY_FILTER = JSON.stringify({
+  topics: {
+    filterType: { value: ["ACTIVITY_TRANSACTIONS"] },
+    limit: 25,
+    limitPerMessageSet: { value: 25 },
+    offset: 0,
+    sortMessageDate: { sortPriority: 1, sortAsc: false },
+  },
+});
+
+/**
+ * Verified against live roster state on 12 Sep 2026, not inherited from the
+ * Ruby CLI — whose rule that `to === -1` means DROP does not appear anywhere
+ * in this season's data. Not one -1 in fifty messages.
+ */
+const MSG_KIND: Record<number, string> = {
+  178: "ADD",
+  179: "DROP",
+  180: "WAIVER_ADD",
+  181: "WAIVER_DROP",
+  188: "LINEUP",
+};
+
+/**
+ * The league transaction log.
+ *
+ * Lives at a DIFFERENT path — {league}/communication/ — and sending its filter
+ * to the league endpoint returns 400.
+ *
+ * PRIVACY: every message carries `author`, which is another manager's raw ESPN
+ * SWID, and scrub() only knows about ours. Six distinct SWIDs appeared in a
+ * single 25-topic pull. This repo is public and git history is forever, so the
+ * author field is dropped here and must never be added back. Team ids say
+ * everything the analysis needs.
+ *
+ * Note 188 is most of the traffic and is a LINEUP move, not a transaction.
+ * Its `to` and `from` are lineupSlotIds and `for` is the team; on a real
+ * transaction it is `to` that carries the team. Treating every message as an
+ * add would report the owner's own bench shuffles as league activity.
+ */
+function slimActivity(d: any): any[] {
+  const out: any[] = [];
+  for (const t of d.topics || []) {
+    for (const m of t.messages || []) {
+      const kind = MSG_KIND[m.messageTypeId];
+      if (!kind) continue; // unknown id: skip rather than guess at it
+      const row: any = {
+        at: new Date(m.date).toISOString(),
+        kind,
+        playerId: m.targetId,
+        teamId: kind === "LINEUP" ? m.for : m.to,
+      };
+      if (kind === "LINEUP") {
+        row.fromSlot = m.from;
+        row.toSlot = m.to;
+      }
+      out.push(row);
+    }
+  }
+  return out.slice(0, 60);
+}
+
 async function espnGet(path: string, filter?: string): Promise<any> {
   const headers: Record<string, string> = {
     Cookie: `espn_s2=${ESPN_S2.value()}; SWID=${ESPN_SWID.value()}`,
@@ -330,11 +544,39 @@ export const publish = onSchedule(
     for (const id of leagues) {
       try {
         const q = VIEWS.map((v) => `view=${v}`).join("&");
-        const raw = await espnGet(
-          `/apis/v3/games/ffl/seasons/${season}/segments/0/leagues/${id}?${q}`
-        );
+        const base = `/apis/v3/games/ffl/seasons/${season}/segments/0/leagues/${id}`;
+        const raw = await espnGet(`${base}?${q}`);
         const clean = JSON.parse(scrub(JSON.stringify(raw), ESPN_SWID.value()));
-        await commit(`league-${id}.json`, JSON.stringify(slim(clean)));
+        const out: any = slim(clean);
+
+        // Best effort, in its own try. A wire failure must not cost us the
+        // rosters, which are what the app actually renders.
+        try {
+          const pool = await espnGet(`${base}?view=kona_player_info`, WIRE_FILTER);
+          out.wire = slimWire(pool, out.scoringPeriod);
+        } catch (we) {
+          out.wire = [];
+          out.wireError = String(we).slice(0, 200);
+        }
+
+        try {
+          out.proTeams = await fetchProTeams(season, out.scoringPeriod);
+        } catch (pe) {
+          out.proTeamsError = String(pe).slice(0, 200);
+        }
+
+        try {
+          const act = await espnGet(
+            `${base}/communication/?view=kona_league_communication`,
+            ACTIVITY_FILTER
+          );
+          out.activity = slimActivity(act);
+        } catch (ae) {
+          out.activity = [];
+          out.activityError = String(ae).slice(0, 200);
+        }
+
+        await commit(`league-${id}.json`, JSON.stringify(out));
       } catch (e) {
         // One league failing must not stop the others.
         await commit(

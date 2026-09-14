@@ -74,6 +74,9 @@ fun TodayScreen(
     onSwapTo: ((com.aviato.fantasybrief.data.RosterPlayer,
         com.aviato.fantasybrief.data.RosterPlayer) -> Unit)? = null,
     remoteInsights: com.aviato.fantasybrief.data.InsightPayload? = null,
+    daily: com.aviato.fantasybrief.data.DailyBrief? = null,
+    starred: Set<Int> = emptySet(),
+    onStar: ((Int) -> Unit)? = null,
     onOpenMatchup: () -> Unit = {},
     onOpenWire: () -> Unit = {},
     onAcquire: ((com.aviato.fantasybrief.data.WirePlayer) -> Unit)? = null,
@@ -177,7 +180,14 @@ fun TodayScreen(
         Box(Modifier.fillMaxWidth().height(1.dp).background(Ink.border))
 
         if (state.todayPane == 1) {
-            InsightsPane(b, remoteInsights, bottomInset, onPlayer)
+            DailyBriefPane(
+                brief = b, daily = daily, bottomInset = bottomInset,
+                onPlayer = onPlayer,
+                onAcquire = { w -> onAcquire?.invoke(w) },
+                onSwapTo = { s, t -> onSwapTo?.invoke(s, t) },
+                starred = starred,
+                onStar = onStar
+            )
             return@Column
         }
 
@@ -245,7 +255,14 @@ fun TodayScreen(
                 }
                 if (atRiskOpen) {
                     items(atRisk, key = { "ar-${it.backup.playerId}" }) { pair ->
-                        AtRiskCard(pair, b, onPlayer) { w -> onAcquire?.invoke(w) }
+                        AtRiskCard(
+                            pair, b,
+                            remoteInsights?.items?.firstOrNull { i ->
+                                i.playerId == pair.starter.playerId &&
+                                    i.section == com.aviato.fantasybrief.data.Section.AT_RISK
+                            },
+                            onPlayer
+                        ) { w -> onAcquire?.invoke(w) }
                     }
                 }
             }

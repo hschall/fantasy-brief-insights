@@ -65,11 +65,15 @@ class LeagueScreenState(
         set(v) { global.teamPane = v }
 
     val calendarScroll = LazyListState()
+
+    /** Player whose note is open on the team tab. One at a time. */
+    var expandedNote by mutableStateOf<Int?>(null)
 }
 
 /** Filters follow you between leagues; they describe intent, not position. */
 class GlobalScreenState {
     var wireTab by mutableStateOf(0)              // 0 board, 1 depth
+    var wireStarredOnly by mutableStateOf(false)  // composes with position
     var todayPane by mutableStateOf(0)            // 0 today, 1 insights
     var teamPane by mutableStateOf(0)             // 0 roster, 1 calendar
     var wirePosition by mutableStateOf<String?>(null)

@@ -68,6 +68,9 @@ fun WireScreen(
     state: LeagueScreenState = remember { LeagueScreenState() },
     global: GlobalScreenState = remember { GlobalScreenState() },
     onRefresh: () -> Unit = {},
+    /** Same collection the Insights candidates star writes to. */
+    starred: Set<Int> = emptySet(),
+    onStar: ((Int) -> Unit)? = null,
 ) {
     // Hoisted: these were disposed on every swipe away.
     val tab = if (global.wireTab == 0) WireTab.BOARD else WireTab.DEPTH
@@ -156,7 +159,11 @@ fun WireScreen(
                 onSort = { global.wireSort = it },
                 onStartersOnly = { global.wireStartersOnly = it },
                 onPlayer = onPlayer,
-                onAcquire = onAcquire
+                onAcquire = onAcquire,
+                starred = starred,
+                onStar = onStar,
+                starredOnly = global.wireStarredOnly,
+                onStarredOnly = { global.wireStarredOnly = it }
             )
             WireTab.DEPTH -> DepthTab(b, bottomInset, onPlayer)
         }
@@ -177,10 +184,17 @@ private fun BoardTab(
     onStartersOnly: (Boolean) -> Unit,
     scrollState: androidx.compose.foundation.lazy.LazyListState,
     onPlayer: (PlayerFocus) -> Unit,
-    onAcquire: ((WirePlayer) -> Unit)?
+    onAcquire: ((WirePlayer) -> Unit)?,
+    starred: Set<Int> = emptySet(),
+    onStar: ((Int) -> Unit)? = null,
+    starredOnly: Boolean = false,
+    onStarredOnly: ((Boolean) -> Unit)? = null
 ) {
-    val shown = remember(entries, position, sort, startersOnly) {
+    val shown = remember(entries, position, sort, startersOnly, starredOnly, starred) {
+        // Composes with the position filter rather than replacing it, so
+        // "starred receivers" is a question you can ask.
         WireBoard.view(entries, position, sort, startersOnly)
+            .filter { !starredOnly || it.player.playerId in starred }
     }
     val best = remember(entries) { WireBoard.bestAvailable(entries) }
 
@@ -238,6 +252,10 @@ private fun BoardTab(
                 Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 6.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
+                Chip2("\u2605 STARRED", starredOnly) {
+                    onStarredOnly?.invoke(!starredOnly)
+                }
+                Spacer(Modifier.width(6.dp))
                 Chip2("STARTERS ONLY", startersOnly) { onStartersOnly(!startersOnly) }
                 Spacer(Modifier.width(10.dp))
                 Text(
@@ -271,7 +289,7 @@ private fun BoardTab(
         }
 
         itemsIndexed(shown, key = { _, e -> "b-${e.player.playerId}" }) { i, e ->
-            BoardRow(e, i, b, onPlayer, onAcquire)
+            BoardRow(e, i, b, onPlayer, onAcquire, e.player.playerId in starred, onStar)
         }
     }
 }
@@ -283,7 +301,9 @@ private fun BoardRow(
     index: Int,
     b: Brief,
     onPlayer: (PlayerFocus) -> Unit,
-    onAcquire: ((WirePlayer) -> Unit)?
+    onAcquire: ((WirePlayer) -> Unit)?,
+    isStarred: Boolean = false,
+    onStar: ((Int) -> Unit)? = null
 ) {
     val p = e.player
     val gain = e.lineupGain
@@ -413,6 +433,16 @@ private fun BoardRow(
                 }),
                 modifier = Modifier.width(46.dp), textAlign = TextAlign.End
             )
+            Box(
+                Modifier.width(30.dp).height(44.dp)
+                    .clickable(enabled = onStar != null) { onStar?.invoke(p.playerId) },
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    if (isStarred) "\u2605" else "\u2606",
+                    style = inkLabel(13.0, if (isStarred) Ink.positive else Color(0x4D7FB0E0))
+                )
+            }
         }
         }
     }

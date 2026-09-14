@@ -319,6 +319,15 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
     val uploader = remember { BriefUploader(context) }
     val insightsApi = remember { InsightsApi(SecretStore(context)) }
     val insightsCache = remember { mutableStateMapOf<String, InsightPayload>() }
+    // One store, app-wide. The wire board's star reads the same set.
+    val favourites = remember {
+        com.aviato.fantasybrief.data.FavouriteStore(context)
+    }
+    // The daily brief rides the same refresh as insights: one network
+    // pass, one cache per league, same failure handling.
+    val dailyCache = remember {
+        mutableStateMapOf<String, com.aviato.fantasybrief.data.DailyBrief>()
+    }
     // Guards against a league being fetched twice concurrently.
     var warming by remember { mutableStateOf(setOf<String>()) }
     // Boot progress. Only meaningful before the first brief exists;
@@ -375,6 +384,9 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                         withContext(Dispatchers.IO) {
                             insightsApi.fetchInsights(ref.leagueId)
                         }?.let { insightsCache[ref.key] = it }
+                        withContext(Dispatchers.IO) {
+                            insightsApi.fetchDailyBrief(ref.leagueId)
+                        }?.let { dailyCache[ref.key] = it }
                         // Only the active page reads `brief` directly; the
                         // cache write above is what the others render from.
                         if (ref.key == activeLeague?.key) {
@@ -431,6 +443,9 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                     withContext(Dispatchers.IO) {
                         insightsApi.fetchInsights(ref.leagueId)
                     }?.let { insightsCache[ref.key] = it }
+                    withContext(Dispatchers.IO) {
+                        insightsApi.fetchDailyBrief(ref.leagueId)
+                    }?.let { dailyCache[ref.key] = it }
                     // Every path that refreshes should say so — the pull
                     // gesture went through a different caller than the
                     // button and was silent.
@@ -621,6 +636,13 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                                     onSwitchLeague = { showPicker = true },
                                     onPlayer = { focused = it },
                                     remoteInsights = insightsCache[ref?.key],
+                                    daily = dailyCache[ref?.key],
+                                    starred = ref?.leagueId?.let {
+                                        favourites.ids(it)
+                                    } ?: emptySet(),
+                                    onStar = { pid ->
+                                        ref?.leagueId?.let { favourites.toggle(it, pid) }
+                                    },
                                     onMovePlayer = if (isActive) {
                                         { movingPlayer = it; swapPreselect = null
                                             writeError = null; inkSheet = true }
@@ -693,7 +715,8 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                                 bottomInset = inset,
                                 onPlayer = { focused = it },
                                 onMovePlayer = if (isActive) {
-                                    { movingPlayer = it; writeError = null; inkSheet = true }
+                                    { movingPlayer = it; swapPreselect = null
+                                        writeError = null; inkSheet = true }
                                 } else null
                             )
                         }
@@ -713,7 +736,8 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                     },
                     bottomInset = inset,
                     onPlayer = { focused = it },
-                    onMovePlayer = { movingPlayer = it; writeError = null; inkSheet = true }
+                    onMovePlayer = { movingPlayer = it; swapPreselect = null
+                                        writeError = null; inkSheet = true }
                 )
 
                 Tab.ROSTER -> if (leagues.size > 1) {
@@ -758,9 +782,14 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                                 lockedPlayerIds = insightsCache[ref.key]?.items
                                     ?.filter { it.kind.equals("LOCK", true) }
                                     ?.mapNotNull { it.playerId }?.toSet().orEmpty(),
+                                notes = insightsCache[ref.key]?.items
+                                    ?.filter { it.playerId != null }
+                                    ?.groupBy { it.playerId!! }.orEmpty(),
+                                notesAt = insightsCache[ref.key]?.generatedAtMillis,
                                 onMovePlayer = {
                                     if (isActive) {
-                                        movingPlayer = it; writeError = null; inkSheet = false
+                                        movingPlayer = it; swapPreselect = null
+                                        writeError = null; inkSheet = false
                                     }
                                 },
                                 onRefresh = { if (isActive) refresh(force = true) },
@@ -773,11 +802,16 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                 } else RosterScreen(
                     brief, loading, live, inset,
                     onPlayer = { focused = it },
-                    onMovePlayer = { movingPlayer = it; writeError = null; inkSheet = false },
+                    onMovePlayer = { movingPlayer = it; swapPreselect = null
+                        writeError = null; inkSheet = false },
                     state = screens.forLeague(activeLeague?.key ?: "none"),
                     lockedPlayerIds = insightsCache[activeLeague?.key]?.items
                         ?.filter { it.kind.equals("LOCK", true) }
-                        ?.mapNotNull { it.playerId }?.toSet().orEmpty()
+                        ?.mapNotNull { it.playerId }?.toSet().orEmpty(),
+                    notes = insightsCache[activeLeague?.key]?.items
+                        ?.filter { it.playerId != null }
+                        ?.groupBy { it.playerId!! }.orEmpty(),
+                    notesAt = insightsCache[activeLeague?.key]?.generatedAtMillis
                 )
                 Tab.WIRE -> if (showClaims) {
                     ClaimsScreen(
@@ -841,6 +875,10 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                                         scheduledList = scheduledAdds.all()
                                         showClaims = true
                                     },
+                                    starred = favourites.ids(ref.leagueId),
+                                    onStar = { pid ->
+                                        favourites.toggle(ref.leagueId, pid)
+                                    },
                                     onRefresh = { if (isActive) refresh(force = true) },
                                     state = screens.forLeague(ref.key),
                                     global = screens.global
@@ -861,6 +899,11 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                     onOpenClaims = {
                         scheduledList = scheduledAdds.all(); showClaims = true
                     },
+                    starred = activeLeague?.leagueId?.let { favourites.ids(it) }
+                        ?: emptySet(),
+                    onStar = { pid ->
+                        activeLeague?.leagueId?.let { favourites.toggle(it, pid) }
+                    },
                     state = screens.forLeague(activeLeague?.key ?: "none"),
                     global = screens.global
                 )
@@ -872,6 +915,9 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
         brief?.let { b ->
             PlayerSheet(
                 focus = f, brief = b,
+                notes = insightsCache[activeLeague?.key]?.items
+                    ?.filter { it.playerId == f.playerId }.orEmpty(),
+                notesAt = insightsCache[activeLeague?.key]?.generatedAtMillis,
                 onAcquire = {
                     b.pool.firstOrNull { it.playerId == f.playerId }?.let { w ->
                         focused = null; acquiring = w; writeError = null
@@ -1102,6 +1148,7 @@ private fun SignedInApp(store: SecretStore, onSignOut: () -> Unit) {
                         if (res.ok) {
                             toast = "Lineup updated"
                             movingPlayer = null
+                            swapPreselect = null
                             // The cached Brief now describes a lineup that no
                             // longer exists, so force a real refetch.
                             briefCache.remove(ref.key)

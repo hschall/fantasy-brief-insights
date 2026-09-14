@@ -68,7 +68,10 @@ fun RosterScreen(
      * analysis rather than scraped: the column publishes weekly and a
      * parser against its markup broke silently.
      */
-    lockedPlayerIds: Set<Int> = emptySet()
+    lockedPlayerIds: Set<Int> = emptySet(),
+    /** Notes keyed by playerId. Bench included. */
+    notes: Map<Int, List<com.aviato.fantasybrief.data.Insight>> = emptyMap(),
+    notesAt: Long? = null
 ) {
     // Hoisted so a swipe away does not reset the week you were looking at.
     val overrideTeamId = state.overrideTeamId
@@ -233,6 +236,8 @@ fun RosterScreen(
                 pro = pro,
                 week = week,
                 ownerTeamId = team.id,
+                live = live,
+                archive = archive?.rosters?.get(team.id),
                 bottomInset = bottomInset,
                 listState = state.calendarScroll,
                 onPlayer = { onPlayer(it.focus(team.id)) }
@@ -295,22 +300,32 @@ fun RosterScreen(
             }
             item { TeamSection("STARTERS", "BAR MARK = LEAGUE MEDIAN") }
             items(starters, key = { "start-${it.playerId}" }) { p ->
-                RosterTile(
+                NotedTile(
                     p, brief, week, true, valueOf(p), slotOf(p),
-                    hasPlayed = hasPlayed(p),
-                    locked = p.playerId in lockedPlayerIds,
-                    onTap = { onPlayer(p.focus(team.id)) },
+                    hasPlayed(p), p.playerId in lockedPlayerIds,
+                    notes[p.playerId].orEmpty(), notesAt,
+                    state.expandedNote == p.playerId,
+                    onToggle = {
+                        state.expandedNote =
+                            if (state.expandedNote == p.playerId) null else p.playerId
+                    },
+                    onDetail = { onPlayer(p.focus(team.id)) },
                     onHold = { onMovePlayer(p) }
                 )
             }
 
             item { TeamSection("BENCH", "HOLD TO SWAP") }
             items(bench, key = { "bench-${it.playerId}" }) { p ->
-                RosterTile(
+                NotedTile(
                     p, brief, week, false, valueOf(p), slotOf(p),
-                    hasPlayed = hasPlayed(p),
-                    locked = p.playerId in lockedPlayerIds,
-                    onTap = { onPlayer(p.focus(team.id)) },
+                    hasPlayed(p), p.playerId in lockedPlayerIds,
+                    notes[p.playerId].orEmpty(), notesAt,
+                    state.expandedNote == p.playerId,
+                    onToggle = {
+                        state.expandedNote =
+                            if (state.expandedNote == p.playerId) null else p.playerId
+                    },
+                    onDetail = { onPlayer(p.focus(team.id)) },
                     onHold = { onMovePlayer(p) }
                 )
             }
@@ -403,6 +418,60 @@ private fun TeamMasthead(
     }
 }
 
+@Composable
+private fun NotedTile(
+    p: RosterPlayer, brief: Brief, week: Int, isStarter: Boolean,
+    shownValue: Double?, slotId: Int, hasPlayed: Boolean, locked: Boolean,
+    notes: List<com.aviato.fantasybrief.data.Insight>, notesAt: Long?,
+    open: Boolean, onToggle: () -> Unit, onDetail: () -> Unit, onHold: () -> Unit
+) {
+    Column {
+        RosterTile(
+            p, brief, week, isStarter, shownValue, slotId,
+            onTap = onToggle, onHold = onHold,
+            hasPlayed = hasPlayed, locked = locked,
+            hasNote = notes.isNotEmpty()
+        )
+        if (open) {
+            Column(
+                Modifier.fillMaxWidth()
+                    .padding(start = 42.dp, end = 12.dp, top = 2.dp, bottom = 6.dp)
+                    .clip(RoundedCornerShape(9.dp))
+                    .background(Ink.accent.copy(alpha = 0.07f))
+                    .padding(12.dp)
+            ) {
+                if (notes.isEmpty()) {
+                    Text("No notes on " + p.name + " this week.",
+                        style = inkBody(11.5, Ink.mid))
+                } else {
+                    notes.forEach { n ->
+                        n.verdict?.let {
+                            Text(it.uppercase(), style = inkLabel(9.0, Ink.accent))
+                        }
+                        Text(n.headline, style = inkBody(13.0, Ink.paper),
+                            modifier = Modifier.padding(top = 2.dp))
+                        n.evidence?.takeIf { it.isNotBlank() }?.let {
+                            Text(it, style = inkBody(11.0, Ink.mid), lineHeight = 15.sp,
+                                modifier = Modifier.padding(top = 6.dp))
+                        }
+                        if (n.body.isNotBlank()) {
+                            Text(n.body, style = inkBody(11.0, Ink.mid), lineHeight = 15.sp,
+                                modifier = Modifier.padding(top = 6.dp))
+                        }
+                        com.aviato.fantasybrief.data.notePostedLabel(notesAt)?.let {
+                            Text("posted " + it, style = inkLabel(8.5, Ink.mid),
+                                modifier = Modifier.padding(top = 8.dp))
+                        }
+                        Spacer(Modifier.height(10.dp))
+                    }
+                }
+                Text("FULL DETAIL", style = inkLabel(9.0, Ink.accent),
+                    modifier = Modifier.clickable(onClick = onDetail).padding(top = 2.dp))
+            }
+        }
+    }
+}
+
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun RosterTile(
@@ -417,7 +486,9 @@ private fun RosterTile(
     /** His game has kicked off, so the number is a result not a forecast. */
     hasPlayed: Boolean = false,
     /** Flagged as a lineup lock in this week's analysis. */
-    locked: Boolean = false
+    locked: Boolean = false,
+    /** Something has been written about him — shows the envelope. */
+    hasNote: Boolean = false
 ) {
     val pro = brief.proTeams
     val median = brief.replacement.elite(medianPositionFor(slotId, p.position))
@@ -509,6 +580,11 @@ private fun RosterTile(
                             if (!isStarter) {
                                 Spacer(Modifier.width(6.dp))
                                 Text(p.position, style = inkLabel(9.0, txtAccent))
+                            }
+
+                            if (hasNote) {
+                                Spacer(Modifier.width(6.dp))
+                                Text("\u2709", style = inkLabel(11.0, Ink.accent))
                             }
 
                             if (!p.healthy) {

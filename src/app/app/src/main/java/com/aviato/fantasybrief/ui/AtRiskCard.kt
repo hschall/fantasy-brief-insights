@@ -41,6 +41,16 @@ import com.aviato.fantasybrief.data.WirePlayer
 fun AtRiskCard(
     pair: AtRiskPair,
     brief: Brief,
+    /**
+     * Researched verdict on this starter, when there is one.
+     *
+     * certaintyLabel is derived from the designation string alone — every
+     * QUESTIONABLE in the league reads "Genuinely uncertain", which is true
+     * and useless. A designation is a label, not a probability, and only
+     * practice reports settle it. When a verdict exists it replaces that line
+     * and brings its evidence with it.
+     */
+    insight: com.aviato.fantasybrief.data.Insight? = null,
     onPlayer: (PlayerFocus) -> Unit,
     onAcquire: ((WirePlayer) -> Unit)?
 ) {
@@ -158,9 +168,12 @@ tint.copy(alpha = 0.08f)
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 Text(
-                    pair.certaintyLabel,
-                    style = inkBody(10.0,
-                        if (pair.certainty >= 70) Ink.negative else Ink.mid),
+                    insight?.verdict ?: pair.certaintyLabel,
+                    style = inkBody(10.0, when {
+                        insight?.verdict != null -> Ink.paper
+                        pair.certainty >= 70 -> Ink.negative
+                        else -> Ink.mid
+                    }),
                     modifier = Modifier.padding(top = 2.dp)
                 )
             }

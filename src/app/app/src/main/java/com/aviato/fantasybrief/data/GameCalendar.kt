@@ -35,7 +35,7 @@ data class WeekCalendar(
     val days: List<CalendarDay>,
     val byes: List<RosterPlayer>
 ) {
-    private val entries: List<CalendarEntry>
+    val entries: List<CalendarEntry>
         get() = days.flatMap { it.slots }.flatMap { it.entries }
 
     val startersLeft: Int get() = entries.count { it.player.isStarter && !it.kickedOff }

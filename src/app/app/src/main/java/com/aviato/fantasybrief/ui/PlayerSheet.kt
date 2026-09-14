@@ -75,6 +75,16 @@ fun PlayerSheet(
     focus: PlayerFocus,
     brief: Brief,
     onAcquire: (() -> Unit)? = null,
+    /**
+     * Everything written about this player, including bench and other teams'.
+     *
+     * A list is the wrong home for a note about one player: you read it once,
+     * then it scrolls away and the player it describes lives somewhere else.
+     * Attached to the player, it is there whenever you look him up.
+     */
+    notes: List<com.aviato.fantasybrief.data.Insight> = emptyList(),
+    /** When the payload these came from was written. */
+    notesAt: Long? = null,
     onDismiss: () -> Unit
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
@@ -114,6 +124,57 @@ fun PlayerSheet(
                         (pro.byeWeek(focus.proTeamId)?.let { "bye $it" } ?: "")
                             to Fb.Faint
                     )
+                }
+            }
+
+            if (notes.isNotEmpty()) {
+                Spacer(Modifier.height(16.dp))
+                notes.forEach { n ->
+                    Column(
+                        Modifier.fillMaxWidth().padding(bottom = 8.dp)
+                            .clip(RoundedCornerShape(10.dp))
+                            .background(Fb.Teal.copy(alpha = 0.10f))
+                            .padding(12.dp)
+                    ) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            n.verdict?.let {
+                                Text(it.uppercase(), color = Fb.Teal, fontSize = 10.sp,
+                                    fontWeight = FontWeight.Bold)
+                                Spacer(Modifier.width(8.dp))
+                            }
+                            Text(n.section.replace('_', ' '), color = Fb.Faint,
+                                fontSize = 10.sp)
+                        }
+                        Text(n.headline, color = Fb.Ink, fontSize = 14.sp,
+                            modifier = Modifier.padding(top = 4.dp))
+                        n.evidence?.takeIf { it.isNotBlank() }?.let {
+                            Text(it, color = Fb.Muted, fontSize = 12.sp,
+                                lineHeight = 17.sp,
+                                modifier = Modifier.padding(top = 6.dp))
+                        }
+                        if (n.body.isNotBlank()) {
+                            Text(n.body, color = Fb.Muted, fontSize = 12.sp,
+                                lineHeight = 17.sp,
+                                modifier = Modifier.padding(top = 6.dp))
+                        }
+                        // Two different clocks, and confusing them is the whole
+                        // risk: sourceAt is when the reporting was published,
+                        // notesAt is when this was written off the back of it.
+                        val posted = com.aviato.fantasybrief.data
+                            .notePostedLabel(notesAt)
+                        val sourced = com.aviato.fantasybrief.data
+                            .notePostedLabel(n.sourceAtMillis)
+                        if (posted != null || sourced != null) {
+                            Text(
+                                listOfNotNull(
+                                    posted?.let { "posted $it" },
+                                    sourced?.let { "source $it" }
+                                ).joinToString("  \u00B7  "),
+                                color = Fb.Faint, fontSize = 10.sp,
+                                modifier = Modifier.padding(top = 8.dp)
+                            )
+                        }
+                    }
                 }
             }
 

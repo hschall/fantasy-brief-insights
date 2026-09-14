@@ -3,6 +3,7 @@ package com.aviato.fantasybrief.data
 enum class Tier(val label: String) {
     ELITE("ELITE"),
     SOLID("SOLID"),
+    ORPHAN("DROPPED STARTER"),
     LOTTERY("LOTTERY TICKET"),
     HANDCUFF("MY HANDCUFF"),
     STREAMER("STREAMER")
@@ -26,6 +27,38 @@ data class TieredPlayer(
  * improve one of the ten starting lineups.
  */
 object WireTiers {
+
+    /**
+     * Widely rostered everywhere else, yet free here.
+     *
+     * The tiers above rank a player against this league's replacement level,
+     * which is the right question and catches almost everything. It cannot
+     * catch one case: a player the wider market rates as a starter who is
+     * sitting unowned because a manager in THIS league made a mistake. He is
+     * below the local median by definition — that is why he was droppable —
+     * and his ownership delta is flat or negative, because being dropped in
+     * one ten-team league does not move a national percentage.
+     *
+     * So he clears no tier and vanishes. Brian Thomas Jr: 84% rostered, WR37,
+     * projecting 8.6, a free agent in Chem, and absent from every section of
+     * the dump.
+     *
+     * High national ownership is HALF the signal. On its own it cannot tell a
+     * blunder from structural surplus: a ten-team league starting one QB
+     * leaves twenty-two of the NFL's thirty-two starters unrostered forever,
+     * so every backup quarterback alive is "widely owned and free here". The
+     * first cut of this tier returned Bo Nix, Brock Purdy and Kyler Murray
+     * and buried the one name that mattered.
+     *
+     * The other half is whether he would actually displace something. An
+     * orphan has to beat the worst player I already hold at his position —
+     * otherwise he is a curiosity, not a move. Nix at 16.4 loses to Stafford
+     * at 17.6 and drops out; Thomas at 8.6 beat Diggs at 7.5 and stayed.
+     *
+     * The projection floor keeps out kickers and bye-week bodies.
+     */
+    private const val ORPHAN_MIN_OWNED = 50.0
+    private const val ORPHAN_MIN_PROJ = 5.0
 
     private const val LOTTERY_MAX_OWNED = 15.0
     private const val LOTTERY_MIN_DELTA = 1.5
@@ -61,6 +94,12 @@ object WireTiers {
         }.toSet()
         val myRbTeams = mine.filter { it.positionId == 2 }.map { it.proTeamId }.toSet()
 
+        // The weakest thing I already roster at each position. Empty means I
+        // hold nobody there, so anything clears.
+        val worstByPosition = mine.groupBy { it.positionId }
+            .mapValues { (_, ps) -> ps.minOf { it.projection ?: 0.0 } }
+        fun worstMine(positionId: Int) = worstByPosition[positionId] ?: 0.0
+
         val out = wire.mapNotNull { p ->
             // A handcuff shares his starter's bye BY DEFINITION — same NFL
             // team. Flagging that as a clash inverts the meaning: covering the
@@ -90,6 +129,9 @@ object WireTiers {
                 p.positionId == 5 || p.positionId == 16 -> Tier.STREAMER
                 replacement.rank(p.position, p.projection) == "ELITE" -> Tier.ELITE
                 replacement.rank(p.position, p.projection) == "SOLID" -> Tier.SOLID
+                p.percentOwned >= ORPHAN_MIN_OWNED &&
+                    (p.projection ?: 0.0) >= ORPHAN_MIN_PROJ &&
+                    (p.projection ?: 0.0) > worstMine(p.positionId) -> Tier.ORPHAN
                 p.percentOwned < LOTTERY_MAX_OWNED &&
                     p.percentChange >= LOTTERY_MIN_DELTA -> Tier.LOTTERY
                 isHandcuff && (p.projection ?: 0.0) >= HANDCUFF_MIN_PROJ ->
@@ -101,6 +143,9 @@ object WireTiers {
                 Tier.ELITE -> replacement.elite(p.position)?.let {
                     "clears the ${p.position} median starter (${fmt(it)})"
                 }
+                Tier.ORPHAN ->
+                    "${fmt(p.percentOwned)}% rostered nationally and free here — " +
+                        "someone dropped a starter"
                 Tier.LOTTERY -> "value depends on news that hasn't happened yet"
                 Tier.HANDCUFF -> {
                     val aheadId = depth.startsAheadOf(p.proTeamId, p.playerId)
