@@ -1,24 +1,24 @@
 {
  "week": 1,
- "generatedAt": "2026-09-14T03:37:37Z",
+ "generatedAt": "2026-09-14T04:20:00Z",
  "leagueId": "1325565673",
  "defense": {},
  "doFirst": [],
  "trades": [
   {
-   "id": "t13-golden-allen",
+   "id": "t13-golden-lamar",
    "partnerTeamId": 13,
    "odds": "EVEN",
    "youGive": [4701936],
-   "youGet": [3918298],
-   "yourGain": 1.9,
-   "theirGain": 0.8,
-   "headline": "Their second quarterback scores them nothing every week, and their flex is a tight end",
-   "yourSurplus": "Golden is your WR4 behind Rice and Wilson and does not enter the lineup while both are healthy. His 15.5 in week 1 raises his price, so this is harder than it was yesterday.",
-   "theirHole": "Team 13 roster Josh Allen and Lamar Jackson in a one-quarterback league and start Travis Kelce in their RB/WR/TE flex because no third receiver clears him. Golden fixes the flex; the quarterback they give up never plays.",
-   "yourLineup": "Allen at quarterback. Worth noting this is now a luxury rather than a need — Lawrence scored 25.6 on your bench while Stafford started and scored 4.1, and he solves the position for free.",
-   "theirLineup": "They keep Lamar and put Golden in the flex over Kelce.",
-   "risk": "Golden's 15.5 may have corrected their valuation. Lead with their flex problem, not your quarterback problem. And do not overpay: you no longer need this trade, you would just like it."
+   "youGet": [3916387],
+   "yourGain": 26.5,
+   "theirGain": 12.2,
+   "headline": "Lamar Jackson sits on their bench every week while they start Josh Allen",
+   "yourSurplus": "Golden is Green Bay's WR3. The Packers paid Christian Watson $110.5M in June and extended Jayden Reed at $50.25M, and Watson opened at a 68% snap share to Golden's developing role. Golden has not started a week for you and would not start one behind Rice and Wilson.",
+   "theirHole": "Team 13 hold Josh Allen at slot 0 and Lamar Jackson on the bench at slot 20 in a one-quarterback league, so Jackson scores them nothing. Their flex is Travis Kelce because no third receiver clears him — Golden fixes that.",
+   "yourLineup": "Jackson takes the quarterback slot from Stafford; Tuten stays in the flex. Jackson declared himself fully healthy in September and his head coach called him in peak condition after an injury-hit 2025.",
+   "theirLineup": "Golden replaces Kelce in their RB/WR/TE flex. Allen is untouched at quarterback.",
+   "risk": "This replaces an earlier version of this card that asked for Josh Allen. That version was wrong: Allen is their starter, so giving him up costs Team 13 roughly 41 points of best-lineup season value and would never be accepted. The structural read was right and the named player was not — I did not check their slot column before proposing. Remaining risk: you would then hold three quarterbacks, which makes Stafford the next thing to move, and Jackson's 2025 ended with recurring soft-tissue injuries."
   }
  ],
  "candidates": [
