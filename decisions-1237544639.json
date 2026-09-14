@@ -1,7 +1,6 @@
 {
  "leagueId": "1237544639",
- "updatedAt": "2026-09-14T02:05:20Z",
- "seededFrom": "activity log, 14 Sep 2026",
+ "updatedAt": "2026-09-14T02:18:50Z",
  "open": [
   {
    "id": "chem-add-thomas-2026-09-12",
@@ -12,9 +11,10 @@
    "playerId": 4432773,
    "playerName": "Brian Thomas Jr.",
    "gaveUpName": "Stefon Diggs",
-   "thesis": "84% rostered nationally and dropped by Footballers \u2014 an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers.",
-   "falsifiedIf": "Target share stays under about 18% through week 3, or Meyers/Hunter pass him on the depth chart.",
-   "reviewAfterWeek": 3
+   "thesis": "84% rostered nationally and dropped by Footballers — an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers.",
+   "falsifiedIf": "Target share stays under about 18% through week 3, or Meyers/Washington pass him on the depth chart.",
+   "reviewAfterWeek": 3,
+   "review": "14 Sep: wobbling. 7.0 in week 1. Reporting has Meyers and Parker Washington at the top of that room with Thomas and Hunter chasing, and PFN project a 19.3% target share. Not falsified, but the premise that he is the listed WR1 ahead of Meyers is now contested. Hold to week 3 as planned."
   },
   {
    "id": "chem-start-warren-2026-09-13",
@@ -27,19 +27,34 @@
    "gaveUpName": "Bhayshul Tuten (benched)",
    "thesis": "Pittsburgh's listed RB1 and the primary passing-down back. Chem switched to full PPR, which doubles the value of the receiving edge that had made him a sit.",
    "falsifiedIf": "Dowdle out-touches him materially two weeks running, or Warren's target share drops below Dowdle's.",
-   "reviewAfterWeek": 3
+   "reviewAfterWeek": 3,
+   "review": "14 Sep: HELD. Warren out-touched Dowdle by five, outpaced him by two carries and one target, and ran 4.6 yards per carry to Dowdle's 1.9. PFN's 3:2-to-Dowdle model was wrong. ESPN expect Warren to stay the narrow leader into week 2 at New England."
   },
   {
    "id": "chem-add-likely-2026-09-13",
    "at": "2026-09-13T19:03:00Z",
    "week": 1,
    "kind": "ADD",
-   "source": "unknown",
-   "playerId": null,
+   "source": "owner, thesis reconstructed",
+   "playerId": 4361050,
    "playerName": "Isaiah Likely",
    "gaveUpName": "Tyler Allgeier",
-   "thesis": "NOT RECORDED. Added by a run whose reasoning was not logged \u2014 this is the gap the log exists to close. Do not drop him without first establishing what he was added for.",
-   "falsifiedIf": "Unknown. Treat as open until a thesis is written or he is clearly redundant behind Pitts.",
+   "thesis": "Reconstructed after the fact from reporting, not from the run that made the add. Likely signed 3yr/$40M to follow Harbaugh from Baltimore and is the undisputed Giants TE1 and primary slot option, with Nabers coming off an ACL and a receiver room only four deep. 16.9 in week 1. The add was right.",
+   "falsifiedIf": "Nabers returns to full health and Likely's route share drops below about 60%, or Theo Johnson takes the 11-personnel snaps back.",
+   "reviewAfterWeek": 3,
+   "review": "14 Sep: a later run recommended dropping him for Xavier Worthy. That recommendation is withdrawn. Likely outscored Pitts 16.9 to 0.0 and has the better role; the Chem flex being RB/WR does not make a productive TE worthless, it makes him the TE1 in waiting."
+  },
+  {
+   "id": "chem-claim-coker-2026-09-14",
+   "at": "2026-09-14T02:18:50Z",
+   "week": 1,
+   "kind": "CLAIM",
+   "source": "assistant",
+   "playerId": 4695883,
+   "playerName": "Jalen Coker",
+   "gaveUpName": "Matthew Stafford",
+   "thesis": "8 of 9 for 138 and two scores, led Carolina in every receiving category while McMillan was quiet until garbage time. 50% rostered is an anomaly in a ten-team league. Carolina draw Atlanta then Cleveland. Chem priority resets weekly so the claim is free.",
+   "falsifiedIf": "McMillan reasserts as the clear alpha and Coker's target share falls under about 18% across weeks 2-3, or the week 1 line proves to have been garbage-time inflated.",
    "reviewAfterWeek": 3
   }
  ],
@@ -49,6 +64,18 @@
    "week": 1,
    "outcome": "CHURN",
    "summary": "One bench slot went Goedert -> Allgeier -> Likely in five days. Each step was defensible on projection; the sequence gained nothing and cost two roster moves. The Allgeier drop also came two days after he was named Arizona's listed RB1."
+  },
+  {
+   "at": "2026-09-14T02:18:50Z",
+   "week": 1,
+   "outcome": "WRONG",
+   "summary": "Recommended dropping Kyle Monangai for Tre Tucker on 13 Sep. Monangai returned from the knee and scored 20.4; Tucker's Bowers-vacuum thesis now has a return date on it. Not acted on. Screening a bench body on projection alone is what the strategy warns against."
+  },
+  {
+   "at": "2026-09-14T02:18:50Z",
+   "week": 1,
+   "outcome": "WRONG",
+   "summary": "A 13 Sep run recommended adding Xavier Worthy and dropping Isaiah Likely, on the reasoning that a second TE is structurally unplayable in a RB/WR flex. Likely scored 16.9 and Pitts scored 0.0. The structural argument was sound and the conclusion was still wrong, because it valued the slot rather than the player. Withdrawn."
   }
  ]
 }
