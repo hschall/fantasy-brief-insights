@@ -498,6 +498,25 @@ projects 12.0 this week and 205.2 for the season while Lloyd projects 12.8
 and 135.6 — a swap the weekly model called free was seventy points of season
 value.
 
+**`seasonProj` is reduced for expected absence, so it is not comparable
+across players with different availability.** Measured on live data, the
+median ratio of `seasonProj` to weekly `proj` is exactly 17.0 — a full
+season of games. A.J. Brown, out four-plus weeks on injured reserve, runs
+12.4. His per-game rate is fine; the total is smaller because he plays
+fewer games.
+
+So a player returning in week 4 will always look worse than a lesser
+healthy one, and he is not. When comparing two players, compare the rate:
+weekly `proj`, or `seasonProj` divided by the games he is expected to play.
+Use the raw total only for "how much will this roster actually score",
+never for "who is the better player".
+
+**The ratio is itself a signal.** `seasonProj ÷ proj` well below 17 means
+either missed games or a role about to change. Michael Mayer ran 9.1 while
+listed ACTIVE — not injured at all; the number had already priced Bowers
+coming back. Treat a low ratio as a prompt to go and find out which of the
+two it is.
+
 **But never rank a roster by raw `seasonProj`.** Quarterbacks always score
 the most, so sorting on it puts them on top and tells you nothing. Stafford
 reads 286 and is worth zero points to a team that starts Josh Allen. What
