@@ -17,11 +17,11 @@ Work in this order. Do not jump ahead to writing.
 - [ ] **1.** Pull both league files
 - [ ] **2.** Diff the settings — before looking at a single player
 - [ ] **3.** Print the full picture: rosters, wire, activity, injuries
-- [ ] **4.** Decide what needs researching
+- [ ] **4.** Read STRATEGY.md and the decision log, then decide what to research
 - [ ] **5.** Research it online — every player you will name, no exceptions
 - [ ] **6.** Write both payloads
 - [ ] **7.** Run the validator
-- [ ] **8.** Publish both files via the GitHub connector, then report
+- [ ] **8.** Publish, update the decision log, then report
 
 A finished run takes 15–25 web searches. If you did fewer than ten, you
 skipped step 5.
@@ -205,21 +205,95 @@ EOF
 
 ---
 
-## STEP 4 — Decide what to research
+## STEP 4 — Read the standing strategy and the decision log
 
-From the output above, build your research list:
+**Before deciding anything, read what has already been decided.** The whole
+point of these two files is that you are not starting from scratch. A run
+that re-derives strategy every morning produces churn: the same slot gets
+optimised twice in a week and the sequence loses points.
+
+```bash
+cd /tmp/fb
+curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/STRATEGY.md" -o STRATEGY.md
+for L in 1237544639 1325565673; do
+  curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/decisions-$L.json" -o decisions-$L.json
+done
+python3 - <<'PY'
+import json
+for L in ['1237544639','1325565673']:
+    d = json.load(open('decisions-%s.json' % L))
+    print('='*72); print(L, '| updated', d['updatedAt'])
+    print('\nOPEN THESES — each of these is a standing position')
+    for o in d.get('open', []):
+        print('  [%s] %s  (%s, week %s, %s)' % (
+            o['kind'], o.get('playerName'), o['id'], o.get('week'), o.get('source')))
+        print('      thesis:      %s' % o.get('thesis'))
+        print('      falsified if: %s' % o.get('falsifiedIf'))
+        print('      review after week %s' % o.get('reviewAfterWeek'))
+    print('\nCLOSED — what went wrong before')
+    for c in d.get('closed', [])[-8:]:
+        print('  %-7s %s' % (c.get('outcome'), c.get('summary')))
+PY
+```
+
+Read `STRATEGY.md` in full. It outranks the per-run optimisation: if the
+numbers like a move that conflicts with it, either the move does not happen
+or the card explains why this is the exception.
+
+### The question to ask about every player already on the roster
+
+Not *"is he the best use of this slot?"* — that re-litigates everything and
+flips on noise. Ask:
+
+> **Has the reason he is here changed?**
+
+A player with an intact open thesis stays, even if someone now projects
+slightly higher. A player whose thesis visibly broke goes, and the card says
+which condition tripped.
+
+**Research the open theses first**, before you look at the wire at all. If a
+thesis is due for review this week, it is the first thing you search. A
+breakout you missed is cheaper than a churn you caused.
+
+### Then build the rest of the research list
 
 1. **Every injury-flagged player on any roster.** An opponent's hurt WR1 is a
    handcuff opportunity and trade leverage, not someone else's problem.
-2. **Every starter in his lineup** whose game has not kicked off.
+2. **Every starter whose game has not kicked off.**
 3. **Every wire player with `why=MONEY` or `why=OWNED`.** OWNED means widely
-   rostered elsewhere and free here — the most valuable thing a wire can hold.
-4. **Anything in the activity log from the last 24h** — an add or drop tells
-   you a manager saw something.
+   rostered elsewhere and free here — the most valuable thing a wire holds in
+   a shallow league.
+4. **Anything in the activity log from the last 24h** — an add or drop means
+   a manager saw something.
 5. **Both sides of any trade** you are considering.
 6. **The defences** his starters and candidates face (see Step 6).
+7. **The rostered kicker and D/ST against the best available.** Report the
+   comparison every run, even when the answer is hold.
 
----
+### Churn guard
+
+`slim()` strips `acquisitionMillis`, so recency comes from the **activity
+log**, not the roster. Before proposing any drop:
+
+```bash
+python3 -c "
+import json,sys,datetime
+L=sys.argv[1]; d=json.load(open('league-%s.json'%L))
+mine=[t for t in d['teams'] if t['isMine']][0]
+P={p['id']:p['name'] for t in d['teams'] for p in t['roster']}
+now=datetime.datetime.now(datetime.timezone.utc)
+print('MY ROSTER MOVES, LAST 10 DAYS — do not churn these slots')
+for a in d.get('activity',[]):
+    if a['teamId']==mine['id'] and a['kind']!='LINEUP':
+        at=datetime.datetime.fromisoformat(a['at'].replace('Z','+00:00'))
+        if (now-at).days<=10:
+            print('  %s %-12s %s'%(a['at'][5:16],a['kind'],P.get(a['playerId'],a['playerId'])))
+" 1237544639
+```
+
+A slot that changed hands in the last 7 days is closed unless someone in it
+is ruled out. Reversing a move made two days ago is never right — it has
+happened twice on this roster and both times it gained nothing.
 
 ## STEP 5 — Research, online, every time
 
@@ -481,7 +555,9 @@ Read these before writing. Each caused a real error.
 
 ---
 
-## STEP 8 — Publish, then report
+## STEP 8 — Publish, log the reasoning, then report
+
+### 8a. Publish the briefs
 
 Write both files to `hschall/fantasy-brief-insights` using the GitHub
 connector, at the repository root:
@@ -489,13 +565,53 @@ connector, at the repository root:
 - `daily-1237544639.json`
 - `daily-1325565673.json`
 
-Both already exist, so this is an update rather than a create. Only publish a
-file that passed Step 7 — if one league failed validation, publish the other
-and say which one you held back and why.
+Both already exist, so this is an update. Only publish a file that passed
+Step 7 — if one league failed validation, publish the other and say which you
+held back and why.
 
-Allow up to five minutes of CDN lag before the app sees the change.
+### 8b. Update the decision log
 
-### Then report
+**This is not optional and it is not paperwork.** It is the only reason the
+next run will not undo what this one did.
+
+For each league, update `decisions-<leagueId>.json`:
+
+**Add an `open` entry for every recommendation you made** — adds, drops,
+lineup changes, trades proposed, and notable holds:
+
+```json
+{
+  "id": "chem-add-tucker-2026-09-16",
+  "at": "2026-09-16T13:00:00Z",
+  "week": 2,
+  "kind": "ADD",
+  "source": "assistant",
+  "playerId": 4361050,
+  "playerName": "Tre Tucker",
+  "gaveUpName": "Kyle Monangai",
+  "thesis": "Why, in one or two sentences. The reason, not the projection.",
+  "falsifiedIf": "What would make this wrong. Write it now, while you have no stake in defending it.",
+  "reviewAfterWeek": 4
+}
+```
+
+`falsifiedIf` is the important field. Written at the time, it lets a future
+run drop a broken thesis quickly instead of defending it because it is on
+the record. A thesis with no falsification condition is a belief, not a
+position.
+
+**Close any thesis that resolved.** Move it to `closed` with one line and an
+outcome — `RIGHT`, `WRONG`, `CHURN` or `EXPIRED`. Keep the last ~30 and drop
+older ones; the file has to stay readable.
+
+**Never drop a player with an open thesis without addressing it.** If the
+card proposes dropping him, it says which condition tripped. If none did, the
+move does not happen.
+
+If nothing was recommended, still bump `updatedAt` and close anything that
+expired. A quiet day is a valid entry.
+
+### 8c. Report
 
 Open your response with:
 
@@ -508,9 +624,13 @@ Every player named anywhere in your response appears in that line. "No
 reporting found, designation likely stale" is a finding — say it rather than
 omitting the player.
 
-Then, briefly, per league: what changed, what he should do, and where you
-found nothing. Give the validator output for each file verbatim, and confirm
-what you published.
+Then, briefly, per league:
+
+- **Open theses reviewed** — which held, which broke, what you did about it.
+- What changed, what he should do, where you found nothing.
+- The kicker and D/ST comparison, even when the answer is hold.
+- The validator output for each file, verbatim.
+- What you published, and what you wrote to the decision log.
 
 ### Voice
 
