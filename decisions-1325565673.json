@@ -1,0 +1,59 @@
+{
+ "leagueId": "1325565673",
+ "updatedAt": "2026-09-14T02:05:20Z",
+ "seededFrom": "activity log, 14 Sep 2026",
+ "open": [
+  {
+   "id": "ipade-trade-tuten-lamar",
+   "at": "2026-09-13T09:00:00Z",
+   "week": 1,
+   "kind": "TRADE_PROPOSED",
+   "source": "assistant",
+   "playerId": null,
+   "playerName": "Lamar Jackson",
+   "gaveUpName": "Bhayshul Tuten",
+   "thesis": "Team 13 roster Josh Allen and Lamar Jackson in a one-QB league \u2014 their second quarterback scores them nothing every week. Behind McCaffrey their backs are White (8.9) and Corum (9.4). Both sides gain: me +1.5, them +2.6.",
+   "falsifiedIf": "They trade one quarterback elsewhere, or they acquire a starting back, which removes the surplus that makes this work.",
+   "reviewAfterWeek": 4
+  },
+  {
+   "id": "ipade-add-mayer-2026-09-10",
+   "at": "2026-09-10T23:53:00Z",
+   "week": 1,
+   "kind": "ADD",
+   "source": "unknown",
+   "playerId": 4429086,
+   "playerName": "Michael Mayer",
+   "gaveUpName": "Tyler Allgeier",
+   "thesis": "Bowers had a meniscus trim and is out one to two weeks. Mayer is Las Vegas' TE1 and was just extended three years. The IPADE flex takes a tight end, so a second startable TE has real value here.",
+   "falsifiedIf": "Bowers returns and Mayer's route share drops back under about 50%.",
+   "reviewAfterWeek": 4
+  },
+  {
+   "id": "ipade-hold-lawrence",
+   "at": "2026-09-13T09:00:00Z",
+   "week": 1,
+   "kind": "HOLD",
+   "source": "assistant",
+   "playerId": 4360310,
+   "playerName": "Trevor Lawrence",
+   "thesis": "Starts over Stafford from week 2. Ranked QB8 against Stafford's unranked, and Stafford is 38 coming off a career-high touchdown rate that will regress.",
+   "falsifiedIf": "The Lamar trade lands, which makes Lawrence expendable, or Stafford strings together two clearly better weeks.",
+   "reviewAfterWeek": 3
+  }
+ ],
+ "closed": [
+  {
+   "at": "2026-09-10T16:17:00Z",
+   "week": 1,
+   "outcome": "CHURN",
+   "summary": "The kicker slot went Little -> Boswell on 8 Sep and Boswell -> Little on 10 Sep. The same slot reversed in two days for no stated reason. This is the clearest example of optimising noise on the record."
+  },
+  {
+   "at": "2026-09-10T23:53:00Z",
+   "week": 1,
+   "outcome": "CHURN",
+   "summary": "Allgeier added 8 Sep, dropped 10 Sep. Two days on the roster, no stated thesis either way."
+  }
+ ]
+}
