@@ -1,73 +1,55 @@
 {
-  "week": 1,
-  "generatedAt": "2026-09-13T22:20:00Z",
-  "leagueId": "1237544639",
-
-  "defense": {
-    "DAL": {"QB": "GREAT", "WR": "GREAT", "TE": "GREAT", "RB": "GOOD"},
-    "DEN": {"QB": "SHAKY", "WR": "SHAKY", "TE": "AVERAGE", "RB": "AVERAGE"}
+ "week": 1,
+ "generatedAt": "2026-09-14T02:18:01Z",
+ "leagueId": "1237544639",
+ "defense": {},
+ "doFirst": [
+  {
+   "id": "chem-claim-coker-2026-09-14",
+   "tier": "ELITE",
+   "source": "On waivers",
+   "status": "WAIVERS",
+   "deadline": "2026-09-16T07:00:00Z",
+   "in": {
+    "playerId": 4695883,
+    "role": "Led Carolina in every receiving category",
+    "alert": null
+   },
+   "out": {
+    "playerId": 12483,
+    "role": "QB2 behind Josh Allen",
+    "alert": null
+   },
+   "why": "Coker went 8 of 9 for 138 and two scores — 29.8 points — and led the Panthers in every receiving category while McMillan was quiet until garbage time. He is 50% rostered, which in a ten-team league is an anomaly rather than a verdict. Carolina draw Atlanta then Cleveland next. Chem priority resets weekly so the claim costs nothing lasting, and Stafford is a second quarterback behind Josh Allen in a one-QB league — the least valuable thing on the roster.",
+   "action": {
+    "type": "CLAIM",
+    "playerId": 4695883,
+    "dropPlayerId": 12483,
+    "label": "Claim Jalen Coker, drop Stafford"
+   }
+  }
+ ],
+ "trades": [],
+ "candidates": [
+  {
+   "playerId": 4429086,
+   "tier": "DEPTH",
+   "note": "Ownership moved +3.40, the largest on the board — and the move is already wrong. Schefter reports the Raiders believe Bowers misses only week 1 and returns at the Chargers. The market is pricing week 1's box score; the news has moved on. Do not chase this."
   },
-
-  "doFirst": [
-    {
-      "id": "add-worthy-drop-likely",
-      "tier": "ELITE",
-      "source": "Free agent",
-      "status": "FREEAGENT",
-      "deadline": "2026-09-14T00:20:00.000Z",
-      "in": {
-        "playerId": 4683062,
-        "role": "Chiefs WR2 opposite Rashee Rice, full practice all week on the shoulder",
-        "alert": null
-      },
-      "out": {
-        "playerId": 4361050,
-        "role": "Second tight end with no path into the lineup behind Pitts",
-        "alert": "Giants kick at 8:20 ET tonight. After that he locks and this move is gone until Tuesday."
-      },
-      "why": "Worthy is rostered in 75.3% of ESPN leagues and is a free agent here, which costs nothing and no waiver priority. Kansas City's own injury report had him a full participant all week with a shoulder issue, and Yahoo has him locked in as the WR2 opposite Rice. Likely is 82.5% rostered and dropping him needs a reason, so here it is: Chem's flex is RB/WR only, so a second tight end can never enter this lineup while Pitts holds slot 6, and DraftKings Network called Likely's TE13 price too high on a Jaxson Dart offense whose sideline-heavy throws do not fit his middle-of-field game. A startable WR you can own for free beats a bench tight end who is structurally unplayable.",
-      "action": {
-        "type": "ADD",
-        "playerId": 4683062,
-        "dropPlayerId": 4361050,
-        "label": "Add Xavier Worthy, drop Isaiah Likely"
-      }
-    }
-  ],
-
-  "trades": [
-    {
-      "id": "t7-stafford-odunze",
-      "partnerTeamId": 7,
-      "odds": "EVEN",
-      "youGive": [12483],
-      "youGet": [4431299],
-      "yourGain": 0.2,
-      "theirGain": 0.9,
-      "headline": "They are one quarterback deep and you are paying a bench slot to hold a backup who can never start",
-      "yourSurplus": "Stafford sits behind Josh Allen every week of the season. He is worth exactly zero points to you and occupies one of five bench seats.",
-      "theirHole": "Los Gigantes carry Drake Maye and no second quarterback. Stafford is both an upgrade on the weekly number and their only insurance if Maye misses time.",
-      "yourLineup": "Odunze slides into the flex or WR3 conversation behind Jefferson, Wilson and McLaurin, and gives you a real body at a position where your fourth option is Brian Thomas Jr.",
-      "theirLineup": "They start Chase, London and Odunze at WR with Metcalf, Godwin and Reed on the bench. Losing Odunze costs them a starter they can immediately replace from their own bench.",
-      "risk": "Odunze was limited in all three practices this week with a calf strain and played anyway. Limited every day is the weaker version of that signal, not the stronger one. He is also a Bears receiver on a roster that spreads the ball, and the weekly gain here is only 0.2 points. The reason to do this is structural, not numerical."
-    }
-  ],
-
-  "candidates": [
-    {
-      "playerId": 4682648,
-      "tier": "SOLID",
-      "note": "Free agent at 10.7% rostered and rising, and he is starting at receiver for the Giants tonight against a Dallas defense that gave up 30.1 points and over 251 passing yards a game in 2025 and is breaking in a rookie safety. Athlon has him playing across all personnel groups with Nabers limited. You cannot add him today because Likely is the only unlocked player you can drop and Worthy is the better use of that seat. Revisit first thing Tuesday when your Sunday players unlock, and expect his price to have gone up if he produces in primetime."
-    },
-    {
-      "playerId": 4429086,
-      "tier": "SOLID",
-      "note": "The largest ownership move on your wire, up 3.88 points in a day, and the reporting explains it: Brock Bowers is headed to injured reserve and Las Vegas handed Mayer a 45 million dollar extension on the eve of Week 1 to be the starting tight end. This matters to you because Kyle Pitts saw one target and caught nothing against Pittsburgh, the second straight opener where he was invisible. Chem waiver priority resets weekly so a claim costs you nothing lasting. He clears Wednesday at 07:00 UTC."
-    },
-    {
-      "playerId": 4428718,
-      "tier": "DEPTH",
-      "note": "Sports Illustrated lists Tucker as one of only three core starting pass-catchers in Las Vegas, and with Bowers on injured reserve that target pool gets smaller and his share of it gets bigger. His ownership rose a full point today. Full PPR is the right scoring for a high-volume short-area receiver. Free claim in this league when he clears Wednesday, but he is behind Worthy and Mayer in priority."
-    }
-  ]
+  {
+   "playerId": 4428718,
+   "tier": "DEPTH",
+   "note": "Same story as Mayer. The Bowers target vacuum that made him interesting probably closes this week. His 94.9% snap share is still real and makes him worth watching if Bowers' knee lingers, but the reason to add him has a return date on it."
+  },
+  {
+   "playerId": 4360689,
+   "tier": "DEPTH",
+   "note": "56 attempts, 410 yards, three touchdowns, and New Orleans are 7.5-point underdogs to Baltimore next. A volume quarterback on a team that will trail all season. Only relevant here as an Allen bye-week patch in week 7 — and Chem priority resets, so that claim will be free when you need it."
+  },
+  {
+   "playerId": 4361432,
+   "tier": "DEPTH",
+   "note": "A.J. Brown is expected to miss at least four weeks with a high ankle sprain. Doubs, not Mack Hollins, is the receiver to have — Hollins played more but was blocking in a run-heavy plan. Rostered by a Chem rival, so this is trade leverage as much as a wire note."
+  }
+ ]
 }
