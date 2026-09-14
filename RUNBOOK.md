@@ -112,7 +112,7 @@ be paused — say so rather than analysing stale data.
 |---|---|
 | `settings` | `scoring` (pts/reception), `lineup` (slotId → count), `waiver.orderReset`, `name`, `size` |
 | `teams[]` | All 10, each with `id`, `name`, `isMine`, `record`, `waiverRank`, `roster[]` |
-| `roster[]` | `id`, `name`, `pos`, `slotId`, `proTeamId`, `proj` (**pregame**, never live), `actual`, `owned`, `ownedChange`, `rank` (analyst consensus), `injury` |
+| `roster[]` | `id`, `name`, `pos`, `slotId`, `proTeamId`, `proj` (**pregame**, never live), `seasonProj` (full-season total, the right unit for a trade), `actual`, `owned`, `ownedChange`, `rank` (analyst consensus), `injury` |
 | `wire[]` | ~84 available players, same fields plus `status` (FREEAGENT/WAIVERS), `clearsAt`, `why` (which band surfaced him) |
 | `proTeams` | Per NFL team: `abbrev`, `bye`, `onBye`, `opp`, `home`, `kickoff` (ISO), `tbd` |
 | `activity[]` | Last ~50 league transactions: `at`, `kind` (ADD/DROP/WAIVER_ADD/WAIVER_DROP/LINEUP), `playerId`, `teamId` |
@@ -441,21 +441,37 @@ two full rosters is ~200 pairs — trivial to evaluate exhaustively.
 ELIG = {0:{"QB"}, 2:{"RB"}, 4:{"WR"}, 6:{"TE"},
         3:{"RB","WR"}, 23:{"RB","WR","TE"}, 16:{"DST"}, 17:{"K"}}
 
-def best_lineup(players, slots):
+def best_lineup(players, slots, key="proj"):   # "seasonProj" for trades
     # Narrow slots before wide ones. Flex is a superset of RB and WR, so
     # filling most-constrained-first is optimal for this shape.
     used, total = set(), 0.0
     for slot in sorted(slots, key=lambda s: len(ELIG.get(s, set()))):
         ok = ELIG.get(slot, set())
         c = [p for p in players if p["id"] not in used
-             and p["pos"] in ok and p["proj"] is not None]
+             and p["pos"] in ok and p.get(key) is not None]
         if not c: continue
-        pick = max(c, key=lambda p: p["proj"])
-        used.add(pick["id"]); total += pick["proj"]
+        pick = max(c, key=lambda p: p[key])
+        used.add(pick["id"]); total += pick[key]
     return total
 ```
 
 Build `slots` by expanding `settings.lineup` — `{"2": 2}` means two RB slots.
+
+**Price trades on `seasonProj`, not `proj`.** A trade lasts the season and
+the weekly number prices one game of it. The two disagree violently: Tuten
+projects 12.0 this week and 205.2 for the season while Lloyd projects 12.8
+and 135.6 — a swap the weekly model called free was seventy points of season
+value.
+
+**But never rank a roster by raw `seasonProj`.** Quarterbacks always score
+the most, so sorting on it puts them on top and tells you nothing. Stafford
+reads 286 and is worth zero points to a team that starts Josh Allen. What
+matters is points above replacement at the position, which the app already
+computes. Use `seasonProj` inside a best-lineup comparison, where slots do
+the constraining — never as a standalone measure of who is valuable.
+
+**A player valuable in general and useless here is the ideal thing to
+trade.** That gap, not the raw number, is where a proposal comes from.
 
 **Evaluate trades on FULL rosters, ignoring this week's kickoffs.** A trade
 is a next-week decision. Including finished players corrupts both sides: his,
@@ -627,8 +643,13 @@ Then, briefly, per league:
 
 ## KNOWN LIMITATIONS — state them, do not paper over them
 
-- **Trades are priced on one week.** Only weekly projections are published.
-  Season-long value is the right unit for a trade and you do not have it.
+- **`seasonProj` is assumed live, not proven.** It is a full-season total
+  and it is not yet confirmed to update through the season. If two snapshots
+  days apart show identical numbers, it is a preseason artifact and every
+  trade priced on it is trading on August's opinion. Say so if you notice.
+- **`proj` is not zeroed for every unavailable player.** A.J. Brown showed
+  14.2 while on injured reserve. Check `injury` separately; do not infer
+  availability from the projection.
 - **No PROPOSE button exists.** The card tells him to propose it in ESPN.
 - **Rivals' pending claims are invisible.** ESPN only ever returns his own.
 - **Defence grades are judgement, not data**, especially before week 4.
