@@ -5,109 +5,171 @@ with && so a failure cannot be masked by a successful-looking publish:
 
     python3 validate.py daily-<id>.json league-<id>.json && <publish>
 
-This file is the only copy. An earlier inline duplicate in RUNBOOK.md drifted
-from it and carried three rules this one lacked; they are merged in below.
+This file is the only copy. An inline duplicate in RUNBOOK.md drifted from it
+once and carried different rules, which is how a gate stops being a gate.
 """
-import json, datetime, sys
+import datetime
+import json
+import sys
 
 MAX_DO_FIRST = 4
 BENCH = (20, 21)
+GRADES = {"GREAT", "GOOD", "AVERAGE", "SHAKY", "POOR", "SIT"}
 
 
 def validate(brief_path, league_path):
     b = json.load(open(brief_path))
     d = json.load(open(league_path))
-    pt = d['proTeams']
+    pt = d["proTeams"]
     now = datetime.datetime.now(datetime.timezone.utc)
-    mine = [t for t in d['teams'] if t['isMine']][0]
-    slot = {p['id']: p['slotId'] for p in mine['roster']}
-    name = {p['id']: p['name'] for t in d['teams'] for p in t['roster']}
-    name.update({w['id']: w['name'] for w in d.get('wire', [])})
+    mine = [t for t in d["teams"] if t["isMine"]][0]
+    slot = {p["id"]: p["slotId"] for p in mine["roster"]}
+    name = {p["id"]: p["name"] for t in d["teams"] for p in t["roster"]}
+    name.update({w["id"]: w["name"] for w in d.get("wire", [])})
     known = set(name)
     errs = []
 
     def started(pid):
-        p = next((x for t in d['teams'] for x in t['roster'] if x['id'] == pid), None) \
-            or next((w for w in d.get('wire', []) if w['id'] == pid), None)
+        p = next((x for t in d["teams"] for x in t["roster"] if x["id"] == pid), None) \
+            or next((w for w in d.get("wire", []) if w["id"] == pid), None)
         if p is None:
             return False
-        ko = pt.get(str(p['proTeamId']), {}).get('kickoff')
+        ko = pt.get(str(p["proTeamId"]), {}).get("kickoff")
         if not ko:
             return False
-        return datetime.datetime.fromisoformat(ko.replace('Z', '+00:00')) <= now
+        return datetime.datetime.fromisoformat(ko.replace("Z", "+00:00")) <= now
 
     def in_future(iso):
         if not iso:
             return False
         try:
-            return datetime.datetime.fromisoformat(iso.replace('Z', '+00:00')) > now
+            return datetime.datetime.fromisoformat(iso.replace("Z", "+00:00")) > now
         except ValueError:
             return False
 
-    for c in b.get('doFirst', []):
-        cid = c.get('id', '?')
-        a = c.get('action') or {}
-        kind = a.get('type', '').upper()
-        add, drop = a.get('playerId'), a.get('dropPlayerId')
+    # The condition that would prove the call wrong, whatever it is called.
+    # A prediction gets "Falsified if"; a watch row gets "What would change
+    # it" or "When to act", which is the same idea wearing the label that
+    # fits the context. What is not acceptable is having none of them.
+    CONDITION = ("falsif", "would change", "when to act", "changes it")
 
+    def case_ok(node, where):
+        """Labelled blocks, one of which names what would prove it wrong."""
+        case = node.get("case") or []
+        if not case:
+            errs.append(f"{where}: no case")
+            return
+        for blk in case:
+            if not blk.get("label"):
+                errs.append(f"{where}: a case block has no label")
+            if not blk.get("body"):
+                errs.append(f"{where}: a case block has no body")
+        labels = " ".join(str(x.get("label", "")).lower() for x in case)
+        if not any(k in labels for k in CONDITION):
+            errs.append(f"{where}: no block saying what would prove this wrong")
+
+    # ---- header ------------------------------------------------------
+    for f in ("leagueName", "teamName", "generatedAt"):
+        if not b.get(f):
+            errs.append(f"header: missing {f}")
+
+    # ---- do first ----------------------------------------------------
+    cards = b.get("doFirst", [])
+    if len(cards) > MAX_DO_FIRST:
+        errs.append(f"doFirst has more than {MAX_DO_FIRST} cards")
+    for c in cards:
+        cid = c.get("id", "?")
+        if not c.get("title"):
+            errs.append(f"{cid}: no title")
+        if not c.get("deadline"):
+            errs.append(f"{cid}: no deadline")
+        case_ok(c, cid)
+
+        a = c.get("action") or {}
+        kind = str(a.get("type", "")).upper()
+        add, drop = a.get("playerId"), a.get("dropPlayerId")
         for pid in (add, drop):
             if pid and pid not in known:
                 errs.append(f"{cid}: unknown playerId {pid}")
 
         # A swap already in effect is not a recommendation.
-        if kind == 'SWAP' and add in slot and drop in slot:
+        if kind == "SWAP" and add in slot and drop in slot:
             if slot[add] not in BENCH and slot[drop] in BENCH:
-                errs.append(f"{cid}: ALREADY DONE \u2014 {name.get(add)} is already "
+                errs.append(f"{cid}: ALREADY DONE - {name.get(add)} is already "
                             f"starting and {name.get(drop)} is already benched")
 
-        # ESPN locks a player once his game kicks off.
-        #
-        # But a drop executes when its action executes. For a waiver CLAIM
-        # that is clearsAt, by which time the week has rolled and everyone is
-        # droppable again \u2014 so the lock only applies to actions taken now.
-        # Without this carve-out, every Sunday-evening claim fails the gate.
-        # WHEN_UNLOCKED: the move happens the moment the scoring period rolls
-        # and rosters unlock, which has no timestamp yet. Between weeks this is
-        # the only shape that can carry "swap these two when you can" or "drop
-        # him when you can" — the two most useful things to say once every
-        # game has kicked off, and previously unrepresentable.
-        unlocked = str(c.get('deadline', '')).upper() == 'WHEN_UNLOCKED'
-        executes_later = unlocked or (kind == 'CLAIM' and in_future(c.get('deadline')))
-        if drop and started(drop) and not executes_later:
-            errs.append(f"{cid}: CANNOT DROP {name.get(drop)} \u2014 his game has started")
+        # A drop executes when its action executes. For a waiver CLAIM that is
+        # clearsAt, and for WHEN_UNLOCKED it is next week — by then the roster
+        # has unlocked and everyone is droppable again.
+        unlocked = str(c.get("deadline", "")).upper() == "WHEN_UNLOCKED"
+        later = unlocked or (kind == "CLAIM" and in_future(c.get("deadline")))
+        if drop and started(drop) and not later:
+            errs.append(f"{cid}: CANNOT DROP {name.get(drop)} - his game has started")
 
-        if kind in ('ADD', 'CLAIM') and add in slot:
+        if kind in ("ADD", "CLAIM") and add in slot:
             errs.append(f"{cid}: {name.get(add)} is already on your roster")
 
-        if not c.get('deadline'):
-            errs.append(f"{cid}: no deadline")
-        # A WHEN_UNLOCKED card is a next-week instruction, so it must not also
-        # claim to be urgent. Tier it below ELITE or it outranks live deadlines.
-        if unlocked and str(c.get('tier','')).upper() in ('LEGENDARY', 'ELITE'):
+        if unlocked and str(c.get("tier", "")).upper() in ("LEGENDARY", "ELITE"):
             errs.append(f"{cid}: WHEN_UNLOCKED cards cannot be LEGENDARY or ELITE")
 
-    if len(b.get('doFirst', [])) > MAX_DO_FIRST:
-        errs.append(f"doFirst has more than {MAX_DO_FIRST} cards")
+    # ---- what went wrong ---------------------------------------------
+    for n in b.get("whatWentWrong", []):
+        case_ok(n, f"wentWrong {n.get('id', n.get('title', '?'))}")
 
-    for c in b.get('candidates', []):
-        pid = c.get('playerId')
-        if pid not in known:
-            errs.append(f"candidate: unknown playerId {pid}")
-        if pid in slot:
-            errs.append(f"candidate {name.get(pid)} is already on your roster")
+    # ---- roster ------------------------------------------------------
+    r = b.get("roster")
+    if not r:
+        errs.append("no roster block - the app renders nothing without it")
+    else:
+        state = str(r.get("state", "")).upper()
+        if state not in ("THURSDAY", "SUNDAY", "FINAL"):
+            errs.append(f"roster: bad state {state!r}")
+        rows = (r.get("starting") or []) + (r.get("bench") or [])
+        if len(rows) != len(mine["roster"]):
+            errs.append(f"roster: {len(rows)} rows, league file has "
+                        f"{len(mine['roster'])}")
+        for row in rows:
+            who = row.get("name", "?")
+            if row.get("playerId") and row["playerId"] not in known:
+                errs.append(f"roster {who}: unknown playerId")
+            g = row.get("grade")
+            if g and str(g).upper() not in GRADES:
+                errs.append(f"roster {who}: bad grade {g!r}")
+            if state == "FINAL" and row.get("actual") is None:
+                errs.append(f"roster {who}: FINAL but no actual")
+            if state == "THURSDAY" and not g and not row.get("notResearched"):
+                errs.append(f"roster {who}: no grade and not flagged "
+                            f"notResearched - guess or flag, never blank")
 
-    for t in b.get('trades', []):
-        for pid in t.get('youGive', []) + t.get('youGet', []):
-            if pid not in known:
-                errs.append(f"trade {t.get('id')}: unknown playerId {pid}")
-        # A proposal that helps only one side is a wish, not a proposal.
-        if t.get('theirGain', 0) <= 0:
-            errs.append(f"trade {t.get('id')}: the other side does not gain")
+    # ---- trades ------------------------------------------------------
+    for t in b.get("trades", []):
+        tid = t.get("id", "?")
+        for side in ("youGive", "youGet"):
+            if not t.get(side):
+                errs.append(f"trade {tid}: empty {side}")
+            for p in t.get(side, []):
+                if p.get("playerId") and p["playerId"] not in known:
+                    errs.append(f"trade {tid}: unknown playerId {p['playerId']}")
+        if not t.get("theirGainLine"):
+            errs.append(f"trade {tid}: their gain is not stated")
+        case_ok(t, f"trade {tid}")
+
+    # ---- watch lists -------------------------------------------------
+    for key in ("worthALook", "doNotChase"):
+        for w in b.get(key, []):
+            who = w.get("name", "?")
+            if w.get("playerId") and w["playerId"] in slot:
+                errs.append(f"{key} {who}: already on your roster")
+            case_ok(w, f"{key} {who}")
+
+    # ---- limits ------------------------------------------------------
+    if not b.get("cannotSee"):
+        errs.append("cannotSee is empty - every run has limits worth stating")
 
     return errs
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     e = validate(sys.argv[1], sys.argv[2])
-    print('\n'.join('  FAIL ' + x for x in e) if e else '  all checks pass')
+    print("\n".join("  FAIL " + x for x in e) if e else "  all checks pass")
     sys.exit(1 if e else 0)

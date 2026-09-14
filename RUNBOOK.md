@@ -278,7 +278,9 @@ breakout you missed is cheaper than a churn you caused.
 4. **Anything in the activity log from the last 24h** — an add or drop means
    a manager saw something.
 5. **Both sides of any trade** you are considering.
-6. **The defences** his starters and candidates face (see Step 6).
+6. **The defences** his starters and watch-list players face, for the roster
+   grades (see Step 6). Any defence you do not research is flagged
+   `notResearched`, never guessed.
 7. **The rostered kicker and D/ST against the best available.** Report the
    comparison every run, even when the answer is hold.
 
@@ -330,8 +332,10 @@ What to look for, in descending order of value:
    scored 27.8, and recommended nothing, because nobody looked up who was
    throwing.
 
-   When the answer is abnormal, put it in the `offense` block (Step 6). When
-   you have a startable alternative, it is a Do-first card, not a note.
+   When the answer is abnormal, say so in that player's roster `detail`
+   (Step 6): `"ATL · vs CAR · SUN 11:00 · Cooper Rush, 3rd string"`. When you
+   have a startable alternative on the bench, it is a Do-first card, not a
+   note — that is what was missed the week it cost a tight end's whole game.
 
 2. **Role, not health.** Who takes the goal line. Who plays third downs. Who
    is listed first on the official depth chart. A back who loses both the goal
@@ -357,88 +361,25 @@ are split" is not analysis.
 
 ## STEP 6 — Write the payloads
 
-One file per league, in `/tmp/fb/`.
+One file per league, in `/tmp/fb/`. **The brief owns the whole screen**: the
+app renders only what you write here, so a roster row you omit is a row he
+does not see. Nothing is derived on the device any more.
 
-```json
-{
-  "week": 2,
-  "generatedAt": "2026-09-16T13:00:00Z",
-  "leagueId": "1237544639",
-
-  "defense": {
-    "CLE": {"QB":"GOOD","RB":"GOOD","WR":"GOOD","TE":"AVERAGE"},
-    "MIA": {"WR":"GREAT","TE":"GREAT"}
-  },
-
-  "doFirst": [{
-    "id": "add-tucker-drop-monangai",
-    "tier": "ELITE",
-    "source": "Free agent",
-    "status": "FREEAGENT",
-    "deadline": "2026-09-13T20:25:00Z",
-    "in":  {"playerId": 4361050, "role": "Raiders WR1 with Bowers out", "alert": null},
-    "out": {"playerId": 4608686, "role": "RB2 behind a healthy Swift", "alert": null},
-    "why": "Bowers vacates 86 targets and Tucker played 94.9% of snaps last season.",
-    "action": {"type":"ADD","playerId":4361050,"dropPlayerId":4608686,
-               "label":"Add Tre Tucker, drop Monangai"}
-  }],
-
-  "trades": [{
-    "id":"t13-tuten-lamar", "partnerTeamId":13, "odds":"LIKELY",
-    "youGive":[4882093], "youGet":[3916387],
-    "yourGain":1.5, "theirGain":2.6,
-    "headline":"Their second quarterback scores them nothing every week",
-    "yourSurplus":"…", "theirHole":"…",
-    "yourLineup":"…", "theirLineup":"…", "risk":"…"
-  }],
-
-  "candidates": [{
-    "playerId": 4361050, "tier": "SOLID",
-    "note": "Why this row exists. Never truncated."
-  }]
-}
-```
-
-### defense
-
-Opponent abbreviation → position → grade, from **the offence's point of
-view**. `GREAT` means a good place to start your guy. Red never means a good
-start — that inversion is the whole point.
-
-`GREAT` · `GOOD` · `AVERAGE` · `SHAKY` · `POOR`
-
-Grade only the defences his starters and candidates actually face — about
-10–14 teams, not all 32. **Omit any team you have not researched.** An absent
-grade renders as blank, and blank is honestly different from `AVERAGE`.
-
-Early in the season there is no defensive sample. Grade from reporting:
-personnel changes, who left in free agency, offensive-line quality, implied
-totals. Do not invent a rank.
-
-**Between weeks, publish `{}` and say so.** Once the week's games have all
-kicked off, the opponents in `proTeams` describe a week that is over, and the
-next week's are not published until ESPN advances `scoringPeriod`. Grading
-finished games is worse than grading nothing: the app renders it as live
-advice. An empty object leaves the tiles blank, which is the honest state.
-Grades resume on the run after the scoring period advances.
+Nine sections in a fixed order — situation, action, the case for the action,
+the team it leaves him with, the market in three parts, the record, the
+limits. The order is the argument.
 
 ### Every card needs a fact a number cannot give you
 
 **A projection is an input to a decision, never the decision.** Before you
-write any card, check it against this:
+write anything, check it against this:
 
-> Could this card have been written by sorting a column?
+> Could this have been written by sorting a column?
 
-If yes, it does not go in. The app already sorts columns. A card earns its
-place by containing something that came from **reporting** — a role, a snap
-share, a depth-chart position, a practice report, a coach's quote, an
-injury timeline. The number tells you where to look. It never tells you what
-is true.
-
-Concretely, the `why` on a Do-first card and the `note` on a candidate must
-each contain at least one fact you learned in Step 5 and could not have read
-off the league file. "Projects 2.3 higher" is not such a fact. "Bowers
-returns at the Chargers, so the role the add was made for ends this week" is.
+If yes, it does not go in. A card earns its place by containing something
+that came from **reporting** — a role, a snap share, a depth-chart position,
+a practice report, a coach's quote, an injury timeline. The number tells you
+where to look. It never tells you what is true.
 
 This has been got wrong in both directions and both cost points. A run
 recommended dropping Monangai because a wire player projected higher; he
@@ -448,190 +389,258 @@ two touchdowns. The first traded on a number, the second on a structure.
 Neither had looked at the player.
 
 `seasonProj` makes this trap easier to fall into, not harder — it looks
-authoritative and it covers the whole season. Treat it as the thing that
-narrows the list you research, never as the thing that decides.
+authoritative and it covers a whole season. Treat it as the thing that
+narrows the list you research, never the thing that decides.
 
-### offense
+### The case layer
 
-The other half of the matchup, keyed by a player's **own** team:
+Every card and every list row opens to a case: three to five labelled
+blocks. **The labels are content, not chrome** — write them per card ("The
+player", "The drop", "The clock", "If it fails"), never a generic set.
 
 ```json
-"offense": {
-  "ATL": {"qb": "Cooper Rush, 3rd string", "grade": "POOR"},
-  "CLE": {"qb": "Deshaun Watson, PFF's 31st O-line", "grade": "SHAKY"}
+"case": [
+  {"label": "The player",  "body": "Eight catches, 138 yards, two…"},
+  {"label": "The drop",    "body": "Chem starts one quarterback and…"},
+  {"label": "Falsified if","body": "McMillan reasserts and Coker's…"}
+],
+"sources": "ESPN · NFL.com · Panthers.com"
+```
+
+**Every predictive case ends with a `Falsified if` block** — the condition
+that would prove the call wrong, written now while you have no stake in
+defending it. A case without one is a belief, not a position.
+
+Where a read is contested, say so in its own block. "Sports Illustrated read
+the same game and call McMillan the primary target. I take the other side on
+the route count" is worth more than a confident sentence.
+
+### The shape
+
+```json
+{
+  "week": 2,
+  "leagueName": "Chem",
+  "teamName": "AVIATO",
+  "generatedAt": "2026-09-16T13:00:00Z",
+  "snapshotNote": "Snapshot 13:00 UTC · this brief does not refresh on its own",
+  "sources": "Built from 21 searches · ESPN, NFL.com, FantasyPros, …",
+
+  "tonight":      { … },
+  "doFirst":      [ … ],
+  "whatWentWrong":[ … ],
+  "roster":       { … },
+  "trades":       [ … ],
+  "worthALook":   [ … ],
+  "doNotChase":   [ … ],
+  "settled":      [ … ],
+  "cannotSee":    [ … ]
 }
 ```
 
-`defense` grades the opponent a player faces. `offense` grades the situation
-he plays in. Both are needed and only one existed.
+`leagueName` and `teamName` render in the header. Get them from
+`settings.name` and the team where `isMine` is true.
 
-- **Only include a team when something is wrong.** An absent entry means
-  nothing was flagged, not that the offence was checked and found fine —
-  the same convention as `defense`.
-- Only `SHAKY` and `POOR` surface in the app. Anything milder is not worth
-  interrupting the reader for.
-- `qb` is one short line, shown in red under the player's row: a name and
-  why it matters. "Cooper Rush, 3rd string" is right. "The quarterback
-  situation is unsettled" is not.
-- It applies to WR, TE and RB rows only. A quarterback *is* the problem
-  rather than a victim of it; a kicker or defence does not care who throws.
-  Running backs are included because full PPR pays them for receptions.
+### 01 tonight
 
-**If a flagged player is in the starting lineup and a startable alternative
-sits on the bench, that is a Do-first card, not a flag.** The flag is for
-when there is nothing to do about it.
+Where he stands before anything he can change.
 
-### doFirst
+```json
+"tonight": {
+  "headline": "KC–DEN decides it",
+  "status": "WINNING",
+  "winProbability": 91,
+  "myScore": 125.1,
+  "theirScore": 90.4,
+  "opponent": "Nicky Jam",
+  "body": ["Everything else is played. Nicky Jam needs 34.7 from…",
+           "Your lineup is locked and already correct."],
+  "case": [{"label":"The script that beats you","body":"…"}],
+  "caseSources": "ESPN"
+}
+```
 
-Max 4, and the app orders them by **soonest deadline, tier breaking ties** —
-the cost of waiting, not the size of the prize. Overflow falls to Candidates.
+`status` is WINNING, LOSING, TIED or WON. Scores come from `schedule` in the
+league file. `body` is one or two short paragraphs: what has to happen, and
+what he can do about it — usually nothing, and saying so plainly is the
+point.
 
-- `out` is who leaves, `in` is who arrives. `out` may be `null` for
-  housekeeping (move to IR, drop a dead seat); the app hides the arrow.
-- `alert` is a short red line, on the vacating player only.
-- `deadline` must be a real kickoff from `proTeams[team].kickoff`, a waiver
-  `clearsAt` from the wire row, or the literal string `"WHEN_UNLOCKED"`.
-  Never invent a timestamp.
-- **`"WHEN_UNLOCKED"` is the between-weeks shape.** Once every game has
-  kicked off, nothing is droppable and no lineup can change — but the two
-  most useful things to say are still "swap these two the moment you can"
-  and "drop him the moment you can". Before this existed they were
-  unrepresentable: a card needed a future kickoff, and candidates rejects
-  rostered players, so two correct findings were lost between the decision
-  log and the screen. The card renders "WHEN THE WEEK ROLLS" instead of a
-  countdown, never expires, and sorts below anything with a real deadline.
-  It may not be `LEGENDARY` or `ELITE` — the validator refuses that, because
-  a next-week instruction must not outrank a claim clearing tonight.
-- `action.type`: `ADD`, `CLAIM`, `DROP`, `SWAP`. A `SWAP` moves two players
-  he already owns — `playerId` starts, `dropPlayerId` benches.
-- `why` only when the projections do not explain the move on their own.
+Omit the whole object when there is no matchup in play.
+
+### 02 doFirst
+
+Max four, ordered by the cost of waiting.
+
+```json
+{
+  "id": "claim-coker",
+  "tier": "ELITE",
+  "urgency": "Before Wednesday",
+  "kind": "Waiver claim",
+  "deadlineLabel": "Waivers clear Wed 01:00",
+  "deadline": "2026-09-16T07:00:00Z",
+  "title": "Claim Jalen Coker",
+  "subtitle": "Drop Stafford — he cannot start for you in any week this season.",
+  "case": [ … ],
+  "sources": "ESPN · Panthers.com",
+  "ghost": false,
+  "action": {"type":"CLAIM","playerId":4695883,"dropPlayerId":12483,
+             "label":"Claim Coker · drop Stafford"}
+}
+```
+
+| Field | Rule |
+|---|---|
+| `urgency` | "Before Wednesday", "Before Sunday". Renders in the tier colour. |
+| `kind` | "Waiver claim", "Lineup", "Trade". A hairline chip. |
+| `deadlineLabel` | What the reader sees. Convert to his time: 07:00 UTC is 01:00 in Mexico City, and saying "Wednesday" without that conversion has already nearly cost a claim. |
+| `deadline` | ISO-8601, or `"WHEN_UNLOCKED"` for a move that happens when rosters unlock. Never invent a timestamp. |
+| `ghost` | `true` for a real recommendation that should **not** be fired today — a fallback, a conditional. Renders unarmed: no fill, dashed button. Put "Fallback only" in `deadlineLabel`. |
+| `action.type` | `ADD`, `CLAIM`, `DROP`, `SWAP`. On a `SWAP`, `playerId` starts and `dropPlayerId` benches. |
 
 **An empty `doFirst` is a valid and common answer.** Do not manufacture four
 cards. Mid-slate, with games kicked off and nothing on the wire, zero is
-correct and the app says so in its own words.
+correct.
 
-### tier
+**`tier`** is `LEGENDARY` / `ELITE` / `SOLID` / `DEPTH`. Legendary changes
+his season — at most one per league per day, usually none. Elite changes this
+week. Solid is worth doing. Depth is marginal.
 
-`LEGENDARY` · `ELITE` · `SOLID` · `DEPTH`. Drives the card colour.
+### 03 whatWentWrong
 
-- `LEGENDARY` — changes his season. A league error he can exploit, or a trade
-  that fixes a bye cluster. **At most one per league per day, usually none.**
-- `ELITE` — changes this week. A starter swap, or a claim that upgrades a
-  starting slot.
-- `SOLID` — worth doing. Bench depth, a speculative handcuff.
-- `DEPTH` — marginal.
+Numbered rows. **Not a scoreboard of your accuracy** — the set of things that
+change what he does next. Each item must connect to something in `doFirst`
+above it or it does not belong here.
 
-### trades
-
-Only proposals where **both sides gain**. A proposal that helps only him is
-not a proposal.
-
-**Check the other team's slot column before you name a player.** A trade
-that asks for their starter is not the trade you think you are proposing. A
-run once wrote "the quarterback they give up never plays" about Team 13's
-Josh Allen — who was in slot 0, starting, while Lamar Jackson sat at slot 20.
-The structural read was right and the named player was wrong, and it shipped
-twice. `slotId` 20 and 21 are bench and IR; everything else is a starter.
-
-**Search two-for-one as well as one-for-one.** STRATEGY.md is explicit that
-in a ten-team league a two-for-one favours whoever receives the single best
-player, and that consolidation is the default direction — but a one-for-one
-search can never find one. Run the one-for-one pass first, then pair each of
-your two most droppable bench players against each of their starters. The
-combinatorics stay small and the shape the strategy actually asks for gets
-looked at.
-
-Compute it, don't guess: for each candidate pair, recompute both teams' best
-possible starting lineups before and after, using that league's own slot
-rules, and keep only pairs where both totals rise. A one-for-one search over
-two full rosters is ~200 pairs — trivial to evaluate exhaustively.
-
-```python
-ELIG = {0:{"QB"}, 2:{"RB"}, 4:{"WR"}, 6:{"TE"},
-        3:{"RB","WR"}, 23:{"RB","WR","TE"}, 16:{"DST"}, 17:{"K"}}
-
-def best_lineup(players, slots, key="proj"):   # "seasonProj" for trades
-    # Narrow slots before wide ones. Flex is a superset of RB and WR, so
-    # filling most-constrained-first is optimal for this shape.
-    used, total = set(), 0.0
-    for slot in sorted(slots, key=lambda s: len(ELIG.get(s, set()))):
-        ok = ELIG.get(slot, set())
-        c = [p for p in players if p["id"] not in used
-             and p["pos"] in ok and p.get(key) is not None]
-        if not c: continue
-        pick = max(c, key=lambda p: p[key])
-        used.add(pick["id"]); total += pick[key]
-    return total
+```json
+{"id":"w1", "title":"You dropped Diggs one day early",
+ "lead":"Cut Saturday. Sunday he drew nine targets and scored.",
+ "case":[ … ], "sources":"ESPN · Commanders.com"}
 ```
 
-Build `slots` by expanding `settings.lineup` — `{"2": 2}` means two RB slots.
+### 04 roster
 
-**Price trades on `seasonProj`, not `proj`.** A trade lasts the season and
-the weekly number prices one game of it. The two disagree violently: Tuten
-projects 12.0 this week and 205.2 for the season while Lloyd projects 12.8
-and 135.6 — a swap the weekly model called free was seventy points of season
-value.
+All fourteen, split into `starting` and `bench`.
 
-**`seasonProj` is reduced for expected absence, so it is not comparable
-across players with different availability.** Measured on live data, the
-median ratio of `seasonProj` to weekly `proj` is exactly 17.0 — a full
-season of games. A.J. Brown, out four-plus weeks on injured reserve, runs
-12.4. His per-game rate is fine; the total is smaller because he plays
-fewer games.
+```json
+"roster": {
+  "state": "FINAL",
+  "footnote": "Every game is played, so every row shows its result…",
+  "starting": [
+    {"playerId": 3918298, "name": "Josh Allen", "slot": "QB",
+     "position": "QB", "team": "BUF",
+     "detail": "BUF · final · W 34-20",
+     "projection": 19.6, "actual": 35.7, "delta": 16.1,
+     "tier": "LEGENDARY"}
+  ],
+  "bench": [ … ]
+}
+```
 
-So a player returning in week 4 will always look worse than a lesser
-healthy one, and he is not. When comparing two players, compare the rate:
-weekly `proj`, or `seasonProj` divided by the games he is expected to play.
-Use the raw total only for "how much will this roster actually score",
-never for "who is the better player".
+**`state` decides what the right-hand column means**, and the app changes the
+column header with it:
 
-**The ratio is itself a signal.** `seasonProj ÷ proj` well below 17 means
-either missed games or a role about to change. Michael Mayer ran 9.1 while
-listed ACTIVE — not injured at all; the number had already priced Bowers
-coming back. Treat a low ratio as a prompt to go and find out which of the
-two it is.
+| `state` | Right column | Write |
+|---|---|---|
+| `THURSDAY` | Matchup | `grade` + `gradeEvidence`, no `actual` |
+| `SUNDAY` | Live | `actual` as it stands, keep `projection` |
+| `FINAL` | Result | `actual` and `delta`, and the whole table dims |
 
-**But never rank a roster by raw `seasonProj`.** Quarterbacks always score
-the most, so sorting on it puts them on top and tells you nothing. Stafford
-reads 286 and is worth zero points to a team that starts Josh Allen. What
-matters is points above replacement at the position, which the app already
-computes. Use `seasonProj` inside a best-lineup comparison, where slots do
-the constraining — never as a standalone measure of who is valuable.
+Pick the state from the data: if every game has kicked off it is `FINAL`, if
+some are in progress `SUNDAY`, otherwise `THURSDAY`.
 
-**A player valuable in general and useless here is the ideal thing to
-trade.** That gap, not the raw number, is where a proposal comes from.
+**`grade`** is `GREAT` / `GOOD` / `AVERAGE` / `SHAKY` / `POOR`, from the
+opponent's season rank in points allowed to that position — 27th–32nd is
+Great, 1st–8th is Poor. `gradeEvidence` carries the rank itself: `"5th vs QB"`.
+Red never means a good start.
 
-**Evaluate trades on FULL rosters, ignoring this week's kickoffs.** A trade
-is a next-week decision. Including finished players corrupts both sides: his,
-by pretending a played quarterback can still fill a slot; theirs, by opening
-holes that exist only mid-week.
+**Set `"notResearched": true` when you did not check that defence.** It draws
+a dashed tile reading "not researched". Absence and middling are different
+answers and the tile must not blur them. Never guess a grade to fill a row.
+
+**`detail` is where a quarterback problem goes.** A pass-catcher's week
+depends more on who is throwing to him than on the defence he faces, and the
+league file carries nothing about it. When the answer is abnormal, say so
+here: `"ATL · vs CAR · SUN 11:00 · Cooper Rush, 3rd string"`. Kyle Pitts
+projected 9.8 and scored 0.0 because Atlanta were down to their third
+quarterback, ruled out two days before kickoff and reported everywhere — and
+the brief had a startable alternative on the bench who scored 27.8.
+
+### 05 trades
+
+Only two-way offers where **both sides gain**.
+
+```json
+{"id":"t13-golden-lamar", "partnerName":"Team 13", "odds":"LIKELY",
+ "yourGain": 1.9,
+ "theirGainLine": "Their gain is +2.2 — bigger than yours, and saying so is what gets the message read.",
+ "youGive":[{"playerId":4701936,"name":"Matthew Golden","detail":"WR GB · 11.0","tier":"SOLID"}],
+ "youGet": [{"playerId":3916387,"name":"Lamar Jackson","detail":"QB BAL · 21.4","tier":"ELITE"}],
+ "case":[ … ],
+ "sources":"ESPN",
+ "copyText":"Hi — interested in Golden for Lamar? You're carrying two QBs…"}
+```
+
+`copyText` is the message that goes on the clipboard, and **the other side's
+gain goes in it.** There is no Propose button: the league's trade write is
+unmapped, and copying the message is the honest version.
 
 `odds` is `LIKELY` / `EVEN` / `LONGSHOT` — a read on the other manager's
-willingness. Never a percentage. State `theirGain` in the headline; hiding it
-is what makes an offer read as lopsided and get declined unread.
+willingness, never a percentage.
 
-### candidates
+The case must contain an honest risk block. Where the offer only clears the
+bar on a one-week horizon, say so in those words.
 
-The watch list. Nothing urgent — anything that must happen today is a
-`doFirst` card instead.
+### 06 worthALook and 07 doNotChase
 
-The `note` is the reason the row exists. The strongest form is an
-observation that a player with a real role is unrostered when he should not
-be — `why=OWNED` rows are where those live. Never truncate it.
+The same row shape, opposite meanings. Worth a look is the watch list —
+nothing urgent, because anything urgent is a Do-first card. Do not chase is
+the wire's biggest risers that are wrong for this roster.
 
----
+```json
+{"playerId":4362619, "name":"Chris Rodriguez Jr.",
+ "positionTeam":"RB · JAX", "ownership":"30.8% owned", "tier":"SOLID",
+ "lead":"Owns the Jacksonville goal line.",
+ "case":[ … ], "sources":"ESPN"}
+```
+
+On a `doNotChase` row, `ownership` carries the delta instead: `"+3.40 owned"`.
+Each needs **the number that kills the case** in its own block — "6.0 targets
+without Bowers, 2.9 with" — and a block saying what would change it.
+
+Naming what not to do is as much of the product as naming what to do. Keep
+the section even in a week when it is empty.
+
+### 08 settled
+
+Last week's calls against outcomes.
+
+```json
+{"correct": false, "title": "Drop Monangai for Tucker",
+ "result": "Monangai scored 20.4. Not acted on, no harm done."}
+```
+
+**Never suppress a miss and never bury it below the hits.** The wrong one
+appearing whether or not he noticed is what makes the right ones worth
+anything.
+
+### 09 cannotSee
+
+The limits, as labelled blocks. Always include what the snapshot genuinely
+cannot see this run — next week's opponents, rival claims, the one-week
+horizon on trades, the absence of a defensive sample. Write them as facts
+about the data, not apologies.
 
 ## STEP 7 — Validate
 
 The validator lives in the repo. **Fetch it at the start of this step, not
-earlier** — an inline copy in this document drifted from the real one and
-carried different rules, which is how a gate stops being a gate.
+earlier** — an inline copy in this document drifted from the real one once
+and carried different rules, which is how a gate stops being a gate.
 
 ```bash
 cd /tmp/fb
 curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/validate.py" -o validate.py
-# The CDN can lag a commit by a minute. Ten rules is the current count; far
-# fewer means you have a stale copy and should re-fetch before trusting it.
+# 25 rules is the current count. Far fewer means a stale copy — re-fetch.
 grep -c "errs.append" validate.py
 ```
 
@@ -642,18 +651,24 @@ python3 validate.py daily-1237544639.json league-1237544639.json
 python3 validate.py daily-1325565673.json league-1325565673.json
 ```
 
-It checks: unknown player ids, a swap already in effect, a drop whose game
-has started (except a waiver claim that clears in the future or a
-`WHEN_UNLOCKED` card, since the drop executes then), an add of someone
-already rostered, a card with no deadline, a `WHEN_UNLOCKED` card claiming
-LEGENDARY or ELITE tier, more than four cards, a candidate already rostered,
-and a trade where the other side does not gain.
+It checks, among other things: a missing header field; unknown player ids
+anywhere; a swap already in effect; a drop whose game has started, except a
+waiver claim clearing later or a `WHEN_UNLOCKED` card; an add of someone
+already rostered; a card with no deadline; a `WHEN_UNLOCKED` card claiming
+LEGENDARY or ELITE; more than four cards; a roster row count that disagrees
+with the league file; a FINAL row with no actual; a THURSDAY row with
+neither a grade nor `notResearched`; a trade that does not state the other
+side's gain; a watch row already on the roster; an empty `cannotSee`; and
+**any case with no block saying what would prove it wrong.**
 
-Eleven rules. `grep -c "errs.append"` should print 11.
+That last one is the rule worth understanding. A case may label its condition
+"Falsified if", "What would change it" or "When to act" — a prediction and a
+watch row phrase the same idea differently — but one of them must be there.
+A case without it is a belief rather than a position.
 
 Fix anything it reports and rerun. **Do not publish a file that fails.** If
 you believe a failure is a false positive, say so in your report and explain
-why rather than working around it — one of the current rules exists because
+why rather than working around it — one current rule exists precisely because
 a false positive was correctly identified and the rule was fixed.
 
 ### Checks no script can make
@@ -665,20 +680,20 @@ Read these before writing. Each caused a real error.
   now produced a false comparison that shipped.
 - **One league at a time.** A projection from the other league's file is
   wrong even when `scoring` matches, because `scoring` is only receptions.
-  Measured on 14 Sep, these two leagues differ on **fourteen** scoring items:
+  Measured on 14 Sep, these two leagues differ on fourteen scoring items:
   sacks 3 against 4, defensive points-allowed tiers 10/7/4/1 against 5/4/3/2,
   and five categories IPADE scores that Chem does not. Quarterback and D/ST
-  numbers diverge by 5-6% while rushing and receiving match exactly. Diff
-  `settings.scoringItems` if you ever need to know the magnitude — but the
-  rule is simply never to carry a number across.
+  numbers diverge by 5–6% while rushing and receiving match exactly.
 - **Read the settings before the players.** See Step 2.
-- **Never screen on projection alone.** "Nothing on the wire beats X" is what
-  the app already computes. The value is the player whose number has not
-  caught up to his role. That is the entire reason this step exists.
-- **Check the slot column before recommending a lineup change.** A swap he
-  already made is not a recommendation.
-
----
+- **Never screen on projection alone.** "Nothing on the wire beats X" is a
+  sort, not research. The value is the player whose number has not caught up
+  to his role.
+- **Check the slot column before recommending a lineup change** — and before
+  naming anyone in a trade. A run once wrote "the quarterback they give up
+  never plays" about a team's *starting* quarterback, and it shipped twice.
+- **Check who is throwing.** A pass-catcher's week depends more on his own
+  quarterback than on the defence he faces, and the league file says nothing
+  about it. See Step 5.
 
 ## STEP 8 — Publish, log the reasoning, then report
 
