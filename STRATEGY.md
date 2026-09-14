@@ -63,17 +63,35 @@ defensible, the sequence value-destroying, and the last step traded a 9.5 TE
 for an 8.0 WR. Dropping long-term bench assets for short-term fixes is a
 known way to lose value. Every add has an opportunity cost.
 
-### Thresholds
+### The bar
 
-| Situation | Required gain |
-|---|---|
-| Add a free agent over a bench player | **[DEFAULT]** +1.5 projected points |
-| Drop a player acquired in the last 7 days | **[DEFAULT]** +3.0, **and** a stated reason his thesis broke |
-| Drop a player acquired in the last 3 days | Do not. Unless he is ruled out for the season |
-| Spend IPADE waiver priority | See §6 |
+There is no fixed number. A move has to be **worth the churn**, and what that
+means depends on the situation — how big the gain is, how confident the
+reporting is, how recently the outgoing player arrived, and whether the slot
+has already changed hands this week.
 
-A move that does not clear the bar is not a Do-first card. It can be a
-Candidate with a trigger.
+Use judgement, and show it. A card that proposes a move has to say why the
+gain is worth the cost of being wrong. If that sentence cannot be written
+convincingly, the move is a Candidate with a trigger, not a Do-first card.
+
+Things that raise the bar, sometimes to "no":
+
+- The outgoing player arrived in the last week. He was added for a reason
+  and that reason was stated — see below.
+- The slot has already changed hands in the last 7 days.
+- The gain rests on a projection rather than on reporting.
+- The outgoing player has a role that is growing; the incoming one does not.
+
+Things that lower it:
+
+- The outgoing player's thesis visibly broke.
+- The incoming player is a genuine difference-maker, not a marginal upgrade.
+- The outgoing player is a replaceable flex body, which in a 10-team league
+  most bench players are.
+
+One hard floor: **a move that lowers projected points is not an upgrade.**
+Trading a 9.5 for an 8.0 needs an explicit, stated reason — a role change, a
+bye, an injury — or it does not happen.
 
 ### The question to ask
 
@@ -138,8 +156,15 @@ same reason.
 quarter carries. A heavy underdog's receiver gets garbage-time targets. These
 pull in opposite directions and both are real.
 
-**[DEFAULT]** Kicker and DST are streamed on matchup, every week, without
-sentiment. In a 10-team league the wire always has a usable one.
+Kicker and DST are streamed on matchup every week, without sentiment. In a
+10-team league the wire always has a usable one.
+
+**But check the incumbent first.** Compare the rostered kicker and defence
+against the best available each week and say plainly which is better. Often
+the answer is "hold" — a good defence with a good draw beats churning for a
+marginally better projection, and a stream that gains 0.3 points costs a
+roster move for nothing. Report the comparison either way, so the hold is a
+decision rather than an omission.
 
 ---
 
@@ -203,7 +228,7 @@ checked out.
 |---|---|
 | Weeks 1–3 | Sample is noise. Do not trade on three games. React to **role** news only, never to box scores. |
 | Weeks 4–6 | Roles have settled. First real window to buy low on a slow starter with good usage. |
-| **Week 7** | **Jacksonville problem in IPADE.** Tuten, the Jaguars D/ST and Cam Little are all out together. Chem is also exposed: Allen, McLaurin and JAX pieces. Solve this by **week 5**, by trade or by roster shape — not with a week-6 waiver scramble, and in IPADE never by spending priority. |
+| **Week 7** | **Jacksonville problem in IPADE.** Tuten, the Jaguars D/ST and Cam Little are all out together. Chem is also exposed: Allen, McLaurin and JAX pieces. Keep it in view from week 4 onward, but it is solved in week 7 with whatever the wire and the roster look like then. Do not trade a good player in week 4 to pre-solve a week 7 hole — roles change, options appear, and a plan made three weeks early is usually solving a problem that no longer exists. In IPADE, still never by spending priority. |
 | Weeks 9–11 | Prime trade window. Contenders and sellers are both identifiable and neither is desperate yet. |
 | Week 12 | Start evaluating every asset against the weeks 15–17 schedule, not this week's. |
 | 12/2 | Trade deadline, both leagues. Last chance to change the roster other than the wire. |
