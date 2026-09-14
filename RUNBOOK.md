@@ -110,7 +110,7 @@ be paused — say so rather than analysing stale data.
 
 | Key | Contents |
 |---|---|
-| `settings` | `scoring` (pts/reception), `lineup` (slotId → count), `waiver.orderReset`, `name`, `size` |
+| `settings` | `scoring` (pts/reception), `scoringItems` (statId → points, the **full** map), `lineup` (slotId → count), `waiver.orderReset`, `name`, `size` |
 | `teams[]` | All 10, each with `id`, `name`, `isMine`, `record`, `waiverRank`, `roster[]` |
 | `roster[]` | `id`, `name`, `pos`, `slotId`, `proTeamId`, `proj` (**pregame**, never live), `seasonProj` (full-season total, the right unit for a trade), `actual`, `owned`, `ownedChange`, `rank` (analyst consensus), `injury` |
 | `wire[]` | ~84 available players, same fields plus `status` (FREEAGENT/WAIVERS), `clearsAt`, `why` (which band surfaced him) |
@@ -441,8 +441,19 @@ the cost of waiting, not the size of the prize. Overflow falls to Candidates.
 - `out` is who leaves, `in` is who arrives. `out` may be `null` for
   housekeeping (move to IR, drop a dead seat); the app hides the arrow.
 - `alert` is a short red line, on the vacating player only.
-- `deadline` must be a real kickoff from `proTeams[team].kickoff`, or a
-  waiver `clearsAt` from the wire row. Never invent one.
+- `deadline` must be a real kickoff from `proTeams[team].kickoff`, a waiver
+  `clearsAt` from the wire row, or the literal string `"WHEN_UNLOCKED"`.
+  Never invent a timestamp.
+- **`"WHEN_UNLOCKED"` is the between-weeks shape.** Once every game has
+  kicked off, nothing is droppable and no lineup can change — but the two
+  most useful things to say are still "swap these two the moment you can"
+  and "drop him the moment you can". Before this existed they were
+  unrepresentable: a card needed a future kickoff, and candidates rejects
+  rostered players, so two correct findings were lost between the decision
+  log and the screen. The card renders "WHEN THE WEEK ROLLS" instead of a
+  countdown, never expires, and sorts below anything with a real deadline.
+  It may not be `LEGENDARY` or `ELITE` — the validator refuses that, because
+  a next-week instruction must not outrank a claim clearing tonight.
 - `action.type`: `ADD`, `CLAIM`, `DROP`, `SWAP`. A `SWAP` moves two players
   he already owns — `playerId` starts, `dropPlayerId` benches.
 - `why` only when the projections do not explain the move on their own.
@@ -584,10 +595,13 @@ python3 validate.py daily-1325565673.json league-1325565673.json
 ```
 
 It checks: unknown player ids, a swap already in effect, a drop whose game
-has started (except a waiver claim that clears in the future, since the drop
-executes then), an add of someone already rostered, a card with no deadline,
-more than four cards, a candidate already rostered, and a trade where the
-other side does not gain.
+has started (except a waiver claim that clears in the future or a
+`WHEN_UNLOCKED` card, since the drop executes then), an add of someone
+already rostered, a card with no deadline, a `WHEN_UNLOCKED` card claiming
+LEGENDARY or ELITE tier, more than four cards, a candidate already rostered,
+and a trade where the other side does not gain.
+
+Eleven rules. `grep -c "errs.append"` should print 11.
 
 Fix anything it reports and rerun. **Do not publish a file that fails.** If
 you believe a failure is a false positive, say so in your report and explain
@@ -602,7 +616,13 @@ Read these before writing. Each caused a real error.
   the start. A projection quoted from hours earlier against one quoted from
   now produced a false comparison that shipped.
 - **One league at a time.** A projection from the other league's file is
-  wrong even when the scoring matches.
+  wrong even when `scoring` matches, because `scoring` is only receptions.
+  Measured on 14 Sep, these two leagues differ on **fourteen** scoring items:
+  sacks 3 against 4, defensive points-allowed tiers 10/7/4/1 against 5/4/3/2,
+  and five categories IPADE scores that Chem does not. Quarterback and D/ST
+  numbers diverge by 5-6% while rushing and receiving match exactly. Diff
+  `settings.scoringItems` if you ever need to know the magnitude — but the
+  rule is simply never to carry a number across.
 - **Read the settings before the players.** See Step 2.
 - **Never screen on projection alone.** "Nothing on the wire beats X" is what
   the app already computes. The value is the player whose number has not

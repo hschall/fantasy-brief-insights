@@ -66,7 +66,13 @@ def validate(brief_path, league_path):
         # that is clearsAt, by which time the week has rolled and everyone is
         # droppable again \u2014 so the lock only applies to actions taken now.
         # Without this carve-out, every Sunday-evening claim fails the gate.
-        executes_later = kind == 'CLAIM' and in_future(c.get('deadline'))
+        # WHEN_UNLOCKED: the move happens the moment the scoring period rolls
+        # and rosters unlock, which has no timestamp yet. Between weeks this is
+        # the only shape that can carry "swap these two when you can" or "drop
+        # him when you can" — the two most useful things to say once every
+        # game has kicked off, and previously unrepresentable.
+        unlocked = str(c.get('deadline', '')).upper() == 'WHEN_UNLOCKED'
+        executes_later = unlocked or (kind == 'CLAIM' and in_future(c.get('deadline')))
         if drop and started(drop) and not executes_later:
             errs.append(f"{cid}: CANNOT DROP {name.get(drop)} \u2014 his game has started")
 
@@ -75,6 +81,10 @@ def validate(brief_path, league_path):
 
         if not c.get('deadline'):
             errs.append(f"{cid}: no deadline")
+        # A WHEN_UNLOCKED card is a next-week instruction, so it must not also
+        # claim to be urgent. Tier it below ELITE or it outranks live deadlines.
+        if unlocked and str(c.get('tier','')).upper() in ('LEGENDARY', 'ELITE'):
+            errs.append(f"{cid}: WHEN_UNLOCKED cards cannot be LEGENDARY or ELITE")
 
     if len(b.get('doFirst', [])) > MAX_DO_FIRST:
         errs.append(f"doFirst has more than {MAX_DO_FIRST} cards")
