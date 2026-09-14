@@ -146,8 +146,10 @@ through turnover. Both things are true.
 a top-12 player at his position. If the grade and the tier disagree, the tier
 wins.
 
-**The grade decides close calls only.** Two players within ~1.5 points is
-where matchup, game script and target share break the tie.
+**The grade decides close calls only.** When two players project within a
+point or so of each other, matchup, game script and target share break the
+tie. When the gap is real, the projection wins and the grade is just
+context.
 
 **Never bench a player because he is "due."** And never start one for the
 same reason.
@@ -273,7 +275,8 @@ Answer these when this document is next reviewed:
 
 - Which recommendations from the log proved right? Which theses broke, and
   did I drop them fast enough or defend them too long?
-- Is the +1.5 threshold too low? Too high?
+- Were the moves that got made worth making? Look for the sequence where
+  one slot changed hands twice — that is the tell.
 - Did the week 7 plan work, and what did it cost?
 - Is there a position where I am repeatedly making moves? That is either a
   real hole or a tell that I am optimising noise.
