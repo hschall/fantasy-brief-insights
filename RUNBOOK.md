@@ -467,6 +467,21 @@ correct and the app says so in its own words.
 Only proposals where **both sides gain**. A proposal that helps only him is
 not a proposal.
 
+**Check the other team's slot column before you name a player.** A trade
+that asks for their starter is not the trade you think you are proposing. A
+run once wrote "the quarterback they give up never plays" about Team 13's
+Josh Allen — who was in slot 0, starting, while Lamar Jackson sat at slot 20.
+The structural read was right and the named player was wrong, and it shipped
+twice. `slotId` 20 and 21 are bench and IR; everything else is a starter.
+
+**Search two-for-one as well as one-for-one.** STRATEGY.md is explicit that
+in a ten-team league a two-for-one favours whoever receives the single best
+player, and that consolidation is the default direction — but a one-for-one
+search can never find one. Run the one-for-one pass first, then pair each of
+your two most droppable bench players against each of their starters. The
+combinatorics stay small and the shape the strategy actually asks for gets
+looked at.
+
 Compute it, don't guess: for each candidate pair, recompute both teams' best
 possible starting lineups before and after, using that league's own slot
 rules, and keep only pairs where both totals rise. A one-for-one search over
