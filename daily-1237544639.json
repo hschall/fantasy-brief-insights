@@ -1,6 +1,6 @@
 {
  "week": 1,
- "generatedAt": "2026-09-14T02:18:01Z",
+ "generatedAt": "2026-09-14T03:37:37Z",
  "leagueId": "1237544639",
  "defense": {},
  "doFirst": [
@@ -20,7 +20,7 @@
     "role": "QB2 behind Josh Allen",
     "alert": null
    },
-   "why": "Coker went 8 of 9 for 138 and two scores — 29.8 points — and led the Panthers in every receiving category while McMillan was quiet until garbage time. He is 50% rostered, which in a ten-team league is an anomaly rather than a verdict. Carolina draw Atlanta then Cleveland next. Chem priority resets weekly so the claim costs nothing lasting, and Stafford is a second quarterback behind Josh Allen in a one-QB league — the least valuable thing on the roster.",
+   "why": "Carried forward from this morning, still live until Wednesday. Coker went 8 of 9 for 138 and two scores while McMillan was quiet until garbage time, and 50% rostered is an anomaly in a ten-team league. Chem priority resets weekly so the claim costs nothing lasting. Stafford is the drop because a second quarterback behind Josh Allen scores you zero every week — note that is about usable value, not worth: his 303 season projection is real and a QB-thin team in this league would pay for him. If you would rather trade him than bin him, hold the claim.",
    "action": {
     "type": "CLAIM",
     "playerId": 4695883,
@@ -34,22 +34,22 @@
   {
    "playerId": 4429086,
    "tier": "DEPTH",
-   "note": "Ownership moved +3.40, the largest on the board — and the move is already wrong. Schefter reports the Raiders believe Bowers misses only week 1 and returns at the Chargers. The market is pricing week 1's box score; the news has moved on. Do not chase this."
+   "note": "Do not chase this one. Ownership moved +3.40 on the back of week 1, and the news has already moved the other way: Schefter reports the Raiders believe Bowers misses only one game and returns at the Chargers. The market is pricing a box score; the role has a return date on it."
   },
   {
-   "playerId": 4428718,
+   "playerId": 3116365,
    "tier": "DEPTH",
-   "note": "Same story as Mayer. The Bowers target vacuum that made him interesting probably closes this week. His 94.9% snap share is still real and makes him worth watching if Bowers' knee lingers, but the reason to add him has a return date on it."
-  },
-  {
-   "playerId": 4360689,
-   "tier": "DEPTH",
-   "note": "56 attempts, 410 yards, three touchdowns, and New Orleans are 7.5-point underdogs to Baltimore next. A volume quarterback on a team that will trail all season. Only relevant here as an Allen bye-week patch in week 7 — and Chem priority resets, so that claim will be free when you need it."
+   "note": "Free, 83% rostered, and the reason he is a note rather than a card is Isaiah Likely. Likely caught two touchdowns on Sunday night for 27.8 and is the Giants' clear TE1; Pitts caught nothing. Your tight end question for week 2 is Likely over Pitts, not who to add."
   },
   {
    "playerId": 4361432,
    "tier": "DEPTH",
-   "note": "A.J. Brown is expected to miss at least four weeks with a high ankle sprain. Doubs, not Mack Hollins, is the receiver to have — Hollins played more but was blocking in a run-heavy plan. Rostered by a Chem rival, so this is trade leverage as much as a wire note."
+   "note": "A.J. Brown is expected to miss at least four weeks with a high ankle sprain. Doubs, not Mack Hollins, is the beneficiary — Hollins played more snaps but was blocking in a run-heavy plan. He is rostered by a Chem rival whose WR1 just went to injured reserve, which makes this trade leverage more than a wire note."
+  },
+  {
+   "playerId": 4360689,
+   "tier": "DEPTH",
+   "note": "410 yards and three scores on 56 attempts, and New Orleans are 7.5-point underdogs to Baltimore next. A volume quarterback on a team that trails. Irrelevant now, but this is the shape of the free claim that covers Josh Allen's week 7 bye — and in Chem that claim costs nothing."
   }
  ]
 }
