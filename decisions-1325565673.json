@@ -1,6 +1,6 @@
 {
  "leagueId": "1325565673",
- "updatedAt": "2026-09-14T05:10:07Z",
+ "updatedAt": "2026-09-14T13:18:30Z",
  "open": [
   {
    "id": "ipade-trade-golden-allen",
@@ -14,7 +14,7 @@
    "thesis": "Team 13 roster Josh Allen and Lamar Jackson in a one-QB league and start Travis Kelce in their RB/WR/TE flex because no third receiver clears him. Golden fixes their flex; the quarterback they give up never plays.",
    "falsifiedIf": "They trade or drop one quarterback, acquire a third receiver, or Golden's price rises past what the flex gap is worth to them.",
    "reviewAfterWeek": 4,
-   "review": "Still open 14 Sep; nobody has accepted and nothing in the activity log touches either roster. Re-verified against the live slot column this run, which is the check that failed twice before: Josh Allen is slot 0 and starting for Team 13, Lamar Jackson is slot 20 and benched, so the player being asked for is the right one. Recomputed on the current snapshot: you +26.5, them +12.2 of best-lineup season value. Note the id still carries the old -allen slug for thread continuity; the trade asks for Jackson. One thing got worse: Golden is Green Bay's X-receiver locked into three-wide sets now that Doubs signed with New England, and he scored 15.5 from your bench, so the price is real even though it does not show in the best-lineup math."
+   "review": "Re-verified 14 Sep 13:10Z against a fresh snapshot, HELD and still live — nobody has accepted or declined. Slot column re-checked rather than trusted: Josh Allen slot 0 starting, Lamar Jackson slot 20 benched, Travis Kelce slot 23 in their RB/WR/TE flex. Recomputed on season projections: +26.5 me / +12.2 them. New finding added to the card as a fallback ask — team 13 also carry two defences, Seattle starting at slot 16 and Houston benched at slot 20, and Golden for the Texans defence also clears both sides (+28.7 me / +6.1 them). Review after week 4."
   },
   {
    "id": "ipade-start-lawrence-2026-09-14",
@@ -28,7 +28,7 @@
    "thesis": "Lawrence is the starting quarterback from week 2, benching Stafford. Confirmed by week 1 rather than assumed: 18 of 23, 245 yards, four touchdowns in three quarters against Stafford's 4.1. ESPN has Lawrence QB9 and Stafford unranked, so projection and reporting agree for once.",
    "falsifiedIf": "Stafford clearly out-scores Lawrence in two consecutive weeks, or the Jackson trade lands, which makes Lawrence the trade chip rather than the starter.",
    "reviewAfterWeek": 4,
-   "review": null
+   "review": "Reviewed 14 Sep, HELD. Nothing has happened since the week 1 result that settled it (Lawrence 25.6 in three quarters, Stafford 4.1) and the swap has not yet been executed because rosters have not rolled. Added to the card: Jacksonville draw Denver in week 2, which is a hard first assignment for the thesis and takes Tuten, Cam Little and the defence with it."
   },
   {
    "id": "ipade-drop-mayer-2026-09-14",
@@ -39,10 +39,10 @@
    "playerId": 4429086,
    "playerName": "Michael Mayer",
    "gaveUpName": null,
-   "thesis": "Drop Mayer the moment rosters unlock. His thesis was already closed WRONG when Schefter reported Bowers has a realistic chance to return in week 2 at the Chargers; this is the card that acts on it. 85.0 season projection on a 9.3 weekly is a ratio of 9.1 against a league median of 17.0, and it is the lowest season projection on the roster. No replacement is named on purpose: every usable tight end is on waivers and this league's priority never resets.",
-   "falsifiedIf": "Bowers suffers a setback and misses week 2 or beyond, which restores the role and makes the drop premature. Check the Friday practice report before executing.",
+   "thesis": "Drop Mayer the moment rosters unlock. His thesis closed WRONG when Bowers's return timeline emerged; this is the card that acts on it. Amended 14 Sep, certainty reduced: the reporting is that Bowers had a meniscus trim in Dallas after a camp injury went undiagnosed until the week before the opener, and Rapoport and Schefter both put him at 'a game or two' — NOT a confirmed week 2 return, which is how yesterday's version phrased it. The roster maths carries the drop regardless of which week he returns: 85.0 season projection on a 9.3 weekly is a ratio of 9.1 against a league median of 17.0 and the lowest total on the roster. No replacement named on purpose: every usable tight end is on waivers and this league's priority never resets.",
+   "falsifiedIf": "Bowers suffers a setback and misses week 2 as well, which restores the role and makes the drop premature. No week 2 practice report exists yet — practices begin Wednesday. Check Wednesday's first report and Friday's designation before executing.",
    "reviewAfterWeek": 3,
-   "review": null
+   "review": "Reviewed 14 Sep 13:30Z, UNRESOLVED. The falsification condition is live, not beaten: 'a game or two' spans both a week 2 and a week 3 return and there is no practice data yet. Card kept with the certainty corrected down and an explicit check added."
   }
  ],
  "closed": [
