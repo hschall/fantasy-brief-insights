@@ -1,6 +1,6 @@
 {
  "week": 1,
- "generatedAt": "2026-09-14T03:37:37Z",
+ "generatedAt": "2026-09-14T05:07:06Z",
  "leagueId": "1237544639",
  "defense": {},
  "doFirst": [
@@ -12,7 +12,7 @@
    "deadline": "2026-09-16T07:00:00Z",
    "in": {
     "playerId": 4695883,
-    "role": "Led Carolina in every receiving category",
+    "role": "Led Carolina in snaps and routes run, ahead of McMillan",
     "alert": null
    },
    "out": {
@@ -20,36 +20,65 @@
     "role": "QB2 behind Josh Allen",
     "alert": null
    },
-   "why": "Carried forward from this morning, still live until Wednesday. Coker went 8 of 9 for 138 and two scores while McMillan was quiet until garbage time, and 50% rostered is an anomaly in a ten-team league. Chem priority resets weekly so the claim costs nothing lasting. Stafford is the drop because a second quarterback behind Josh Allen scores you zero every week — note that is about usable value, not worth: his 303 season projection is real and a QB-thin team in this league would pay for him. If you would rather trade him than bin him, hold the claim.",
+   "why": "Carried forward and now better supported than when it was written. Coker did not just post a box score, he out-worked the rookie the offence was built around: 57 snaps and 40 routes run to Tetairoa McMillan's 56 and 39, on the way to 8 of 9 for 138 and two scores. That is a full-time role, not a spike week, and in full PPR a route-runner at 50% rostered in a ten-team league is an ownership anomaly. Sports Illustrated read the same week and still call McMillan the primary target, which is the honest counter-argument; the route count is why I take the other side. Chem priority resets weekly so the claim costs nothing lasting. Stafford is the drop: I ran every one-for-one and two-for-one against all nine rival rosters on season projections and there is no trade in this league where both sides gain, for Stafford or anyone else, so his 303 is not a tradeable asset here. Josh Allen's week 7 bye is then uncovered, and in Chem that patch is a free claim when it comes.",
    "action": {
     "type": "CLAIM",
     "playerId": 4695883,
     "dropPlayerId": 12483,
     "label": "Claim Jalen Coker, drop Stafford"
    }
+  },
+  {
+   "id": "chem-start-likely-week2",
+   "tier": "SOLID",
+   "source": "Roster",
+   "status": "ROSTERED",
+   "deadline": "WHEN_UNLOCKED",
+   "in": {
+    "playerId": 4361050,
+    "role": "Giants' full-time TE1, 8 targets and 8 catches in week 1",
+    "alert": null
+   },
+   "out": {
+    "playerId": 4360248,
+    "role": "Ran a full game and was not targeted for a catch",
+    "alert": null
+   },
+   "why": "This is the one place I am disagreeing with the app's own number, so take it as a judgement rather than a calculation. ESPN still projects Pitts ahead for the season, 181.4 to 156.2, and consensus rank has him TE7 to Likely's TE12. The reporting says the opposite. Likely signed three years and $40M to follow Harbaugh and is playing a full-time tight end role for the first time in his career; he went 8 of 8 for 78 and two scores, and Malik Nabers is still not fully integrated back into that offence, so the target pool in front of him is larger than it will be later. Pitts played and caught nothing. A lineup change costs no roster move and no waiver priority, so unlike an add this carries no churn penalty if it is wrong. Week 2 opponents are not published yet, so there is no matchup input in this call — it is role against projection and nothing else.",
+   "action": {
+    "type": "SWAP",
+    "playerId": 4361050,
+    "dropPlayerId": 4360248,
+    "label": "Start Isaiah Likely over Kyle Pitts"
+   }
   }
  ],
  "trades": [],
  "candidates": [
   {
+   "playerId": 4426385,
+   "tier": "DEPTH",
+   "note": "A trap, and the most expensive one on this wire. He reads as the third-best running back available by season projection at 134.2 and he is 54% rostered, which makes him look like somebody's mistake. He is not: Seattle placed him on the PUP list to open 2026, which is why his weekly projection is 0.0 while the season total still looks healthy. The season number has not been zeroed out and the app will render it as though he were available. Do not spend a claim on him, this week or next."
+  },
+  {
+   "playerId": 4361432,
+   "tier": "SOLID",
+   "note": "Correcting yesterday's version of this note, which said Doubs was rostered by a rival — he is not, he is free on this wire. The rest of it got stronger. Doubs signed with New England in free agency, and A.J. Brown, also now a Patriot, went to injured reserve with a high ankle sprain and is out a minimum of four games. That vacates the target share directly above Doubs on his own depth chart. The player who benefits is on your wire and the manager holding Brown is in your league."
+  },
+  {
    "playerId": 4429086,
    "tier": "DEPTH",
-   "note": "Do not chase this one. Ownership moved +3.40 on the back of week 1, and the news has already moved the other way: Schefter reports the Raiders believe Bowers misses only one game and returns at the Chargers. The market is pricing a box score; the role has a return date on it."
+   "note": "Still do not chase him. Ownership moved on the back of one week in which Bowers was out, and the news has gone the other way since: Schefter reports the Raiders believe there is a realistic chance Bowers misses only the one game and returns in week 2 at the Chargers. His season projection of 85.0 against a 9.3 weekly is the market already pricing that return. The box score is the last good thing that will happen to this role."
   },
   {
    "playerId": 3116365,
    "tier": "DEPTH",
-   "note": "Free, 83% rostered, and the reason he is a note rather than a card is Isaiah Likely. Likely caught two touchdowns on Sunday night for 27.8 and is the Giants' clear TE1; Pitts caught nothing. Your tight end question for week 2 is Likely over Pitts, not who to add."
-  },
-  {
-   "playerId": 4361432,
-   "tier": "DEPTH",
-   "note": "A.J. Brown is expected to miss at least four weeks with a high ankle sprain. Doubs, not Mack Hollins, is the beneficiary — Hollins played more snaps but was blocking in a run-heavy plan. He is rostered by a Chem rival whose WR1 just went to injured reserve, which makes this trade leverage more than a wire note."
+   "note": "Free, 83% rostered, genuinely good, and still not the move — because of Isaiah Likely, not because of Andrews. Likely caught two touchdowns on Sunday night for 27.8 and is the Giants' clear TE1 on a new contract; Pitts caught nothing. Your tight end problem in this league is a lineup problem, which the Likely card solves for free, not an acquisition problem. Chem's flex is RB/WR only, so a third tight end cannot even reach your lineup."
   },
   {
    "playerId": 4360689,
    "tier": "DEPTH",
-   "note": "410 yards and three scores on 56 attempts, and New Orleans are 7.5-point underdogs to Baltimore next. A volume quarterback on a team that trails. Irrelevant now, but this is the shape of the free claim that covers Josh Allen's week 7 bye — and in Chem that claim costs nothing."
+   "note": "Irrelevant this week and worth keeping in view anyway. If the Coker claim lands you have no quarterback behind Josh Allen, and Allen's bye is week 7 — the same week Jacksonville's bye takes McLaurin's replacement options with it. New Orleans throw a lot and trail often. Chem priority resets every week, so that patch costs nothing when you make it, which is the whole reason not to solve it now."
   }
  ]
 }
