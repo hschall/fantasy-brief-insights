@@ -1,100 +1,100 @@
 {
- "week": 1,
- "generatedAt": "2026-09-14T05:08:52Z",
- "leagueId": "1325565673",
- "defense": {},
- "doFirst": [
-  {
-   "id": "ipade-start-lawrence-week2",
-   "tier": "SOLID",
-   "source": "Roster",
-   "status": "ROSTERED",
-   "deadline": "WHEN_UNLOCKED",
-   "in": {
-    "playerId": 4360310,
-    "role": "18 of 23 for 245 and four touchdowns, pulled early in a 34-10 win",
-    "alert": null
-   },
-   "out": {
-    "playerId": 12483,
-    "role": "Started and returned 4.1",
-    "alert": null
-   },
-   "why": "The standing thesis said Lawrence starts over Stafford from week 2, and week 1 settled it rather than merely supporting it. Lawrence went 18 of 23 for 245 and four touchdowns for a 150.6 rating and was pulled with 8:12 left and a 34-3 lead, so that line came in three quarters. Stafford returned 4.1. The reason this is a swap and not a shrug is that Lawrence is the one you rostered for the role and he is now the better player on both the projection and the reporting: ESPN has him QB9 and Stafford unranked. Do it the moment rosters unlock; there is nothing to wait for and no cost to being early.",
-   "action": {
-    "type": "SWAP",
-    "playerId": 4360310,
-    "dropPlayerId": 12483,
-    "label": "Start Trevor Lawrence, bench Stafford"
-   }
-  },
-  {
-   "id": "ipade-drop-mayer-week2",
-   "tier": "DEPTH",
-   "source": "Roster",
-   "status": "ROSTERED",
-   "deadline": "WHEN_UNLOCKED",
-   "in": null,
-   "out": {
-    "playerId": 4429086,
-    "role": "The Bowers replacement role ends this week",
-    "alert": "Bowers returns at the Chargers"
-   },
-   "why": "The thesis that put him here has been falsified by its own stated condition, three weeks earlier than its review date. Schefter reports the Raiders believe Bowers has a realistic chance to miss only one game and return in week 2 at the Chargers, which ends the vacated role Mayer was added for. The number already knows: 85.0 for the season against a 9.3 weekly is a ratio of 9.1 where the league median is 17.0, and it is the lowest season projection on your roster. He is not injured, he is about to be a backup again. I am deliberately not naming his replacement. The good tight ends here, Strange and Hockenson and Henry, all sit on waivers, and this league's priority never resets, so none of them justifies spending it on a bench tight end. Drop him when the week rolls, then take whoever clears unclaimed on Wednesday for free.",
-   "action": {
-    "type": "DROP",
-    "playerId": null,
-    "dropPlayerId": 4429086,
-    "label": "Drop Michael Mayer when rosters unlock"
-   }
-  }
- ],
- "trades": [
-  {
-   "id": "t13-golden-lamar",
-   "partnerTeamId": 13,
-   "odds": "EVEN",
-   "youGive": [
-    4701936
-   ],
-   "youGet": [
-    3916387
-   ],
-   "yourGain": 26.5,
-   "theirGain": 12.2,
-   "headline": "Lamar Jackson scores them nothing on their bench, and Golden fixes the flex they are patching with a tight end",
-   "yourSurplus": "Golden is your WR3 and cannot reach your lineup. Behind Rice and Garrett Wilson the flex is Tuten, who out-projects him 205.2 to 190.3 for the season, so on paper Golden costs you nothing at all. Be honest about the other half of that: he is Green Bay's X-receiver, locked into their three-wide sets alongside Reed and Watson now that Doubs left for New England, and he put up 15.5 on your bench in week 1. This is a real player you are moving, not a spare part, and if Rice's knee becomes a story you will feel it.",
-   "theirHole": "Verified against their slot column this time rather than assumed. Josh Allen is at slot 0 and starting. Lamar Jackson is at slot 20, on their bench, in a one-quarterback league, scoring them zero every week: he put up 24.0 on Sunday and none of it counted for them. Their flex at slot 23 is Travis Kelce, because no third receiver on their roster clears him. Golden does.",
-   "yourLineup": "Jackson takes the quarterback slot. Against Stafford that is 312.9 to 286.4 for the season and a rank of QB2 against unranked, and Tuten stays in the flex untouched. Jackson declared himself 100% healthy for the opener and Baltimore called him in peak condition after an injury-hit 2025, then backed it with 24.0 in week 1.",
-   "theirLineup": "Golden replaces Kelce in their RB/WR/TE flex, worth 12.2 season points to them. Josh Allen is not touched and is not being asked for.",
-   "risk": "Three things. First, this replaces an earlier version that asked for Josh Allen. That one was wrong because Allen is their starter, and it shipped twice before anyone checked the slot column; I checked it this time and Jackson is on the bench. Second, you would then hold three quarterbacks, which makes Stafford the next thing to move, and the same exhaustive search that found this trade found no other proposal in this league where both sides gain, so the realistic exit for Stafford is the Lawrence swap and then a drop, not a trade. Third, and this is the one that should give you pause: every season number in this trade comes from a seasonProj field that first appeared in the feed at about 02:45 UTC this morning. There is no history to prove it updates, so it may still be August's opinion. The structural argument, a benched quarterback in a one-QB league and a flex filled by a tight end, does not depend on that number and is the real reason to make the offer. Jackson's contract is also unresolved, with ESPN reporting he would not have a deal before the season, which is a distraction risk and nothing more."
-  }
- ],
- "candidates": [
-  {
-   "playerId": 4695883,
-   "tier": "SOLID",
-   "note": "The strongest name on this wire and still not worth your priority. He led Carolina in snaps (57) and routes run (40) in week 1, ahead of Tetairoa McMillan's 56 and 39, on 8 of 9 for 138 and two touchdowns: a full-time role, not a spike week. But he is a flex competing with Tuten, not a starter filling a hole, and this league's waiver priority never resets. He clears Wednesday at 07:00 UTC. If nobody claims him, add him for free. That is the version of this move worth making."
-  },
-  {
-   "playerId": 4360569,
-   "tier": "DEPTH",
-   "note": "The best running back on this wire by season projection at 167.9, and 68% rostered elsewhere, which is exactly the shape that usually means someone blundered. Here it does not. Minnesota are running a genuine two-man backfield: Aaron Jones is still the listed starter and keeps the passing-down work, while Mason holds the red-zone role he earned last year outcarrying Jones 15-10 inside the twenty with six rushing scores to two. A committee back with touchdown equity is a fine free add and a bad reason to burn a priority that never comes back."
-  },
-  {
-   "playerId": 4430539,
-   "tier": "DEPTH",
-   "note": "Jacksonville's TE1 on their first official depth chart of the season, ahead of Boerkircher and Morris, and he caught a 14-yard touchdown from Lawrence in week 1. At 23% rostered he is the honest answer to the Mayer seat. The reason he is a note and not a card: he is a Jaguar. You already hold Tuten, Cam Little and the Jacksonville defence, and Lawrence joins them the moment you make the swap above. Their bye in week 7 is already the worst week on your calendar, and adding a fifth Jaguar to fix a bench tight end makes a known problem worse to solve a small one."
-  },
-  {
-   "playerId": 4685415,
-   "tier": "DEPTH",
-   "note": "Carried forward because it still stops a mistake, and it is now confirmed rather than argued. Hunter shows rank 1 in the data, which reads like the best player available on this wire. Jacksonville's own first depth chart of 2026 lists him fourth among their receivers, behind Brian Thomas Jr., and he did not register a reception in the week 1 win. The rank is a preseason artifact. Never spend a never-resetting claim on it."
-  },
-  {
-   "playerId": 4360689,
-   "tier": "DEPTH",
-   "note": "Irrelevant while you hold Lawrence, and the reason to keep watching him is that holding Lawrence is exactly what creates the problem. Week 7 is Jacksonville's bye, which takes Tuten, Cam Little, the defence and now your starting quarterback out in the same week. New Orleans throw a lot and trail often. In this league that patch has to be a free agent and never a claim, so the question in week 6 is who is free, not who is best."
-  }
- ]
+  "week": 1,
+  "generatedAt": "2026-09-14T13:18:30Z",
+  "leagueId": "1325565673",
+  "defense": {},
+  "doFirst": [
+    {
+      "id": "ipade-start-lawrence-week2",
+      "tier": "SOLID",
+      "source": "Roster",
+      "status": "ROSTERED",
+      "deadline": "WHEN_UNLOCKED",
+      "in": {
+        "playerId": 4360310,
+        "role": "18 of 23 for 245 and four touchdowns, pulled early in a 34-10 win",
+        "alert": null
+      },
+      "out": {
+        "playerId": 12483,
+        "role": "Started and returned 4.1",
+        "alert": null
+      },
+      "why": "Held and unchanged. Lawrence went 18 of 23 for 245 and four touchdowns for a 150.6 rating and was pulled with 8:12 left holding a 34-3 lead, so that line came in three quarters; Stafford returned 4.1 the same week. ESPN has Lawrence QB9 and Stafford unranked, so projection and reporting agree, which they rarely do. One thing to know before you make it rather than after: Jacksonville draw Denver in week 2, which is the hardest single draw on your calendar this month and takes Tuten, Cam Little and the defence with it as well as the quarterback. That is a reason to expect a quiet week, not a reason to start Stafford, whose own week 2 is not obviously better and whose week 1 was 4.1. Make the swap the moment rosters unlock; there is nothing to wait for and no cost to being early.",
+      "action": {
+        "type": "SWAP",
+        "playerId": 4360310,
+        "dropPlayerId": 12483,
+        "label": "Start Trevor Lawrence, bench Stafford"
+      }
+    },
+    {
+      "id": "ipade-drop-mayer-week2",
+      "tier": "DEPTH",
+      "source": "Roster",
+      "status": "ROSTERED",
+      "deadline": "WHEN_UNLOCKED",
+      "in": null,
+      "out": {
+        "playerId": 4429086,
+        "role": "The Bowers replacement role ends as soon as Bowers plays",
+        "alert": "Bowers due back within a game or two"
+      },
+      "why": "Carried forward with its certainty corrected downward, because yesterday's version overstated the reporting. Yesterday said Schefter reports a realistic chance Bowers returns in week 2 at the Chargers. What the reporting actually says is narrower: Bowers had a meniscus trim in Dallas after a training-camp injury went undiagnosed until the week before the opener, and Rapoport and Schefter both put him at a game or two. That spans a week 2 return and a week 3 return, and no week 2 practice report exists yet because week 2 practices do not start until Wednesday. So the falsification condition on this thesis — Bowers suffers a setback and misses week 2 as well — is live and unresolved rather than beaten. The drop is still right on the roster maths regardless of which week he comes back: Mayer's 85.0 season projection on a 9.3 weekly is a ratio of 9.1 against a league median of 17.0, the lowest total on your roster, and he is a backup tight end the moment Bowers plays a snap. Check Wednesday's first practice report and Friday's designation before you execute. No replacement is named on purpose: every usable tight end here, Strange and Hockenson and Henry, sits on waivers, and this league's priority never resets, so none of them is worth spending it on for a bench tight end. Drop him when the week rolls, then take whoever clears unclaimed on Wednesday for free.",
+      "action": {
+        "type": "DROP",
+        "playerId": null,
+        "dropPlayerId": 4429086,
+        "label": "Drop Michael Mayer when rosters unlock"
+      }
+    }
+  ],
+  "trades": [
+    {
+      "id": "t13-golden-lamar",
+      "partnerTeamId": 13,
+      "odds": "EVEN",
+      "youGive": [
+        4701936
+      ],
+      "youGet": [
+        3916387
+      ],
+      "yourGain": 26.5,
+      "theirGain": 12.2,
+      "headline": "Lamar Jackson scores them nothing on their bench, and Golden fixes the flex they are patching with a tight end",
+      "yourSurplus": "Golden is your WR3 and cannot reach your lineup. Behind Rice and Garrett Wilson the flex is Tuten, who out-projects him 205.2 to 190.3 for the season, so on the roster sheet Golden costs you nothing at all. Be honest about the other half of that: he is Green Bay's X-receiver, locked into their three-wide sets alongside Reed and Watson now that Doubs left for New England, and he put up 15.5 on your bench in week 1. This is a real player, not a spare part, and if Rice's knee ever becomes a story you will feel it.",
+      "theirHole": "Re-verified against their slot column this morning rather than carried. Josh Allen is at slot 0 and starting and is not being asked for. Lamar Jackson is at slot 20, on their bench, in a one-quarterback league, scoring them exactly zero every week — he put up 24.0 in week 1 and none of it counted. Their flex at slot 23 is Travis Kelce, because no third receiver on their roster clears him. Golden does.",
+      "yourLineup": "Jackson takes the quarterback slot. Against Stafford that is 312.9 to 286.4 for the season and QB2 against unranked, and Tuten stays in the flex untouched. Jackson declared himself 100% healthy for the opener, Baltimore called him in peak condition after an injury-hit 2025, and he backed it with 24.0 in week 1.",
+      "theirLineup": "Golden replaces Kelce in their RB/WR/TE flex, worth 12.2 season points. Their quarterback, running backs and defence are untouched.",
+      "risk": "Four things. First, this is the corrected version of a proposal that shipped twice asking for Josh Allen, who is their starter; Jackson is the benched one and I checked the slot column again today rather than trusting yesterday's check. Second, you would then hold three quarterbacks, which makes Stafford the next thing to move — and an exhaustive search of this league found no proposal where a Stafford trade helps both sides, so his realistic exit is the Lawrence swap and then a drop. Third, and this should still give you pause: every season number here comes from a seasonProj field that first appeared in the feed at about 02:45 UTC on 14 September. Two snapshots now exist and the values have not visibly moved, which is consistent with either a slow-moving projection or a preseason artifact, so treat the totals as indicative and the structural argument — a benched quarterback in a one-QB league, a flex filled by a tight end — as the real reason to offer. Fourth, if they say no to Jackson, they have a second surplus worth asking about: they carry two defences, Seattle starting at slot 16 and Houston benched at slot 20, and Golden for the Texans defence also clears both sides."
+    }
+  ],
+  "candidates": [
+    {
+      "playerId": 4695883,
+      "tier": "SOLID",
+      "note": "The strongest name on this wire and still not worth your priority. He led Carolina in snaps (57) and routes run (40) in week 1 against Tetairoa McMillan's 56 and 39, on 8 of 9 for 138 and two touchdowns, and the follow-up reporting has McMillan's slot rate at 21.4% against 19.8% last season — the same role, not an expanding one — while calling Coker's 11 and 12 personnel work secure. That is a full-time job, not a spike week. But he is a flex competing with Tuten rather than a starter filling a hole, and this league's waiver priority never resets. He clears Wednesday at 07:00 UTC. If nobody claims him, add him for free. That is the version of this move worth making."
+    },
+    {
+      "playerId": 4360569,
+      "tier": "DEPTH",
+      "note": "The best running back on this wire by season projection at 167.9 and 68% rostered elsewhere, which is the shape that usually means somebody blundered. Here it does not, and week 1 said so precisely. Mason and Aaron Jones split it almost exactly: 30 snaps to 29, 15 carries to 12, a touchdown each. Mason took more than half the early-down snaps, Jones kept the passing-down work, and the goal line went the wrong way for Mason — Jones took two carries inside the five to Mason's one. In full PPR a back who loses third downs and does not own the goal line is collecting the least valuable touches on the field, which is exactly what STRATEGY says to avoid. A fine free add and a bad reason to burn a priority that never comes back."
+    },
+    {
+      "playerId": 4430539,
+      "tier": "DEPTH",
+      "note": "Confirmed on Jacksonville's own first depth chart of the 2026 regular season: Strange is listed as the starting tight end ahead of Nate Boerkircher, Quintin Morris and Tanner Koziol, and he caught a 14-yard touchdown from Lawrence in week 1. At 23% rostered he is the honest answer to the Mayer seat, and he is on waivers clearing Wednesday. The reason he stays a note rather than becoming a card: he is a Jaguar. You already hold Tuten, Cam Little and the Jacksonville defence, and Lawrence joins them the moment you make the swap above. Their week 7 bye is already the worst single week on your calendar and a fifth Jaguar makes a known problem worse to solve a small one. If he clears unclaimed and you still want a tight end, he is free — that is the only version to take."
+    },
+    {
+      "playerId": 4685415,
+      "tier": "DEPTH",
+      "note": "Carried forward because it still stops a mistake, and it is now confirmed from the source rather than argued. Hunter shows rank 1 in the data, which reads like the best player on this wire. Jacksonville's first official depth chart of 2026 lists him second at left receiver behind Brian Thomas Jr., and he did not register a reception in the week 1 win. His season projection is 105.7. The rank is a preseason artifact and nothing else. Never spend a never-resetting claim on it."
+    },
+    {
+      "playerId": 4360689,
+      "tier": "DEPTH",
+      "note": "Irrelevant while you hold Lawrence, and holding Lawrence is exactly what creates the problem. Week 7 is Jacksonville's bye and it takes Tuten, Cam Little, the defence and your starting quarterback out in the same week — four starters from one team. New Orleans throw a lot and trail often. In this league that patch has to be a free agent and never a claim, so the question to ask in week 6 is who is free, not who is best. Do not pre-solve it now; roles change and a plan made three weeks early usually solves a problem that no longer exists."
+    }
+  ]
 }
