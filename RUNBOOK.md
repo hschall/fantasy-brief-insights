@@ -173,14 +173,20 @@ for L in ['1237544639','1325565673']:
             (ko or 'TBD')[11:16], p['proj'] or 0, str(p['actual']), p['owned'],
             str(p['rank']), p.get('injury','-'), '  LOCKED' if started else ''))
 
-    print('\nWIRE  (top 25 of %d)' % len(d.get('wire', [])))
-    for w in d.get('wire', [])[:25]:
-        b = pt.get(str(w['proTeamId']), {})
-        print('  %-22s %-3s %-4s vs %-4s proj%6.1f own%6.2f d%+5.2f rank%-5s %-10s why=%-6s %s' % (
-            w['name'][:22], w['pos'], b.get('abbrev'),
-            pt.get(str(b.get('opp')), {}).get('abbrev','?'), w['proj'] or 0,
-            w['owned'], w['ownedChange'], str(w['rank']), w['status'], w['why'],
-            (w.get('clearsAt') or '')[5:16]))
+    # BY POSITION, not one flat list. Sorting the whole wire by seasonProj
+    # returns ten quarterbacks in a row, which is useless in a one-QB league.
+    print('\nWIRE  (top 8 per position of %d)' % len(d.get('wire', [])))
+    for pos in ['RB', 'WR', 'TE', 'QB', 'K', 'DST']:
+        rows = [w for w in d.get('wire', []) if w['pos'] == pos]
+        if not rows: continue
+        print('  -- %s' % pos)
+        for w in sorted(rows, key=lambda x: -(x.get('seasonProj') or 0))[:8]:
+            b = pt.get(str(w['proTeamId']), {})
+            print('    %-22s %-4s wk%6.1f szn%7.1f own%6.2f d%+5.2f rk%-5s %-10s why=%-6s %s' % (
+                w['name'][:22], b.get('abbrev'), w['proj'] or 0,
+                w.get('seasonProj') or 0, w['owned'], w['ownedChange'],
+                str(w['rank']), w['status'], w['why'],
+                (w.get('clearsAt') or '')[5:16]))
 
     print('\nINJURY FLAGS — ALL TEAMS (research every one)')
     for t in d['teams']:
@@ -397,6 +403,35 @@ next week's are not published until ESPN advances `scoringPeriod`. Grading
 finished games is worse than grading nothing: the app renders it as live
 advice. An empty object leaves the tiles blank, which is the honest state.
 Grades resume on the run after the scoring period advances.
+
+### Every card needs a fact a number cannot give you
+
+**A projection is an input to a decision, never the decision.** Before you
+write any card, check it against this:
+
+> Could this card have been written by sorting a column?
+
+If yes, it does not go in. The app already sorts columns. A card earns its
+place by containing something that came from **reporting** — a role, a snap
+share, a depth-chart position, a practice report, a coach's quote, an
+injury timeline. The number tells you where to look. It never tells you what
+is true.
+
+Concretely, the `why` on a Do-first card and the `note` on a candidate must
+each contain at least one fact you learned in Step 5 and could not have read
+off the league file. "Projects 2.3 higher" is not such a fact. "Bowers
+returns at the Chargers, so the role the add was made for ends this week" is.
+
+This has been got wrong in both directions and both cost points. A run
+recommended dropping Monangai because a wire player projected higher; he
+returned from injury and scored 20.4. Another recommended dropping Likely
+because a second tight end cannot enter a RB/WR flex; he scored 27.8 with
+two touchdowns. The first traded on a number, the second on a structure.
+Neither had looked at the player.
+
+`seasonProj` makes this trap easier to fall into, not harder — it looks
+authoritative and it covers the whole season. Treat it as the thing that
+narrows the list you research, never as the thing that decides.
 
 ### doFirst
 
