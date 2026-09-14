@@ -1,6 +1,6 @@
 {
  "leagueId": "1325565673",
- "updatedAt": "2026-09-14T02:20:00Z",
+ "updatedAt": "2026-09-14T03:38:30Z",
  "open": [
   {
    "id": "ipade-trade-golden-allen",
@@ -14,21 +14,7 @@
    "thesis": "Team 13 roster Josh Allen and Lamar Jackson in a one-QB league and start Travis Kelce in their RB/WR/TE flex because no third receiver clears him. Golden fixes their flex; the quarterback they give up never plays.",
    "falsifiedIf": "They trade or drop one quarterback, acquire a third receiver, or Golden's price rises past what the flex gap is worth to them.",
    "reviewAfterWeek": 4,
-   "review": "14 Sep: harder than yesterday. Golden finished week 1 with 15.5, not the 1.5 the original card was written against, so they may now value him correctly. Also less urgent: Lawrence solves the quarterback problem for free."
-  },
-  {
-   "id": "ipade-add-mayer-2026-09-10",
-   "at": "2026-09-10T23:53:00Z",
-   "week": 1,
-   "kind": "ADD",
-   "source": "owner",
-   "playerId": 4429086,
-   "playerName": "Michael Mayer",
-   "gaveUpName": "Tyler Allgeier",
-   "thesis": "Bowers had a meniscus trim and is out one to two weeks. Mayer is Las Vegas' TE1 and was extended three years. The IPADE flex takes a tight end, so a second startable TE has real value here.",
-   "falsifiedIf": "Bowers returns and Mayer's route share drops back under about 50%.",
-   "reviewAfterWeek": 2,
-   "review": "14 Sep: AT RISK, three weeks early. Schefter reports the Raiders believe Bowers misses only week 1 and returns at the Chargers. Mayer scored 9.2 and the role probably ends this week. He is the first drop candidate when something better appears — but not before Bowers actually plays."
+   "review": "14 Sep: still open but demoted from need to luxury. Golden finished week 1 at 15.5, so their valuation of him may have corrected. More importantly Lawrence solves the quarterback slot for nothing, so there is no longer any urgency — do not overpay."
   },
   {
    "id": "ipade-hold-lawrence",
@@ -41,7 +27,7 @@
    "thesis": "Starts over Stafford from week 2. Ranked QB8 against Stafford's unranked, and Stafford is 38 coming off a career-high touchdown rate that will regress.",
    "falsifiedIf": "A quarterback trade lands, which makes Lawrence expendable, or Stafford strings together two clearly better weeks.",
    "reviewAfterWeek": 3,
-   "review": "14 Sep: CONFIRMED, emphatically. Lawrence scored 25.6 on the bench while Stafford started and scored 4.1. A 21.5-point swing in one week. Start Lawrence from week 2 without further argument, and note the quarterback trade is now a luxury rather than a need."
+   "review": "14 Sep: CONFIRMED. Lawrence scored 25.6 on the bench while Stafford started and scored 4.1 — a 21.5-point swing in one week. Start Lawrence from week 2 without further argument."
   }
  ],
  "closed": [
@@ -49,7 +35,7 @@
    "at": "2026-09-10T16:17:00Z",
    "week": 1,
    "outcome": "CHURN",
-   "summary": "The kicker slot went Little -> Boswell on 8 Sep and Boswell -> Little on 10 Sep. The same slot reversed in two days for no stated reason. The clearest example of optimising noise on the record."
+   "summary": "The kicker slot went Little -> Boswell on 8 Sep and Boswell -> Little on 10 Sep. The same slot reversed in two days for no stated reason."
   },
   {
    "at": "2026-09-10T23:53:00Z",
@@ -61,7 +47,13 @@
    "at": "2026-09-14T02:20:00Z",
    "week": 1,
    "outcome": "EXPIRED",
-   "summary": "The Tuten-for-Lamar proposal is withdrawn in favour of the Golden-for-Allen version. Its own card named the reason: Tuten is a 93.8% rostered Jacksonville starter and Lloyd is a committee back, so the single-week model that made the swap look free was pricing the wrong unit."
+   "summary": "The Tuten-for-Lamar proposal is withdrawn in favour of the Golden-for-Allen version. Season projections later confirmed its own stated risk: Tuten 205.2 against Lloyd 135.6, so the swap the weekly model called free was seventy points of season value."
+  },
+  {
+   "at": "2026-09-14T03:38:30Z",
+   "week": 1,
+   "outcome": "WRONG",
+   "summary": "Michael Mayer thesis FALSIFIED, exactly as its condition predicted and three weeks early. Schefter reports Bowers returns at the Chargers in week 2, which ends the role the add was made for. Mayer scored 9.2 and projects 85.0 for the season, the lowest on the roster. He is the drop the moment the week rolls and players unlock. The thesis was sound when written and the falsification condition did its job — this is the log working, not a mistake."
   }
  ]
 }
