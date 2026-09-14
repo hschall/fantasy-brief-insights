@@ -315,16 +315,34 @@ Rosters, roles and depth charts changed since your training data.
 
 What to look for, in descending order of value:
 
-1. **Role, not health.** Who takes the goal line. Who plays third downs. Who
+1. **Who is throwing to him.** For every pass-catcher you start, bench or
+   recommend, find out who is under centre. A receiver or tight end's week
+   depends more on his own quarterback than on the defence he faces, and
+   **the league file carries nothing about it** — not the starter, not the
+   depth chart, not whether the projection assumes the man who will actually
+   play.
+
+   This is here because it cost a week. Kyle Pitts projected 9.8 and scored
+   0.0 against Pittsburgh. Atlanta were down to their third-string
+   quarterback: Tua ruled out on the Friday, Penix ruled out earlier that
+   week, Cooper Rush named the starter two days before kickoff and reported
+   by every outlet. The brief had a startable alternative on the bench who
+   scored 27.8, and recommended nothing, because nobody looked up who was
+   throwing.
+
+   When the answer is abnormal, put it in the `offense` block (Step 6). When
+   you have a startable alternative, it is a Do-first card, not a note.
+
+2. **Role, not health.** Who takes the goal line. Who plays third downs. Who
    is listed first on the official depth chart. A back who loses both the goal
    line and passing downs is capped regardless of what the projection says —
    and in full PPR that matters twice over.
-2. **Practice participation across the week.** Limited Wednesday and full
+3. **Practice participation across the week.** Limited Wednesday and full
    Friday is a different player from limited all three days. A designation is
    a label; practice reports are the evidence.
-3. **Matchup quality** for the defence grades: implied team total, spread,
+4. **Matchup quality** for the defence grades: implied team total, spread,
    secondary and front quality, who is out on the other side.
-4. **Why ownership moved.** The number says it moved. Only reporting says
+5. **Why ownership moved.** The number says it moved. Only reporting says
    whether it is real.
 
 Good sources: team beat writers, RotoBaller, FantasyPros, DraftKings Network,
@@ -432,6 +450,36 @@ Neither had looked at the player.
 `seasonProj` makes this trap easier to fall into, not harder — it looks
 authoritative and it covers the whole season. Treat it as the thing that
 narrows the list you research, never as the thing that decides.
+
+### offense
+
+The other half of the matchup, keyed by a player's **own** team:
+
+```json
+"offense": {
+  "ATL": {"qb": "Cooper Rush, 3rd string", "grade": "POOR"},
+  "CLE": {"qb": "Deshaun Watson, PFF's 31st O-line", "grade": "SHAKY"}
+}
+```
+
+`defense` grades the opponent a player faces. `offense` grades the situation
+he plays in. Both are needed and only one existed.
+
+- **Only include a team when something is wrong.** An absent entry means
+  nothing was flagged, not that the offence was checked and found fine —
+  the same convention as `defense`.
+- Only `SHAKY` and `POOR` surface in the app. Anything milder is not worth
+  interrupting the reader for.
+- `qb` is one short line, shown in red under the player's row: a name and
+  why it matters. "Cooper Rush, 3rd string" is right. "The quarterback
+  situation is unsettled" is not.
+- It applies to WR, TE and RB rows only. A quarterback *is* the problem
+  rather than a victim of it; a kicker or defence does not care who throws.
+  Running backs are included because full PPR pays them for receptions.
+
+**If a flagged player is in the starting lineup and a startable alternative
+sits on the bench, that is a Do-first card, not a flag.** The flag is for
+when there is nothing to do about it.
 
 ### doFirst
 
