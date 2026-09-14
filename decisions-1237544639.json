@@ -1,6 +1,6 @@
 {
  "leagueId": "1237544639",
- "updatedAt": "2026-09-14T03:38:30Z",
+ "updatedAt": "2026-09-14T05:10:07Z",
  "open": [
   {
    "id": "chem-add-thomas-2026-09-12",
@@ -14,7 +14,7 @@
    "thesis": "84% rostered nationally and dropped by Footballers — an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers.",
    "falsifiedIf": "Target share stays under about 18% through week 3, or Meyers/Washington pass him on the depth chart.",
    "reviewAfterWeek": 3,
-   "review": "14 Sep: wobbling. 7.0 in week 1. Reporting has Meyers and Parker Washington at the top of that room with Thomas and Hunter chasing, and PFN project a 19.3% target share. Not falsified, but the premise that he is the listed WR1 ahead of Meyers is contested. Hold to week 3 as planned."
+   "review": "Week 1 reviewed 14 Sep, UNRESOLVED and trending against. Thomas went 3 of 3 for 40 with no touchdown while Lawrence threw four, and Jacksonville's first official depth chart of 2026 lists Parker Washington in the top receiver slot; Washington led the team with 5 for 83 and a score. Two mitigations: Lawrence attempted only 23 passes and was pulled leading 34-3, and Thomas took a shoulder knock in the second quarter and returned. The falsification condition is deliberately left as written - it measures target share through week 3 and one blowout is not three weeks. No action taken; he was added 12 Sep and the churn rule closes that slot. If week 2 brings another sub-18% target share, this closes as WRONG."
   },
   {
    "id": "chem-start-warren-2026-09-13",
@@ -28,7 +28,7 @@
    "thesis": "Pittsburgh's listed RB1 and the primary passing-down back. Chem switched to full PPR, which doubles the value of the receiving edge that had made him a sit.",
    "falsifiedIf": "Dowdle out-touches him materially two weeks running, or Warren's target share drops below Dowdle's.",
    "reviewAfterWeek": 3,
-   "review": "14 Sep: HELD. Warren out-touched Dowdle by five and ran 4.6 yards per carry to Dowdle's 1.9. PFN's 3:2-to-Dowdle model was wrong. ESPN expect Warren to stay the narrow leader into week 2 at New England."
+   "review": "Week 1 reviewed 14 Sep, HELD and strengthened by a fact the thesis did not have. Pittsburgh's depth chart lists Warren RB1 and Dowdle RB2, and Kenneth Gainwell - the man who took the passing-down snaps - was traded to Tampa Bay, so the receiving work the full-PPR argument rests on is now uncontested. Warren returned 10.3 on a 12.6 projection, which is neither evidence for nor against."
   },
   {
    "id": "chem-add-likely-2026-09-13",
@@ -42,7 +42,7 @@
    "thesis": "Reconstructed after the fact from reporting. Likely signed 3yr/$40M to follow Harbaugh from Baltimore and is the undisputed Giants TE1 and primary slot option, with Nabers coming off an ACL and a receiver room only four deep.",
    "falsifiedIf": "Nabers returns to full health and Likely's route share drops below about 60%, or Theo Johnson takes the 11-personnel snaps back.",
    "reviewAfterWeek": 4,
-   "review": "14 Sep, second review: CONFIRMED. Two touchdowns on Sunday night for 27.8, both wide open in the back of the end zone, plus two critical third-down conversions. He is Dart's red-zone target, not just his safety valve. Pitts caught nothing in the same week. The withdrawn recommendation to drop him for Worthy now looks worse, not better. Review pushed to week 4; nothing short of Nabers returning changes this."
+   "review": "Week 1 reviewed 14 Sep, HELD emphatically. 8 targets, 8 catches, 78 yards, two touchdowns, 27.8 PPR, best of any tight end in the early window. Reporting confirms the reconstructed thesis: three years and $40M, full-time tight end for the first time in his career, and Nabers still not fully integrated into the offence. Acted on this run by starting him over Pitts rather than by any roster move."
   },
   {
    "id": "chem-claim-coker-2026-09-14",
@@ -56,7 +56,21 @@
    "thesis": "8 of 9 for 138 and two scores, led Carolina in every receiving category while McMillan was quiet until garbage time. 50% rostered is an anomaly in a ten-team league. Chem priority resets weekly so the claim is free.",
    "falsifiedIf": "McMillan reasserts as the clear alpha and Coker's target share falls under about 18% across weeks 2-3, or the week 1 line proves to have been garbage-time inflated.",
    "reviewAfterWeek": 3,
-   "review": "14 Sep: still pending, clears Wednesday 07:00 UTC. One correction to the card's reasoning — Stafford was called the least valuable thing on the roster, which conflates usable value with worth. He is useless to a team starting Josh Allen and still projects 303 for the season. Trading him beats dropping him if a QB-thin rival will pay."
+   "review": "Still pending; the claim does not process until Wednesday 07:00 UTC, so it cannot resolve before then. Re-researched rather than recycled: Coker led Carolina in snaps (57) and routes run (40), ahead of McMillan's 56 and 39. That is the full-time role the thesis assumed and it is now measured rather than inferred. Sports Illustrated still call McMillan the primary target, which is the live counter-argument."
+  },
+  {
+   "id": "chem-start-likely-over-pitts-2026-09-14",
+   "at": "2026-09-14T05:10:07Z",
+   "week": 1,
+   "kind": "LINEUP",
+   "source": "assistant",
+   "playerId": 4361050,
+   "playerName": "Isaiah Likely",
+   "gaveUpName": "Kyle Pitts Sr.",
+   "thesis": "Start Likely over Pitts from week 2. This overrides ESPN's own season projection, which prefers Pitts 181.4 to 156.2 and ranks him TE7 to Likely's TE12. The override is on role, not on week 1: Likely is a full-time tight end for the first time on a three-year $40M deal with Nabers still ramping back in, while Pitts played a full game and was not targeted for a catch.",
+   "falsifiedIf": "Pitts out-scores Likely in two of the next three weeks, or Nabers returns to full health and Likely's route share drops below about 60%, or Theo Johnson takes the 11-personnel snaps back.",
+   "reviewAfterWeek": 4,
+   "review": null
   }
  ],
  "closed": [

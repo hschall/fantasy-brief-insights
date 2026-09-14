@@ -1,6 +1,6 @@
 {
  "leagueId": "1325565673",
- "updatedAt": "2026-09-14T03:38:30Z",
+ "updatedAt": "2026-09-14T05:10:07Z",
  "open": [
   {
    "id": "ipade-trade-golden-allen",
@@ -8,26 +8,41 @@
    "week": 1,
    "kind": "TRADE_PROPOSED",
    "source": "assistant",
-   "playerId": 3918298,
-   "playerName": "Josh Allen",
+   "playerId": 3916387,
+   "playerName": "Lamar Jackson",
    "gaveUpName": "Matthew Golden",
    "thesis": "Team 13 roster Josh Allen and Lamar Jackson in a one-QB league and start Travis Kelce in their RB/WR/TE flex because no third receiver clears him. Golden fixes their flex; the quarterback they give up never plays.",
    "falsifiedIf": "They trade or drop one quarterback, acquire a third receiver, or Golden's price rises past what the flex gap is worth to them.",
    "reviewAfterWeek": 4,
-   "review": "14 Sep: still open but demoted from need to luxury. Golden finished week 1 at 15.5, so their valuation of him may have corrected. More importantly Lawrence solves the quarterback slot for nothing, so there is no longer any urgency — do not overpay."
+   "review": "Still open 14 Sep; nobody has accepted and nothing in the activity log touches either roster. Re-verified against the live slot column this run, which is the check that failed twice before: Josh Allen is slot 0 and starting for Team 13, Lamar Jackson is slot 20 and benched, so the player being asked for is the right one. Recomputed on the current snapshot: you +26.5, them +12.2 of best-lineup season value. Note the id still carries the old -allen slug for thread continuity; the trade asks for Jackson. One thing got worse: Golden is Green Bay's X-receiver locked into three-wide sets now that Doubs signed with New England, and he scored 15.5 from your bench, so the price is real even though it does not show in the best-lineup math."
   },
   {
-   "id": "ipade-hold-lawrence",
-   "at": "2026-09-13T09:00:00Z",
+   "id": "ipade-start-lawrence-2026-09-14",
+   "at": "2026-09-14T05:10:07Z",
    "week": 1,
-   "kind": "HOLD",
+   "kind": "LINEUP",
    "source": "assistant",
    "playerId": 4360310,
    "playerName": "Trevor Lawrence",
-   "thesis": "Starts over Stafford from week 2. Ranked QB8 against Stafford's unranked, and Stafford is 38 coming off a career-high touchdown rate that will regress.",
-   "falsifiedIf": "A quarterback trade lands, which makes Lawrence expendable, or Stafford strings together two clearly better weeks.",
+   "gaveUpName": "Matthew Stafford",
+   "thesis": "Lawrence is the starting quarterback from week 2, benching Stafford. Confirmed by week 1 rather than assumed: 18 of 23, 245 yards, four touchdowns in three quarters against Stafford's 4.1. ESPN has Lawrence QB9 and Stafford unranked, so projection and reporting agree for once.",
+   "falsifiedIf": "Stafford clearly out-scores Lawrence in two consecutive weeks, or the Jackson trade lands, which makes Lawrence the trade chip rather than the starter.",
+   "reviewAfterWeek": 4,
+   "review": null
+  },
+  {
+   "id": "ipade-drop-mayer-2026-09-14",
+   "at": "2026-09-14T05:10:07Z",
+   "week": 1,
+   "kind": "DROP",
+   "source": "assistant",
+   "playerId": 4429086,
+   "playerName": "Michael Mayer",
+   "gaveUpName": null,
+   "thesis": "Drop Mayer the moment rosters unlock. His thesis was already closed WRONG when Schefter reported Bowers has a realistic chance to return in week 2 at the Chargers; this is the card that acts on it. 85.0 season projection on a 9.3 weekly is a ratio of 9.1 against a league median of 17.0, and it is the lowest season projection on the roster. No replacement is named on purpose: every usable tight end is on waivers and this league's priority never resets.",
+   "falsifiedIf": "Bowers suffers a setback and misses week 2 or beyond, which restores the role and makes the drop premature. Check the Friday practice report before executing.",
    "reviewAfterWeek": 3,
-   "review": "14 Sep: CONFIRMED. Lawrence scored 25.6 on the bench while Stafford started and scored 4.1 — a 21.5-point swing in one week. Start Lawrence from week 2 without further argument."
+   "review": null
   }
  ],
  "closed": [
@@ -54,6 +69,12 @@
    "week": 1,
    "outcome": "WRONG",
    "summary": "Michael Mayer thesis FALSIFIED, exactly as its condition predicted and three weeks early. Schefter reports Bowers returns at the Chargers in week 2, which ends the role the add was made for. Mayer scored 9.2 and projects 85.0 for the season, the lowest on the roster. He is the drop the moment the week rolls and players unlock. The thesis was sound when written and the falsification condition did its job — this is the log working, not a mistake."
+  },
+  {
+   "at": "2026-09-14T05:10:07Z",
+   "week": 1,
+   "outcome": "RIGHT",
+   "summary": "Trevor Lawrence hold resolved RIGHT and decisively. Lawrence 18 of 23 for 245 and four touchdowns, a 150.6 rating and 25.6 fantasy points in three quarters of a 34-10 win; Stafford returned 4.1 the same week. The thesis said Lawrence starts from week 2 and that is now a published card. Closing this and opening the lineup thesis in its place."
   }
  ]
 }
