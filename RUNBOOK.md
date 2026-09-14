@@ -26,6 +26,12 @@ Work in this order. Do not jump ahead to writing.
 A finished run takes 15–25 web searches. If you did fewer than ten, you
 skipped step 5.
 
+**A run between weeks looks different.** Once every game has kicked off,
+nothing is droppable, no lineup can change, and the only live decision is the
+waiver that clears mid-week. Expect an empty `defense`, few or no Do-first
+cards, and most of the value in reviewing open theses against what actually
+happened. That is a complete run, not a thin one.
+
 ---
 
 ## WHAT YOU ARE ADDING
@@ -385,6 +391,13 @@ Early in the season there is no defensive sample. Grade from reporting:
 personnel changes, who left in free agency, offensive-line quality, implied
 totals. Do not invent a rank.
 
+**Between weeks, publish `{}` and say so.** Once the week's games have all
+kicked off, the opponents in `proTeams` describe a week that is over, and the
+next week's are not published until ESPN advances `scoringPeriod`. Grading
+finished games is worse than grading nothing: the app renders it as live
+advice. An empty object leaves the tiles blank, which is the honest state.
+Grades resume on the run after the scoring period advances.
+
 ### doFirst
 
 Max 4, and the app orders them by **soonest deadline, tier breaking ties** —
@@ -466,76 +479,35 @@ be — `why=OWNED` rows are where those live. Never truncate it.
 
 ## STEP 7 — Validate
 
-Save this as `/tmp/fb/validate.py` and run it on each file. It is a gate, not
-advice.
-
-```python
-"""Checks a daily brief against live league state. Every rule is here because
-a card shipped wrong."""
-import json, datetime, sys
-
-def validate(brief_path, league_path):
-    b = json.load(open(brief_path)); d = json.load(open(league_path))
-    pt = d['proTeams']; now = datetime.datetime.now(datetime.timezone.utc)
-    mine = [t for t in d['teams'] if t['isMine']][0]
-    slot = {p['id']: p['slotId'] for p in mine['roster']}
-    name = {p['id']: p['name'] for t in d['teams'] for p in t['roster']}
-    name.update({w['id']: w['name'] for w in d.get('wire', [])})
-    known = set(name); BENCH = (20, 21); errs = []
-
-    def started(pid):
-        p = next((x for t in d['teams'] for x in t['roster'] if x['id'] == pid), None) \
-            or next((w for w in d.get('wire', []) if w['id'] == pid), None)
-        if not p: return False
-        ko = pt.get(str(p['proTeamId']), {}).get('kickoff')
-        if not ko: return False
-        return datetime.datetime.fromisoformat(ko.replace('Z','+00:00')) <= now
-
-    for c in b.get('doFirst', []):
-        cid = c.get('id', '?'); a = c.get('action') or {}
-        add, drop = a.get('playerId'), a.get('dropPlayerId')
-        for pid in (add, drop):
-            if pid and pid not in known:
-                errs.append('%s: unknown playerId %s' % (cid, pid))
-        if a.get('type','').upper() == 'SWAP' and add in slot and drop in slot:
-            if slot[add] not in BENCH and slot[drop] in BENCH:
-                errs.append('%s: ALREADY DONE - %s is already starting and %s benched'
-                            % (cid, name.get(add), name.get(drop)))
-        if drop and started(drop):
-            errs.append('%s: CANNOT DROP %s - his game has started'
-                        % (cid, name.get(drop)))
-        if a.get('type','').upper() in ('ADD','CLAIM') and add in slot:
-            errs.append('%s: %s is already on the roster' % (cid, name.get(add)))
-        if not c.get('deadline'):
-            errs.append('%s: no deadline' % cid)
-    for c in b.get('candidates', []):
-        if c['playerId'] not in known:
-            errs.append('candidate: unknown playerId %s' % c['playerId'])
-        if c['playerId'] in slot:
-            errs.append('candidate %s is already on the roster' % name.get(c['playerId']))
-    for t in b.get('trades', []):
-        for pid in t.get('youGive', []) + t.get('youGet', []):
-            if pid not in known:
-                errs.append('trade %s: unknown playerId %s' % (t.get('id'), pid))
-        if t.get('theirGain', 0) <= 0:
-            errs.append('trade %s: the other side does not gain' % t.get('id'))
-    if len(b.get('doFirst', [])) > 4:
-        errs.append('doFirst has more than 4 cards')
-    return errs
-
-if __name__ == '__main__':
-    e = validate(sys.argv[1], sys.argv[2])
-    print('\n'.join('  FAIL ' + x for x in e) if e else '  all checks pass')
-    sys.exit(1 if e else 0)
-```
+The validator lives in the repo. **Fetch it at the start of this step, not
+earlier** — an inline copy in this document drifted from the real one and
+carried different rules, which is how a gate stops being a gate.
 
 ```bash
 cd /tmp/fb
+curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/validate.py" -o validate.py
+# The CDN can lag a commit by a minute. Ten rules is the current count; far
+# fewer means you have a stale copy and should re-fetch before trusting it.
+grep -c "errs.append" validate.py
+```
+
+Then run it on each file. It is a gate, not advice.
+
+```bash
 python3 validate.py daily-1237544639.json league-1237544639.json
 python3 validate.py daily-1325565673.json league-1325565673.json
 ```
 
-Fix anything it reports and rerun. Do not hand over a file that fails.
+It checks: unknown player ids, a swap already in effect, a drop whose game
+has started (except a waiver claim that clears in the future, since the drop
+executes then), an add of someone already rostered, a card with no deadline,
+more than four cards, a candidate already rostered, and a trade where the
+other side does not gain.
+
+Fix anything it reports and rerun. **Do not publish a file that fails.** If
+you believe a failure is a false positive, say so in your report and explain
+why rather than working around it — one of the current rules exists because
+a false positive was correctly identified and the rule was fixed.
 
 ### Checks no script can make
 
@@ -568,6 +540,16 @@ connector, at the repository root:
 Both already exist, so this is an update. Only publish a file that passed
 Step 7 — if one league failed validation, publish the other and say which you
 held back and why.
+
+**Read the existing file before you overwrite it.** A publish replaces the
+whole document, and the previous run's work does not automatically deserve
+deleting. A trade proposed yesterday that nobody has accepted is still live.
+A candidate note warning against a trap is still true. Carry forward anything
+still valid, correct anything the day's results have changed, and drop only
+what is genuinely finished — saying in your report what you kept and why.
+
+This has already mattered once: a run found a trade the next run did not, and
+a blind overwrite would have destroyed it.
 
 ### 8b. Update the decision log
 
