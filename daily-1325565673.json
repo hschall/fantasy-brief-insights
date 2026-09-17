@@ -2,167 +2,130 @@
  "week": 2,
  "leagueName": "IPADE Football League",
  "teamName": "Bloodsports",
- "generatedAt": "2026-09-17T13:00:00Z",
- "snapshotNote": "Snapshot 12:52 UTC, 11 minutes old · Thursday, before any Week 2 game · this brief does not refresh on its own",
- "sources": "Built from 22 searches and 17 page fetches · PFN, FantasyPros, DraftKings Network, Chiefs.com, Russell Street Report, Panthers.com, RotoWire, CBS Sports, Yahoo Sports, ESPN",
+ "generatedAt": "2026-09-17T22:05:00Z",
+ "snapshotNote": "Snapshot 21:52 UTC, 13 minutes old · Thursday 16:05 Mexico City · no IPADE starter plays before Sunday 11:00 · this brief does not refresh on its own",
+ "sources": "Built from 21 searches and 24 page fetches, 19 of which returned usable text · FTN Fantasy, Athlon, Yahoo Sports, Russell Street Report, Pro Football Network, FantasyPros, Bleacher Nation, Last Word on Sports, SI/OnSI, CBS Sports, ESPN",
  "tonight": {
-  "headline": "Jake Ferguson cleared waivers unclaimed. The answer is still no, and now for a better reason.",
+  "headline": "Your 76% is an unset lineup, not a lead. Do not manage the week as if you are ahead.",
   "status": "TIED",
   "winProbability": 76,
   "myScore": 0.0,
   "theirScore": 0.0,
   "opponent": "KEI returns",
   "body": [
-   "Discount the 76% again. KEI returns still have an incomplete lineup, which is why ESPN shows them at 70.9 against your 119.6. They were editing on Wednesday afternoon and will fill it before Sunday; expect this to walk back towards even.",
-   "Nothing of yours plays tonight — your earliest kickoff is Sunday 11:00. Two things are live: the Lamar Jackson offer to Team 13, which is unchanged and re-verified on this snapshot, and the free-agent seat on your bench. The Jake Ferguson question that the last three runs kept deferring has resolved itself, and the resolution is not the one the ownership number implies."
+   "ESPN's live projection has this 119.6 to 70.9 and puts you at 76%. That 70.9 is not a weak roster. KEI returns have four starting slots empty — both wide receiver spots, the defence and the kicker — and Drake London at 15.5, George Pickens at 14.8, the 49ers defence at 7.4 and Evan McPherson at 7.9 are all sitting on their bench.",
+   "If they set that lineup any time before Sunday at 11:00 they add roughly 45.6 points and this becomes 119.6 to 116.5. They have already made lineup moves this week — eight of them on Wednesday afternoon — so they are not an absent manager. Treat the game as a coin flip, not a win, and do not leave points on your own bench on the strength of the number."
   ],
   "case": [
    {
-    "label": "What actually changed since 04:05",
-    "body": "Jake Ferguson's status flipped from WAIVERS to FREEAGENT. Nine other managers passed on an 82.3%-rostered tight end. The logged decline thesis named exactly this as its falsification condition — 'Ferguson clears to free agency unclaimed, at which point he is free and the question changes entirely' — so it had to be re-opened, and it was."
+    "label": "What the 76% is actually measuring",
+    "body": "The win probability reads the slots as they stand now. Four empty starting slots score zero, and ESPN prices that as a 48.7-point deficit. Nothing about KEI returns' roster quality produces that gap: they own De'Von Achane, Cam Skattebo, Travis Etienne Jr., Jaxson Dart and Tyler Warren in the slots they have filled, plus Patrick Mahomes at 17.3 on the bench."
    },
    {
-    "label": "Why the answer held",
-    "body": "PFN rank him TE16 and describe the No. 3 job as his real one: 18.6 points per game in the four games CeeDee Lamb missed, 8.9 with Lamb active. Lamb projects 18.8 on this snapshot and George Pickens 14.8, both ACTIVE. His ownership is falling, not rising. The anomaly was real; the player behind it is a touchdown-or-bust streamer."
+    "label": "Why it is not safe to assume they forget",
+    "body": "Their activity log shows eight lineup changes on 16 September between 16:58 and 17:00 UTC, including moves for Parker Washington, Kalif Raymond, George Pickens, Travis Etienne Jr., Cam Skattebo, the 49ers defence and Evan McPherson. A manager who made eight moves on Wednesday is a manager who sets a lineup."
    },
    {
-    "label": "Falsified if",
-    "body": "CeeDee Lamb or George Pickens appears on a Dallas injury report, at which point Ferguson is the single best free agent in this league and the seat is his the same hour. Or Colston Loveland draws fewer than four targets again in Week 2, which breaks the tight-end thesis and makes a second startable TE a need rather than a luxury."
+    "label": "The one place it changes your behaviour",
+    "body": "It does not change your starters — your nine are already the highest-projecting legal nine. It changes whether you treat Sunday as a game you can coast through. You cannot. You are the higher-projecting roster by three points once their lineup is set, not by forty-nine."
+   },
+   {
+    "label": "What would change it",
+    "body": "KEI returns leaving those four slots empty through Sunday's 11:00 kickoffs. Drake London, Pickens and McPherson all play at 11:00 or later, so the moment passes at 11:00 Mexico City on Sunday and not before. Nothing you do affects it either way."
    }
   ],
-  "caseSources": "Pro Football Network · ESPN league file"
+  "caseSources": "ESPN league data · IPADE activity log"
  },
  "doFirst": [
   {
-   "id": "ipade-t13-tuten-lamar-1300",
+   "id": "ipade-t13-tuten-lamar-1605",
    "tier": "ELITE",
    "urgency": "Before Sunday",
    "kind": "Trade",
-   "deadlineLabel": "Before Sunday 11:00, Mexico City — Baltimore kick off then",
+   "deadlineLabel": "Lamar kicks off Sun 11:00 Mexico City",
    "deadline": "2026-09-20T17:00:00.000Z",
    "title": "Send Team 13: Bhayshul Tuten for Lamar Jackson",
-   "subtitle": "Re-verified on this snapshot, not carried. Lamar is still slot 20 on their bench; Josh Allen is still their starter and is not being asked for.",
+   "subtitle": "Re-verified on this snapshot rather than carried. Lamar is still slot 20 on their bench, Josh Allen is still their starter and is not being asked for, and Lamar is not on Baltimore's injury report.",
    "case": [
     {
-     "label": "The slot check",
-     "body": "Done again on the 12:52 file, because this is the error that shipped twice before. Team 13 hold Josh Allen at slot 0 — starting, and not part of this — and Lamar Jackson at slot 20, their bench. In a one-QB league their second quarterback scores them nothing, every week, all season."
+     "label": "Their surplus, checked against the slot column today",
+     "body": "Team 13 hold Josh Allen at slot 0 and Lamar Jackson at slot 20. In a one-QB league the second one scores nothing every week. Their weakest filled starting slot is RB2: Rachaad White at 164.6 behind Christian McCaffrey at 327.1, with only Blake Corum at 158.0 behind him. The slot column was re-read on this 21:52 snapshot, not taken from yesterday — this brief's own log records a run that once wrote 'the quarterback they give up never plays' about a team's starting quarterback."
     },
     {
-     "label": "What they gain",
-     "body": "Their weakest starting slot is RB2, where Rachaad White projects 7.6. Tuten projects 10.1. That is +2.5 this Sunday and +40.6 across the season, converting an asset that cannot enter their lineup into one that starts immediately."
+     "label": "The arithmetic, recomputed from this snapshot",
+     "body": "Their optimal season lineup goes 1969.9 to 2010.5, a gain of 40.6. Yours goes 2071.4 to 2087.4, a gain of 16.0. Your baseline is 4.4 lower than it was yesterday because you dropped Matthew Stafford at 07:12 on Wednesday and he was your optimal quarterback at 286.4 against Trevor Lawrence at 282.0. The trade is worth more to you today than it was yesterday, for a reason you would rather not have."
     },
     {
-     "label": "What you gain",
-     "body": "Lamar Jackson projects 20.6 to Trevor Lawrence's 14.8: +5.8 this week and +30.9 on the season at quarterback, your weakest starting position by some distance. You give up a bench running back who has no red-zone role in Jacksonville."
+     "label": "Why Tuten is the right man to sell",
+     "body": "Draft Sharks had him at 15 carries for 66 yards in Week 1, with Chris Rodriguez Jr. taking the only goal-line snap and five of the eight short-yardage plays while running two more pass routes on five fewer snaps. A back with no goal line and no passing down is the single worst asset type in full PPR — STRATEGY.md section 2 names it. FTN's Week 2 start/sit column says sit him at Denver. He is your flex fallback behind Matthew Golden and nothing more."
     },
     {
      "label": "The honest risk",
-     "body": "You are handing a direct competitor a starting running back in a ten-team league, and they are 0-1 and in the same playoff race. If Lamar misses two games the trade is bad and you will have upgraded an opponent for nothing. The offsetting fact: Lamar is not on Baltimore's Wednesday injury report at all, and Jacksonville's backfield is the one Chris Rodriguez keeps taking short-yardage work from."
+     "body": "Two of them. First, the arithmetic runs on seasonProj, and Tuten's seasonProj has read exactly 205.2 on three consecutive daily snapshots while his weekly number moved — so the +40.6 you are quoting them may be August's opinion rather than today's. Second, this is the eighth version of an offer to the same manager. If it is declined again by Friday the read on him is wrong and the offer stops rather than being reskinned."
     },
     {
      "label": "Falsified if",
-     "body": "Team 13 acquire or start a second running back, which kills the +40.6 and removes their reason to say yes. Or they trade or drop a quarterback, which kills the surplus. Or Lamar Jackson appears on a Baltimore injury report between now and Sunday."
+     "body": "Team 13 acquire or start a second running back, which kills the +40.6. Or they trade or drop a quarterback, which kills the surplus. Or Lamar Jackson appears on a Baltimore injury report — he was not on Wednesday's, which listed Zay Flowers, Trey Hendrickson, Ronnie Stanley and four others but not him. Or both this and the Golden version are declined by Friday."
     }
    ],
-   "sources": "ESPN league file · Russell Street Report (Ravens Wednesday report)",
+   "sources": "ESPN league data · Russell Street Report · Draft Sharks · FTN Fantasy",
    "ghost": false,
-   "action": null,
-   "copyText": "Hi — you're carrying two quarterbacks in a one-QB league and starting Rachaad White at RB2. Would you do Lamar Jackson for Bhayshul Tuten? Straight up. It's the better side of the deal for you on the numbers: Tuten projects 10.1 against White's 7.6, so it's about +2.5 for you this week and roughly +40 across the season, and it costs you a quarterback you can't start behind Josh Allen. I get a QB upgrade, you get a starter. Happy to look at it the other way round if you'd rather."
-  },
-  {
-   "id": "ipade-add-vele-drop-boutte-1300",
-   "tier": "SOLID",
-   "urgency": "Before Sunday",
-   "kind": "Free-agent add",
-   "deadlineLabel": "Any time before Sunday 11:00, Mexico City — both games kick off then",
-   "deadline": "2026-09-20T17:00:00.000Z",
-   "title": "Add Devaughn Vele, drop Kayshon Boutte",
-   "subtitle": "Carried from yesterday and re-researched today. Free agent, so no waiver priority is spent — and this is the seat Jake Ferguson does not get.",
-   "case": [
-    {
-     "label": "The role, with a date on it",
-     "body": "Vele is New Orleans' No. 2 receiver because Jordyn Tyson, drafted to be their third, opened the season on injured reserve with a hamstring. DraftKings Network have him holding that job 'for at least the next three weeks'. Week 1 was 7 catches on 9 targets for 69 yards and a touchdown, used both deep and at the goal line."
-    },
-    {
-     "label": "The volume behind it",
-     "body": "Tyler Shough threw 56 times in Week 1 — inflated by overtime, but he averaged 34.9 attempts across his last seven games under Kellen Moore. In full PPR a receiver is paid for catches before he gains a yard, and this is a high-attempt offence with a defined vacancy."
-    },
-    {
-     "label": "The drop",
-     "body": "Kayshon Boutte is 13.3% rostered, projects 7.6 and is the weakest seat on your roster by any measure. Nothing is being given up."
-    },
-    {
-     "label": "Why not Ferguson in this seat",
-     "body": "Because you get one bench seat and Vele has the better claim on it: a defined role with a three-week clock and ownership moving +11.06 in a day, against Ferguson's No. 3 job behind two healthy receivers and ownership moving -0.91. STRATEGY section 4 ranks role above raw ownership, and this is the case that rule was written for."
-    },
-    {
-     "label": "Falsified if",
-     "body": "Chris Olave is ruled out — which sounds like promotion but in practice means New Orleans face the 3rd-ranked defence in the league with a gutted receiver room. Or Vele appears limited on Thursday or Friday. Or he fails to clear six targets in Weeks 2 and 3, which says Week 1 was the overtime, not the role."
-    }
-   ],
-   "sources": "DraftKings Network · CBS Sports · ESPN",
-   "ghost": false,
-   "action": {
-    "type": "ADD",
-    "playerId": 4569559,
-    "dropPlayerId": 4429022,
-    "label": "Add Devaughn Vele · drop Kayshon Boutte"
-   }
+   "action": null
   }
  ],
  "whatWentWrong": [
   {
    "id": "w1",
-   "title": "You dropped Matthew Stafford at 07:12 for a running back who is out indefinitely",
-   "lead": "Zach Charbonnet came in and Stafford went out this morning. Charbonnet is OUT with a shoulder injury, reported as indefinite and having started the season on PUP — and this league has no IR slot.",
+   "title": "Dropping Stafford cost you 4.4 season points and made Lawrence your only quarterback",
+   "lead": "At 07:12 Wednesday you dropped Matthew Stafford to claim Zach Charbonnet. Stafford was your optimal-lineup quarterback at 286.4 against Lawrence's 282.0, and he is on waivers in this league until 01:00 Saturday.",
    "case": [
     {
-     "label": "What it costs",
-     "body": "The lineup map in this league file has slot 21 set to 0. There is no injured-reserve slot, so Charbonnet occupies a live bench seat and projects 0.0 for as long as the shoulder lasts. Your five-man bench is now Tuten, MarShawn Lloyd, Boutte, Mayer and a player who cannot play."
+     "label": "The measured cost",
+     "body": "Your optimal season lineup read 2075.8 with Stafford on the roster and reads 2071.4 without him. That is the whole of the difference — 4.4 points — and it is small. It matters because of what it did to your shape, not its size."
     },
     {
-     "label": "Why I am not reversing it",
-     "body": "It is six hours old and it is your move, not the log's. The churn rule closes that seat, and reversing an owner decision inside a day is the pattern this log exists to stop. Seattle's backfield behind Kenneth Walker is a real prize if the shoulder is short."
+     "label": "Why it changes today's card",
+     "body": "You now carry one quarterback. Lawrence projects 14.8 this week at Denver, which the FantasyPros Week 2 primer flags as one of the harder quarterback draws on the slate, and there is no second option on your bench. That is precisely why the Lamar card at the top of this brief is ELITE rather than SOLID: it is no longer an upgrade, it is the repair."
     },
     {
-     "label": "How it connects to the card above",
-     "body": "It is precisely why the Vele card matters more today than it did yesterday. With Charbonnet frozen, Boutte's seat is the only bench slot left that can be improved at all — which is also why Jake Ferguson, who wants the same seat, loses to Vele rather than sharing the bench with him."
+     "label": "Do not buy him back",
+     "body": "He is on waivers at 90.8% rostered until 01:00 Saturday, and a claim in this league spends the waiver priority you have never spent. See the Do-not-chase row. If you want him back, wait for him to clear to free agency — and by then you should have Lamar instead."
     },
     {
      "label": "What would change it",
-     "body": "A dated return timeline from Seattle. If it is longer than three weeks, this becomes a seat to reclaim on Tuesday; if he is trending back, he is a genuine stash and stays. I could not find a date, and I am flagging that rather than guessing one."
+     "body": "Lawrence clearing 18 points at Denver would say the gap was never real. Team 13 accepting the Lamar offer retires the whole question."
     }
    ],
-   "sources": "CBS Sports · Field Gulls · ESPN league file"
+   "sources": "ESPN league data · FantasyPros · IPADE activity log"
   },
   {
    "id": "w2",
-   "title": "Yesterday's 'start Stafford over Lawrence' card has been overtaken — by you",
-   "lead": "The 04:05 brief withdrew it and told you to keep Lawrence. At 07:12 you dropped Stafford outright, which retires the question rather than answering it.",
+   "title": "Zach Charbonnet is a dead bench seat, and the right move is still to leave him there",
+   "lead": "He came in on the same 07:12 transaction, he is OUT with a shoulder described as indefinite, he started the season on PUP, and this league sets slot 21 to zero so there is no IR to park him in.",
    "case": [
     {
-     "label": "Where that leaves the position",
-     "body": "Trevor Lawrence is your only quarterback, projecting 14.8. Checked against every slot-0 quarterback in this league on this snapshot — Team 13 at 21.8, Jackrabbits 20.0, the rest between 16 and 19 — that is the lowest starting quarterback projection of the ten. There is no longer a bench option and no longer a decision to get wrong."
+     "label": "What the seat costs",
+     "body": "One of five bench places, at a 0.0 projection, in a week where the wire holds T.J. Hockenson at 64.1% rostered and Jake Ferguson at 82.1% as free agents. That is the real price, not the points."
     },
     {
-     "label": "Why that raises the stakes on the trade",
-     "body": "It makes the Lamar Jackson offer the single most valuable thing on this brief. It is no longer an optimisation over Stafford; it is the only path from 14.8 to 20.6 at the position where you are furthest behind the field."
+     "label": "Why I am not proposing the drop",
+     "body": "He arrived thirty-nine hours ago. STRATEGY.md section 3 closes a seat that has changed hands inside seven days and says in terms that reversing a move made two days ago is never right — it has happened twice on this roster and gained nothing both times. Dropping him today would also gain nothing this week: he scores zero whether he is rostered or not, and the seat cannot be filled with a starter."
     },
     {
-     "label": "One thing to not do",
-     "body": "Stafford is now on IPADE waivers at 90.9% rostered, clearing Saturday 07:00 UTC. Re-claiming him would cost your season's waiver priority from 3rd of 10, two days after you cut him, to roster a backup quarterback. That is the reversal pattern and the priority rule in the same move."
+     "label": "The upside that justifies the wait",
+     "body": "Seattle's backfield behind Kenneth Walker III is worth a stash if the shoulder is short. I could not find a dated return timeline from Seattle this run either, which is the second consecutive run that search has come back empty."
     },
     {
-     "label": "What would change it",
-     "body": "Team 13 declining the Lamar offer outright and Lawrence appearing on a Jacksonville injury report in the same week. Only then does a quarterback claim become a conversation, and even then a free agent comes first."
+     "label": "When to act",
+     "body": "Tuesday 22 September, when the churn window expires — unless Seattle publish a timeline longer than three weeks before then, or he is still OUT on the Week 4 report, either of which makes it a drop the same day. If he practises or is activated, the stash worked and this closes right."
     }
    ],
-   "sources": "ESPN league activity log · league file"
+   "sources": "ESPN league data · IPADE decision log"
   }
  ],
  "roster": {
   "state": "THURSDAY",
-  "footnote": "Nothing has kicked off. The right-hand column is the matchup read; a dashed tile means I did not research that defence this run, not that it is average. Two of fourteen are graded — those are the two that changed a decision.",
+  "footnote": "Nothing has kicked off and your earliest starter is Sunday at 11:00. The right-hand column is the matchup read; a dashed tile means I did not research that defence this run, not that it is average. Three of fourteen are graded — Denver, Baltimore and the Chargers, which are the three that touched a decision.",
   "starting": [
    {
     "playerId": 4360310,
@@ -170,11 +133,10 @@
     "slot": "QB",
     "position": "QB",
     "team": "JAX",
-    "detail": "JAX · at DEN · SUN 14:05 · not on Jacksonville's Wednesday report — and now your only quarterback after this morning's drop",
+    "detail": "JAX · at DEN · SUN 14:05 · your only quarterback, in one of the week's harder draws; Jacksonville implied for 21.5 as 2.5-point underdogs",
     "projection": 14.8,
-    "actual": null,
     "grade": "SHAKY",
-    "gradeEvidence": "DEN 8th on FantasyPros' Week 2 board",
+    "gradeEvidence": "DEN among the toughest vs QB",
     "tier": "SOLID"
    },
    {
@@ -183,11 +145,10 @@
     "slot": "RB",
     "position": "RB",
     "team": "IND",
-    "detail": "IND · at KC · SUN 18:20 · Daniel Jones · Taylor does not appear on Indianapolis' Week 2 injury report",
+    "detail": "IND · at KC · SUN 18:20 · Daniel Jones · Sunday night, the last of your week to resolve",
     "projection": 18.3,
-    "actual": null,
-    "notResearched": true,
-    "tier": "LEGENDARY"
+    "tier": "ELITE",
+    "notResearched": true
    },
    {
     "playerId": 3929630,
@@ -195,11 +156,10 @@
     "slot": "RB",
     "position": "RB",
     "team": "PHI",
-    "detail": "PHI · at TEN · SUN 11:00 · Jalen Hurts · Philadelphia are 2nd on FantasyPros' Week 2 defensive board, which is the game-script read STRATEGY section 5 says matters at running back",
+    "detail": "PHI · at TEN · SUN 11:00 · Jalen Hurts · the game-script back on this roster; Philadelphia are favourites and fourth-quarter carries are his",
     "projection": 17.7,
-    "actual": null,
-    "notResearched": true,
-    "tier": "ELITE"
+    "tier": "ELITE",
+    "notResearched": true
    },
    {
     "playerId": 4428331,
@@ -207,11 +167,10 @@
     "slot": "WR",
     "position": "WR",
     "team": "KC",
-    "detail": "KC · vs IND · SUN 18:20 · Patrick Mahomes · full participation Wednesday with a knee, so the designation is bookkeeping",
+    "detail": "KC · vs IND · SUN 18:20 · Patrick Mahomes · same game as Jonathan Taylor, which correlates more of your week than is comfortable",
     "projection": 15.1,
-    "actual": null,
-    "notResearched": true,
-    "tier": "ELITE"
+    "tier": "ELITE",
+    "notResearched": true
    },
    {
     "playerId": 4569618,
@@ -219,11 +178,10 @@
     "slot": "WR",
     "position": "WR",
     "team": "NYJ",
-    "detail": "NYJ · vs GB · SUN 11:00 · Geno Smith",
+    "detail": "NYJ · vs GB · SUN 11:00 · Geno Smith · the only quarterback New York have in this data set, and the same name this morning's run reached independently",
     "projection": 15.8,
-    "actual": null,
-    "notResearched": true,
-    "tier": "ELITE"
+    "tier": "ELITE",
+    "notResearched": true
    },
    {
     "playerId": 4723086,
@@ -231,23 +189,10 @@
     "slot": "TE",
     "position": "TE",
     "team": "CHI",
-    "detail": "CHI · vs MIN · SUN 11:00 · Caleb Williams · Chicago won 59-37 in Week 1 and Loveland was not part of it; this is the week his thesis is tested",
+    "detail": "CHI · vs MIN · SUN 11:00 · Caleb Williams · two targets and no catches in a 59-point Week 1; the tape read says decoy, the box score says targeting problem",
     "projection": 11.5,
-    "actual": null,
-    "notResearched": true,
-    "tier": "SOLID"
-   },
-   {
-    "playerId": 4701936,
-    "name": "Matthew Golden",
-    "slot": "FLEX",
-    "position": "WR",
-    "team": "GB",
-    "detail": "GB · at NYJ · SUN 11:00 · Jordan Love · team-high 12 targets in Week 1, 40 routes, lined up wide 92.5%",
-    "projection": 10.9,
-    "actual": null,
-    "notResearched": true,
-    "tier": "SOLID"
+    "tier": "SOLID",
+    "notResearched": true
    },
    {
     "playerId": -16033,
@@ -255,11 +200,10 @@
     "slot": "D/ST",
     "position": "DST",
     "team": "BAL",
-    "detail": "BAL · vs NO · SUN 11:00 · Trey Hendrickson (finger) and T.J. Tampa (knee) did not practise Wednesday — the one crack in an otherwise excellent draw",
+    "detail": "BAL · vs NO · SUN 11:00 · added as a free agent, no priority spent; Hendrickson and Tampa did not practise Wednesday, and New Orleans rank 26th as an offence",
     "projection": 7.4,
-    "actual": null,
-    "grade": "GREAT",
-    "gradeEvidence": "3rd of 32 on FantasyPros' Week 2 board",
+    "grade": "GOOD",
+    "gradeEvidence": "9th of 32 on PFN's Week 2 board",
     "tier": "SOLID"
    },
    {
@@ -268,11 +212,21 @@
     "slot": "K",
     "position": "K",
     "team": "JAX",
-    "detail": "JAX · at DEN · SUN 14:05 · K3 on PFN's Week 2 board, behind only Aubrey and Dicker",
+    "detail": "JAX · at DEN · SUN 14:05 · PFN have him K3, behind only Aubrey and Dicker; the 21.5 implied total is the caveat and it is a real one",
     "projection": 8.1,
-    "actual": null,
-    "notResearched": true,
-    "tier": "SOLID"
+    "tier": "SOLID",
+    "notResearched": true
+   },
+   {
+    "playerId": 4701936,
+    "name": "Matthew Golden",
+    "slot": "FLEX",
+    "position": "WR",
+    "team": "GB",
+    "detail": "GB · at NYJ · SUN 11:00 · Jordan Love · team-high 12 targets and a ~30% share in Week 1; Last Word single out the Jets corners as the pressure point",
+    "projection": 10.9,
+    "tier": "SOLID",
+    "notResearched": true
    }
   ],
   "bench": [
@@ -282,11 +236,10 @@
     "slot": "BN",
     "position": "RB",
     "team": "JAX",
-    "detail": "JAX · at DEN · SUN 14:05 · Trevor Lawrence · the chip in the Lamar offer; no red-zone rushes in Week 1",
+    "detail": "JAX · at DEN · SUN 14:05 · Trevor Lawrence · the trade chip in the card above; FTN say sit him and Chris Rodriguez still owns the goal line",
     "projection": 10.1,
-    "actual": null,
-    "notResearched": true,
-    "tier": "DEPTH"
+    "tier": "DEPTH",
+    "notResearched": true
    },
    {
     "playerId": 4429023,
@@ -294,23 +247,10 @@
     "slot": "BN",
     "position": "RB",
     "team": "GB",
-    "detail": "GB · at NYJ · SUN 11:00 · Jordan Love · 78.1% rostered and your best untouched bench asset",
+    "detail": "GB · at NYJ · SUN 11:00 · Jordan Love · projects above Golden at 11.2 and stays benched: no catches in Week 1 and he ceded passing downs",
     "projection": 11.2,
-    "actual": null,
-    "notResearched": true,
-    "tier": "DEPTH"
-   },
-   {
-    "playerId": 4429022,
-    "name": "Kayshon Boutte",
-    "slot": "BN",
-    "position": "WR",
-    "team": "HOU",
-    "detail": "HOU · vs CIN · SUN 11:00 · C.J. Stroud · 13.3% rostered — the seat the Vele card takes",
-    "projection": 7.6,
-    "actual": null,
-    "notResearched": true,
-    "tier": "DEPTH"
+    "tier": "DEPTH",
+    "notResearched": true
    },
    {
     "playerId": 4429086,
@@ -318,10 +258,10 @@
     "slot": "BN",
     "position": "TE",
     "team": "LV",
-    "detail": "LV · at LAC · SUN 14:05 · Kirk Cousins · Brock Bowers did not practise Wednesday, which is exactly the condition that keeps Mayer here through Week 2",
+    "detail": "LV · at LAC · SUN 14:05 · Kirk Cousins · Bowers was absent from Thursday's practice too, so Mayer starts for Las Vegas again — 6 catches on 7 targets in Week 1 without him",
     "projection": 6.1,
-    "actual": null,
-    "notResearched": true,
+    "grade": "GOOD",
+    "gradeEvidence": "LAC 5th-most FP/target to TE",
     "tier": "DEPTH"
    },
    {
@@ -330,11 +270,21 @@
     "slot": "BN",
     "position": "RB",
     "team": "SEA",
-    "detail": "SEA · at ARI · SUN 14:25 · Drew Lock, with Darnold out — and Charbonnet is OUT with a shoulder, reported indefinite. No IR slot in this league, so he is a live bench seat scoring zero",
+    "detail": "SEA · at ARI · SUN 14:25 · Drew Lock, with Darnold out · OUT with a shoulder, no dated timeline; no IR slot here, so he holds a live bench seat at zero",
     "projection": 0.0,
-    "actual": null,
-    "notResearched": true,
-    "tier": "DEPTH"
+    "tier": "DEPTH",
+    "notResearched": true
+   },
+   {
+    "playerId": 4569559,
+    "name": "Devaughn Vele",
+    "slot": "BN",
+    "position": "WR",
+    "team": "NO",
+    "detail": "NO · at BAL · SUN 11:00 · Tyler Shough · added at 15:04 today; New Orleans' clear number two on a 90.7% snap share, and Chris Olave is not on this week's report",
+    "projection": 9.5,
+    "tier": "SOLID",
+    "notResearched": true
    }
   ]
  },
@@ -343,13 +293,13 @@
    "id": "t13-tuten-lamar",
    "partnerName": "Team 13",
    "odds": "LIKELY",
-   "yourGain": 30.9,
-   "theirGainLine": "Their gain is +40.6 across the season and +2.5 this Sunday — bigger than yours this week, and saying so is what gets the message read.",
+   "yourGain": 16.0,
+   "theirGainLine": "Their gain is +40.6 across the season against your +16.0 — two and a half times yours, and saying so in the message is what gets it read instead of ignored.",
    "youGive": [
     {
      "playerId": 4882093,
      "name": "Bhayshul Tuten",
-     "detail": "RB JAX · 10.1 · your bench",
+     "detail": "RB JAX · 205.2 season",
      "tier": "DEPTH"
     }
    ],
@@ -357,34 +307,34 @@
     {
      "playerId": 3916387,
      "name": "Lamar Jackson",
-     "detail": "QB BAL · 20.6 · their bench",
+     "detail": "QB BAL · 312.9 season",
      "tier": "ELITE"
     }
    ],
    "case": [
     {
-     "label": "Their surplus",
-     "body": "Team 13 carry Josh Allen at slot 0 and Lamar Jackson at slot 20 in a one-QB league. One of those two is worth nothing to them in every week of the season. Meanwhile they start Rachaad White at RB2 at 7.6, the weakest starting slot on their roster."
+     "label": "The shape",
+     "body": "One for one, and the best player in the deal comes to you. STRATEGY.md section 7 says to trade into the other side's urgency and names this exact structure: a team carrying two elite quarterbacks in a one-QB league is paying for nothing every week. Team 13 are 0-1 with Josh Allen starting and Lamar Jackson idle."
     },
     {
-     "label": "Your hole",
-     "body": "Trevor Lawrence at 14.8 is your weakest starting position, and as of 07:12 this morning he is your only quarterback. Lamar at 20.6 is +5.8 a week and +30.9 on the season into the slot where you are furthest behind."
+     "label": "What each side is actually fixing",
+     "body": "They convert a quarterback who cannot play into a starting running back — Tuten's 205.2 replaces Rachaad White's 164.6 at RB2, worth 40.6. You convert a flex body into the quarterback position outright: Lamar's 312.9 replaces Lawrence's 282.0, and Matthew Golden's 190.3 slides into the flex Tuten vacates, worth 16.0."
     },
     {
-     "label": "The honest risk",
-     "body": "You are strengthening a 0-1 rival in a ten-team league. Tuten is a real running back and if Jacksonville hand him the goal line this looks worse in a month than it does today. It is still right, because a bench running back in a shallow league is replaceable from the wire and a top-two quarterback is not."
+     "label": "The risk, stated in the words the runbook asks for",
+     "body": "This offer only clears the bar on a season horizon. On Sunday alone Lamar projects 20.6 against Lawrence's 14.8, a gain of 5.8, and Golden replacing Tuten in the flex gives most of that back. If you are managing week to week this is a small trade. On sixteen weeks it is the difference between a QB2 and the consensus QB2 overall."
     },
     {
-     "label": "Where the arithmetic is soft",
-     "body": "The +40.6 and +30.9 are seasonProj differences, and those figures are identical to the 16 September snapshot. If seasonProj is frozen at preseason values, this is priced on August's opinion. The weekly numbers — +5.8 you, +2.5 them — come from this morning's file and are not affected."
+     "label": "The number I do not trust",
+     "body": "Both gains are priced on seasonProj, and Tuten's seasonProj has been 205.2 on three consecutive daily snapshots while his weekly projection moved. If those totals are preseason artifacts, the +40.6 is August's view of Tuten and not this week's, and the proposal is less generous than it reads. It still favours them on any reading, which is why the odds are LIKELY."
     },
     {
      "label": "Falsified if",
-     "body": "Team 13 acquire or start a second running back, or trade or drop a quarterback, or Lamar Jackson appears on a Baltimore injury report. He is not on Wednesday's."
+     "body": "Team 13 acquire or start a second running back; or trade or drop a quarterback; or Lamar appears on a Baltimore injury report — he was not on the Wednesday report. If this and the Golden version are both declined by Friday, stop offering."
     }
    ],
-   "sources": "ESPN league file · Russell Street Report",
-   "copyText": "Hi — you're carrying two quarterbacks in a one-QB league and starting Rachaad White at RB2. Would you do Lamar Jackson for Bhayshul Tuten? Straight up. It's the better side of the deal for you on the numbers: Tuten projects 10.1 against White's 7.6, so it's about +2.5 for you this week and roughly +40 across the season, and it costs you a quarterback you can't start behind Josh Allen. I get a QB upgrade, you get a starter. Happy to look at it the other way round if you'd rather."
+   "sources": "ESPN league data · Russell Street Report · Draft Sharks",
+   "copyText": "Hey — would you do Bhayshul Tuten for Lamar Jackson? You're carrying Lamar behind Josh Allen in a one-QB league, so he scores you nothing every week, and your RB2 is Rachaad White at 164 for the season. Tuten's at 205 and he'd start for you immediately — by my math that's about +41 to your season total against +16 to mine. I know that's lopsided in your favour; I need a quarterback more than I need a fourth back. Let me know."
   }
  ],
  "worthALook": [
@@ -392,197 +342,220 @@
    "playerId": 4036133,
    "name": "T.J. Hockenson",
    "positionTeam": "TE · MIN",
-   "ownership": "63.6% owned",
+   "ownership": "64.1% owned",
    "tier": "SOLID",
-   "lead": "The tight end who benefits most from Minnesota's quarterback change, and he is free here.",
+   "lead": "Minnesota's second target behind Justin Jefferson — ahead of every receiver on the roster — and free in a league whose flex takes a tight end.",
    "case": [
     {
-     "label": "Why now",
-     "body": "Carson Wentz is starting for Minnesota with Kyler Murray in concussion protocol, against a Chicago defence that allowed 361 passing yards to Bryce Young in Week 1. FantasyLife rank Hockenson as Minnesota's second target behind Justin Jefferson, ahead of Jordan Addison. Ownership is up +1.78."
+     "label": "The role",
+     "body": "FantasyLife have Hockenson as Minnesota's number two target behind Jefferson at 81% route share and 16% target share, which puts him ahead of Jordan Addison in the order. In this league that matters twice: the flex is slot 23 and takes a tight end, so a second startable one is a real asset rather than the dead weight it is in Chem."
     },
     {
-     "label": "Why not yet",
-     "body": "You start one tight end, Colston Loveland holds it, and IPADE's flex is currently filled by Matthew Golden at 10.9 against Hockenson's 10.1. Adding him costs a bench seat that the Vele card has a better claim on, and Vele's role has a three-week clock where Hockenson's is a one-week matchup."
+     "label": "Why the quarterback change helps rather than hurts",
+     "body": "Kyler Murray is in concussion protocol and Carson Wentz likely starts at Chicago. Wentz entered in Week 1 and the Minnesota passing game did not degrade — Jefferson went 8 of 9 for 92 and two scores against Green Bay. A backup who knows the plan tends to throw more to the safety valves, not fewer. Ownership moved +1.45 today, the largest rise of any tight end on this wire."
     },
     {
-     "label": "What would change it",
-     "body": "Loveland drawing fewer than four targets against Minnesota on Sunday — the stated falsification condition on his hold. Two weeks of that is a role problem, and Hockenson becomes the answer to it rather than a streamer. He is a free agent, so the seat costs no waiver priority whenever you want it."
+     "label": "Why he is not a card",
+     "body": "Your five bench seats are Tuten, Lloyd, Mayer, Charbonnet and Vele. Tuten is the trade chip and cannot be dropped while the offer is live. Charbonnet's seat is closed by the churn rule until 22 September. Vele arrived at 15:04 today. Lloyd and Mayer are the only genuinely open seats and both have live reasons to stay — Mayer starts for Las Vegas this week with Bowers absent from Thursday practice. There is no clean drop, and STRATEGY.md is explicit that a move has to be worth the churn."
+    },
+    {
+     "label": "When to act",
+     "body": "The moment the Lamar trade is accepted or formally dead, which frees Tuten's seat either way. Or if Colston Loveland draws under four targets against Minnesota on Sunday, which breaks the tight end thesis and turns a second startable TE from a luxury into a need. He is a free agent, so no priority is involved whenever you do it."
     }
    ],
-   "sources": "Heavy · Athlon Sports · ESPN"
+   "sources": "FantasyLife · Athlon Sports · ESPN"
   },
   {
    "playerId": 4361411,
    "name": "Pat Freiermuth",
    "positionTeam": "TE · PIT",
-   "ownership": "20.1% owned",
+   "ownership": "20.7% owned",
    "tier": "DEPTH",
-   "lead": "The only MONEY-band tight end on this wire, carried forward from yesterday unchanged.",
+   "lead": "The only MONEY-band player at tight end on this wire, carried forward from yesterday and unchanged by anything today.",
    "case": [
     {
-     "label": "Why he is flagged",
-     "body": "20.1% rostered and moving +1.98, which is the wire's MONEY band: low ownership rising fast. TE19 on consensus rank, which is ahead of Michael Mayer at TE25 sitting on your bench."
+     "label": "The signal",
+     "body": "20.7% rostered and up 1.50 on the day, which is the fourth-largest rise on the IPADE board and the only tight end flagged MONEY — low ownership rising fast. STRATEGY.md section 4 ranks ownership velocity fourth and calls it a lagging confirmation of a role change, which is exactly how to treat it."
     },
     {
-     "label": "The number against him",
-     "body": "Aaron Rodgers projects 11.6 in this file, second-lowest of any starting NFL quarterback here behind only Cam Ward at 10.9. A tight end's week depends more on who is throwing to him than on anything else, and Pittsburgh's passing game is the worst environment on this board. I did not find reporting that changes that."
+     "label": "What I could not confirm",
+     "body": "I did not find a Pittsburgh beat report this run naming a role change behind the ownership move, and I am not going to invent one. Without it this is a number moving, not a thing happening. That is the difference between this row and the Hockenson row above it."
     },
     {
      "label": "What would change it",
-     "body": "Two straight weeks of six-plus targets, or Pittsburgh's passing volume rising. Until then he is a name on a list, and the honest reason he is still listed is that I have not found a reason to remove him, not that I have found a reason to add him."
+     "body": "A Pittsburgh report giving him a route or red-zone share increase, or a Week 2 line above six targets at New England. Either turns the velocity into a role and he becomes the better version of the Hockenson add, because he would be cheaper to hold."
     }
    ],
-   "sources": "ESPN · league file"
+   "sources": "ESPN wire data"
   }
  ],
  "doNotChase": [
   {
-   "playerId": 4242355,
-   "name": "Jake Ferguson",
-   "positionTeam": "TE · DAL",
-   "ownership": "-0.91 owned",
-   "tier": "SOLID",
-   "lead": "The loudest ownership anomaly in this league just became free, and nine managers were right to pass.",
-   "case": [
-    {
-     "label": "Why it looks like a gift",
-     "body": "82.3% rostered nationally, a free agent here as of this morning's waiver run, TE13 on consensus rank with a 167.4 season projection, and IPADE's flex takes a tight end — which STRATEGY section 9 says makes a second startable TE genuinely valuable in this league and worthless in Chem. On the ownership signal alone this is the strongest thing on the board."
-    },
-    {
-     "label": "The number that kills it",
-     "body": "18.6 points per game in the four games CeeDee Lamb missed; 8.9 with Lamb active. PFN rank him TE16 against a TE11 draft position and call the No. 3 job 'his real one', behind Lamb and George Pickens, with Ryan Flournoy eating in from below. On this snapshot Lamb projects 18.8 and Pickens 14.8, both ACTIVE. You would be buying the 8.9 version."
-    },
-    {
-     "label": "The second number",
-     "body": "His ownership is moving -0.91. The anomaly is a market that is walking away from him, not one that has not noticed him. Compare Devaughn Vele at +11.06 in the same day."
-    },
-    {
-     "label": "What would change it",
-     "body": "CeeDee Lamb or George Pickens appearing on a Dallas injury report — at which point Ferguson is the best free agent in the league and the seat is his that hour. Or Loveland's thesis breaking on Sunday, which turns a luxury into a need. He is a free agent now, so neither costs waiver priority; both are worth watching for."
-    }
-   ],
-   "sources": "Pro Football Network · ESPN league file"
-  },
-  {
    "playerId": 2473037,
    "name": "Jason Myers",
    "positionTeam": "K · SEA",
-   "ownership": "97.0% owned",
+   "ownership": "-0.29 owned",
    "tier": "DEPTH",
-   "lead": "97% rostered, on waivers, and claiming him would spend your season's priority on a kicker.",
+   "lead": "Clears waivers at 01:00 Friday Mexico City, nine hours from now, and claiming him would spend the only waiver priority you have all season on a kicker.",
    "case": [
     {
-     "label": "Why he is on the board",
-     "body": "97.0% rostered nationally — the single highest ownership figure on either wire — and sitting on IPADE waivers clearing Friday 01:00 Mexico City. KEI returns dropped him at 16:56 Wednesday to add Evan McPherson."
+     "label": "The clock, converted",
+     "body": "07:00 UTC on 18 September is 01:00 Friday in Mexico City. This 16:00 brief is the last one before it. He is 96.9% rostered nationally and K5 on the board, so the temptation is real and the answer is still no."
     },
     {
-     "label": "The number that kills it",
-     "body": "PFN have Jason Myers K9 this week and Cam Little, who you already own, K3. You would be paying your only waiver claim of the season — priority never resets in this league, 3rd of 10 today, last for the rest of the year after — to move down six places at kicker. STRATEGY section 6 forbids spending priority on a streamer in as many words."
+     "label": "The number that kills the case",
+     "body": "Priority. IPADE's waiver order never resets — one claim drops you from 3rd of 10 to last for the whole season. STRATEGY.md section 6 spends it only on a player who starts immediately or wins a league, and names streamers and bye-week patches as the things it is never for. Myers projects 9.4 against Cam Little's 8.1. You would spend a season-long asset for 1.3 points in a week."
     },
     {
-     "label": "The required comparison, answered",
-     "body": "Little K3 against the best actually available here: Will Reichard K5, Chase McLaughlin K6, Trey Smack K13, Cairo Santos K14, Chris Boswell K17. Nothing on this wire beats him and nothing is close. Fifth consecutive run this has come back hold."
+     "label": "And the incumbent is fine",
+     "body": "PFN have Little K3 this week, two places above Myers. The honest caveat is unchanged from yesterday: Little kicks at Denver with Jacksonville implied for only 21.5, so rank and environment disagree. I take the rank, because a kicker's season position is leg and volume and one week of matchup moves it little."
     },
     {
      "label": "What would change it",
-     "body": "Cam Little finishing outside the top 20 kickers across Weeks 2 to 4. Even then the replacement comes from free agency, never from a claim."
+     "body": "Nothing involving waivers. If Myers clears unclaimed and becomes a free agent, the comparison reopens at zero cost and the answer may well be different — that is exactly what happened with Jake Ferguson this week."
     }
    ],
-   "sources": "Pro Football Network · ESPN league activity log"
+   "sources": "Pro Football Network · ESPN league settings"
   },
   {
    "playerId": 12483,
    "name": "Matthew Stafford",
    "positionTeam": "QB · LAR",
-   "ownership": "90.9% owned",
+   "ownership": "-0.10 owned",
    "tier": "DEPTH",
-   "lead": "You cut him six hours ago. He is on waivers at 90.9% rostered. Leave him there.",
+   "lead": "You cut him thirty-nine hours ago, he is on waivers at 90.8% rostered until 01:00 Saturday, and buying him back at that price would be the worst transaction of your season.",
    "case": [
     {
-     "label": "Why he will look tempting on Saturday",
-     "body": "90.9% rostered, projecting 17.4 against Trevor Lawrence's 14.8, clearing waivers Saturday 07:00 UTC. ESPN's projection prefers him and it will keep preferring him all week."
+     "label": "Why it is tempting",
+     "body": "He was your optimal-lineup quarterback at 286.4 season and he projects 17.4 this week against Lawrence's 14.8. You now carry one quarterback, into the week Lawrence draws Denver. Every part of that pulls toward reclaiming him."
     },
     {
-     "label": "The number that kills it",
-     "body": "The cost is not the projection, it is the priority. One claim moves you from 3rd of 10 to last for the entire season, and you would be spending it on a backup quarterback you personally dropped two days earlier. That is the reversal pattern and the priority rule broken in a single move, and this log records both as having cost real points before."
+     "label": "The number that kills the case",
+     "body": "He is WAIVERS, not FREEAGENT, until 07:00 UTC Saturday. Claiming him spends the season's waiver priority — 3rd of 10, never spent, never resets — to undo a move you made yourself on Wednesday. That is a churn paid for with a season-long asset, and STRATEGY.md section 6 rules it out on both counts independently."
     },
     {
-     "label": "The read underneath it",
-     "body": "Three of four expert boards read on 17 September rank Lawrence ahead of Stafford despite ESPN's +2.6 — Fantrax QB9 to QB14, WalterFootball, Lindy's start/sit. Where ESPN's projection and current reporting disagree here, believe the reporting."
+     "label": "The better version of the same fix",
+     "body": "The Lamar card at the top of this brief. It costs Bhayshul Tuten, who is your fourth running back and whom FTN tell you to bench this week, and it delivers a better quarterback than Stafford at 312.9 against 286.4. If it lands, this row never needs writing again."
     },
     {
      "label": "What would change it",
-     "body": "Nothing that involves a claim. If Lawrence is ruled out and the Lamar trade has been declined, the answer is a free-agent quarterback — Bo Nix at 84.5% rostered is free on this wire — not a waiver claim."
+     "body": "Stafford clearing to free agency at 01:00 Saturday with the Lamar deal already declined. At zero cost and with one quarterback on the roster, he becomes a reasonable free-agent add — and the drop would be Charbonnet, whose churn window expires the following Tuesday."
     }
    ],
-   "sources": "ESPN · Fantrax · WalterFootball · league activity log"
+   "sources": "ESPN league data · IPADE activity log"
+  },
+  {
+   "playerId": 4242355,
+   "name": "Jake Ferguson",
+   "positionTeam": "TE · DAL",
+   "ownership": "-0.51 owned",
+   "tier": "DEPTH",
+   "lead": "The loudest ownership anomaly in this league is now a free agent, so the cost argument has gone — and the answer is still no, on role.",
+   "case": [
+    {
+     "label": "What changed and what did not",
+     "body": "He cleared waivers unclaimed, which is exactly what yesterday's thesis said would reopen the question. Acquiring him now costs no priority at all, so STRATEGY.md section 6 no longer applies. Nine managers passed on him at zero cost and they were right."
+    },
+    {
+     "label": "The number that kills the case",
+     "body": "18.6 points per game without CeeDee Lamb, 8.9 with him. Lamb projects 18.8 this week and is ACTIVE; George Pickens projects 14.8 and is ACTIVE. Ferguson is PFN's TE16 and the third read in his own offence, with Ryan Flournoy eating in from below. Ownership moved -0.51 today: a market walking away, not one that has not noticed."
+    },
+    {
+     "label": "And he loses the seat to a better TE",
+     "body": "If you are adding a tight end into this league's TE-eligible flex, T.J. Hockenson is the second target in his offence rather than the third, and he is free on the same wire. Ferguson is the more famous name and the worse add."
+    },
+    {
+     "label": "What would change it",
+     "body": "CeeDee Lamb or George Pickens appearing on a Dallas injury report — Ferguson then becomes the best free agent in this league and the seat is his the same hour."
+    }
+   ],
+   "sources": "Pro Football Network · ESPN"
   }
  ],
  "settled": [
   {
    "correct": true,
-   "title": "Decline Jake Ferguson rather than spend priority on him (16 September)",
-   "result": "He cleared to free agency unclaimed, which is what the thesis said would re-open it. Re-researched today: still no, and now for a better reason — 8.9 points per game with CeeDee Lamb active, and Lamb is active."
+   "title": "Start Matthew Golden in the RB/WR/TE flex over Tuten (15 September)",
+   "result": "Holding and strengthened. FTN's Week 2 start/sit column says start Golden — 12 targets, roughly a 30% share, 6 for 95 in Week 1 — and says sit Tuten at Denver in the same piece. Last Word single out the Jets corners as the matchup's pressure point."
   },
   {
    "correct": true,
-   "title": "Keep Michael Mayer if Bowers is limited or sits Wednesday (14 September)",
-   "result": "Brock Bowers did not practise Wednesday. The condition resolved exactly as written and Mayer stays through Week 2."
-  },
-  {
-   "correct": true,
-   "title": "Start Matthew Golden in the flex over Tuten (15 September)",
-   "result": "Golden drew a team-high 12 targets in Week 1 on 40 routes. The thesis is holding on the evidence it was built on."
-  },
-  {
-   "correct": true,
-   "title": "Add the Ravens defence as a free agent, drop the Jaguars (16 September)",
-   "result": "Baltimore 3rd of 32 on FantasyPros' Week 2 board, Jacksonville 30th, and no priority was spent because he was a free agent."
+   "title": "Keep Michael Mayer while Bowers is limited or out (14 September)",
+   "result": "Holding, and firmer today than yesterday. Brock Bowers was absent from Thursday's practice after not practising Wednesday. Mayer started for Las Vegas in Week 1 without him and went 6 catches on 7 targets, and the Chargers have allowed the 5th-most fantasy points per target to tight ends."
   },
   {
    "correct": true,
    "title": "Hold Cam Little at kicker (16 September)",
-   "result": "PFN have Little K3. The best available here is Will Reichard at K5. Fifth straight run this has come back hold."
+   "result": "Holding, fifth consecutive run. PFN have Little K3. The best available here is Jason Myers at K5 and he is on waivers, which makes him a non-option; then Will Reichard, Chase McLaughlin and Cairo Santos, none of whom beat him by a point."
+  },
+  {
+   "correct": true,
+   "title": "Add the Ravens defence as a free agent, drop the Jaguars (16 September)",
+   "result": "Holding. PFN have Baltimore 9th of 32 this week against a New Orleans offence ranked 26th; Jacksonville are 10th but on waivers here. No priority was spent because Baltimore was a free agent — that distinction is the whole reason this was a good move."
+  },
+  {
+   "correct": true,
+   "title": "Decline Jake Ferguson even once he became free (17 September)",
+   "result": "Holding, on role rather than cost. 8.9 points per game with CeeDee Lamb active, and Lamb is active. Re-checked today with nothing changed."
+  },
+  {
+   "correct": true,
+   "title": "Do not offer Garrett Wilson for Josh Allen (16 September)",
+   "result": "Holding. The pair search surfaces it again today at +21.3 me and +21.8 them, the largest mutual-gain pair in the league, and it is still not to be sent. Allen is Team 13's starting quarterback and the consensus QB1 overall; STRATEGY.md section 7 makes any top-five player untouchable regardless of the math and names this exact failure mode."
+  },
+  {
+   "correct": true,
+   "title": "Add Devaughn Vele, drop Kayshon Boutte (16 September)",
+   "result": "Executed at 15:04 today as a free agent, no priority spent. Chris Olave was not on Baltimore week's injury report, which leaves Vele the clear number two on a 90.7% snap share rather than the beneficiary of an absence. This one is done and moves off the card list."
+  },
+  {
+   "correct": false,
+   "title": "Claim Zach Charbonnet, drop Matthew Stafford (owner move, 07:12 Wednesday)",
+   "result": "A dead bench seat and 4.4 season points, and it is not reversible this week. Charbonnet is OUT with an indefinite shoulder, this league has no IR slot, and Stafford is now on waivers at 90.8% rostered. The churn rule says leave both alone until 22 September."
   },
   {
    "correct": false,
    "title": "Start Stafford over Lawrence (16 September), withdrawn 17 September",
-   "result": "Marked ELITE on a split case, then withdrawn nine hours later. You then dropped Stafford outright at 07:12, which settles it in a way neither card did. A card that flips inside a day should not have been ELITE."
+   "result": "Still a miss and now permanently settled by the drop. A card marked ELITE that flipped inside nine hours should never have been ELITE, and the player it concerned is no longer on the roster."
   },
   {
    "correct": false,
-   "title": "Add Coker for Boutte if he went unclaimed (15 September)",
-   "result": "He did not go unclaimed here. Boutte is still on your bench and is the drop in today's Vele card instead."
+   "title": "Hold Colston Loveland at tight end with confidence lowered (16 September)",
+   "result": "Unresolved and I am flagging it as a miss in advance rather than after. Two targets and no catches in a 59-point game is a targeting problem on the box score. Bleacher Nation's tape review argues the opposite — 27 pass plays as a designed decoy, Carolina's coordinator refusing to let a linebacker cover him, spacing created for Kmet. I lean to the tape, but the falsification condition fires on Sunday if he is under four targets again, and two weeks of that beats any tape read."
   }
  ],
  "cannotSee": [
   {
-   "label": "Whether Team 13 have read the offer",
-   "body": "There is no PROPOSE button — this league's trade write is unmapped, so the card gives you the message and you send it in ESPN. I cannot see whether it was sent, opened or ignored. If it is still unanswered by Friday, the read on that manager's willingness is what changes, not the arithmetic."
+   "label": "Whether Team 13 have read the offer, or any of the previous seven",
+   "body": "There is no PROPOSE button — this league's trade write is unmapped, so the card gives you the message and you send it in ESPN. I cannot see whether it was opened, declined or never noticed. The thesis says that if this and the Golden version are both declined by Friday the read on that manager is wrong and the offer stops. Friday is tomorrow."
   },
   {
-   "label": "Brock Bowers's Friday designation",
-   "body": "He did not practise Wednesday, which is what keeps Michael Mayer on your bench this week. Pete Carroll is quoted expecting him to play against the Chargers while Schefter has the Raiders hoping he misses only one game and a physician reading the same meniscus trim disagreeing. Friday decides it and Friday has not happened."
+   "label": "Season projections are frozen, which undercuts the arithmetic in the trade card",
+   "body": "Bhayshul Tuten's seasonProj has read exactly 205.2 on the 15, 16 and 17 September snapshots while his weekly projection moved from 9.4 to 10.1. The trade math produces the identical +40.6 on all three. The weekly number is live; the season number looks like a preseason artifact. Every figure in the trade card and the pair search is priced on it, so treat +40.6 and +16.0 as directionally right and numerically soft."
   },
   {
-   "label": "Zach Charbonnet has no return date",
-   "body": "Reported as out indefinitely with a shoulder after starting the season on PUP. I could not find a dated timeline from Seattle. That matters because with no IR slot in this league he is costing a live bench seat, and the decision to keep or reclaim that seat depends on a number nobody has published."
+   "label": "Eleven of your fourteen matchup tiles are not researched",
+   "body": "I graded three this run: Denver against quarterbacks for Lawrence, Baltimore for the defence, and the Chargers against tight ends for Mayer. Kansas City, Tennessee, Indianapolis, Green Bay, Minnesota, the Jets, Arizona and Denver-against-running-backs are dashed because I did not look them up, not because they are average. Lawrence's SHAKY comes from a primer note that Denver are tough on quarterbacks rather than from a numbered rank, which is the softest of the three."
   },
   {
-   "label": "Twelve of your fourteen matchup tiles are not researched",
-   "body": "I graded two this run: Baltimore against New Orleans, and Denver against Jacksonville. Kansas City, Tennessee, Indianapolis, Green Bay, Minnesota, the Jets, the Chargers and Arizona are dashed because I did not study them, not because they came back average."
+   "label": "Who is throwing to Garrett Wilson, corroborated but not confirmed",
+   "body": "He starts in both of your leagues, so this is the one worth being precise about. I could not retrieve a beat report naming the Jets' Week 2 starter — two searches and the ESPN depth chart, which came back blank. Two independent routes give the same answer: Geno Smith at 14.0 projected here is the only quarterback New York have anywhere in this data set, and this morning's run reached the same name from its own research. The other quarterbacks in this brief — Jones for Taylor, Hurts for Barkley, Mahomes for Rice, Williams for Loveland, Love for Golden and Lloyd, Cousins for Mayer, Lock for Charbonnet, Shough for Vele — are carried from that run rather than re-verified this afternoon."
   },
   {
-   "label": "Season projections may be frozen at preseason values",
-   "body": "The Lamar arithmetic produces exactly the same +40.6 today as on the 16 September snapshot, from identical seasonProj figures a day apart. That is consistent with a weekly refresh and equally consistent with a preseason artifact that has never updated. The weekly projections in this brief come from this morning's file and are unaffected; every season number should be read as narrowing the list, not settling it."
+   "label": "Brock Bowers's Friday designation, which decides whether Mayer has value next week",
+   "body": "Absent from practice Wednesday and Thursday, which is why Mayer's tile is green. Schefter had Las Vegas believing he might miss only one game; Dr Deepak Chona read the same meniscus trim as a two-week ramp with week 3 more likely. If Bowers returns in Week 3, Mayer's seat becomes the open one and Hockenson is the add."
+  },
+  {
+   "label": "Zach Charbonnet still has no return date",
+   "body": "Second consecutive run in which no dated Seattle timeline could be found. Out indefinitely with a shoulder after starting the season on PUP is everything that has been published. The seat is dead for Week 2 either way, so the cost of not knowing is deferred to 22 September rather than paid now."
   },
   {
    "label": "Rival pending claims are invisible",
-   "body": "ESPN only ever returns your own. Jake Ferguson at 82.3% and Devaughn Vele at 48.5% and rising are both free agents right now, and either can be gone before you open this."
+   "body": "ESPN only ever returns your own. T.J. Hockenson at 64.1% and Jake Ferguson at 82.1% are free agents right now and either can be taken before you next open this. Jason Myers and Matthew Stafford clear waivers at 01:00 Friday and 01:00 Saturday and I cannot see who has claims in on them."
   },
   {
    "label": "This brief does not refresh",
-   "body": "It is a photograph of 12:52 UTC on Thursday, before any Week 2 game. Every designation in it is a Wednesday designation. Re-check before Sunday 11:00."
+   "body": "It is a photograph of 21:52 UTC on Thursday. No IPADE starter plays before Sunday at 11:00 Mexico City, so every designation in it has two more practice reports to go. Re-check Loveland, Vele and the Jets quarterback before then."
   }
  ]
 }
