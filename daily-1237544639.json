@@ -1,1 +1,524 @@
-{"week":2,"leagueName":"Chem","teamName":"AVIATO","generatedAt":"2026-09-17T04:05:00Z","snapshotNote":"Snapshot 03:52 UTC Thursday (21:52 Wednesday, Mexico City) · both claims landed and McLaurin is in the flex · you are now last in waiver priority · Josh Allen plays tonight · this brief does not refresh on its own","sources":"Built from 21 searches · NBC Sports/ProFootballTalk, RotoWire, Yahoo Sports, CBS Sports, NFL.com, Sports Illustrated, FantasyPros, DraftSharks, Pro Football Network, ClutchPoints, RotoBaller, Panthers.com, Star Tribune, FOX 9, NBC Sports Boston, Boston Globe, Hogs Haven, Sportsbook Review, FanDuel Research, The Falcoholic, ESPN","tonight":{"headline":"A coin flip against Panda Attack, and Josh Allen gets the first swing tonight.","status":"TIED","winProbability":51,"myScore":0.0,"theirScore":0.0,"opponent":"Panda Attack","body":["Your lineup is already the best one available on this snapshot: 126.2 projected against Panda Attack's 124.9, a 51% chance. Everything the last two briefs asked for landed at 07:14 on Wednesday — Coker in for Stafford, Baltimore's defence in for Jacksonville's, Loop in for Boswell — and you moved McLaurin into the flex yourself.","That leaves one small roster move and nothing urgent. Chem's next waiver run is at 01:00 tonight, Mexico City, but you are now 10th of 10 in priority and nothing clearing is worth a claim. The Pitts-for-Hollins swap below is a free-agent add and can happen any time before Sunday 11:00."],"case":[{"label":"Why Allen is the swing","body":"Buffalo are 4.5-point favourites with a 54.5 total. Detroit's two starting safeties, Brian Branch and Kerby Joseph, are out for at least four games, and starting corner DJ Reed was limited Wednesday with a foot injury and looks like a game-time decision. Allen locks at 18:15 tonight."},{"label":"What their side depends on","body":"Panda Attack still start Dak Prescott over Jalen Hurts, plus Saquon Barkley and Dalton Kincaid. Detroit allowed the second-most fantasy points to tight ends in Week 1, which is Kincaid's draw tonight too — the same game gives both teams a lift."},{"label":"What would change it","body":"A Thursday or Friday report that limits McLaurin or rules out Coker. One low-quality site claims McLaurin is questionable with a quad; the reputable Wednesday reports I retrieved do not name him. Check Washington's Thursday report before Sunday."}],"caseSources":"ESPN · FanDuel Research · Sportsbook Review · Sports Illustrated · Hogs Haven"},"doFirst":[{"id":"chem-drop-pitts-add-hollins-0400","tier":"DEPTH","urgency":"Before Sunday","kind":"Free-agent add","deadlineLabel":"Any time before Sunday 11:00, Mexico City — both players' games kick off then","deadline":"2026-09-20T17:00:00.000Z","title":"Drop Kyle Pitts, add Mack Hollins","subtitle":"A small structural move carried from yesterday's brief, re-researched and downgraded: Pitts cannot reach your lineup, Hollins at least has a role.","case":[{"label":"Why Pitts has no path here","body":"Chem's flex is RB/WR only and Isaiah Likely holds the one tight-end slot. Pitts's 11.3 projection is unreachable unless Likely is hurt. The strategy file is explicit that a second tight end has value in IPADE and none in Chem. And his quarterback is still unknown: Atlanta have not named a Week 2 starter, with Tua not practising and Cooper Rush and Michael Penix both practising fully."},{"label":"Disagreeing with the market, on the record","body":"Pitts is 93.6% rostered. Most leagues flex tight ends, so most managers can start him and you cannot. This is about your league's slot rules, not about Pitts. The exhaustive trade search on this snapshot found no deal involving him worth even half a point a week, so there is no better way to cash him."},{"label":"What Hollins is, honestly","body":"A.J. Brown is on IR for at least four games. NBC Sports Boston expects Hollins to fill Brown's outside 'X' role: he played more snaps than any Patriots receiver in Week 1 and has Drake Maye's trust. CBS is cooler, noting he has never averaged more than 40.6 receiving yards a game, and the Boston Globe expects Kyle Williams to get more snaps too. He is a bench body with a real role, not a starter."},{"label":"Tight-end cover if Likely is hurt","body":"Mark Andrews is a free agent here at 81.9% rostered and Yahoo lists him among this week's top streamers at home to New Orleans. The one gap: if Likely is ruled out on Monday itself, the Sunday tight ends have already played."},{"label":"Churn check","body":"Pitts does not appear in the activity log back to 12 September. Coker, the Ravens defence and Loop all changed hands at 07:14 Wednesday, so those seats are closed. Hollins is a free agent, so this costs no claim."},{"label":"Falsified if","body":"Likely shows up on a Giants injury report before Sunday — then keep Pitts. Or New England's Week 2 usage gives Brown's snaps to Kyle Williams or Romeo Doubs rather than Hollins, which makes Hollins a pure placeholder."}],"sources":"NBC Sports Boston · CBS Sports · Boston Globe · Patriots.com · NFL.com · Yahoo Sports","ghost":false,"action":{"type":"ADD","playerId":2991662,"dropPlayerId":4360248,"label":"Add Mack Hollins · drop Kyle Pitts"}}],"whatWentWrong":[{"id":"w1","title":"The JuiceJam trade never landed, and the claim that won ended it","lead":"The Coker claim dropped Stafford at 07:14 Wednesday. The McLaurin + Stafford offer died with it.","case":[{"label":"What happened","body":"Three runs recommended sending the offer before the waiver run. There is no trade activity in the log, and Stafford is now on waivers. The claim was the better of the two moves, so this was the right order of priority — but a trade card with a hard deadline should have said plainly that it would expire, not be carried as if it could survive."},{"label":"What would change it","body":"Nothing for this week. A fresh exhaustive search on this snapshot finds no Chem trade worth even half a point a week, so there is no replacement offer."}],"sources":"League activity log"},{"id":"w2","title":"The Pitts drop was called SOLID with a thinner case than it had","lead":"Yesterday's card leaned on one waiver column naming Hollins. Today's reporting is split between Hollins, Kyle Williams and Demario Douglas.","case":[{"label":"The correction","body":"The structural reason to drop Pitts stands; the reason Hollins is the add is weaker than it was written. The card is now DEPTH, not SOLID."},{"label":"What would change it","body":"Hollins leading New England's receivers in routes at home to Pittsburgh would restore the stronger case."}],"sources":"NBC Sports Boston · CBS Sports · Boston Globe"}],"roster":{"state":"THURSDAY","footnote":"Nothing has kicked off; Allen locks first, tonight at 18:15. Tiles come from Week 1 box scores and this week's boards — one week of data. Dashed tiles are defences I did not get a read on this run.","starting":[{"playerId":3918298,"name":"Josh Allen","slot":"QB","position":"QB","team":"BUF","detail":"BUF · vs DET · Thu 18:15 · Bills -4.5, total 54.5; 334 yards and four total TDs in Week 1","projection":22.9,"grade":"GREAT","gradeEvidence":"DET without safeties Branch and Joseph; CB DJ Reed a game-time decision","tier":"LEGENDARY"},{"playerId":4429160,"name":"De'Von Achane","slot":"RB","position":"RB","team":"MIA","detail":"MIA · @ SF · Sun 14:25 · Malik Willis at QB; played 88% of snaps, one of four true workhorses in Week 1","projection":17.2,"grade":"POOR","gradeEvidence":"SF is RotoBaller's No. 1 D/ST for Week 2","tier":"ELITE"},{"playerId":4569987,"name":"Jaylen Warren","slot":"RB","position":"RB","team":"PIT","detail":"PIT · @ NE · Sun 11:00 · Aaron Rodgers at QB; PFN RB27 this week, the passing-down role is the case","projection":11.4,"notResearched":true,"tier":"SOLID"},{"playerId":3121422,"name":"Terry McLaurin","slot":"FLEX","position":"WR","team":"WSH","detail":"WSH · @ DAL · Sun 14:25 · Jayden Daniels at QB; 4 targets in Week 1; one unverified site claims a quad — check Thursday's report","projection":12.7,"grade":"GOOD","gradeEvidence":"DAL S Malik Hooker missed Wednesday; Dallas allowed 3 TD passes to Dart","tier":"SOLID"},{"playerId":4262921,"name":"Justin Jefferson","slot":"WR","position":"WR","team":"MIN","detail":"MIN · @ CHI · Sun 11:00 · QB unsettled: Kyler Murray limited in concussion protocol and needs clearance by Friday, otherwise Carson Wentz","projection":18.4,"grade":"GREAT","gradeEvidence":"NBC calls Chicago's defense awful; it allowed 37 to Carolina","tier":"LEGENDARY"},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","detail":"NYJ · vs GB · Sun 11:00 · Geno Smith at QB (19 of 24, 215); Wilson led with 7 targets for 79","projection":15.8,"grade":"AVERAGE","gradeEvidence":"GB without Micah Parsons; RotoWire has GB D/ST only as a backup stream","tier":"ELITE"},{"playerId":4361050,"name":"Isaiah Likely","slot":"TE","position":"TE","team":"NYG","detail":"NYG · @ LAR · Mon 18:15 · Jaxson Dart at QB; no injury designation; your only TE if Pitts goes","projection":11.6,"grade":"AVERAGE","gradeEvidence":"Rams without Myles Garrett (IR); no coverage ranking retrieved","tier":"SOLID"},{"playerId":-16033,"name":"Ravens D/ST","slot":"D/ST","position":"DST","team":"BAL","detail":"BAL · vs NO · Sun 11:00 · hold; OLB Trey Hendrickson missed Wednesday with a finger injury","projection":7.6,"grade":"GREAT","gradeEvidence":"RotoWire top-3 stream; Shough sacked five times with two INTs in Week 1","tier":"SOLID"},{"playerId":4697745,"name":"Tyler Loop","slot":"K","position":"K","team":"BAL","detail":"BAL · vs NO · Sun 11:00 · hold; Pineiro is the best free agent and ranks below him","projection":8.6,"grade":"GREAT","gradeEvidence":"K4 on PFN, K6 on ClutchPoints for Week 2","tier":"SOLID"}],"bench":[{"playerId":4882093,"name":"Bhayshul Tuten","slot":"BE","position":"RB","team":"JAX","detail":"JAX · @ DEN · Sun 14:05 · Lawrence at QB; LeQuint Allen limited Wednesday and may crowd the backfield further","projection":10.1,"grade":"AVERAGE","gradeEvidence":"RotoBaller: Denver's D struggled in Week 1; SI rates their coverage tier 1","tier":"DEPTH"},{"playerId":4360248,"name":"Kyle Pitts Sr.","slot":"BE","position":"TE","team":"ATL","detail":"ATL · vs CAR · Sun 11:00 · no named QB (Rush and Penix practised fully, Tua did not) — the drop in the card above","projection":11.3,"grade":"GOOD","gradeEvidence":"CAR allowed 59 points and 552 yards to Chicago","tier":"DEPTH"},{"playerId":4608686,"name":"Kyle Monangai","slot":"BE","position":"RB","team":"CHI","detail":"CHI · vs MIN · Sun 11:00 · hamstring, limited Wednesday; 10 carries for 100 and a TD in Week 1","projection":9.9,"notResearched":true,"tier":"SOLID"},{"playerId":4432773,"name":"Brian Thomas Jr.","slot":"BE","position":"WR","team":"JAX","detail":"JAX · @ DEN · Sun 14:05 · Lawrence at QB; shoulder, limited Wednesday, expected to play","projection":9.7,"grade":"AVERAGE","gradeEvidence":"RotoBaller: Denver's D struggled in Week 1; SI rates their coverage tier 1","tier":"DEPTH"},{"playerId":4695883,"name":"Jalen Coker","slot":"BE","position":"WR","team":"CAR","detail":"CAR · @ ATL · Sun 11:00 · Bryce Young at QB; ankle, limited Wednesday, out of the boot; Canales expects him to play","projection":12.1,"notResearched":true,"tier":"SOLID"}]},"trades":[],"worthALook":[{"playerId":3116365,"name":"Mark Andrews","positionTeam":"TE · BAL","ownership":"81.9% owned","tier":"SOLID","lead":"Your tight-end insurance if Likely is hurt, and a free agent you can add the moment news breaks.","case":[{"label":"The case","body":"Yahoo lists Andrews first among this week's tight-end streamers, at home to New Orleans, whose quarterback Tyler Shough was sacked five times in Week 1. He is 81.9% rostered nationally and free here, so he costs no claim."},{"label":"Why not now","body":"Likely has no injury designation and you only have one tight-end slot. Adding Andrews today would just recreate the Pitts problem."},{"label":"When to act","body":"Likely appears on a Giants injury report before Sunday: add Andrews and drop whoever holds your weakest bench seat."}],"sources":"Yahoo Sports · RotoWire"}],"doNotChase":[{"playerId":-16025,"name":"49ers D/ST","positionTeam":"DST · SF","ownership":"+39.75 owned","tier":"DEPTH","lead":"RotoBaller's No. 1 defence this week, a free agent here, and still not worth the move.","case":[{"label":"The number that kills it","body":"RotoWire lists Baltimore alongside San Francisco among this week's top three streams, and FantasyPros expects Baltimore's pressure to get home against a quarterback sacked five times in Week 1. One or two places is under a point."},{"label":"The churn rule","body":"Your defence seat changed hands at 07:14 Wednesday. Swapping it again inside a day is the reversal the log records as churn."},{"label":"What would change it","body":"Trey Hendrickson missing the game, or Baltimore's Thursday report adding more pass rushers."}],"sources":"RotoBaller · RotoWire · FantasyPros"},{"playerId":4034949,"name":"Eddy Pineiro","positionTeam":"K · SF","ownership":"85.2% owned","tier":"DEPTH","lead":"85% rostered and free — and ranked below the kicker you just added.","case":[{"label":"The number that kills it","body":"PFN has Pineiro 12th and Loop 4th; ClutchPoints has Pineiro 12th and Loop 6th. ESPN's weekly projection favours Pineiro by 0.8, under the one-point floor."},{"label":"The pattern","body":"You dropped him for Boswell on 8 September and replaced Boswell with Loop on Wednesday. Going back to Pineiro would be a third move on one slot in nine days."},{"label":"What would change it","body":"Loop finishing outside the top 20 kickers across Weeks 2-4."}],"sources":"Pro Football Network · ClutchPoints"}],"settled":[{"correct":true,"title":"Claim Jalen Coker, drop Matthew Stafford (14-16 September)","result":"Landed at 07:14 Wednesday. Coker was limited Wednesday but out of the boot, and Carolina expect him to play."},{"correct":true,"title":"Claim the Ravens defence, drop the Jaguars defence (15-16 September)","result":"Landed at 07:14 Wednesday. Baltimore are a top-3 stream on RotoWire this week."},{"correct":true,"title":"Claim Tyler Loop, drop Chris Boswell (16 September)","result":"Landed at 07:14 Wednesday. Loop is K4-K6 this week; Boswell is K17 on PFN."},{"correct":true,"title":"Start McLaurin in the flex over Tuten (15 September)","result":"You made the swap at 17:58 on 15 September. The result is still pending."},{"correct":false,"title":"McLaurin + Stafford for DeVonta Smith (14-15 September)","result":"Never landed. The Coker claim dropped Stafford at 07:14 Wednesday, which ended the offer."},{"correct":true,"title":"Add Isaiah Likely (13 September)","result":"8 of 8 for 78 and two touchdowns in the Giants debut."}],"cannotSee":[{"label":"Whether McLaurin is actually hurt","body":"One low-quality preview site lists him questionable with a quad. The Commanders reports I retrieved name Okonkwo and Luvu as non-participants and six limited players whose names were cut off. ESPN's file shows him active. Check Thursday's report."},{"label":"Who throws to Jefferson","body":"Kyler Murray was limited Wednesday and needs clearance by Friday. One SI piece says he is not expected to be activated; other reports say he is progressing. Wentz starts if Murray does not."},{"label":"You are last in waiver priority","body":"Priority resets weekly in Chem, but for tonight's run you are 10th of 10. Nothing clearing is worth a claim anyway."},{"label":"No Chem trade is worth sending","body":"An exhaustive search of every one-for-one and two-for-one on this snapshot finds nothing that gains you even half a point a week. Season projections have not moved since 14 September, so that search runs on preseason numbers."},{"label":"Matchup tiles are judgement","body":"One week of data. New England's, Minnesota's and Atlanta's defences were not researched this run, so Warren, Monangai and Coker have dashed tiles."},{"label":"Thursday and Friday reports come later","body":"Coker, Monangai, Thomas and Likely all have practice sessions after this brief. Designations land Friday."},{"label":"This brief does not refresh","body":"It reflects the 03:52 UTC Thursday snapshot and reporting up to about 04:00 UTC."}]}
+{
+ "week": 2,
+ "leagueName": "Chem",
+ "teamName": "AVIATO",
+ "generatedAt": "2026-09-17T13:00:00Z",
+ "snapshotNote": "Snapshot 12:52 UTC, 11 minutes old · Thursday, before any Week 2 game · this brief does not refresh on its own",
+ "sources": "Built from 22 searches and 17 page fetches · Panthers.com, Commanders.com, Jaguars beat via Yahoo, RotoWire, PFN, FantasyPros, Athlon, Heavy, DraftKings Network, ESPN",
+ "tonight": {
+  "headline": "A 51/49 against Panda Attack, and Josh Allen swings first tonight.",
+  "status": "TIED",
+  "winProbability": 51,
+  "myScore": 0.0,
+  "theirScore": 0.0,
+  "opponent": "Panda Attack",
+  "body": [
+   "Nothing has kicked off. ESPN projects you 126.2 to their 124.9 — 1.3 points, which is noise. Josh Allen against Detroit tonight at 18:15 is your only player in action before Sunday, and Panda Attack have nobody in that game, so you will sit in front overnight and it will mean nothing.",
+   "Your lineup is already the best one available on this snapshot and there is no lineup call to make. The one roster move left is a structural tidy-up that has been sitting on the card since yesterday, and it does not touch the starting nine."
+  ],
+  "case": [
+   {
+    "label": "The script that beats you",
+    "body": "Panda Attack start Dak Prescott at home against Washington and Saquon Barkley at Tennessee, and they hold Jalen Hurts (20.1) rotting on their bench in a one-QB league. If Prescott and Barkley both go for 25 they are hard to catch, because your ceiling is concentrated in Allen and Jefferson rather than spread across the lineup."
+   },
+   {
+    "label": "The script that wins it",
+    "body": "Justin Jefferson is the swing. Carson Wentz is starting for Minnesota with Kyler Murray in concussion protocol, and Chicago just allowed 361 passing yards to Bryce Young. Jefferson went 8-of-9 for 92 and two touchdowns with Wentz throwing in Week 1 after Murray went out in the first quarter."
+   },
+   {
+    "label": "Falsified if",
+    "body": "Kyler Murray clears protocol on Friday and Minnesota get a limited, rusty starter instead of the backup who already knows the plan — or Chicago's secondary, which was missing bodies in Week 1, gets healthy. Either turns Jefferson's matchup from the best on your board into an ordinary one."
+   }
+  ],
+  "caseSources": "Athlon Sports · Heavy · Vikings.com · FantasyPros"
+ },
+ "doFirst": [
+  {
+   "id": "chem-drop-pitts-add-hollins-1300",
+   "tier": "SOLID",
+   "urgency": "Before Sunday",
+   "kind": "Free-agent add",
+   "deadlineLabel": "Any time before Sunday 11:00, Mexico City — both games kick off then",
+   "deadline": "2026-09-20T17:00:00.000Z",
+   "title": "Drop Kyle Pitts, add Mack Hollins",
+   "subtitle": "Upgraded from yesterday's DEPTH downgrade. The reporting that was missing then has arrived: A.J. Brown is out four to six weeks and Hollins led New England in receiving yards without him.",
+   "case": [
+    {
+     "label": "The drop is free",
+     "body": "Chem's flex is slot 3, RB/WR only, and Isaiah Likely holds the single tight-end slot on an intact open thesis. Kyle Pitts projects 11.3 and his effective projection in your lineup is zero — there is no week this season in which he can score you a point. He is also 93.9% rostered, which is the market's opinion of a player in a league with a TE-flex, not of a player in yours."
+    },
+    {
+     "label": "The vacancy has a name",
+     "body": "A.J. Brown suffered a high-ankle sprain early in the third quarter of Week 1 and New England expect him out at least four games; the Yahoo beat piece predicting his replacement says six. Hollins played the most snaps of any Patriots receiver besides Brown and led the team in receiving yards. That is the vacated role STRATEGY section 4 ranks second, with a name attached."
+    },
+    {
+     "label": "Where I am uneasy",
+     "body": "Hollins's Week 1 was 4 catches for 51 yards — a hot week on low volume, which STRATEGY explicitly calls a sell signal rather than a buy. Two sources also disagree on his snap count: RotoWire has 50 snaps at 70%, the Yahoo beat piece has 18 of 32. I take the beat number, because it is tied to a specific game and a specific depth chart, and the RotoWire figure looks like a season-to-date field. DeMario Douglas drew a team-high 7 targets from the slot and Romeo Doubs is on a four-year $68M deal. This add could be the wrong one of the three."
+    },
+    {
+     "label": "Why it still goes",
+     "body": "Because 90% of the value is the drop, not the add. You are converting a roster seat that is guaranteed to score zero into a seat with a four-to-six-week window on a real vacancy. That asymmetry is what makes this worth doing even with the receiver unsettled."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Isaiah Likely appears on a Giants injury report before Sunday, which makes Pitts your only tight end and reverses this the same day. Or New England's Friday report and beat coverage name Douglas or Doubs as the clear beneficiary, in which case the drop still stands and the add changes."
+    }
+   ],
+   "sources": "Yahoo Sports (Patriots beat) · RotoWire · ESPN · Boston.com",
+   "ghost": false,
+   "action": {
+    "type": "ADD",
+    "playerId": 2991662,
+    "dropPlayerId": 4360248,
+    "label": "Add Mack Hollins · drop Kyle Pitts"
+   }
+  }
+ ],
+ "whatWentWrong": [
+  {
+   "id": "w1",
+   "title": "Yesterday's brief cut the Hollins card to DEPTH, and by this morning that was an over-correction",
+   "lead": "The 04:05 run downgraded it because reporting was split three ways between Hollins, Kyle Williams and Demario Douglas. The split is real, but the downgrade priced the add and ignored the drop.",
+   "case": [
+    {
+     "label": "What the downgrade missed",
+     "body": "It treated the card as a bet on Mack Hollins. It is not. It is a bet that a player who cannot enter your lineup in any week of this season is worth less than any player who can. That is true regardless of which Patriot wins the job."
+    },
+    {
+     "label": "What arrived since",
+     "body": "A.J. Brown's high-ankle sprain is now reported as four games (ESPN, RotoWire) to six (Yahoo's Patriots beat). Hollins's 51 receiving yards led the team in Week 1. Neither fact was in yesterday's card, which cited only 'one waiver column naming Hollins'."
+    },
+    {
+     "label": "What would change it",
+     "body": "New England's Friday report naming Douglas or Doubs as the lead. The drop survives either way; only the name on the add moves."
+    }
+   ],
+   "sources": "Yahoo Sports · ESPN · RotoWire"
+  },
+  {
+   "id": "w2",
+   "title": "Jalen Coker tripped his own falsification condition on Wednesday",
+   "lead": "The hold thesis written Tuesday said, in these words, that it was falsified if Coker was limited or DNP on Carolina's Wednesday or Thursday report. Carolina's Wednesday report lists him limited with the ankle.",
+   "case": [
+    {
+     "label": "What the report says",
+     "body": "Panthers.com Wednesday: Jalen Coker limited, ankle, after being in a walking boot earlier in the week. RotoWire's headline on the same session is harsher — 'working on side Wednesday' — which normally means out of team drills entirely. I take the official club report as the participation of record and read RotoWire as describing the same rehab work; but the two do not say the same thing and you should know that."
+    },
+    {
+     "label": "Why he is not being dropped",
+     "body": "He arrived at 07:14 on Wednesday, which closes that seat under the churn rule for seven days, and reversing a claim two days after making it is the exact pattern the decision log punishes. He is also already benched behind McLaurin, so the cost of him being limited is zero this week."
+    },
+    {
+     "label": "How this connects to the card above",
+     "body": "Three of your five bench players — Coker, Brian Thomas Jr. and Kyle Monangai — carry a questionable designation, and a fourth, Kyle Pitts, is structurally unusable. That is four dead or doubtful seats out of five. It is why the Pitts seat is the one move worth making: it is the only bench slot you can improve without touching a player whose thesis is still intact."
+    },
+    {
+     "label": "What would change it",
+     "body": "Coker practising in full on Thursday or Friday and carrying no designation into Sunday, which reinstates the thesis unchanged. Or a Sunday designation, which makes him unstartable and reopens the seat on Tuesday."
+    }
+   ],
+   "sources": "Panthers.com · RotoWire · NBC Sports"
+  }
+ ],
+ "roster": {
+  "state": "THURSDAY",
+  "footnote": "Nothing has kicked off. The right-hand column is the matchup read; a dashed tile means I did not research that defence this run rather than that it is average. Nine of fourteen tiles are dashed — the three I did research are the ones that changed a decision.",
+  "starting": [
+   {
+    "playerId": 3918298,
+    "name": "Josh Allen",
+    "slot": "QB",
+    "position": "QB",
+    "team": "BUF",
+    "detail": "BUF · vs DET · THU 18:15 · tonight, and your only player in action before Sunday",
+    "projection": 22.9,
+    "actual": null,
+    "notResearched": true,
+    "tier": "LEGENDARY"
+   },
+   {
+    "playerId": 4429160,
+    "name": "De'Von Achane",
+    "slot": "RB",
+    "position": "RB",
+    "team": "MIA",
+    "detail": "MIA · at SF · SUN 14:25 · Malik Willis under centre — 9.9 of his 16.7 Week 1 points came from his own legs, and Miami's receiver room is rookies and depth pieces",
+    "projection": 17.2,
+    "actual": null,
+    "grade": "SHAKY",
+    "gradeEvidence": "SF 4th on FantasyPros' Week 2 board",
+    "tier": "ELITE"
+   },
+   {
+    "playerId": 4569987,
+    "name": "Jaylen Warren",
+    "slot": "RB",
+    "position": "RB",
+    "team": "PIT",
+    "detail": "PIT · at NE · SUN 11:00 · Aaron Rodgers, projected 12.9 — the lowest-projected quarterback throwing to anyone you start",
+    "projection": 11.4,
+    "actual": null,
+    "notResearched": true,
+    "tier": "SOLID"
+   },
+   {
+    "playerId": 3121422,
+    "name": "Terry McLaurin",
+    "slot": "FLEX",
+    "position": "WR",
+    "team": "WSH",
+    "detail": "WSH · at DAL · SUN 14:25 · Jayden Daniels · absent from Washington's Wednesday injury report — the quad is not an issue this week",
+    "projection": 12.7,
+    "actual": null,
+    "notResearched": true,
+    "tier": "SOLID"
+   },
+   {
+    "playerId": 4262921,
+    "name": "Justin Jefferson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "MIN",
+    "detail": "MIN · at CHI · SUN 11:00 · Carson Wentz starting, Kyler Murray in concussion protocol — and Jefferson went 8-of-9, 92 yards, two TDs with Wentz in Week 1",
+    "projection": 18.4,
+    "actual": null,
+    "grade": "GREAT",
+    "gradeEvidence": "CHI allowed 361 pass yards in Week 1",
+    "tier": "LEGENDARY"
+   },
+   {
+    "playerId": 4569618,
+    "name": "Garrett Wilson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "NYJ",
+    "detail": "NYJ · vs GB · SUN 11:00 · Geno Smith",
+    "projection": 15.8,
+    "actual": null,
+    "notResearched": true,
+    "tier": "ELITE"
+   },
+   {
+    "playerId": 4361050,
+    "name": "Isaiah Likely",
+    "slot": "TE",
+    "position": "TE",
+    "team": "NYG",
+    "detail": "NYG · at LAR · MON 18:15 · Jaxson Dart, who has made Likely his safety valve — Monday night, so he is the last player on your roster to play",
+    "projection": 11.6,
+    "actual": null,
+    "notResearched": true,
+    "tier": "ELITE"
+   },
+   {
+    "playerId": -16033,
+    "name": "Ravens D/ST",
+    "slot": "D/ST",
+    "position": "DST",
+    "team": "BAL",
+    "detail": "BAL · vs NO · SUN 11:00 · Trey Hendrickson (finger) and T.J. Tampa (knee) did not practise Wednesday, which is the one crack in this",
+    "projection": 7.6,
+    "actual": null,
+    "grade": "GREAT",
+    "gradeEvidence": "3rd of 32 on FantasyPros' Week 2 board",
+    "tier": "SOLID"
+   },
+   {
+    "playerId": 4697745,
+    "name": "Tyler Loop",
+    "slot": "K",
+    "position": "K",
+    "team": "BAL",
+    "detail": "BAL · vs NO · SUN 11:00 · K4 on PFN's Week 2 board after two 50-plus-yard field goals in Week 1",
+    "projection": 8.6,
+    "actual": null,
+    "notResearched": true,
+    "tier": "SOLID"
+   }
+  ],
+  "bench": [
+   {
+    "playerId": 4882093,
+    "name": "Bhayshul Tuten",
+    "slot": "BN",
+    "position": "RB",
+    "team": "JAX",
+    "detail": "JAX · at DEN · SUN 14:05 · Trevor Lawrence · no red-zone rushes in Week 1 and Chris Rodriguez took the short-yardage work",
+    "projection": 10.1,
+    "actual": null,
+    "notResearched": true,
+    "tier": "DEPTH"
+   },
+   {
+    "playerId": 4360248,
+    "name": "Kyle Pitts Sr.",
+    "slot": "BN",
+    "position": "TE",
+    "team": "ATL",
+    "detail": "ATL · vs CAR · SUN 11:00 · Michael Penix Jr. questionable — and Chem's flex is RB/WR, so Pitts cannot reach your lineup in any week this season",
+    "projection": 11.3,
+    "actual": null,
+    "notResearched": true,
+    "tier": "DEPTH"
+   },
+   {
+    "playerId": 4608686,
+    "name": "Kyle Monangai",
+    "slot": "BN",
+    "position": "RB",
+    "team": "CHI",
+    "detail": "CHI · vs MIN · SUN 11:00 · Caleb Williams · questionable (knee); he and Swift dominated Chicago's target share in a 59-37 Week 1",
+    "projection": 9.9,
+    "actual": null,
+    "notResearched": true,
+    "tier": "DEPTH"
+   },
+   {
+    "playerId": 4432773,
+    "name": "Brian Thomas Jr.",
+    "slot": "BN",
+    "position": "WR",
+    "team": "JAX",
+    "detail": "JAX · at DEN · SUN 14:05 · Trevor Lawrence · limited Wednesday with the shoulder; Liam Coen says he is expected to play at Denver",
+    "projection": 9.7,
+    "actual": null,
+    "notResearched": true,
+    "tier": "DEPTH"
+   },
+   {
+    "playerId": 4695883,
+    "name": "Jalen Coker",
+    "slot": "BN",
+    "position": "WR",
+    "team": "CAR",
+    "detail": "CAR · at ATL · SUN 11:00 · Bryce Young · limited Wednesday (ankle) after a walking boot — this is the condition his thesis named",
+    "projection": 12.1,
+    "actual": null,
+    "notResearched": true,
+    "tier": "DEPTH"
+   }
+  ]
+ },
+ "trades": [],
+ "worthALook": [
+  {
+   "playerId": 3116365,
+   "name": "Mark Andrews",
+   "positionTeam": "TE · BAL",
+   "ownership": "82.2% owned",
+   "tier": "SOLID",
+   "lead": "The single biggest ownership anomaly on the Chem wire, and the only insurance that exists for Isaiah Likely.",
+   "case": [
+    {
+     "label": "Why he is here",
+     "body": "82.2% rostered nationally and a free agent in this league. Baltimore are 3rd of 32 on FantasyPros' Week 2 defensive board, which is a proxy for a team expected to lead and throw efficiently, and Andrews is the incumbent tight end in that offence."
+    },
+    {
+     "label": "Why not now",
+     "body": "Chem starts one tight end and Isaiah Likely's thesis is intact — 8 catches on 8 targets for 78 and two scores in Week 1, and Jaxson Dart's most reliable target through camp. Adding Andrews means dropping a body to hold a tight end you cannot start, in a league whose flex is RB/WR. That is the exact structural error the Pitts card above is undoing."
+    },
+    {
+     "label": "The number against him",
+     "body": "His ownership change is 0.00 — flat. Nobody in the wider market is moving toward him, which is the opposite of the velocity signal that makes an anomaly urgent."
+    },
+    {
+     "label": "When to act",
+     "body": "The moment Isaiah Likely appears on a Giants injury report. Then Andrews is the first call, ahead of re-adding Pitts, and the claim is free because Chem's waiver priority resets weekly."
+    }
+   ],
+   "sources": "ESPN · FantasyPros"
+  },
+  {
+   "playerId": 4361432,
+   "name": "Romeo Doubs",
+   "positionTeam": "WR · NE",
+   "ownership": "60.3% owned",
+   "tier": "DEPTH",
+   "lead": "The other side of the A.J. Brown vacancy, and the one with the contract behind him.",
+   "case": [
+    {
+     "label": "The case for him",
+     "body": "Four years and $68M signed in March, 40 snaps in Week 1, and 202 catches for 2,424 yards and 21 touchdowns across his last 59 games in Green Bay. He is 60.3% rostered nationally and free here. If New England want their paid receiver to be the answer, he is the answer."
+    },
+    {
+     "label": "The number that kills it today",
+     "body": "Zero catches in Week 1. He dropped a pass and was involved in an interception, on 40 snaps. Mack Hollins, on fewer snaps, led the team in receiving yards. You do not pay a roster seat for a $68M contract that has produced nothing."
+    },
+    {
+     "label": "What would change it",
+     "body": "Any Week 2 line with five-plus targets, or New England's beat naming him the clear WR1 for Brown's absence. At that point he is the better half of this vacancy and the Hollins seat converts to him — and the claim is free, because Chem priority resets weekly."
+    }
+   ],
+   "sources": "Yahoo Sports (Patriots beat) · ESPN"
+  },
+  {
+   "playerId": 4429059,
+   "name": "Woody Marks",
+   "positionTeam": "RB · HOU",
+   "ownership": "55.9% owned",
+   "tier": "DEPTH",
+   "lead": "On waivers until Friday 01:00 Mexico City, and a claim in this league costs you nothing that lasts.",
+   "case": [
+    {
+     "label": "Why he is on the board",
+     "body": "55.9% rostered nationally and sitting on Chem waivers, clearing Friday 07:00 UTC. Nicky Jam dropped him at 03:37 this morning to add KC Concepcion — a manager looked at him and moved on, which is information, not proof."
+    },
+    {
+     "label": "The number against him",
+     "body": "7.1 projected. Jaylen Warren, the starter he would have to beat, projects 11.4, and Bhayshul Tuten on your bench projects 10.1. He is not an upgrade on anything you own; he would be the sixth bench body on a five-man bench."
+    },
+    {
+     "label": "Why he is listed anyway",
+     "body": "Because Chem's waiver priority resets weekly, STRATEGY section 6 says claim anything worth claiming here, and it is worth writing down once that the answer this week is 'nothing on this wire is worth the seat' rather than leaving the free-claim option silently unused."
+    },
+    {
+     "label": "When to act",
+     "body": "If Jaylen Warren or De'Von Achane appears on a Friday injury report. Then Marks becomes a free claim for a real hole rather than a speculative one."
+    }
+   ],
+   "sources": "ESPN · league activity log"
+  }
+ ],
+ "doNotChase": [
+  {
+   "playerId": -16025,
+   "name": "49ers D/ST",
+   "positionTeam": "DST · SF",
+   "ownership": "+15.11 owned",
+   "tier": "DEPTH",
+   "lead": "The largest single-day ownership move anywhere on the Chem board, and it buys you nothing.",
+   "case": [
+    {
+     "label": "Why everyone is moving",
+     "body": "San Francisco host Miami, who are starting Malik Willis with a receiver room of rookies. That is a genuinely good draw and the market has priced it: +15.11 owned in a day."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "FantasyPros have Baltimore 3rd of 32 in Week 2 and San Francisco 4th. You already own the better one. The churn buys you a ranking place and costs you a roster move and the Ravens' 3rd-ranked draw against a New Orleans offence that gave up five sacks and two interceptions in the first half of Week 1."
+    },
+    {
+     "label": "What would change it",
+     "body": "Baltimore finishing outside the top 12 defensive scores in Week 2 while San Francisco finish top five. Then the churn rule has cost real points, the seat opens on Tuesday, and San Francisco is first on the list — this is the fourth consecutive run that the Ravens seat has been held rather than churned, and that record is the point."
+    }
+   ],
+   "sources": "FantasyPros · ESPN"
+  },
+  {
+   "playerId": 2573079,
+   "name": "Carson Wentz",
+   "positionTeam": "QB · MIN",
+   "ownership": "+2.12 owned",
+   "tier": "DEPTH",
+   "lead": "The loudest story on the wire this week, and completely irrelevant to this roster.",
+   "case": [
+    {
+     "label": "Why he is rising",
+     "body": "Kyler Murray is in concussion protocol and Wentz is set to start at Chicago, who allowed 361 passing yards to Bryce Young in Week 1. He is 5.4% rostered and climbing, flagged MONEY by the wire's own band."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "Josh Allen projects 22.9 and Wentz 17.1, and Chem starts exactly one quarterback. His season projection in this file is 0.5, because he entered the year as a backup. There is no week in which he enters your lineup."
+    },
+    {
+     "label": "Where he does matter to you",
+     "body": "Not as an add — as the reason Justin Jefferson's tile is the only GREAT on your board. Read him as information about your WR1, not as a player to acquire."
+    },
+    {
+     "label": "What would change it",
+     "body": "Josh Allen appearing on a Buffalo injury report. Nothing else."
+    }
+   ],
+   "sources": "Athlon Sports · Heavy · ESPN"
+  },
+  {
+   "playerId": 4429205,
+   "name": "Jordan Addison",
+   "positionTeam": "WR · MIN",
+   "ownership": "-0.82 owned",
+   "tier": "DEPTH",
+   "lead": "76% rostered, free here, and declined again on purpose so a future run does not rediscover him.",
+   "case": [
+    {
+     "label": "Why he looks free",
+     "body": "75.4% rostered nationally, dropped by JuiceJam at 07:14 on Wednesday to claim Devaughn Vele, and sitting on this wire. On ownership alone he is the second-loudest anomaly on the board."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "Target order, not ownership. Justin Jefferson drew 9 targets from Carson Wentz in Week 1 and caught 8 for two touchdowns. FantasyLife rank T.J. Hockenson — a tight end — as Minnesota's second target ahead of Addison. Third read in an offence being run by a backup quarterback is not a lineup upgrade on anything you start, and his ownership is falling, not rising."
+    },
+    {
+     "label": "What would change it",
+     "body": "Addison drawing seven or more targets in Week 2, or Jefferson missing time. Either makes him the second read rather than the third."
+    }
+   ],
+   "sources": "Heavy · Vikings.com · ESPN"
+  }
+ ],
+ "settled": [
+  {
+   "correct": true,
+   "title": "Claim Jalen Coker, drop Matthew Stafford (14-16 September)",
+   "result": "Landed at 07:14 Wednesday. But he was limited on Carolina's Wednesday report with the ankle, which is the condition the thesis named — the claim was right, the player is not yet."
+  },
+  {
+   "correct": true,
+   "title": "Claim the Ravens defence, drop the Jaguars defence (15-16 September)",
+   "result": "Baltimore are 3rd of 32 on FantasyPros' Week 2 board. Jacksonville are 30th. That one is emphatically right."
+  },
+  {
+   "correct": true,
+   "title": "Claim Tyler Loop, drop Chris Boswell (16 September)",
+   "result": "PFN have Loop K4 this week after two 50-plus-yard field goals in Week 1. Boswell is K17."
+  },
+  {
+   "correct": true,
+   "title": "Start McLaurin in the flex over Tuten (15 September)",
+   "result": "McLaurin does not appear on Washington's Wednesday injury report at all. The quad clause in the thesis is clean."
+  },
+  {
+   "correct": true,
+   "title": "Hold Isaiah Likely over Kyle Pitts at tight end (14 September)",
+   "result": "Likely is Jaxson Dart's safety valve and his most reliable target through camp. Pitts is on a team whose quarterback is questionable, in a slot you cannot fill with him."
+  },
+  {
+   "correct": false,
+   "title": "Downgrade the Pitts/Hollins card to DEPTH (17 September, 04:05)",
+   "result": "The downgrade priced the add and ignored the drop. A.J. Brown is out four to six games and Hollins led New England in receiving yards. Back to SOLID."
+  },
+  {
+   "correct": false,
+   "title": "McLaurin + Stafford for DeVonta Smith (14-15 September)",
+   "result": "Dead. The Coker claim dropped Stafford at 07:14 and took the offer with it. Not acted on, no harm done."
+  }
+ ],
+ "cannotSee": [
+  {
+   "label": "Friday's designations, which decide three of your five bench players",
+   "body": "Coker (ankle), Brian Thomas Jr. (shoulder) and Monangai (knee) are all carrying questionable tags off Wednesday practice. Wednesday is the least predictive day of the week. Friday's final report is what actually decides Sunday, and it does not exist yet."
+  },
+  {
+   "label": "Whether Kyler Murray clears concussion protocol",
+   "body": "The whole of Justin Jefferson's GREAT tile rests on Carson Wentz starting. ESPN's Dan Graziano has it as Murray starts if he clears in time, Wentz if not. That resolves on Friday, after this brief."
+  },
+  {
+   "label": "Nine of your fourteen matchup tiles are not researched",
+   "body": "I researched three defences properly this run: Chicago against the pass (361 yards allowed to Bryce Young), Baltimore against New Orleans, and San Francisco against Miami. Detroit, New England, Dallas, Green Bay, the Rams and the rest are dashed because I did not look, not because they are average."
+  },
+  {
+   "label": "Rival pending waiver claims are invisible",
+   "body": "ESPN only ever returns your own. Mark Andrews at 82.2% rostered and Woody Marks at 55.9% could both be claimed by someone else before you see this."
+  },
+  {
+   "label": "No Chem trade clears the bar, and here is the shape I tested",
+   "body": "Your only genuine surplus is Kyle Pitts, and the teams who would want him — Panda Attack at Kincaid 9.8, Talla Metralla at Kelce 10.6, Guillo-tinas at Kittle 10.5 — gain between 0.7 and 1.5 points by taking him. That is below the level at which a manager answers a message, and it conflicts with the card telling you to drop him. Proposing a trade for a player you are simultaneously being told to cut is incoherent, so the drop wins."
+  },
+  {
+   "label": "Season projections may be frozen at preseason values",
+   "body": "The IPADE trade arithmetic produces exactly the same +40.6 today as it did on the 16 September snapshot, from identical seasonProj figures a day apart. That is consistent with a weekly refresh and also consistent with a preseason artifact. Treat every seasonProj number in this brief, in both leagues, as narrowing the list rather than settling it."
+  },
+  {
+   "label": "This brief does not refresh",
+   "body": "It is a photograph of 12:52 UTC on Thursday. Every game is still to come. Re-check Coker, Thomas and Monangai against the Friday report before you set anything."
+  }
+ ]
+}
