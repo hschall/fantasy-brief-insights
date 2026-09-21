@@ -1,6 +1,6 @@
 {
  "leagueId": "1237544639",
- "updatedAt": "2026-09-21T13:20:00Z",
+ "updatedAt": "2026-09-21T22:35:00Z",
  "open": [
   {
    "id": "chem-add-thomas-2026-09-12",
@@ -11,7 +11,7 @@
    "playerId": 4432773,
    "playerName": "Brian Thomas Jr.",
    "gaveUpName": "Stefon Diggs",
-   "thesis": "84% rostered nationally and dropped by Footballers - an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers. PHRASING CORRECTED 14 Sep 16:40, twice now: jaguars.com publishes three FIRST-STRING receivers by alignment - Parker Washington slot, Brian Thomas Jr. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD on availability, still WEAK on this week. He plays - the shoulder cleared. He is benched for the Surtain matchup, not for health. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD on availability, still WEAK on this week, and now with the matchup source named. Yahoo's Week 2 Jaguars-Broncos preview has Patrick Surtain II on Brian Thomas Jr. for a decent share of snaps and Riley Moss on Jakobi Meyers. He is benched on the coverage assignment, not on the shoulder, which cleared. The target-share clause resolves this afternoon. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and UNRESOLVED. He scored 7.0 against a 9.8 projection with Patrick Surtain II drawing him, which is the bench call working. The clause that matters - Meyers out-targeting him - cannot be settled: Jacksonville kicked at 20:05Z and no recap carrying either target count had published when this run closed. Both are wire players in this league so the file carries no actual for Meyers. Carries to Tuesday. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD and now RESOLVED on its hardest clause. 'Meyers out-targets him in week 2' was the live condition; Meyers drew ONE target while active (CBS, RotoWire). Thomas scored 7.0 with Surtain drawing him. The bench call was the coverage assignment, not the shoulder or the role. Target-share clause still runs through week 3.",
+   "thesis": "84% rostered nationally and dropped by Footballers - an ownership anomaly, not a bad player. Listed WR1 for Jacksonville ahead of Meyers. PHRASING CORRECTED 14 Sep 16:40, twice now: jaguars.com publishes three FIRST-STRING receivers by alignment - Parker Washington slot, Brian Thomas Jr. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD. No new reporting this run beyond what resolved this morning (Meyers one target, Thomas 7.0 with Surtain drawing him). Jacksonville HOST New England in Week 3, a materially softer coverage draw. Target-share clause still runs through Week 3.",
    "falsifiedIf": "Target share stays under about 18% through week 3; or a Jaguars statement puts the shoulder in doubt; or Meyers out-targets him in week 2. The depth-chart clause is retained but must be read as 'loses his first-string alignment', not 'is listed second'.",
    "reviewAfterWeek": 3
   },
@@ -24,7 +24,7 @@
    "playerId": 4569987,
    "playerName": "Jaylen Warren",
    "gaveUpName": "Bhayshul Tuten (benched)",
-   "thesis": "Pittsburgh's listed RB1 and the primary passing-down back. Chem switched to full PPR, which doubles the value of the receiving edge that had made him a sit. Reviewed 14 Sep: HELD. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD on its own stated conditions, and the snap-share complaint is recorded rather than suppressed. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD as a lineup call and CORRECTED on its stated reasoning. DraftSharks' Week 1 charting: Rico Dowdle 58% of snaps, 20 routes to Warren's 13, early downs 25-17 and third downs 9-2. This brief called Warren 'the primary passing-down back' for two runs and that was wrong; the claim is retracted on the record. What survives is the touch count - Warren six targets to two, five catches, and both short-yardage carries. Second recorded warning on this thesis. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and materially STRENGTHENED, by injury rather than by argument. Rico Dowdle exited in the second quarter with a toe, returned after half and was ruled out on 7 carries for 22 and 2 catches for 22 (NBC Sports, Yahoo). Warren finished 9.7 to Dowdle's 6.4. The falsification clause was 'Dowdle out-touches him materially two weeks running'; week two went the other way and the competition is now hurt. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD. Warren 9.7 vs New England; Rico Dowdle 6.4 the same week. The clause is 'Dowdle out-touches him materially two weeks running' and week 2 went the other way.",
+   "thesis": "Pittsburgh's listed RB1 and the primary passing-down back. Chem switched to full PPR, which doubles the value of the receiving edge that had made him a sit. Reviewed 14 Sep: HELD. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD. Warren 9.7 vs New England; Rico Dowdle 6.4 the same week and carrying a QUESTIONABLE tag. The clause is 'Dowdle out-touches him materially two weeks running' and Week 2 went the other way for a second time.",
    "falsifiedIf": "Dowdle out-touches him materially two weeks running, or Warren's target share drops below Dowdle's.",
    "reviewAfterWeek": 3
   },
@@ -37,7 +37,7 @@
    "playerId": 4361050,
    "playerName": "Isaiah Likely",
    "gaveUpName": "Tyler Allgeier",
-   "thesis": "Reconstructed after the fact from reporting. Likely signed 3yr/$40M to follow Harbaugh from Baltimore and is the undisputed Giants TE1 and primary slot option, with Nabers coming off an ACL and a receiver room only four deep. REVIEWED 15 Sep: HELD and strengthened. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD and independently re-confirmed against a source outside the league file, which matters because search results this morning were mixing seasons. Giants.com's Monday Night Football preview has Likely as the Giants' tight end with Jaxson Dart throwing (79.3%, three touchdowns, 134.2 rating in Week 1) and Next Gen Stats calling him the first Giant since at least 2016 with two wide-open touchdown catches in one game. Rams coverage expected to adjust. Plays Monday 18:15, so the slot is not locked until then. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD. Giants.com's Monday preview: Likely went 8/78/2 in his Giants debut, the first tight end to catch two touchdowns in a Giants debut. Legendary Upside charted his Week 1 route participation at 68% and call him a low-end TE1 against the Rams while warning the 12.7 points over expected will not repeat. Malik Nabers is sore but available and said so himself. Route-share clause intact. Plays Monday 18:15 your time - the only unplayed player on the Chem roster. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD, unresolved until tonight. Legendary Upside: 68% route participation in Week 1 as the Giants' true No. 2 target, with Malik Nabers active and productive - so the 'Nabers returns and route share drops below 60%' clause is already tested once and did not fire. He plays LAR tonight at 18:15 Mexico City.",
+   "thesis": "Reconstructed after the fact from reporting. Likely signed 3yr/$40M to follow Harbaugh from Baltimore and is the undisputed Giants TE1 and primary slot option, with Nabers coming off an ACL and a receiver room only four deep. REVIEWED 15 Sep: HELD and strengthened. […] || [3 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD and UNRESOLVED tonight. Likely is NOT on the official Giants.com Monday injury report, read this run. Jaxson Dart throws. Week 1 line was 8 catches on 8 targets for 78 and two TDs. The live clause is Malik Nabers reaching full health and Likely's route share falling below about 60% - Nabers IS healthy and plays tonight, so the route share from this game is the number that settles it, and it does not exist until after the brief. Resolves in tomorrow's run.",
    "falsifiedIf": "Nabers returns to full health and Likely's route share drops below about 60%, or Theo Johnson takes the 11-personnel snaps back.",
    "reviewAfterWeek": 4
   },
@@ -50,22 +50,9 @@
    "playerId": 4361050,
    "playerName": "Isaiah Likely",
    "gaveUpName": "Kyle Pitts Sr.",
-   "thesis": "Start Likely over Pitts from week 2. This overrides ESPN's own season projection, which prefers Pitts 181.4 to 156.2 and ranks him TE7 to Likely's TE12. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD, and about to be retired by the roster rather than by the argument. Atlanta confirmed Cooper Rush for a second straight start on 18 September (NFL.com, ESPN, AtlantaFalcons.com) with Penix ruled out again. If the Andrews card fires before 11:00 Pitts leaves the roster and this comparison closes EXPIRED with its reasoning intact. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD, and now scheduled to close by roster rather than argument. Pitts 2.5 behind Cooper Rush for a second straight week; Likely plays Monday. The Andrews card that would have retired this comparison did not fire - it has been replaced by a Bateman claim clearing Wednesday 07:00Z, which removes Pitts from the roster the same way. Closes EXPIRED when that claim executes. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD and ahead before Likely has played. Pitts scored 2.5. The clause 'Tua returns and Pitts clears five targets in week 2' did not fire. Pitts is now the drop named in two live cards, so this comparison is about to become moot in the best way.",
+   "thesis": "Start Likely over Pitts from week 2. This overrides ESPN's own season projection, which prefers Pitts 181.4 to 156.2 and ranks him TE7 to Likely's TE12. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD and about to become moot in the best way. Pitts scored 2.5 behind Cooper Rush - Atlanta's THIRD option, with Penix out (ACL) and Tua doubtful (oblique), per Yahoo's Friday tracker. Likely is not on the Giants' injury report and plays tonight. Pitts is now the named drop in both the Stafford card and the Higgins trade.",
    "falsifiedIf": "Tua Tagovailoa returns and Pitts clears five targets in week 2; or Pitts out-scores Likely in two of the next three weeks; or Nabers reaches full health and Likely's route share drops below about 60%; or Theo Johnson takes the 11-personnel snaps back.",
    "reviewAfterWeek": 4
-  },
-  {
-   "id": "chem-flex-mclaurin-over-tuten-2026-09-15",
-   "at": "2026-09-15T13:10:00Z",
-   "week": 2,
-   "kind": "LINEUP",
-   "source": "assistant",
-   "playerId": 3121422,
-   "playerName": "Terry McLaurin",
-   "gaveUpName": "Bhayshul Tuten (benched)",
-   "thesis": "Start McLaurin in the RB/WR flex over Tuten, worth about 3.1 projected points. Not a projection-only call: Tuten took 48% of snaps and 16 touches in Week 1, but Chris Rodriguez Jr. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD on the branch that could resolve pre-slate. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD and one branch closed outright. McLaurin is not on Washington's Week 2 injury report at all (Commanders.com, full report checked). Jayden Daniels is playing - he took every snap in Week 1 and escaped it unscathed per Yahoo - so the flex is not exposed to a quarterback change. The quad clause never tripped. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD but expensive: Tuten 14.2 from the bench against McLaurin's 7.0, a 7.2-point loss. Neither falsification clause fired - Washington did not rule McLaurin out and Jacksonville did not name Tuten the goal-line back. Kept on volume.",
-   "falsifiedIf": "Washington rule McLaurin out or limit him on the Week 2 report (he is 30 and coming off the quad injury that ended four straight 17-game seasons); or Jacksonville name Tuten the goal-line back, which changes what the 9.4 is made of; or the JuiceJam trade is accepted, which retires it.",
-   "reviewAfterWeek": 3
   },
   {
    "id": "chem-hold-mclaurin-2026-09-15",
@@ -75,7 +62,7 @@
    "source": "assistant",
    "playerId": 3121422,
    "playerName": "Terry McLaurin",
-   "thesis": "Do not sell Terry McLaurin. This reverses the standing sell thesis on the basis of route participation: 92.1% in Week 1, highest on Washington, against Diggs 65.8% and Antonio Williams 60.5%; Mitchell and Woolen covered him on 22 of 35 routes and allowed one target and no catches; Jayden Daniels com […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD. Off Washington's Week 2 injury report entirely. The route-participation case is unchanged and the Dallas target-count clause resolves this afternoon. || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD. Off Washington's Week 2 injury report entirely and Daniels under centre. The Dallas target-count clause resolves at 14:25 this afternoon. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and UNRESOLVED. 3.4 in a game still running. New context, not new evidence: SI report Washington's OC David Blough promised to build toward ten targets a game for him and he drew four in Week 1, with Dan Quinn saying Philadelphia set out to take the deep ball away. The six-target clause resolves when the Dallas box score closes, which is after this run. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD on volume, failed on production. Nine targets at Dallas for two catches and 50 yards (NBC). The clause was 'fewer than six targets at Dallas' - it came in at nine, so the route-participation instrument is vindicated and the sell thesis stays reversed. Catch rate on contested targets is the noisiest thing a receiver does.",
+   "thesis": "Do not sell Terry McLaurin. This reverses the standing sell thesis on the basis of route participation: 92.1% in Week 1, highest on Washington, against Diggs 65.8% and Antonio Williams 60.5%; Mitchell and Woolen covered him on 22 of 35 routes and allowed one target and no catches; Jayden Daniels com […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD on volume, but the instrument now has a caveat. Nine targets at Dallas for two catches and 50 yards vindicates the route-participation read (the clause was 'fewer than six targets'). What changed is who throws them: Mariota, not Daniels. Do NOT re-open the sale on this - selling a 30-year-old WR1 the week his quarterback dislocates an elbow is selling at the bottom. The flex change is a lineup decision, not a sell signal.",
    "falsifiedIf": "McLaurin draws fewer than six targets at Dallas against a secondary missing Malik Hooker, or his route share drops below 80% across Weeks 2-3 while Diggs's climbs above it. Either says the Week 1 route count was the anomaly and the sale should be re-opened at the same price.",
    "reviewAfterWeek": 3
   },
@@ -88,7 +75,7 @@
    "playerId": 4608686,
    "playerName": "Kyle Monangai",
    "gaveUpName": null,
-   "thesis": "Hold, and the 13 Sep drop-for-Tre-Tucker error is now worse than previously logged. Pro Football Network 13 Sep report that in Chicago's 59-37 win, the running backs D'Andre Swift and Kyle Monangai dominated the target share. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD. Swift is active, Chicago's backs split the work, and no drop was proposed. The snap-share clause resolves today. || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD. No drop proposed. New context rather than new evidence: Chicago's Week 1 target leader was Kalif Raymond, not a back, which is a spread-it-around profile and caps what Monangai's share can be. The snap-share clause resolves at 11:00. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and strengthened. 10 carries for 47 yards, leading Chicago's rushing, and D'Andre Swift fumbled at the one-yard line (Yahoo). The snap-share clause did not trip. New and material: Caleb Williams left in the fourth quarter with a hamstring and Ben Johnson expects clarity Monday, which cuts both ways for a back in that offence. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD. Falsification was 'Swift taking the receiving role back outright, or Monangai falling below 40% of Chicago's snaps in Week 2.' CBS: a dozen touches; NewsBreak: he LED the Bears backfield. Neither clause tripped. NOTE for week 3: Caleb Williams was carted off (hamstring) and Tyson Bagent starts, which raises his carry floor and lowers the offence's.",
+   "thesis": "Hold, and the 13 Sep drop-for-Tre-Tucker error is now worse than previously logged. Pro Football Network 13 Sep report that in Chicago's 59-37 win, the running backs D'Andre Swift and Kyle Monangai dominated the target share. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD. Neither clause fired: he led the Bears backfield. Tyson Bagent confirmed as the Week 3 starter (NFL.com), and Chicago HOST Philadelphia on Monday night - a backup QB raises his carry floor and lowers his receiving ceiling in full PPR. Named explicitly as NOT a drop candidate for the Stafford seat.",
    "falsifiedIf": "Swift taking the receiving role back outright, or Monangai falling below 40% of Chicago's snaps in Week 2.",
    "reviewAfterWeek": 4
   },
@@ -101,22 +88,9 @@
    "playerId": 4373678,
    "playerName": "Khalil Shakir",
    "gaveUpName": null,
-   "thesis": "Added to the watch list, not claimed. 68.8% rostered nationally and on WAIVERS here clearing 07:00Z on 23 Sep - which is AFTER his Week 2 game has been played, so the FantasyPros Week 2 sleeper note that surfaced him is already spent. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD, unchanged, and noted as structurally spent. He clears 07:00Z on 23 September, after Buffalo have already played. Republished as a DEPTH watch row. || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD, unchanged, structurally spent. Clears 07:00Z on 23 September, after Buffalo have already played on Thursday. Republished as a DEPTH watch row with the timing stated rather than implied. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD, and the claim branch FIRED. NBC Sports headlined his Thursday night 'Modest production for Khalil Shakir on six looks' - three catches, 49 all-purpose yards, six targets. The clause said six or more makes him a free claim on Wednesday with the drop being whoever of Monangai or Brian Thomas Jr. had the worse Sunday. Not claimed this run: Monangai led Chicago's rushing and Thomas was shadowed by Surtain and still cleared 7.0, so neither drop is clean, and two claims are already going in. Published as a watch row with the trigger stated. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): CLAUSE FIRED, NO ACTION POSSIBLE. 'Six or more makes him a free claim on Wednesday with the drop being whoever of Monangai or Brian Thomas Jr.' - NBC have him at six looks, three catches, 49 all-purpose yards. But both named drops held their own theses the same weekend (Monangai led the backfield; Meyers drew one target). A claim needs a seat and there is none. Stays a watch row.",
+   "thesis": "Added to the watch list, not claimed. 68.8% rostered nationally and on WAIVERS here clearing 07:00Z on 23 Sep - which is AFTER his Week 2 game has been played, so the FantasyPros Week 2 sleeper note that surfaced him is already spent. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): CLAUSE STILL FIRED, STILL NO SEAT, and now a second reason not to act. Six targets confirmed (NBC). But he is WAIVERS at 68.69% and Chem priority is 10 of 10, so a contested claim on a name that popular is probably lost anyway. Both named drops held again this run. Stays a watch row.",
    "falsifiedIf": "He clears fewer than six targets against Detroit in Week 2, which says the sleeper note was about the game script and not the role. Conversely six or more makes him a free claim on Wednesday 23 Sep with the drop being whoever of Monangai or Brian Thomas Jr. had the worse Sunday.",
    "reviewAfterWeek": 3
-  },
-  {
-   "id": "chem-flex-mclaurin-over-coker-2026-09-18-pm",
-   "kind": "LINEUP",
-   "playerId": 3121422,
-   "playerName": "Terry McLaurin",
-   "gaveUpName": "Jalen Coker",
-   "reviewAfterWeek": 3,
-   "thesis": "New comparison, created because chem-hold-coker-benched closed on its own converse clause: Coker went FULL on Friday and is off Carolina's injury report entirely, so he is a live flex option rather than a frozen seat. Hold McLaurin in the RB/WR flex anyway. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD, and Coker got materially stronger without changing the answer. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD. Coker researched again this morning: SI project him 5 for 99 (14.9 PPR) today with Bryce Young throwing, and explicitly caution that his Week 1 usage may have been inflated by Tetairoa McMillan's bad game rather than by a permanent role change. That caution is what keeps McLaurin in the flex. Both target-count clauses resolve this afternoon. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD as a lineup call because no lineup move was legal, and HALF FALSIFIED. Coker's clause fired: 8 catches for 66 at Atlanta (NBC Sports), a second straight eight-catch game. McLaurin's clause - fewer than six targets at Dallas - is unresolved; Washington were still playing at 22:05Z and he was on 3.4. Republished as a GHOST WHEN_UNLOCKED card rather than fired, because firing on half a clause is the churn section 3 names. Resolves on Monday's box score. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD, and this is the second consecutive losing week for the call (McLaurin 7.0, Coker 14.6; Week 1 cost 11.2). Held on nine targets versus Coker's eight catches. Recorded explicitly so the next run can see it was held through two losing weeks rather than quietly re-derived.",
-   "falsifiedIf": "McLaurin draws fewer than six targets at Dallas while Coker clears eight again at Atlanta - that is two straight weeks of the target share disagreeing with the route share and the flex changes hands on Tuesday 22 September. Or Washington place McLaurin on the Saturday report. Or Carolina name Coker the primary target ahead of Tetairoa McMillan in any Saturday reporting, which would make the 24.3% a floor rather than a ceiling.",
-   "source": "assistant",
-   "at": "2026-09-18T22:15:00Z",
-   "week": 2
   },
   {
    "id": "chem-decline-worthy-2026-09-19",
@@ -127,7 +101,7 @@
    "playerId": 4683062,
    "playerName": "Xavier Worthy",
    "gaveUpName": null,
-   "thesis": "Declined, and recorded so the ownership anomaly does not read as a discovery next run. 74.0% rostered nationally and a free agent in Chem. […] || REVIEWED 20 Sep 05:55Z (Saturday 23:50 Mexico City, pre-slate): HELD and the Rice branch stays closed. Rice is off Kansas City's injury report and starts tonight. […] || REVIEWED 20 Sep 13:05Z (Sunday 07:05 Mexico City, pre-slate, before inactives): HELD. Pro Football Network's Week 2 start-sit piece on him is headlined 'Close to a Cut'. Kansas City threw for 184 yards as a team in Week 1. Rashee Rice is off Kansas City's Week 2 injury report entirely, so the second branch stays closed. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and UNRESOLVED by design - Kansas City play Indianapolis at 00:20Z with Mahomes throwing and Daniel Jones opposite (FantraxHQ). The Rice branch stays closed: he is off the injury report and starts. Republished as a Do-not-chase row. Both branches get a data point tonight, after this run. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD, not re-researched this run and therefore not named in the published brief. Carried so the ownership anomaly is not rediscovered as a find.",
+   "thesis": "Declined, and recorded so the ownership anomaly does not read as a discovery next run. 74.0% rostered nationally and a free agent in Chem. […] || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD, not re-researched again this run and therefore not named in the published brief. Carried so the ownership anomaly is not rediscovered as a find.",
    "falsifiedIf": "Kansas City's air-yards profile normalising across two weeks, or Rashee Rice missing time - Rice is entirely off Kansas City's Week 2 injury report, so that second branch is closed for now.",
    "reviewAfterWeek": 4
   },
@@ -138,7 +112,7 @@
    "kind": "HOLD",
    "source": "assistant",
    "playerName": "Process - search results mixing seasons",
-   "thesis": "Opened because a live recommendation was nearly built on a year-old article. A CBS Sports item returned by a Week 2 2026 query described Week 18 and placed Isaiah Likely on Baltimore. It was caught only because Likely's pro team is checkable against the league file. Standing rule for future runs: before using a quote or a depth-chart claim, check that at least one named entity in the article agrees with the league file's proTeam assignment, and prefer sources carrying an explicit 2026 date. This season's rosters differ substantially from training data - Likely NYG, Rachaad White WSH, Rico Dowdle PIT, Jakobi Meyers JAX, Kyler Murray MIN, Travis Etienne NO, Jaylen Waddle DEN, Malik Willis MIA - so a familiar name on a familiar team is the failure mode, not an unfamiliar one. || REVIEWED 20 Sep 22:10Z (Sunday 16:10 Mexico City, mid-slate): HELD and EARNING ITS COST. Second catch in two runs. A Sportskeeda page returned by an explicit 'Week 3 2026 fantasy kicker rankings' query turned out to describe Week 3 of the 2025 season - it had Tyler Loop at K3 and did not contain Trey Smack at all. It was discarded, and the Chem kicker seat is held this run precisely because that was the only name-level Week 3 board available. Also confirmed this run against the league file: Likely NYG, Dowdle PIT, Meyers JAX, Rachaad White WSH, Waddle DEN, Bateman BAL. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): PAID OFF AGAIN. NBC Sports filed Jalen Coker's eight-catch game against Atlanta under the headline 'Week 1' on a 20 September timestamp; the fantasy total (14.6 = 8 rec + 66 yds) cross-checked it to Week 2. A CBS result for Colston Loveland came back labelled 'Week 11'. The date-and-roster cross-check is earning its cost; keep it open.",
+   "thesis": "Opened because a live recommendation was nearly built on a year-old article. A CBS Sports item returned by a Week 2 2026 query described Week 18 and placed Isaiah Likely on Baltimore. It was caught only because Likely's pro team is checkable against the league file. Standing rule for future runs: before using a quote or a depth-chart claim, check that at least one named entity in the article agrees with the league file's proTeam assignment, and prefer sources carrying an explicit 2026 date. This season's rosters differ substantially from training data - Likely NYG, Rachaad White WSH, Rico Dowdle PIT, Jakobi Meyers JAX, Kyler Murray MIN, Travis Etienne NO, Jaylen Waddle DEN, Malik Willis MIA - so a familiar name on a familiar team is the failure mode, not an unfamiliar one. || [2 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): PAID OFF TWICE MORE. An NFL.com piece returned by a Lamar Jackson 2026 query ('toe... third injury in three weeks') turned out to describe Week 13 of the 2025 season, Thanksgiving vs Cincinnati - it would have gone straight into the falsification block of the largest trade in the IPADE brief. Two Tee Higgins concussion items were also from a prior season; the league file showed him ACTIVE with 14.5 points, which caught it. Keep open.",
    "falsifiedIf": "A run demonstrates that the date and roster cross-check costs more searches than it saves, or the data source starts carrying a publication date that makes the check unnecessary. Closes EXPIRED once every open thesis in this file has been re-verified against a dated 2026 source at least once.",
    "reviewAfterWeek": 5
   },
@@ -151,7 +125,7 @@
    "playerId": 4360939,
    "playerName": "Rashod Bateman",
    "gaveUpName": "Kyle Pitts Sr.",
-   "thesis": "Claim Bateman on waivers clearing 2026-09-23T07:00Z, dropping Pitts. Nine targets, 7/88/1 at New Orleans without Zay Flowers, with Baltimore also missing Ja'Kobi Lane (fractured wrist) and Devontez Walker (groin) and Lamar Jackson throwing. Ownership +8.02 in a day, the largest single move on the Chem board, and the why=MONEY band. He is 24.2% rostered here. The outgoing seat is structurally dead under STRATEGY section 9: Pitts cannot enter a RB/WR flex in any week and sits behind Likely at tight end. Honest counter recorded at the time: NFL Network and ESPN both reported today that Michael Penix Jr. could start Week 3 on Thursday against Green Bay with Tua as backup, so the third-string-quarterback half of the Pitts case expires this week; the structural half does not. Claimed from waiverRank 10 of 10, which is survivable only because 24.2% ownership means nobody else wants him. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): DEMOTED from Do-first to a watch row, thesis intact. Zay Flowers was ruled out with a hamstring (Ravens.com) and Bateman went 7-of-9 for 88 and a score. The role is unchanged; the SEAT changed. Kyle Pitts is now wanted by two better uses - the Higgins trade today and the Stafford add Tuesday. He is still claimable Wednesday at 24.2% if neither lands.",
+   "thesis": "Claim Bateman on waivers clearing 2026-09-23T07:00Z, dropping Pitts. Nine targets, 7/88/1 at New Orleans without Zay Flowers, with Baltimore also missing Ja'Kobi Lane (fractured wrist) and Devontez Walker (groin) and Lamar Jackson throwing. Ownership +8.02 in a day, the largest single move on the Chem board, and the why=MONEY band. He is 24.2% rostered here. The outgoing seat is structurally dead under STRATEGY section 9: Pitts cannot enter a RB/WR flex in any week and sits behind Likely at tight end. Honest counter recorded at the time: NFL Network and ESPN both reported today that Michael Penix Jr. could start Week 3 on Thursday against Green Bay with Tua as backup, so the third-string-quarterback half of the Pitts case expires this week; the structural half does not. Claimed from waiverRank 10 of 10, which is survivable only because 24.2% ownership means nobody else wants him. || [1 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD as a watch row, thesis intact, seat still lost to Stafford. Published with an explicit either/or: fire Bateman OR Stafford on Pitts's seat, never both. Still WAIVERS at 24.2% clearing Wed 07:00Z, gettable from rank 10.",
    "falsifiedIf": "Zay Flowers is active in Week 3 and Bateman's target share falls back under 15% - Rapoport had Flowers day-to-day on 14 September and that is the live risk. Or Baltimore keep running (37 carries to 25 attempts in Week 1), in which case one nine-target game with two receivers out was game script and Pitts was worth more as a 93%-rostered trade chip. Or the claim is beaten from waiver rank 10.",
    "reviewAfterWeek": 4
   },
@@ -163,7 +137,7 @@
    "source": "assistant",
    "playerId": 3116365,
    "playerName": "Mark Andrews",
-   "thesis": "Demoted from four runs of Do-first card to a watch row by his own box score: 6 of 7 for 49 and no score, against Bateman's nine targets in the same game. Kept on the list rather than deleted because 82.4% national ownership with availability here is a real why=OWNED anomaly and seven targets is a real role. He is wrong for this roster specifically: Chem's flex is RB/WR, so behind Likely he has no lineup path. || REVIEWED 2026-09-21T13:20:00Z (Monday 07:20 Mexico City, post-Sunday, pre-MNF): HELD as a watch row and dropped from the published brief for space. The 'Isaiah Likely appears on a Giants injury report' branch is live tonight. Andrews was not re-researched this run and should not be named in a card until he is.",
+   "thesis": "Demoted from four runs of Do-first card to a watch row by his own box score: 6 of 7 for 49 and no score, against Bateman's nine targets in the same game. Kept on the list rather than deleted because 82.4% national ownership with availability here is a real why=OWNED anomaly and seven targets is a real role. He is wrong for this roster specifically: Chem's flex is RB/WR, so behind Likely he has no lineup path. || [1 earlier review note(s) folded 21 Sep 22:35Z; outcomes preserved in the closed list and in tonight's note] || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD as a watch row, and its live branch resolved NEGATIVE. The clause was 'Isaiah Likely appearing on a Giants injury report'. I read the official Giants.com Monday injury report tonight: Likely is not listed. No second startable tight end is needed in Chem. Andrews was not re-researched and is not named in the published brief.",
    "falsifiedIf": "Isaiah Likely appearing on a Giants injury report, which makes a second startable tight end necessary rather than dead weight. Or Andrews clearing nine targets at Dallas in Week 3 while Bateman falls back, which reverses the pair and says today was the anomaly.",
    "reviewAfterWeek": 4
   },
@@ -176,7 +150,7 @@
    "playerId": 12483,
    "playerName": "Matthew Stafford",
    "gaveUpName": "Kyle Pitts Sr.",
-   "thesis": "Add Stafford as a free agent when rosters unlock, dropping Pitts. Two reasons, either thin alone: he is the only startable QB available for nothing at 90.1% national ownership and Josh Allen is the only QB on this roster; and Caleb Williams (hamstring, carted off) and Jayden Daniels (elbow) both went down Sunday, leaving Footballers and Nicky Jam - both one-QB rosters - without a quarterback. Stafford becomes the most demanded asset in the league and the only one held outside those two rosters.",
+   "thesis": "Add Stafford as a free agent when rosters unlock, dropping Pitts. Two reasons, either thin alone: he is the only startable QB available for nothing at 90.1% national ownership and Josh Allen is the only QB on this roster; and Caleb Williams (hamstring, carted off) and Jayden Daniels (elbow) both went down Sunday, leaving Footballers and Nicky Jam - both one-QB rosters - without a quarterback. Stafford becomes the most demanded asset in the league and the only one held outside those two rosters. || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD and re-cased. Still FREEAGENT at 90.08% in the 12:07 file. The case is no longer 'insurance on Josh Allen' - it is that Nicky Jam's only QB (Jayden Daniels) has a DISLOCATED elbow with no timeline and Footballers' only QB (Caleb Williams) is week-to-week with a hamstring with Bagent named Week 3 starter, while Purdy and Nix sit on waivers until Wednesday 01:00. Stafford is a trade chip held for ~36 hours of exclusivity. Explicitly conditional: if the Higgins trade lands first, Pitts is gone and this card is OFF - no substitute drop.",
    "falsifiedIf": "Both Footballers and Nicky Jam patch from the wire on Wednesday (Purdy 90.2%, Nix 83.6% both clear then), which leaves Stafford a bench QB on a dead seat - drop him next week at no loss but the seat. Or Williams and Daniels both practise fully this week. Or another manager takes Stafford before Tuesday's unlock, which ends it with nothing spent.",
    "reviewAfterWeek": 3
   },
@@ -189,21 +163,8 @@
    "playerId": -16019,
    "playerName": "Giants D/ST",
    "gaveUpName": "Ravens D/ST",
-   "thesis": "Replaces the withdrawn Lions claim. Draft Sharks Week 3: Giants 2nd vs Tennessee, Detroit 3rd, Baltimore 15th at Dallas. The Giants are a FREE AGENT here at 3.0% rostered, so this needs no claim from waiver rank 10 of 10. Filed WHEN_UNLOCKED because Baltimore have already played and dropping them today risks a Week 2 score in a matchup led by 21.66.",
+   "thesis": "Replaces the withdrawn Lions claim. Draft Sharks Week 3: Giants 2nd vs Tennessee, Detroit 3rd, Baltimore 15th at Dallas. The Giants are a FREE AGENT here at 3.0% rostered, so this needs no claim from waiver rank 10 of 10. Filed WHEN_UNLOCKED because Baltimore have already played and dropping them today risks a Week 2 score in a matchup led by 21.66. || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD, board re-read not carried. Draft Sharks Week 3: Giants 2nd vs TEN 8.0, Baltimore 15th @DAL 6.1, Detroit 3rd 7.8, New England 8th 6.6. Tennessee confirmed as the Giants' Week 3 opponent on the NFL schedule. Still FREEAGENT at 2.98%. New risk named: the FREEAGENT reading is now TEN HOURS old, not one, so 'another manager takes them first' is materially more likely than when this was written.",
    "falsifiedIf": "Another manager takes the Giants first - free to all ten and read from a file an hour old; fallbacks are Detroit's claim or New England 8th at 65.6%. Or Baltimore out-score the Giants in Week 3, in which case the stream cost one roster move.",
-   "reviewAfterWeek": 3
-  },
-  {
-   "id": "chem-claim-mcpherson-2026-09-21",
-   "at": "2026-09-21T13:20:00Z",
-   "week": 2,
-   "kind": "CLAIM",
-   "source": "assistant",
-   "playerId": 4360234,
-   "playerName": "Evan McPherson",
-   "gaveUpName": "Tyler Loop",
-   "thesis": "Loop's hold tripped its own condition (4.0 in Week 2, 17th on the Week 3 board). Draft Sharks Week 3 by game: SF 4th, CHI 6th, CIN 7th, JAX 8th, BAL 17th. Pineiro (4th) is 79.7% rostered and Santos (6th) is 43.9%; from waiver rank 10 of 10 both are likely lost. McPherson at 7th and 28.8% is the best rank realistically winnable. Santos is additionally downgraded by hand because his board rank predates Caleb Williams being carted off.",
-   "falsifiedIf": "Baltimore's implied total at Dallas climbs back above 24 - the Cowboys' own kicker is ranked 1st for that same game, which is the strongest argument against this card. Or Caleb Williams practises fully, in which case Santos is the better claim and this should be re-pointed before Wednesday.",
    "reviewAfterWeek": 3
   },
   {
@@ -215,7 +176,7 @@
    "playerId": 4239993,
    "playerName": "Tee Higgins",
    "gaveUpName": "Kyle Pitts Sr.",
-   "thesis": "The only mutual-gain pairing in the league on live season projections: +1.4 me, +4.0 them. Tucker Kraft (145.1, scored 3.5) is Bok-aneers' only tight end; Pitts at 149.1 upgrades a slot they have not addressed. The +1.4 understates it because Pitts's alternative is being dropped Tuesday for Stafford, so measured against zero this is worth Higgins outright. SEQUENCING MATTERS: send today, drop Tuesday only if declined.",
+   "thesis": "The only mutual-gain pairing in the league on live season projections: +1.4 me, +4.0 them. Tucker Kraft (145.1, scored 3.5) is Bok-aneers' only tight end; Pitts at 149.1 upgrades a slot they have not addressed. The +1.4 understates it because Pitts's alternative is being dropped Tuesday for Stafford, so measured against zero this is worth Higgins outright. SEQUENCING MATTERS: send today, drop Tuesday only if declined. || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD at the same price, recomputed independently with an optimal-lineup solver on both rosters from the 12:07 file: +1.4 me, +4.0 them. Slot column re-checked - Higgins is slot 4, a STARTER for Bok-aneers, which is why this stays LONGSHOT. New fact: Nico Collins (their WR1) has a Grade 1 hamstring strain from Wednesday practice (Yahoo tracker), so their room is thin now but the mild grade means he may return Week 3, which is the version of their roster where this gets a reply. Sequencing made explicit in the card: send tonight, Stafford add fires at unlock only if this has not landed.",
    "falsifiedIf": "Brock Bowers returns in Week 3 as RotoWire expect from knee surgery, closing the league-wide market for a backup tight end. Or Bok-aneers counter asking for Coker or Tuten, at which point the answer is no. Or the Stafford add fires first and Pitts is gone before a reply arrives - which is why the card says send it today.",
    "reviewAfterWeek": 3
   },
@@ -228,53 +189,37 @@
    "playerId": null,
    "playerName": "Process - seasonProj updates after the slate",
    "gaveUpName": null,
-   "thesis": "Replaces the withdrawn frozen-projections finding. Measured: Sunday 19:07Z and 23:52Z copies versus Monday 12:07Z, 250 players in common, 245 seasonProj changed. The numbers recompute AFTER the slate, not continuously - which is why three consecutive in-slate diffs showed zero movement and read as frozen. Working rule: treat season projections as live but updated in a batch once the week's games finish, and never price a trade on numbers pulled mid-slate.",
+   "thesis": "Replaces the withdrawn frozen-projections finding. Measured: Sunday 19:07Z and 23:52Z copies versus Monday 12:07Z, 250 players in common, 245 seasonProj changed. The numbers recompute AFTER the slate, not continuously - which is why three consecutive in-slate diffs showed zero movement and read as frozen. Working rule: treat season projections as live but updated in a batch once the week's games finish, and never price a trade on numbers pulled mid-slate. || REVIEWED 2026-09-21T22:35:00Z (Monday 16:35 Mexico City, pre-MNF): HELD, not re-measured this run - no new week boundary has passed since this morning's diff. Every price in tonight's brief was recomputed from the 12:07 file rather than carried, which is the working rule this thesis produced.",
    "falsifiedIf": "A second cross-week diff shows the numbers static, which would make this morning's movement a one-off. Closes EXPIRED once two consecutive week boundaries both show movement.",
    "reviewAfterWeek": 4
   },
   {
-   "id": "chem-publisher-cadence-2026-09-21",
-   "at": "2026-09-21T13:20:00Z",
+   "id": "chem-flex-coker-over-mclaurin-2026-09-21-pm",
+   "at": "2026-09-21T22:35:00Z",
+   "week": 2,
+   "kind": "LINEUP",
+   "source": "assistant",
+   "playerId": 4695883,
+   "playerName": "Jalen Coker",
+   "gaveUpName": "Terry McLaurin (benched)",
+   "thesis": "Move Coker into the RB/WR flex over McLaurin when rosters unlock. This reverses chem-flex-mclaurin-over-coker, which was held correctly through three losing weeks on its own clause. The trigger is not the box score: Jayden Daniels dislocated his left elbow at Dallas and NFL.com named Marcus Mariota the Week 3 starter with no return timeline for Daniels. McLaurin's nine targets are real and his 92.1% route participation is real; they are now attached to a backup quarterback. Coker led Carolina in receptions on Sunday (8 for 66 with Bryce Young), is 83.7% rostered, and his 202.4 season projection already exceeded McLaurin's 181.4. Costs nothing - lineup change, no priority, reversible weekly.",
+   "falsifiedIf": "Washington name a starter other than Mariota, or Daniels returns inside two weeks after the specialist consultations. Or Cleveland hold Coker under five targets in Week 3 while Mariota still targets McLaurin eight or more times - that would say the route-share instrument beats the quarterback change and the flex goes back. Carolina travel to Cleveland in Week 3 and I did not research Cleveland against receivers.",
+   "reviewAfterWeek": 4
+  },
+  {
+   "id": "chem-hold-loop-2026-09-21-pm",
+   "at": "2026-09-21T22:35:00Z",
    "week": 2,
    "kind": "HOLD",
    "source": "assistant",
-   "playerId": null,
-   "playerName": "Operations - the publisher is not stalled, it is off-peak",
-   "gaveUpName": null,
-   "thesis": "Yesterday's IPADE brief led with a stalled publisher. The commit history shows it resumed: 19:07, 23:52, 05:37, 12:07. The cadence is 15-30 minutes during the Sunday slate and 5-7 hours overnight. A 57-68 minute age on a Monday morning run is normal, not a fault. The runbook's flat 'more than about 30 minutes old means the publisher may be paused' heuristic produces a false alarm on every off-peak run and should be read as slate-time guidance.",
-   "falsifiedIf": "A run inside a game window reads a file more than 45 minutes old, which would be a real stall. Or a run sees no write for more than eight hours overnight.",
+   "playerId": 4697745,
+   "playerName": "Tyler Loop",
+   "thesis": "Hold Tyler Loop, reinstating a hold this morning's run recorded as broken. Loop's 4.0 tripped the hold's stated condition, but tripping a condition is not the same as a better replacement existing. Draft Sharks Week 3: Loop 17th @DAL at 8.6 projected, McPherson 7th @PIT at 8.8, Santos 6th at 9.1, Pineiro 4th at 9.0. The best available upgrade is half a point and the claimable one is two tenths, from waiver priority 10 of 10. STRATEGY forbids moves worth under a point and names 0.3-point streams specifically. Brandon Aubrey being ranked 1st for the same BAL-DAL game says that board reads it as high-scoring, which argues for Loop rather than against him.",
+   "falsifiedIf": "Loop finishes outside the top twenty again in Week 3 while Santos or Pineiro finish top five, OR a top-five Week 4 kicker reaches genuine free agency in Chem, at which point the swap is costless and happens the same hour. Not on a two-tenths edge and not from last priority.",
    "reviewAfterWeek": 3
   }
  ],
  "closed": [
-  {
-   "id": "chem-claim-loop-2026-09-15",
-   "at": "2026-09-16T07:55:00Z",
-   "week": 2,
-   "outcome": "RIGHT",
-   "summary": "Claim landed 07:14: Tyler Loop in, Chris Boswell out. Pro Football Network's Week 2 kicker board has Loop K4 and Boswell K17 - a wider gap than when the card was written. […]"
-  },
-  {
-   "id": "ops-runbook-inline-validator-2026-09-16",
-   "at": "2026-09-16T13:30:00Z",
-   "week": 2,
-   "outcome": "WRONG",
-   "summary": "PROCESS ERROR REPEATED, and it is the second time. The closed entry dated 16 Sep 06:10 already records this exact failure and ends 'LESSON FOR FUTURE RUNS: fetch and run […]"
-  },
-  {
-   "id": "chem-hold-pitts-2026-09-16",
-   "at": "2026-09-16T22:15:00Z",
-   "week": 2,
-   "outcome": "REVERSED",
-   "summary": "REVERSED at the 16:00 CDMX run, nine hours after it was re-affirmed. The hold rested on two planks and both were re-examined. […]"
-  },
-  {
-   "id": "chem-ops-schedule-too-late-2026-09-16",
-   "at": "2026-09-16T22:15:00Z",
-   "week": 2,
-   "outcome": "WRONG",
-   "summary": "THE COMPLAINT WAS WRONG AND IT WAS FILED TWICE. Two consecutive briefs recorded as a permanent structural defect that a 07:00 Mexico City task lands at 13:00 UTC, six hou […]"
-  },
   {
    "id": "chem-decline-doubs-2026-09-16",
    "at": "2026-09-16T22:15:00Z",
@@ -441,7 +386,7 @@
    "at": "2026-09-21T13:20:00Z",
    "week": 2,
    "outcome": "WRONG",
-   "summary": "Hold Tyler Loop, eleven consecutive runs (16 Sep). The written condition was 'Loop finishes outside the top 20 kickers in Week 2.' He scored 4.0, and Draft Sharks have Baltimore's kicker 17th for Week 3 at Dallas. I could not retrieve a published Week 2 kicker finishing order to name the exact rank, so the trip is inferred from 4.0 rather than read. Seat changes hands Wednesday."
+   "summary": "Hold Tyler Loop, eleven consecutive runs (16 Sep). The written condition was 'Loop finishes outside the top 20 kickers in Week 2.' He scored 4.0, and Draft Sharks have Baltimore's kicker 17th for Week 3 at Dallas. I could not retrieve a published Week 2 kicker finishing order to name the exact rank, so the trip is inferred from 4.0 rather than read. Seat changes hands Wednesday. SUPERSEDED 21 Sep 22:35Z by chem-hold-loop-2026-09-21-pm: the condition tripping did not mean a better replacement existed, and the seat did NOT change hands."
   },
   {
    "id": "chem-no-trade-2026-09-17-pm",
@@ -456,7 +401,43 @@
    "week": 2,
    "outcome": "EXPIRED",
    "summary": "Rachaad White decline. Closed not because the read changed but because he was not researched in this session and the runbook forbids naming an unsearched player. The decline stands on STRATEGY section 2 (a committee back who loses the goal line and third downs is uniquely bad in full PPR); reopen it with fresh reporting if he resurfaces."
+  },
+  {
+   "id": "chem-claim-mcpherson-2026-09-21",
+   "at": "2026-09-21T22:35:00Z",
+   "week": 2,
+   "kind": "CLAIM",
+   "playerName": "Evan McPherson",
+   "outcome": "WRONG",
+   "summary": "Withdrawn nine hours after it was published. Draft Sharks Week 3 re-read: McPherson 7th at 8.8, Loop 17th at 8.6 - a gain of 0.2 points for a waiver claim from priority 10 of 10 plus a roster move. The card read a rank gap as a points gap; ranks 4-20 on that board span 9.1 to 8.4. Its own falsification clause (Aubrey 1st for the same BAL-DAL game) was the correct argument and was under-weighted."
+  },
+  {
+   "id": "chem-publisher-cadence-2026-09-21",
+   "at": "2026-09-21T22:35:00Z",
+   "week": 2,
+   "kind": "HOLD",
+   "playerName": "Operations - the publisher is not stalled, it is off-peak",
+   "outcome": "WRONG",
+   "summary": "Its own condition fired the same day. The thesis said 'a run sees no write for more than eight hours overnight' would falsify it; the commit history shows 12:07Z then nothing for ten hours, in daylight, with a game about to kick off. The publisher is stalled and the wide-overnight-cadence reading was too generous."
+  },
+  {
+   "id": "chem-flex-mclaurin-over-coker-2026-09-18-pm",
+   "at": "2026-09-21T22:35:00Z",
+   "week": 2,
+   "kind": "LINEUP",
+   "playerName": "Terry McLaurin",
+   "outcome": "WRONG",
+   "summary": "Three consecutive losing weeks: Week 1 by 11.2, Week 2 by 7.6 (McLaurin 7.0, Coker 14.6). Held correctly on its own clause each time - he drew nine targets at Dallas, not fewer than six - and overturned tonight by a quarterback change the clause never contemplated: Jayden Daniels dislocated his elbow and Marcus Mariota starts Week 3 (NFL.com). The route-participation instrument was right about volume and wrong about who would be throwing it."
+  },
+  {
+   "id": "chem-flex-mclaurin-over-tuten-2026-09-15",
+   "at": "2026-09-21T22:35:00Z",
+   "week": 2,
+   "kind": "LINEUP",
+   "playerName": "Terry McLaurin",
+   "outcome": "EXPIRED",
+   "summary": "Superseded. The Chem RB/WR flex goes to Jalen Coker at unlock, so a McLaurin-versus-Tuten comparison no longer describes a live decision. Tuten beat the flex again in Week 2 (14.2 to 7.0), which is recorded here rather than acted on, because the flex is changing for a different reason."
   }
  ],
- "note": "Theses are condensed prose; falsifiedIf is never truncated. Condensed 20 Sep 06:15Z per RUNBOOK Step 8b."
+ "note": "Theses are condensed prose; falsifiedIf is never truncated. Condensed 20 Sep 06:15Z and again 21 Sep 22:35Z per RUNBOOK Step 8b - on 21 Sep the review chains were folded to the ORIGINAL thesis plus the most recent review note, with the count of folded notes recorded inline. Outcomes of folded reviews survive in the closed list."
 }
