@@ -217,6 +217,74 @@ EOF
 
 ---
 
+## STEP 3.5 — Check the lineup, then read the wire, before any research
+
+**Read STRATEGY.md section 0 first.** After two weeks both leagues were 0-2,
+and every one of the four losses was winnable with the roster already
+owned: 134 points left on benches, every margin under 16. The games were
+lost in the lineup, and nothing in this runbook used to ask whether the
+lineup was right.
+
+Two tools, both deterministic, both read-only. Run them for each league:
+
+```bash
+cd /tmp/fb
+for f in lineup_check waiver_analysis; do
+  curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/$f.py" -o $f.py
+done
+python3 lineup_check.py 1237544639
+python3 lineup_check.py 1325565673
+python3 waiver_analysis.py 1237544639
+python3 waiver_analysis.py 1325565673
+```
+
+### The lineup check
+
+Compares the lineup as currently set against the projection lineup and
+classifies every slot where they differ:
+
+- **AGREE** — projection and volume prefer the same player. Just set it.
+  No thesis, no decision-log entry.
+- **VOLUME** — a clear opportunity gap that is not shrinking. Follow it,
+  even against a small projection edge.
+- **COIN FLIP** — close on both. **Take the projection and write no thesis.**
+  Warren and Tuten had identical week-1 volume; no method calls that, and
+  spending analysis on it produces confident reasoning about noise.
+
+**Never override the projection on last week's points.** This is the most
+expensive mistake this system has made. The IPADE quarterback slot lost 42.8
+points in two weeks by starting whoever scored the week before — and in week
+2, simply starting by projection would have won the game. The only
+legitimate override is a **role fact with a name attached**: an injury, a
+quarterback change, a depth-chart move.
+
+If the check says the lineup as set is the projection lineup, say so in one
+line and move on. That is the common case and it should cost nothing.
+
+### The waiver analysis
+
+Compares the wire against the roster on **opportunity, production and
+trend**, and prints two lists:
+
+- **RISING** — wire players whose usage beats my weakest *movable* player by
+  a real margin, with a role that is growing and volume that produces.
+- **FALLING** — my players with low opportunity in *every* archived week.
+  A player low in one week is having a slump; low in every week is a role
+  problem. Barkley went 17 then 7; Loveland went 3 then 4.
+
+**The tool finds questions, not answers.** Two weeks of data cannot tell a
+slump from a role change. Tank Bigsby went 1 then 16 — the data says
+"rising", and the reason is that Barkley got hurt. A handcuff, not a
+breakout. Every RISING and FALLING line needs a **role reason from research**
+before it becomes a move, and those players go to the top of Step 5's list.
+
+**When the tool says NOTHING WORTH ADDING, that is the answer.** Do not
+search the wire looking for a reason to disagree with it. In a 10-team
+league it should say nothing most weeks, and a waiver section that finds
+something every run is optimising noise.
+
+---
+
 ## STEP 4 — Read the standing strategy and the decision log
 
 **Before deciding anything, read what has already been decided.** The whole
@@ -537,6 +605,20 @@ All fourteen, split into `starting` and `bench`.
 }
 ```
 
+**Every roster block carries the lineup check** from Step 3.5:
+
+```json
+"lineupCheck": {
+  "asSet": 119.7,
+  "best": 119.9,
+  "gap": 0.2,
+  "verdict": "One coin flip: Vele over Golden, 11.6 to 11.4. Taking the projection, no thesis."
+}
+```
+
+`verdict` is one sentence. When the gap is zero, say so: "The lineup as set
+is the projection lineup."
+
 **`state` decides what the right-hand column means**, and the app changes the
 column header with it:
 
@@ -611,6 +693,57 @@ without Bowers, 2.9 with" — and a block saying what would change it.
 Naming what not to do is as much of the product as naming what to do. Keep
 the section even in a week when it is empty.
 
+### 07b waiverAnalysis
+
+The data-first wire section, built from Step 3.5's tool. **Its default is
+empty.**
+
+```json
+"waiverAnalysis": {
+  "verdict": "NOTHING",
+  "summary": "Nothing on the wire beats this roster on usage.",
+  "weeks": 2,
+  "rising": [],
+  "falling": []
+}
+```
+
+When the tool finds something:
+
+```json
+"waiverAnalysis": {
+  "verdict": "QUESTIONS",
+  "summary": "Loveland has drawn 3 and 4 opportunities while still ranked TE11.",
+  "weeks": 2,
+  "falling": [
+    {"playerId": 4723086, "name": "Colston Loveland", "position": "TE",
+     "opportunities": [3.0, 4.5], "ppg": 0.7, "rank": 11,
+     "roleReason": "Caleb Williams out; Bagent targets the backs",
+     "action": "HOLD until Williams returns", "sources": "ESPN"}
+  ],
+  "rising": [
+    {"playerId": 4432710, "name": "Adonai Mitchell", "position": "WR",
+     "opportunities": [4.5, 18.0], "ppg": 10.7, "trend": 13.5,
+     "roleReason": "Garrett Wilson hamstring; Mitchell took the X role",
+     "action": "WATCH — role holds only while Wilson is out", "sources": "…"}
+  ]
+}
+```
+
+Rules:
+
+- **`verdict` is `NOTHING` or `QUESTIONS`.** Nothing else.
+- **Only players the tool printed.** Do not add wire players the tool did
+  not surface. If you believe it missed someone, say so in the report and
+  explain why — that is a finding about the tool.
+- **Every entry needs `roleReason` from research.** The data shows a gap;
+  the role reason explains whether it persists. An entry with no role
+  reason is the chasing pattern and does not ship.
+- **`action` is ADD, WATCH, HOLD or DROP**, and ADD or DROP only when both
+  the data and the role reason point the same way.
+- `weeks` is how many weeks of data the tool used. Under four, say in
+  `summary` that the sample is thin.
+
 ### 08 settled
 
 Last week's calls against outcomes.
@@ -640,7 +773,7 @@ and carried different rules, which is how a gate stops being a gate.
 ```bash
 cd /tmp/fb
 curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/validate.py" -o validate.py
-# 25 rules is the current count. Far fewer means a stale copy — re-fetch.
+# 33 rules is the current count. Far fewer means a stale copy — re-fetch.
 grep -c "errs.append" validate.py
 ```
 
@@ -760,6 +893,25 @@ move does not happen.
 
 If nothing was recommended, still bump `updatedAt` and close anything that
 expired. A quiet day is a valid entry.
+
+### Grading, honestly
+
+The decision log is only evidence if it grades itself truthfully, and it has
+not been:
+
+- **If the falsification condition fired, the entry closes WRONG.** Not
+  EXPIRED. The Lawrence recommendation cost 21.3 points and closed EXPIRED
+  on "Stafford could outscore that" — he did, by 21.3.
+- **EXPIRED is for decisions that were never tested,** not for ones that
+  failed quietly.
+- **A lineup thesis that loses twice closes WRONG automatically.**
+  `chem-flex-mclaurin-over-coker` was held through three consecutive losing
+  weeks.
+- **Do not write a thesis on a coin flip.** If Step 3.5 classified a slot as
+  COIN FLIP, it gets no decision-log entry at all.
+- **Do not record declines to stop future runs rediscovering things.** That
+  pattern produced dozens of standing refusals. If a run keeps resurfacing
+  the same non-move, the waiver tool now answers it with data each run.
 
 ### 8c. Report
 

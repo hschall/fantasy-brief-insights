@@ -162,6 +162,42 @@ def validate(brief_path, league_path):
                 errs.append(f"{key} {who}: already on your roster")
             case_ok(w, f"{key} {who}")
 
+    # ---- lineup check ------------------------------------------------
+    # Every loss so far was winnable with the roster already owned. The
+    # lineup is checked first and the result is stated, every run.
+    if r and not (r.get("lineupCheck") or {}).get("verdict"):
+        errs.append("roster: no lineupCheck verdict - run lineup_check.py "
+                    "(Step 3.5) and state the result, even when it is 'no change'")
+
+    # ---- waiver analysis --------------------------------------------
+    wa = b.get("waiverAnalysis")
+    if not wa:
+        errs.append("no waiverAnalysis section - run waiver_analysis.py "
+                    "(Step 3.5); an empty verdict of NOTHING is a valid answer")
+    else:
+        verdict = str(wa.get("verdict", "")).upper()
+        if verdict not in ("NOTHING", "QUESTIONS"):
+            errs.append(f"waiverAnalysis: verdict must be NOTHING or QUESTIONS, "
+                        f"got {verdict!r}")
+        entries = (wa.get("rising") or []) + (wa.get("falling") or [])
+        if verdict == "NOTHING" and entries:
+            errs.append("waiverAnalysis: verdict NOTHING but entries listed")
+        if verdict == "QUESTIONS" and not entries:
+            errs.append("waiverAnalysis: verdict QUESTIONS with nothing listed")
+        for e in entries:
+            who = e.get("name", "?")
+            # Data shows a gap; research says whether it persists. An entry
+            # without a role reason is the chasing pattern.
+            if not str(e.get("roleReason", "")).strip():
+                errs.append(f"waiverAnalysis {who}: no roleReason - the data "
+                            f"alone is the pattern that cost 42.8 points")
+            act = str(e.get("action", "")).upper().split()[0] if e.get("action") else ""
+            if act not in ("ADD", "WATCH", "HOLD", "DROP"):
+                errs.append(f"waiverAnalysis {who}: action must start with "
+                            f"ADD, WATCH, HOLD or DROP")
+            if e.get("playerId") and e["playerId"] not in known:
+                errs.append(f"waiverAnalysis {who}: unknown playerId")
+
     # ---- limits ------------------------------------------------------
     if not b.get("cannotSee"):
         errs.append("cannotSee is empty - every run has limits worth stating")

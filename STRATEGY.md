@@ -5,278 +5,293 @@ recommendation. It outranks the per-run optimisation: if a move the numbers
 like conflicts with something here, the numbers lose, or the card explains
 why this is the exception.
 
-Lines marked **[DEFAULT]** are starting positions to be overwritten by the
-owner. Everything else is settled.
-
-Last reviewed: 2026-09-13
+Last reviewed: 2026-09-24, after an 0-4 start. Section 0 is new and records
+what that start taught. Sections 1-3 are rewritten from it.
 
 ---
 
-## 1. What I am playing for
+## 0. What the first two weeks proved
 
-Both leagues: **win the championship**, not the regular season. Seeding is
-worth something but points-for is the honest measure of a roster, and a
-league can produce the second-highest total points in the league and still
-miss the playoffs on record. So:
+Both leagues are 0-2. Every one of the four losses was **winnable with the
+roster already owned**:
 
-- A 1-2 start with top-three points-for is **not** a reason to restructure.
-  Record is noisy over a small sample; points-for is not.
-- A 3-0 start on low points-for is a warning, not a reason to coast.
-- Every decision from week 10 onward is measured against weeks 15–17, not
-  against this week.
+| | Started | Best available | Left on bench | Lost by |
+|---|---|---|---|---|
+| Chem W1 | 125.1 | 169.9 | 44.8 | 11.4 |
+| Chem W2 | 110.3 | 123.6 | 13.3 | 12.5 |
+| IPADE W1 | 95.8 | 133.0 | 37.2 | 15.4 |
+| IPADE W2 | 87.5 | 126.2 | 38.7 | 9.9 |
 
-**[DEFAULT]** Neither league is a rebuild. There is no scenario this season
-where selling for next year is correct — these are redraft leagues.
+134 points left on benches; every margin under 16. The games were lost in
+the lineup, not on the wire.
+
+Of those points, **43.5 came from lineups a brief actively recommended** and
+defended. The single largest failure was the IPADE quarterback slot:
+
+- Week 1: started Stafford 4.1, benched Lawrence 25.6
+- Week 2: started Lawrence 5.2 — *because of week 1* — benched Stafford 26.5
+
+42.8 points from one slot by switching to whoever scored last week. In week
+2, starting purely by projection would have **won** the game. It was the
+only time the brief overrode projection, and it cost a win.
+
+Decision-log outcomes split sharply by type: holds were right 67% of the
+time, adds 17%, lineup calls 33%, trades and claims 0%. **The system is good
+at declining and bad at acting.**
+
+Three things follow, and the rest of this document is built on them:
+
+1. **The lineup is the highest-value decision in the week and got the least
+   attention.** It is free, it is certain in effect, and it decided all four
+   games.
+2. **Two weeks of data cannot tell a slump from a role change.** Mechanical
+   rules on this sample produce confident nonsense in both directions —
+   they flag a stud through one bad game, and they protect a player whose
+   role has genuinely collapsed.
+3. **Acting has a cost that deciding does not.** Most moves made were
+   neutral-to-negative. The default is to do nothing.
 
 ---
 
-## 2. Both leagues are 10-team full PPR. That changes what is valuable.
+## 1. Lineup policy — first, because it is where games are lost
 
-Two structural facts drive most of what follows.
+### The three cases
 
-**Shallow means stars matter and depth does not.** In a 10-team league every
-roster looks solid, so the edge comes from difference-makers, not from being
-well-rounded. Flex-level players are close to worthless as assets because the
-wire reliably replaces mid-level production. The corollary is that a
+Every lineup decision falls into exactly one of these, and the case decides
+the method:
+
+**Projection and volume agree.** Start the one they both prefer. No thesis,
+no decision-log entry. This is most decisions and it should take no effort.
+
+**A clear volume gap.** One player's opportunity — targets and carries — is
+materially larger and not shrinking. Follow volume, even against a small
+projection edge. *Coker 9 opportunities against McLaurin 4 was this case;
+volume was right and the brief was wrong.*
+
+**Close on both.** Similar projection, similar volume. This is a coin flip
+and no method calls it reliably — Warren and Tuten had identical week-1
+volume, 16 and 16. **Default to projection and do not write a thesis.**
+Spending analysis on a coin flip produces confident reasoning about noise.
+
+### What never justifies overriding projection
+
+**Last week's points.** This is the rule that cost the most and it is not
+negotiable. A player who scored well is not thereby better; a player who
+scored badly is not thereby worse. If the override rests on a box score
+rather than a role, it does not happen.
+
+The only legitimate overrides are **role facts with a name attached**: an
+injury, a quarterback change, a depth-chart move, a confirmed snap-share
+shift. And the card states which one.
+
+### Start the studs
+
+A top-12 player at his position starts through a bad week. The grade
+explains the projection; it never benches him.
+
+### Two strikes
+
+A lineup thesis that loses **twice** closes automatically and the slot
+reopens. `chem-flex-mclaurin-over-coker` was held through three consecutive
+losing weeks. A falsification condition that survives three losses is not a
+condition.
+
+---
+
+## 2. Both leagues are 10-team full PPR
+
+**Shallow means stars matter and depth does not.** Every roster looks solid,
+so the edge comes from difference-makers. Flex-level players are close to
+worthless as assets because the wire replaces mid-level production. A
 two-for-one trade almost always favours the side receiving the single best
-player — and in this format that side should usually be me.
+player — and that side should usually be me.
 
-**Full PPR pays for volume, not explosiveness.** A reception is a point. A
-back who catches five passes gets five points before he gains a yard. This
-means:
+**Full PPR pays for volume.** A reception is a point. So:
 
-- A committee back who loses the goal line *and* third downs is uniquely bad
-  here. He collects the least valuable touches available.
-- A high-target slot receiver with no touchdowns is still startable.
-- Target share and route participation are the floor. Touchdown rate is the
-  noise.
-- When two players project within a point of each other, take the one whose
-  points come from volume rather than scoring.
+- A target is worth more than a carry. Weigh them accordingly.
+- Target share and route participation are the floor; touchdowns are noise.
+- A committee back who loses the goal line *and* third downs collects the
+  least valuable touches available.
+- When two players project within a point, take the one whose points come
+  from volume rather than scoring.
+
+**Volume without production is a warning, not a signal.** Allgeier drew 13
+opportunities a game for 6.5 points, with a role falling from 19 to 7. High
+volume that produces nothing is usually low-value touches or a shrinking
+role, and a naïve volume screen walks straight into it.
 
 ---
 
-## 3. The churn rule
+## 3. The waiver wire
 
-**This exists because of a real failure.** Across consecutive runs the
-recommendation went Allgeier → Likely → Worthy: each step individually
-defensible, the sequence value-destroying, and the last step traded a 9.5 TE
-for an 8.0 WR. Dropping long-term bench assets for short-term fixes is a
-known way to lose value. Every add has an opportunity cost.
+### The default is nothing
+
+In a 10-team league the wire is deep and most adds are marginal. **"Nothing
+worth adding" is the expected answer most weeks**, and the brief says it
+plainly rather than manufacturing a card to fill the section.
+
+### The data finds the question; research answers it
+
+The waiver analysis section compares the wire against my roster on data:
+opportunity, production, and trend. But two weeks of data cannot
+distinguish a slump from a role change, so the data's job is to **surface
+disagreements**, not to decide them:
+
+- **Rising on the wire:** growing opportunity, real production, role not
+  shrinking. The question is *why* — and only research answers it.
+- **Falling on my roster:** a player whose usage has collapsed while his
+  ranking has not caught up. *Loveland at 0.7 points a game on 4
+  opportunities while ESPN still ranks him top-24 is this case.*
+
+A move needs both: the data showing a gap, **and** a named role reason
+explaining it. Data alone is the chasing pattern. Research alone is the
+narrative pattern. Together they are a decision.
 
 ### The bar
 
-There is no fixed number. A move has to be **worth the churn**, and what that
-means depends on the situation — how big the gain is, how confident the
-reporting is, how recently the outgoing player arrived, and whether the slot
-has already changed hands this week.
+A wire player is worth adding only if he beats my weakest **movable**
+player — never a stud — on:
 
-Use judgement, and show it. A card that proposes a move has to say why the
-gain is worth the cost of being wrong. If that sentence cannot be written
-convincingly, the move is a Candidate with a trigger, not a Do-first card.
+- opportunity in the most recent week, by a real margin (~30%)
+- a trend that is flat or rising, never falling
+- production that is at least comparable, not volume that scores nothing
 
-Things that raise the bar, sometimes to "no":
+and there is a role reason that makes the gap likely to persist.
 
-- The outgoing player arrived in the last week. He was added for a reason
-  and that reason was stated — see below.
-- The slot has already changed hands in the last 7 days.
-- The gain rests on a projection rather than on reporting.
-- The outgoing player has a role that is growing; the incoming one does not.
+### The churn rule
 
-Things that lower it:
+This exists because of real failures, and it has been violated since it was
+written: the Vikings D/ST were claimed at 07:15 and dropped at 14:37 the
+same day; the IPADE tight-end seat changed hands three times in four days.
 
-- The outgoing player's thesis visibly broke.
-- The incoming player is a genuine difference-maker, not a marginal upgrade.
-- The outgoing player is a replaceable flex body, which in a 10-team league
-  most bench players are.
+**Never churn the same slot twice in a week.** If a roster spot changed
+hands in the last 7 days it is closed, unless the player in it is ruled out.
 
-One hard floor: **a move that lowers projected points is not an upgrade.**
-Trading a 9.5 for an 8.0 needs an explicit, stated reason — a role change, a
-bye, an injury — or it does not happen.
-
-### The question to ask
-
-Not *"is this player the best use of the slot?"* — that re-litigates the
-whole roster every run and flips on noise. Ask:
+Ask not *"is this player the best use of the slot?"* — that re-litigates the
+roster every run and flips on noise. Ask:
 
 > **Has the reason I added him changed?**
 
 If the thesis is intact, he stays, even if someone now projects 0.4 higher.
-If the thesis broke — the starter came back, the role never materialised, the
-snap share went the wrong way — he goes, and the card says which.
-
-### Never churn the same slot twice in a week
-
-If a roster spot changed hands in the last 7 days, it is closed unless a
-player in it is ruled out. Rotating one bench seat through three players is
-the signature of optimising noise.
 
 ---
 
-## 4. What a good add looks like
+## 4. Waiver priority
 
-Not a projection. **A role change with a name attached.**
+**Chem — priority resets weekly.** It is not a resource, but claims still
+have an ordering cost: four claims in one morning pushed AVIATO to last and
+lost the Purdy claim that mattered. Claim what is worth claiming, and order
+the claims by value, not by when they were thought of.
 
-In order of what actually predicts production:
+**IPADE — priority never resets.** One claim drops me to last for the rest
+of the season.
 
-1. **Opportunity.** Snap share, target share, expected fantasy points share.
-   Volume is the single best predictor of fantasy points over any real
-   sample, and extreme efficiency regresses.
-2. **A vacated role.** Someone got hurt, traded, benched, or suspended, and
-   this player inherits the work. Best case: he already plays the snaps and
-   simply absorbs the targets.
-3. **Ownership anomaly.** Widely rostered elsewhere and free here is the
-   strongest single wire signal in a shallow league — it usually means a
-   manager blundered, not that the player is bad. This is the `why=OWNED`
-   band.
-4. **Ownership velocity.** Rising fast from a low base means the wider market
-   has seen something. Useful, but it is a lagging confirmation of 1 and 2.
-
-**Not a good add:** a hot week on low volume. That is a sell signal, not a
-buy signal.
-
-Roughly half the players on a championship roster went undrafted, so the wire
-does win seasons — but through a small number of high-conviction adds, not
-through turnover. Both things are true.
+- **Free agents are free.** Only waiver claims consume priority. Check
+  `status` before treating an add as expensive.
+- Spend priority only on a player who would start immediately, or a genuine
+  league-winner. Never on a patch, a handcuff or a streamer.
 
 ---
 
-## 5. Lineup policy
+## 5. Kicker and defence
 
-**Start the studs.** A matchup grade explains a projection; it never benches
-a top-12 player at his position. If the grade and the tier disagree, the tier
-wins.
-
-**The grade decides close calls only.** When two players project within a
-point or so of each other, matchup, game script and target share break the
-tie. When the gap is real, the projection wins and the grade is just
-context.
-
-**Never bench a player because he is "due."** And never start one for the
-same reason.
-
-**Game script matters at RB, not WR.** A heavy favourite's back gets fourth
-quarter carries. A heavy underdog's receiver gets garbage-time targets. These
-pull in opposite directions and both are real.
-
-Kicker and DST are streamed on matchup every week, without sentiment. In a
-10-team league the wire always has a usable one.
-
-**But check the incumbent first.** Compare the rostered kicker and defence
-against the best available each week and say plainly which is better. Often
-the answer is "hold" — a good defence with a good draw beats churning for a
-marginally better projection, and a stream that gains 0.3 points costs a
-roster move for nothing. Report the comparison either way, so the hold is a
-decision rather than an omission.
+Streamed on matchup, but **check the incumbent first** and report the
+comparison either way. A stream that gains 0.3 points costs a roster move
+for nothing. Decision-log outcomes on streaming moves have been poor; the
+bar is a real gap, not a marginal one.
 
 ---
 
-## 6. Waiver priority
+## 6. Trades
 
-The two leagues are opposite and this is the most expensive thing to get
-wrong.
+**Only propose what both sides gain,** by their own starting lineups, and
+state their gain in the headline.
 
-**Chem — priority resets weekly.** It is not a resource. Claim anything worth
-claiming. A speculative handcuff or a one-week streamer costs nothing
-lasting. Be aggressive.
+**Consolidate.** Two starters for one better starter is the right direction
+in a shallow league.
 
-**IPADE — priority never resets.** One claim drops me to last for the rest of
-the season. So:
+**Trade into the other side's urgency.** Structural surplus, not name value.
 
-- **Free agents are still free.** Only waiver claims consume priority. Always
-  check `status` before treating an add as expensive.
-- **[DEFAULT]** Spend priority only on a player who would start immediately,
-  or who is a genuine league-winner — the kind of add that shows up on a
-  championship roster. Never on a bye-week patch, never on a handcuff,
-  never on a streamer.
-- Once priority is spent, it is gone. Treat it like a single trade chip.
+**Buy low on usage, sell high on efficiency.**
 
----
+**Untouchable:** any player top-5 at his position.
 
-## 7. Trades
+**Check the other team's slot column before naming anyone** — a proposal
+that asks for their starter has been drafted twice.
 
-**Only propose what both sides gain.** A proposal that helps only me is a
-wish. Compute both teams' optimal lineups before and after; if their total
-does not rise, it does not get offered. State their gain in the headline —
-hiding it is what makes an offer read as lopsided and get declined unread.
-
-**Consolidate.** In a shallow league, two starters for one better starter is
-the right direction, because the roster spot I open is refillable from the
-wire and the difference-maker is not. Target two-for-one where I receive the
-best player in the deal.
-
-**Trade into the other side's urgency.** A team with two elite quarterbacks
-in a one-QB league is paying for nothing every week. A team stacked at one
-position and thin at another will move value to fix the hole. Structural
-surplus is the thing to look for, not name value.
-
-**Buy low on usage, sell high on efficiency.** Buy the player with strong
-underlying volume and bad results. Sell the player with a hot streak built on
-touchdowns he will not repeat.
-
-**[DEFAULT] Untouchable regardless of the math:** any player who is top-5 at
-his position. The optimiser will occasionally propose trading an elite
-quarterback for a flex receiver because a backup appears to backfill the
-slot. It is always wrong.
-
-**Deadline is 12/2 in both leagues.** Do not wait for it. Markets are active
-and honest in weeks 9–11; by the deadline everyone is either panicked or
-checked out.
+No trade has closed RIGHT yet. The prime window is weeks 9-11; there is no
+urgency before then.
 
 ---
 
-## 8. The calendar
+## 7. The calendar
 
 | When | What changes |
 |---|---|
-| Weeks 1–3 | Sample is noise. Do not trade on three games. React to **role** news only, never to box scores. |
-| Weeks 4–6 | Roles have settled. First real window to buy low on a slow starter with good usage. |
-| **Week 7** | **Jacksonville problem in IPADE.** Tuten, the Jaguars D/ST and Cam Little are all out together. Chem is also exposed: Allen, McLaurin and JAX pieces. Keep it in view from week 4 onward, but it is solved in week 7 with whatever the wire and the roster look like then. Do not trade a good player in week 4 to pre-solve a week 7 hole — roles change, options appear, and a plan made three weeks early is usually solving a problem that no longer exists. In IPADE, still never by spending priority. |
-| Weeks 9–11 | Prime trade window. Contenders and sellers are both identifiable and neither is desperate yet. |
-| Week 12 | Start evaluating every asset against the weeks 15–17 schedule, not this week's. |
-| 12/2 | Trade deadline, both leagues. Last chance to change the roster other than the wire. |
-| Weeks 15–17 | Playoffs. Start studs regardless of matchup. The only question left is which marginal starter has the softer draw. |
+| Weeks 1-3 | Sample is noise. React to **role** news only, never to box scores. Two weeks of data is two data points. |
+| Weeks 4-6 | Roles have settled. Volume trends become readable. First real window to buy low on a slow starter with good usage. |
+| Week 7 | Jacksonville bye in IPADE. Solve it in week 7 with what the wire offers then, never by spending priority early. |
+| Weeks 9-11 | Prime trade window. |
+| Week 12 | Evaluate every asset against weeks 15-17. |
+| 12/2 | Trade deadline, both leagues. |
+| Weeks 15-17 | Playoffs. Start studs regardless of matchup. |
 
 ---
 
-## 9. Known roster shape
+## 8. The two leagues are different problems
 
-Facts that should inform every run. Update when they change.
+**Chem scores 5th of 10** both weeks — above median, losing to top-four
+scores. The roster is competitive. The fix is lineup discipline.
 
-**Chem** — full PPR, flex RB/WR only, priority resets weekly.
-**IPADE** — full PPR, flex RB/WR **and TE**, priority never resets.
+**IPADE scores 8th and 9th of 10** — a 25-point gap to the week-2 median
+that no lineup rule closes. That is a roster problem, and it needs a
+separate look at whether the roster lacks talent or is badly constructed.
+Lineup discipline is necessary there but not sufficient.
 
-The IPADE flex taking a tight end means a second startable TE has real value
-there and none in Chem. Do not carry one in Chem.
+**Chem** — full PPR, flex RB/WR only, priority resets weekly. A second tight
+end has no route into the lineup; do not carry one.
+**IPADE** — full PPR, flex RB/WR **and TE**, priority never resets. A second
+startable tight end has real value.
 
-**[DEFAULT]** No position is being punted in either league.
+---
+
+## 9. Honest grading
+
+The decision log is only evidence if it grades itself honestly.
+
+- **If the falsification condition fired, the entry closes WRONG.** Not
+  EXPIRED. The Lawrence recommendation cost 21.3 points and closed EXPIRED
+  on *"Stafford could outscore that"* — he did, by 21.3.
+- **EXPIRED is for decisions that were never tested**, not for ones that
+  failed quietly.
+- **Do not record declines to stop future runs rediscovering things.** If a
+  run keeps resurfacing the same non-move, that is a sign the analysis is
+  re-deriving from scratch — fix the analysis, do not paper over it with a
+  growing list of standing refusals.
 
 ---
 
 ## 10. What I do not want
 
-- **Do not manufacture cards.** An empty Do-first section is a legitimate and
-  common answer, especially mid-slate. Four cards a day is churn wearing a
-  suit.
-- **Do not re-derive strategy every run.** That is what this document and the
-  decision log are for. Start from what is already decided and ask what
-  changed.
-- **Do not chase last week's points.** Chase roles.
-- **Do not propose a move worth under a point.** The transaction cost of
-  being wrong exceeds the gain.
-- **Do not bench a stud on a matchup grade.**
-- **Do not spend IPADE priority without saying, in the card, why this is the
-  one.**
+- **Do not chase last week's points.** It is the most expensive mistake this
+  system has made.
+- **Do not manufacture cards.** An empty section is a legitimate answer.
+- **Do not write a thesis on a coin flip.**
+- **Do not bench a stud on one bad week.**
+- **Do not churn a slot twice in a week.**
+- **Do not grade a failure as EXPIRED.**
+- **Do not spend IPADE priority without saying why this is the one.**
 
 ---
 
 ## 11. Review questions
 
-Answer these when this document is next reviewed:
+Answer these weekly, from data, in the brief's retrospective:
 
-- Which recommendations from the log proved right? Which theses broke, and
-  did I drop them fast enough or defend them too long?
-- Were the moves that got made worth making? Look for the sequence where
-  one slot changed hands twice — that is the tell.
-- Did the week 7 plan work, and what did it cost?
-- Is there a position where I am repeatedly making moves? That is either a
-  real hole or a tell that I am optimising noise.
+- **Points left on the bench**, per league, and which slots.
+- Of those, **how many came from a brief's recommendation** versus a slot no
+  brief addressed.
+- Which theses closed, and were any held past their falsification?
+- Did any slot change hands twice in a week?
+- Is the waiver analysis saying "nothing" most weeks? If it is producing
+  adds every run, it is optimising noise.
