@@ -2,97 +2,69 @@
  "week": 3,
  "leagueName": "IPADE Football Leagu",
  "teamName": "Bloodsports",
- "generatedAt": "2026-09-24T13:40:00Z",
- "snapshotNote": "Snapshot 12:52 UTC 24 Sep · Thursday 06:52 Mexico City · Golden and Lloyd play tonight at 18:15 (both benched) · this brief does not refresh on its own",
- "sources": "Built from 36 searches (shared across both leagues) · CBS Sports, NBC Sports, FantasyPros, SI, ESPN, Chargers.com, Steelers.com, Giants.com, Chiefs.com, Vikings.com, BearsTalk, Inside the Iggles, Yardbarker, Heavy, PFN, DraftKings Network, VegasInsider, Sharp Football Analysis",
+ "generatedAt": "2026-09-24T22:30:00Z",
+ "snapshotNote": "Snapshot 21:53 UTC 24 Sep · Thursday 15:53 Mexico City · Golden and Lloyd play tonight at 18:15 (both on the bench) · this brief does not refresh on its own",
+ "sources": "Built from 27 searches (shared across both leagues) · Steelers Depot, NBC Sports, NBC Sports Philadelphia, RotoWire, Bleacher Nation, Athlon, SI, The Jet Press, Last Word On Sports, CBS Sports, footballdb, PFN, Giants.com, 104.7 The Cave, BearsTalk, NFL.com, Vikings.com, Lindy's Sports, Sharp Football, AtoZ Sports",
  "tonight": {
-  "headline": "Down 12 on projection; two decisions are waiting on injury reports",
+  "headline": "Now a slight favourite, but only because JuiceJam are starting a zero",
   "status": "TIED",
-  "winProbability": 45,
+  "winProbability": 52,
   "myScore": 0.0,
   "theirScore": 0.0,
   "opponent": "JuiceJam",
   "body": [
-   "Week 3 hasn't started. JuiceJam project 131.6 to your 119.8, and ESPN gives you 45%. Golden and Lloyd play tonight, both on your bench, and Tucker Kraft plays for JuiceJam.",
-   "One free move today: Tate into the flex for Vele — a coin flip, so take the projection. The other two cards wait on the Saturday reports for Chicago's quarterback and Barkley's neck. Don't fire them before then."
+   "Week 3 hasn't started. ESPN now projects you 120.0 to JuiceJam's 115.8, a 52% win probability, up from 45% this morning. You didn't change anything to get there: ESPN dropped Nico Collins' projection to 0.0, and JuiceJam still have him in their lineup.",
+   "Don't count on it lasting. If they put Jameson Williams (11.0) in for Collins, they lead by about 7. Your lineup is already the projection lineup. The Tate move you made at 16:39 UTC was the last free change. Both fallback cards below wait for Saturday."
   ],
   "case": [
    {
-    "label": "Where the gap is",
-    "body": "Gibbs and Walker project 46.5 between them against your 38.1 at RB. No lineup move closes that. Nico Collins is questionable with a hamstring and Houston haven't given an update (NBC). If he sits, JuiceJam lose about 16 projected points."
+    "label": "Why Collins is zero",
+    "body": "Grade 1 hamstring. He missed his third straight session on Wednesday, and SI (23 Sep) say the signs point to another absence, with Week 4 at Dallas the likelier return."
    },
    {
-    "label": "The Monday problem",
-    "body": "Barkley and Loveland both play Monday night. Their fallbacks, Tuten and Gadsden, play Sunday 11:00, so each decision has to be made on Saturday's report before the Monday picture is clear."
+    "label": "Where the gap really is",
+    "body": "Gibbs and Walker project 46.5 between them against your 38.1 at RB. No lineup move closes that. Tucker Kraft plays for them tonight."
    },
    {
     "label": "Falsified if",
-    "body": "Collins practises fully Friday and Barkley is cleared. Then the gap stays about 12 and the flex choice is noise."
+    "body": "Collins is active on Sunday, or JuiceJam move Jameson Williams in. Either way ESPN's 52% goes back under 50, and the real edge was never there."
    }
   ],
-  "caseSources": "ESPN league file · NBC Sports · Inside the Iggles"
+  "caseSources": "ESPN league file · SI"
  },
  "doFirst": [
-  {
-   "id": "ipade-swap-tate-vele-2026-09-24",
-   "tier": "DEPTH",
-   "urgency": "Before Sunday",
-   "kind": "Lineup",
-   "deadlineLabel": "Tate locks Sunday 11:00 Mexico City",
-   "deadline": "2026-09-27T17:00:00Z",
-   "title": "Start Carnell Tate in the flex, bench Devaughn Vele",
-   "subtitle": "A coin flip. Take the projection — 11.8 to 11.6 — and don't read anything into it.",
-   "case": [
-    {
-     "label": "Why this is a coin flip",
-     "body": "The lineup check has them 11.8 to 11.6 on projection and 8 to 10 on Week 2 opportunities, and calls it a coin flip. Standing policy: take the projection, no thesis, no log entry. It's the same rule that put Vele in last night; the answer changed because Tate arrived this morning."
-    },
-    {
-     "label": "What reporting adds",
-     "body": "Tate led Tennessee with 5 targets in Week 2, but Cam Ward threw only 20 passes (CBS, NBC). Vele is the Saints' WR2 with Shough scoring 25.2 and 22.4 (PFN). The reporting leans Vele, but neither is a named role fact, and those are the only thing allowed to override the projection."
-    },
-    {
-     "label": "Falsified if",
-     "body": "Nothing in one week's result. A coin flip that loses is still a coin flip. The rule is what's being tested: wrong if coin flips decided by projection keep losing to the other option across the season."
-    }
-   ],
-   "sources": "lineup_check.py · CBS Sports · NBC Sports · PFN",
-   "ghost": false,
-   "action": {
-    "type": "SWAP",
-    "playerId": 4871023,
-    "dropPlayerId": 4569559,
-    "label": "Start Tate · bench Vele"
-   }
-  },
   {
    "id": "ipade-ghost-gadsden-over-loveland-2026-09-23-pm",
    "tier": "DEPTH",
    "urgency": "Saturday",
    "kind": "Lineup",
-   "deadlineLabel": "Fallback only — decide on Saturday's Bears report, before Gadsden's 11:00 Sunday kickoff",
+   "deadlineLabel": "Fallback only. Decide on Saturday's Bears report, before Gadsden's 11:00 Sunday kickoff",
    "deadline": "2026-09-27T17:00:00Z",
    "title": "Only if the Bears list Williams out or doubtful: start Gadsden over Loveland",
-   "subtitle": "Unarmed. ESPN already shows Williams DOUBTFUL, but that's ESPN's label. Chicago's official designations for a Monday game come out Saturday.",
+   "subtitle": "Not armed, but it's getting more likely to be needed. Williams missed practice again Thursday. Chicago's official designations for a Monday game come out Saturday.",
    "case": [
     {
-     "label": "The evidence so far",
-     "body": "Wednesday: Williams (low-grade hamstring) did walkthrough only, Bagent is in the concussion protocol and away from the facility, and Case Keenum was the only quarterback practising. Ben Johnson is 'not sure who the starter's going to be' (SI, ESPN)."
+     "label": "The evidence, now two days of it",
+     "body": "Caleb Williams (hamstring) didn't practise Thursday (NBC Sports) after a walkthrough-only Wednesday. Ben Johnson said he doesn't expect him to practise this week. Tyson Bagent is in the concussion protocol. Case Keenum, who last played on Christmas Eve 2023, is tracking toward the start (Bleacher Nation, 23 Sep)."
     },
     {
      "label": "Loveland's usage",
-     "body": "CBS (21 Sep): 1 catch for 3 yards on 5 targets through two games, 31st among tight ends. He leads the Bears in routes (61), but he was kept in to block against Minnesota's blitzes."
+     "body": "1 catch for 3 yards on 5 targets through two games (CBS). He's being kept in to block. Philadelphia have allowed the 3rd-fewest TE points so far (footballdb, two games)."
     },
     {
-     "label": "Gadsden's role",
-     "body": "Njoku and Kolar are on IR for at least four games, so he's the Chargers' only active tight end (Chargers.com). Herbert is healthy; the Chargers are implied about 21.75 at Buffalo."
+     "label": "Gadsden's side",
+     "body": "The Chargers' only active tight end, with Njoku and Kolar on IR (Chargers.com, 21 Sep; not re-checked today). Buffalo have allowed the 12th-most TE points (footballdb)."
+    },
+    {
+     "label": "Why not now",
+     "body": "ESPN still projects Loveland 9.7 to Gadsden 8.7, and the only legitimate override is a named quarterback change. That becomes official when Chicago name Keenum or rule Williams out. Both players are on your roster, so waiting costs nothing until Gadsden kicks off."
     },
     {
      "label": "Falsified if",
      "body": "Williams is a full participant Friday or Saturday. The card then never fires and costs nothing."
     }
    ],
-   "sources": "SI · ESPN · CBS Sports · Chargers.com · VegasInsider",
+   "sources": "NBC Sports · Bleacher Nation · CBS Sports · footballdb · Chargers.com",
    "ghost": true,
    "action": {
     "type": "SWAP",
@@ -106,29 +78,25 @@
    "tier": "SOLID",
    "urgency": "Saturday",
    "kind": "Lineup",
-   "deadlineLabel": "Fallback only — decide on Saturday's Eagles report, before Tuten's 11:00 Sunday kickoff",
+   "deadlineLabel": "Fallback only. Decide on Saturday's Eagles report, before Tuten's 11:00 Sunday kickoff",
    "deadline": "2026-09-27T17:00:00Z",
    "title": "Only if Philadelphia rule Barkley out or doubtful: start Tuten",
-   "subtitle": "Unarmed. Barkley plays Monday, Tuten plays Sunday, so Saturday's report is the last look before Tuten locks.",
+   "subtitle": "Not armed, and less likely to be needed than this morning. Barkley practised Thursday.",
    "case": [
     {
-     "label": "What's known",
-     "body": "Barkley hurt his neck (stinger) on his first carry in Week 2 and played 16% of snaps. An MRI was scheduled (NBC, 20 Sep). No result has been reported, and as of this morning Inside the Iggles have 'no word on the severity'."
+     "label": "What changed today",
+     "body": "Barkley practised Thursday wearing a 'cowboy collar' to protect the neck (The Athletic via RotoWire). NBC Sports Philadelphia read his test results as positive and called it a good sign for Monday. His official participation level hadn't been published."
     },
     {
      "label": "The timing trap",
-     "body": "If he's questionable into Monday, Tuten is already locked. A top-12 back who's merely questionable starts — standing policy, start the studs. Only OUT or DOUBTFUL moves him."
-    },
-    {
-     "label": "The cover",
-     "body": "Tuten leads Jacksonville's backs in snaps and carries (SI, 24 Sep). Bigsby and Shipley would split Philadelphia's work if Barkley sits (Inside the Iggles), so there's no single handcuff worth chasing."
+     "body": "Barkley plays Monday and Tuten plays Sunday. If Barkley is still questionable going into Monday, Tuten has already locked. Standing policy: a top-12 back who is only questionable starts. Only OUT or DOUBTFUL moves him."
     },
     {
      "label": "Falsified if",
-     "body": "Barkley practises fully by Friday. The card then never fires."
+     "body": "Barkley is listed full on Friday or carries no designation on Saturday. The card then never fires."
     }
    ],
-   "sources": "NBC Sports · FantasyPros · Inside the Iggles · SI",
+   "sources": "RotoWire · NBC Sports Philadelphia",
    "ghost": true,
    "action": {
     "type": "SWAP",
@@ -141,33 +109,33 @@
  "whatWentWrong": [
   {
    "id": "w1",
-   "title": "Coleman cost never-resetting priority and left in 24 hours",
-   "lead": "Claimed on 23 Sep at priority 3, dropped this morning without a snap. His seat is now Tate, whom the first card starts.",
+   "title": "Loveland has scored 1.4 points in two games, and your tight-end seat now depends on Chicago's quarterback",
+   "lead": "0.7 a game on 3 and 4.5 opportunities, while ESPN still ranks him TE11. That gap is why the first card exists.",
    "case": [
     {
-     "label": "What it cost",
-     "body": "Priority went from 3 to 6 in the league where it never resets. That's permanent. Tate came in free, so this morning's move cost nothing more."
+     "label": "What happened",
+     "body": "He leads the Bears in routes but has been kept in to block (CBS). The waiver tool flags him FALLING, meaning low usage in every week there's data for, not a one-week slump."
     },
     {
-     "label": "The trap now",
-     "body": "The waiver tool flags Coleman as rising (0 to 14.5 opportunities), and he's a free agent. He didn't practise Wednesday with the ankle, and RJ Harvey and J.K. Dobbins were both limited. Re-adding him would reverse a same-day drop."
+     "label": "What it changes",
+     "body": "You already bought the fix on 24 Sep: Gadsden, for nothing. The first card only decides when to use him."
     },
     {
      "label": "Falsified if",
-     "body": "Coleman leads Denver's backfield on Sunday while Tate is held under four targets. Then dropping him was the mistake, not claiming him."
+     "body": "Loveland draws six or more targets on Monday with Keenum. That would say the blocking role was about the game plan, not a role he's stuck in."
     }
    ],
-   "sources": "ESPN league file · Denver Gazette · PFN"
+   "sources": "CBS Sports · waiver_analysis.py"
   }
  ],
  "roster": {
   "state": "THURSDAY",
-  "footnote": "Golden and Lloyd play tonight at 18:15 Mexico City, benched. Barkley and Loveland play Monday at 18:15. Every tile is dashed: no clean 2026 defence-versus-position table loaded, so these are unchecked, not average.",
+  "footnote": "Golden and Lloyd play tonight at 18:15 Mexico City, on the bench, which is correct by projection. Barkley and Loveland play Monday at 18:15. Grades use footballdb's 2026 points-allowed table (standard scoring, two games, 1st = fewest allowed). That's a thin sample. Kicker and D/ST aren't graded.",
   "lineupCheck": {
-   "asSet": 119.9,
+   "asSet": 120.1,
    "best": 120.1,
-   "gap": 0.2,
-   "verdict": "One coin flip: Tate over Vele in the flex, 11.8 to 11.6. Taking the projection, no thesis."
+   "gap": 0.0,
+   "verdict": "The lineup as set is the projection lineup. Tate went into the flex at 16:39 UTC, which was this morning's coin flip."
   },
   "starting": [
    {
@@ -176,10 +144,11 @@
     "slot": "QB",
     "position": "QB",
     "team": "JAX",
-    "detail": "JAX · vs NE · SUN 11:00 · No health concern (SI, 24 Sep). He's now the only quarterback on the roster — Stafford was dropped at 22:24. Starts.",
+    "detail": "JAX · vs NE · SUN 11:00 · No ESPN injury tag. Not re-researched this run. Your only quarterback. New England have allowed the 3rd-fewest QB points. That's a thin sample, and it doesn't change who starts.",
     "projection": 16.4,
     "tier": "SOLID",
-    "notResearched": true
+    "grade": "POOR",
+    "gradeEvidence": "3rd vs QB (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4242335,
@@ -187,10 +156,11 @@
     "slot": "RB",
     "position": "RB",
     "team": "IND",
-    "detail": "IND · vs HOU · SUN 11:00 · Stud, starts. Not searched this run.",
+    "detail": "IND · vs HOU · SUN 11:00 · Limited Wednesday, full Thursday (Colts report via Yahoo). Stud, starts through the matchup.",
     "projection": 20.7,
     "tier": "ELITE",
-    "notResearched": true
+    "grade": "POOR",
+    "gradeEvidence": "2nd vs RB (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 3929630,
@@ -198,10 +168,11 @@
     "slot": "RB",
     "position": "RB",
     "team": "PHI",
-    "detail": "PHI · at CHI · MON 18:15 · QUESTIONABLE · neck stinger in Week 2, played 16% of snaps. The MRI result hasn't been reported (Inside the Iggles, 24 Sep: 'no word on the severity'). Plays Monday, after Tuten has locked on Sunday. See the ghost card.",
+    "detail": "PHI · at CHI · MON 18:15 · QUESTIONABLE · practised Thursday in a cowboy collar after the Week 2 stinger (RotoWire, NBC Sports Philadelphia). Trending toward playing. The Tuten fallback card covers the rest.",
     "projection": 17.4,
     "tier": "SOLID",
-    "notResearched": true
+    "grade": "GOOD",
+    "gradeEvidence": "23rd vs RB (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4428331,
@@ -209,10 +180,11 @@
     "slot": "WR",
     "position": "WR",
     "team": "KC",
-    "detail": "KC · at MIA · SUN 11:00 · On the report with a knee, but a full participant Wednesday, like Mahomes (Chiefs.com). Kansas City are 11.5-point favourites. The sell-high thesis is decided by this game.",
+    "detail": "KC · at MIA · SUN 11:00 · Full practice Thursday with the knee tag, like Mahomes (104.7 The Cave). This game decides the sell-high thesis.",
     "projection": 12.8,
     "tier": "SOLID",
-    "notResearched": true
+    "grade": "POOR",
+    "gradeEvidence": "6th vs WR (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4569618,
@@ -220,21 +192,23 @@
     "slot": "WR",
     "position": "WR",
     "team": "NYJ",
-    "detail": "NYJ · at DET · SUN 11:00 · Geno Smith throwing. Adonai Mitchell took a team-high 12 targets in Week 2 (DraftKings Network) — watch the split. Jets implied about 20.5.",
+    "detail": "NYJ · at DET · SUN 11:00 · The Jets have four healthy receivers: Cooper has a high ankle sprain, Arian Smith is out for the season, and Mitchell was added Thursday with a finger injury (The Jet Press). TE Mason Taylor is unlikely (Last Word On Sports). The targets are concentrating on him.",
     "projection": 14.8,
     "tier": "SOLID",
-    "notResearched": true
+    "grade": "GREAT",
+    "gradeEvidence": "27th vs WR (footballdb, standard scoring, Weeks 1-2)"
    },
    {
-    "playerId": 4569559,
-    "name": "Devaughn Vele",
+    "playerId": 4871023,
+    "name": "Carnell Tate",
     "slot": "FLEX",
     "position": "WR",
-    "team": "NO",
-    "detail": "NO · vs LV · SUN 14:25 · Tyler Shough throwing — 25.2 and 22.4 fantasy points in two starts (PFN). 5 catches on 7 targets in Week 2 (NBC). The first card benches him for Tate on projection.",
-    "projection": 11.6,
+    "team": "TEN",
+    "detail": "TEN · at NYG · SUN 11:00 · Cam Ward throwing. Not re-researched this run. This morning: 11 targets in two games, but Ward threw only 20 passes in Week 2 (CBS, NBC). In the flex by projection, 11.8 to Vele's 11.6.",
+    "projection": 11.8,
     "tier": "DEPTH",
-    "notResearched": true
+    "grade": "GOOD",
+    "gradeEvidence": "22nd vs WR (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4723086,
@@ -242,10 +216,11 @@
     "slot": "TE",
     "position": "TE",
     "team": "CHI",
-    "detail": "CHI · vs PHI · MON 18:15 · READ THIS · Case Keenum was the only Bears quarterback practising Wednesday; Caleb Williams (hamstring) did walkthrough only; Bagent is in the concussion protocol (SI, ESPN). CBS: 1 catch for 3 yards on 5 targets so far. He leads the team in routes but is being kept in to block.",
+    "detail": "CHI · vs PHI · MON 18:15 · READ THIS · Caleb Williams missed practice again Thursday (NBC Sports). Case Keenum is tracking toward the start (Bleacher Nation), with Bagent in the concussion protocol. 1 catch on 5 targets so far (CBS).",
     "projection": 9.7,
     "tier": "DEPTH",
-    "notResearched": true
+    "grade": "POOR",
+    "gradeEvidence": "3rd vs TE (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": -16019,
@@ -253,7 +228,7 @@
     "slot": "D/ST",
     "position": "DST",
     "team": "NYG",
-    "detail": "NYG · vs TEN · SUN 11:00 · Brian Burns is out (Giants.com DNP, Yardbarker). FantasyPros DST10 (6.32). Giants are 2.5-point favourites and Tennessee are implied about 18.5.",
+    "detail": "NYG · vs TEN · SUN 11:00 · Brian Burns didn't practise Wednesday and is out for the week (Giants.com). This morning's source had them FantasyPros DST10.",
     "projection": 7.1,
     "tier": "DEPTH",
     "notResearched": true
@@ -264,7 +239,7 @@
     "slot": "K",
     "position": "K",
     "team": "SEA",
-    "detail": "SEA · at WSH · SUN 11:00 · PFN K5. Free agents: Trey Smack K4 (9.1 here) and Pineiro K17 (9.8 on ESPN). One rank isn't worth a move. Hold.",
+    "detail": "SEA · at WSH · SUN 11:00 · PFN's updated board (22 Sep) has him K5 against a Washington team starting Mariota. The best free agent, Trey Smack, is K4. One rank isn't worth a move. Hold.",
     "projection": 9.4,
     "tier": "SOLID",
     "notResearched": true
@@ -277,10 +252,11 @@
     "slot": "BN",
     "position": "RB",
     "team": "JAX",
-    "detail": "JAX · vs NE · SUN 11:00 · Leads Jacksonville's backs in snaps and carries (SI, 24 Sep). He's Barkley's cover and the piece in the Lamar offer.",
-    "projection": 11,
+    "detail": "JAX · vs NE · SUN 11:00 · No ESPN tag; I didn't check the Jaguars' Thursday report. Barkley's cover and the piece in the Lamar offer.",
+    "projection": 11.0,
     "tier": "DEPTH",
-    "notResearched": true
+    "grade": "SHAKY",
+    "gradeEvidence": "9th vs RB (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4429023,
@@ -288,10 +264,11 @@
     "slot": "BN",
     "position": "RB",
     "team": "GB",
-    "detail": "GB · vs ATL · THU 18:15 · Plays TONIGHT, benched. Josh Jacobs is on the Commissioner's Exempt List (SI, 21 Sep). Love's elbow is a 'non-issue', but RT Bako-Bewele is out for the season (Heavy). No 2026 reporting on Lloyd's share.",
+    "detail": "GB · vs ATL · THU 18:15 · Plays TONIGHT, on the bench. Josh Jacobs is still on the Commissioner's Exempt List and misses tonight (AtoZ Sports, 24 Sep). Lindy's expect Lloyd to be the most-used back.",
     "projection": 8.7,
     "tier": "DEPTH",
-    "notResearched": true
+    "grade": "POOR",
+    "gradeEvidence": "8th vs RB (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4701936,
@@ -299,10 +276,23 @@
     "slot": "BN",
     "position": "WR",
     "team": "GB",
-    "detail": "GB · vs ATL · THU 18:15 · Plays TONIGHT, benched. Jayden Reed doubtful (SI) and Jordan Love plays. 18 targets in two games. Below Tate and Vele by projection.",
+    "detail": "GB · vs ATL · THU 18:15 · Plays TONIGHT, on the bench. Jayden Reed (neck) is out indefinitely; Lindy's call Golden a weekly WR2/WR3 now. Projected 11.4, below Tate's 11.8, so the flex stays with Tate. That's a coin flip, so take the projection.",
     "projection": 11.4,
     "tier": "DEPTH",
-    "notResearched": true
+    "grade": "SHAKY",
+    "gradeEvidence": "14th vs WR (footballdb, standard scoring, Weeks 1-2)"
+   },
+   {
+    "playerId": 4569559,
+    "name": "Devaughn Vele",
+    "slot": "BN",
+    "position": "WR",
+    "team": "NO",
+    "detail": "NO · vs LV · SUN 14:25 · Tyler Shough throwing; Sharp Football have New Orleans implied at 23.5. Benched at 16:39 for Tate on projection. Las Vegas have allowed the 5th-fewest WR points.",
+    "projection": 11.6,
+    "tier": "DEPTH",
+    "grade": "POOR",
+    "gradeEvidence": "5th vs WR (footballdb, standard scoring, Weeks 1-2)"
    },
    {
     "playerId": 4595342,
@@ -310,21 +300,11 @@
     "slot": "BN",
     "position": "TE",
     "team": "LAC",
-    "detail": "LAC · at BUF · SUN 11:00 · Chargers' only active tight end — Njoku and Kolar are on IR for at least four games, and Harbaugh has 'a lot of confidence' in him (Chargers.com, 21 Sep). Herbert healthy. The ghost card starts him if Chicago's quarterback falls through.",
+    "detail": "LAC · at BUF · SUN 11:00 · The Chargers' only active tight end, with Njoku and Kolar on IR (Chargers.com, 21 Sep; not re-checked today). He starts if Chicago's quarterback falls through (first card).",
     "projection": 8.7,
     "tier": "SOLID",
-    "notResearched": true
-   },
-   {
-    "playerId": 4871023,
-    "name": "Carnell Tate",
-    "slot": "BN",
-    "position": "WR",
-    "team": "TEN",
-    "detail": "TEN · at NYG · SUN 11:00 · Cam Ward throwing. 11 targets in two games; led Tennessee with 5 in Week 2, but Ward threw only 20 passes (CBS, NBC). Added free at 01:28, no priority spent. The first card puts him in the flex.",
-    "projection": 11.8,
-    "tier": "DEPTH",
-    "notResearched": true
+    "grade": "GOOD",
+    "gradeEvidence": "21st vs TE (footballdb, standard scoring, Weeks 1-2)"
    }
   ]
  },
@@ -334,7 +314,7 @@
    "partnerName": "Team 13",
    "odds": "LONGSHOT",
    "yourGain": 3.7,
-   "theirGainLine": "Their gain is +1.6 a week. Tuten replaces Rachaad White's 9.4 at RB2, and Lamar scores them nothing behind Josh Allen.",
+   "theirGainLine": "Their gain is +1.6 a week. Tuten replaces Rachaad White's 9.4 at RB2, and Lamar scores them nothing sitting behind Josh Allen.",
    "youGive": [
     {
      "playerId": 4882093,
@@ -353,24 +333,24 @@
    ],
    "case": [
     {
-     "label": "Re-checked this morning",
-     "body": "Lamar is still in slot 20 behind Allen in slot 0; White still starts at RB2. Team 13 moved Worthy in for DJ Moore at 01:24, which doesn't touch either side. Recomputed: Bloodsports 119.8 → 123.5, Team 13 +1.6. Lamar has no injury note this week."
+     "label": "Re-checked this afternoon",
+     "body": "Recomputed from the 21:53 snapshot, not copied from this morning. Lamar is still in slot 20 behind Allen in slot 0, and White still starts at RB2. Bloodsports' best lineup goes 120.1 to 123.8; Team 13's goes 123.6 to 125.2."
     },
     {
-     "label": "New since last night",
-     "body": "Stafford is gone, so Lawrence is your only quarterback. Lamar would also be your bye-week and injury cover."
+     "label": "What moved today",
+     "body": "Barkley practised Thursday (RotoWire). The one falsifier that could have made Tuten a forced starter this week is further away."
     },
     {
      "label": "Honest risk",
-     "body": "Season projections make it lopsided — Lamar 297.3, Tuten 166.9 — which is why it's a longshot. It works for them only on a weekly lineup view. It also takes Barkley's cover off the roster in a week when Barkley's neck is unresolved."
+     "body": "On season projections it's lopsided: Lamar 297.3, Tuten 166.9. That's why it's a longshot. It only works for them on a weekly lineup view. It also takes Barkley's cover off your roster."
     },
     {
      "label": "Falsified if",
-     "body": "Team 13 start a second real back or trade a quarterback, Lamar lands on Baltimore's report, or Barkley is ruled out and Tuten has to start. Don't re-send; respond only if they open the conversation."
+     "body": "Team 13 start a second real back or trade a quarterback, Lamar lands on Baltimore's report, or Barkley is ruled out and Tuten has to start. Don't send it again; only respond if they open the conversation."
     }
    ],
-   "sources": "ESPN league file · Inside the Iggles",
-   "copyText": "Hi — would you do Lamar for Bhayshul Tuten? Lamar sits behind Allen and can't score for you, and Tuten goes straight into your RB2 ahead of White — about +1.6 a week to your lineup. Propose it in ESPN if you're in."
+   "sources": "ESPN league file · RotoWire",
+   "copyText": "Hi, would you do Lamar for Bhayshul Tuten? Lamar sits behind Allen and can't score for you, and Tuten goes straight into your RB2 ahead of White. That's about +1.6 a week to your lineup. Propose it in ESPN if you're in."
   }
  ],
  "worthALook": [
@@ -378,70 +358,70 @@
    "playerId": 4688813,
    "name": "Josh Downs",
    "positionTeam": "WR · IND",
-   "ownership": "72.67% owned",
+   "ownership": "73.42% owned",
    "tier": "DEPTH",
-   "lead": "The condition in last night's decline fired: Alec Pierce is on IR. Still not an add today.",
+   "lead": "The injury worry from this morning didn't hold up. Still not an add today.",
    "case": [
     {
      "label": "The role",
-     "body": "Pierce (heel) went on IR on 23 Sep (NBC). Downs caught 7 of 9 targets for 72 yards in Week 2 after Pierce left, so he's now the Colts' WR1/2 for at least four weeks. Free agent, no priority cost."
+     "body": "Alec Pierce is on IR with the heel, a minimum of four games (Colts Thursday report via Yahoo). Downs isn't on that report, so the injury headline this morning's brief couldn't check looks like August's calf, not a new problem."
     },
     {
      "label": "Why not now",
-     "body": "He projects 11.4, the same as Golden and below Tate and Vele, so he doesn't start this week. The only bench seats are Tate and Gadsden (added in the last day), Tuten (Barkley's cover and the trade piece) and Lloyd and Golden (both play tonight). A Yahoo headline mentions a Downs injury that I didn't check."
+     "body": "He'd need a bench seat. The only clearable ones are Golden and Lloyd, who both play tonight; Vele, who was just benched; and seats that changed hands in the last seven days. Houston have allowed the 2nd-fewest RB points but the most WR points, which helps Downs. That's one week's matchup, not a role."
     },
     {
      "label": "When to act",
-     "body": "Next week, if Golden's role shrinks tonight with Reed back or Tate stays under five targets. Check the Yahoo item first."
+     "body": "Next week, if Golden's role shrinks tonight or Tate stays under five targets on Sunday. He's a free agent, so it costs no priority."
     }
    ],
-   "sources": "NBC Sports · ESPN league file"
+   "sources": "Yahoo (Colts report) · footballdb"
   },
   {
    "playerId": 4597500,
    "name": "Adonai Mitchell",
    "positionTeam": "WR · NYJ",
-   "ownership": "31.62% owned",
+   "ownership": "33.18% owned",
    "tier": "DEPTH",
-   "lead": "The receiver taking targets from your own starter.",
+   "lead": "The receiver taking targets from your own starter, and now he's on the injury report.",
    "case": [
     {
      "label": "The role",
-     "body": "9 catches on 15 targets for 123 yards through two weeks, including a team-high 12 targets in Week 2 (DraftKings Network). Geno Smith throwing."
+     "body": "Team-high 12 targets in Week 2. The Jets are down to four healthy receivers (The Jet Press, 24 Sep)."
     },
     {
-     "label": "Why not now",
-     "body": "He wouldn't start over Tate or Vele, and every clearable seat changed hands in the last day."
+     "label": "The new risk",
+     "body": "Added to Thursday's report as limited with a finger injury. He wasn't on Wednesday's. If he sits, those targets go to Garrett Wilson, who you start."
     },
     {
      "label": "When to act",
-     "body": "If he again out-targets Garrett Wilson at Detroit. Wrong if Wilson draws nine or more and Mitchell fewer than six."
+     "body": "If he again out-targets Wilson at Detroit. Wrong if Wilson draws nine or more targets and Mitchell fewer than six."
     }
    ],
-   "sources": "DraftKings Network"
+   "sources": "The Jet Press"
   },
   {
    "playerId": -16029,
    "name": "Panthers D/ST",
    "positionTeam": "D/ST · CAR",
-   "ownership": "37.4% owned",
+   "ownership": "40.89% owned",
    "tier": "DEPTH",
    "lead": "The defence comparison, answered hold for now.",
    "case": [
     {
      "label": "The comparison",
-     "body": "FantasyPros rank Carolina DST2 (6.94) at Cleveland and the Giants DST10 (6.32). ESPN here has 7.3 to 7.1. The Giants have lost Brian Burns for the week."
+     "body": "ESPN here has Carolina 7.3 to the Giants' 7.1. That's a 0.2 gap, and the Giants have lost Brian Burns for the week."
     },
     {
      "label": "The problem",
-     "body": "Devin Lloyd (calf) and Jaelan Phillips (back) didn't practise Wednesday and are day-to-day (PFT, Panthers.com). Lloyd was NFC Defensive Player of the Week."
+     "body": "Devin Lloyd (calf) and Jaelan Phillips (back) didn't practise Wednesday (Athlon). I couldn't find Thursday's Panthers report."
     },
     {
      "label": "When to act",
      "body": "If Lloyd and Phillips both practise fully on Friday. It's a free-agent swap, so no priority."
     }
    ],
-   "sources": "FantasyPros · PFT · Panthers.com · Giants.com"
+   "sources": "Athlon · Giants.com · ESPN league file"
   }
  ],
  "doNotChase": [
@@ -449,69 +429,83 @@
    "playerId": 4360689,
    "name": "Tyler Shough",
    "positionTeam": "QB · NO",
-   "ownership": "+8.03 owned",
+   "ownership": "+4.69 owned",
    "tier": "DEPTH",
-   "lead": "Projects above Lawrence and is free. The case rests on two box scores.",
+   "lead": "He projects above Lawrence and he's free. The case for him is two box scores.",
    "case": [
     {
      "label": "The case for",
-     "body": "25.2 and 22.4 fantasy points in his two starts (PFN). ESPN projects him 17.7 to Lawrence's 16.4."
+     "body": "QB8 two weeks running despite poor first halves, and New Orleans are implied at 23.5 against Las Vegas (Sharp Football). ESPN projects him 17.7 to Lawrence's 16.4."
     },
     {
      "label": "The number that kills it",
-     "body": "Two box scores. This quarterback slot lost 42.8 points in two weeks by chasing box scores. Lawrence has no health issue (SI, 24 Sep)."
+     "body": "The case is two box scores. This quarterback slot lost 42.8 points in two weeks by chasing box scores. Lawrence has no injury, and Shough's matchup isn't softer: Las Vegas have allowed the 6th-fewest QB points, New England the 3rd-fewest (footballdb)."
     },
     {
      "label": "What would change it",
-     "body": "Lawrence getting hurt. Then Shough's the free-agent answer, and there's no back-up quarterback on the roster any more."
+     "body": "Lawrence getting hurt. Then Shough is the free-agent answer, and you have no back-up quarterback on the roster."
     }
    ],
-   "sources": "PFN · SI · ESPN league file"
+   "sources": "Sharp Football · footballdb · ESPN league file"
   },
   {
    "playerId": 4047365,
    "name": "Josh Jacobs",
    "positionTeam": "RB · GB",
-   "ownership": "84.63% owned",
+   "ownership": "-0.35 owned",
    "tier": "DEPTH",
    "lead": "The best-looking name on the wire, and he isn't playing.",
    "case": [
     {
      "label": "The fact",
-     "body": "Still on the Commissioner's Exempt List (SI, 21 Sep). ESPN labels him DAY_TO_DAY and his season projection reads 167.6, and neither reflects that."
+     "body": "Still on the Commissioner's Exempt List and misses tonight. On 24 Sep a court declined to seal the evidence, which AtoZ Sports say could affect how long he's suspended. ESPN labels him DAY_TO_DAY with a 167.6 season projection, and neither reflects any of that."
     },
     {
      "label": "What would change it",
      "body": "The NFL reinstating him AND Green Bay activating him. Even then, Lloyd is already on your roster."
     }
    ],
-   "sources": "SI"
+   "sources": "AtoZ Sports"
   },
   {
    "playerId": 4429013,
    "name": "Tank Bigsby",
    "positionTeam": "RB · PHI",
-   "ownership": "+3.69 owned",
+   "ownership": "+2.47 owned",
    "tier": "DEPTH",
-   "lead": "A handcuff to your own back, and not a clean one.",
+   "lead": "A handcuff to your own back, and Thursday made him less useful.",
    "case": [
     {
      "label": "The fact",
-     "body": "13 carries for 33 yards and a TD while Barkley played 16% of Week 2. If Barkley sits, Bigsby and Will Shipley would split the work (Inside the Iggles, 24 Sep)."
+     "body": "His whole rise, 1 to 16 opportunities, came while Barkley played 16% of Week 2 with the stinger. Barkley practised Thursday (RotoWire)."
     },
     {
      "label": "What would change it",
-     "body": "Barkley ruled out for multiple weeks with Bigsby named the lead. Tuten covers first either way."
+     "body": "Barkley ruled out for more than a week, with Bigsby named the lead back. Tuten covers first either way."
     }
    ],
-   "sources": "FantasyPros · Inside the Iggles"
+   "sources": "RotoWire · waiver_analysis.py"
   }
  ],
  "waiverAnalysis": {
   "verdict": "QUESTIONS",
-  "summary": "Eight risers and two fallers, from two weeks of data — a thin sample. None is an add today. Downs has the strongest role reason, but he doesn't start and there's no open seat.",
+  "summary": "Eight risers and two fallers from two weeks of data, which is a thin sample. None is an add today. Bateman has the strongest role reason this afternoon, but he doesn't start for you and there's no open seat.",
   "weeks": 2,
   "rising": [
+   {
+    "playerId": 4360939,
+    "name": "Rashod Bateman",
+    "position": "WR",
+    "opportunities": [
+     1.5,
+     13.5
+    ],
+    "ppg": 10.9,
+    "trend": 12.0,
+    "roleReason": "Zay Flowers didn't practise Wednesday and SI (24 Sep) call him unlikely for Week 3. Bateman played 93% of snaps and went 7-9-88-1 without Flowers. The role lasts only while Flowers is out.",
+    "action": "WATCH — A free agent until Sunday 14:25; the decision is Friday's Flowers ruling, and even then he has no seat over Tate or Vele",
+    "sources": "SI"
+   },
    {
     "playerId": 4597500,
     "name": "Adonai Mitchell",
@@ -522,9 +516,9 @@
     ],
     "ppg": 10.7,
     "trend": 13.5,
-    "roleReason": "Team-high 12 targets in Week 2 and 15 across two games (DraftKings Network); Geno Smith throwing. Real volume, not an injury fill-in",
-    "action": "WATCH — no open seat, and he doesn't start over Tate or Vele",
-    "sources": "DraftKings Network"
+    "roleReason": "Real volume in a receiver room down to four: Cooper has a high ankle sprain, Arian Smith an ACL tear. New: limited Thursday with a finger injury (The Jet Press)",
+    "action": "WATCH — No open seat, and a new injury tag",
+    "sources": "The Jet Press"
    },
    {
     "playerId": 4688813,
@@ -536,23 +530,9 @@
     ],
     "ppg": 9.9,
     "trend": 7.5,
-    "roleReason": "Alec Pierce (heel) placed on IR 23 Sep (NBC); Downs caught 7 of 9 after Pierce left in Week 2. Colts WR1/2 for at least four weeks",
-    "action": "WATCH — role holds, but he projects equal to Golden and has no seat this week",
-    "sources": "NBC Sports"
-   },
-   {
-    "playerId": 4360939,
-    "name": "Rashod Bateman",
-    "position": "WR",
-    "opportunities": [
-     1.5,
-     13.5
-    ],
-    "ppg": 10.9,
-    "trend": 12.0,
-    "roleReason": "Zay Flowers (hamstring) didn't practise Wednesday (ESPN's Hensley via NBC). Bateman's role exists only while Flowers is out",
-    "action": "WATCH — only if Baltimore rule Flowers out, and there's no seat",
-    "sources": "NBC Sports"
+    "roleReason": "Alec Pierce is on IR for at least four games (Colts report via Yahoo). Downs isn't on the Thursday report",
+    "action": "WATCH — The role holds, but he projects below Tate and Vele and there's no seat",
+    "sources": "Yahoo"
    },
    {
     "name": "Xavier Hutchinson",
@@ -563,9 +543,9 @@
     ],
     "ppg": 6.5,
     "trend": 4.5,
-    "roleReason": "Moves up if Nico Collins' hamstring keeps him out (NBC, 21 Sep), but Dalton Schultz has been taking Houston's volume (PFN). Low production for the volume",
-    "action": "WATCH — not in the league file's wire list; injury fill-in at best",
-    "sources": "NBC Sports · PFN"
+    "roleReason": "Moves up only while Nico Collins is out. SI (23 Sep) expect another Collins absence, but the volume runs through Dalton Schultz, and Hutchinson, Boutte and Noel combined for seven catches in Week 2",
+    "action": "WATCH — At best he's filling in for an injured player, and he isn't in the league file's wire list",
+    "sources": "SI"
    },
    {
     "playerId": 4429059,
@@ -577,9 +557,9 @@
     ],
     "ppg": 6.8,
     "trend": 6.5,
-    "roleReason": "No 2026 reporting on his backfield share; NBC (21 Sep) mention him only as a possible beneficiary of Collins' hamstring. Volume that hasn't produced",
-    "action": "WATCH — no role reason found",
-    "sources": "NBC Sports"
+    "roleReason": "No 2026 reporting found on his share of the backfield. Volume that hasn't produced, which STRATEGY section 2 calls a warning. Houston's opponent has allowed the 3rd-most RB points",
+    "action": "WATCH — No role reason found",
+    "sources": "footballdb"
    },
    {
     "playerId": 4429013,
@@ -591,9 +571,9 @@
     ],
     "ppg": 6.1,
     "trend": 15.0,
-    "roleReason": "All of the rise came while Barkley played 16% of snaps with a stinger; he'd split with Shipley if Barkley sits (Inside the Iggles). A handcuff, not a breakout",
+    "roleReason": "All of the rise came while Barkley played 16% with a stinger. Barkley practised Thursday in a cowboy collar (RotoWire). A handcuff, not a breakout",
     "action": "HOLD off — Tuten covers Barkley first",
-    "sources": "FantasyPros · Inside the Iggles"
+    "sources": "RotoWire"
    },
    {
     "playerId": 4702555,
@@ -605,9 +585,9 @@
     ],
     "ppg": 7.4,
     "trend": 14.5,
-    "roleReason": "Dropped by you this morning. He didn't practise Wednesday with the ankle; Harvey and Dobbins were both limited (Denver Gazette). PFN's 20 Sep 'in line for work' came before the ankle",
-    "action": "WATCH — re-adding would reverse a same-day drop",
-    "sources": "Denver Gazette · PFN"
+    "roleReason": "You dropped him on 24 Sep. He didn't practise Wednesday with the ankle, while Dobbins and Harvey were limited (ESPN, PFT). I found no Thursday update",
+    "action": "WATCH — Re-adding him would reverse a drop made one day ago",
+    "sources": "ESPN · NBC Sports (PFT)"
    },
    {
     "playerId": 4241474,
@@ -619,9 +599,9 @@
     ],
     "ppg": 5.9,
     "trend": 5.0,
-    "roleReason": "Bijan Robinson's backup; a stash only in case Bijan gets hurt (PFN, 20 Sep)",
-    "action": "WATCH — no path to a lead role",
-    "sources": "PFN"
+    "roleReason": "Not re-researched this run. This morning's source (PFN, 20 Sep): Bijan Robinson's backup, a stash only if Bijan gets hurt",
+    "action": "WATCH — No path to a lead role",
+    "sources": "PFN (carried from the morning run)"
    }
   ],
   "falling": [
@@ -635,9 +615,9 @@
     ],
     "ppg": 0.7,
     "rank": 11,
-    "roleReason": "Leads the Bears in routes but is kept in to block; 1 catch on 5 targets (CBS). Chicago's quarterback unresolved — Keenum the only one practising Wednesday (SI)",
-    "action": "HOLD — Gadsden is the conditional start if Williams is out",
-    "sources": "CBS Sports · SI"
+    "roleReason": "Leads the Bears in routes but is kept in to block, 1 catch on 5 targets (CBS). Caleb Williams missed practice again Thursday (NBC) and Keenum is tracking toward the start",
+    "action": "HOLD — Gadsden is the fallback start if Williams is out",
+    "sources": "CBS Sports · NBC Sports"
    },
    {
     "playerId": 4595342,
@@ -648,9 +628,9 @@
      3.0
     ],
     "ppg": 7.5,
-    "rank": 19,
-    "roleReason": "His two low weeks came behind Njoku and Kolar; both are now on IR and he's the only active Chargers tight end (Chargers.com). The role expands from Week 3",
-    "action": "HOLD — the low-usage data came before the role changed",
+    "rank": 20,
+    "roleReason": "His two low weeks came behind Njoku and Kolar. Both are now on IR and he's the Chargers' only active tight end (Chargers.com, 21 Sep). The role expands from Week 3",
+    "action": "HOLD — The tool is reading the old depth chart",
     "sources": "Chargers.com"
    }
   ]
@@ -659,7 +639,7 @@
   {
    "correct": false,
    "title": "Claim Jonah Coleman with never-resetting priority (23 Sep)",
-   "result": "He didn't practise Wednesday, and he was dropped this morning without playing. Priority 3 → 6, permanently."
+   "result": "He didn't practise Wednesday and was dropped the next morning without playing. Priority went 3 → 6, permanently."
   },
   {
    "correct": false,
@@ -669,7 +649,7 @@
   {
    "correct": true,
    "title": "Don't claim Carnell Tate; take him if he clears (23 Sep)",
-   "result": "He cleared unclaimed and you added him free at 01:28. Priority kept at 6, and the lineup check now starts him."
+   "result": "He cleared unclaimed and you added him free. Priority kept at 6, and he's now in your flex."
   },
   {
    "correct": true,
@@ -680,23 +660,23 @@
  "cannotSee": [
   {
    "label": "Saturday's reports",
-   "body": "Chicago's quarterback and Barkley's neck both resolve on reports that come after this brief. The two ghost cards wait for them."
-  },
-  {
-   "label": "Barkley's MRI",
-   "body": "No result has been reported. That's missing information, not good news."
+   "body": "Chicago's quarterback and Barkley's official status both come out after this brief. The two fallback cards wait for them."
   },
   {
    "label": "Tonight's game",
-   "body": "Golden and Lloyd play tonight; their result doesn't change your lineup, but it's after this brief."
+   "body": "Golden and Lloyd play at 18:15, after this brief. Their result doesn't change your lineup; Tate has the flex by projection."
+  },
+  {
+   "label": "Whether JuiceJam fix Collins",
+   "body": "Your 52% depends on them leaving a 0.0 in the lineup. Nothing here can see what they'll do."
   },
   {
    "label": "Matchup tiles",
-   "body": "No clean 2026 defence-versus-position table loaded; the only one that did blends 80% 2025 data. All fourteen tiles are dashed."
+   "body": "The grades come from footballdb's 2026 table: standard scoring, not PPR, and two games. Kicker and D/ST are marked not researched rather than guessed."
   },
   {
    "label": "Rival claims",
-   "body": "ESPN returns only your own pending claims, so nobody else's queued claims are visible here."
+   "body": "ESPN only returns your own pending claims, so nobody else's queued claims are visible."
   },
   {
    "label": "The one-week horizon on the trade",
