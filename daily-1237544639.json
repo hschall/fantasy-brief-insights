@@ -1,1 +1,407 @@
-{"week":3,"leagueName":"Chem","teamName":"AVIATO","generatedAt":"2026-09-24T04:40:00Z","snapshotNote":"Snapshot 03:52 UTC 24 Sep · Wednesday 21:52 Mexico City · nothing on this roster kicks off before Sunday 11:00 · this brief does not refresh on its own","sources":"Built from 21 searches · ESPN, CBS Sports, NBC Sports, FantasyPros, Denver Gazette, Panthers.com, BaltimoreRavens.com, SI, The Grey Manes, Yardbarker, BearsTalk, RotoWire, The Fantasy Footballers","tonight":{"headline":"Your defence slot is still empty — and the defence this afternoon's brief chose just lost two starters","status":"TIED","winProbability":53,"myScore":0.0,"theirScore":0.0,"opponent":"Footballers","body":["Week 3 has not started. ESPN has you at 126.7 projected against Footballers' 120.1, a 53% win probability — and that number already counts a zero at D/ST, because there is nobody in the slot.","This afternoon's card said add the Bengals. Since then Cincinnati's Wednesday report ruled out defensive tackles Jonathan Allen and B.J. Hill, which is exactly the condition the card said would make it wrong. The card is now the Lions, same drop. Everything else in the lineup is already the projection lineup."],"case":[{"label":"What the file says","body":"Fourteen players, nine starting slots, one of them empty. ESPN projects the best free-agent defence at 7.8. Your margin over Footballers is 6.6 before that is filled."},{"label":"The script that beats you","body":"Footballers start Matthew Stafford because Caleb Williams is listed doubtful, and Brock Bowers and Malik Nabers are both questionable. If Bowers plays a full game, their tight end outscores yours by about two points, which is inside your margin only if the defence slot is filled."},{"label":"Falsified if","body":"Footballers pick up a healthy quarterback or both Bowers and Nabers clear Friday with full practices — then the matchup is a genuine coin flip and the defence becomes the deciding seat rather than a cushion."}],"caseSources":"ESPN league file · CBS Sports"},"doFirst":[{"id":"chem-add-lions-dst-2026-09-24","tier":"ELITE","urgency":"Before Sunday","kind":"Free-agent add","deadlineLabel":"Detroit kick off Sunday 11:00 Mexico City","deadline":"2026-09-27T17:00:00Z","title":"Add the Lions D/ST, drop Jonah Coleman","subtitle":"Free agent, no priority spent. It replaces a guaranteed zero — and replaces this afternoon's Bengals pick, which lost two defensive tackles on Wednesday's report.","case":[{"label":"Why not the Bengals any more","body":"CBS Sports' Week 3 report lists Cincinnati DTs Jonathan Allen (knee) and B.J. Hill (Achilles) out. This afternoon's card named 'Cincinnati lose a front-seven starter' as its falsifier; it lost two before the card was even acted on."},{"label":"Why Detroit","body":"FantasyPros rank the Lions DST6 at home to the Jets, and Geno Smith took four sacks last week. The Jets did not practise safety Minkah Fitzpatrick, LB Francisco Mauigoa or TE Mason Taylor on Wednesday. ESPN has Detroit at 7.8, the highest free-agent defence in this file. Detroit's own report has DT Alim McNeill out of practice; The Grey Manes call it short-term."},{"label":"The alternatives","body":"Carolina rank DST2 at Cleveland, but Panthers.com report Devin Lloyd and Jaelan Phillips did not practise Wednesday. The Vikings are free again, but re-adding the unit dropped this morning is the churn this log keeps recording. Detroit is the least damaged of the top six."},{"label":"The drop","body":"Coleman did not practise Wednesday with the ankle; J.K. Dobbins and RJ Harvey were both limited, per the Denver Gazette. That makes him third in line and explains ESPN's 1.7. He came in by claim on Tuesday, so this reverses a recent move — the exception is that an empty mandatory slot costs more than churn does. Coleman, not Bateman: Bateman is the back-up plan if Zay Flowers sits."},{"label":"The collision","body":"Detroit's opponent is the Jets, and Garrett Wilson starts for you. A good day for the Lions defence usually means a quiet one for Wilson. It's a small cost next to a zero, and Cincinnati had the same problem against Jaylen Warren."},{"label":"Falsified if","body":"Detroit rule out a second front-seven starter on Friday, or the Jets change quarterback away from Geno Smith. Separately wrong if the Lions finish outside the top 15 defences while Carolina finish top five."}],"sources":"CBS Sports · FantasyPros · Panthers.com · The Grey Manes · Denver Gazette","ghost":false,"action":{"type":"ADD","playerId":-16008,"dropPlayerId":4702555,"label":"Add Lions D/ST · drop Jonah Coleman"}}],"whatWentWrong":[{"id":"w1","title":"This afternoon's defence card broke on its own condition within hours","lead":"The Bengals card said it was wrong if Cincinnati lost a front-seven starter. Wednesday's report ruled out two.","case":[{"label":"What happened","body":"The pick relied on FantasyPros' DST4 rank and on Pittsburgh's last-place offence. It did not check Cincinnati's own injury report, which already had Jonathan Allen and B.J. Hill out."},{"label":"What it changes","body":"The card at the top is now the Lions. If you already added the Bengals, keep them — don't make a second move to the same seat for about a point."},{"label":"Falsified if","body":"The Bengals defence finishes top five anyway. That would say interior linemen matter less to a unit against Aaron Rodgers than this correction assumes."}],"sources":"CBS Sports · FantasyPros"},{"id":"w2","title":"The empty slot has now survived two briefs","lead":"It has been empty since 08:37 Wednesday. Every brief that says 'do it Sunday' makes it more likely to still be empty on Sunday.","case":[{"label":"The cost","body":"Zero against roughly seven projected — the biggest single swing on this roster this week, and it is free to fix."},{"label":"When to act","body":"Tonight or tomorrow. Nothing is gained by waiting until Friday: none of the remaining Friday reports change which defence is best by more than a point."}],"sources":"ESPN league file"}],"roster":{"state":"THURSDAY","footnote":"Nine starting slots, eight filled — D/ST is empty, and that's what the first card is for. Nothing kicks off before Sunday 11:00 Mexico City. Every matchup tile is dashed: I didn't retrieve a defence-versus-position table this run, so these are unchecked, not average.","lineupCheck":{"asSet":126.8,"best":126.8,"gap":0.0,"verdict":"The lineup as set is the projection lineup; the only gap is the empty D/ST slot, which the tool does not count and the first card fills."},"starting":[{"playerId":3918298,"name":"Josh Allen","slot":"QB","position":"QB","team":"BUF","detail":"BUF · vs LAC · SUN 11:00 · no designation. Stud, starts.","projection":23.8,"tier":"LEGENDARY","notResearched":true},{"playerId":4429160,"name":"De'Von Achane","slot":"RB","position":"RB","team":"MIA","detail":"MIA · vs KC · SUN 11:00 · Malik Willis throwing, league-leading nine sacks taken (FantasyPros). A sack-prone quarterback checks down, which is volume for a receiving back in full PPR.","projection":19.4,"tier":"ELITE","notResearched":true},{"playerId":4569987,"name":"Jaylen Warren","slot":"RB","position":"RB","team":"PIT","detail":"PIT · vs CIN · SUN 11:00 · QUESTIONABLE · limited Wednesday with a shoulder (CBS). Rico Dowdle is out with the toe. Aaron Rodgers throwing. Starts unless Friday downgrades him.","projection":15.0,"tier":"SOLID","notResearched":true},{"playerId":4695883,"name":"Jalen Coker","slot":"FLEX","position":"WR","team":"CAR","detail":"CAR · at CLE · SUN 11:00 · ESPN says QUESTIONABLE, but he isn't on the Panthers' Wednesday report. The label looks left over from last week's ankle. Bryce Young throwing (not re-checked this run).","projection":13.8,"tier":"SOLID","notResearched":true},{"playerId":4262921,"name":"Justin Jefferson","slot":"WR","position":"WR","team":"MIN","detail":"MIN · at TB · SUN 14:05 · no designation. Stud, starts. Quarterback not re-checked this run.","projection":18.3,"tier":"ELITE","notResearched":true},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","detail":"NYJ · at DET · SUN 11:00 · Geno Smith throwing. Adonai Mitchell drew 12 targets (29.3%) to lead the Jets in Week 2 (CBS). Note the collision with the Lions defence on the first card.","projection":14.8,"tier":"SOLID","notResearched":true},{"playerId":4361050,"name":"Isaiah Likely","slot":"TE","position":"TE","team":"NYG","detail":"NYG · vs TEN · SUN 11:00 · Jameis Winston throwing — Jaxson Dart is out for the season with MCL/PCL/meniscus damage (CBS). Settled, not week-to-week.","projection":12.3,"tier":"ELITE","notResearched":true},{"playerId":4034949,"name":"Eddy Pineiro","slot":"K","position":"K","team":"SF","detail":"SF · vs ARI · SUN 14:05 · ESPN's K2 here at 9.4, above every free agent (Smack 8.7). Hold.","projection":9.4,"tier":"ELITE","notResearched":true}],"bench":[{"playerId":4882093,"name":"Bhayshul Tuten","slot":"BN","position":"RB","team":"JAX","detail":"JAX · vs NE · SUN 11:00 · 13 carries, 65 yards and a TD in Week 2 (NBC). Behind Warren by 4.0 projected.","projection":11.0,"tier":"DEPTH","notResearched":true},{"playerId":3121422,"name":"Terry McLaurin","slot":"BN","position":"WR","team":"WSH","detail":"WSH · vs SEA · SUN 11:00 · Marcus Mariota throwing with Daniels out; Seattle are FantasyPros' top defence this week against him.","projection":11.9,"tier":"DEPTH","notResearched":true},{"playerId":4608686,"name":"Kyle Monangai","slot":"BN","position":"RB","team":"CHI","detail":"CHI · vs PHI · MON 18:15 · QUESTIONABLE on ESPN; BearsTalk mention no injury and argue for a bigger role (4.7 ypc to Swift's 2.8). Chicago may start Case Keenum.","projection":8.5,"tier":"DEPTH","notResearched":true},{"playerId":4832800,"name":"Denzel Boston","slot":"BN","position":"WR","team":"CLE","detail":"CLE · vs CAR · SUN 11:00 · Deshaun Watson throwing. Carolina's defence is missing Lloyd and Phillips, which helps him.","projection":11.3,"tier":"DEPTH","notResearched":true},{"playerId":4702555,"name":"Jonah Coleman","slot":"BN","position":"RB","team":"DEN","detail":"DEN · vs LAR · SUN 18:20 · QUESTIONABLE · did not practise Wednesday (ankle); Dobbins and Harvey both limited. The drop on the first card.","projection":1.7,"tier":"DEPTH","notResearched":true},{"playerId":4360939,"name":"Rashod Bateman","slot":"BN","position":"WR","team":"BAL","detail":"BAL · at DAL · SUN 14:25 · in Rio · Zay Flowers did not practise Wednesday (hamstring). Bateman had 7-88-1 without him in Week 2 (Ravens.com). Friday decides his week.","projection":7.6,"tier":"DEPTH","notResearched":true}]},"trades":[],"worthALook":[{"playerId":-16029,"name":"Panthers D/ST","positionTeam":"D/ST · CAR","ownership":"35.1% owned","tier":"DEPTH","lead":"The top-ranked free-agent defence, and not the pick because of who missed practice.","case":[{"label":"The matchup","body":"FantasyPros rank Carolina DST2 at Cleveland against Deshaun Watson, projecting 6.94."},{"label":"The problem","body":"Panthers.com: LB Devin Lloyd (calf), OLB Jaelan Phillips (back) and S Nick Scott (rib) did not practise Wednesday. Lloyd was NFC Defensive Player of the Week."},{"label":"When to act","body":"Only if Lloyd and Phillips practise fully on Friday AND Detroit's report gets worse. Otherwise stay with the Lions and don't touch the seat twice."}],"sources":"FantasyPros · Panthers.com"}],"doNotChase":[{"playerId":-16004,"name":"Bengals D/ST","positionTeam":"D/ST · CIN","ownership":"+18.01 owned","tier":"DEPTH","lead":"This afternoon's pick, and the market is still buying it.","case":[{"label":"The number that kills it","body":"Two starting defensive tackles out — Jonathan Allen and B.J. Hill (CBS). The DST4 ranking was set before the report."},{"label":"What would change it","body":"Nothing this week. If you already added them, keep them: a second move to the same seat for about a point is the churn this log keeps recording."}],"sources":"CBS Sports · FantasyPros"},{"playerId":4360248,"name":"Kyle Pitts Sr.","positionTeam":"TE · ATL","ownership":"-3.71 owned","tier":"DEPTH","lead":"His quarterback problem is gone. His problem in this league isn't.","case":[{"label":"The fact","body":"CBS report Michael Penix Jr. was a full participant all week and starts Thursday. That removes the quarterback reason for dropping Pitts."},{"label":"The number that kills it","body":"Chem's flex is RB/WR only, and Likely holds the only tight-end slot. A second tight end has nowhere to play."},{"label":"What would change it","body":"Likely appearing on a Giants injury report."}],"sources":"CBS Sports"},{"playerId":4689114,"name":"Jaxson Dart","positionTeam":"QB · NYG","ownership":"63.53% owned","tier":"DEPTH","lead":"Still the biggest ownership anomaly on this wire, and still nothing.","case":[{"label":"The fact","body":"CBS: out for the season with MCL, PCL and meniscus damage."},{"label":"What would change it","body":"Nothing. You start Josh Allen in a one-quarterback league."}],"sources":"CBS Sports"}],"waiverAnalysis":{"verdict":"NOTHING","summary":"Nothing on the wire beats this roster on usage. Two weeks of data is a thin sample. The only needed add is the empty D/ST slot, which the tool doesn't check.","weeks":2,"rising":[],"falling":[]},"settled":[{"correct":false,"title":"Add the Bengals D/ST, drop Coleman (23 September, 22:10Z)","result":"Broke on its own condition before anyone acted: Allen and Hill ruled out. Replaced by the Lions card. No cost unless it was already executed."},{"correct":false,"title":"Publish the Bateman add as a ghost card (23 September, 13:05Z)","result":"It was fired within ninety minutes and took the Vikings D/ST with it. That is why the slot is empty."},{"correct":true,"title":"Hold Isaiah Likely through the Giants quarterback change (22 September)","result":"Dart is now out for the season (CBS), so Winston is the settled starter. Holding through it was right."},{"correct":true,"title":"Decline Kyle Pitts on structure rather than on the quarterback (23 September)","result":"Penix practised fully all week, so the quarterback reason went away and the structural one stayed. Graded after Thursday's game."}],"cannotSee":[{"label":"Every matchup tile is dashed","body":"I didn't retrieve a defence-versus-position table this run. All fourteen tiles are unchecked, not average."},{"label":"Friday's reports","body":"Warren (shoulder, limited), Flowers (hamstring, did not practise) and Detroit's McNeill all resolve on reports this brief can't see."},{"label":"Which drop the app applies","body":"On Wednesday a card naming Coleman as the drop resulted in the Vikings leaving the roster. Check the drop screen before you confirm."},{"label":"Quarterbacks not re-checked","body":"Jefferson's (Minnesota) and Coker's (Carolina) quarterbacks come from earlier briefs, not from this run's research."},{"label":"No trade this week","body":"Weeks 1-3 are noise by standing policy and nothing in this snapshot is a role change big enough to price a trade on."}]}
+{
+ "week": 3,
+ "leagueName": "Chem",
+ "teamName": "AVIATO",
+ "generatedAt": "2026-09-24T13:40:00Z",
+ "snapshotNote": "Snapshot 12:52 UTC 24 Sep · Thursday 06:52 Mexico City · nothing on this roster kicks off before Sunday 11:00 · this brief does not refresh on its own",
+ "sources": "Built from 36 searches (shared across both leagues) · CBS Sports, NBC Sports, FantasyPros, SI, ESPN, Chargers.com, Steelers.com, Giants.com, Chiefs.com, Vikings.com, BearsTalk, Inside the Iggles, Yardbarker, Heavy, PFN, DraftKings Network, VegasInsider, Sharp Football Analysis",
+ "tonight": {
+  "headline": "Every seat is filled, and the lineup is already the projection lineup",
+  "status": "TIED",
+  "winProbability": 57,
+  "myScore": 0.0,
+  "theirScore": 0.0,
+  "opponent": "Footballers",
+  "body": [
+   "Week 3 hasn't started. ESPN projects you 134.5 to Footballers' 120.1, a 57% win probability. The defence slot was filled at 22:25 last night with the Lions, dropping Coleman as the card said. Nothing on your roster plays tonight.",
+   "There's nothing to do until Friday's injury reports. Two things to check then: Warren's shoulder (Tuten covers, same kickoff) and Coker's ankle (expected to play)."
+  ],
+  "case": [
+   {
+    "label": "Their lineup",
+    "body": "Footballers start Matthew Stafford because Caleb Williams is doubtful, and Christian Watson plays tonight for Green Bay. Malik Nabers was limited Wednesday with a shoulder he 'popped back in' against the Rams, and Brock Bowers is questionable."
+   },
+   {
+    "label": "Where you could lose it",
+    "body": "Your 14-point edge assumes Warren plays. If he sits and nobody moves Tuten in, the slot scores zero and the margin drops to about 0 — the Week 1–2 pattern of losing games in the lineup."
+   },
+   {
+    "label": "Falsified if",
+    "body": "Nabers and Bowers both practise fully on Friday. Then their projection goes up by a few points and this is closer to a coin flip than 57% suggests."
+   }
+  ],
+  "caseSources": "ESPN league file · Steelers.com · Giants.com · Bleacher Report"
+ },
+ "doFirst": [
+  {
+   "id": "chem-ghost-tuten-if-warren-out-2026-09-24",
+   "tier": "SOLID",
+   "urgency": "Friday",
+   "kind": "Lineup",
+   "deadlineLabel": "Fallback only — check Friday's Steelers report; both kick off Sunday 11:00",
+   "deadline": "2026-09-27T17:00:00Z",
+   "title": "Only if Pittsburgh rule Warren out: start Tuten",
+   "subtitle": "Unarmed. Don't fire this today. Warren starts unless Friday's report lists him OUT or DOUBTFUL.",
+   "case": [
+    {
+     "label": "The evidence so far",
+     "body": "Warren was limited Wednesday with the shoulder (Steelers.com, NBC). Limited is still practising. Dowdle didn't practise and wore a walking boot; Rapoport calls him day-to-day (Yardbarker). If Warren plays he has the backfield."
+    },
+    {
+     "label": "Why a card and not a note",
+     "body": "This is the Pitts lesson: a startable back-up on the bench goes on a card, not in a footnote. Tuten leads Jacksonville's backs in snaps and carries, and Lawrence says they'll 'lean on him more and more' (SI, 24 Sep)."
+    },
+    {
+     "label": "Why not now",
+     "body": "By projection Warren is 15.0 and Tuten 11.0. Swapping on a 'limited' tag gives up four points for no reason. Both kick off at 11:00 Sunday, so there's no timing trap."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Warren is a full participant Friday. The card then never fires and costs nothing."
+    }
+   ],
+   "sources": "Steelers.com · NBC Sports · Yardbarker · SI",
+   "ghost": true,
+   "action": {
+    "type": "SWAP",
+    "playerId": 4882093,
+    "dropPlayerId": 4569987,
+    "label": "Start Tuten · bench Warren (only if Warren is ruled out)"
+   }
+  }
+ ],
+ "whatWentWrong": [
+  {
+   "id": "w1",
+   "title": "Last night's brief said Coker wasn't on the injury report. He was.",
+   "lead": "Limited Wednesday with the ankle, per CBS. It doesn't change his start, but it's a Friday check, not a clean slate.",
+   "case": [
+    {
+     "label": "What happened",
+     "body": "The 04:40 brief read ESPN's QUESTIONABLE as left over from last week. CBS reported him limited Wednesday. The Athletic's Joe Person says his availability isn't in doubt, and he caught eight passes on the same ankle last week."
+    },
+    {
+     "label": "What it changes",
+     "body": "Nothing yet. He stays in the flex. If Friday downgrades him, McLaurin (11.9) is next in by projection, then Boston (11.3)."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Carolina list him full on Friday. That would mean Wednesday was maintenance."
+    }
+   ],
+   "sources": "CBS Sports · The Athletic"
+  }
+ ],
+ "roster": {
+  "state": "THURSDAY",
+  "footnote": "Nothing kicks off before Sunday 11:00 Mexico City. All nine slots are filled. Every matchup tile is dashed: the only 2026 defence-versus-position table I could load mixes in 80% 2025 data, so these are unchecked, not average.",
+  "lineupCheck": {
+   "asSet": 134.6,
+   "best": 134.6,
+   "gap": 0.0,
+   "verdict": "The lineup as set is the projection lineup. No change."
+  },
+  "starting": [
+   {
+    "playerId": 3918298,
+    "name": "Josh Allen",
+    "slot": "QB",
+    "position": "QB",
+    "team": "BUF",
+    "detail": "BUF · vs LAC · SUN 11:00 · Bills are 7-point favourites, implied about 28.75 (VegasInsider). No injury reporting found. Stud, starts.",
+    "projection": 23.8,
+    "tier": "LEGENDARY",
+    "notResearched": true
+   },
+   {
+    "playerId": 4429160,
+    "name": "De'Von Achane",
+    "slot": "RB",
+    "position": "RB",
+    "team": "MIA",
+    "detail": "MIA · vs KC · SUN 11:00 · Malik Willis starts for Miami (Sharp Football, 23 Sep). Kansas City are 11.5-point favourites, Miami implied about 17.5 — a trailing script, which feeds a receiving back in full PPR. Starts.",
+    "projection": 19.4,
+    "tier": "ELITE",
+    "notResearched": true
+   },
+   {
+    "playerId": 4569987,
+    "name": "Jaylen Warren",
+    "slot": "RB",
+    "position": "RB",
+    "team": "PIT",
+    "detail": "PIT · vs CIN · SUN 11:00 · QUESTIONABLE · limited Wednesday with the shoulder (Steelers.com, NBC). Rico Dowdle didn't practise and wore a walking boot, day-to-day (Yardbarker). Aaron Rodgers throwing. Starts unless Friday's report rules him out — the ghost card covers that.",
+    "projection": 15,
+    "tier": "SOLID",
+    "notResearched": true
+   },
+   {
+    "playerId": 4262921,
+    "name": "Justin Jefferson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "MIN",
+    "detail": "MIN · at TB · SUN 14:05 · Kyler Murray starts after clearing the concussion protocol (Vikings.com, Star Tribune). Murray has played 11 snaps as a Viking, so the pairing is new. Stud, starts.",
+    "projection": 18.3,
+    "tier": "ELITE",
+    "notResearched": true
+   },
+   {
+    "playerId": 4569618,
+    "name": "Garrett Wilson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "NYJ",
+    "detail": "NYJ · at DET · SUN 11:00 · Geno Smith throwing. Adonai Mitchell took a team-high 12 targets in Week 2 (DraftKings Network). Jets implied about 20.5 at Detroit. Your Lions defence plays against him.",
+    "projection": 14.8,
+    "tier": "SOLID",
+    "notResearched": true
+   },
+   {
+    "playerId": 4695883,
+    "name": "Jalen Coker",
+    "slot": "FLEX",
+    "position": "WR",
+    "team": "CAR",
+    "detail": "CAR · at CLE · SUN 11:00 · QUESTIONABLE · limited Wednesday with the ankle he played through last week. The Athletic's Joe Person says his availability isn't in doubt (via CBS). Bryce Young throwing. Correction: last night's brief said he wasn't on the report.",
+    "projection": 13.8,
+    "tier": "SOLID",
+    "notResearched": true
+   },
+   {
+    "playerId": 4361050,
+    "name": "Isaiah Likely",
+    "slot": "TE",
+    "position": "TE",
+    "team": "NYG",
+    "detail": "NYG · vs TEN · SUN 11:00 · Jameis Winston throwing — Dart out for the season (ESPN). Likely isn't on the Giants' injury report; Nabers was limited Wednesday with the shoulder (Giants.com). NYG–TEN total 39.5.",
+    "projection": 12.3,
+    "tier": "ELITE",
+    "notResearched": true
+   },
+   {
+    "playerId": -16008,
+    "name": "Lions D/ST",
+    "slot": "D/ST",
+    "position": "DST",
+    "team": "DET",
+    "detail": "DET · vs NYJ · SUN 11:00 · FantasyPros DST6 (6.62). Alim McNeill sat Wednesday as rest; Campbell said there's 'no indication' he misses the game (Lions OnSI). Detroit are 6.5-point favourites.",
+    "projection": 7.8,
+    "tier": "SOLID",
+    "notResearched": true
+   },
+   {
+    "playerId": 4034949,
+    "name": "Eddy Pineiro",
+    "slot": "K",
+    "position": "K",
+    "team": "SF",
+    "detail": "SF · vs ARI · SUN 14:05 · ESPN has him K2 at 9.4; PFN (Katz, 22 Sep) has him K17. The two disagree. The seat changed on 23 Sep, so hold. The comparison is in Worth a look.",
+    "projection": 9.4,
+    "tier": "SOLID",
+    "notResearched": true
+   }
+  ],
+  "bench": [
+   {
+    "playerId": 4882093,
+    "name": "Bhayshul Tuten",
+    "slot": "BN",
+    "position": "RB",
+    "team": "JAX",
+    "detail": "JAX · vs NE · SUN 11:00 · Leads Jacksonville's backs in snaps and carries; Lawrence: 'we're going to lean on him more and more' (SI, 24 Sep). Warren's cover if Friday goes badly.",
+    "projection": 11,
+    "tier": "DEPTH",
+    "notResearched": true
+   },
+   {
+    "playerId": 3121422,
+    "name": "Terry McLaurin",
+    "slot": "BN",
+    "position": "WR",
+    "team": "WSH",
+    "detail": "WSH · vs SEA · SUN 11:00 · Quarterback not re-checked this run. ESPN lists Jayden Daniels OUT, which is consistent with Mariota starting.",
+    "projection": 11.9,
+    "tier": "DEPTH",
+    "notResearched": true
+   },
+   {
+    "playerId": 4608686,
+    "name": "Kyle Monangai",
+    "slot": "BN",
+    "position": "RB",
+    "team": "CHI",
+    "detail": "CHI · vs PHI · MON 18:15 · ESPN says QUESTIONABLE, but no injury has been reported: BearsTalk (23 Sep) treat him as healthy and argue for more work after 10 carries in each game. Chicago's quarterback is unresolved: Case Keenum was the only one practising Wednesday.",
+    "projection": 8.5,
+    "tier": "DEPTH",
+    "notResearched": true
+   },
+   {
+    "playerId": 4832800,
+    "name": "Denzel Boston",
+    "slot": "BN",
+    "position": "WR",
+    "team": "CLE",
+    "detail": "CLE · vs CAR · SUN 11:00 · On 93% of snaps with 7 catches for 154 yards and 2 TDs on 11 targets (Heavy, 22 Sep). Deshaun Watson throwing. He's the best receiver on your bench, and the flex belongs to Coker by projection.",
+    "projection": 11.3,
+    "tier": "DEPTH",
+    "notResearched": true
+   },
+   {
+    "playerId": 4360939,
+    "name": "Rashod Bateman",
+    "slot": "BN",
+    "position": "WR",
+    "team": "BAL",
+    "detail": "BAL · at DAL · SUN 14:25 · In Rio · Zay Flowers didn't practise Wednesday (ESPN's Hensley via NBC). Lamar has no injury note. Friday's report decides his role, but he can't reach your lineup anyway.",
+    "projection": 7.6,
+    "tier": "DEPTH",
+    "notResearched": true
+   }
+  ]
+ },
+ "trades": [],
+ "worthALook": [
+  {
+   "playerId": 4360234,
+   "name": "Evan McPherson",
+   "positionTeam": "K · CIN",
+   "ownership": "38.78% owned",
+   "tier": "DEPTH",
+   "lead": "The kicker comparison, answered hold. The two sources disagree about Pineiro.",
+   "case": [
+    {
+     "label": "The comparison",
+     "body": "PFN (Katz, 22 Sep) rank McPherson K1 and Trey Smack K4, both free agents here, and Pineiro K17. ESPN has Pineiro 9.4 (K2), Smack 8.7 and McPherson 7.4. PFN's ranks are role-based; ESPN's number is a projection."
+    },
+    {
+     "label": "Why hold",
+     "body": "Pineiro came in on 23 Sep, so a move now is a second change to the seat inside a week. And there's no free roster spot without dropping a player you'd rather keep."
+    },
+    {
+     "label": "When to act",
+     "body": "30 September, when the churn window closes — if Pineiro finishes Week 3 outside the top twenty kickers while McPherson or Smack finish top five."
+    }
+   ],
+   "sources": "PFN · ESPN league file"
+  }
+ ],
+ "doNotChase": [
+  {
+   "playerId": 3117256,
+   "name": "Dalton Schultz",
+   "positionTeam": "TE · HOU",
+   "ownership": "+10.77 owned",
+   "tier": "DEPTH",
+   "lead": "The market is right about him and it doesn't matter here.",
+   "case": [
+    {
+     "label": "The role",
+     "body": "PFN (20 Sep): 14 targets, including a 12-catch, 140-yard game, and he's taking Houston's volume with Nico Collins' hamstring uncertain."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "Chem has one tight-end slot, Likely's, and the flex takes RB/WR only. A second tight end scores you zero."
+    },
+    {
+     "label": "What would change it",
+     "body": "Likely showing up on a Giants injury report. He isn't on this week's."
+    }
+   ],
+   "sources": "PFN · Giants.com"
+  },
+  {
+   "playerId": 4360248,
+   "name": "Kyle Pitts Sr.",
+   "positionTeam": "TE · ATL",
+   "ownership": "-1.19 owned",
+   "tier": "DEPTH",
+   "lead": "Plays tonight. The structural reason he's gone doesn't change whatever he scores.",
+   "case": [
+    {
+     "label": "The fact",
+     "body": "Michael Penix Jr. is listed questionable but expected back tonight at Green Bay (Democrat-Gazette, 24 Sep), so the quarterback case for dropping Pitts is gone."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "One tight-end slot, held by Likely; the flex is RB/WR only. In Week 2 he played 26 of 69 snaps, behind two back-up tight ends."
+    },
+    {
+     "label": "What would change it",
+     "body": "Likely getting hurt. Separately, the log grades this decline WRONG if Pitts outscores Likely in two of the next three weeks."
+    }
+   ],
+   "sources": "Democrat-Gazette · ESPN league file"
+  },
+  {
+   "playerId": 4689114,
+   "name": "Jaxson Dart",
+   "positionTeam": "QB · NYG",
+   "ownership": "-22.63 owned",
+   "tier": "DEPTH",
+   "lead": "Still the biggest ownership anomaly on this wire, and ownership is falling fast for a reason.",
+   "case": [
+    {
+     "label": "The fact",
+     "body": "ESPN report a season-ending knee injury; Jameis Winston starts."
+    },
+    {
+     "label": "What would change it",
+     "body": "Nothing. You start Josh Allen in a one-quarterback league."
+    }
+   ],
+   "sources": "ESPN"
+  }
+ ],
+ "waiverAnalysis": {
+  "verdict": "NOTHING",
+  "summary": "Nothing on the wire beats this roster on usage. The sample is thin — two weeks — but the tool's answer stands.",
+  "weeks": 2,
+  "rising": [],
+  "falling": []
+ },
+ "settled": [
+  {
+   "correct": false,
+   "title": "'Coker isn't on the Panthers' Wednesday report' (24 Sep, 04:40Z)",
+   "result": "Wrong: he was limited Wednesday (CBS). No cost — he starts either way — but the roster note was false."
+  },
+  {
+   "correct": false,
+   "title": "Add the Bengals D/ST, drop Coleman (23 Sep, 22:10Z)",
+   "result": "Broke on its own condition before anyone acted. Replaced by the Lions card, which you executed at 22:25 with Coleman as the drop."
+  },
+  {
+   "correct": false,
+   "title": "Publish the Bateman add as a ghost card (23 Sep, 13:05Z)",
+   "result": "Fired within ninety minutes and took the Vikings D/ST with it. That's why today's ghost card starts its title with 'Only if'."
+  },
+  {
+   "correct": true,
+   "title": "Hold Isaiah Likely through the Giants quarterback change (22 Sep)",
+   "result": "Dart is out for the season and Likely isn't on the injury report, so Winston's the settled starter and Likely's the settled TE1."
+  }
+ ],
+ "cannotSee": [
+  {
+   "label": "Friday's reports",
+   "body": "Warren (limited), Coker (limited), Nabers (limited) and Flowers (did not practise) all resolve on reports this brief can't see. Thursday's participation wasn't published when this ran."
+  },
+  {
+   "label": "Matchup tiles",
+   "body": "FantasyPros' 2026 points-allowed table didn't load. The one table that did blends 80% 2025 data. All fourteen tiles are dashed rather than guessed."
+  },
+  {
+   "label": "Tonight's game",
+   "body": "Pitts' result against Green Bay grades an open thesis, and it happens after this brief."
+  },
+  {
+   "label": "McLaurin's quarterback",
+   "body": "Not re-researched this run. The Mariota read comes from earlier briefs and ESPN's Daniels OUT tag."
+  },
+  {
+   "label": "No trade",
+   "body": "Weeks 1–3 are noise by standing policy, and nothing in this snapshot is a role change worth pricing a trade on."
+  }
+ ]
+}
