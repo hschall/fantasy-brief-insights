@@ -1,1 +1,474 @@
-{"week":3,"leagueName":"Chem","teamName":"AVIATO","generatedAt":"2026-09-25T13:30:00Z","snapshotNote":"Snapshot 12:53 UTC 25 Sep · Friday 06:53 Mexico City · Thursday's game is final; nothing of yours has played · Friday's injury reports come out after this brief · it does not refresh on its own","sources":"Built from 28 searches and about 35 page reads (shared across both leagues) · Panthers.com, Still Curtain, PhiladelphiaEagles.com, Giants.com, NewYorkJets.com, Chiefs.com, Chargers.com, DenverBroncos.com, Yahoo, SI, NBC Sports, PFF, FOX Sports, ClutchPoints, Heavy, Saints snap counts (Yahoo), National Football Post, Houston Chronicle, footballdb","tonight":{"headline":"Down 22.6 before you've played, and Coker is the new worry","status":"LOSING","winProbability":53,"myScore":0.0,"theirScore":22.6,"opponent":"Footballers","body":["Christian Watson scored 22.6 for Footballers on Thursday night. Nobody of yours has played yet. ESPN still projects you 134.5 to their 128.6, a 53% win probability.","The bad news is your own: Jalen Coker missed Thursday's practice with his ankle after a limited Wednesday. Nothing to do today. Friday's Panthers report decides the first card below, and Friday's Steelers report decides the second."],"case":[{"label":"Their lineup","body":"Footballers start Matthew Stafford because Caleb Williams didn't practise Wednesday or Thursday (Eagles/Bears report, 24 Sep). Malik Nabers went from limited to full on Thursday (Giants.com), so he plays for them. Brock Bowers is still tagged questionable. I didn't re-check him this run."},{"label":"Where the 53% comes from","body":"It assumes Coker plays and scores 13.8. If he's out and McLaurin takes the flex, you lose about 1.9 projected points. That's still roughly a coin flip, not a collapse."},{"label":"What would change it","body":"Coker ruled out and the first card not used. Then the flex scores zero and you are the underdog by about 8."}],"caseSources":"ESPN league file · Giants.com · PhiladelphiaEagles.com"},"doFirst":[{"id":"chem-ghost-mclaurin-if-coker-out-2026-09-25","tier":"SOLID","urgency":"Before Sunday","kind":"Lineup","deadlineLabel":"Fallback only. Friday's Panthers report, then Sunday inactives about 09:30 Mexico City. All three play at 11:00","deadline":"2026-09-27T17:00:00Z","title":"Only if Carolina rule Coker out: start McLaurin in the flex","subtitle":"Not armed. Don't do this today. The bench player it swaps in is Terry McLaurin. Nothing is dropped.","case":[{"label":"What changed","body":"Coker was limited Wednesday and held out on Thursday with the ankle he sprained in Week 1 (Panthers.com, 24 Sep). Xavier Legette (knee) was held out too. ClutchPoints (25 Sep) called it 'a concerning turn'. On Thursday morning this brief said his availability wasn't in doubt. That's no longer true."},{"label":"Why McLaurin, not Boston","body":"McLaurin projects 11.9 and drew 9 targets in Week 2. Denzel Boston projects 11.3 and drew 7, though he's playing 93% of Cleveland's snaps with Deshaun Watson starting (Heavy, 22 Sep). That's close on both, so I'm taking the projection with no thesis. Honest cost: McLaurin gets Seattle, who've allowed the fewest WR points, with Marcus Mariota at quarterback."},{"label":"No timing trap","body":"Coker, McLaurin and Boston all kick off Sunday at 11:00 Mexico City. If Friday lists Coker questionable, wait for the inactives about 90 minutes before kickoff. The 07:00 Sunday brief runs before those, so check them yourself."},{"label":"Falsified if","body":"Coker practises Friday and carries no designation, or is active on Sunday. The card then never fires and costs nothing."}],"sources":"Panthers.com · ClutchPoints · Heavy · footballdb","ghost":true,"action":{"type":"SWAP","playerId":3121422,"dropPlayerId":4695883,"label":"Start McLaurin · bench Coker (only if Coker is out)"}},{"id":"chem-ghost-tuten-if-warren-out-2026-09-24","tier":"SOLID","urgency":"Before Sunday","kind":"Lineup","deadlineLabel":"Fallback only. Check Friday's Steelers report; both kick off Sunday 11:00 Mexico City","deadline":"2026-09-27T17:00:00Z","title":"Only if Pittsburgh rule Warren out: start Tuten","subtitle":"Not armed, carried from yesterday. Warren starts unless Friday's report lists him OUT or DOUBTFUL. Nothing is dropped.","case":[{"label":"The evidence, now two days of it","body":"Warren was limited Wednesday and Thursday with the shoulder. Rico Dowdle didn't practise either day with the toe (Still Curtain, 24 Sep). Limited both days isn't the pattern of a player about to be ruled out. If Warren plays, the backfield is his."},{"label":"Why not now","body":"Warren projects 15.0 to Tuten's 11.0. Swapping on a 'limited' tag throws away four points. Cincinnati have allowed the 7th-fewest RB points and New England the 9th-fewest (footballdb), so the matchups don't change it."},{"label":"Falsified if","body":"Warren practises fully on Friday or carries no designation. The card then never fires."}],"sources":"Still Curtain · footballdb","ghost":true,"action":{"type":"SWAP","playerId":4882093,"dropPlayerId":4569987,"label":"Start Tuten · bench Warren (only if Warren is out)"}}],"whatWentWrong":[{"id":"w1","title":"Coker missed Thursday's practice, and yesterday's brief said he was fine","lead":"Limited Wednesday, held out Thursday (Panthers.com). The 13:40 UTC brief quoted a beat writer saying his availability wasn't in doubt. That's why the first card exists.","case":[{"label":"What happened","body":"The ankle has been there since Week 1, when he had 138 yards and two scores. He played through it in Week 2 (8 for 66). Thursday is the first practice he has missed this week."},{"label":"What it changes","body":"The flex has a fallback now: McLaurin, same kickoff. Worst case is a late swap, not an empty slot."},{"label":"Falsified if","body":"Coker practises on Friday and plays Sunday with no designation. Then Thursday was maintenance, not a setback."}],"sources":"Panthers.com · ClutchPoints"}],"roster":{"state":"THURSDAY","footnote":"Nothing of yours has played. Grades use footballdb's 2026 points-allowed table: standard scoring, two games, 1st = fewest allowed. That's a thin sample. Kicker isn't graded. Kickoffs are Mexico City time.","lineupCheck":{"asSet":134.7,"best":134.7,"gap":0.0,"verdict":"The lineup as set is the projection lineup. The only open questions are Coker's ankle and Warren's shoulder, and both are fallback cards, not changes to make today."},"starting":[{"playerId":3918298,"name":"Josh Allen","slot":"QB","position":"QB","team":"BUF","detail":"BUF · vs LAC · SUN 11:00 · Stud, starts regardless.","projection":23.8,"tier":"ELITE","grade":"GOOD","gradeEvidence":"23rd vs QB (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4429160,"name":"De'Von Achane","slot":"RB","position":"RB","team":"MIA","detail":"MIA · vs KC · SUN 11:00 · Malik Willis at QB for a winless Miami (KNBR, 24 Sep), so trailing game script is the risk. Not on Miami's report (Chiefs.com). Stud, starts regardless.","projection":19.5,"tier":"ELITE","grade":"AVERAGE","gradeEvidence":"19th vs RB (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4569987,"name":"Jaylen Warren","slot":"RB","position":"RB","team":"PIT","detail":"PIT · vs CIN · SUN 11:00 · QUESTIONABLE · shoulder, limited Wed and Thu. Dowdle DNP both days (Still Curtain). Second card covers him.","projection":15.0,"tier":"SOLID","grade":"POOR","gradeEvidence":"7th vs RB (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4262921,"name":"Justin Jefferson","slot":"WR","position":"WR","team":"MIN","detail":"MIN · at TB · SUN 14:05 · Kyler Murray back as the starter (Vikings.com, Yardbarker). That's an upgrade on what he had.","projection":18.3,"tier":"ELITE","grade":"SHAKY","gradeEvidence":"9th vs WR (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","detail":"NYJ · at DET · SUN 11:00 · Geno Smith throwing, not on the report. Mitchell limited (finger), TE Mason Taylor DNP Wed and Thu (NewYorkJets.com). Targets concentrate on him.","projection":14.8,"tier":"SOLID","grade":"GREAT","gradeEvidence":"27th vs WR (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4695883,"name":"Jalen Coker","slot":"FLEX","position":"WR","team":"CAR","detail":"CAR · at CLE · SUN 11:00 · QUESTIONABLE · ankle: limited Wed, held out Thu (Panthers.com). Bryce Young throwing. First card covers him.","projection":13.8,"tier":"SOLID","grade":"GREAT","gradeEvidence":"28th vs WR (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4361050,"name":"Isaiah Likely","slot":"TE","position":"TE","team":"NYG","detail":"NYG · vs TEN · SUN 11:00 · Jameis Winston, the backup, is now the starter for the season. Likely led the Giants with 10 targets in Week 2 (Giants.com). Nabers went full Thursday, so this game tests the route-share clause.","projection":12.3,"tier":"SOLID","grade":"POOR","gradeEvidence":"tied 7th-10th vs TE (footballdb, standard scoring, Weeks 1-2)"},{"playerId":-16008,"name":"Lions D/ST","slot":"D/ST","position":"DST","team":"DET","detail":"DET · vs NYJ · SUN 11:00 · Geno Smith not on the Jets' report. Jets without TE Mason Taylor, and Mitchell limited. The Jets' offence has given defences the 6th-fewest points (footballdb).","projection":7.8,"tier":"DEPTH","grade":"POOR","gradeEvidence":"NYJ offence 6th-fewest D/ST pts allowed (footballdb, std, 2 gms)"},{"playerId":4034949,"name":"Eddy Pineiro","slot":"K","position":"K","team":"SF","detail":"SF · vs ARI · SUN 14:05 · ESPN has him K2 at 9.4. ClutchPoints have him 15th and PFN 17th. Held until the seat reopens 30 Sep.","projection":9.4,"tier":"DEPTH","notResearched":true}],"bench":[{"playerId":4882093,"name":"Bhayshul Tuten","slot":"BE","position":"RB","team":"JAX","detail":"JAX · vs NE · SUN 11:00 · Warren cover, same kickoff.","projection":11.0,"tier":"DEPTH","grade":"SHAKY","gradeEvidence":"9th vs RB (footballdb, standard scoring, Weeks 1-2)"},{"playerId":3121422,"name":"Terry McLaurin","slot":"BE","position":"WR","team":"WSH","detail":"WSH · vs SEA · SUN 11:00 · Marcus Mariota, the backup, starting while Jayden Daniels is out with the elbow. Coker cover, same kickoff.","projection":11.9,"tier":"DEPTH","grade":"POOR","gradeEvidence":"1st vs WR (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4832800,"name":"Denzel Boston","slot":"BE","position":"WR","team":"CLE","detail":"CLE · vs CAR · SUN 11:00 · Deshaun Watson stays the starter. Boston has played 93% of snaps: 7-154-2 on 11 targets (Heavy).","projection":11.3,"tier":"DEPTH","grade":"SHAKY","gradeEvidence":"12th vs WR (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4608686,"name":"Kyle Monangai","slot":"BE","position":"RB","team":"CHI","detail":"CHI · vs PHI · MON 18:15 · QUESTIONABLE · knee, DNP on Chicago's estimated report (PhiladelphiaEagles.com). Case Keenum, the third-string QB, is expected to start.","projection":8.5,"tier":"DEPTH","grade":"AVERAGE","gradeEvidence":"18th vs RB (footballdb, standard scoring, Weeks 1-2)"},{"playerId":4360939,"name":"Rashod Bateman","slot":"BE","position":"WR","team":"BAL","detail":"BAL · vs DAL in Rio · SUN 14:25 · Lamar throwing. Zay Flowers DNP all week, and SI call it 'shocking' if he plays. Bateman had 9 targets without him in Week 2. Still behind four receivers here.","projection":7.6,"tier":"DEPTH","grade":"AVERAGE","gradeEvidence":"15th vs WR (footballdb, standard scoring, Weeks 1-2)"}]},"trades":[],"worthALook":[{"playerId":4360234,"name":"Evan McPherson","positionTeam":"K · CIN","ownership":"40.48% owned","tier":"DEPTH","lead":"The kicker comparison, answered hold again.","case":[{"label":"The comparison","body":"Yahoo's Week 3 board (22 Sep) has McPherson K1 at Pittsburgh and Trey Smack K4. ClutchPoints (23 Sep) have Pineiro 15th, noting he didn't attempt a field goal in Week 2. ESPN still has Pineiro 9.4 above both (McPherson 7.4)."},{"label":"Why hold","body":"Pineiro came in on 23 Sep. Moving him now would be the second change to that seat in a week, and every bench seat is either Coker's or Warren's cover or inside the churn window."},{"label":"When to act","body":"30 September, when the churn window closes, if Pineiro finishes Week 3 outside the top twenty kickers while McPherson or Smack finish top five. McPherson is a free agent; Smack is on waivers here."}],"sources":"Yahoo · ClutchPoints · ESPN league file"}],"doNotChase":[{"playerId":3117256,"name":"Dalton Schultz","positionTeam":"TE · HOU","ownership":"+6.20 owned","tier":"DEPTH","lead":"The market is right about him, and it doesn't matter here.","case":[{"label":"The role","body":"The Houston Chronicle expect Nico Collins (hamstring) to miss again, which leaves the targets with Schultz."},{"label":"The number that kills it","body":"Chem has one tight-end slot, and Likely holds it. The flex takes RB/WR only, so a second tight end scores you zero."},{"label":"What would change it","body":"Likely showing up on a Giants injury report. He wasn't on this week's (Giants.com)."}],"sources":"Houston Chronicle · Giants.com"},{"playerId":4360248,"name":"Kyle Pitts Sr.","positionTeam":"TE · ATL","ownership":"-0.54 owned","tier":"DEPTH","lead":"Penix came back on Thursday and Pitts still scored 1.5.","case":[{"label":"The fact","body":"Atlanta won 35-14 at Green Bay. Drake London caught 9 for 194 and Bijan Robinson ran for 194 (FOX box score). Pitts managed 1.5 PPR. PFF: two catches in three games."},{"label":"The number that kills it","body":"One tight-end slot, held by Likely. The flex is RB/WR only."},{"label":"What would change it","body":"Likely getting hurt. Separately, the log grades the decline WRONG if Pitts outscores Likely in two of the next three weeks. He's 0 for 1 on that so far, pending Sunday."}],"sources":"FOX Sports · PFF"},{"playerId":4689114,"name":"Jaxson Dart","positionTeam":"QB · NYG","ownership":"-10.09 owned","tier":"DEPTH","lead":"Still a big ownership anomaly, and falling for a reason.","case":[{"label":"The fact","body":"Giants.com (24 Sep) calls the knee injury season-ending, and Winston is the starter."},{"label":"What would change it","body":"Nothing. You start Josh Allen in a one-quarterback league."}],"sources":"Giants.com"}],"waiverAnalysis":{"verdict":"NOTHING","summary":"Nothing on the wire beats this roster on usage (Monangai at RB and Boston at WR are the weakest movable, and nothing clears either). Two weeks of data is a thin sample, but the tool's answer stands and I didn't go looking for a reason to disagree.","weeks":2,"rising":[],"falling":[]},"settled":[{"correct":false,"title":"'Coker's availability isn't in doubt' (24 Sep, 13:40Z)","result":"Contradicted on Thursday: he was held out of practice (Panthers.com). It hasn't cost anything yet, and the first card is the fix."},{"correct":true,"title":"Let Kyle Pitts go; Chem can't use a second tight end (23 Sep)","result":"Penix returned on Thursday, and Pitts scored 1.5 in a 35-14 win. The quarterback risk was never the reason."},{"correct":false,"title":"Publish the Bateman add as a fallback card (23 Sep, 13:05Z)","result":"Used within ninety minutes, and it took the Vikings D/ST with it. It's the reason every fallback card now starts with 'Only if'."},{"correct":true,"title":"Hold Isaiah Likely through the Giants' quarterback change (22 Sep)","result":"Dart is out for the season, Winston is the starter, and Likely leads the team in targets (Giants.com). The target clause is graded after Sunday."}],"cannotSee":[{"label":"Friday's reports","body":"Coker, Warren, Dowdle and Bowers all resolve on Friday or later, after this brief. Official game designations come out Friday afternoon."},{"label":"Sunday inactives","body":"The 07:00 Sunday brief runs before the 09:30 inactive lists for the 11:00 games. Any call that rests on Coker or Warren being active is provisional until then."},{"label":"Matchup tiles","body":"Grades come from footballdb's 2026 table: standard scoring, not PPR, and only two games. The kicker isn't graded."},{"label":"Rival claims","body":"ESPN only returns your own pending claims, so nobody else's queued claims are visible."},{"label":"No trade","body":"Standing policy treats Weeks 1-3 as noise and puts the trade window at Weeks 9-11. Nothing in this snapshot is a role change worth pricing a trade on."}]}
+{
+ "week": 3,
+ "leagueName": "Chem",
+ "teamName": "AVIATO",
+ "generatedAt": "2026-09-25T22:30:00Z",
+ "snapshotNote": "Snapshot 21:53 UTC 25 Sep · Friday 15:53 Mexico City · Friday's final injury reports are in · nothing of yours has played · this brief does not refresh on its own",
+ "sources": "Built from 24 searches and about 30 page reads (shared across both leagues) · Panthers.com, Still Curtain, NBC Sports, DraftSharks, PhiladelphiaEagles.com, NBC Sports Philadelphia, Heavy, Giants.com, SI, NewYorkJets.com, Chargers.com, Audacy/WWL, Yardbarker, Vikings.com, AZCardinals.com, FantasyPros, DenverBroncos.com, RotoWire, footballdb",
+ "tonight": {
+  "headline": "Down 22.6 before you've played, and Friday went your way",
+  "status": "LOSING",
+  "winProbability": 53,
+  "myScore": 0.0,
+  "theirScore": 22.6,
+  "opponent": "Footballers",
+  "body": [
+   "Christian Watson's 22.6 on Thursday is all Footballers have. ESPN projects you 134.4 to their 128.6 and gives you 53%. Your lineup as set is the projection lineup.",
+   "Friday's reports mostly helped. Warren and Coker are both questionable but expected to play. Their tight end Brock Bowers didn't practise Friday and needs a Sunday workout. Nothing to do today; the two cards below are Sunday-morning fallbacks only."
+  ],
+  "case": [
+   {
+    "label": "Their weak spots",
+    "body": "Bowers (knee) didn't practise Friday. The Raiders plan a workout before Sunday to decide on his season debut (Audacy/WWL). Footballers carry no second tight end. Caleb Williams is doubtful, so they start Stafford (Heavy, 25 Sep)."
+   },
+   {
+    "label": "Your weak spots",
+    "body": "Warren (shoulder) was limited all week, but Pittsburgh's running backs coach says they expect him to play, and Dowdle is ruled out (Still Curtain). Coker (ankle) was limited Friday after missing Thursday (Panthers.com); DraftSharks list him as expected to play."
+   },
+   {
+    "label": "What would change it",
+    "body": "Coker or Warren inactive at about 09:30 Sunday and the fallback not used. Either one scores zero, and you drop to roughly a coin flip."
+   }
+  ],
+  "caseSources": "ESPN league file · Audacy/WWL · Heavy · Still Curtain · Panthers.com · DraftSharks"
+ },
+ "doFirst": [
+  {
+   "id": "chem-ghost-mclaurin-if-coker-out-2026-09-25",
+   "tier": "SOLID",
+   "urgency": "Before Sunday",
+   "kind": "Lineup",
+   "deadlineLabel": "Fallback only. Check Sunday inactives about 09:30 Mexico City; all three play at 11:00",
+   "deadline": "2026-09-27T17:00:00Z",
+   "title": "Only if Coker is inactive: start McLaurin in the flex",
+   "subtitle": "Not armed. Don't do this today. Swap only, nothing dropped. Coker is questionable but expected to play.",
+   "case": [
+    {
+     "label": "Friday's report",
+     "body": "Coker was limited Friday after sitting out Thursday, and is listed questionable (Panthers.com, NBC Sports). DraftSharks call him expected to play. Xavier Legette is also questionable, so Carolina may be thin at receiver either way."
+    },
+    {
+     "label": "Why McLaurin, not Boston",
+     "body": "McLaurin projects 11.8 and drew 9 targets in Week 2. Boston projects 11.3 and drew 7 (week archive). That's close on both, so I'm taking the projection and writing no thesis. McLaurin gets Seattle, who have allowed the fewest WR points (footballdb), with Mariota throwing."
+    },
+    {
+     "label": "No timing trap",
+     "body": "Coker, McLaurin and Boston all kick off Sunday 11:00 Mexico City. The 07:00 Sunday brief runs before inactives, so check them yourself."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Coker is active on Sunday. The card then never fires and costs nothing."
+    }
+   ],
+   "sources": "Panthers.com · NBC Sports · DraftSharks · footballdb",
+   "ghost": true,
+   "action": {
+    "type": "SWAP",
+    "playerId": 3121422,
+    "dropPlayerId": 4695883,
+    "label": "Start McLaurin · bench Coker (only if Coker is inactive)"
+   }
+  },
+  {
+   "id": "chem-ghost-tuten-if-warren-out-2026-09-24",
+   "tier": "DEPTH",
+   "urgency": "Before Sunday",
+   "kind": "Lineup",
+   "deadlineLabel": "Fallback only. Check Sunday inactives about 09:30 Mexico City; both play at 11:00",
+   "deadline": "2026-09-27T17:00:00Z",
+   "title": "Only if Warren is inactive: start Tuten",
+   "subtitle": "Not armed, and less likely than this morning. Friday didn't rule Warren out. Nothing is dropped.",
+   "case": [
+    {
+     "label": "Friday's report",
+     "body": "Warren was limited again Friday and is questionable. Running backs coach Ramon Chinyoung Sr. said the Steelers expect him to play. Rico Dowdle is ruled out, so if Warren plays the backfield is his, with Travis Homer rotating (Still Curtain)."
+    },
+    {
+     "label": "Why not now",
+     "body": "Warren projects 15.0 to Tuten's 11.0. Swapping on a questionable tag throws away four points."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Warren is active on Sunday. The card then never fires. This morning's condition (OUT or DOUBTFUL on Friday) did not fire."
+    }
+   ],
+   "sources": "Still Curtain",
+   "ghost": true,
+   "action": {
+    "type": "SWAP",
+    "playerId": 4882093,
+    "dropPlayerId": 4569987,
+    "label": "Start Tuten · bench Warren (only if Warren is inactive)"
+   }
+  }
+ ],
+ "whatWentWrong": [
+  {
+   "id": "w1",
+   "title": "Coker's ankle is still the open question",
+   "lead": "Limited Friday after missing Thursday, and questionable. On Thursday morning a brief said his availability wasn't in doubt. The first card is the fix.",
+   "case": [
+    {
+     "label": "What happened",
+     "body": "He has played through the ankle since Week 1. Thursday was the first practice he missed; Friday he was back, limited (Panthers.com)."
+    },
+    {
+     "label": "What it changes",
+     "body": "Nothing today. The flex has a same-kickoff fallback in McLaurin."
+    },
+    {
+     "label": "Falsified if",
+     "body": "Coker plays Sunday and draws his usual 8-9 targets. Then Thursday was maintenance, not a setback."
+    }
+   ],
+   "sources": "Panthers.com · week archive"
+  }
+ ],
+ "roster": {
+  "state": "THURSDAY",
+  "footnote": "Nothing of yours has played. Grades use footballdb's 2026 points-allowed table (standard scoring, two games, 1st = fewest allowed), so the sample is thin. Quarterback and kicker tiles aren't graded this run. Kickoffs are Mexico City time.",
+  "lineupCheck": {
+   "asSet": 134.6,
+   "best": 134.6,
+   "gap": 0.0,
+   "verdict": "The lineup as set is the projection lineup. The only open questions are Coker and Warren on Sunday, and both are fallback cards."
+  },
+  "starting": [
+   {
+    "playerId": 3918298,
+    "name": "Josh Allen",
+    "slot": "QB",
+    "position": "QB",
+    "team": "BUF",
+    "detail": "BUF · vs LAC · SUN 11:00 · Stud, starts regardless.",
+    "projection": 23.8,
+    "tier": "ELITE",
+    "notResearched": true
+   },
+   {
+    "playerId": 4429160,
+    "name": "De'Von Achane",
+    "slot": "RB",
+    "position": "RB",
+    "team": "MIA",
+    "detail": "MIA · vs KC · SUN 11:00 · Not on either final report (Yardbarker). Stud, starts regardless.",
+    "projection": 19.5,
+    "tier": "ELITE",
+    "grade": "AVERAGE",
+    "gradeEvidence": "19th vs RB (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4569987,
+    "name": "Jaylen Warren",
+    "slot": "RB",
+    "position": "RB",
+    "team": "PIT",
+    "detail": "PIT · vs CIN · SUN 11:00 · QUESTIONABLE · shoulder, limited all week, team expects him to play. Dowdle OUT (Still Curtain).",
+    "projection": 15.0,
+    "tier": "SOLID",
+    "grade": "POOR",
+    "gradeEvidence": "7th vs RB (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4262921,
+    "name": "Justin Jefferson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "MIN",
+    "detail": "MIN · at TB · SUN 14:05 · Not on Minnesota's final report (Vikings.com).",
+    "projection": 18.3,
+    "tier": "ELITE",
+    "grade": "SHAKY",
+    "gradeEvidence": "9th vs WR (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4569618,
+    "name": "Garrett Wilson",
+    "slot": "WR",
+    "position": "WR",
+    "team": "NYJ",
+    "detail": "NYJ · at DET · SUN 11:00 · Geno Smith throwing. TE Mason Taylor ruled out; Mitchell limited Friday with the finger (NewYorkJets.com).",
+    "projection": 14.8,
+    "tier": "SOLID",
+    "grade": "GREAT",
+    "gradeEvidence": "27th vs WR (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4695883,
+    "name": "Jalen Coker",
+    "slot": "FLEX",
+    "position": "WR",
+    "team": "CAR",
+    "detail": "CAR · at CLE · SUN 11:00 · QUESTIONABLE · ankle, limited Friday, expected to play (Panthers.com, DraftSharks). First card covers him.",
+    "projection": 13.8,
+    "tier": "SOLID",
+    "grade": "GREAT",
+    "gradeEvidence": "28th vs WR (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4361050,
+    "name": "Isaiah Likely",
+    "slot": "TE",
+    "position": "TE",
+    "team": "NYG",
+    "detail": "NYG · vs TEN · SUN 11:00 · Jameis Winston, the backup, starts for the season after Dart's knee (Giants.com). Likely isn't on the report; Nabers is healthy.",
+    "projection": 12.3,
+    "tier": "SOLID",
+    "grade": "POOR",
+    "gradeEvidence": "tied 7th vs TE (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": -16016,
+    "name": "Vikings D/ST",
+    "slot": "D/ST",
+    "position": "DST",
+    "team": "MIN",
+    "detail": "MIN · at TB · SUN 14:05 · Added 17:19 UTC for the Lions. Mayfield practised fully through an illness (Vikings.com).",
+    "projection": 7.7,
+    "tier": "DEPTH",
+    "grade": "GREAT",
+    "gradeEvidence": "TB offence 30th, most D/ST pts allowed (footballdb, std, 2 gms)"
+   },
+   {
+    "playerId": 4034949,
+    "name": "Eddy Pineiro",
+    "slot": "K",
+    "position": "K",
+    "team": "SF",
+    "detail": "SF · vs ARI · SUN 14:05 · FantasyPros now rank him K3 for Week 3. ESPN has him at 9.4.",
+    "projection": 9.4,
+    "tier": "DEPTH",
+    "notResearched": true
+   }
+  ],
+  "bench": [
+   {
+    "playerId": 4882093,
+    "name": "Bhayshul Tuten",
+    "slot": "BE",
+    "position": "RB",
+    "team": "JAX",
+    "detail": "JAX · vs NE · SUN 11:00 · Warren cover, same kickoff. About 52-54% of Jacksonville's carries (FantasyPros).",
+    "projection": 11.0,
+    "tier": "DEPTH",
+    "grade": "SHAKY",
+    "gradeEvidence": "9th vs RB (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 3121422,
+    "name": "Terry McLaurin",
+    "slot": "BE",
+    "position": "WR",
+    "team": "WSH",
+    "detail": "WSH · vs SEA · SUN 11:00 · Marcus Mariota, the backup, starts while Daniels is out. Coker cover, same kickoff.",
+    "projection": 11.8,
+    "tier": "DEPTH",
+    "grade": "POOR",
+    "gradeEvidence": "1st vs WR (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4832800,
+    "name": "Denzel Boston",
+    "slot": "BE",
+    "position": "WR",
+    "team": "CLE",
+    "detail": "CLE · vs CAR · SUN 11:00 · Deshaun Watson throwing.",
+    "projection": 11.3,
+    "tier": "DEPTH",
+    "grade": "SHAKY",
+    "gradeEvidence": "12th vs WR (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 4608686,
+    "name": "Kyle Monangai",
+    "slot": "BE",
+    "position": "RB",
+    "team": "CHI",
+    "detail": "CHI · vs PHI · MON 18:15 · Upgraded to full practice Friday (Heavy). Case Keenum, the third-string QB, is expected to start.",
+    "projection": 8.5,
+    "tier": "DEPTH",
+    "grade": "AVERAGE",
+    "gradeEvidence": "18th vs RB (footballdb, std, Weeks 1-2)"
+   },
+   {
+    "playerId": 3054850,
+    "name": "Alvin Kamara",
+    "slot": "BE",
+    "position": "RB",
+    "team": "NO",
+    "detail": "NO · vs LV · SUN 14:25 · Added 17:24 UTC for Bateman. 30% of snaps in Week 2 in a three-way committee; Kendre Miller back at practice Friday (FantasyPros, Audacy/WWL).",
+    "projection": 9.6,
+    "tier": "DEPTH",
+    "grade": "AVERAGE",
+    "gradeEvidence": "15th vs RB (footballdb, std, Weeks 1-2)"
+   }
+  ]
+ },
+ "trades": [],
+ "worthALook": [
+  {
+   "playerId": 4360234,
+   "name": "Evan McPherson",
+   "positionTeam": "K · CIN",
+   "ownership": "40.83% owned",
+   "tier": "DEPTH",
+   "lead": "The kicker comparison, and hold is now easy.",
+   "case": [
+    {
+     "label": "The comparison",
+     "body": "FantasyPros' Week 3 board has McPherson K1, Trey Smack K2 and your Pineiro K3. That settles this morning's worry, which rested on boards that had Pineiro 15th-17th."
+    },
+    {
+     "label": "Why hold",
+     "body": "Pineiro came in on 23 Sep, so moving him would be the second change to that seat in a week, for no gain."
+    },
+    {
+     "label": "When to act",
+     "body": "30 September, when the churn window closes, and only if Pineiro finishes Week 3 outside the top twenty kickers while McPherson finishes top five."
+    }
+   ],
+   "sources": "FantasyPros · ESPN league file"
+  },
+  {
+   "playerId": -16008,
+   "name": "Lions D/ST",
+   "positionTeam": "D/ST · DET",
+   "ownership": "49.58% owned",
+   "tier": "DEPTH",
+   "lead": "The D/ST comparison. Hold the Vikings.",
+   "case": [
+    {
+     "label": "The comparison",
+     "body": "ESPN has the Lions 7.8 to the Vikings' 7.7. The Lions are on waivers until Sunday 01:00 Mexico City after you dropped them today. The Vikings face Tampa Bay, whose offence has given defences the 30th-most points (footballdb). The Lions face a Jets offence that has given up the 7th-fewest."
+    },
+    {
+     "label": "Why hold",
+     "body": "A 0.1 gap isn't a reason to touch a seat that has changed hands three times since 23 Sep."
+    },
+    {
+     "label": "What would change it",
+     "body": "Nothing this week. If the Vikings finish outside the top fifteen while the Lions finish top five, revisit when the week rolls."
+    }
+   ],
+   "sources": "footballdb · ESPN league file"
+  }
+ ],
+ "doNotChase": [
+  {
+   "playerId": 3117256,
+   "name": "Dalton Schultz",
+   "positionTeam": "TE · HOU",
+   "ownership": "+4.88 owned",
+   "tier": "DEPTH",
+   "lead": "The market is right about him, and it doesn't matter here.",
+   "case": [
+    {
+     "label": "The role",
+     "body": "Houston ruled Nico Collins out again on Friday (NBC Sports), which leaves more targets for Schultz."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "Chem has one tight-end slot, and Likely holds it. The flex takes RB/WR only, so a second tight end scores you zero."
+    },
+    {
+     "label": "What would change it",
+     "body": "Likely appearing on a Giants injury report. He's not on this week's."
+    }
+   ],
+   "sources": "NBC Sports · Giants.com"
+  },
+  {
+   "playerId": 4360248,
+   "name": "Kyle Pitts Sr.",
+   "positionTeam": "TE · ATL",
+   "ownership": "-0.23 owned",
+   "tier": "DEPTH",
+   "lead": "Carried from this morning: a second tight end has no seat.",
+   "case": [
+    {
+     "label": "The fact",
+     "body": "This morning's reporting had Pitts at 1.5 PPR in Thursday's 35-14 win at Green Bay while Bijan Robinson ran for 194 (Yahoo). I didn't re-search Pitts this run."
+    },
+    {
+     "label": "The number that kills it",
+     "body": "One tight-end slot, held by Likely. The flex is RB/WR only."
+    },
+    {
+     "label": "What would change it",
+     "body": "Likely getting hurt. Separately, the log grades the decline WRONG if Pitts outscores Likely in two of the next three weeks."
+    }
+   ],
+   "sources": "FOX Sports box score (carried from the morning run) · Yahoo · ESPN league file"
+  },
+  {
+   "playerId": 4689114,
+   "name": "Jaxson Dart",
+   "positionTeam": "QB · NYG",
+   "ownership": "-6.65 owned",
+   "tier": "DEPTH",
+   "lead": "Now on injured reserve. The ownership is still leaving.",
+   "case": [
+    {
+     "label": "The fact",
+     "body": "ESPN now lists him on injured reserve. Giants.com call the knee season-ending, and Winston is the starter."
+    },
+    {
+     "label": "What would change it",
+     "body": "Nothing. You start Josh Allen in a one-quarterback league."
+    }
+   ],
+   "sources": "ESPN league file · Giants.com"
+  }
+ ],
+ "waiverAnalysis": {
+  "verdict": "NOTHING",
+  "summary": "Nothing on the wire beats this roster on usage. Monangai (RB) and Boston (WR) are the weakest movable players, and nobody clears either. Two weeks of data is a thin sample, but the tool's answer stands and I didn't go looking for a reason to disagree.",
+  "weeks": 2,
+  "rising": [],
+  "falling": []
+ },
+ "settled": [
+  {
+   "correct": false,
+   "title": "Add the Lions D/ST (24 Sep)",
+   "result": "Dropped for the Vikings at 17:19 UTC today, before it played. Never tested, so it closes CHURN, not RIGHT or WRONG. That's the third D/ST since 23 Sep."
+  },
+  {
+   "correct": false,
+   "title": "'Coker's availability isn't in doubt' (24 Sep, 13:40Z)",
+   "result": "He missed Thursday and was limited Friday; he's questionable. It hasn't cost anything, and the first card covers it."
+  },
+  {
+   "correct": true,
+   "title": "Let Kyle Pitts go; Chem can't use a second tight end (23 Sep)",
+   "result": "Pitts scored 1.5 on Thursday with Penix back. The quarterback risk was never the reason."
+  },
+  {
+   "correct": true,
+   "title": "Hold Isaiah Likely through the Giants' quarterback change (22 Sep)",
+   "result": "Dart is on IR, Winston starts, and Likely led the Giants in Week 2 targets (10, week archive). The target clause is graded after Sunday."
+  }
+ ],
+ "cannotSee": [
+  {
+   "label": "Sunday inactives",
+   "body": "Coker and Warren are questionable. Inactives come out about 09:30 Mexico City, after the 07:00 Sunday brief. Both cards wait for them."
+  },
+  {
+   "label": "Bowers' workout",
+   "body": "Whether Footballers' tight end plays is decided by a Sunday workout, after every brief this week."
+  },
+  {
+   "label": "Matchup tiles",
+   "body": "Grades come from footballdb's 2026 table: standard scoring, not PPR, and two games. The quarterback table returned inconsistent data this run, so Allen isn't graded. The kicker isn't graded."
+  },
+  {
+   "label": "Rival claims",
+   "body": "ESPN only returns your own pending claims, so nobody else's queued claims are visible."
+  },
+  {
+   "label": "No trade",
+   "body": "Standing policy treats Weeks 1-3 as noise and puts the trade window at Weeks 9-11. Nothing in this snapshot is a role change worth pricing a trade on."
+  }
+ ]
+}
