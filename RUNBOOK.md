@@ -437,6 +437,20 @@ Nine sections in a fixed order — situation, action, the case for the action,
 the team it leaves him with, the market in three parts, the record, the
 limits. The order is the argument.
 
+### Numbers come from the archive
+
+Any week-by-week figure in a brief — points, targets, carries, yards — comes
+from the week archive, not from an article. Fetch it:
+
+```bash
+curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/week-<league>-<n>.json"
+```
+
+Its `pool` holds every rostered player plus the top of the wire, with
+`pts`, `targets`, `rec`, `recYds`, `carries`, `rushYds`. Research is for the
+reason behind a number, never for the number itself. A figure transcribed
+from news has already produced one wrong grade.
+
 ### Every card needs a fact a number cannot give you
 
 **A projection is an input to a decision, never the decision.** Before you
@@ -459,6 +473,14 @@ Neither had looked at the player.
 `seasonProj` makes this trap easier to fall into, not harder — it looks
 authoritative and it covers a whole season. Treat it as the thing that
 narrows the list you research, never the thing that decides.
+
+### Falsifiers for lineup calls
+
+For a start/sit or flex decision, **the falsifier is the outcome**: the
+benched player outscoring the started one. A secondary condition may be added
+— "and it would say the role is not what I thought if he draws under five
+targets" — but it never replaces the outcome, because a proxy can pass while
+the decision fails. Grading reads the archive either way.
 
 ### The case layer
 
@@ -909,6 +931,17 @@ not been:
   weeks.
 - **Do not write a thesis on a coin flip.** If Step 3.5 classified a slot as
   COIN FLIP, it gets no decision-log entry at all.
+- **Grade from the archive, never from news.** Every closed entry that
+  claims a result is checked against `week-<league>-<n>.json`, which holds
+  ESPN's own points, targets, carries and yards for every player every week.
+  News explains *why*; it never supplies the number. A run closed "start
+  Golden over Tuten" RIGHT on "about 15.8 to 14.3" from an article — the
+  archive says 9.8 to 14.2, a loss by 4.4.
+- **A lineup decision is graded on its outcome, not its proxy.** "Start A
+  over B" is RIGHT if A outscored B and WRONG if not, whatever the written
+  falsifier said. That Golden call's falsifier was "under 5 targets"; he had
+  6, so it did not fire, while the decision lost. Where a proxy passed and the
+  outcome failed, close WRONG and say the falsifier was badly written.
 - **Do not record declines to stop future runs rediscovering things.** That
   pattern produced dozens of standing refusals. If a run keeps resurfacing
   the same non-move, the waiver tool now answers it with data each run.
