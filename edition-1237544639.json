@@ -1,0 +1,2619 @@
+{
+ "schema": 1,
+ "edition": {
+  "id": "1237544639-w3-20260927T2109Z",
+  "leagueId": "1237544639",
+  "leagueName": "Chem",
+  "label": "CHEM EDITION",
+  "week": 3,
+  "record": "0–2",
+  "dateline": "SUNDAY, SEPTEMBER 27, 2026",
+  "time": "15:09",
+  "state": "GAMES UNDER WAY",
+  "generatedAt": "2026-09-27T21:09:04Z",
+  "dryRun": true
+ },
+ "chart": {
+  "slots": 14,
+  "slotsSource": "default",
+  "currentWeek": 3
+ },
+ "links": {
+  "lineup": "https://fantasy.espn.com/football/team?leagueId=1237544639&teamId=6&seasonId=2026",
+  "matchup": "https://fantasy.espn.com/football/boxscore?leagueId=1237544639&matchupPeriodId=3&scoringPeriodId=3&seasonId=2026&teamId=6",
+  "freeAgents": "https://fantasy.espn.com/football/players/add?leagueId=1237544639",
+  "injuries": "https://www.espn.com/nfl/injuries"
+ },
+ "front": {
+  "lead": {
+   "kicker": "BEFORE KICKOFF",
+   "headline": "Two Starters Questionable as Chem Chases First Win",
+   "deck": "Warren and Coker are both expected to play. If either sits, the replacement is already chosen — check inactives at 9:30.",
+   "byline": "BY THE BRIEF DESK · 02:00 MEXICO CITY",
+   "dateline": "SUNDAY, 2 A.M.",
+   "body": "Footballers banked 22.6 points on Thursday night, and nobody on your roster has played yet. The projections still favour you, 134.4 to 128.6, and ESPN puts it at 53%. The bad news is concentrated in the backfield: Jaylen Warren practised limited all week with a shoulder and walks into Cincinnati's league-leading pass rush, behind an offence that has scored the second-fewest points in the NFL. Jalen Coker carries the same ankle he has played through twice.",
+   "players": [
+    {
+     "playerId": 4569987,
+     "name": "Jaylen Warren",
+     "caption": "RB · PIT. Questionable, shoulder.",
+     "logo": "pit"
+    },
+    {
+     "playerId": 4695883,
+     "name": "Jalen Coker",
+     "caption": "FLEX · CAR. Questionable, ankle.",
+     "logo": "car"
+    }
+   ]
+  },
+  "matchup": {
+   "me": {
+    "name": "AVIATO",
+    "live": 0,
+    "proj": 134.4
+   },
+   "them": {
+    "name": "Footballers",
+    "live": 22.6,
+    "proj": 128.6
+   },
+   "winProb": 0.53,
+   "slots": [
+    {
+     "slot": "QB",
+     "mine": {
+      "name": "Allen",
+      "pos": "QB",
+      "proj": 23.8
+     },
+     "theirs": {
+      "name": "Stafford",
+      "value": 15.9,
+      "final": false
+     }
+    },
+    {
+     "slot": "RB",
+     "mine": {
+      "name": "Achane",
+      "pos": "RB",
+      "proj": 19.5
+     },
+     "theirs": {
+      "name": "Hampton",
+      "value": 15.1,
+      "final": false
+     }
+    },
+    {
+     "slot": "RB",
+     "mine": {
+      "name": "Warren",
+      "pos": "RB",
+      "proj": 15
+     },
+     "theirs": {
+      "name": "Henderson",
+      "value": 10.5,
+      "final": false
+     }
+    },
+    {
+     "slot": "WR",
+     "mine": {
+      "name": "Jefferson",
+      "pos": "WR",
+      "proj": 18.3
+     },
+     "theirs": {
+      "name": "Smith-Njigba",
+      "value": 20.9,
+      "final": false
+     }
+    },
+    {
+     "slot": "WR",
+     "mine": {
+      "name": "Wilson",
+      "pos": "WR",
+      "proj": 14.8
+     },
+     "theirs": {
+      "name": "Watson",
+      "value": 22.6,
+      "final": true
+     }
+    },
+    {
+     "slot": "TE",
+     "mine": {
+      "name": "Likely",
+      "pos": "TE",
+      "proj": 12.3
+     },
+     "theirs": {
+      "name": "Bowers",
+      "value": 14.2,
+      "final": false
+     }
+    },
+    {
+     "slot": "FLEX",
+     "mine": {
+      "name": "Coker",
+      "pos": "WR",
+      "proj": 13.8
+     },
+     "theirs": {
+      "name": "Nabers",
+      "value": 14.5,
+      "final": false
+     }
+    },
+    {
+     "slot": "D/ST",
+     "mine": {
+      "name": "Vikings D/ST",
+      "pos": "DST",
+      "proj": 7.7
+     },
+     "theirs": {
+      "name": "Buccaneers D/ST",
+      "value": 6.7,
+      "final": false
+     }
+    },
+    {
+     "slot": "K",
+     "mine": {
+      "name": "Pineiro",
+      "pos": "K",
+      "proj": 9.4
+     },
+     "theirs": {
+      "name": "Little",
+      "value": 8.2,
+      "final": false
+     }
+    }
+   ],
+   "listings": [
+    {
+     "time": "Sun 11:00",
+     "starters": [
+      "Allen",
+      "Achane",
+      "Warren",
+      "Wilson",
+      "Likely",
+      "Coker"
+     ],
+     "bench": [
+      "Tuten",
+      "McLaurin",
+      "Boston"
+     ]
+    },
+    {
+     "time": "Sun 14:05",
+     "starters": [
+      "Jefferson",
+      "Vikings D/ST",
+      "Pineiro"
+     ],
+     "bench": []
+    },
+    {
+     "time": "Sun 14:25",
+     "starters": [],
+     "bench": [
+      "Kamara"
+     ]
+    },
+    {
+     "time": "Mon 18:15",
+     "starters": [],
+     "bench": [
+      "Monangai"
+     ]
+    }
+   ]
+  }
+ },
+ "doFirst": {
+  "headline": "Four Moves, Soonest First",
+  "deck": "Two are today and only if someone sits. One is Tuesday and only if a condition holds. One is two weeks out and certain.",
+  "cards": [
+   {
+    "id": "w3-warren-inactive",
+    "headline": "If Warren is inactive → start Tuten",
+    "reason": "Three limited practices with the shoulder; expected to play. If he's on the inactive list, Tuten takes his RB slot.",
+    "rows": [
+     {
+      "label": "FALLBACK",
+      "value": "Bhayshul Tuten, 11.0 — 59% of Jacksonville's carries"
+     },
+     {
+      "label": "IF ACTIVE",
+      "value": "Nothing to do. Warren starts; his tag this week is ELITE."
+     }
+    ],
+    "playerId": 4569987,
+    "urgency": "today",
+    "due": "2026-09-27T09:30:00-06:00",
+    "tag": "TODAY · 09:30 · INACTIVES",
+    "short": "TODAY 09:30",
+    "primary": {
+     "label": "SET LINEUP",
+     "url": "https://fantasy.espn.com/football/team?leagueId=1237544639&teamId=6&seasonId=2026"
+    },
+    "secondary": {
+     "label": "WARREN'S CARD",
+     "target": {
+      "type": "player",
+      "id": 4569987
+     }
+    }
+   },
+   {
+    "id": "w3-coker-inactive",
+    "headline": "If Coker is inactive → start McLaurin",
+    "reason": "The ankle he's carried since week 1; SI calls it a surprise if he can't play.",
+    "rows": [
+     {
+      "label": "FALLBACK",
+      "value": "Terry McLaurin, 11.8 — on Mariota, but the best eligible receiver left"
+     },
+     {
+      "label": "IF ACTIVE",
+      "value": "Nothing to do. Coker starts in the flex."
+     }
+    ],
+    "playerId": 4695883,
+    "urgency": "today",
+    "due": "2026-09-27T09:30:00-06:00",
+    "tag": "TODAY · 09:30 · INACTIVES",
+    "short": "TODAY 09:30",
+    "primary": {
+     "label": "SET LINEUP",
+     "url": "https://fantasy.espn.com/football/team?leagueId=1237544639&teamId=6&seasonId=2026"
+    },
+    "secondary": {
+     "label": "COKER'S CARD",
+     "target": {
+      "type": "player",
+      "id": 4695883
+     }
+    }
+   },
+   {
+    "id": "w3-claim-e-wilson",
+    "headline": "Claim Emanuel Wilson — only if Price is out again",
+    "reason": "His 22 week-2 touches came after Jadarian Price left injured. If Price misses week 3 and Wilson again takes half of Seattle's carries, he's the add.",
+    "rows": [
+     {
+      "label": "THE DROP",
+      "value": "Kyle Monangai — second to Swift, on a third-string quarterback"
+     },
+     {
+      "label": "IF NOT",
+      "value": "No claim. Your waiver order resets weekly, so passing costs nothing."
+     }
+    ],
+    "playerId": 4887558,
+    "urgency": "week",
+    "due": "2026-09-29",
+    "tag": "THIS WEEK · TUE 29 SEP · WAIVERS",
+    "short": "TUE 29 SEP",
+    "primary": {
+     "label": "ADD IN ESPN",
+     "url": "https://fantasy.espn.com/football/players/add?leagueId=1237544639"
+    },
+    "secondary": {
+     "label": "WILSON'S CARD",
+     "target": {
+      "type": "player",
+      "id": 4887558
+     }
+    }
+   },
+   {
+    "id": "w3-bye-w6-dst",
+    "headline": "Stream a defence for week 6",
+    "reason": "Achane, Jefferson, Vikings D/ST are all on bye in week 6. The bench covers two of them; nobody covers the defence.",
+    "rows": [
+     {
+      "label": "COVER",
+      "value": "Achane → Tuten; Jefferson → McLaurin; Vikings D/ST → stream"
+     }
+    ],
+    "playerId": null,
+    "urgency": "ahead",
+    "due": "2026-10-13",
+    "tag": "PLAN AHEAD · BY TUE 13 OCT",
+    "short": "BY TUE 13 OCT",
+    "primary": {
+     "label": "BROWSE FREE AGENTS",
+     "url": "https://fantasy.espn.com/football/players/add?leagueId=1237544639"
+    },
+    "secondary": {
+     "label": "BYES AHEAD",
+     "target": {
+      "type": "byes"
+     }
+    }
+   }
+  ],
+  "note": "The league file doesn't carry claims you've already queued. Check the app's In-flight tab before 09:30 so nothing here duplicates one.",
+  "empty": null
+ },
+ "roster": {
+  "deck": "The lineup as set is the projection lineup. Nothing changes unless someone is inactive at 9:30.",
+  "asSet": 134.6,
+  "best": 134.6,
+  "lines": [
+   {
+    "playerId": 3918298,
+    "name": "Josh Allen",
+    "pos": "QB",
+    "team": "BUF",
+    "teamName": "BUF",
+    "logo": "buf",
+    "slotLine": "QB · BUF",
+    "starting": true,
+    "questionable": false,
+    "proj": 23.8,
+    "normal": 21.2,
+    "normalEstimated": false,
+    "pct": 12,
+    "tag": "FAVORABLE",
+    "reason": "Chargers are below average against QBs, but ESPN has him above his norm anyway",
+    "sheet": {
+     "slotLine": "STARTING · QB",
+     "opponent": "BUF vs LAC",
+     "kickoff": "Sun 11:00",
+     "deck": "QB1 by the experts. The Chargers are a below-average QB matchup, which the projection already carries.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "QB1",
+      "projMove": "22.9 → 23.8",
+      "matchup": null
+     },
+     "range": {
+      "rank": 1,
+      "best": 1,
+      "worst": 1
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 35.7,
+       "proj": 19.6,
+       "touches": 35,
+       "eff": 1.02,
+       "posAvgEff": 0.48,
+       "share": null
+      },
+      {
+       "week": 2,
+       "pts": 40.8,
+       "proj": 22.9,
+       "touches": 45,
+       "eff": 0.91,
+       "posAvgEff": 0.45,
+       "share": null
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 23.8
+     },
+     "shareKey": null,
+     "series": {
+      "points": {
+       "last": 40.8,
+       "avg": 38.25
+      },
+      "touches": {
+       "last": 45,
+       "avg": 40
+      },
+      "eff": {
+       "last": 0.91,
+       "avg": 0.97
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — on no week-3 injury roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "29 → 31 pass attempts, 6 → 14 carries",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "SI, PlayerProfiler and FantasySixPack week-3 roundups (Sat); FTA QB matchups",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 23.8,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": 3917315,
+        "name": "Kyler Murray",
+        "proj": 17.5,
+        "gap": 6.3,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "No quarterback on your bench, so the only challenger is the wire: Kyler Murray projects 17.5, 6.3 points behind — nowhere near the 2-point coin-flip line. The Chargers are a below-average QB matchup, but that's already in his 23.8. Nothing unpriced.",
+     "news": "https://www.espn.com/nfl/player/_/id/3918298",
+     "next": {
+      "playerId": 4429160,
+      "surname": "Achane"
+     }
+    }
+   },
+   {
+    "playerId": 4429160,
+    "name": "De'Von Achane",
+    "pos": "RB",
+    "team": "MIA",
+    "teamName": "MIA",
+    "logo": "mia",
+    "slotLine": "RB · MIA",
+    "starting": true,
+    "questionable": false,
+    "proj": 19.5,
+    "normal": 17.7,
+    "normalEstimated": false,
+    "pct": 10,
+    "tag": "FAVORABLE",
+    "reason": "bell cow; Kansas City favoured by 11.5 — carries safe, touchdowns scarce",
+    "sheet": {
+     "slotLine": "STARTING · RB",
+     "opponent": "MIA vs KC",
+     "kickoff": "Sun 11:00",
+     "deck": "Bell cow on a team that is an 11.5-point underdog with a 17-point implied total: the carries are safe, the touchdowns are scarce.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "RB11 (6–19)",
+      "projMove": "17.2 → 19.5",
+      "matchup": null
+     },
+     "range": {
+      "rank": 11,
+      "best": 6,
+      "worst": 19
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 10.6,
+       "proj": 18.2,
+       "touches": 16,
+       "eff": 0.66,
+       "posAvgEff": 0.79,
+       "share": 0.917
+      },
+      {
+       "week": 2,
+       "pts": 12.3,
+       "proj": 17.2,
+       "touches": 26,
+       "eff": 0.47,
+       "posAvgEff": 0.68,
+       "share": 0.8
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 19.5
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 12.3,
+       "avg": 11.45
+      },
+      "touches": {
+       "last": 26,
+       "avg": 21
+      },
+      "eff": {
+       "last": 0.47,
+       "avg": 0.56
+      },
+      "share": {
+       "last": 0.8,
+       "avg": 0.86
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — on no week-3 injury roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "11 → 20 carries (92% → 80% of the backfield), 5 → 6 targets",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Nobody above 15% of Miami's carries",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Malik Willis, active — throws to backs sparingly",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Week-3 roundups (Sat); Sharp Football worksheet, KC at MIA",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 19.5,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 4882093,
+        "name": "Bhayshul Tuten",
+        "proj": 11,
+        "gap": 8.5,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Tuten is the closest bench back at 11.0 — 8.5 points behind, far outside the 2-point coin-flip line. Nothing unpriced: no designation, and Miami's 11.5-point underdog script is already in the number. His volume is steady to rising (16 → 26 touches); his below-average points per touch is efficiency, which the backtest shows doesn't persist.",
+     "news": "https://www.espn.com/nfl/player/_/id/4429160",
+     "next": {
+      "playerId": 4569987,
+      "surname": "Warren"
+     }
+    }
+   },
+   {
+    "playerId": 4569987,
+    "name": "Jaylen Warren",
+    "pos": "RB",
+    "team": "PIT",
+    "teamName": "PIT",
+    "logo": "pit",
+    "slotLine": "RB · PIT",
+    "starting": true,
+    "questionable": true,
+    "proj": 15,
+    "normal": 12.0,
+    "normalEstimated": false,
+    "pct": 25,
+    "tag": "ELITE",
+    "reason": "Dowdle out: up to ~75% of Pittsburgh's work if he's active",
+    "sheet": {
+     "slotLine": "STARTING · RB",
+     "opponent": "PIT vs CIN",
+     "kickoff": "Sun 11:00",
+     "deck": "Must-start if active — Dowdle's work is his. The catch is the matchup: Cincinnati's defence leads the league with eight sacks in two games.",
+     "verdict": {
+      "kind": "IF_ACTIVE",
+      "text": "START IF ACTIVE — ELSE BHAYSHUL TUTEN AT 9:30"
+     },
+     "flags": [
+      "OWN_QUESTIONABLE",
+      "VACATED"
+     ],
+     "figures": {
+      "experts": "RB17 (15–27)",
+      "projMove": "11.4 → 15.0",
+      "matchup": null
+     },
+     "range": {
+      "rank": 17,
+      "best": 15,
+      "worst": 27
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 10.3,
+       "proj": 12.6,
+       "touches": 16,
+       "eff": 0.64,
+       "posAvgEff": 0.79,
+       "share": 0.556
+      },
+      {
+       "week": 2,
+       "pts": 9.7,
+       "proj": 11.4,
+       "touches": 15,
+       "eff": 0.65,
+       "posAvgEff": 0.68,
+       "share": 0.55
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 15
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 9.7,
+       "avg": 10.0
+      },
+      "touches": {
+       "last": 15,
+       "avg": 15.5
+      },
+      "eff": {
+       "last": 0.65,
+       "avg": 0.65
+      },
+      "share": {
+       "last": 0.55,
+       "avg": 0.55
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "QUESTIONABLE (shoulder) — limited all three practices per FantasySixPack; expected to play",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "10 → 11 carries (56% → 55% of the backfield), 6 → 4 targets",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Rico Dowdle OUT (toe) — about 7 carries and 2 targets a week freed. PlayerProfiler expects his share to climb from 56% toward 75%",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Aaron Rodgers, active",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Priced. Dowdle was ruled out Friday and the projection rose from 11.4 to 15.0. Trust it.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Steelers reports Wed (ESPN, The Athletic, PGH Steelers Now); PlayerProfiler, SI, FantasySixPack roundups (Sat)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 15,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 4882093,
+        "name": "Bhayshul Tuten",
+        "proj": 11,
+        "gap": 4,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "4.0 points clear of Tuten, outside the coin-flip line. Dowdle's absence is priced — the projection rose from 11.4 to 15.0 once he was ruled out Friday. The one unpriced risk is Warren's own shoulder, and that's handled by the 9:30 contingency, not by benching him now.",
+     "news": "https://www.espn.com/nfl/player/_/id/4569987",
+     "next": {
+      "playerId": 4262921,
+      "surname": "Jefferson"
+     }
+    }
+   },
+   {
+    "playerId": 4262921,
+    "name": "Justin Jefferson",
+    "pos": "WR",
+    "team": "MIN",
+    "teamName": "MIN",
+    "logo": "min",
+    "slotLine": "WR · MIN",
+    "starting": true,
+    "questionable": false,
+    "proj": 18.3,
+    "normal": 17.8,
+    "normalEstimated": false,
+    "pct": 3,
+    "tag": "NEUTRAL",
+    "reason": "at Tampa; nothing changed",
+    "sheet": {
+     "slotLine": "STARTING · WR",
+     "opponent": "MIN @ TB",
+     "kickoff": "Sun 14:05",
+     "deck": "WR4 by the experts. No change.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "WR4 (2–5)",
+      "projMove": "18.4 → 18.3",
+      "matchup": null
+     },
+     "range": {
+      "rank": 4,
+      "best": 2,
+      "worst": 5
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 31.2,
+       "proj": 17.1,
+       "touches": 9,
+       "eff": 3.47,
+       "posAvgEff": 1.71,
+       "share": 0.391
+      },
+      {
+       "week": 2,
+       "pts": 8.5,
+       "proj": 18.4,
+       "touches": 6,
+       "eff": 1.42,
+       "posAvgEff": 1.61,
+       "share": 0.316
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 18.3
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 8.5,
+       "avg": 19.85
+      },
+      "touches": {
+       "last": 6,
+       "avg": 7.5
+      },
+      "eff": {
+       "last": 1.42,
+       "avg": 2.45
+      },
+      "share": {
+       "last": 0.316,
+       "avg": 0.35
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — on no week-3 injury roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "9 → 6 targets (39% → 32% of the team's)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Addison, Hockenson and Oliver share the rest; all active",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Carson Wentz, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Week-3 roundups (Sat): Aaron Jones cleared, Jordan Mason to IR — neither touches his role",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 18.3,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 3121422,
+        "name": "Terry McLaurin",
+        "proj": 11.8,
+        "gap": 6.5,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "6.5 points clear of McLaurin, the best bench receiver. No designation and no role news. Nothing to weigh.",
+     "news": "https://www.espn.com/nfl/player/_/id/4262921",
+     "next": {
+      "playerId": 4569618,
+      "surname": "Wilson"
+     }
+    }
+   },
+   {
+    "playerId": 4569618,
+    "name": "Garrett Wilson",
+    "pos": "WR",
+    "team": "NYJ",
+    "teamName": "NYJ",
+    "logo": "nyj",
+    "slotLine": "WR · NYJ",
+    "starting": true,
+    "questionable": false,
+    "proj": 14.8,
+    "normal": 15.4,
+    "normalEstimated": false,
+    "pct": -4,
+    "tag": "NEUTRAL",
+    "reason": "Detroit's depleted secondary, against Mitchell's growing role",
+    "sheet": {
+     "slotLine": "STARTING · WR",
+     "opponent": "NYJ @ DET",
+     "kickoff": "Sun 11:00",
+     "deck": "Not a lost role — the pie grew and Mitchell emerged as a real WR2. Detroit's secondary is described as depleted.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [
+      "ROLE_DOWN",
+      "RIVAL_QUESTIONABLE"
+     ],
+     "figures": {
+      "experts": "WR11 (9–12)",
+      "projMove": "15.9 → 14.8",
+      "matchup": null
+     },
+     "range": {
+      "rank": 11,
+      "best": 9,
+      "worst": 12
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 13.9,
+       "proj": 14.9,
+       "touches": 7,
+       "eff": 1.99,
+       "posAvgEff": 1.71,
+       "share": 0.304
+      },
+      {
+       "week": 2,
+       "pts": 16.7,
+       "proj": 15.9,
+       "touches": 7,
+       "eff": 2.39,
+       "posAvgEff": 1.61,
+       "share": 0.194
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 14.8
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 16.7,
+       "avg": 15.3
+      },
+      "touches": {
+       "last": 7,
+       "avg": 7
+      },
+      "eff": {
+       "last": 2.39,
+       "avg": 2.19
+      },
+      "share": {
+       "last": 0.194,
+       "avg": 0.25
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — on no week-3 injury roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "7 → 7 targets (30% → 19% of the team's). His targets were flat at 7 and 7: the share fell because New York threw 41 times in week 2 after 24 dropbacks in week 1",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Adonai Mitchell (finger) QUESTIONABLE — drew 12 targets in week 2. If he sits, Wilson's share rises",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Geno Smith, active",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Upside, not priced. If Mitchell sits, Wilson's share rises. Nothing to act on — he starts either way.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "NBC Sports and Fantasy Footballers week 1–2 recaps; SI roundup for Mitchell (Sat)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 14.8,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 3121422,
+        "name": "Terry McLaurin",
+        "proj": 11.8,
+        "gap": 3.0,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "3.0 points clear of McLaurin and 3.5 of Boston. His share drop is explained — his targets held at 7 while the Jets threw more — and Mitchell's finger is upside for Wilson, not risk. Boston's case rests on two long touchdowns from 11 targets: efficiency, not volume.",
+     "news": "https://www.espn.com/nfl/player/_/id/4569618",
+     "next": {
+      "playerId": 4361050,
+      "surname": "Likely"
+     }
+    }
+   },
+   {
+    "playerId": 4361050,
+    "name": "Isaiah Likely",
+    "pos": "TE",
+    "team": "NYG",
+    "teamName": "NYG",
+    "logo": "nyg",
+    "slotLine": "TE · NYG",
+    "starting": true,
+    "questionable": false,
+    "proj": 12.3,
+    "normal": 10.2,
+    "normalEstimated": false,
+    "pct": 20,
+    "tag": "ELITE",
+    "reason": "Winston's top target — 10 in week 2 — with the Titans at home",
+    "sheet": {
+     "slotLine": "STARTING · TE",
+     "opponent": "NYG vs TEN",
+     "kickoff": "Sun 11:00",
+     "deck": "The quarterback change is permanent, but Likely led the Giants with 10 targets from Winston on 69% of snaps. Titans at home.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [
+      "QB_CHANGE"
+     ],
+     "figures": {
+      "experts": "TE7 (4–8)",
+      "projMove": "11.0 → 12.3",
+      "matchup": null
+     },
+     "range": {
+      "rank": 7,
+      "best": 4,
+      "worst": 8
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 27.8,
+       "proj": 9.5,
+       "touches": 8,
+       "eff": 3.48,
+       "posAvgEff": 2.05,
+       "share": 0.276
+      },
+      {
+       "week": 2,
+       "pts": 8.3,
+       "proj": 11,
+       "touches": 10,
+       "eff": 0.83,
+       "posAvgEff": 1.78,
+       "share": 0.312
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 12.3
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 8.3,
+       "avg": 18.05
+      },
+      "touches": {
+       "last": 10,
+       "avg": 9
+      },
+      "eff": {
+       "last": 0.83,
+       "avg": 2.15
+      },
+      "share": {
+       "last": 0.312,
+       "avg": 0.29
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — on no week-3 injury roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "8 → 10 targets (28% → 31% of the team's)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Malik Nabers (shoulder, limited Wed); Malachi Fields",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Jameis Winston — the starter for the season; Jaxson Dart is out for the year",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Priced. Winston was named the season's starter Wednesday; the projection rose from 11.0 to 12.3.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Giants.com, DraftSharks, RotoBaller (Mon–Wed)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 12.3,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": 3117256,
+        "name": "Dalton Schultz",
+        "proj": 11,
+        "gap": 1.3,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "No tight end on your bench. The wire's best, Dalton Schultz, projects 11.0 — 1.3 behind, inside the coin-flip line, and a coin flip isn't worth a roster spot. Schultz's bump exists only while Nico Collins is out; Likely led the Giants with 10 targets from Winston, the starter for the season.",
+     "news": "https://www.espn.com/nfl/player/_/id/4361050",
+     "next": {
+      "playerId": 4695883,
+      "surname": "Coker"
+     }
+    }
+   },
+   {
+    "playerId": 4695883,
+    "name": "Jalen Coker",
+    "pos": "WR",
+    "team": "CAR",
+    "teamName": "CAR",
+    "logo": "car",
+    "slotLine": "FLEX · WR · CAR",
+    "starting": true,
+    "questionable": true,
+    "proj": 13.8,
+    "normal": 12.0,
+    "normalEstimated": false,
+    "pct": 15,
+    "tag": "FAVORABLE",
+    "reason": "Cleveland is average against receivers; the ankle is the only risk",
+    "sheet": {
+     "slotLine": "STARTING · FLEX",
+     "opponent": "CAR @ CLE",
+     "kickoff": "Sun 11:00",
+     "deck": "Start him. The ankle has been managed for two weeks and he played through it both times.",
+     "verdict": {
+      "kind": "IF_ACTIVE",
+      "text": "START IF ACTIVE — ELSE TERRY MCLAURIN AT 9:30"
+     },
+     "flags": [
+      "OWN_QUESTIONABLE"
+     ],
+     "figures": {
+      "experts": "WR15 (13–20)",
+      "projMove": "12.0 → 13.8",
+      "matchup": null
+     },
+     "range": {
+      "rank": 15,
+      "best": 13,
+      "worst": 20
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 33.8,
+       "proj": null,
+       "touches": 9,
+       "eff": 3.76,
+       "posAvgEff": 1.71,
+       "share": 0.273
+      },
+      {
+       "week": 2,
+       "pts": 14.6,
+       "proj": 12,
+       "touches": 9,
+       "eff": 1.62,
+       "posAvgEff": 1.61,
+       "share": 0.281
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 13.8
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 14.6,
+       "avg": 24.2
+      },
+      "touches": {
+       "last": 9,
+       "avg": 9
+      },
+      "eff": {
+       "last": 1.62,
+       "avg": 2.69
+      },
+      "share": {
+       "last": 0.281,
+       "avg": 0.28
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "QUESTIONABLE (ankle, since week 1) — expected to play; SI calls it a surprise if he can't",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "9 → 9 targets (27% → 28% of the team's)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Tetairoa McMillan, active",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Bryce Young, active",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Not priced. A projection assumes he plays. His status is what the 9:30 check is for.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "SI and PlayerProfiler roundups (Sat); week-2 practice history (RotoBaller)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 13.8,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 3121422,
+        "name": "Terry McLaurin",
+        "proj": 11.8,
+        "gap": 2.0,
+        "gapLabel": "on the line"
+       }
+      ]
+     },
+     "logic": "The tightest challenge on the roster: McLaurin sits exactly 2.0 behind — on the coin-flip line, not inside it — and the news points the same way: Mariota was named Monday and Seattle's defence ranks first this week. Boston is 2.5 back, Tuten 2.8. Coker's only risk is availability, which the 9:30 check covers.",
+     "news": "https://www.espn.com/nfl/player/_/id/4695883",
+     "next": {
+      "playerId": -16016,
+      "surname": "Vikings D/ST"
+     }
+    }
+   },
+   {
+    "playerId": -16016,
+    "name": "Vikings D/ST",
+    "pos": "DST",
+    "team": "MIN",
+    "teamName": "MIN",
+    "logo": "min",
+    "slotLine": "D/ST · MIN",
+    "starting": true,
+    "questionable": false,
+    "proj": 7.7,
+    "normal": 7.4,
+    "normalEstimated": true,
+    "pct": 4,
+    "tag": "NEUTRAL",
+    "reason": "Tampa's offence against the stingiest pass defence; ties the best free defence",
+    "sheet": {
+     "slotLine": "STARTING · D/ST",
+     "opponent": "MIN @ TB",
+     "kickoff": "Sun 14:05",
+     "deck": "Ties the best free defence on projection and brings the league's stingiest pass defence to Tampa.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "D/ST6 (3–8)",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": {
+      "rank": 6,
+      "best": 3,
+      "worst": 8
+     },
+     "weeks": [
+      null,
+      null
+     ],
+     "current": {
+      "week": 3,
+      "proj": 7.7
+     },
+     "shareKey": null,
+     "series": {
+      "points": {
+       "last": null,
+       "avg": null
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "FTA QB matchups: Minnesota allow the fewest QB points; best free D/ST ties at 7.7",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 7.7,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": -16008,
+        "name": "Lions D/ST",
+        "proj": 7.7,
+        "gap": 0.0,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "No defence on your bench. The Lions tie on projection at 7.7, and a tie isn't worth a roster move. Minnesota's is the stingiest pass defence against quarterbacks, facing Tampa. Their week-6 bye is the real problem, flagged on the front page.",
+     "news": null,
+     "next": {
+      "playerId": 4034949,
+      "surname": "Pineiro"
+     }
+    }
+   },
+   {
+    "playerId": 4034949,
+    "name": "Eddy Pineiro",
+    "pos": "K",
+    "team": "SF",
+    "teamName": "SF",
+    "logo": "sf",
+    "slotLine": "K · SF",
+    "starting": true,
+    "questionable": false,
+    "proj": 9.4,
+    "normal": 8.2,
+    "normalEstimated": true,
+    "pct": 15,
+    "tag": "FAVORABLE",
+    "reason": "estimated from season projection; beats every free kicker",
+    "sheet": {
+     "slotLine": "STARTING · K",
+     "opponent": "SF vs ARI",
+     "kickoff": "Sun 14:05",
+     "deck": "Out-projects every free kicker in both leagues.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "K2 (1–3)",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": {
+      "rank": 2,
+      "best": 1,
+      "worst": 3
+     },
+     "weeks": [
+      null,
+      null
+     ],
+     "current": {
+      "week": 3,
+      "proj": 9.4
+     },
+     "shareKey": null,
+     "series": {
+      "points": {
+       "last": null,
+       "avg": null
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "League file; best free kicker projects lower",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 9.4,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": 4869461,
+        "name": "Trey Smack",
+        "proj": 8.7,
+        "gap": 0.7,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "No kicker on your bench. Trey Smack, the best free kicker, projects 8.7 — 0.7 behind, inside the coin-flip line, so the projection holds and nothing is gained by churning.",
+     "news": "https://www.espn.com/nfl/player/_/id/4034949",
+     "next": {
+      "playerId": 3121422,
+      "surname": "McLaurin"
+     }
+    }
+   },
+   {
+    "playerId": 3121422,
+    "name": "Terry McLaurin",
+    "pos": "WR",
+    "team": "WSH",
+    "teamName": "WSH",
+    "logo": "wsh",
+    "slotLine": "BE · WR · WSH",
+    "starting": false,
+    "questionable": false,
+    "proj": 11.8,
+    "normal": 12.4,
+    "normalEstimated": false,
+    "pct": -5,
+    "tag": "NEUTRAL",
+    "reason": "Mariota at quarterback and Seattle's top-ranked defence",
+    "sheet": {
+     "slotLine": "BENCH · WR",
+     "opponent": "WSH vs SEA",
+     "kickoff": "Sun 11:00",
+     "deck": "Coker's fallback only. Mariota is a downgrade, and Seattle's defence is the top-ranked this week.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [
+      "ROLE_UP",
+      "PASSER_OUT"
+     ],
+     "figures": {
+      "experts": "WR25 (24–33)",
+      "projMove": "12.5 → 11.8",
+      "matchup": null
+     },
+     "range": {
+      "rank": 25,
+      "best": 24,
+      "worst": 33
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 3.4,
+       "proj": 12.3,
+       "touches": 4,
+       "eff": 0.85,
+       "posAvgEff": 1.71,
+       "share": 0.138
+      },
+      {
+       "week": 2,
+       "pts": 7,
+       "proj": 12.5,
+       "touches": 9,
+       "eff": 0.78,
+       "posAvgEff": 1.61,
+       "share": 0.265
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 11.8
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 7,
+       "avg": 5.2
+      },
+      "touches": {
+       "last": 9,
+       "avg": 6.5
+      },
+      "eff": {
+       "last": 0.78,
+       "avg": 0.81
+      },
+      "share": {
+       "last": 0.265,
+       "avg": 0.2
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "4 → 9 targets (14% → 26% of the team's). The 9 week-2 targets were split across Daniels and Mariota; he caught 2",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Stefon Diggs and Dyami Brown",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Marcus Mariota — Jayden Daniels out with a dislocated elbow, no timeline",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Priced. Mariota was named Monday; the projection fell from 12.5 to 11.8. Trust the 11.8.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "NFL.com, ESPN (Mon–Wed)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 11.8,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -2.0,
+        "gapLabel": "on the line"
+       },
+       {
+        "where": "WR",
+        "playerId": 4569618,
+        "name": "Garrett Wilson",
+        "proj": 14.8,
+        "gap": -3.0,
+        "gapLabel": null
+       },
+       {
+        "where": "WR",
+        "playerId": 4262921,
+        "name": "Justin Jefferson",
+        "proj": 18.3,
+        "gap": -6.5,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "The closest bench challenger on the roster, exactly on the coin-flip line against Coker — and nothing unpriced favours him. Mariota was named Monday and the projection already fell from 12.5 to 11.8; Seattle's defence ranks first this week. His 9 week-2 targets are real volume, but he caught 2, and volume never overrides the projection. He starts only as Coker's fallback at 9:30.",
+     "news": "https://www.espn.com/nfl/player/_/id/3121422",
+     "next": {
+      "playerId": 4832800,
+      "surname": "Boston"
+     }
+    }
+   },
+   {
+    "playerId": 4832800,
+    "name": "Denzel Boston",
+    "pos": "WR",
+    "team": "CLE",
+    "teamName": "CLE",
+    "logo": "cle",
+    "slotLine": "BE · WR · CLE",
+    "starting": false,
+    "questionable": false,
+    "proj": 11.3,
+    "normal": 10.2,
+    "normalEstimated": true,
+    "pct": 10,
+    "tag": "FAVORABLE",
+    "reason": "home against Carolina; his production so far is touchdown-driven",
+    "sheet": {
+     "slotLine": "BENCH · WR",
+     "opponent": "CLE vs CAR",
+     "kickoff": "Sun 11:00",
+     "deck": "No change. Below the starters on projection.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "WR33 (24–44)",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": {
+      "rank": 33,
+      "best": 24,
+      "worst": 44
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 13.9,
+       "proj": null,
+       "touches": 4,
+       "eff": 3.48,
+       "posAvgEff": 1.71,
+       "share": 0.182
+      },
+      {
+       "week": 2,
+       "pts": 20.5,
+       "proj": null,
+       "touches": 7,
+       "eff": 2.93,
+       "posAvgEff": 1.61,
+       "share": 0.233
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 11.3
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 20.5,
+       "avg": 17.2
+      },
+      "touches": {
+       "last": 7,
+       "avg": 5.5
+      },
+      "eff": {
+       "last": 2.93,
+       "avg": 3.21
+      },
+      "share": {
+       "last": 0.233,
+       "avg": 0.21
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — no Browns designation on any roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "4 → 7 targets (18% → 23% of the team's)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Harold Fannin Jr. and KC Concepcion",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Deshaun Watson, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Week-3 roundups (Sat) only — no Browns-specific search",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 11.3,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -2.5,
+        "gapLabel": null
+       },
+       {
+        "where": "WR",
+        "playerId": 4569618,
+        "name": "Garrett Wilson",
+        "proj": 14.8,
+        "gap": -3.5,
+        "gapLabel": null
+       },
+       {
+        "where": "WR",
+        "playerId": 4262921,
+        "name": "Justin Jefferson",
+        "proj": 18.3,
+        "gap": -7.0,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Two long touchdowns on 11 targets made him look like a starter. That's efficiency, which the backtest shows doesn't carry forward — his volume (4 → 7 targets) sits below all three receivers he'd replace, and Fantasy Footballers calls him a boom-or-bust WR4. Watson's job was also under review after week 2. The projection says bench, and nothing unpriced argues otherwise.",
+     "news": "https://www.espn.com/nfl/player/_/id/4832800",
+     "next": {
+      "playerId": 4882093,
+      "surname": "Tuten"
+     }
+    }
+   },
+   {
+    "playerId": 4882093,
+    "name": "Bhayshul Tuten",
+    "pos": "RB",
+    "team": "JAX",
+    "teamName": "JAX",
+    "logo": "jax",
+    "slotLine": "BE · RB · JAX",
+    "starting": false,
+    "questionable": false,
+    "proj": 11,
+    "normal": 11.1,
+    "normalEstimated": false,
+    "pct": 0,
+    "tag": "NEUTRAL",
+    "reason": "DraftSharks calls it a tough run matchup; ESPN keeps him at his norm",
+    "sheet": {
+     "slotLine": "BENCH · RB",
+     "opponent": "JAX vs NE",
+     "kickoff": "Sun 11:00",
+     "deck": "Warren's fallback at 09:30 in Chem. Otherwise the bench.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "RB26 (23–27)",
+      "projMove": "10.1 → 11.0",
+      "matchup": null
+     },
+     "range": {
+      "rank": 26,
+      "best": 23,
+      "worst": 27
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 9.8,
+       "proj": 12,
+       "touches": 16,
+       "eff": 0.61,
+       "posAvgEff": 0.79,
+       "share": 0.6
+      },
+      {
+       "week": 2,
+       "pts": 14.2,
+       "proj": 10.1,
+       "touches": 15,
+       "eff": 0.95,
+       "posAvgEff": 0.68,
+       "share": 0.591
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 11
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 14.2,
+       "avg": 12.0
+      },
+      "touches": {
+       "last": 15,
+       "avg": 15.5
+      },
+      "eff": {
+       "last": 0.95,
+       "avg": 0.78
+      },
+      "share": {
+       "last": 0.591,
+       "avg": 0.6
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — no Jaguars designation on any roundup",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "15 → 13 carries (60% → 59% of the backfield), 1 → 2 targets",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Chris Rodriguez Jr. and Ameer Abdullah, both active",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Trevor Lawrence, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Week-3 roundups (Sat) only — no Jaguars-specific search",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 11,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -2.8,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4569987,
+        "name": "Jaylen Warren",
+        "proj": 15,
+        "gap": -4,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4429160,
+        "name": "De'Von Achane",
+        "proj": 19.5,
+        "gap": -8.5,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Jacksonville's lead back — 59–60% of the carries and a goal-line touchdown in week 2 — but facing a tough run matchup against the Patriots. 4.0 behind Warren and 2.8 behind Coker, outside the coin-flip line both times. He's reserved as Warren's fallback at 9:30, the one way he starts this week.",
+     "news": "https://www.espn.com/nfl/player/_/id/4882093",
+     "next": {
+      "playerId": 3054850,
+      "surname": "Kamara"
+     }
+    }
+   },
+   {
+    "playerId": 3054850,
+    "name": "Alvin Kamara",
+    "pos": "RB",
+    "team": "NO",
+    "teamName": "NO",
+    "logo": "no",
+    "slotLine": "BE · RB · NO",
+    "starting": false,
+    "questionable": false,
+    "proj": 9.6,
+    "normal": 8.8,
+    "normalEstimated": true,
+    "pct": 9,
+    "tag": "FAVORABLE",
+    "reason": "a committee with Etienne, at Las Vegas",
+    "sheet": {
+     "slotLine": "BENCH · RB",
+     "opponent": "NO vs LV",
+     "kickoff": "Sun 14:25",
+     "deck": "Passing-down half of a committee. Bench.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "RB34 (31–47)",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": {
+      "rank": 34,
+      "best": 31,
+      "worst": 47
+     },
+     "weeks": [
+      null,
+      {
+       "week": 2,
+       "pts": 7.2,
+       "proj": null,
+       "touches": 15,
+       "eff": 0.48,
+       "posAvgEff": 0.68,
+       "share": 0.529
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 9.6
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 7.2,
+       "avg": 7.2
+      },
+      "touches": {
+       "last": 15,
+       "avg": 15
+      },
+      "eff": {
+       "last": 0.48,
+       "avg": 0.48
+      },
+      "share": {
+       "last": 0.529,
+       "avg": 0.53
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — missed week 1 with a knee",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "– → 9 carries (– → 53% of the backfield), – → 6 targets. Week 2 was a genuine split: 9 carries and 6 targets against Etienne's 8 and 2",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Travis Etienne Jr. — hamstring, removed from the injury report",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Tyler Shough, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Fantasy Footballers, DraftSharks (week 2); SI roundup (Sat)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 9.6,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -4.2,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4569987,
+        "name": "Jaylen Warren",
+        "proj": 15,
+        "gap": -5.4,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4429160,
+        "name": "De'Von Achane",
+        "proj": 19.5,
+        "gap": -9.9,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "The passing-down half of a committee with Etienne, after missing week 1 with a knee. 4.2 behind Coker and further behind both backs — too far outside the coin-flip line for news to matter, and there's none that helps him.",
+     "news": "https://www.espn.com/nfl/player/_/id/3054850",
+     "next": {
+      "playerId": 4608686,
+      "surname": "Monangai"
+     }
+    }
+   },
+   {
+    "playerId": 4608686,
+    "name": "Kyle Monangai",
+    "pos": "RB",
+    "team": "CHI",
+    "teamName": "CHI",
+    "logo": "chi",
+    "slotLine": "BE · RB · CHI",
+    "starting": false,
+    "questionable": false,
+    "proj": 8.5,
+    "normal": 10.1,
+    "normalEstimated": false,
+    "pct": -16,
+    "tag": "TOUGH",
+    "reason": "third-string quarterback, Monday night",
+    "sheet": {
+     "slotLine": "BENCH · RB",
+     "opponent": "CHI vs PHI",
+     "kickoff": "Mon 18:15",
+     "deck": "Second in Swift's backfield, with a third-string quarterback, on Monday night.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [
+      "PASSER_OUT"
+     ],
+     "figures": {
+      "experts": "RB35 (30–38)",
+      "projMove": "9.9 → 8.5",
+      "matchup": null
+     },
+     "range": {
+      "rank": 35,
+      "best": 30,
+      "worst": 38
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 20.4,
+       "proj": 10.3,
+       "touches": 12,
+       "eff": 1.7,
+       "posAvgEff": 0.79,
+       "share": 0.357
+      },
+      {
+       "week": 2,
+       "pts": 7.8,
+       "proj": 9.9,
+       "touches": 12,
+       "eff": 0.65,
+       "posAvgEff": 0.68,
+       "share": 0.385
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 8.5
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 7.8,
+       "avg": 14.1
+      },
+      "touches": {
+       "last": 12,
+       "avg": 12
+      },
+      "eff": {
+       "last": 0.65,
+       "avg": 1.18
+      },
+      "share": {
+       "last": 0.385,
+       "avg": 0.37
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "10 → 10 carries (36% → 38% of the backfield), 2 → 2 targets",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "D'Andre Swift leads with about 62% of the carries, active",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Case Keenum, likely — Caleb Williams (hamstring) and Tyson Bagent (concussion) both expected out",
+       "style": "plain"
+      },
+      {
+       "label": "VS PROJECTION",
+       "value": "Priced. Keenum was reported as the likely starter Tuesday. He's on your bench either way.",
+       "style": "priced"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Fox Sports, NFL.com, 4for4, ESPN (Tue–Wed)",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 8.5,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -5.3,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4569987,
+        "name": "Jaylen Warren",
+        "proj": 15,
+        "gap": -6.5,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4429160,
+        "name": "De'Von Achane",
+        "proj": 19.5,
+        "gap": -11.0,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Second to D'Andre Swift, who takes about 62% of Chicago's carries, now with a third-string quarterback. The lowest-projected back on the roster, 5.3 behind Coker. And he plays Monday night, after every Sunday slot has locked, so he can't even serve as a late fallback.",
+     "news": "https://www.espn.com/nfl/player/_/id/4608686",
+     "next": null
+    }
+   }
+  ]
+ },
+ "wire": {
+  "headline": "Nothing Worth Adding This Week",
+  "deck": "No free agent beats your roster on usage, and nobody on it has been quiet in every week. In a ten-team league that should be the answer most Sundays.",
+  "candidates": [
+   {
+    "playerId": 4887558,
+    "name": "Emanuel Wilson",
+    "pos": "RB",
+    "team": "SEA",
+    "teamName": "SEA",
+    "logo": "sea",
+    "slotLine": "FA · RB · SEA",
+    "starting": false,
+    "questionable": false,
+    "proj": 8.9,
+    "normal": 2.0,
+    "normalEstimated": true,
+    "pct": 353,
+    "tag": "ELITE",
+    "reason": "Add if price misses week 3 and Wilson keeps half the carries.",
+    "sheet": {
+     "slotLine": "FREE AGENT · RB",
+     "opponent": "SEA @ WSH",
+     "kickoff": "Sun 11:00",
+     "deck": "22 touches in week 2 — but they came after Price left hurt, in a game over by halftime.",
+     "verdict": {
+      "kind": "WATCH",
+      "text": "WATCH — NOT ADDING THIS WEEK"
+     },
+     "flags": [
+      "ROLE_UP"
+     ],
+     "figures": {
+      "experts": "RB34",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": null,
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 0.3,
+       "proj": null,
+       "touches": 2,
+       "eff": 0.15,
+       "posAvgEff": 0.79,
+       "share": 0.1
+      },
+      {
+       "week": 2,
+       "pts": 9.2,
+       "proj": null,
+       "touches": 22,
+       "eff": 0.42,
+       "posAvgEff": 0.68,
+       "share": 0.553
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 8.9
+     },
+     "shareKey": "carries",
+     "series": {
+      "points": {
+       "last": 9.2,
+       "avg": 4.75
+      },
+      "touches": {
+       "last": 22,
+       "avg": 12
+      },
+      "eff": {
+       "last": 0.42,
+       "avg": 0.28
+      },
+      "share": {
+       "last": 0.553,
+       "avg": 0.33
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "2 → 22 touches (10% → 55% of Seattle's carries), after Price left injured",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Jadarian Price (chest/shoulder), week-3 status unconfirmed; Charbonnet due back",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Drew Lock, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Fantasy Life on Seattle's backfield; SI week-3 waiver column",
+       "style": "italic"
+      },
+      {
+       "label": "THE DROP",
+       "value": "Kyle Monangai — second to Swift, on a third-string quarterback",
+       "style": "plain"
+      },
+      {
+       "label": "ADD IF",
+       "value": "Price misses week 3 and Wilson keeps half the carries.",
+       "style": "plain"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 8.9,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -4.9,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4569987,
+        "name": "Jaylen Warren",
+        "proj": 15,
+        "gap": -6.1,
+        "gapLabel": null
+       },
+       {
+        "where": "RB",
+        "playerId": 4429160,
+        "name": "De'Von Achane",
+        "proj": 19.5,
+        "gap": -10.6,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Projects 8.9 — 6.1 behind Warren and 4.9 behind Coker, so even added he'd sit this week. His 22 touches came in a blowout after Price got hurt and produced 9.2 points, 0.42 a touch against 0.68 for backs: volume without production, and volume never overrides the projection. The add comes only if Price misses week 3 and Wilson again takes half the carries — then claim him Tuesday, dropping Monangai.",
+     "news": "https://www.espn.com/nfl/player/_/id/4887558"
+    },
+    "fa": {
+     "owned": 34.87,
+     "chg": -0.21,
+     "chip": "WATCH"
+    }
+   },
+   {
+    "playerId": 4686422,
+    "name": "Xavier Hutchinson",
+    "pos": "WR",
+    "team": "HOU",
+    "teamName": "HOU",
+    "logo": "hou",
+    "slotLine": "FA · WR · HOU",
+    "starting": false,
+    "questionable": false,
+    "proj": 9.6,
+    "normal": 6.6,
+    "normalEstimated": true,
+    "pct": 44,
+    "tag": "ELITE",
+    "reason": "Add if collins misses several weeks and Hutchinson's share holds above 20%.",
+    "sheet": {
+     "slotLine": "FREE AGENT · WR",
+     "opponent": "HOU @ IND",
+     "kickoff": "Sun 11:00",
+     "deck": "Nico Collins is out, so Houston's targets need a home — but he projects below the man he'd replace.",
+     "verdict": {
+      "kind": "WATCH",
+      "text": "WATCH — NOT ADDING THIS WEEK"
+     },
+     "flags": [
+      "VACATED"
+     ],
+     "figures": {
+      "experts": "WR54",
+      "projMove": null,
+      "matchup": null
+     },
+     "range": null,
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 6.2,
+       "proj": null,
+       "touches": 6,
+       "eff": 1.03,
+       "posAvgEff": 1.71,
+       "share": 0.162
+      },
+      {
+       "week": 2,
+       "pts": 6.7,
+       "proj": null,
+       "touches": 9,
+       "eff": 0.74,
+       "posAvgEff": 1.61,
+       "share": 0.18
+      }
+     ],
+     "current": {
+      "week": 3,
+      "proj": 9.6
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 6.7,
+       "avg": 6.45
+      },
+      "touches": {
+       "last": 9,
+       "avg": 7.5
+      },
+      "eff": {
+       "last": 0.74,
+       "avg": 0.89
+      },
+      "share": {
+       "last": 0.18,
+       "avg": 0.17
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "6 → 9 targets (16% → 18% of Houston's targets)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Nico Collins ruled out; SI expects Hutchinson and Dalton Schultz to absorb his work",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "C.J. Stroud, active",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "SI week-3 injury roundup (Sat)",
+       "style": "italic"
+      },
+      {
+       "label": "THE DROP",
+       "value": "Denzel Boston — your weakest movable receiver, 23% of Cleveland's targets",
+       "style": "plain"
+      },
+      {
+       "label": "ADD IF",
+       "value": "Collins misses several weeks and Hutchinson's share holds above 20%.",
+       "style": "plain"
+      }
+     ],
+     "challengers": {
+      "title": "COULD START OVER",
+      "self": 9.6,
+      "rows": [
+       {
+        "where": "FLEX",
+        "playerId": 4695883,
+        "name": "Jalen Coker",
+        "proj": 13.8,
+        "gap": -4.2,
+        "gapLabel": null
+       },
+       {
+        "where": "WR",
+        "playerId": 4569618,
+        "name": "Garrett Wilson",
+        "proj": 14.8,
+        "gap": -5.2,
+        "gapLabel": null
+       },
+       {
+        "where": "WR",
+        "playerId": 4262921,
+        "name": "Justin Jefferson",
+        "proj": 18.3,
+        "gap": -8.7,
+        "gapLabel": null
+       }
+      ]
+     },
+     "logic": "Projects 9.6 — 1.7 behind Boston, the receiver he'd replace, and 4.2 behind Coker in the flex. Collins' absence is already priced; it's the reason he projects 9.6 at all, and it lasts only as long as Collins is out. A one-week bump behind a missing starter isn't worth a roster move. He becomes the add if Collins misses several weeks and Hutchinson's share holds above 20% — dropping Boston.",
+     "news": "https://www.espn.com/nfl/player/_/id/4686422"
+    },
+    "fa": {
+     "owned": 5.9,
+     "chg": 0.76,
+     "chip": "WATCH"
+    }
+   }
+  ],
+  "market": {
+   "kicker": {
+    "action": "HOLD",
+    "rows": [
+     {
+      "name": "Eddy Pineiro",
+      "proj": 9.4,
+      "mine": true
+     },
+     {
+      "name": "Trey Smack",
+      "proj": 8.7,
+      "mine": false
+     },
+     {
+      "name": "Daniel Carlson",
+      "proj": 8.4,
+      "mine": false
+     },
+     {
+      "name": "Tyler Loop",
+      "proj": 8.2,
+      "mine": false
+     }
+    ]
+   },
+   "defence": {
+    "action": "HOLD",
+    "rows": [
+     {
+      "name": "Vikings D/ST",
+      "proj": 7.7,
+      "mine": true
+     },
+     {
+      "name": "Lions D/ST",
+      "proj": 7.7,
+      "mine": false
+     },
+     {
+      "name": "Panthers D/ST",
+      "proj": 7.6,
+      "mine": false
+     },
+     {
+      "name": "Giants D/ST",
+      "proj": 7.4,
+      "mine": false
+     }
+    ]
+   }
+  },
+  "byes": {
+   "weeks": [
+    {
+     "week": 4,
+     "starters": 0,
+     "bench": 0
+    },
+    {
+     "week": 5,
+     "starters": 1,
+     "bench": 0
+    },
+    {
+     "week": 6,
+     "starters": 3,
+     "bench": 0
+    },
+    {
+     "week": 7,
+     "starters": 1,
+     "bench": 2
+    },
+    {
+     "week": 8,
+     "starters": 2,
+     "bench": 1
+    },
+    {
+     "week": 9,
+     "starters": 1,
+     "bench": 0
+    },
+    {
+     "week": 10,
+     "starters": 0,
+     "bench": 1
+    },
+    {
+     "week": 11,
+     "starters": 0,
+     "bench": 1
+    },
+    {
+     "week": 12,
+     "starters": 0,
+     "bench": 0
+    },
+    {
+     "week": 13,
+     "starters": 1,
+     "bench": 0
+    },
+    {
+     "week": 14,
+     "starters": 0,
+     "bench": 0
+    }
+   ],
+   "worstWeek": 6,
+   "caption": "Achane → Tuten; Jefferson → McLaurin; Vikings D/ST → stream"
+  }
+ },
+ "notes": {
+  "cannotSee": [
+   {
+    "label": "Sunday inactives",
+    "body": "Warren and Coker are expected to play. Confirmation comes at 09:30; this brief will not refresh."
+   },
+   {
+    "label": "Warren's Thursday and Friday",
+    "body": "No 2026 report for those practices surfaced. A roundup says three limited sessions; the team report itself was not retrieved."
+   },
+   {
+    "label": "Matchup grades",
+    "body": "Only the quarterback table was retrievable; the running back, receiver and tight end tables are paywalled. Those rows say not researched rather than guess."
+   },
+   {
+    "label": "Teams without their own search",
+    "body": "Jacksonville, Cleveland, Minnesota and San Francisco were covered by the Saturday roundups only."
+   },
+   {
+    "label": "Trades",
+    "body": "Not researched this run."
+   },
+   {
+    "label": "Decision log",
+    "body": "Dry run: nothing graded or written."
+   }
+  ],
+  "lastWeek": "Week 2 left 13.3 points on the bench. The lineup scored 110.3 against 123.6 available — from the archive, not articles.",
+  "sources": "Built from 16 searches and 1 page read, shared across both leagues · SI, PlayerProfiler, FantasySixPack, FantasyPros, Bleacher Report, RotoBaller, The Fantasy Footballers, ESPN, NFL.com, Fox Sports, 4for4, Giants.com, DraftSharks, Sharp Football, FantasyTeamAdvice, Covers"
+ }
+}
