@@ -1,16 +1,16 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1237544639-w3-20260927T2109Z",
+  "id": "1237544639-w3-20260927T2150Z",
   "leagueId": "1237544639",
   "leagueName": "Chem",
   "label": "CHEM EDITION",
   "week": 3,
   "record": "0–2",
   "dateline": "SUNDAY, SEPTEMBER 27, 2026",
-  "time": "15:09",
+  "time": "15:50",
   "state": "GAMES UNDER WAY",
-  "generatedAt": "2026-09-27T21:09:04Z",
+  "generatedAt": "2026-09-27T21:50:08Z",
   "dryRun": true
  },
  "chart": {
@@ -245,14 +245,18 @@
     "tag": "TODAY · 09:30 · INACTIVES",
     "short": "TODAY 09:30",
     "primary": {
-     "label": "SET LINEUP",
-     "url": "https://fantasy.espn.com/football/team?leagueId=1237544639&teamId=6&seasonId=2026"
+     "label": "START TUTEN",
+     "action": {
+      "type": "swap",
+      "start": 4882093,
+      "bench": 4569987
+     }
     },
     "secondary": {
      "label": "WARREN'S CARD",
-     "target": {
-      "type": "player",
-      "id": 4569987
+     "action": {
+      "type": "sheet",
+      "playerId": 4569987
      }
     }
    },
@@ -276,14 +280,18 @@
     "tag": "TODAY · 09:30 · INACTIVES",
     "short": "TODAY 09:30",
     "primary": {
-     "label": "SET LINEUP",
-     "url": "https://fantasy.espn.com/football/team?leagueId=1237544639&teamId=6&seasonId=2026"
+     "label": "START MCLAURIN",
+     "action": {
+      "type": "swap",
+      "start": 3121422,
+      "bench": 4695883
+     }
     },
     "secondary": {
      "label": "COKER'S CARD",
-     "target": {
-      "type": "player",
-      "id": 4695883
+     "action": {
+      "type": "sheet",
+      "playerId": 4695883
      }
     }
    },
@@ -307,14 +315,18 @@
     "tag": "THIS WEEK · TUE 29 SEP · WAIVERS",
     "short": "TUE 29 SEP",
     "primary": {
-     "label": "ADD IN ESPN",
-     "url": "https://fantasy.espn.com/football/players/add?leagueId=1237544639"
+     "label": "ADD WILSON",
+     "action": {
+      "type": "add",
+      "playerId": 4887558,
+      "drop": 4608686
+     }
     },
     "secondary": {
      "label": "WILSON'S CARD",
-     "target": {
-      "type": "player",
-      "id": 4887558
+     "action": {
+      "type": "sheet",
+      "playerId": 4887558
      }
     }
    },
@@ -335,11 +347,14 @@
     "short": "BY TUE 13 OCT",
     "primary": {
      "label": "BROWSE FREE AGENTS",
-     "url": "https://fantasy.espn.com/football/players/add?leagueId=1237544639"
+     "action": {
+      "type": "tab",
+      "tab": "wire"
+     }
     },
     "secondary": {
      "label": "BYES AHEAD",
-     "target": {
+     "action": {
       "type": "byes"
      }
     }
