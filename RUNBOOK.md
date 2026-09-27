@@ -877,6 +877,31 @@ cannot see this run — next week's opponents, rival claims, the one-week
 horizon on trades, the absence of a defensive sample. Write them as facts
 about the data, not apologies.
 
+### 6b. The edition's words — `text-<league>.json`
+
+The Insights tab is a newspaper rendered from `edition-<league>.json`. You
+write its words; `edition.py` computes every number. The fields are in
+`EDITION-SCHEMA.md` under *The text layer*. Write one per league, beside the
+brief, **from the same research** — nothing new is searched for it.
+
+- **Every rostered player and every wire candidate** gets a `players` entry.
+  `edition.py` stops if one is missing.
+- `deck` is the one-line read; `reason` is the matchup line, one clause of
+  research saying why his week looks as it does (≤ ~90 characters).
+- `logic` is built the same way every time: the projection gap to the
+  relevant players; whether it is inside the 2-point coin-flip line; whether
+  the news is priced or not; volume and share as description, efficiency
+  never as prediction; the one condition that would change the verdict.
+- `vsProjection` whenever news touches him: *Priced.*, *Not priced.* or
+  *Upside, not priced.*, then one sentence on which to believe.
+- A **contingency card** for every starter whose verdict is CONDITIONAL, with
+  `fallback` as the exact name of the bench player who replaces him.
+- **Wire candidates are only the genuinely close.** An empty list is a
+  legitimate answer. `drop` is the exact name of the roster player he would
+  replace; `addif` is the condition that turns WATCH into ADD.
+- The **lead** leads with the bad news about his own players.
+- **No URLs anywhere.** Every button acts inside the app.
+
 ## STEP 7 — Validate
 
 The validator lives in the repo. **Fetch it at the start of this step, not
@@ -896,6 +921,28 @@ Then run it on each file. It is a gate, not advice.
 python3 validate.py daily-1237544639.json league-1237544639.json
 python3 validate.py daily-1325565673.json league-1325565673.json
 ```
+
+Then build and validate the Insights editions. The builder needs the week
+archives beside the league file.
+
+```bash
+cd /tmp/fb
+for f in edition validate_edition; do
+  curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/$f.py" -o $f.py
+done
+for L in 1237544639 1325565673; do
+  W=$(python3 -c "import json;print(json.load(open('league-$L.json'))['scoringPeriod'])")
+  for n in $(seq 1 $((W-1))); do
+    curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/week-$L-$n.json" -o week-$L-$n.json
+  done
+  python3 edition.py $L --dir /tmp/fb
+  python3 validate_edition.py edition-$L.json league-$L.json
+done
+```
+
+The same gate applies: **do not publish an edition that fails.** A failed
+edition costs him nothing visible — the app falls back to the brief — so a
+held-back edition is always better than a wrong one.
 
 It checks, among other things: a missing header field; unknown player ids
 anywhere; a swap already in effect; a drop whose game has started, except a
@@ -950,6 +997,12 @@ connector, at the repository root:
 
 - `daily-1237544639.json`
 - `daily-1325565673.json`
+- `edition-1237544639.json` and `text-1237544639.json`
+- `edition-1325565673.json` and `text-1325565673.json`
+
+The edition and its text layer go together; publish neither if the edition
+failed Step 7. Unlike the brief, an edition is never carried forward — each
+run's is built fresh from that run's snapshot.
 
 Both already exist, so this is an update. Only publish a file that passed
 Step 7 — if one league failed validation, publish the other and say which you
