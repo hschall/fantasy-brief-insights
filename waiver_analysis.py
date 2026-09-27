@@ -42,8 +42,10 @@ POS = {1: "QB", 2: "RB", 3: "WR", 4: "TE"}
 # a yard is gained.
 TARGET_WEIGHT = 1.5
 
-# Top-N at a position is never "movable". Nobody drops a top-24 back on two
-# games, however quiet they were.
+# Top-N at a position this week is never "movable". `rank` in the league file
+# is ESPN's EXPERT WEEKLY rank — it moves with matchups — so this means "inside
+# this week's top 24", not "a stud". It only decides who the screen compares
+# against; it never decides a move.
 STUD_RANK = 24
 
 # Opportunity below this in EVERY archived week is a role problem, not a
@@ -133,7 +135,7 @@ def main(lid):
         movable = [m for m in mine_here if rank.get(m["id"], 999) > STUD_RANK]
         print(f"{pos}")
         if not movable:
-            print("   every rostered player is top-24 — none movable\n")
+            print("   every rostered player is inside this week's expert top-24 — none movable\n")
             continue
         weakest = min(movable, key=lambda m: (m["last"], m["ppg"]))
         print(f"   weakest movable: {weakest['name']}  "
@@ -169,7 +171,8 @@ def main(lid):
         print("   none\n")
     for pos, m in falling:
         r = rank.get(m["id"], 999)
-        note = f"  (ESPN still ranks him {r} — rank and usage disagree)" if r <= STUD_RANK else ""
+        note = (f"  (experts rank him {pos}{r} this week — rank and usage disagree)"
+                if r <= STUD_RANK else "")
         print(f"   {pos}  {m['name']:<22} ops {m['ops']}  {m['ppg']:.1f} ppg{note}")
     print()
 

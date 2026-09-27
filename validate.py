@@ -169,6 +169,49 @@ def validate(brief_path, league_path):
         errs.append("roster: no lineupCheck verdict - run lineup_check.py "
                     "(Step 3.5) and state the result, even when it is 'no change'")
 
+    # ---- player reports ---------------------------------------------
+    # Every rostered player is researched on every run, bench included, and
+    # the report says what was checked. "No change" is a valid finding; an
+    # empty `checked` is not.
+    if r:
+        lc = r.get("lineupCheck") or {}
+        conts = {str(c.get("player", "")).strip().lower()
+                 for c in (lc.get("contingencies") or [])}
+        for m in lc.get("moves") or []:
+            if not str(m.get("reason", "")).strip():
+                errs.append(f"lineupCheck move to {m.get('start', '?')}: no reason - "
+                            f"a move away from the projection needs news ESPN has "
+                            f"not priced, named, with when it broke")
+        for row in (r.get("starting") or []) + (r.get("bench") or []):
+            who = row.get("name", "?")
+            rep = row.get("report")
+            if not isinstance(rep, dict):
+                errs.append(f"roster {who}: no report - every player, every run")
+                continue
+            pos = str(row.get("position") or row.get("slot") or "").upper()
+            need = ["availability", "checked", "verdict", "summary"]
+            if pos not in ("K", "DST", "D/ST"):
+                need += ["role"]
+                if pos != "QB":
+                    need += ["competition", "passer"]
+                if not isinstance(rep.get("flags"), list):
+                    errs.append(f"roster {who}: report.flags must be a list "
+                                f"(empty when player_report.py raised none)")
+            for k in need:
+                if not str(rep.get(k, "")).strip():
+                    errs.append(f"roster {who}: report has no {k}")
+            v = str(rep.get("verdict", "")).upper()
+            if v and v not in ("START", "BENCH", "CONDITIONAL"):
+                errs.append(f"roster {who}: verdict must be START, BENCH or "
+                            f"CONDITIONAL, got {v!r}")
+            if v == "CONDITIONAL":
+                for k in ("trigger", "fallback"):
+                    if not str(rep.get(k, "")).strip():
+                        errs.append(f"roster {who}: CONDITIONAL with no {k}")
+                if who.strip().lower() not in conts:
+                    errs.append(f"roster {who}: CONDITIONAL but no contingency "
+                                f"names him in lineupCheck.contingencies")
+
     # ---- waiver analysis --------------------------------------------
     wa = b.get("waiverAnalysis")
     if not wa:

@@ -5,8 +5,11 @@ recommendation. It outranks the per-run optimisation: if a move the numbers
 like conflicts with something here, the numbers lose, or the card explains
 why this is the exception.
 
-Last reviewed: 2026-09-24, after an 0-4 start. Section 0 is new and records
-what that start taught. Sections 1-3 are rewritten from it.
+Last reviewed: 2026-09-26, after a backtest on the full 2025 season
+(`BACKTEST-2025.md`). Section 0 records what the 0-4 start taught; section 1
+is rewritten from what the backtest proved. Mechanics are in
+`PLAYER-ANALYSIS-SPEC.md`; this document owns the policy, and wins where they
+differ.
 
 ---
 
@@ -51,27 +54,49 @@ Three things follow, and the rest of this document is built on them:
 3. **Acting has a cost that deciding does not.** Most moves made were
    neutral-to-negative. The default is to do nothing.
 
+### What the backtest added
+
+Tested on every startable player-week of 2025, **nothing statistical beat
+ESPN's weekly projection** at picking the better of two players: 65.2% on
+start/sit. Adding recent volume made it worse at every weight. So did
+correcting it by a player's past bias. Whether a player beats his projection
+does not persist from one half-season to the next — it is luck, not a trait.
+
+An earlier version of this document cited Coker's 9 opportunities against
+McLaurin's 4 as proof that volume beats projection. It was one example.
+Across 43,632 comparisons it does not.
+
 ---
 
 ## 1. Lineup policy — first, because it is where games are lost
 
-### The three cases
+### The rule
 
-Every lineup decision falls into exactly one of these, and the case decides
-the method:
+**ESPN's projection sets the lineup.** It is the best estimate available —
+nothing tested beat it — so the lineup is the projection lineup unless there
+is news it has not priced.
 
-**Projection and volume agree.** Start the one they both prefer. No thesis,
-no decision-log entry. This is most decisions and it should take no effort.
+**Close calls go to the projection, with no thesis.** Within two projected
+points, even ESPN is right only 56% of the time. That is a coin flip, and
+analysis spent on it is confident reasoning about noise.
 
-**A clear volume gap.** One player's opportunity — targets and carries — is
-materially larger and not shrinking. Follow volume, even against a small
-projection edge. *Coker 9 opportunities against McLaurin 4 was this case;
-volume was right and the brief was wrong.*
+**The edge is information, not arithmetic.** A projection cannot know who is
+inactive at 11:30 on Sunday, or that a quarterback was ruled out after it was
+set. That is where research earns its keep — which is why every player is
+researched on every run (below).
 
-**Close on both.** Similar projection, similar volume. This is a coin flip
-and no method calls it reliably — Warren and Tuten had identical week-1
-volume, 16 and 16. **Default to projection and do not write a thesis.**
-Spending analysis on a coin flip produces confident reasoning about noise.
+### Questionable starters get a contingency
+
+A starter whose status is in doubt stays in the lineup with a named fallback
+and a time to check: *"Start Warren; if he is inactive at 11:30 Sunday, start
+Tuten."* The decision is made in advance, so Sunday morning is a checklist.
+
+### Every player is researched, every run
+
+Bench included, no exceptions. The unit is the team situation — one injury
+report covers everyone on that team and who is throwing. "No change, checked
+Friday's report" is a complete answer; a search that finds nothing must not
+become a narrative.
 
 ### What never justifies overriding projection
 
@@ -80,14 +105,25 @@ negotiable. A player who scored well is not thereby better; a player who
 scored badly is not thereby worse. If the override rests on a box score
 rather than a role, it does not happen.
 
-The only legitimate overrides are **role facts with a name attached**: an
-injury, a quarterback change, a depth-chart move, a confirmed snap-share
-shift. And the card states which one.
+**A volume gap.** ESPN's projection already contains usage; adding it again
+made decisions worse in the backtest. Use volume to understand a player,
+never to overrule his projection.
 
-### Start the studs
+**Last season.** A player's 2025 numbers describe a team, a quarterback and a
+body that may no longer exist. They are context, never evidence for a start
+or an add.
 
-A top-12 player at his position starts through a bad week. The grade
-explains the projection; it never benches him.
+The only legitimate overrides are **news ESPN has not priced**, with a name
+and a time attached: an inactive or ruled-out player, a quarterback change or
+a depth-chart move reported after the projection was set. The card states
+which, and when it broke. If the news came before the projection updated, it
+is already in the number.
+
+There is no separate rule protecting studs. The backtest found ESPN rates its
+top-12 players as fairly as everyone else (0.95 of projection, against 0.97
+for the next tier), so the projection already protects them — and the rule
+against overriding on last week's points is what stops a stud being benched
+on one bad game.
 
 ### Two strikes
 
@@ -112,8 +148,8 @@ player — and that side should usually be me.
 - Target share and route participation are the floor; touchdowns are noise.
 - A committee back who loses the goal line *and* third downs collects the
   least valuable touches available.
-- When two players project within a point, take the one whose points come
-  from volume rather than scoring.
+- These describe why a projection is what it is. They are not a reason to
+  overrule it — see section 1.
 
 **Volume without production is a warning, not a signal.** Allgeier drew 13
 opportunities a game for 6.5 points, with a role falling from 19 to 7. High
@@ -150,7 +186,8 @@ narrative pattern. Together they are a decision.
 ### The bar
 
 A wire player is worth adding only if he beats my weakest **movable**
-player — never a stud — on:
+player — never one inside this week's top 24 at his position by ESPN's expert
+rank — on:
 
 - opportunity in the most recent week, by a real margin (~30%)
 - a trend that is flat or rising, never falling
@@ -268,6 +305,11 @@ The decision log is only evidence if it grades itself honestly.
   run keeps resurfacing the same non-move, that is a sign the analysis is
   re-deriving from scratch — fix the analysis, do not paper over it with a
   growing list of standing refusals.
+- **The week archive is ground truth.** Every result is checked against
+  `week-<league>-<n>.json`, never an article. A grade once closed RIGHT on
+  "about 15.8 to 14.3" from news; the archive said 9.8 to 14.2.
+- **A lineup call is graded on its outcome.** "Start A over B" is RIGHT only
+  if A outscored B, whatever its written falsifier said.
 
 ---
 
@@ -278,6 +320,10 @@ The decision log is only evidence if it grades itself honestly.
 - **Do not manufacture cards.** An empty section is a legitimate answer.
 - **Do not write a thesis on a coin flip.**
 - **Do not bench a stud on one bad week.**
+- **Do not let volume overrule a projection.**
+- **Do not reintroduce an idea the backtest rejected** — a reliability score,
+  bias correction, a volume override, a favoured/underdog rule — without new
+  evidence that beats ESPN's projection.
 - **Do not churn a slot twice in a week.**
 - **Do not grade a failure as EXPIRED.**
 - **Do not spend IPADE priority without saying why this is the one.**
@@ -295,3 +341,15 @@ Answer these weekly, from data, in the brief's retrospective:
 - Did any slot change hands twice in a week?
 - Is the waiver analysis saying "nothing" most weeks? If it is producing
   adds every run, it is optimising noise.
+- **How many bench points came from our own overrides** of the projection?
+  The target is zero.
+- Did every contingency resolve the way its trigger said?
+- Did research reach every player, at 30–45 searches a run?
+
+### Measured, not yet used
+
+**ESPN's expert weekly rank** — `rank`, with `rankHigh` and `rankLow` — is
+frozen at kickoff each week from week 3. Around week 8, with five or six weeks
+collected, it gets the backtest's pairwise test: projection alone, expert rank
+alone, both. It earns a role only if it beats the projection. Until then it is
+shown, never used.

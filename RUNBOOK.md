@@ -18,13 +18,15 @@ Work in this order. Do not jump ahead to writing.
 - [ ] **2.** Diff the settings — before looking at a single player
 - [ ] **3.** Print the full picture: rosters, wire, activity, injuries
 - [ ] **4.** Read STRATEGY.md and the decision log, then decide what to research
-- [ ] **5.** Research it online — every player you will name, no exceptions
+- [ ] **5.** Research it online — every rostered player, bench included, every
+  run, no exceptions; and every other player you will name
 - [ ] **6.** Write both payloads
 - [ ] **7.** Run the validator
 - [ ] **8.** Publish, update the decision log, then report
 
-A finished run takes 15–25 web searches. If you did fewer than ten, you
-skipped step 5.
+A finished run takes 30–45 web searches across both leagues — one per team
+on each roster, plus flags, the wire and the defences. If you did fewer than
+twenty, you skipped step 5.
 
 **A run between weeks looks different.** Once every game has kicked off,
 nothing is droppable, no lineup can change, and the only live decision is the
@@ -225,41 +227,73 @@ owned: 134 points left on benches, every margin under 16. The games were
 lost in the lineup, and nothing in this runbook used to ask whether the
 lineup was right.
 
-Two tools, both deterministic, both read-only. Run them for each league:
+**Then read `BACKTEST-2025.md`.** On the full 2025 season nothing
+statistical beat ESPN's weekly projection at start/sit — not recent volume,
+not a player's past bias, not a reliability score. The projection sets the
+lineup. Your edge is **news it has not priced yet**.
+
+Three tools, all deterministic, all read-only. Run them for each league:
 
 ```bash
 cd /tmp/fb
-for f in lineup_check waiver_analysis; do
+for f in lineup_check player_report waiver_analysis; do
   curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/$f.py" -o $f.py
 done
-python3 lineup_check.py 1237544639
-python3 lineup_check.py 1325565673
-python3 waiver_analysis.py 1237544639
-python3 waiver_analysis.py 1325565673
+for L in 1237544639 1325565673; do
+  python3 lineup_check.py $L
+  python3 player_report.py $L
+  python3 waiver_analysis.py $L
+done
 ```
+
+`player_report.py` imports from `lineup_check.py`; keep them in the same
+directory.
 
 ### The lineup check
 
-Compares the lineup as currently set against the projection lineup and
-classifies every slot where they differ:
+Compares the lineup as currently set against the **projection lineup** and
+labels every difference:
 
-- **AGREE** — projection and volume prefer the same player. Just set it.
-  No thesis, no decision-log entry.
-- **VOLUME** — a clear opportunity gap that is not shrinking. Follow it,
-  even against a small projection edge.
-- **COIN FLIP** — close on both. **Take the projection and write no thesis.**
-  Warren and Tuten had identical week-1 volume; no method calls that, and
-  spending analysis on it produces confident reasoning about noise.
+- **PROJECTION** — a real projection gap. Set it.
+- **COIN FLIP** — within two points. **Take the projection and write no
+  thesis.** Even ESPN gets these right only 56% of the time; analysis spent
+  here is confident reasoning about noise.
+- **MUST CHANGE** — a starter is out.
+
+It also prints a **contingency** for every projected starter who is
+questionable, doubtful or day-to-day: the best eligible bench player, and the
+time to check — 90 minutes before his kickoff, in Mexico City time, when
+inactives are announced. Each goes into `lineupCheck.contingencies`, and the
+player's report verdict is CONDITIONAL.
 
 **Never override the projection on last week's points.** This is the most
 expensive mistake this system has made. The IPADE quarterback slot lost 42.8
 points in two weeks by starting whoever scored the week before — and in week
-2, simply starting by projection would have won the game. The only
-legitimate override is a **role fact with a name attached**: an injury, a
-quarterback change, a depth-chart move.
+2, simply starting by projection would have won the game. Nor on volume:
+the backtest found that adding it to the projection made decisions worse at
+every weight. The only legitimate override is **news ESPN has not priced**,
+with a name and a time: a ruling or inactive after the projection was set, a
+late quarterback change, a depth-chart move. If the news came before the
+projection updated, it is already in the number.
 
 If the check says the lineup as set is the projection lineup, say so in one
 line and move on. That is the common case and it should cost nothing.
+
+### The player report
+
+The same five questions for every rostered player, from data: **availability,
+role** (share of team volume — description, never a score), **competition**
+(who shares that volume, their status, what their absence frees), **passer**,
+and **whether the projection lineup starts him**. It also shows ESPN's expert
+weekly rank with its range — context only; it is being measured, not used.
+
+It raises **flags** — `OWN_QUESTIONABLE`, `OWN_OUT`, `VACATED`,
+`RIVAL_QUESTIONABLE`, `ROLE_UP`, `ROLE_DOWN`, `PASSER_OUT`,
+`PASSER_QUESTIONABLE`, `QB_CHANGE` — and prints what each needs researched.
+**Every flag is answered by name in that player's report.**
+
+It ends with **RESEARCH BY TEAM**: every team on the roster and who plays for
+it. That is Step 5's minimum — one search per team, every run.
 
 ### The waiver analysis
 
@@ -339,7 +373,8 @@ breakout you missed is cheaper than a churn you caused.
 
 1. **Every injury-flagged player on any roster.** An opponent's hurt WR1 is a
    handcuff opportunity and trade leverage, not someone else's problem.
-2. **Every starter whose game has not kicked off.**
+2. **Every rostered player, bench included** — the RESEARCH BY TEAM list
+   from `player_report.py`. One search per team covers everyone on it.
 3. **Every wire player with `why=MONEY` or `why=OWNED`.** OWNED means widely
    rostered elsewhere and free here — the most valuable thing a wire holds in
    a shallow league.
@@ -383,6 +418,19 @@ happened twice on this roster and both times it gained nothing.
 output, you searched him in this session. Not "I know this player" — search.
 Rosters, roles and depth charts changed since your training data.
 
+**Every rostered player, every run, no exceptions.** The unit is the team:
+the latest injury report and any role or depth-chart news from the last 48
+hours, one search covering everyone on that team. Then every flag
+`player_report.py` raised, by name.
+
+**"No change" is a complete answer.** Record what you checked and when —
+"Steelers injury report, Fri: no change". A search that finds nothing must
+not turn into a narrative; that is how briefs manufacture cards.
+
+**Note when news broke.** The projection updates during the week. News that
+broke before it updated is already priced; news after it is the edge. Say
+which.
+
 What to look for, in descending order of value:
 
 1. **Who is throwing to him.** For every pass-catcher you start, bench or
@@ -407,8 +455,9 @@ What to look for, in descending order of value:
 
 2. **Role, not health.** Who takes the goal line. Who plays third downs. Who
    is listed first on the official depth chart. A back who loses both the goal
-   line and passing downs is capped regardless of what the projection says —
-   and in full PPR that matters twice over.
+   line and passing downs is capped — and in full PPR that matters twice
+   over. Check whether the projection already reflects it; a role change
+   reported after projections were set is unpriced news.
 3. **Practice participation across the week.** Limited Wednesday and full
    Friday is a different player from limited all three days. A designation is
    a label; practice reports are the evidence.
@@ -433,8 +482,8 @@ One file per league, in `/tmp/fb/`. **The brief owns the whole screen**: the
 app renders only what you write here, so a roster row you omit is a row he
 does not see. Nothing is derived on the device any more.
 
-Nine sections in a fixed order — situation, action, the case for the action,
-the team it leaves him with, the market in three parts, the record, the
+Ten sections in a fixed order — situation, action, the case for the action,
+the team it leaves him with, the market in four parts, the record, the
 limits. The order is the argument.
 
 ### Numbers come from the archive
@@ -621,25 +670,67 @@ All fourteen, split into `starting` and `bench`.
      "position": "QB", "team": "BUF",
      "detail": "BUF · final · W 34-20",
      "projection": 19.6, "actual": 35.7, "delta": 16.1,
-     "tier": "LEGENDARY"}
+     "tier": "LEGENDARY",
+     "report": { … see below … }}
   ],
   "bench": [ … ]
 }
 ```
 
+**Every row, bench included, carries a `report`** — the five questions
+answered, from `player_report.py` plus research:
+
+```json
+"report": {
+  "flags": ["OWN_QUESTIONABLE", "VACATED"],
+  "availability": "QUESTIONABLE — limited Wed, full Thu and Fri",
+  "role": "55% of Pittsburgh's carries, 4–6 targets; steady",
+  "competition": "Dowdle OUT — ~7 carries and ~2 targets a week vacated",
+  "passer": "Aaron Rodgers, active",
+  "checked": "Steelers injury report Fri 25 Sep; team news",
+  "verdict": "CONDITIONAL",
+  "trigger": "Active at inactives, Sun 09:30 CDMX",
+  "fallback": "Bhayshul Tuten",
+  "summary": "Must-start if active: lead back with Dowdle's volume added."
+}
+```
+
+- `flags` is the list `player_report.py` printed — empty when it raised none.
+  Every flag is answered in the text fields.
+- `checked` is what you looked at and when. Never empty; "no change" counts.
+- `verdict` is **START**, **BENCH** or **CONDITIONAL**. A CONDITIONAL needs
+  `trigger` and `fallback`, and a matching contingency below.
+- Quarterbacks need no `competition` or `passer`; kickers and defences need
+  only `availability`, `checked`, `verdict` and `summary`.
+- No reliability figures, no bias-adjusted projections — `BACKTEST-2025.md`
+  explains why.
+
 **Every roster block carries the lineup check** from Step 3.5:
 
 ```json
 "lineupCheck": {
-  "asSet": 119.7,
-  "best": 119.9,
-  "gap": 0.2,
-  "verdict": "One coin flip: Vele over Golden, 11.6 to 11.4. Taking the projection, no thesis."
+  "asSet": 134.6,
+  "best": 134.6,
+  "gap": 0.0,
+  "verdict": "The lineup as set is the projection lineup; Warren and Coker are conditional.",
+  "moves": [],
+  "contingencies": [
+    {"player": "Jaylen Warren",
+     "if": "Inactive at 09:30 Sunday CDMX",
+     "then": "Start Bhayshul Tuten in his RB slot"}
+  ]
 }
 ```
 
 `verdict` is one sentence. When the gap is zero, say so: "The lineup as set
 is the projection lineup."
+
+`moves` is usually empty. An entry — `{"start", "over", "reason"}` — needs
+news ESPN has not priced, named, with when it broke. Never volume, never last
+week's points.
+
+`contingencies` has one entry per CONDITIONAL starter, taken from the lineup
+check's output.
 
 **`state` decides what the right-hand column means**, and the app changes the
 column header with it:
@@ -795,7 +886,7 @@ and carried different rules, which is how a gate stops being a gate.
 ```bash
 cd /tmp/fb
 curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/validate.py" -o validate.py
-# 33 rules is the current count. Far fewer means a stale copy — re-fetch.
+# 40 rules is the current count. Far fewer means a stale copy — re-fetch.
 grep -c "errs.append" validate.py
 ```
 
@@ -964,6 +1055,9 @@ Then, briefly, per league:
 - **Open theses reviewed** — which held, which broke, what you did about it.
 - What changed, what he should do, where you found nothing.
 - The kicker and D/ST comparison, even when the answer is hold.
+- The lineup check: the gap, and every contingency with its check time.
+- Research coverage: every team on the roster searched, and any player whose
+  report rests on a thin source.
 - The validator output for each file, verbatim.
 - What you published, and what you wrote to the decision log.
 
