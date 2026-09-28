@@ -347,12 +347,16 @@ class Edition:
         theirs = sorted([(x["slotId"], x) for x in opp["roster"] if x["slotId"] not in (20, 21)],
                         key=lambda sp: POS_ORDER.get(slot_label(sp[0]), 9))
         slots = []
+        def played(p):
+            k = self.kickoff(p)
+            return bool(k and k <= self.now and p.get("actual") is not None)
         for (s, a), (_, b) in zip(self.starters(), theirs):
-            played = b.get("actual") not in (None, 0)
+            ma, tb = played(a), played(b)
             slots.append({"slot": slot_label(s),
-                          "mine": {"name": surname(a["name"]), "pos": a["pos"], "proj": a.get("proj")},
-                          "theirs": {"name": surname(b["name"]), "value": b["actual"] if played else b.get("proj"),
-                                     "final": played}})
+                          "mine": {"name": surname(a["name"]), "pos": a["pos"], "proj": a.get("proj"),
+                                   "value": a["actual"] if ma else a.get("proj"), "final": ma},
+                          "theirs": {"name": surname(b["name"]), "value": b["actual"] if tb else b.get("proj"),
+                                     "final": tb}})
         groups = {}
         for p in self.roster:
             k = self.kickoff(p)
@@ -508,6 +512,7 @@ class Edition:
             "schema": SCHEMA,
             "edition": {"id": f"{self.lid}-w{self.week}-{self.now.strftime('%Y%m%dT%H%MZ')}",
                         "leagueId": self.lid, "leagueName": self.lg["settings"]["name"],
+                        "teamName": self.mine["name"],
                         "label": f"{self.lg['settings']['name'].split()[0].upper()} EDITION", "week": self.week,
                         "record": f"{self.mine['record']['wins']}–{self.mine['record']['losses']}",
                         "dateline": k.strftime("%A, %B %-d, %Y").upper(), "time": k.strftime("%H:%M"),
