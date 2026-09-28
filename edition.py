@@ -38,6 +38,8 @@ COIN_FLIP = 2.0
 SEASON_SCALE = 1.06   # weekly projections vs season/17, measured on Chem's roster
 TAGS = [(1.20, "ELITE"), (1.08, "FAVORABLE"), (0.92, "NEUTRAL"), (0.80, "TOUGH"), (0.0, "AVOID")]
 DEFAULT_SLOTS = 14
+REPO_RAW = "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main"
+GAME_LENGTH = dt.timedelta(hours=3, minutes=30)   # a game this long past kickoff is final
 
 
 def load(path):
@@ -82,6 +84,25 @@ class Edition:
             p = os.path.join(base, f"week-{lid}-{w}.json")
             if os.path.exists(p):
                 self.archives[w] = load(p)
+        # This week's archive, written provisionally while the week is open. Fetched
+        # from the repo when it isn't beside the league file; none is fine.
+        cur = os.path.join(base, f"week-{lid}-{self.week}.json")
+        if not os.path.exists(cur):
+            try:
+                import urllib.request
+                with urllib.request.urlopen(f"{REPO_RAW}/week-{lid}-{self.week}.json", timeout=20) as r:
+                    open(cur, "wb").write(r.read())
+            except Exception:
+                pass
+        self.provisional = False
+        if os.path.exists(cur):
+            try:
+                a = load(cur)
+                if a.get("provisional"):
+                    self.archives[self.week] = a
+                    self.provisional = True
+            except Exception:
+                pass
         self.pools = {w: {x["id"]: x for x in a.get("pool", [])} for w, a in self.archives.items()}
         # weekly projections for anyone rostered anywhere that week
         self.arch_rows = {w: {x["id"]: x for t in a["teams"] for x in t["roster"]} for w, a in self.archives.items()}
@@ -104,6 +125,24 @@ class Edition:
     def kickoff(self, p):
         k = self.team(p).get("kickoff")
         return cdmx(k) if k else None
+
+    def finished(self, p):
+        k = self.kickoff(p)
+        return bool(k and self.now >= k + GAME_LENGTH)
+
+    def current_week(self, p):
+        """This week's slot: the projection always; the stat line once his game is
+        final and the provisional archive has it."""
+        cur = {"week": self.week, "proj": p.get("proj")}
+        pos = p["pos"]
+        line = self.pools.get(self.week, {}).get(p["id"]) if self.provisional and self.finished(p) else None
+        if line and pos not in ("K", "DST") and self.touches(line, pos):
+            t = self.touches(line, pos)
+            avg = self.starter_avg.get((self.week, pos)) or {}
+            cur.update(touches=t, eff=round(line["pts"] / t, 2),
+                       share=self.share(p["id"], p.get("proTeamId"), pos, self.week) if pos != "QB" else None,
+                       posAvgTouches=avg.get("touches"), posAvgEff=avg.get("eff"), posAvgShare=avg.get("share"))
+        return cur
 
     def status(self, p):
         return (p.get("injury") or "ACTIVE").upper()
@@ -318,7 +357,7 @@ class Edition:
                             "matchup": t.get("matchupGrade")},
                 "range": ({"rank": p["rank"], "best": p["rankLow"], "worst": p["rankHigh"]}
                           if p.get("rank") and p.get("rankLow") and p.get("rankHigh") else None),
-                "weeks": weeks, "current": {"week": self.week, "proj": p.get("proj")},
+                "weeks": weeks, "current": self.current_week(p),
                 "shareKey": None if pos_ in ("QB", "K", "DST") else ("carries" if pos_ == "RB" else "targets"),
                 "series": series, "table": table,
                 "challengers": {"title": title, "self": p.get("proj"), "rows": rows} if rows else None,
