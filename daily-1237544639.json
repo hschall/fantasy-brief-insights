@@ -1,1 +1,696 @@
-{"week":3,"leagueName":"Chem","teamName":"AVIATO","generatedAt":"2026-09-28T21:50:00Z","snapshotNote":"Snapshot 21:33 UTC 28 Sep · Monday 15:33 Mexico City · every AVIATO starter is final; Monangai (bench) plays tonight at 18:15 · this brief does not refresh on its own","sources":"Built from 33 searches and 22 page reads this run (shared across both leagues) · CBS Sports, ESPN, DraftKings Network, RotoWire, Yardbarker, amNY, Panthers.com, Jaguars.com, NewOrleansSaints.com, PFF, Bleacher Nation, The Big Lead, NinerNoise, SI, NFL.com, ESPN league file (21:33Z)","tonight":{"headline":"Lost, 103.8 to 140.6. 0-3, and Achane is out for the season","status":"LOSING","winProbability":0,"myScore":103.76,"theirScore":140.56,"opponent":"Footballers","body":["De'Von Achane tore his ACL on Sunday and will miss the rest of the season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET). That landed after this morning's brief. Your week was already lost: every starter is final at 103.8 against Footballers' 140.6, and you're 0-3.","There's one thing to do before Wednesday 01:00 Mexico City: put in a claim for Ollie Gordon II and drop Achane (card below). Chem has no IR slot, so Achane is now a dead roster spot. After tonight's game, Tuten takes Achane's RB slot."],"case":[{"label":"What changed since this morning","body":"Achane: torn ACL, out for the season (CBS, 28 Sep). Jefferson: the MRI showed a sprained ankle and he might play Sunday against Miami (Yardbarker, citing NFL Network and ESPN). Coker: a minor quad strain, and he could play Week 4 against Detroit depending on Wednesday-Friday practice (CBS). Allen's knee isn't viewed as a concern (RotoWire, 28 Sep)."},{"label":"Was the lineup wrong?","body":"No. The lineup as set was the projection lineup (136.6, gap 0.0) and every starter was active at kickoff. Three got hurt during the game. Tuten (17.0) and McLaurin (19.7) outscored them from the bench, but only hindsight picks those swaps, and you lost by 36.8."},{"label":"What would change it","body":"Nothing for Week 3; it's final. For Week 4, the Gordon claim clearing and the Week 4 projections once the week rolls after tonight."}],"caseSources":"ESPN league file · CBS Sports · Yardbarker · RotoWire"},"doFirst":[{"id":"chem-claim-gordon-drop-achane-2026-09-28","tier":"SOLID","urgency":"Before Wednesday","kind":"Waiver claim","deadlineLabel":"Claims process Wed 01:00 Mexico City (07:00 UTC)","deadline":"2026-09-30T07:00:00Z","title":"Claim Ollie Gordon II, drop De'Von Achane","subtitle":"Achane is out for the season with a torn ACL and Chem has no IR slot. Gordon played 84% of Miami's snaps once he went down.","case":[{"label":"The news","body":"Achane tore his ACL on a first-quarter cut at Miami on Sunday and will miss the rest of the 2026 season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET). This broke after this morning's brief and after Week 3's projections, so nothing in the snapshot prices it."},{"label":"The role","body":"Gordon played 83.6% of Miami's snaps after the injury: 20 carries for 48 yards and a touchdown, plus 14 receiving yards (DraftKings Network, 28 Sep). He'd had three touches in two weeks before that (CBS)."},{"label":"The drop","body":"Achane, 99.8% rostered. That's a market disagreement on the record, and the reason is simple: he's out for the season, and Chem's lineup has no IR slot (slot 21 count is 0), so he holds a roster spot and can't score. Nobody else on the roster gets touched. Kamara keeps his seat because Etienne's hamstring gives him the Saints' lead-back work (CBS)."},{"label":"The contested part","body":"DraftKings Network calls both Miami backs fringe options and says most managers should avoid the backfield: Miami are 0-3 and 31st in scoring. Hafley says 'they're all going to have their roles', and Jaylen Wright (foot, stinger) missed Week 3 but may return. I take the claim anyway because the cost is a dead roster spot. It's depth, not a starter, and the card is SOLID, not ELITE."},{"label":"The priority","body":"AVIATO is 10th of 10 in waiver order in this snapshot. Chem's order resets weekly, so the claim costs nothing lasting, but any rival who claims him first gets him. ESPN won't show you rival claims."},{"label":"Falsified if","body":"Wright returns and Gordon draws under 12 touches in Week 4, which would make this a timeshare. Or Monangai outscores Gordon in two of Weeks 4-6, which would say the seat was better spent elsewhere."}],"sources":"CBS Sports · DraftKings Network · ESPN league file","ghost":false,"action":{"type":"CLAIM","playerId":4711533,"dropPlayerId":4429160,"label":"Claim Gordon · drop Achane"}},{"id":"chem-ghost-tuten-if-achane-out-2026-09-27","tier":"SOLID","urgency":"When rosters unlock","kind":"Lineup","deadlineLabel":"WHEN THE WEEK ROLLS · armed: Achane is out for the season","deadline":"WHEN_UNLOCKED","title":"Week 4: Tuten takes Achane's RB slot","subtitle":"Armed. The trigger fired: Achane tore his ACL. Swap Tuten in once rosters unlock after tonight; if the claim drops Achane first, just fill the empty slot.","case":[{"label":"The trigger","body":"This card fired if Achane was ruled out for Week 4. He's out for the season: torn ACL (CBS Sports, 28 Sep 10:49 ET)."},{"label":"Why Tuten","body":"Jacksonville's starter: 15 carries, 73 yards and a TD plus 2 catches on Sunday, and 43 carries for 204 yards through three games (Jaguars.com). Coen: 'He has been a pro's pro.' His snap share has held at 48-50% all season (PFF)."},{"label":"Where the projection decides","body":"Kamara may project close once Week 4 rolls, because Etienne is ruled out for the Falcons game (CBS). If the Week 4 projection puts Kamara more than two points ahead, start Kamara instead. Within two points it's a coin flip: take the projection and move on."},{"label":"Falsified if","body":"The back you start is outscored by the best RB left on your bench in Week 4. Graded on the outcome from the archive."}],"sources":"CBS Sports · Jaguars.com · PFF","ghost":false,"action":{"type":"SWAP","playerId":4882093,"dropPlayerId":4429160,"label":"Start Tuten · bench Achane"}},{"id":"chem-ghost-mclaurin-if-wr-out-2026-09-27","tier":"DEPTH","urgency":"When rosters unlock","kind":"Lineup","deadlineLabel":"WHEN THE WEEK ROLLS · only if Coker or Jefferson is out for Week 4","deadline":"WHEN_UNLOCKED","title":"If Coker or Jefferson can't go: McLaurin starts, then Boston","subtitle":"Not armed, and less likely than it was: Jefferson has a sprain and might play; Coker's quad is a minor strain and he could play against Detroit.","case":[{"label":"The injuries","body":"Jefferson: the MRI confirmed a sprained left ankle and he 'might suit up' against Miami on Sunday (Yardbarker, citing NFL Network and ESPN, 28 Sep). Coker: a minor quadriceps strain; he could play against the Lions, and Wednesday-Friday practice decides (CBS Sports, 28 Sep)."},{"label":"Why McLaurin first","body":"Two straight weeks of 9 targets from Mariota, and PFF note he kept the top receiver role with Daniels out. Daniels is expected back in three weeks or sooner with no IR (The Big Lead, 27 Sep), so Mariota very likely starts Week 4 against the Colts."},{"label":"Then Boston","body":"Cleveland's X receiver: over 90% of snaps in 11 and 12 personnel (PFF). Two catches for 41 on Sunday."},{"label":"Falsified if","body":"Both receivers practise fully by Friday, and the card never fires. If it fires, it's graded on the outcome: McLaurin against the man he replaced."}],"sources":"Yardbarker · CBS Sports · The Big Lead · PFF","ghost":true,"action":{"type":"SWAP","playerId":3121422,"dropPlayerId":4695883,"label":"Start McLaurin · bench Coker (only if Coker is out for Week 4)"}}],"whatWentWrong":[{"id":"w1","title":"Achane is gone for the season, and two more starters got hurt","lead":"Achane tore his ACL. Coker (quad strain) and Jefferson (ankle sprain) look minor. All three were started correctly.","case":[{"label":"Not a lineup miss","body":"The lineup as set was the projection lineup and every starter was active at kickoff. The three scored 10.7 on 51.5 projected."},{"label":"What it changes","body":"Achane's ACL (CBS, 28 Sep) turns a RB1 into a dead roster spot with no IR slot to park him in. Both cards above follow from it: claim Gordon with Achane as the drop, and Tuten into the lineup."},{"label":"What would change it","body":"Nothing for Achane. Coker and Jefferson are Wednesday's practice reports."}],"sources":"CBS Sports · Yardbarker · ESPN league file"},{"id":"w2","title":"The Coker-over-McLaurin flex call lost, 3.8 to 19.7","lead":"Closed WRONG. The falsifier fired: Coker got 4 targets while Mariota threw McLaurin 9.","case":[{"label":"The call","body":"On 21 Sep the brief moved Coker into the flex because Daniels' injury meant Mariota would start. The falsifier said the call was wrong if Coker drew under five targets while McLaurin drew eight or more. Coker got 4 before the quad took him out (The Big Lead). McLaurin got 9 (NBC)."},{"label":"The honest part","body":"The injury cut Coker's day short, and that doesn't rescue the call. A lineup decision is graded on its outcome, and this one lost by 15.9. The theory that Mariota would starve McLaurin was wrong on its first test."},{"label":"What it changes","body":"The flex slot reopens. Week 4's projection decides it, and the second card makes McLaurin the first replacement if a receiver is out."},{"label":"What would change it","body":"The Week 3 archive disagreeing with the reported target counts. The archive grades it formally once it's published."}],"sources":"NBC Sports · The Big Lead · ESPN league file"}],"roster":{"state":"SUNDAY","footnote":"Scores from the 21:33 UTC Monday snapshot. Every AVIATO starter is final; Monangai (bench) plays tonight. The only matchup grade is on his unplayed row, carried from the 26 Sep read with Sharp Football's Philadelphia numbers.","lineupCheck":{"asSet":136.6,"best":136.6,"gap":0.0,"verdict":"The lineup as set was the projection lineup (136.6 both, gap 0.0), and every starter is final, so nothing changes until Week 4.","moves":[],"contingencies":[]},"starting":[{"playerId":3918298,"name":"Josh Allen","slot":"QB","position":"QB","team":"BUF","detail":"BUF · final · W 24-16 vs LAC · 2 rush TD, 2 INT, lost fumble (AP). Knee not viewed as a concern (RotoWire, 28 Sep)","projection":23.8,"actual":17.5,"tier":"ELITE","report":{"availability":"QUESTIONABLE in the league file after a late left-knee hit. Joe Brady: 'Josh is always a little [gimpy] after the game'; nothing suggests he misses the Patriots game (RotoWire, 28 Sep, citing SI and Buffalo Rumblings)","role":"Attempts went 29 then 31 in the archive and 14 carries in Week 2. Today he threw 26 passes and scored both touchdowns himself on the ground (AP)","checked":"RotoWire 'Knee not viewed as concern', 28 Sep; PFT 'We're all good', 27 Sep; AP recap","verdict":"START","summary":"QB1. Five turnovers held him to 17.5. The knee is a watch item for Wednesday's report, nothing more. Starts by projection.","flags":[]}},{"playerId":4429160,"name":"De'Von Achane","slot":"RB","position":"RB","team":"MIA","detail":"MIA · final · L 10-24 vs KC · torn ACL, out for the season (CBS/ESPN, 28 Sep). Ollie Gordon II took over","projection":19.5,"actual":1.7,"tier":"DEPTH","report":{"flags":["OWN_OUT"],"availability":"INJURY_RESERVE in the league file. Torn left ACL on a non-contact cut in the 1st quarter; out for the rest of the 2026 season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET)","role":"Carries went 11 then 20 in the archive (92%, then 80% of the backfield) with 5-6 targets. Today: 3 carries for 17 yards and 1 target before the injury (Heavy)","competition":"Ollie Gordon II played 83.6% of snaps after the injury: 20 carries, 48 yards, a TD (DraftKings Network). Jaylen Wright (foot, stinger) missed Week 3; Hafley: 'They're all going to have their roles'","passer":"Malik Willis, active","checked":"CBS Sports 'Achane to miss rest of season with torn ACL', 28 Sep; DraftKings Network on Gordon vs Wright, 28 Sep","verdict":"BENCH","summary":"OWN_OUT answered: out for the season. Chem has no IR slot, so he's the drop on the Gordon claim."}},{"playerId":4569987,"name":"Jaylen Warren","slot":"RB","position":"RB","team":"PIT","detail":"PIT · final · W 30-27 vs CIN · played through the shoulder; Dowdle OUT (toe). Rodgers throwing","projection":15.8,"actual":20.6,"tier":"SOLID","report":{"flags":["VACATED"],"availability":"Was QUESTIONABLE (shoulder), active, and played the full game","role":"Archive: 55% of the backfield, 4-6 targets. Sunday: 17 carries for 127 yards, 3 catches for 49, on 90.3% of snaps (PFF)","competition":"VACATED answered: Rico Dowdle was OUT (toe) and Warren took the lead role. ESPN priced it: Dowdle was ruled out Friday, before the projection","passer":"Aaron Rodgers, active","checked":"PFF Week 3 recap; Steelers Now injury central (Dowdle ruled out Friday, no Week 4 ruling yet)","verdict":"START","summary":"Every-down back while Dowdle is out. The start-Warren thesis held again; the archive closes it."}},{"playerId":4262921,"name":"Justin Jefferson","slot":"WR","position":"WR","team":"MIN","detail":"MIN · final · W 23-16 at TB · MRI: left-ankle sprain, might play vs MIA (Yardbarker). Kyler Murray throwing","projection":18.3,"actual":5.2,"tier":"ELITE","report":{"flags":["OWN_QUESTIONABLE"],"availability":"QUESTIONABLE in the league file. MRI on Monday confirmed a sprained left ankle; he 'might suit up' against Miami on Sunday, per NFL Network and ESPN (Yardbarker, 28 Sep)","role":"Archive: 9 then 6 targets (39%, then 32% of the team). Today: 2 catches for 32 before leaving","competition":"Jordan Addison caught Murray's 41-yard TD; T.J. Hockenson is the other volume piece while he's out","passer":"Kyler Murray, active: cleared concussion protocol and started Week 3 (CBS; Vikings.com). The player report's 'Carson Wentz' is stale","checked":"Yardbarker 'Jefferson (ankle) may play Sunday', 28 Sep; CBS 'Murray clears protocol'; PFF recap","verdict":"START","summary":"OWN_QUESTIONABLE answered: a sprain, not a long absence. Wednesday's practice report decides Week 4; McLaurin is the fallback card."}},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","detail":"NYJ · final at DET · 10 catches, 107 yards, TD; cleared a late concussion check. Mitchell INACTIVE (finger). Geno Smith throwing","projection":16.1,"actual":26.7,"tier":"ELITE","report":{"flags":["ROLE_DOWN","VACATED"],"availability":"ACTIVE, played. Took a helmet-to-helmet hit late, was evaluated for a concussion and cleared, per Aaron Glenn (Yardbarker, 27 Sep)","role":"ROLE_DOWN answered: raw targets held at 7 and 7 in the archive, and on Sunday he caught 10 for 107 and a TD (Yardbarker). The lower Week 2 share came from Mitchell's 12 targets inflating the total, not from Wilson losing work","competition":"VACATED answered: Mitchell was declared inactive on Sunday (RotoWire; CBS; ESPN), with Mason Taylor also out. Mitchell had been questionable all week, so ESPN only partly priced it","passer":"Geno Smith, active","checked":"Yardbarker 'Jets get great news after late-game scare', 27 Sep; amNY Jets injuries, 28 Sep (Hall thigh, update Wednesday; Mitchell finger)","verdict":"START","summary":"WR1 for the Jets with the No. 2 receiver out. Starts."}},{"playerId":4695883,"name":"Jalen Coker","slot":"FLEX","position":"WR","team":"CAR","detail":"CAR · final · L 18-21 at CLE · minor quad strain, could play Week 4 vs DET (CBS). Bryce Young throwing","projection":13.7,"actual":3.8,"tier":"SOLID","report":{"flags":["OWN_QUESTIONABLE"],"availability":"QUESTIONABLE in the league file. A minor quadriceps strain; he could play against Detroit, depending on Wednesday-Friday practice (CBS Sports, 28 Sep). Canales: 'His quad lit up on him a little bit' (Panthers.com)","role":"Archive: 9 and 9 targets (27-28% of the team). Today: 3 catches for 22 yards on 4 targets before the injury","competition":"Tetairoa McMillan is the other lead target. Xavier Legette was out (knee), and John Metchie III caught the fourth-quarter touchdown (NCFootballNews)","passer":"Bryce Young, active. He was checked in the medical tent for a lower-body issue and didn't miss a snap (Panthers.com, 27 Sep)","checked":"CBS 'Coker nursing quad strain, could play Week 4', 28 Sep; Panthers.com injury roundup, 27 Sep","verdict":"START","summary":"OWN_QUESTIONABLE answered: minor. The flex thesis closed WRONG. Week 4 depends on practice, and McLaurin is the fallback card."}},{"playerId":4361050,"name":"Isaiah Likely","slot":"TE","position":"TE","team":"NYG","detail":"NYG · final · W 12-7 vs TEN · 2 catches on 5 targets. Jameis Winston (backup) stays the starter; Dart out for the season","projection":12.3,"actual":3.3,"tier":"SOLID","report":{"flags":["QB_CHANGE"],"availability":"ACTIVE, played","role":"Archive: 8 then 10 targets (28%, then 31%). Sunday: 2 catches on 5 targets (NBC), but his route participation rose to 92.3%, from 67.6% and 85.3% (PFF)","competition":"Malik Nabers is back and caught 5 for 26 (Yahoo). His return is the test of the route-share clause in Likely's thesis","passer":"QB_CHANGE answered: Jameis Winston, and Harbaugh said 'Yes' when asked whether he stays the starter; the Giants are looking at adding a veteran QB (Heavy, 27 Sep)","checked":"PFF Week 3 recap (route participation); NBC 'Likely cools off', 27 Sep; Heavy on Harbaugh and Winston","verdict":"START","summary":"TE1 by projection. Five targets fired the hold thesis' six-target clause; the routes say the role is intact. The archive grades it."}},{"playerId":-16016,"name":"Vikings D/ST","slot":"D/ST","position":"DST","team":"MIN","detail":"MIN · final · W 23-16 at TB · held Tampa to 16; Mayfield hurt his thumb late","projection":7.7,"actual":17,"tier":"SOLID","report":{"availability":"Active, finished","checked":"AP recap via Yahoo, 27 Sep; NFL.com Week 3 injuries (Mayfield dislocated thumb)","verdict":"START","summary":"17 on a 7.7 projection. Hold.","flags":[]}},{"playerId":4034949,"name":"Eddy Pineiro","slot":"K","position":"K","team":"SF","detail":"SF · final · W 36-30 vs ARI · missed two extra points, one off the upright (SF Standard)","projection":9.4,"actual":8,"tier":"SOLID","report":{"availability":"Active, finished","checked":"NinerNoise winners and losers, 28 Sep ('two missed extra points helped ensure the Red Birds had life'); SF Standard","verdict":"START","summary":"8 on a 9.4 projection, with two missed extra points. His hold thesis is graded on the Week 3 kicker rank from the archive.","flags":[]}}],"bench":[{"playerId":4882093,"name":"Bhayshul Tuten","slot":"BN","position":"RB","team":"JAX","detail":"JAX · final · W 35-6 vs NE · 15 carries, 73 yards, a TD; 48% of snaps. Lawrence knelt at the 1 late, joking it was for Tuten owners (PFT)","projection":11.0,"actual":17,"tier":"SOLID","report":{"availability":"ACTIVE, played","role":"Archive: about 60% of the backfield. Sunday: 15 carries, 73 yards, a TD, 2 catches for 17; 43 carries for 204 yards through three games (Jaguars.com). Snap share 48-50% every week (PFF)","competition":"Chris Rodriguez Jr. and Ameer Abdullah share the rest","passer":"Trevor Lawrence, active: 3 TD passes (AP)","checked":"Jaguars.com key storylines, 27 Sep (Coen: 'a pro's pro'); PFF recap; no Jaguars injuries reported","verdict":"BENCH","summary":"Bench this week. Achane's RB slot in Week 4, per the armed card.","flags":[]}},{"playerId":3121422,"name":"Terry McLaurin","slot":"BN","position":"WR","team":"WSH","detail":"WSH · final · W at SEA · Marcus Mariota's first start; 6 catches on 9 targets, 77 yards, a TD","projection":11.8,"actual":19.7,"tier":"SOLID","report":{"flags":["ROLE_UP","PASSER_OUT"],"availability":"ACTIVE, played","role":"ROLE_UP answered: 4 then 9 targets in the archive, then 9 again today. Two straight weeks of 9 looks like a real role","competition":"Dyami Brown; Stefon Diggs's share fell from 31% to 18% in the archive","passer":"PASSER_OUT answered: Marcus Mariota. Daniels is expected back in three weeks or sooner, no IR (The Big Lead, citing Rapoport, 27 Sep); he very likely misses Week 4 against the Colts","checked":"The Big Lead on Daniels' timeline, 27 Sep; PFF recap (kept the top receiver role); NBC stat line","verdict":"BENCH","summary":"Scored 19.7 on the bench. The flex thesis that sat him lost and is closed. First in line if a receiver is out in Week 4."}},{"playerId":4608686,"name":"Kyle Monangai","slot":"BN","position":"RB","team":"CHI","detail":"CHI · vs PHI · MON 18:15 · Case Keenum, 3rd-string QB, starts; Caleb Williams OUT. Monangai available (knee cleared)","projection":8.5,"actual":null,"tier":"DEPTH","grade":"AVERAGE","gradeEvidence":"PHI 18th vs RB (footballdb, Wks 1-2, carried); PHI favoured by 4.5, implied 23.0 (Sharp)","report":{"flags":["PASSER_OUT"],"availability":"ACTIVE. Knee cleared; listed available for tonight (Bleacher Nation MNF injury report, 28 Sep)","role":"Archive: 36-38% of the backfield, 10 carries a week, 2 targets. Week 2: 32.9% of snaps and 12 touches to Swift's 67.1% and 21 (Sharp Football)","competition":"D'Andre Swift, about 62% of the backfield","passer":"PASSER_OUT answered: Case Keenum starts; Caleb Williams is officially out and Bagent is the backup (Bleacher Nation, 28 Sep). A downgrade","checked":"Bleacher Nation Bears-Eagles injury report, 28 Sep; Sharp Football worksheet (carried)","verdict":"BENCH","summary":"Can't enter the lineup: every RB and flex slot is locked. Bench, and a committee back behind Swift."}},{"playerId":4832800,"name":"Denzel Boston","slot":"BN","position":"WR","team":"CLE","detail":"CLE · final · W 21-18 vs CAR · 2 catches on 4 targets for 41 (NBC)","projection":11.3,"actual":8.1,"tier":"DEPTH","report":{"availability":"ACTIVE, played (Yahoo)","role":"Archive: 4 then 7 targets (18%, then 23%). Sunday: 2 catches for 41 (Yahoo). Cleveland's X receiver: over 90% of snaps in 11 and 12 personnel, 91.1% for the season (PFF)","competition":"Harold Fannin Jr. caught the go-ahead TD. KC Concepcion and Jerry Jeudy are also in the rotation","passer":"Deshaun Watson, active","checked":"Yahoo 'Boston hauls in two passes', 28 Sep; PFF Week 3 recap","verdict":"BENCH","summary":"Second in line behind McLaurin if a receiver is out.","flags":[]}},{"playerId":3054850,"name":"Alvin Kamara","slot":"BN","position":"RB","team":"NO","detail":"NO · final · L 27-35 vs LV · Etienne ruled out for Week 4 (hamstring), may go to IR (CBS). Kamara the lead back","projection":9.6,"actual":5.1,"tier":"DEPTH","report":{"availability":"ACTIVE","role":"Archive: 9 carries and 6 targets in Week 2. Sunday: 9 carries for 36 (Saints.com)","competition":"RIVAL_QUESTIONABLE answered: Travis Etienne Jr. is ruled out for Week 4 against Atlanta, 'time lost', and may need IR (CBS Sports, 28 Sep). Kamara is expected to take the expanded workload, with Kendre Miller and CJ Donaldson behind him","passer":"Tyler Shough, active","checked":"CBS 'Etienne will miss time with hamstring injury', 28 Sep; Saints.com recap","verdict":"BENCH","summary":"Lead back for Week 4 with Etienne out. Stays on the roster; the Week 4 projection decides whether he starts over Tuten.","flags":["RIVAL_QUESTIONABLE"]}}]},"trades":[],"worthALook":[{"playerId":4360234,"name":"Evan McPherson","positionTeam":"K · CIN","ownership":"42.23% owned","tier":"DEPTH","lead":"The kicker comparison. Hold Pineiro.","case":[{"label":"The comparison","body":"ESPN projected Pineiro 9.4 and McPherson 7.4 this week. Pineiro finished on 8 in a 36-30 win, but missed two extra points, one off the upright (SF Standard)."},{"label":"Why hold","body":"Pineiro came in on 23 Sep. The seat's seven-day churn window runs until 30 Sep."},{"label":"When to act","body":"After 30 Sep, and only if Pineiro finishes Week 3 outside the top twenty kickers while McPherson finishes top five."}],"sources":"ESPN league file · SF Standard"},{"playerId":-16008,"name":"Lions D/ST","positionTeam":"D/ST · DET","ownership":"49.41% owned","tier":"DEPTH","lead":"The D/ST comparison. Hold the Vikings.","case":[{"label":"The comparison","body":"Both projected 7.7. The Vikings finished on 17, holding Tampa to 16 (AP)."},{"label":"Why hold","body":"Third D/ST in a week already, and the incumbent just scored 17. There's no gap to act on."},{"label":"When to act","body":"Only on a Week 4 projection gap of two points or more, after the churn window closes."}],"sources":"ESPN league file · RotoWire"}],"doNotChase":[{"playerId":3117256,"name":"Dalton Schultz","positionTeam":"TE · HOU","ownership":"+1.57 owned","tier":"DEPTH","lead":"The market's right about him, and he still has no place on this roster.","case":[{"label":"The rise","body":"Nico Collins missed a second straight game (hamstring, ESPN), so Houston's targets ran through Schultz. Collins may return in Week 4 against Dallas (RotoWire; CBS), which shrinks it."},{"label":"The number that kills it","body":"One TE slot, held by Likely, and a flex that only takes RB or WR. A second TE scores zero here."},{"label":"What would change it","body":"Likely being ruled out. Likely had a poor day, but a 3.3 is no reason to replace him."}],"sources":"ESPN · RotoWire · CBS Sports"},{"playerId":4360248,"name":"Kyle Pitts Sr.","positionTeam":"TE · ATL","ownership":"-0.04 owned","tier":"DEPTH","lead":"Scored 1.5 on Thursday. There's no seat for a second tight end.","case":[{"label":"The comparison","body":"Pitts 1.5 against Likely 3.3 this week. It's the first of the three weeks in the Pitts-risk thesis, and Likely won it."},{"label":"The number that kills it","body":"Same structural reason as Schultz: one TE slot, and the flex takes only RB or WR."},{"label":"What would change it","body":"Likely being ruled out, or Pitts outscoring Likely in two of the next three weeks."}],"sources":"ESPN league file · PFF Thursday recap (carried)"},{"playerId":4689114,"name":"Jaxson Dart","positionTeam":"QB · NYG","ownership":"-1.67 owned","tier":"DEPTH","lead":"Out for the season, and the ownership is still falling.","case":[{"label":"The status","body":"INJURY_RESERVE in the league file. Winston started and Harbaugh says he stays the starter (Heavy, 27 Sep)."},{"label":"The number that kills it","body":"0.0 projected, and you start Josh Allen in a one-QB league."},{"label":"What would change it","body":"The Giants announcing a date for his return. Nothing short of that."}],"sources":"Heavy · ESPN league file"}],"waiverAnalysis":{"verdict":"NOTHING","summary":"Nothing on the wire beats this roster on usage. Monangai (RB) and Boston (WR) are the weakest players you could move, and nobody on the wire clears either. The sample is two weeks, which is thin, and it can't see Sunday: Ollie Gordon's role started when Achane went down, so he's the claim card above on injury news, not a tool result.","weeks":2,"rising":[],"falling":[]},"settled":[{"correct":false,"title":"Coker in the flex over McLaurin (21 Sep)","result":"Coker 3.8 on 4 targets before a quad strain, McLaurin 19.7 on 9 targets on the bench. The falsifier fired. Closed WRONG."},{"correct":false,"title":"Hold Likely through the Giants' quarterback change (22 Sep)","result":"3.3 on 5 targets (NBC), so the under-six clause fired. His route participation rose to 92.3% (PFF), so the role held and the volume didn't. The formal close waits for the archive."},{"correct":true,"title":"Start Warren; Tuten only if he's inactive (24 Sep)","result":"Warren was active and scored 20.6 on 90% of snaps (PFF) to Tuten's 17.0. The fallback card correctly stayed unarmed."},{"correct":true,"title":"Let Kyle Pitts go; Chem can't use a second tight end (23 Sep)","result":"Pitts 1.5, Likely 3.3. Neither helped, and the structural reason still stands."}],"cannotSee":[{"label":"Rival claims on Gordon","body":"ESPN only returns your own pending claims. AVIATO is 10th of 10 in this snapshot's waiver order, so any rival claim on Gordon wins."},{"label":"Target counts","body":"The Week 3 archive isn't published. Coker's, McLaurin's and Likely's Week 3 numbers come from reporting until it is, and the decision log closes nothing on them until then."},{"label":"Week 4 projections","body":"The snapshot still carries Week 3 projections. The Tuten-or-Kamara call and the kicker and D/ST comparisons wait for the week to roll after tonight."},{"label":"Miami's split","body":"Nobody has reported how Miami will divide the work between Gordon and Wright once Wright is healthy. Wednesday's practice report is the first evidence."}]}
+{
+"week": 3,
+"leagueName": "Chem",
+"teamName": "AVIATO",
+"generatedAt": "2026-09-28T22:30:00Z",
+"snapshotNote": "Snapshot 22:03 UTC 28 Sep · Monday 16:03 Mexico City · every AVIATO starter is final; Monangai (bench) plays tonight at 18:15 · this brief does not refresh on its own",
+"sources": "Built from 28 searches and 17 page reads this run (shared across both leagues) · CBS Sports, ESPN, NFL.com, NBC Sports, RotoWire, Heavy, DraftKings Network, Bleacher Report, Bleacher Nation, SI, Yahoo, Yardbarker, PFF (carried), ESPN league file (22:03Z)",
+"tonight": {
+"headline": "Lost, 103.8 to 140.6. 0-3, and Achane is out for the season",
+"status": "LOSING",
+"winProbability": 0,
+"myScore": 103.76,
+"theirScore": 140.56,
+"opponent": "Footballers",
+"body": [
+"De'Von Achane tore his ACL on Sunday and will miss the rest of the season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET). That landed after this morning's brief. Your week was already lost: every starter is final at 103.8 against Footballers' 140.6, and you're 0-3.",
+"One thing to do before Wednesday 01:00 Mexico City: claim Ollie Gordon II and drop Achane (card below). Chem has no IR slot, so Achane is a dead roster spot. After tonight's game, Tuten takes Achane's RB slot. Re-checked at 16:03: nothing in the snapshot moved since the 15:33 brief."
+],
+"case": [
+{
+"label": "What changed since this morning",
+"body": "Achane: torn ACL, out for the season (ESPN; NFL.com; CBS, 28 Sep). Jefferson: sprained ankle, could play this week (ESPN, 28 Sep). Coker: minor quad strain (SI; ESPN via QC News). Allen: the Bills' only word is Joe Brady's 'see how he progresses these next couple days' (RotoWire, 28 Sep); a 1-3 week estimate circulating on Heavy and Sportskeeda comes from an outside sports doctor, not the team. New at 16:03: Hafley called Jaylen Wright day-to-day (RotoWire), which is the claim card's main risk."
+},
+{
+"label": "Was the lineup wrong?",
+"body": "No. The lineup as set was the projection lineup (136.6, gap 0.0) and every starter was active at kickoff. Three got hurt during the game. Tuten (17.0) and McLaurin (19.7) outscored them from the bench, but only hindsight picks those swaps, and you lost by 36.8."
+},
+{
+"label": "What would change it",
+"body": "Nothing for Week 3; it's final. For Week 4, the Gordon claim clearing and the Week 4 projections once the week rolls after tonight."
+}
+],
+"caseSources": "ESPN league file · CBS Sports · Yardbarker · RotoWire"
+},
+"doFirst": [
+{
+"id": "chem-claim-gordon-drop-achane-2026-09-28",
+"tier": "SOLID",
+"urgency": "Before Wednesday",
+"kind": "Waiver claim",
+"deadlineLabel": "Claims process Wed 01:00 Mexico City (07:00 UTC)",
+"deadline": "2026-09-30T07:00:00Z",
+"title": "Claim Ollie Gordon II, drop De'Von Achane",
+"subtitle": "Achane is out for the season with a torn ACL and Chem has no IR slot. Gordon played 84% of Miami's snaps once he went down.",
+"case": [
+{
+"label": "The news",
+"body": "Achane tore his ACL on a first-quarter cut at Miami on Sunday and will miss the rest of the 2026 season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET). This broke after this morning's brief and after Week 3's projections, so nothing in the snapshot prices it."
+},
+{
+"label": "The role",
+"body": "Gordon played 83.6% of Miami's snaps after the injury (DraftKings Network, 28 Sep). Heavy counts 17 official carries for 41 yards and a TD plus 3 catches for 14; DraftKings has 20 carries for 48. The archive settles the count. He'd had three carries in two weeks before that (Bleacher Report)."
+},
+{
+"label": "The drop",
+"body": "Achane, 99.8% rostered. That's a market disagreement on the record, and the reason is simple: he's out for the season, and Chem's lineup has no IR slot (slot 21 count is 0), so he holds a roster spot and can't score. Nobody else on the roster gets touched. Kamara keeps his seat because Etienne's hamstring gives him the Saints' lead-back work (CBS)."
+},
+{
+"label": "The contested part",
+"body": "Jaylen Wright (stinger, foot) missed Week 3 and Hafley called him day-to-day on Monday (RotoWire, 28 Sep); Yahoo and The Big Lead rank Wright, not Gordon, as Miami's top add. Wright isn't in this snapshot at all (not on the wire list, not on any roster), so I can't see whether he's free. DraftKings Network prefers Gordon but calls both fringe options on a bad offence. I take the claim because the drop is a dead roster spot. It's depth, and the card stays SOLID. A CBS item saying Gordon 'backs up Wright' is from December 2025 and doesn't apply."
+},
+{
+"label": "The priority",
+"body": "AVIATO is 10th of 10 in waiver order in this snapshot. Chem's order resets weekly, so the claim costs nothing lasting, but any rival who claims him first gets him. ESPN won't show you rival claims."
+},
+{
+"label": "Falsified if",
+"body": "Wright returns and Gordon draws under 12 touches in Week 4, which would make this a timeshare. Or Monangai outscores Gordon in two of Weeks 4-6, which would say the seat was better spent elsewhere."
+}
+],
+"sources": "ESPN · NFL.com · RotoWire · Heavy · DraftKings Network · Bleacher Report",
+"ghost": false,
+"action": {
+"type": "CLAIM",
+"playerId": 4711533,
+"dropPlayerId": 4429160,
+"label": "Claim Gordon · drop Achane"
+}
+},
+{
+"id": "chem-ghost-tuten-if-achane-out-2026-09-27",
+"tier": "SOLID",
+"urgency": "When rosters unlock",
+"kind": "Lineup",
+"deadlineLabel": "WHEN THE WEEK ROLLS · armed: Achane is out for the season",
+"deadline": "WHEN_UNLOCKED",
+"title": "Week 4: Tuten takes Achane's RB slot",
+"subtitle": "Armed. The trigger fired: Achane tore his ACL. Swap Tuten in once rosters unlock after tonight; if the claim drops Achane first, just fill the empty slot.",
+"case": [
+{
+"label": "The trigger",
+"body": "This card fired if Achane was ruled out for Week 4. He's out for the season: torn ACL (CBS Sports, 28 Sep 10:49 ET)."
+},
+{
+"label": "Why Tuten",
+"body": "Jacksonville's starter: 15 carries, 73 yards and a TD plus 2 catches on Sunday, and 43 carries for 204 yards through three games (Jaguars.com). Coen: 'He has been a pro's pro.' His snap share has held at 48-50% all season (PFF)."
+},
+{
+"label": "Where the projection decides",
+"body": "Kamara may project close once Week 4 rolls, because Etienne is ruled out for the Falcons game (CBS). If the Week 4 projection puts Kamara more than two points ahead, start Kamara instead. Within two points it's a coin flip: take the projection and move on."
+},
+{
+"label": "Falsified if",
+"body": "The back you start is outscored by the best RB left on your bench in Week 4. Graded on the outcome from the archive."
+}
+],
+"sources": "CBS Sports · Jaguars.com · PFF",
+"ghost": false,
+"action": {
+"type": "SWAP",
+"playerId": 4882093,
+"dropPlayerId": 4429160,
+"label": "Start Tuten · bench Achane"
+}
+},
+{
+"id": "chem-ghost-mclaurin-if-wr-out-2026-09-27",
+"tier": "DEPTH",
+"urgency": "When rosters unlock",
+"kind": "Lineup",
+"deadlineLabel": "WHEN THE WEEK ROLLS · only if Coker or Jefferson is out for Week 4",
+"deadline": "WHEN_UNLOCKED",
+"title": "If Coker or Jefferson can't go: McLaurin starts, then Boston",
+"subtitle": "Not armed, and less likely than it was: Jefferson has a sprain and could play; Coker's quad is minor. Daniels returning to practice also clouds McLaurin's quarterback.",
+"case": [
+{
+"label": "The injuries",
+"body": "Jefferson: sprained ankle, could play this week (ESPN, 28 Sep; National Football Post). Coker: a minor quadriceps strain, 'avoided serious injury' (SI; ESPN via QC News, 28 Sep). Wednesday-Friday practice decides both."
+},
+{
+"label": "Why McLaurin first",
+"body": "Two straight weeks of 9 targets. Weaker than this morning: Jayden Daniels will return to practice this week and travel to London (Bleacher Report, 28 Sep), so Mariota, who fed McLaurin those targets, may not start Week 4. McLaurin still out-targeted Boston in both archive weeks, and the Week 4 projection will price whoever starts."
+},
+{
+"label": "Then Boston",
+"body": "Cleveland's X receiver: over 90% of snaps in 11 and 12 personnel (PFF). Two catches for 41 on Sunday."
+},
+{
+"label": "Falsified if",
+"body": "Both receivers practise fully by Friday, and the card never fires. If it fires, it's graded on the outcome: McLaurin against the man he replaced."
+}
+],
+"sources": "ESPN · SI · Bleacher Report · NFL.com",
+"ghost": true,
+"action": {
+"type": "SWAP",
+"playerId": 3121422,
+"dropPlayerId": 4695883,
+"label": "Start McLaurin · bench Coker (only if Coker is out for Week 4)"
+}
+}
+],
+"whatWentWrong": [
+{
+"id": "w1",
+"title": "Achane is gone for the season, and two more starters got hurt",
+"lead": "Achane tore his ACL. Coker (quad strain) and Jefferson (ankle sprain) look minor. All three were started correctly.",
+"case": [
+{
+"label": "Not a lineup miss",
+"body": "The lineup as set was the projection lineup and every starter was active at kickoff. The three scored 10.7 on 51.5 projected."
+},
+{
+"label": "What it changes",
+"body": "Achane's ACL (CBS, 28 Sep) turns a RB1 into a dead roster spot with no IR slot to park him in. Both cards above follow from it: claim Gordon with Achane as the drop, and Tuten into the lineup."
+},
+{
+"label": "What would change it",
+"body": "Nothing for Achane. Coker and Jefferson are Wednesday's practice reports."
+}
+],
+"sources": "CBS Sports · Yardbarker · ESPN league file"
+},
+{
+"id": "w2",
+"title": "The Coker-over-McLaurin flex call lost, 3.8 to 19.7",
+"lead": "Closed WRONG. The falsifier fired: Coker got 4 targets while Mariota threw McLaurin 9.",
+"case": [
+{
+"label": "The call",
+"body": "On 21 Sep the brief moved Coker into the flex because Daniels' injury meant Mariota would start. The falsifier said the call was wrong if Coker drew under five targets while McLaurin drew eight or more. Coker got 4 before the quad took him out (The Big Lead). McLaurin got 9 (NBC)."
+},
+{
+"label": "The honest part",
+"body": "The injury cut Coker's day short, and that doesn't rescue the call. A lineup decision is graded on its outcome, and this one lost by 15.9. The theory that Mariota would starve McLaurin was wrong on its first test."
+},
+{
+"label": "What it changes",
+"body": "The flex slot reopens. Week 4's projection decides it, and the second card makes McLaurin the first replacement if a receiver is out."
+},
+{
+"label": "What would change it",
+"body": "The Week 3 archive disagreeing with the reported target counts. The archive grades it formally once it's published."
+}
+],
+"sources": "NBC Sports · The Big Lead · ESPN league file"
+}
+],
+"roster": {
+"state": "SUNDAY",
+"footnote": "Scores from the 22:03 UTC Monday snapshot. Every AVIATO starter is final; Monangai (bench) plays tonight. The only matchup grade is on his unplayed row, carried from the 26 Sep read with Sharp Football's Philadelphia numbers.",
+"lineupCheck": {
+"asSet": 136.6,
+"best": 136.6,
+"gap": 0.0,
+"verdict": "The lineup as set was the projection lineup (136.6 both, gap 0.0), and every starter is final, so nothing changes until Week 4.",
+"moves": [],
+"contingencies": []
+},
+"starting": [
+{
+"playerId": 3918298,
+"name": "Josh Allen",
+"slot": "QB",
+"position": "QB",
+"team": "BUF",
+"detail": "BUF · final · W 24-16 vs LAC · 2 rush TD, 2 INT, lost fumble (AP). Knee not viewed as a concern (RotoWire, 28 Sep)",
+"projection": 23.8,
+"actual": 17.5,
+"tier": "ELITE",
+"report": {
+"availability": "QUESTIONABLE in the league file after a late left-knee hit. Joe Brady: 'We're gonna have to see how he progresses these next couple days' (RotoWire, 28 Sep). The 1-3 week talk (Heavy, Sportskeeda) is an outside doctor reading video, not team reporting",
+"role": "Attempts went 29 then 31 in the archive and 14 carries in Week 2. Today he threw 26 passes and scored both touchdowns himself on the ground (AP)",
+"checked": "RotoWire 'Knee not viewed as concern', 28 Sep; Heavy and Sportskeeda sports-doctor pieces, 28 Sep (speculative)",
+"verdict": "START",
+"summary": "QB1. Five turnovers held him to 17.5. The knee is Wednesday's practice report. If he's limited or out, it's news the Week 4 projection must price, and you have no backup QB. Starts by projection.",
+"flags": [
+"OWN_QUESTIONABLE"
+]
+}
+},
+{
+"playerId": 4429160,
+"name": "De'Von Achane",
+"slot": "RB",
+"position": "RB",
+"team": "MIA",
+"detail": "MIA · final · L 10-24 vs KC · torn ACL, out for the season (CBS/ESPN, 28 Sep). Ollie Gordon II took over",
+"projection": 19.5,
+"actual": 1.7,
+"tier": "DEPTH",
+"report": {
+"flags": [
+"OWN_OUT"
+],
+"availability": "INJURY_RESERVE in the league file. Torn left ACL on a non-contact cut in the 1st quarter; out for the rest of the 2026 season (CBS Sports, citing ESPN and NFL Media, 28 Sep 10:49 ET)",
+"role": "Carries went 11 then 20 in the archive (92%, then 80% of the backfield) with 5-6 targets. Today: 3 carries for 17 yards and 1 target before the injury (Heavy)",
+"competition": "Ollie Gordon II played 83.6% of snaps after the injury: 20 carries, 48 yards, a TD (DraftKings Network). Jaylen Wright (foot, stinger) missed Week 3; Hafley: 'They're all going to have their roles'",
+"passer": "Malik Willis, active",
+"checked": "CBS Sports 'Achane to miss rest of season with torn ACL', 28 Sep; DraftKings Network on Gordon vs Wright, 28 Sep",
+"verdict": "BENCH",
+"summary": "OWN_OUT answered: out for the season. Chem has no IR slot, so he's the drop on the Gordon claim."
+}
+},
+{
+"playerId": 4569987,
+"name": "Jaylen Warren",
+"slot": "RB",
+"position": "RB",
+"team": "PIT",
+"detail": "PIT · final · W 30-27 vs CIN · played through the shoulder; Dowdle OUT (toe). Rodgers throwing",
+"projection": 15.8,
+"actual": 20.6,
+"tier": "SOLID",
+"report": {
+"flags": [
+"VACATED"
+],
+"availability": "Was QUESTIONABLE (shoulder), active, and played the full game",
+"role": "Archive: 55% of the backfield, 4-6 targets. Sunday: 17 carries for 127 yards, 3 catches for 49, on 90.3% of snaps (PFF)",
+"competition": "VACATED answered: Rico Dowdle was OUT (toe) and Warren took the lead role. ESPN priced it: Dowdle was ruled out Friday, before the projection",
+"passer": "Aaron Rodgers, active",
+"checked": "PFF Week 3 recap (carried); Steelers injury coverage re-searched 28 Sep 16:00: no Week 4 ruling on Dowdle yet",
+"verdict": "START",
+"summary": "Every-down back while Dowdle is out. The start-Warren thesis held again; the archive closes it. Pittsburgh play Thursday in Week 4, so his Week 4 decision is due by Thursday."
+}
+},
+{
+"playerId": 4262921,
+"name": "Justin Jefferson",
+"slot": "WR",
+"position": "WR",
+"team": "MIN",
+"detail": "MIN · final · W 23-16 at TB · MRI: left-ankle sprain, might play vs MIA (Yardbarker). Kyler Murray throwing",
+"projection": 18.3,
+"actual": 5.2,
+"tier": "ELITE",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE in the league file. MRI on Monday confirmed a sprained left ankle; he 'might suit up' against Miami on Sunday, per NFL Network and ESPN (Yardbarker, 28 Sep)",
+"role": "Archive: 9 then 6 targets (39%, then 32% of the team). Today: 2 catches for 32 before leaving",
+"competition": "Jordan Addison caught Murray's 41-yard TD; T.J. Hockenson is the other volume piece while he's out",
+"passer": "Kyler Murray, active: cleared concussion protocol and started Week 3 (CBS; Vikings.com). The player report's 'Carson Wentz' is stale",
+"checked": "Yardbarker 'Jefferson (ankle) may play Sunday', 28 Sep; CBS 'Murray clears protocol'; PFF recap",
+"verdict": "START",
+"summary": "OWN_QUESTIONABLE answered: a sprain, not a long absence. Wednesday's practice report decides Week 4; McLaurin is the fallback card."
+}
+},
+{
+"playerId": 4569618,
+"name": "Garrett Wilson",
+"slot": "WR",
+"position": "WR",
+"team": "NYJ",
+"detail": "NYJ · final at DET · 10 catches, 107 yards, TD; cleared a late concussion check. Mitchell INACTIVE (finger). Geno Smith throwing",
+"projection": 16.1,
+"actual": 26.7,
+"tier": "ELITE",
+"report": {
+"flags": [
+"ROLE_DOWN",
+"VACATED"
+],
+"availability": "ACTIVE, played. Took a helmet-to-helmet hit late, was evaluated for a concussion and cleared, per Aaron Glenn (Yardbarker, 27 Sep)",
+"role": "ROLE_DOWN answered: raw targets held at 7 and 7 in the archive, and on Sunday he caught 10 for 107 and a TD (Yardbarker). The lower Week 2 share came from Mitchell's 12 targets inflating the total, not from Wilson losing work",
+"competition": "VACATED answered: Mitchell was declared inactive on Sunday (RotoWire; CBS; ESPN), with Mason Taylor also out. Mitchell had been questionable all week, so ESPN only partly priced it",
+"passer": "Geno Smith, active",
+"checked": "Yardbarker 'Jets get great news after late-game scare', 27 Sep; amNY Jets injuries, 28 Sep (Hall thigh, update Wednesday; Mitchell finger)",
+"verdict": "START",
+"summary": "WR1 for the Jets with the No. 2 receiver out. Starts."
+}
+},
+{
+"playerId": 4695883,
+"name": "Jalen Coker",
+"slot": "FLEX",
+"position": "WR",
+"team": "CAR",
+"detail": "CAR · final · L 18-21 at CLE · minor quad strain, could play Week 4 vs DET (CBS). Bryce Young throwing",
+"projection": 13.7,
+"actual": 3.8,
+"tier": "SOLID",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE in the league file. A minor quadriceps strain; he could play against Detroit, depending on Wednesday-Friday practice (CBS Sports, 28 Sep). Canales: 'His quad lit up on him a little bit' (Panthers.com)",
+"role": "Archive: 9 and 9 targets (27-28% of the team). Today: 3 catches for 22 yards on 4 targets before the injury",
+"competition": "Tetairoa McMillan is the other lead target. Xavier Legette was out (knee), and John Metchie III caught the fourth-quarter touchdown (NCFootballNews)",
+"passer": "Bryce Young, active. He was checked in the medical tent for a lower-body issue and didn't miss a snap (Panthers.com, 27 Sep)",
+"checked": "CBS 'Coker nursing quad strain, could play Week 4', 28 Sep; Panthers.com injury roundup, 27 Sep",
+"verdict": "START",
+"summary": "OWN_QUESTIONABLE answered: minor. The flex thesis closed WRONG. Week 4 depends on practice, and McLaurin is the fallback card."
+}
+},
+{
+"playerId": 4361050,
+"name": "Isaiah Likely",
+"slot": "TE",
+"position": "TE",
+"team": "NYG",
+"detail": "NYG · final · W 12-7 vs TEN · 2 catches on 5 targets. Jameis Winston (backup) stays the starter; Dart out for the season",
+"projection": 12.3,
+"actual": 3.3,
+"tier": "SOLID",
+"report": {
+"flags": [
+"QB_CHANGE"
+],
+"availability": "ACTIVE, played",
+"role": "Archive: 8 then 10 targets (28%, then 31%). Sunday: 2 catches on 5 targets (NBC), but his route participation rose to 92.3%, from 67.6% and 85.3% (PFF)",
+"competition": "Malik Nabers is back and caught 5 for 26 (Yahoo). His return is the test of the route-share clause in Likely's thesis",
+"passer": "QB_CHANGE answered: Jameis Winston, and Harbaugh said 'Yes' when asked whether he stays the starter; the Giants are looking at adding a veteran QB (Heavy, 27 Sep)",
+"checked": "PFF Week 3 recap (route participation); NBC 'Likely cools off', 27 Sep; Heavy on Harbaugh and Winston",
+"verdict": "START",
+"summary": "TE1 by projection. Five targets fired the hold thesis' six-target clause; the routes say the role is intact. The archive grades it."
+}
+},
+{
+"playerId": -16016,
+"name": "Vikings D/ST",
+"slot": "D/ST",
+"position": "DST",
+"team": "MIN",
+"detail": "MIN · final · W 23-16 at TB · held Tampa to 16; Mayfield hurt his thumb late",
+"projection": 7.7,
+"actual": 17,
+"tier": "SOLID",
+"report": {
+"availability": "Active, finished",
+"checked": "AP recap via Yahoo, 27 Sep; NFL.com Week 3 injuries (Mayfield dislocated thumb)",
+"verdict": "START",
+"summary": "17 on a 7.7 projection. Hold.",
+"flags": []
+}
+},
+{
+"playerId": 4034949,
+"name": "Eddy Pineiro",
+"slot": "K",
+"position": "K",
+"team": "SF",
+"detail": "SF · final · W 36-30 vs ARI · missed two extra points, one off the upright (SF Standard)",
+"projection": 9.4,
+"actual": 8,
+"tier": "SOLID",
+"report": {
+"availability": "Active, finished",
+"checked": "NinerNoise winners and losers, 28 Sep ('two missed extra points helped ensure the Red Birds had life'); SF Standard",
+"verdict": "START",
+"summary": "8 on a 9.4 projection, with two missed extra points. His hold thesis is graded on the Week 3 kicker rank from the archive.",
+"flags": []
+}
+}
+],
+"bench": [
+{
+"playerId": 4882093,
+"name": "Bhayshul Tuten",
+"slot": "BN",
+"position": "RB",
+"team": "JAX",
+"detail": "JAX · final · W 35-6 vs NE · 15 carries, 73 yards, a TD; 48% of snaps. Lawrence knelt at the 1 late, joking it was for Tuten owners (PFT)",
+"projection": 11,
+"actual": 17,
+"tier": "SOLID",
+"report": {
+"availability": "ACTIVE, played",
+"role": "Archive: about 60% of the backfield. Sunday: 15 carries, 73 yards, a TD, 2 catches for 17; 43 carries for 204 yards through three games (Jaguars.com). Snap share 48-50% every week (PFF)",
+"competition": "Chris Rodriguez Jr. and Ameer Abdullah share the rest",
+"passer": "Trevor Lawrence, active: 3 TD passes (AP)",
+"checked": "Jaguars.com key storylines, 27 Sep (Coen: 'a pro's pro'); PFF recap; no Jaguars injuries reported",
+"verdict": "BENCH",
+"summary": "Bench this week. Achane's RB slot in Week 4, per the armed card.",
+"flags": []
+}
+},
+{
+"playerId": 3121422,
+"name": "Terry McLaurin",
+"slot": "BN",
+"position": "WR",
+"team": "WSH",
+"detail": "WSH · final · W at SEA · Marcus Mariota's first start; 6 catches on 9 targets, 77 yards, a TD",
+"projection": 11.8,
+"actual": 19.7,
+"tier": "SOLID",
+"report": {
+"flags": [
+"ROLE_UP",
+"PASSER_OUT"
+],
+"availability": "ACTIVE, played",
+"role": "ROLE_UP answered: 4 then 9 targets in the archive, then 9 again today. Two straight weeks of 9 looks like a real role",
+"competition": "Dyami Brown; Stefon Diggs's share fell from 31% to 18% in the archive",
+"passer": "PASSER_OUT answered: Marcus Mariota started Week 3. Daniels was expected back within three weeks, no IR (The Big Lead, 27 Sep), and will return to practice this week and travel to London (Bleacher Report, 28 Sep), so the Week 4 starter is open",
+"checked": "Bleacher Report on Daniels returning to practice, 28 Sep; The Big Lead, 27 Sep; PFF recap; NBC stat line",
+"verdict": "BENCH",
+"summary": "Scored 19.7 on the bench. The flex thesis that sat him lost and is closed. First in line if a receiver is out in Week 4."
+}
+},
+{
+"playerId": 4608686,
+"name": "Kyle Monangai",
+"slot": "BN",
+"position": "RB",
+"team": "CHI",
+"detail": "CHI · vs PHI · MON 18:15 · Case Keenum, 3rd-string QB, starts; Caleb Williams OUT. Monangai available (knee cleared)",
+"projection": 8.5,
+"actual": null,
+"tier": "DEPTH",
+"grade": "AVERAGE",
+"gradeEvidence": "PHI 18th vs RB (footballdb, Wks 1-2, carried); PHI favoured by 4.5, implied 23.0 (Sharp)",
+"report": {
+"flags": [
+"PASSER_OUT"
+],
+"availability": "ACTIVE. Knee cleared; listed available for tonight (Bleacher Nation MNF injury report, 28 Sep)",
+"role": "Archive: 36-38% of the backfield, 10 carries a week, 2 targets. Week 2: 32.9% of snaps and 12 touches to Swift's 67.1% and 21 (Sharp Football)",
+"competition": "D'Andre Swift, about 62% of the backfield",
+"passer": "PASSER_OUT answered: Case Keenum starts; Caleb Williams officially out; Tyson Bagent cleared concussion protocol and backs up (Bleacher Nation, 28 Sep). A downgrade",
+"checked": "Bleacher Nation Bears-Eagles injury report, 28 Sep; Sharp Football worksheet (carried)",
+"verdict": "BENCH",
+"summary": "Can't enter the lineup: every RB and flex slot is locked. Bench, and a committee back behind Swift."
+}
+},
+{
+"playerId": 4832800,
+"name": "Denzel Boston",
+"slot": "BN",
+"position": "WR",
+"team": "CLE",
+"detail": "CLE · final · W 21-18 vs CAR · 2 catches on 4 targets for 41. Next: Thursday vs PIT",
+"projection": 11.3,
+"actual": 8.1,
+"tier": "DEPTH",
+"report": {
+"availability": "ACTIVE, played (Yahoo)",
+"role": "Archive: 4 then 7 targets (18%, then 23%). Sunday: 2 catches for 41 (Yahoo). Cleveland's X receiver: over 90% of snaps in 11 and 12 personnel, 91.1% for the season (PFF)",
+"competition": "Harold Fannin Jr. caught the go-ahead TD. KC Concepcion and Jerry Jeudy are also in the rotation",
+"passer": "Deshaun Watson, active: had the wind knocked out late and Shedeur Sanders came in briefly; Watson says he's fine (Yahoo, 28 Sep)",
+"checked": "Yahoo 'Boston hauls in two passes', 28 Sep; Yahoo/AtoZ on Watson (wind knocked out, fine), 28 Sep; PFF (carried)",
+"verdict": "BENCH",
+"summary": "Second in line behind McLaurin if a receiver is out. Cleveland play Pittsburgh on Thursday in Week 4, so any swap involving him is due by Thursday.",
+"flags": []
+}
+},
+{
+"playerId": 3054850,
+"name": "Alvin Kamara",
+"slot": "BN",
+"position": "RB",
+"team": "NO",
+"detail": "NO · final · L 27-35 vs LV · Etienne ruled out for Week 4 (hamstring), may go to IR (CBS). Kamara the lead back",
+"projection": 9.6,
+"actual": 5.1,
+"tier": "DEPTH",
+"report": {
+"availability": "ACTIVE",
+"role": "Archive: 9 carries and 6 targets in Week 2. Sunday: 9 carries for 36 (Saints.com)",
+"competition": "VACATED answered: Travis Etienne Jr. is ruled out for Week 4 against Atlanta, 'time lost', and may need IR (CBS Sports; ESPN; Audacy, 28 Sep). Kamara takes the expanded workload, with Kendre Miller behind him. ESPN's Week 4 projection hasn't been published, so it isn't priced yet",
+"passer": "Tyler Shough, active",
+"checked": "CBS 'Etienne will miss time with hamstring injury', 28 Sep; Saints.com recap",
+"verdict": "BENCH",
+"summary": "Lead back for Week 4 with Etienne out. Stays on the roster; the Week 4 projection decides whether he starts over Tuten.",
+"flags": [
+"VACATED"
+]
+}
+}
+]
+},
+"trades": [],
+"worthALook": [
+{
+"playerId": 4360234,
+"name": "Evan McPherson",
+"positionTeam": "K · CIN",
+"ownership": "42.23% owned",
+"tier": "DEPTH",
+"lead": "The kicker comparison. Hold Pineiro.",
+"case": [
+{
+"label": "The comparison",
+"body": "ESPN projected Pineiro 9.4 and McPherson 7.4 this week. Pineiro finished on 8 in a 36-30 win, but missed two extra points, one off the upright (SF Standard)."
+},
+{
+"label": "Why hold",
+"body": "Pineiro came in on 23 Sep. The seat's seven-day churn window runs until 30 Sep."
+},
+{
+"label": "When to act",
+"body": "After 30 Sep, and only if Pineiro finishes Week 3 outside the top twenty kickers while McPherson finishes top five."
+}
+],
+"sources": "ESPN league file · SF Standard"
+},
+{
+"playerId": -16008,
+"name": "Lions D/ST",
+"positionTeam": "D/ST · DET",
+"ownership": "49.41% owned",
+"tier": "DEPTH",
+"lead": "The D/ST comparison. Hold the Vikings.",
+"case": [
+{
+"label": "The comparison",
+"body": "Both projected 7.7. The Vikings finished on 17, holding Tampa to 16 (AP)."
+},
+{
+"label": "Why hold",
+"body": "Third D/ST in a week already, and the incumbent just scored 17. There's no gap to act on."
+},
+{
+"label": "When to act",
+"body": "Only on a Week 4 projection gap of two points or more, after the churn window closes."
+}
+],
+"sources": "ESPN league file · RotoWire"
+}
+],
+"doNotChase": [
+{
+"playerId": 3117256,
+"name": "Dalton Schultz",
+"positionTeam": "TE · HOU",
+"ownership": "-0.04 owned",
+"tier": "DEPTH",
+"lead": "The market's right about him, and he still has no place on this roster.",
+"case": [
+{
+"label": "The rise",
+"body": "Nico Collins missed a second straight game (hamstring, ESPN), so Houston's targets ran through Schultz. Collins may return in Week 4 against Dallas (RotoWire; CBS), which shrinks it."
+},
+{
+"label": "The number that kills it",
+"body": "One TE slot, held by Likely, and a flex that only takes RB or WR. A second TE scores zero here."
+},
+{
+"label": "What would change it",
+"body": "Likely being ruled out. Likely had a poor day, but a 3.3 is no reason to replace him."
+}
+],
+"sources": "ESPN · RotoWire · CBS Sports"
+},
+{
+"playerId": 4360248,
+"name": "Kyle Pitts Sr.",
+"positionTeam": "TE · ATL",
+"ownership": "-0.03 owned",
+"tier": "DEPTH",
+"lead": "Scored 1.5 on Thursday. There's no seat for a second tight end.",
+"case": [
+{
+"label": "The comparison",
+"body": "Pitts 1.5 against Likely 3.3 this week. It's the first of the three weeks in the Pitts-risk thesis, and Likely won it."
+},
+{
+"label": "The number that kills it",
+"body": "Same structural reason as Schultz: one TE slot, and the flex takes only RB or WR."
+},
+{
+"label": "What would change it",
+"body": "Likely being ruled out, or Pitts outscoring Likely in two of the next three weeks."
+}
+],
+"sources": "ESPN league file · PFF Thursday recap (carried)"
+},
+{
+"playerId": 4689114,
+"name": "Jaxson Dart",
+"positionTeam": "QB · NYG",
+"ownership": "-0.02 owned",
+"tier": "DEPTH",
+"lead": "Out for the season, and the ownership is still falling.",
+"case": [
+{
+"label": "The status",
+"body": "INJURY_RESERVE in the league file. Winston started and Harbaugh says he stays the starter (Heavy, 27 Sep)."
+},
+{
+"label": "The number that kills it",
+"body": "0.0 projected, and you start Josh Allen in a one-QB league."
+},
+{
+"label": "What would change it",
+"body": "The Giants announcing a date for his return. Nothing short of that."
+}
+],
+"sources": "Heavy · ESPN league file"
+}
+],
+"waiverAnalysis": {
+"verdict": "NOTHING",
+"summary": "Nothing on the wire beats this roster on usage. Monangai (RB) and Boston (WR) are the weakest players you could move, and nobody on the wire clears either. The sample is two weeks, which is thin, and it can't see Sunday: Ollie Gordon's role started when Achane went down, so he's the claim card above on injury news, not a tool result.",
+"weeks": 2,
+"rising": [],
+"falling": []
+},
+"settled": [
+{
+"correct": false,
+"title": "Coker in the flex over McLaurin (21 Sep)",
+"result": "Coker 3.8 on 4 targets before a quad strain, McLaurin 19.7 on 9 targets on the bench. The falsifier fired. Closed WRONG."
+},
+{
+"correct": false,
+"title": "Hold Likely through the Giants' quarterback change (22 Sep)",
+"result": "3.3 on 5 targets (NBC), so the under-six clause fired. His route participation rose to 92.3% (PFF), so the role held and the volume didn't. The formal close waits for the archive."
+},
+{
+"correct": true,
+"title": "Start Warren; Tuten only if he's inactive (24 Sep)",
+"result": "Warren was active and scored 20.6 on 90% of snaps (PFF) to Tuten's 17.0. The fallback card correctly stayed unarmed."
+},
+{
+"correct": true,
+"title": "Let Kyle Pitts go; Chem can't use a second tight end (23 Sep)",
+"result": "Pitts 1.5, Likely 3.3. Neither helped, and the structural reason still stands."
+}
+],
+"cannotSee": [
+{
+"label": "Rival claims on Gordon",
+"body": "ESPN only returns your own pending claims. AVIATO is 10th of 10 in this snapshot's waiver order, so any rival claim on Gordon wins."
+},
+{
+"label": "Target counts",
+"body": "The Week 3 archive isn't published. Coker's, McLaurin's and Likely's Week 3 numbers come from reporting until it is, and the decision log closes nothing on them until then."
+},
+{
+"label": "Week 4 projections",
+"body": "The snapshot still carries Week 3 projections. The Tuten-or-Kamara call and the kicker and D/ST comparisons wait for the week to roll after tonight."
+},
+{
+"label": "Miami's split",
+"body": "Nobody has reported how Miami will divide the work between Gordon and Wright once Wright is healthy. Wednesday's practice report is the first evidence."
+},
+{
+"label": "Jaylen Wright",
+"body": "Miami's other back isn't in the league file: not on the wire list, not on any roster. The snapshot can't say whether he's a free agent. If he is, he's the alternative to the Gordon claim that costs no claim at all."
+}
+]
+}
