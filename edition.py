@@ -353,9 +353,9 @@ class Edition:
         for (s, a), (_, b) in zip(self.starters(), theirs):
             ma, tb = played(a), played(b)
             slots.append({"slot": slot_label(s),
-                          "mine": {"name": surname(a["name"]), "pos": a["pos"], "proj": a.get("proj"),
+                          "mine": {"id": a["id"], "name": surname(a["name"]), "pos": a["pos"], "proj": a.get("proj"),
                                    "value": a["actual"] if ma else a.get("proj"), "final": ma},
-                          "theirs": {"name": surname(b["name"]), "value": b["actual"] if tb else b.get("proj"),
+                          "theirs": {"id": b["id"], "name": surname(b["name"]), "value": b["actual"] if tb else b.get("proj"),
                                      "final": tb}})
         groups = {}
         for p in self.roster:
