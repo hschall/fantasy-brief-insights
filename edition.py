@@ -57,8 +57,15 @@ def pos_label(pos):
     return "D/ST" if pos == "DST" else pos
 
 
+SUFFIXES = {"Jr.", "Jr", "Sr.", "Sr", "II", "III", "IV", "V"}
+
+
 def surname(name):
-    return name if "D/ST" in name else name.split()[-1]
+    """'James Cook III' -> 'Cook', not 'III'."""
+    if "D/ST" in name:
+        return name
+    parts = [w for w in name.split() if w not in SUFFIXES]
+    return parts[-1] if parts else name
 
 
 class Edition:
@@ -427,7 +434,7 @@ class Edition:
         cards.sort(key=lambda c: c["due"])
         t = self.text["doFirst"]
         return {"headline": t["headline"], "deck": t["deck"], "cards": cards, "note": t["note"],
-                "empty": None if cards else "Nothing to do this week. The lineup is the projection lineup."}
+                "empty": None if cards else (t.get("empty") or "Nothing to do this week. The lineup is the projection lineup.")}
 
     def bye_plan(self):
         weeks = list(range(self.week + 1, self.slots + 1))

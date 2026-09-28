@@ -102,7 +102,7 @@ say. `edition.py` merges it with ESPN's data. Every name the builder resolves
 | Key | Content |
 |---|---|
 | `lead` | `kicker`, `headline`, `deck`, `byline`, `dateline`, `body`, `players[] {playerId, caption}` — leads with the bad news about his own players |
-| `doFirst` | `headline`, `deck`, `note`, `cards[]` — each `{id, kind, playerId?, headline, reason, rows[[label, value]]}`; `kind` = `contingency` (one per START IF ACTIVE starter), `conditionalClaim` / `claim` (+ `deadline` YYYY-MM-DD), `byePlan` (+ `week`). Ids are stable within the week: `w3-warren-inactive` |
+| `doFirst` | `headline`, `deck`, `note`, `empty` (one true sentence for this moment when there are no cards), `cards[]` — each `{id, kind, playerId?, headline, reason, rows[[label, value]]}`; `kind` = `contingency` (one per START IF ACTIVE starter), `conditionalClaim` / `claim` (+ `deadline` YYYY-MM-DD), `byePlan` (+ `week`). Ids are stable within the week: `w3-warren-inactive` |
 | `roster` | `deck` — one sentence from the lineup check |
 | `wire` | `headline`, `deck`, `candidates[]` — player ids, only the genuinely close |
 | `players` | keyed by ESPN id, **every rostered player and every wire candidate**: `deck`, `reason` (one line, ≤ ~90 characters), `flags[]`, `availability`, `role`, `competition`, `passer`, `checked`, `vsProjection {tag, text}` or null, `verdict` (START · BENCH · CONDITIONAL · WATCH · ADD), `trigger`, `fallback` (exact name), `drop` (exact name, wire), `addif` (wire), `logic`, `matchupGrade` or null |
@@ -110,3 +110,30 @@ say. `edition.py` merges it with ESPN's data. Every name the builder resolves
 | `notes` | `cannotSee[] {label, body}`, `sources` |
 
 `edition.py` stops if any player lacks an entry: every player is researched, every run.
+
+## Writing the front page — the week's rhythm
+
+The lead story follows the week. Pick the mode from the run's day and time
+(Mexico City) and set the kicker to match:
+
+| When | Kicker | Lead with |
+|---|---|---|
+| Tuesday, before the waiver run | TUESDAY REVIEW | Last week's result — the score, what won or lost it, points left on the bench (from the archive) — then the new week's outlook |
+| Tuesday evening to Wednesday, before claims process | WAIVER WIRE | The news behind the risers, tonight's claim strategy, and who to drop |
+| Thursday to Saturday | MIDWEEK | The week's news: injuries, practice reports, depth charts, surprise adds by leaguemates |
+| Sunday, before kickoff | BEFORE KICKOFF | Game day: inactives, contingencies, lineup risks |
+| Sunday night to Monday | SUNDAY NIGHT | The result so far, the injuries that change next week, what is left to play |
+
+Within every mode, lead with the bad news about his own players.
+
+Rules that hold in every mode:
+
+- **An injury exit is not a performance.** A player who left injured gets a
+  LOGIC that says the call can't be graded and names what matters for next
+  week — never "the bench won".
+- **After games, LOGIC grades the projection's call** against the result once
+  his game is final. One week of results never overrides the projection.
+- **Game nights may skip the wire.** An empty `candidates` list with a wire
+  headline saying it wasn't researched is honest; say when it will be.
+- **`doFirst.empty`** is written for the moment ("Nothing left to decide this
+  week…"), not a stock line.
