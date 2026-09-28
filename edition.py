@@ -84,13 +84,14 @@ class Edition:
             p = os.path.join(base, f"week-{lid}-{w}.json")
             if os.path.exists(p):
                 self.archives[w] = load(p)
-        # This week's archive, written provisionally while the week is open. Fetched
-        # from the repo when it isn't beside the league file; none is fine.
-        cur = os.path.join(base, f"week-{lid}-{self.week}.json")
+        # This week's archive, written hourly to its own -live file while the week
+        # is open (the final archive is never overwritten, so it can't share a
+        # name). Fetched from the repo when it isn't beside the league file.
+        cur = os.path.join(base, f"week-{lid}-{self.week}-live.json")
         if not os.path.exists(cur):
             try:
                 import urllib.request
-                with urllib.request.urlopen(f"{REPO_RAW}/week-{lid}-{self.week}.json", timeout=20) as r:
+                with urllib.request.urlopen(f"{REPO_RAW}/week-{lid}-{self.week}-live.json", timeout=20) as r:
                     open(cur, "wb").write(r.read())
             except Exception:
                 pass
@@ -98,7 +99,7 @@ class Edition:
         if os.path.exists(cur):
             try:
                 a = load(cur)
-                if a.get("provisional"):
+                if a.get("teams"):
                     self.archives[self.week] = a
                     self.provisional = True
             except Exception:
