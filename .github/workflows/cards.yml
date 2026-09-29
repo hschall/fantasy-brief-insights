@@ -1,0 +1,40 @@
+# Player cards for every player, rebuilt hourly after the backend's live week
+# archive, and again whenever a brief run publishes an edition. The cards go to
+# the `cards` branch, force-pushed as a single commit, so hourly rebuilds never
+# grow the repository's history.
+name: cards
+on:
+  schedule:
+    - cron: "25 * * * *"
+  push:
+    branches: [main]
+    paths: ["edition-*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cards
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Build both leagues' cards
+        run: |
+          mkdir -p /tmp/cards
+          for L in 1237544639 1325565673; do
+            python3 cards.py $L --dir . --out /tmp/cards/cards-$L.json
+          done
+      - name: Publish to the cards branch
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd /tmp/cards
+          git init -q && git checkout -q -b cards
+          git add . && git -c user.name="cards-bot" -c user.email="cards-bot@users.noreply.github.com" \
+            commit -q -m "cards $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" cards
