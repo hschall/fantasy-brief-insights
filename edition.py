@@ -140,7 +140,7 @@ class Edition:
         if line and pos not in ("K", "DST") and self.touches(line, pos):
             t = self.touches(line, pos)
             avg = self.starter_avg.get((self.week, pos)) or {}
-            cur.update(touches=t, eff=round(line["pts"] / t, 2),
+            cur.update(pts=line["pts"], touches=t, eff=round(line["pts"] / t, 2),
                        share=self.share(p["id"], p.get("proTeamId"), pos, self.week) if pos != "QB" else None,
                        posAvgTouches=avg.get("touches"), posAvgEff=avg.get("eff"), posAvgShare=avg.get("share"))
         return cur
