@@ -319,6 +319,58 @@ something every run is optimising noise.
 
 ---
 
+## STEP 3.6 — The wire screen: who gets researched on the wire
+
+`wire_screen.py` ranks every available player in each league by opportunity:
+this week's share of team volume, touches, the change in share against his own
+earlier weeks, and **vacated opportunity** — the share he inherits from injured
+teammates. Ownership change breaks ties. Points per touch is never scored; big
+points on few touches is flagged as the fluke signature. "Available" means on
+no roster in that league — the published wire is only part of it.
+
+It is a screen, not a verdict: it decides who gets researched; research decides
+who gets added.
+
+**Two passes, every time the screen is researched:**
+
+1. `python3 wire_screen.py <L>` — pass 1, on ESPN's injury designations.
+2. Research **this week's injuries** first (Step 5). ESPN marks injuries slowly
+   on Mondays and Tuesdays, so the teammates whose absence frees a role are
+   often not yet OUT in the data.
+3. `python3 wire_screen.py <L> --injured "Name, Name" --json /tmp/fb/screen-<L>.json`
+   — pass 2, with every injury research confirmed. This is the list you research.
+
+```bash
+cd /tmp/fb
+curl -s "https://raw.githubusercontent.com/hschall/fantasy-brief-insights/main/wire_screen.py" -o wire_screen.py
+for L in 1237544639 1325565673; do python3 wire_screen.py $L; done
+```
+
+**Cadence.** On **Tuesday runs** (the last before claims process), research the
+full pass-2 list: the top 5 RB, WR and TE, the top 3 QB, and every NEW STARTER.
+On other runs, run the screen and research only **newcomers** to that list.
+Research by **team story** — one search usually explains several players.
+
+**Five questions for every screened player:**
+
+1. **What changed?** A teammate out (vacated), a new quarterback, a depth-chart
+   or scheme move, garbage time, or nothing identifiable.
+2. **Is it durable?** Injury timelines, coach quotes, the team's plans.
+3. **Fluke test.** Volume or efficiency? The EFFICIENCY-DRIVEN flag says which
+   to probe. A spike with no cause found is a PASS, not a hunch.
+4. **The next three weeks.** Opponents, and his bye against the roster's.
+5. **The verdict:** CLAIM (name the drop), CLAIM IF SPACE, WATCH (the condition
+   that changes it) or PASS (the reason) — each with what would prove it wrong.
+
+**Own-roster exposure.** The screen lists your players whose teammate is out.
+Never name one of them as a drop; their role may be about to grow.
+
+**Into the edition.** CLAIM and CLAIM IF SPACE players become wire candidates
+(`verdict` ADD) and a Do-first `claim` card for each CLAIM; WATCH players become
+wire candidates (`verdict` WATCH) with `addif` as the condition; PASS players
+are named in the wire deck, not carded. "Nothing worth adding" is still a
+legitimate answer when research says so.
+
 ## STEP 4 — Read the standing strategy and the decision log
 
 **Before deciding anything, read what has already been decided.** The whole
@@ -413,6 +465,18 @@ is ruled out. Reversing a move made two days ago is never right — it has
 happened twice on this roster and both times it gained nothing.
 
 ## STEP 5 — Research, online, every time
+
+**Recency rules — they apply to every search in this run.**
+
+- **Name this week's context in the query:** the opponent, the week, or the
+  date. "Jefferson ankle Buccaneers", not "Jefferson ankle update". Generic
+  queries return past seasons.
+- **Check every article's date.** A report from before the game it describes
+  does not count, and neither does anything from a previous season — say so
+  in `cannotSee` rather than using it.
+- **An injury is confirmed only by a report dated after the game** in which it
+  happened. Until then, it is unknown — and the screen's pass 2 leaves it out.
+
 
 **No recommendation without a search.** If a player is named anywhere in your
 output, you searched him in this session. Not "I know this player" — search.
