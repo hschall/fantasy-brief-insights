@@ -34,7 +34,10 @@ def latest_pool(ed):
 def data_text(ed, p, owner, start, fa):
     """Words for a player nobody researched, written only from data."""
     pos, proj, act = p["pos"], p.get("proj") or 0, p.get("actual")
-    w = latest_pool(ed)
+    # The most recent week in which HE played — this week's live archive has
+    # everyone at zero until their game.
+    w = next((wk for wk in sorted(ed.pools, reverse=True)
+              if (ed.pools[wk].get(p["id"]) and ed.touches(ed.pools[wk][p["id"]], pos))), latest_pool(ed))
     pool = ed.pools.get(w, {})
     line = pool.get(p["id"])
     role = passer = competition = None
@@ -114,6 +117,20 @@ def build(lid, base):
     for w in ed.lg.get("wire", []):
         if w["id"] not in seen:
             people.append((w, None, False, True))
+            seen.add(w["id"])
+    # The published wire is only part of it: every player in the stat pool who
+    # is on no roster here is available too, and gets a card.
+    latest = {}
+    for wk in sorted(ed.pools):
+        for pid, l in ed.pools[wk].items():
+            latest[pid] = l
+    for pid, l in latest.items():
+        pos = POSN.get(l.get("pos"))
+        if pid in seen or pos not in ("QB", "RB", "WR", "TE"):
+            continue
+        people.append(({"id": pid, "name": l["name"], "pos": pos, "proTeamId": l.get("proTeamId"),
+                        "proj": None, "injury": None}, None, False, True))
+        seen.add(pid)
 
     # Research where the brief did it; data words for everyone else.
     for p, owner, start, fa in people:
@@ -135,7 +152,7 @@ def build(lid, base):
         sh = line["sheet"]
         # A normal week estimated from a thin season projection can put him
         # anywhere; past 60% either way the tag would be invented, so say so.
-        if line.get("normalEstimated") and abs(line.get("pct", 0)) > 60:
+        if not p.get("proj") or (line.get("normalEstimated") and abs(line.get("pct", 0)) > 60):
             line["tag"], line["pct"] = "UNRATED", 0
         if owner is not None:
             # Someone else's player: no challengers against your lineup, and the
