@@ -367,8 +367,16 @@ Never name one of them as a drop; their role may be about to grow.
 
 **Into the edition.** CLAIM and CLAIM IF SPACE players become wire candidates
 (`verdict` ADD) and a Do-first `claim` card for each CLAIM; WATCH players become
-wire candidates (`verdict` WATCH) with `addif` as the condition; PASS players
-are named in the wire deck, not carded. "Nothing worth adding" is still a
+wire candidates (`verdict` WATCH) with `addif` as the condition.
+
+**Every screened player gets a verdict in the text layer's `screen` list** —
+PASS included: `{playerId, verdict, reason, falsifiedIf, drop}`, where `verdict`
+is CLAIM, CLAIM_IF_SPACE, WATCH or PASS and a CLAIM names its `drop`. Put the
+injuries research confirmed in `screenInjured`, so the builder's screen matches
+your pass 2. `edition.py` runs the screen itself and **will not build** if any
+screened player lacks a verdict — silence is not a verdict. On non-Tuesday runs
+a verdict researched earlier in the week may be carried forward; say so in its
+reason. "Nothing worth adding" is still a
 legitimate answer when research says so.
 
 ## STEP 4 — Read the standing strategy and the decision log

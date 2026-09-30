@@ -105,6 +105,15 @@ def main(ep, lp):
             elif t == "sheet" and a.get("playerId") not in sheet_ids:
                 errs.append(f"card {cid}: opens a sheet the edition doesn't have")
 
+    scr = e["wire"].get("screen")
+    if not scr or not scr.get("rows"):
+        errs.append("wire.screen is missing or empty — the screen runs every edition")
+    else:
+        for r in scr["rows"]:
+            if r.get("verdict") not in ("CLAIM", "CLAIM_IF_SPACE", "WATCH", "PASS") or not str(r.get("reason", "")).strip():
+                errs.append(f"screen: {r.get('name')} has no verdict with a reason")
+            if r.get("verdict") == "CLAIM" and not r.get("drop"):
+                errs.append(f"screen: {r.get('name')} is a CLAIM with no drop named")
     if not e["notes"].get("cannotSee"):
         errs.append("notes.cannotSee is empty — say what this edition could not confirm")
     lead = e["front"]["lead"]

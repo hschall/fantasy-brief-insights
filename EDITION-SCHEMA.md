@@ -81,6 +81,7 @@ K and D/ST: `weeks[]` carry `{week, pts, proj}` only, and the table has availabi
 
 - `market.kicker` / `market.defence`: `{action: "HOLD" | "SWAP", rows[] {name, proj, mine}}` — ours first.
 - `byes`: `weeks[] {week, starters, bench}` for every remaining week, `worstWeek` (≥ 3 starters, else null), `caption`.
+- `screen`: `{injured[], exposure[], rows[]}` — every screened player: `{playerId, name, pos, team, touches[], share, shareBefore, flags[], verdict, reason, falsifiedIf, drop}`.
 
 ## Client-side only (never in the payload)
 
@@ -106,6 +107,8 @@ say. `edition.py` merges it with ESPN's data. Every name the builder resolves
 | `roster` | `deck` — one sentence from the lineup check |
 | `wire` | `headline`, `deck`, `candidates[]` — player ids, only the genuinely close |
 | `players` | keyed by ESPN id, **every rostered player and every wire candidate**: `deck`, `reason` (one line, ≤ ~90 characters), `flags[]`, `availability`, `role`, `competition`, `passer`, `checked`, `vsProjection {tag, text}` or null, `verdict` (START · BENCH · CONDITIONAL · WATCH · ADD), `trigger`, `fallback` (exact name), `drop` (exact name, wire), `addif` (wire), `logic`, `matchupGrade` or null |
+| `screenInjured` | names research confirmed out this week — the builder's screen uses them for vacated opportunity (pass 2) |
+| `screen` | **one entry per screened player**, PASS included: `{playerId, verdict, reason, falsifiedIf, drop}`; verdict CLAIM · CLAIM_IF_SPACE · WATCH · PASS; a CLAIM names its drop. The build stops if any is missing |
 | `unpriced` | `{id: +1 or -1}` — one notch on the matchup tag, only for news the projection hasn't priced |
 | `notes` | `cannotSee[] {label, body}`, `sources` |
 

@@ -73,6 +73,7 @@ def surname(name):
 class Edition:
     def __init__(self, lid, base, text):
         self.lid = str(lid)
+        self.base = base
         self.lg = load(os.path.join(base, f"league-{lid}.json"))
         self.text = text
         self.week = self.lg["scoringPeriod"]
@@ -428,6 +429,33 @@ class Edition:
         sunday = next((k for k in ks if k.weekday() == 6), ks[-1]).date()
         return sunday + dt.timedelta(days=7 * (week - self.week))
 
+    VERDICTS = ("CLAIM", "CLAIM_IF_SPACE", "WATCH", "PASS")
+
+    def screen_section(self):
+        """The wire screen, run here so it can't be skipped, with the research
+        verdict for every player on it. A screened player without a verdict
+        stops the build — silence is not a verdict."""
+        from wire_screen import screen as run_screen
+        res = run_screen(self.lid, self.base, self.text.get("screenInjured", []))
+        verdicts = {str(v["playerId"]): v for v in self.text.get("screen", [])}
+        rows, missing = [], []
+        for pos, R in res["candidates"].items():
+            for r in R:
+                v = verdicts.get(str(r["id"]))
+                if not v or v.get("verdict") not in self.VERDICTS or not str(v.get("reason", "")).strip():
+                    missing.append(r["name"])
+                    continue
+                flags = ([f"INHERITS {round(100 * r['inherits'])}% ({', '.join(r['inheritsFrom'])})"] if r["inherits"] >= .10 else []) + \
+                        (["NEW STARTER"] if r["newStarter"] else []) + (["EFFICIENCY-DRIVEN"] if r["efficiencyFlag"] else [])
+                rows.append({"playerId": r["id"], "name": r["name"], "pos": pos, "team": r["team"],
+                             "touches": r["touches"], "share": r["share"], "shareBefore": r["shareBefore"],
+                             "flags": flags, "verdict": v["verdict"], "reason": v["reason"],
+                             "falsifiedIf": v.get("falsifiedIf"), "drop": v.get("drop")})
+        if missing:
+            raise SystemExit("screen verdict missing for: " + ", ".join(missing) +
+                             " — every screened player needs CLAIM, CLAIM_IF_SPACE, WATCH or PASS, with a reason")
+        return {"injured": res["forcedInjuries"], "exposure": [e["name"] for e in res["exposure"]], "rows": rows}
+
     def by_name(self, name):
         """A roster or wire player from a name the research wrote ('Bhayshul Tuten — ...')."""
         n = (name or "").split(" —")[0].split(",")[0].strip()
@@ -570,7 +598,8 @@ class Edition:
             "roster": {"deck": self.text["roster"]["deck"], "asSet": round(as_set, 1), "best": round(best, 1),
                        "lines": lines},
             "wire": {"headline": self.text["wire"]["headline"], "deck": self.text["wire"]["deck"],
-                     "candidates": wire_lines, "market": self.market(), "byes": self.bye_plan()},
+                     "candidates": wire_lines, "market": self.market(), "byes": self.bye_plan(),
+                     "screen": self.screen_section()},
             "notes": {"cannotSee": self.text["notes"]["cannotSee"], "lastWeek": self.last_week(),
                       "sources": self.text["notes"]["sources"]},
         }
