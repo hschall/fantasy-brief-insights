@@ -1,1 +1,756 @@
-{"week":4,"leagueName":"IPADE Football League","teamName":"Bloodsports","generatedAt":"2026-10-04T13:15:10Z","snapshotNote":"Snapshot 12:49 UTC 4 Oct · Sunday 06:49 Mexico City · Week 4: none of your players had kicked off at the snapshot; Taylor and Downs kicked off in London at 07:30 · the lineup is the projection lineup · before Sunday's inactive lists: every status is provisional, re-check 90 minutes before each kickoff · this brief does not refresh on its own","sources":"Built from 58 web searches and about 145 page reads this run, made by four research passes · CBS Sports' inactives tracker, NBC Sports, RotoWire, Yahoo, SI, NFL.com, Philadelphia Inquirer, BaltimoreRavens.com, Packers.com, Titans.com, Raiders.com, Seahawks.com, ChicagoBears.com, Vikings.com, Saints Wire, Heavy, Sharp Football, FantasyPros, Pro Football Network, Athlon, footballdb · ESPN league file (12:49 UTC 4 Oct), week archives 1–3 and the Week 4 live archive","tonight":{"headline":"The lineup is the projection lineup; Taylor and Downs are under way in London","status":"TIED","winProbability":69,"myScore":0,"theirScore":0,"opponent":"Team 13","body":["Bad news first, and there's little of it. Ollie Gordon, the back you spent your priority on, sits on the bench again in a backfield Miami say they'll split, and the Ravens D/ST are without Trey Hendrickson. Nothing else went against you overnight. Keenan Allen and Darius Slayton are both inactive in London, so Josh Downs is the Colts' lead receiver, and Jalen Coker is unlikely to play tonight, which is the game Darren Waller's targets came in. ESPN has you at 124.2 against Team 13's 88.3, 69%.","Nothing to do. The lineup as set is the projection lineup and no starter carries a designation. It's before the inactive lists, so re-check each starter 90 minutes before his kickoff: 09:30 for Lawrence, Barkley, Wilson and the Ravens, 12:55 for Rice and Myers, 16:50 for Waller."],"case":[{"label":"Their side","body":"Team 13 still start DeVonta Smith and Rachaad White, both ruled out, at 0.0 each, with Kyle Pitts (7.4) at tight end. On their bench: Lamar Jackson 20.3, DJ Moore 13.0, Dalton Kincaid 10.7 and Blake Corum 8.1. Josh Allen has no designation."},{"label":"What would change it","body":"Team 13 moving Moore and Corum in for Smith and White: about 21 projected points back, which takes 88.3 to roughly 109 and the game to something much closer."}],"caseSources":"ESPN league file · CBS Sports · NFL.com"},"doFirst":[],"whatWentWrong":[{"id":"w1","title":"The tight-end seat: four changes in ten days, and this one may have landed","lead":"Hockenson, Gadsden, Sadiq, now Waller. Overnight the condition Waller's role depended on moved his way.","case":[{"label":"The evidence","body":"Waller: 2, 3, 8 targets (archive); the 8 came once Coker left in Week 3. Schefter reported this morning that Coker is unlikely to play, and ESPN lifted Waller from 9.3 to 10.1. Sadiq is still questionable and leans toward playing (SI, 4 Oct); he's on waivers until Wednesday."},{"label":"Why it matters","body":"The move looks better than it did on Saturday. The pattern doesn't: every one of the previous three tight-end adds closed WRONG or CHURN in the log. One good night wouldn't change that; it would only mean the seat can finally be left alone."},{"label":"What would change it","body":"Waller under five targets tonight with Coker out: then the role was never his, and Andrews (free, 10.1) is Tuesday's comparison. Leave it alone until then."}],"sources":"NBC Sports · RotoWire · SI · ESPN · Week 1–3 archive"}],"roster":{"state":"THURSDAY","footnote":"At this snapshot (06:49 Mexico City) none of your players had kicked off, so every row shows its matchup. Taylor and Downs kicked off in London at 07:30, after the snapshot, and are locked. Tiles are footballdb's standard-scoring points allowed through Week 3; it has no PPR table. Every status here is before Sunday's inactive lists.","starting":[{"playerId":4360310,"name":"Trevor Lawrence","slot":"QB","position":"QB","team":"JAX","tier":"SOLID","detail":"JAX · @ CIN · SUN 11:00","projection":17.5,"report":{"flags":[],"availability":"ACTIVE — Jacksonville's only statuses are three defenders, questionable (NFL.com status list, re-read 3 Oct)","role":"23, 29, 29 pass attempts; 2, 2, 4 carries (archive)","checked":"A to Z Sports' final report (2 Oct), Bengals.com's scouting report and FantasyPros' Primer (4 Oct): not listed; no Jaguars skill player is. Bengals S Kyle Dugger out, S Bryan Cook a game-time decision, their nickel corners on IR. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Not on the report; the only quarterback on the roster."},"grade":"AVERAGE","gradeEvidence":"CIN 17th-fewest to QBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried). FantasyTeamAdvice's PPR table has them 4th-most, a 'smash spot'. The two disagree, so this stays middling"},{"playerId":4242335,"name":"Jonathan Taylor","slot":"RB","position":"RB","team":"IND","tier":"ELITE","detail":"IND · @ WSH · SUN 07:30 · London · kicked off after this snapshot","projection":20.4,"report":{"flags":[],"availability":"ACTIVE — no designation all week and not among the Colts' inactives named by CBS Sports' tracker (Allen and Slayton). I couldn't open the full six-man list","role":"19, 24, 23 carries; 100%, 92%, 85% of the backfield (archive)","competition":"none above a 15% share","passer":"Daniel Jones, not on the report","checked":"CBS Sports' inactives tracker, Yahoo's live blog and Pro Football Network, 4 Oct: nothing negative; 19-plus carries in all three games. His game kicked off at 07:30, after this snapshot, so he is locked","verdict":"START","trigger":null,"fallback":null,"summary":"Starts and is locked: his game kicked off at 07:30. The lead back with 85–100% of the carries."},"grade":"POOR","gradeEvidence":"WSH allows the fewest to RBs, tied with ATL (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); Athlon agrees (4 Oct), SI's start/sit says 5th-most (2 Oct). I keep the table"},{"playerId":3929630,"name":"Saquon Barkley","slot":"RB","position":"RB","team":"PHI","tier":"SOLID","detail":"PHI · vs LAR · SUN 11:00 · Hurts · Smith, Brown and Goedert out","projection":14.4,"report":{"flags":["ROLE_UP"],"availability":"ACTIVE — no Eagles back has a game status (NFL.com status list, re-read 3 Oct)","role":"15, 4, 15 carries; 83%, 17%, 100% (archive); the Week 2 dip was the stinger","competition":"Shipley and Bigsby carry no status. Hurts takes goal-line work (carried)","passer":"Jalen Hurts, not on the report. DeVonta Smith (hamstring) is out and expected to miss two or three games beyond today (Inquirer, 2 Oct — Saturday's brief had only the headline); Hollywood Brown and Dallas Goedert are out. Wicks is the top receiver","checked":"NFL.com's status list (2 Oct), the Inquirer (2 Oct, 16:02 ET) and FantasyPros' Primer (4 Oct): Barkley not listed; Smith, Hollywood Brown, Goedert and T Fred Johnson out; Smith expected to miss two or three more games. ROLE_UP answered: the Week 2 dip was the stinger. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Not on the report; 15 carries in both full games. The Rams allow the 5th-fewest to backs and the Eagles' passing game is short-handed."},"grade":"POOR","gradeEvidence":"LAR allows the 5th-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried — no second rank found today)"},{"playerId":4428331,"name":"Rashee Rice","slot":"WR","position":"WR","team":"KC","tier":"SOLID","detail":"KC · @ LV · SUN 14:25 · Mahomes","projection":14.9,"report":{"flags":["ROLE_UP"],"availability":"ACTIVE — knee, full participant all week, no game status (Raiders.com final report 2 Oct; NFL.com status list)","role":"2, 6, 9 targets; 8%, 14%, 43% (archive)","competition":"Kelce and Worthy not on the report; 10% each of Week 3 targets (archive). Worthy: an 8.3% share and 'an easy sit' (FantasyPros, 4 Oct)","passer":"Patrick Mahomes, full all week, no status. LT Josh Simmons (back) is OUT","checked":"Raiders.com's injury report, FantasyPros' Primer and Pro Football Network (4 Oct): full participant, no designation; Mahomes full; LT Josh Simmons out. FantasyPros has his Week 3 target share at 37.5%, PFN at 39.1%, the archive at 43%. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Off the report; the clear first read in Week 3. The Raiders' quarterback is probably Kirk Cousins, which touches the game script, not Rice."},"grade":"POOR","gradeEvidence":"LV allows the 4th-fewest to WRs, tied 3rd–5th (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried — no second rank found today)"},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","tier":"ELITE","detail":"NYJ · @ CHI · SUN 11:00 · Geno Smith · Hall, Mitchell and Taylor out","projection":16.5,"report":{"flags":["ROLE_UP","VACATED","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — not on the Jets' report at any point this week (NewYorkJets.com Friday report, read directly 3 Oct)","role":"7, 7, 13 targets; 30%, 19%, 45% of the Jets' targets (archive)","competition":"Adonai Mitchell (finger), Mason Taylor (thumb) and Breece Hall (quad) are ruled out; Kenyon Sadiq (back) is questionable after three limited days and leans toward playing (SI 4 Oct; FantasyPros' model 76%). ~12 targets a week vacated by Mitchell; if Sadiq sits too, this role grows again","passer":"Geno Smith, not on the report; a league-best 75.5% completion rate (ChicagoBears.com preview)","checked":"Bleacher Nation and Yahoo's copies of the Jets' final report (2 Oct), SI (4 Oct) and FantasyPros (3 Oct), read 4 Oct: Hall, Mitchell, Taylor and G Dylan Parham out; Sadiq still questionable, with Glenn 'encouraged' about the limited players and no insider report either way. Chicago: CB Kyler Gordon out, DB Cam Lewis doubtful. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Nothing changed overnight; Mitchell's absence was priced on Wednesday (15.4 → 16.5, carried) and the number hasn't moved."},"grade":"SHAKY","gradeEvidence":"CHI allows the 10th-fewest to WRs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct)"},{"playerId":2576925,"name":"Darren Waller","slot":"TE","position":"TE","team":"CAR","tier":"DEPTH","detail":"CAR · vs DET · SUN 18:20 · Bryce Young · Coker unlikely to play, Legette on IR","projection":10.1,"report":{"flags":["ROLE_UP","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — no game status (NFL.com status list; Panthers.com, 3 Oct). Added Saturday as a free agent for Sadiq","role":"2, 3, 8 targets for 4.8, 18.3 and 10.1 points (archive). ROLE_UP answered: the 8 came after Coker left in Week 3, when Waller ran a route on 65.6% of dropbacks, was targeted on 38.1% of them and lined up in the slot or wide on three snaps in four (Sharp Football, 1 Oct)","competition":"Jalen Coker (quad) is unlikely to play, per Schefter on Sunday morning; Xavier Legette is on IR. RIVAL_QUESTIONABLE answered: if Coker sits, the Week 3 role (8 targets) is the likelier one, not the 2 and 3 of Weeks 1–2. McMillan 23% of Week 3 targets (archive)","passer":"Bryce Young, no designation; 48 attempts in Week 3 (Sharp Football)","checked":"NBC Sports and RotoWire notes on Coker, SI's Panthers site, Forbes and NFL.com's Week 4 sleepers, all read 4 Oct: Waller has no designation; Schefter says Coker is unlikely to play. Nobody quotes the team on a bigger Waller role, so that link is analysts' opinion. Carolina's inactives are at 16:50","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. The condition his week depended on broke his way: Coker is unlikely to play, against the defence allowing the most points to tight ends."},"grade":"GREAT","gradeEvidence":"DET allows the most to TEs: 68 points in three games in standard scoring (footballdb, read 3 Oct, carried) and 100.1 in PPR, the most through three weeks since at least 2000 (NFL.com)"},{"playerId":4688813,"name":"Josh Downs","slot":"FLEX","position":"WR","team":"IND","tier":"SOLID","detail":"IND · @ WSH · SUN 07:30 · London · Daniel Jones · Keenan Allen and Slayton inactive · kicked off after this snapshot","projection":13.6,"report":{"flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — never on the report, and not among the Colts' inactives named by CBS Sports' tracker. I couldn't open the full list","role":"4, 9, 11 targets; 14%, 30%, 33% (archive); 30.4% of targets since Pierce went out (Sharp, carried)","competition":"Keenan Allen (groin) was ruled out Saturday and is inactive; Darius Slayton is inactive too, which wasn't flagged beforehand (CBS Sports, 4 Oct). ~9 targets a week vacated. Alec Pierce is out (heel). Left at receiver: Treadwell and Dulin (questionable, ankle). Tyler Warren 30% of Week 3 targets (archive)","passer":"Daniel Jones, not on the report","checked":"CBS Sports' inactives tracker, Yahoo's live blog, Colts Wire (3 Oct) and Athlon (4 Oct): Keenan Allen and Darius Slayton inactive; Downs 'the primary receiver'. His game kicked off at 07:30, after this snapshot, so he is locked","verdict":"START","trigger":null,"fallback":null,"summary":"Starts and is locked. Allen and Slayton are both inactive, so he's the Colts' lead receiver against the defence allowing the most points to receivers."},"grade":"GREAT","gradeEvidence":"WSH allows the most to WRs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried; Athlon agrees, 4 Oct) and a league-high 11 touchdown passes (NFL.com)"},{"playerId":-16033,"name":"Ravens D/ST","slot":"D/ST","position":"D/ST","team":"BAL","tier":"SOLID","detail":"BAL · vs TEN · SUN 11:00 · Hendrickson out","projection":7,"report":{"availability":"ACTIVE — OLB Trey Hendrickson is OUT after a finger procedure; Minter: 'We think [it will] be very, very short term'. Mike Green and rookie Ethan Burke take his snaps (BaltimoreRavens.com 2 Oct)","checked":"BaltimoreRavens.com (2 Oct), NFL.com's Sunday injuries page and Yahoo's D/ST rankings, read 4 Oct: Hendrickson out after a procedure on a broken finger ('very, very short term'); no other defensive absence. Tennessee's implied total is 16, the lowest on the slate; Spears expected to play. Best free D/ST: Bears 7.5","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. 7.0 against the Bears' 7.5, free: half a point, on a seat that changed Wednesday. Hold."},"grade":"GOOD","gradeEvidence":"TEN have the slate's lowest implied total, 16, and lost a starting guard in Week 3 (Yahoo/NBC D/ST rankings) — a judgement, not a table. Against it: Baltimore's best pass rusher is out and the Titans have allowed only 5 sacks"},{"playerId":2473037,"name":"Jason Myers","slot":"K","position":"K","team":"SEA","tier":"DEPTH","detail":"SEA · vs LAC · SUN 14:25","projection":9.7,"report":{"availability":"ACTIVE — not on Seattle's report (Seahawks.com 2 Oct; NFL.com status list: Price out, Surratt and Okada questionable)","checked":"Seahawks.com's report and NFL.com's status list (2 Oct), re-read 4 Oct: not listed. Comparison: Fairbairn 9.8 (free), Myers 9.7, Pineiro 9.2, Reichard 9.1","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Fairbairn is free and a tenth better; not a move. Hold."},"grade":"GOOD","gradeEvidence":"LAC allows the 12th-most to kickers, tied 10th–12th (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried). FantasyTeamAdvice has them 31st of 32, the opposite read. Three games either way"}],"bench":[{"playerId":4882093,"name":"Bhayshul Tuten","slot":"BE","position":"RB","team":"JAX","tier":"SOLID","detail":"JAX · @ CIN · SUN 11:00","projection":12.7,"report":{"flags":[],"availability":"ACTIVE — no Jaguars back carries a game status; Jacksonville list three defenders as questionable (NFL.com status list, re-read 3 Oct)","role":"15, 13, 15 carries; 60%, 59%, 65% of the backfield (archive). About 16 touches and 80 yards a game, RB16 in points per game; 6 red-zone carries to Rodriguez's 5 (FantasyPros Primer, 4 Oct)","competition":"Chris Rodriguez Jr. took 35% of the Week 3 carries (archive) and has 5 red-zone carries to Tuten's 6 (FantasyPros 1 Oct). Coen said Rodriguez 'gained momentum' after Week 3 (SI 30 Sep, carried)","passer":"Trevor Lawrence, not on the report","checked":"A to Z Sports' final report (2 Oct) and FantasyPros' Primer (4 Oct): no Jaguars skill player listed; Bengals S Kyle Dugger out, S Bryan Cook and RG Dalton Risner game-time decisions. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 12.7 against Downs' 13.6 for the flex: a coin flip the projection gives Downs, who is already locked in."},"grade":"SHAKY","gradeEvidence":"CIN allows the 10th-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried — no second table found today)"},{"playerId":4701936,"name":"Matthew Golden","slot":"BE","position":"WR","team":"GB","tier":"SOLID","detail":"GB · @ TB · SUN 11:00 · Jordan Love","projection":12.9,"report":{"flags":["VACATED"],"availability":"ACTIVE — not among Green Bay's statuses (NFL.com status list, re-read 3 Oct)","role":"12, 6, 12 targets; 30%, 21%, 32% (archive). A 22.6% target share and a team-high 27.4% first-read share, WR15 in points per game (FantasyPros, 1 Oct); PFN notes about 56% of his points came when trailing by double digits (4 Oct)","competition":"Jayden Reed on IR with a season-ending neck injury (Yahoo 1 Oct); Watson 27% and Kraft 22% of Week 3 targets (archive)","passer":"Jordan Love, not on the report. Opposite: Baker Mayfield (right thumb) is out and rookie Jalon Daniels makes his first start for Tampa Bay; CB Benjamin Morrison is out too","checked":"Packers.com and Buccaneers.com reports (2 Oct), FantasyPros (1 and 4 Oct) and Pro Football Network (4 Oct): Golden and Love not listed; Mayfield out, rookie Jalon Daniels starts for Tampa Bay; CB Benjamin Morrison out. The game is in Tampa. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 12.9, seven tenths under Downs for the flex; the flex locked at 07:30 with Downs in it."},"grade":"POOR","gradeEvidence":"TB allows the 7th-fewest to WRs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); FantasyPros' PPR table has them 6th-fewest (30 Sep)"},{"playerId":4871023,"name":"Carnell Tate","slot":"BE","position":"WR","team":"TEN","tier":"DEPTH","detail":"TEN · @ BAL · SUN 11:00 · Cam Ward","projection":11.9,"report":{"flags":[],"availability":"ACTIVE — not on Tennessee's report; the Titans' only statuses are Spears and Kevin Winston Jr., questionable (NFL.com status list; AtoZ Sports 2 Oct)","role":"6, 5, 9 targets; 21%, 29%, 27% (archive). A team-high 22.7% target share and a 31% first-read share, but WR49 in points per game (FantasyPros Primer, 3 Oct)","competition":"Wan'Dale Robinson 33% of Week 3 targets (archive), not on the report","passer":"Cam Ward, not on the report; QB27 in points per game (FantasyPros, 3 Oct). His guards Carmona and Slater went on IR this week","checked":"Titans.com's 'Six Things', Titans Wire via Yahoo (3 Oct) and FantasyPros' Primer (4 Oct): not listed; a team-high 20 targets; Titans Wire says sit. Spears (ankle) is expected to play (Rapoport via NFL.com). Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 11.9, the fifth of five receivers; Baltimore allow little to outside receivers."},"grade":"AVERAGE","gradeEvidence":"BAL allows the 13th-most to WRs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); FantasyPros has them 8th-fewest in points per opportunity to outside receivers. They disagree; middling"},{"playerId":3054850,"name":"Alvin Kamara","slot":"BE","position":"RB","team":"NO","tier":"DEPTH","detail":"NO · vs ATL · MON 18:15 · Etienne on IR · committee with Miller and Donaldson · Shough at QB","projection":10.6,"report":{"flags":["ROLE_DOWN","VACATED"],"availability":"ACTIVE — not on the Saints' Saturday report at all, no game status (NewOrleansSaints.com, 3 Oct, 13:55)","role":"9 and 9 carries, 6 then 1 targets (archive; missed Week 1). With Etienne off the field in Week 3: 46.7% of snaps and 10 touches, to Miller's 31.1% and 6 (Sharp Football, 1 Oct)","competition":"Travis Etienne Jr. on IR (hamstring), out at least four games. Moore: 'Alvin and Kendre will handle that load really well. C.J. has kind of found his specific role' — short yardage (NewOrleansSaints.com, 1 Oct). Donaldson had the one goal-line chance in Week 3 (Sharp)","passer":"Tyler Shough, not on the report","checked":"Saints Wire's and WWL's copies of the final report (3 Oct), Heavy (2 Oct) and Sharp Football's Week 4 worksheet, read 4 Oct: Kamara and Shough aren't listed; Etienne on IR. ESPN's Katherine Terrell: Kamara, Miller and Donaldson 'will likely all be used'. VACATED answered: Etienne's ~13 carries are split three ways, and ESPN's 10.6 already has it","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 10.6, behind both starting backs and Tuten, in a three-man committee."},"grade":"POOR","gradeEvidence":"ATL allows the 2nd-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); 3.1 yards a carry to backs, 4th-best (Sharp Football)"},{"playerId":4711533,"name":"Ollie Gordon II","slot":"BE","position":"RB","team":"MIA","tier":"DEPTH","detail":"MIA · @ MIN · SUN 14:05 · Malik Willis · Wright cleared","projection":9,"report":{"flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — Miami's statuses are Douglas, Duck and Beal, all out; he isn't listed (NFL.com status list, re-read 3 Oct). Claimed Wednesday for Lloyd with never-resetting priority","role":"3 then 17 carries, 0 then 3 targets (archive); the 17 came with Wright inactive","competition":"Jaylen Wright (foot/stinger): full Thursday and Friday, no designation. Hafley: 'should be good to go'. Fowler: 'Gordon and Wright will share the load in the short term... Wright has big-play potential, while Gordon projects as more of an every-down back' (SI 2 Oct). ESPN: Gordon 9.0, Wright 7.5","passer":"Malik Willis, not on the report","checked":"NBC Sports (2 Oct), Yahoo (3 Oct) and Vikings.com's preview, re-read 4 Oct: Wright cleared, no designation; Fowler and the Dolphins' own preview both say the two share the load. One Yahoo writer expects Wright to get 'a substantial' role, which is opinion. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 9.0, the lowest projection on the roster, in a backfield Miami say they'll split. This is the first of the four weeks that count against the claim."},"grade":"POOR","gradeEvidence":"MIN allows the 4th-fewest to RBs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct)"}],"lineupCheck":{"asSet":124.1,"best":124.1,"gap":0.0,"verdict":"The lineup as set is the projection lineup; no starter is in doubt.","moves":[],"contingencies":[]}},"trades":[],"worthALook":[{"playerId":3116365,"name":"Mark Andrews","positionTeam":"TE · BAL","ownership":"79.2% owned","tier":"DEPTH","lead":"The tight-end comparison: free, healthy and now exactly level with Waller at 10.1. Hold.","case":[{"label":"The comparison","body":"Andrews 10.1 at home to Tennessee, Waller 10.1 against Detroit. Andrews runs a route on 65.6% of dropbacks with 23.7% of Baltimore's targets and is TE20 in points per game with no touchdown (FantasyPros, 4 Oct); 6, 7, 5 targets (archive). Zay Flowers is expected to play (Rapoport via NFL.com)."},{"label":"The number that kills it","body":"Level is a coin flip, and the seat changed hands on Saturday. Overnight the one risk to Waller's role, Coker playing, got less likely; and Tennessee are called the best defence against tight ends, though untested (FantasyPros)."},{"label":"What would change it","body":"Nothing before Andrews' 11:00 kickoff: Carolina's inactives come at 16:50. Tuesday's question is whether Waller drew five targets."}],"sources":"ESPN · FantasyPros · NFL.com · Week 1–3 archive"},{"playerId":-16003,"name":"Bears D/ST","positionTeam":"D/ST · CHI","ownership":"35.1% owned","tier":"DEPTH","lead":"The D/ST comparison: the best free defence, half a point above the Ravens. Hold.","case":[{"label":"The comparison","body":"Bears 7.5 at home to the Jets, Ravens 7.0 at home to Tennessee. Chicago have 6 takeaways, tied 3rd, and held their last two opponents to 7 and 9 (ChicagoBears.com). The Jets are without Hall, Mitchell, Taylor and their left guard."},{"label":"The number that kills it","body":"Half a point, on a seat that changed hands on Wednesday. The Jets have one turnover all season, and Chicago start a backup quarterback behind a new left tackle, which means short fields. Tennessee's implied total, 16, is the lowest on the slate."},{"label":"What would change it","body":"A second Ravens defensive starter scratched at 09:30 with the Bears still free."}],"sources":"ESPN · ChicagoBears.com · Yahoo"},{"playerId":2971573,"name":"Ka'imi Fairbairn","positionTeam":"K · HOU","ownership":"86.9% owned","tier":"DEPTH","lead":"The kicker comparison: 0.1 better than Myers and a free agent. Hold.","case":[{"label":"The comparison","body":"Fairbairn 9.8, Myers 9.7. Neither is on a report. FantasyPros ranks Myers K3 and Fairbairn K6, and is 'starting to worry' about Fairbairn's attempts (1 Oct). The kicker seat changed hands on Wednesday."},{"label":"What would change it","body":"Myers appearing on Seattle's inactive list at 12:55."}],"sources":"ESPN · FantasyPros · Seahawks.com"}],"doNotChase":[{"playerId":4429835,"name":"George Holani","positionTeam":"RB · SEA","ownership":"+7.06 owned","tier":"DEPTH","lead":"The wire's biggest riser again: Seattle's rookie starter is headed to injured reserve, and Holani is the smaller half of what's left.","case":[{"label":"The rise","body":"Jadarian Price (chest) was ruled out Friday and NBC Sports headlines dated 3 Oct have him going on injured reserve; I could read the headline, not the story. Holani caught 5 of 5 targets in Week 3 (archive) and has the passing downs: a route on 29.7% of dropbacks (FantasyPros, 4 Oct)."},{"label":"The number that kills it","body":"8, 4, 3 carries against Emanuel Wilson's 2, 21, 9 (archive); Wilson has 40% of the rush attempts and Los Cachanillas hold him. Zach Charbonnet returned to practice, is eligible in Week 5, and KEI returns hold him. Holani projects 10.3, under Kamara (10.6), who is already on your bench."},{"label":"What would change it","body":"Holani out-carrying Wilson today with Charbonnet not activated for Week 5."}],"sources":"Week 1–3 archive · NBC Sports · FantasyPros · Seahawks.com"},{"playerId":4428850,"name":"Dontayvion Wicks","positionTeam":"WR · PHI","ownership":"+4.07 owned","tier":"DEPTH","lead":"Philadelphia's top receiver for the next few weeks, and still below your fifth.","case":[{"label":"The rise","body":"DeVonta Smith (hamstring) is out and expected to miss two or three games beyond today (Inquirer, 2 Oct, 16:02 ET; Saturday's brief had only the headline). Wicks has a 77.4% route share, 17% of targets and four red-zone targets; FantasyPros calls him a 'solid flex with WR2 upside' (4 Oct). 4, 6, 5 targets for 15.3, 12.4 and 5.2 points (archive)."},{"label":"The number that kills it","body":"He projects 11.3, below Tate (11.9), the fifth receiver on a roster that starts two plus a flex. A multi-week vacancy makes Tuesday's comparison closer, not today's."},{"label":"What would change it","body":"Eight-plus targets against the Rams today: then he's compared with Tate on Tuesday. He's a free agent, so no priority is at stake, unless someone adds him first."}],"sources":"Week 1–3 archive · Philadelphia Inquirer · FantasyPros"},{"playerId":-16003,"name":"Bears D/ST","positionTeam":"D/ST · CHI","ownership":"+2.87 owned","tier":"DEPTH","lead":"The biggest riser among defences. Half a point above yours; see the comparison above.","case":[{"label":"The rise","body":"6 takeaways in three games and 7 and 9 points allowed the last two weeks (ChicagoBears.com), against a Jets offence missing four starters."},{"label":"The number that kills it","body":"7.5 against the Ravens' 7.0: inside the coin-flip line, on a seat that changed hands Wednesday."},{"label":"What would change it","body":"A two-point gap, which needs a Ravens scratch at 09:30."}],"sources":"ChicagoBears.com · ESPN"},{"playerId":4870795,"name":"Makai Lemon","positionTeam":"WR · PHI","ownership":"+2.27 owned","tier":"DEPTH","lead":"A rookie rising with Wicks. He runs the routes; Wicks gets the ball.","case":[{"label":"The rise","body":"With Smith and Hollywood Brown out, Lemon ran a route on 83.9% of dropbacks last week (FantasyPros, 4 Oct)."},{"label":"The number that kills it","body":"A 10.2% target share and 0.45 yards per route (FantasyPros); 4, 1, 4 targets for 38 yards (archive). He projects 10.5, below all five of your receivers."},{"label":"What would change it","body":"Seven-plus targets today with Smith out for weeks."}],"sources":"Week 1–3 archive · FantasyPros · Philadelphia Inquirer"},{"playerId":4569603,"name":"Malik Washington","positionTeam":"WR · MIA","ownership":"+1.84 owned","tier":"DEPTH","lead":"Miami's most-targeted receiver, in the league's lowest-scoring offence.","case":[{"label":"The rise","body":"8, 5, 10 targets for 6.3, 8.7 and 11.1 points (archive); 12 catches for 152 yards, with four of 20-plus (Vikings.com preview)."},{"label":"The number that kills it","body":"23 targets have produced 26.1 points (archive), from Malik Willis, whose 74.1 rating is fourth-worst among qualifiers; Miami average 12.0 points. He projects 10.3, below all five of your receivers."},{"label":"What would change it","body":"Ten-plus targets and 15 points at Minnesota today: then he's compared with Tate on Tuesday."}],"sources":"Week 1–3 archive · Vikings.com"},{"playerId":4682745,"name":"Jaylen Wright","positionTeam":"RB · MIA","ownership":"+0.61 owned","tier":"DEPTH","lead":"Cleared, and splitting the backfield you spent priority on.","case":[{"label":"The rise","body":"Off the report after two full practices (NBC Sports, 2 Oct). Fowler and the Dolphins' own preview say he and Gordon share the load; a Yahoo writer (3 Oct) argues Wright sat above Gordon on the depth chart when healthy, which is opinion."},{"label":"The number that kills it","body":"He'd be a fifth back on a roster that starts two, at Minnesota, who allow the 4th-fewest points to backs (footballdb). 3 carries all season (archive). ESPN: 7.5 to Gordon's 9.0."},{"label":"What would change it","body":"Wright taking over outright today (Gordon under 8 touches): then Gordon is the problem to solve, not a reason to own both."}],"sources":"NBC Sports · Yahoo · footballdb · Week 1–3 archive"}],"waiverAnalysis":{"verdict":"NOTHING","summary":"Nothing on the wire beats this roster on usage, from three weeks of data, which is still thin. Same answer as Saturday.","weeks":3,"rising":[],"falling":[]},"settled":[{"correct":true,"title":"'Keenan Allen was ruled out; it adds to Downs' share' (Saturday afternoon's brief)","result":"Allen is officially inactive, and so is Darius Slayton, which nobody flagged (CBS Sports' tracker). Not graded on points until the London game is final."},{"correct":false,"title":"'Darren Waller: do not chase' (Saturday morning's brief)","result":"You added him. Overnight Coker became unlikely to play and ESPN lifted Waller from 9.3 to 10.1. Still ungraded: tonight's targets decide."},{"correct":false,"title":"'If Sadiq sits: add Andrews, drop Tate' (30 Sep, carried five runs)","result":"Never fired. Sadiq stayed questionable and you dropped him for Waller on Saturday instead. Untested, so it closes EXPIRED, not RIGHT."},{"correct":false,"title":"Add Sadiq for Gadsden (your move, 30 Sep)","result":"Dropped three days later without playing a game for you. Closed CHURN: the seat, not the player, is what failed."},{"correct":false,"title":"Wait on Charbonnet; re-add him free once Seattle activate him (18 Sep)","result":"KEI returns added him at 20:58 Wednesday, with his practice window about to open (RotoWire 30 Sep). The thesis called a rival stashing an OUT back the only cost of waiting, and unlikely. It happened. Closed WRONG."},{"correct":false,"title":"Tuten for Lamar, the standing trade (19 Sep)","result":"Its own falsifier fired: Lamar is on Baltimore's Wednesday report, limited with a back issue (BaltimoreRavens.com 30 Sep). Never sent, no points lost. Closed WRONG, not held on a technicality."},{"correct":false,"title":"Add Pineiro, drop Loveland (25 Sep)","result":"Pineiro 6 to Little's 4 in Week 3 (archive), so the kicker half held, but the owner replaced him with Myers on Wednesday, five days after adding him. Closed CHURN."},{"correct":false,"title":"Add Gadsden as the second TE (23 Sep)","result":"Archive: 0.0 on 3 targets in Week 3; dropped Wednesday for Sadiq. Closed WRONG. The written falsifier never fired, so it was badly written."},{"correct":false,"title":"Don't re-claim Hockenson (23 Sep)","result":"Archive: Hockenson 3.1, Gadsden 0.0 in Week 3. Closed WRONG on the outcome, though the priority it saved was later spent anyway."},{"correct":false,"title":"Hold MarShawn Lloyd as Green Bay's lead back (19 Sep)","result":"Archive: 4 carries, RB3 on snaps. Closed WRONG. Dropped Wednesday."},{"correct":false,"title":"Treat Rashee Rice as a sell-high (22 Sep)","result":"Archive: 9 targets, 43% share, 15.8 points. Closed WRONG."},{"correct":true,"title":"Decline Rashod Bateman while Flowers plays (23 Sep)","result":"Archive: Bateman 5.7 on 3 targets. Closed RIGHT."},{"correct":true,"title":"Don't claim Tate; take him if he clears (23 Sep)","result":"Added free, priority kept at 6th; scored his 11.8 projection exactly."}],"cannotSee":[{"label":"Sunday's inactives","body":"This ran at 07:00, before every list except London's. No starter carries a designation, but nothing is confirmed until 90 minutes before each kickoff. For the Colts I have the two inactives CBS Sports named (Allen, Slayton); I couldn't open the full list, so Taylor and Downs being active rests on their absence from it."},{"label":"The snapshot","body":"Every number is from the 06:49 league file. Taylor and Downs kicked off at 07:30, so their live scores aren't in it."},{"label":"Waller's role","body":"'Coker unlikely to play' is Schefter, read second-hand; Carolina's inactives at 16:50 are the ruling, after every other tight end has locked. No report quotes the team on Waller's role; the link is analysts' opinion plus one game."},{"label":"Matchup tiles","body":"footballdb's tables are standard scoring through Week 3; two were re-read today (CHI, MIN) and the rest carried from Saturday's read of the same three weeks. Other sources disagree on Cincinnati against quarterbacks, Washington against backs, Baltimore against receivers and the Chargers against kickers; each row says so. The Ravens D/ST tile is a judgement."},{"label":"The Raiders' quarterback","body":"FantasyPros writes about Kirk Cousins as the starter; the Review-Journal's pages returned errors and nothing I opened confirms it. It touches Rice's opponent, not Rice."},{"label":"Reports I couldn't retrieve","body":"ESPN's inactives page, Hogs Haven, Big Cat Country, the Review-Journal and BVM Sports' Colts list were blocked or empty; RotoBaller returned navigation only. Pages were read through a summarising tool, so quoted wording is close but may not be exact. One Eagles piece (ClutchPoints) contradicted the others and was discarded."},{"label":"Rival claims","body":"ESPN returns only your own claims. Andrews, Wicks, Hockenson, Henry and Loveland are free agents anyone can add; Sadiq is on waivers until Wed 7 Oct, 01:00 Mexico City."},{"label":"The wire screen","body":"wire_screen.py counts Week 4 as a stat week once one game is played, so its list is Steelers and Browns plus Wicks and Higbee. Both passes returned the same eleven names as Saturday, so the verdicts are carried. It can't see Holani or Malik Washington; they're in do-not-chase from the ownership column."},{"label":"The trade","body":"No trade this run. Lamar Jackson is off Baltimore's report and on Team 13's bench; any re-offer of Tuten-for-Lamar would be a new entry and waits for Week 4's results."},{"label":"Josh Jacobs","body":"Still on the commissioner's exempt list. Nothing dated 1–4 October; the latest is Rapoport on 27 September: a ruling is 'measured in weeks rather than days'."}]}
+{
+"week": 4,
+"leagueName": "IPADE Football League",
+"teamName": "Bloodsports",
+"generatedAt": "2026-10-04T23:06:52Z",
+"snapshotNote": "Snapshot 22:49 UTC 4 Oct · Sunday 16:49 Mexico City · Week 4: London and the early games are final, the 14:05 and 14:25 games were in progress, Lions–Panthers and Monday are to come · Barkley and Rice both left injured · only Waller is still to play for you · scores move after this; the brief does not refresh on its own",
+"sources": "Built from 104 web searches and about 215 page reads this run, made by three research passes plus my own checks · NBC Sports, RotoWire, CBS Sports, Yahoo, SI, Heavy, FOX Sports/AP, Philadelphia Inquirer, PhiladelphiaEagles.com, Jaguars.com, Colts.com, BaltimoreRavens.com, Titans.com, Packers.com, Buccaneers.com, NewYorkJets.com, Sun-Times, Seahawks.com, TheRams.com, NewOrleansSaints.com, WWL, A to Z Sports, NESN, DraftSharks, FantasyPros, Last Word on Sports · ESPN league file (22:49 UTC 4 Oct), week archives 1–3 and the Week 4 live archive (22:04 UTC)",
+"tonight": {
+"headline": "Barkley and Rice both left with hamstring injuries",
+"status": "LOSING",
+"winProbability": 40,
+"myScore": 57.08,
+"theirScore": 59.82,
+"opponent": "Team 13",
+"body": [
+"Bad news first. Saquon Barkley hurt his right hamstring on his second carry and Rashee Rice pulled up with a non-contact left hamstring early in Las Vegas: two starters, 2.0 points between them. Garrett Wilson (5.7), Josh Downs (4.6) and Trevor Lawrence (11.1) all finished well under their numbers without being hurt. Carnell Tate had 21.5 and Ollie Gordon 18.0 on your bench. You trail 57.1 to 59.8 and ESPN projects 73 to 76, a 40% chance.",
+"Nothing to do tonight. Darren Waller is your last player; Kamara plays Monday but every slot he could fill has locked. Team 13 are still starting two players who were ruled out, which is the only reason this is close. The moves are next week's: one conditional card below, and a tight end for Waller's bye on Tuesday."
+],
+"case": [
+{
+"label": "Their side",
+"body": "Team 13 have Kyle Pitts (7.4) on Monday; McCaffrey (6.3), Kelce (3.5), Worthy (11.0) and the Seahawks D/ST (11) were in progress at the snapshot. DeVonta Smith and Rachaad White sat in their lineup at zero all day. Lamar Jackson, on their bench, left his game with an ankle injury."
+},
+{
+"label": "What would change it",
+"body": "Waller at or above his 10.1 tonight with McCaffrey held under his remaining projection. Nothing on your side can be changed to help it."
+}
+],
+"caseSources": "ESPN league file · FOX Sports/AP · NBC Sports · BaltimoreRavens.com"
+},
+"doFirst": [
+{
+"id": "ipade-w5-tuten-for-barkley",
+"tier": "SOLID",
+"urgency": "When the week rolls",
+"kind": "Lineup",
+"deadlineLabel": "Fallback only · when the week rolls, if Barkley is ruled out",
+"deadline": "WHEN_UNLOCKED",
+"title": "If Barkley is ruled out for London, start Tuten in his slot",
+"subtitle": "A right hamstring on his second carry, no timeline, and Philadelphia's next game is overseas. Don't fire this until there's a ruling.",
+"case": [
+{
+"label": "The injury",
+"body": "Hurt at the end of his second carry with 11:34 left in the first quarter and ruled out (FOX Sports/AP; Inquirer, 4 Oct). After the game he 'was able to walk perfectly normal' (Ashlyn Sullivan, NBC Sports Philadelphia, via Heavy). Nick Sirianni gave no update and there is no scan result. Week 5 is Jacksonville in London."
+},
+{
+"label": "Why Tuten",
+"body": "He took 17 of Jacksonville's 23 backfield carries today, 74%, up from 60–65%, and had two rushing touchdowns called back for penalties (Jaguars.com). He plays in the same London game. Gordon scored more today, but that game wasn't final and Miami call it a split; Kamara is in a three-man committee."
+},
+{
+"label": "The projection has the last word",
+"body": "ESPN hasn't published Week 5 numbers. If it puts Gordon or Kamara two or more above Tuten when it does, follow the projection, not this card."
+},
+{
+"label": "Falsified if",
+"body": "Barkley practises in full by Friday and plays, in which case this never fires. If it fires: the back you start scores less than the best back left on your bench that week (archive)."
+}
+],
+"sources": "FOX Sports/AP · Philadelphia Inquirer · Heavy · Jaguars.com · Week 4 archive",
+"ghost": true,
+"action": {
+"type": "SWAP",
+"playerId": 4882093,
+"dropPlayerId": 3929630,
+"label": "Start Tuten · bench Barkley (only if ruled out)"
+}
+}
+],
+"whatWentWrong": [
+{
+"id": "w1",
+"title": "Barkley: a hamstring on his second carry",
+"lead": "He had no designation all week. 2.0 points, and it says nothing about him as a player.",
+"case": [
+{
+"label": "The evidence",
+"body": "2 carries for 8 and a 2-yard catch (archive), then ruled out. Tank Bigsby took 14 carries and was himself hurt in the fourth quarter; Will Shipley finished (RotoWire). The Eagles went 0-for-12 on third down without him."
+},
+{
+"label": "What it changes",
+"body": "The card above: Tuten is the named replacement if he's ruled out. It also makes Gordon's seat, the one the priority claim bought, more useful than it looked this morning."
+},
+{
+"label": "What would change it",
+"body": "A full practice from Barkley by Friday."
+}
+],
+"sources": "FOX Sports/AP · Inquirer · RotoWire · Week 4 archive"
+},
+{
+"id": "w2",
+"title": "Rice: a non-contact hamstring, with the bye next",
+"lead": "Doubtful to return today. Kansas City don't play in Week 5, so the injury costs today and nothing next week.",
+"case": [
+{
+"label": "The evidence",
+"body": "He pulled up at the end of a short catch and went to the locker room; downgraded to doubtful to return (NBC Sports, 22:04 UTC). He was active with no pre-game listing. The league file shows 0 for him."
+},
+{
+"label": "What it changes",
+"body": "Week 5's lineup needed a replacement for him anyway: Rice and Waller are both on bye. Tate (12 targets today) and Golden (7) are the candidates for his slot, and next week's projection picks between them. It's the tight-end seat that needs a move, and that waits for Tuesday."
+},
+{
+"label": "What would change it",
+"body": "A report that the hamstring is a multi-week injury: then the question becomes Week 6 and beyond, and the receiver depth on your bench is already the answer."
+}
+],
+"sources": "NBC Sports · SI · A to Z Sports · ESPN league file"
+}
+],
+"roster": {
+"state": "SUNDAY",
+"footnote": "Snapshot 16:49 Mexico City. London and the 11:00 games are final and show a result against the projection; Rice, Myers and Gordon were in progress and show the live score; Waller (tonight) and Kamara (Monday) haven't kicked off and keep this morning's matchup tile, carried and not re-read. Barkley's and Rice's rows are injury exits, not performances. Targets and carries are from the 22:04 live archive.",
+"starting": [
+{
+"playerId": 4360310,
+"name": "Trevor Lawrence",
+"slot": "QB",
+"position": "QB",
+"team": "JAX",
+"tier": "SOLID",
+"detail": "JAX · @ CIN · final · W 22–17 · 23 pass attempts",
+"projection": 17.5,
+"actual": 11.1,
+"delta": -6.4,
+"report": {
+"flags": [],
+"availability": "PLAYED — active, no injury reported (Jaguars.com; SI, 4 Oct)",
+"role": "18 of 23 for 227, one touchdown, no interception, sacked 4 times: 11.1. Only 23 attempts after 23, 29, 29 (archive); two touchdowns were wiped out by first-half penalties (Jaguars.com)",
+"checked": "Jaguars.com's recap and SI, 4 Oct: no injury; a volume game, with ten Jacksonville penalties for 100 yards. Brenton Strange caught 7 of his 8 targets for 95",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 11.1 against 17.5. Healthy and efficient on 23 throws; the points went to penalties and the run game."
+}
+},
+{
+"playerId": 4242335,
+"name": "Jonathan Taylor",
+"slot": "RB",
+"position": "RB",
+"team": "IND",
+"tier": "ELITE",
+"detail": "IND · @ WSH · London · final · W 30–13 · two touchdowns",
+"projection": 20.4,
+"actual": 22.7,
+"delta": 2.3,
+"report": {
+"flags": [],
+"availability": "PLAYED — active; no Colts injuries in the recaps read (Colts.com, 4 Oct)",
+"role": "20 carries for 95 and two 5-yard touchdowns, 1 catch on 4 targets: 22.7 (archive)",
+"competition": "none above a 15% share",
+"passer": "Daniel Jones, 19 of 34 for 143",
+"checked": "Colts.com and Football Nation USA, 4 Oct: 20 carries, two scores, no injury",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 22.7 against 20.4. The one starter who beat his number."
+}
+},
+{
+"playerId": 3929630,
+"name": "Saquon Barkley",
+"slot": "RB",
+"position": "RB",
+"team": "PHI",
+"tier": "SOLID",
+"detail": "PHI · vs LAR · final · L 20–24 · LEFT INJURED: right hamstring on his second carry",
+"projection": 14.4,
+"actual": 2,
+"delta": -12.4,
+"report": {
+"flags": [
+"OWN_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — right hamstring, hurt on his second carry with 11:34 left in the first quarter and ruled out (FOX Sports/AP; Inquirer, 4 Oct). He had no designation before the game. Afterwards he 'was able to walk perfectly normal' (Ashlyn Sullivan, NBC Sports Philadelphia, via Heavy, 17:28 ET). Sirianni gave no update; no scan result yet",
+"role": "2 carries for 8 and a 2-yard catch before leaving: 2.0 (archive). 15, 4, 15 carries in the first three weeks",
+"competition": "Tank Bigsby took 14 carries for 55 and then left himself in the fourth quarter after a hard tackle, injury undisclosed; Will Shipley, 6 for 23, was the only healthy back at the end (RotoWire; CBS Philadelphia)",
+"passer": "Jalen Hurts, 12 of 27 for 93; the Eagles were 0-for-12 on third down",
+"checked": "FOX Sports/AP, the Inquirer, PhiladelphiaEagles.com's recap, RotoWire and Heavy, 4 Oct. OWN_QUESTIONABLE answered: ESPN's tag is today's injury, not a pre-game listing. Week 5 is Jacksonville in London; nobody has given a timeline",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Left injured on his second carry: 2.0 is an exit, not a performance. Week 5 is unknown; Tuten is the replacement if he's ruled out."
+}
+},
+{
+"playerId": 4569618,
+"name": "Garrett Wilson",
+"slot": "WR",
+"position": "WR",
+"team": "NYJ",
+"tier": "ELITE",
+"detail": "NYJ · @ CHI · final · L 12–23 · Geno Smith threw 15 passes",
+"projection": 16.5,
+"actual": 5.7,
+"delta": -10.8,
+"report": {
+"flags": [
+"VACATED"
+],
+"availability": "PLAYED — active, no injury; 'struggles along with entire offense' (RotoWire headline; NBC Sports, 4 Oct)",
+"role": "3 catches on 4 targets for 27: 5.7 (archive), after 7, 7, 13 targets. Geno Smith attempted only 15 passes, 8 complete for 119",
+"competition": "Mitchell, Taylor and Hall were inactive; Sadiq played and caught none of 4 targets. Isaiah Williams took a 73-yard touchdown on 3 targets (archive)",
+"passer": "Geno Smith, 8 of 15; Chicago ran 49 times and the Jets never had the ball",
+"checked": "NBC Sports, NewYorkJets.com and Last Word on Sports, 4 Oct: scheme and game script, not health; no Jets in-game injuries reported. VACATED answered: Mitchell's absence was priced (16.5) and the volume never came",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 5.7 against 16.5. Healthy; four targets in a 15-pass game. One box score, and it doesn't move him."
+}
+},
+{
+"playerId": 4428331,
+"name": "Rashee Rice",
+"slot": "WR",
+"position": "WR",
+"team": "KC",
+"tier": "SOLID",
+"detail": "KC · @ LV · in progress · LEFT INJURED: non-contact left hamstring · bye in Week 5",
+"projection": 14.9,
+"actual": 0,
+"report": {
+"flags": [
+"OWN_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — non-contact left hamstring, pulled up at the end of a short catch early in the game; downgraded to doubtful to return (NBC Sports, 22:04 UTC; SI; A to Z Sports, 4 Oct). Active before the game with no listing. Kansas City are on bye in Week 5",
+"role": "One short catch before leaving, by the reports; the league file shows 0 for him and the live archive has no line yet. 2, 6, 9 targets in the first three weeks (archive)",
+"competition": "Tyquan Thornton caught a touchdown after he left (Chiefs.com); Worthy had 11.0 and Kelce 3.5 at the snapshot",
+"passer": "Patrick Mahomes",
+"checked": "NBC Sports' two player notes, SI's Chiefs site, Yahoo and A to Z Sports, 4 Oct. Sources differ on whether it was late in the first quarter or early in the second and on 5 or 7 yards. OWN_QUESTIONABLE answered: the tag is today's injury",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Left injured early: not a performance. The bye gives him two weeks before Kansas City play again; Week 5 he sits either way."
+}
+},
+{
+"playerId": 2576925,
+"name": "Darren Waller",
+"slot": "TE",
+"position": "TE",
+"team": "CAR",
+"tier": "DEPTH",
+"detail": "CAR · vs DET · SUN 18:20 · Bryce Young · Coker unlikely to play, Legette on IR · bye in Week 5",
+"projection": 10.1,
+"grade": "GREAT",
+"gradeEvidence": "DET allows the most to TEs: 68 points in three games in standard scoring (footballdb, read 3 Oct, carried) and 100.1 in PPR, the most through three weeks since at least 2000 (NFL.com) — carried from this morning, not re-read",
+"report": {
+"flags": [
+"ROLE_UP",
+"RIVAL_QUESTIONABLE"
+],
+"availability": "ACTIVE by every pre-game report — listed with a toe but no game designation (ncfootballnews; A to Z Sports, 4 Oct). Carolina's inactive list was due at 16:50 and I couldn't find it posted by 17:05. Carolina are on bye in Week 5",
+"role": "2, 3, 8 targets for 4.8, 18.3 and 10.1 points (archive). ROLE_UP answered: the 8 came after Coker left in Week 3, when Waller ran a route on 65.6% of dropbacks, was targeted on 38.1% of them and lined up in the slot or wide on three snaps in four (Sharp Football, 1 Oct)",
+"competition": "Jalen Coker (quad) is unlikely to play, per Schefter on Sunday morning; Xavier Legette is on IR. RIVAL_QUESTIONABLE answered: if Coker sits, the Week 3 role (8 targets) is the likelier one, not the 2 and 3 of Weeks 1–2. McMillan 23% of Week 3 targets (archive)",
+"passer": "Bryce Young, no designation; 48 attempts in Week 3 (Sharp Football)",
+"checked": "ncfootballnews's game page, A to Z Sports, RotoWire and FantasyPros, 4 Oct: no designation; Coker still 'unlikely' by Schefter; FantasyPros names Waller as the beneficiary, which is opinion. RIVAL_QUESTIONABLE answered as far as it can be before the list",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Starts tonight, your last player before Monday's bench. No designation; the inactive list wasn't out when I looked. He's off in Week 5."
+}
+},
+{
+"playerId": 4688813,
+"name": "Josh Downs",
+"slot": "FLEX",
+"position": "WR",
+"team": "IND",
+"tier": "SOLID",
+"detail": "IND · @ WSH · London · final · W 30–13 · 4 targets with Allen and Slayton inactive",
+"projection": 13.6,
+"actual": 4.6,
+"delta": -9.0,
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "PLAYED — active, no injury",
+"role": "3 catches on 4 targets for 16: 4.6 (archive), a season low, after 4, 9, 11 targets. 'The Colts didn't need to pass the ball much' (CBS Sports/RotoWire, 4 Oct)",
+"competition": "Keenan Allen and Darius Slayton were inactive and the targets still went elsewhere: Tyler Warren 5 for 41, Laquon Treadwell 5 catches for 42 and the touchdown (Colts.com). Alec Pierce is on IR, rehabbing rather than having surgery (CBS, 23 Sep)",
+"passer": "Daniel Jones, 19 of 34 for 143 in a 30–13 win led by Taylor",
+"checked": "CBS Sports/RotoWire, NBC Sports and Colts.com, 4 Oct. ROLE_UP and VACATED answered: the vacated targets were there and he didn't get them in a run-first script",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 4.6 against 13.6, with Tate's 21.5 on the bench behind him. A coin flip by projection, and it lost."
+}
+},
+{
+"playerId": -16033,
+"name": "Ravens D/ST",
+"slot": "D/ST",
+"position": "D/ST",
+"team": "BAL",
+"tier": "SOLID",
+"detail": "BAL · vs TEN · final · W 24–18",
+"projection": 6.9,
+"actual": 6,
+"delta": -0.9,
+"report": {
+"availability": "PLAYED — Hendrickson out; Marlon Humphrey left with a calf injury (BaltimoreRavens.com, 4 Oct)",
+"checked": "BaltimoreRavens.com and Titans.com, 4 Oct: 18 points allowed, one sack, two takeaways. Lamar Jackson left with an ankle injury at half-time, which is the offence's problem and next week's. Best D/ST on the wire: Steelers 8.3 (scored 6 on Thursday)",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 6 against 6.9. About its number. Hold; the Steelers are on waivers and a claim costs priority."
+}
+},
+{
+"playerId": 2473037,
+"name": "Jason Myers",
+"slot": "K",
+"position": "K",
+"team": "SEA",
+"tier": "DEPTH",
+"detail": "SEA · vs LAC · in progress at the snapshot",
+"projection": 9.7,
+"actual": 5,
+"report": {
+"availability": "PLAYING — not on Seattle's report",
+"checked": "The league file and a Yahoo snippet, 4 Oct: Seattle led 20–6 at half-time; no in-game kicking line could be opened. 4 of 4 on field goals before today (CBS). Comparison at the snapshot: Fairbairn scored 16 (on waivers now), Cam Little 14",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "In progress: 5 against 9.7 at the snapshot. Hold."
+}
+}
+],
+"bench": [
+{
+"playerId": 4701936,
+"name": "Matthew Golden",
+"slot": "BE",
+"position": "WR",
+"team": "GB",
+"tier": "SOLID",
+"detail": "GB · @ TB · final · W 17–14 · touchdown on fourth down",
+"projection": 12.9,
+"actual": 11.7,
+"delta": -1.2,
+"report": {
+"flags": [
+"VACATED"
+],
+"availability": "PLAYED — active, no injury",
+"role": "3 catches on 7 targets for 21 and a 2-yard touchdown on fourth down: 11.7 (archive), after 12, 6, 12 targets",
+"competition": "Kraft 6 of 7 for 42 and a touchdown, Watson 3 of 3 for 47 (archive). Jayden Reed is having season-ending neck surgery (Packers.com)",
+"passer": "Jordan Love, 22 of 30 for 198, two touchdowns and a red-zone interception thrown his way",
+"checked": "Packers.com and Buccaneers.com recaps, 4 Oct: no injury to him; LB Edgerrin Cooper has an Achilles injury. VACATED answered: Reed is out for the season, so the 7-target role is his to keep",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 11.7 on the bench against 12.9. Seven targets again; a candidate for Rice's slot in Week 5."
+}
+},
+{
+"playerId": 4882093,
+"name": "Bhayshul Tuten",
+"slot": "BE",
+"position": "RB",
+"team": "JAX",
+"tier": "SOLID",
+"detail": "JAX · @ CIN · final · W 22–17 · two rushing TDs wiped out by penalty",
+"projection": 12.7,
+"actual": 11.1,
+"delta": -1.6,
+"report": {
+"flags": [],
+"availability": "PLAYED — active, no injury reported (Jaguars.com, 4 Oct)",
+"role": "17 carries for 73 and 2 catches for 18: 11.1 (archive). 74% of the backfield carries, after 60%, 59%, 65%. Two rushing touchdowns were called back for penalties (Jaguars.com)",
+"competition": "Chris Rodriguez Jr.: 6 carries for 35 and the rushing touchdown that counted (Jaguars.com; archive 9.5)",
+"passer": "Trevor Lawrence, 18 of 23 for 227",
+"checked": "Jaguars.com's recap and SI, 4 Oct: 17 carries, no injury. Week 5 is Philadelphia in London",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 11.1 on the bench. If Barkley is ruled out for Week 5, he takes that slot: the highest-projected bench back today, with a rising share of the carries."
+}
+},
+{
+"playerId": 4871023,
+"name": "Carnell Tate",
+"slot": "BE",
+"position": "WR",
+"team": "TEN",
+"tier": "SOLID",
+"detail": "TEN · @ BAL · final · L 18–24 · 12 targets, 145 yards",
+"projection": 11.9,
+"actual": 21.5,
+"delta": 9.6,
+"report": {
+"flags": [],
+"availability": "PLAYED — active, no injury",
+"role": "9 catches on 12 targets for 145 and a lost fumble: 21.5 (archive), after 6, 5, 9 targets. No touchdown; the points are volume",
+"competition": "Wan'Dale Robinson caught the late touchdown; his targets weren't found",
+"passer": "Cam Ward played the whole game: 20 of 31 for 222 (Titans.com)",
+"checked": "NBC Sports, Titans.com and BaltimoreRavens.com, 4 Oct: 12 targets, a 35-yard catch ended by a Kyle Hamilton forced fumble; Baltimore lost Marlon Humphrey to a calf injury during the game, which may have opened the outside",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 21.5 on the bench against 11.9. Twelve targets is a role, not a fluke; the candidate with Golden for Rice's slot in Week 5."
+}
+},
+{
+"playerId": 3054850,
+"name": "Alvin Kamara",
+"slot": "BE",
+"position": "RB",
+"team": "NO",
+"tier": "DEPTH",
+"detail": "NO · vs ATL · MON 18:15 · on your bench · Etienne on IR · committee with Miller and Donaldson",
+"projection": 10.6,
+"grade": "POOR",
+"gradeEvidence": "ATL allows the 2nd-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); 3.1 yards a carry to backs, 4th-best (Sharp Football) — carried from this morning, not re-read",
+"report": {
+"flags": [
+"ROLE_DOWN",
+"VACATED"
+],
+"availability": "ACTIVE — not on the Saints' final report at all (NewOrleansSaints.com, 3 Oct; WWL)",
+"role": "9 and 9 carries, 6 then 1 targets (archive; missed Week 1). With Etienne off the field in Week 3: 46.7% of snaps and 10 touches, to Miller's 31.1% and 6 (Sharp Football, 1 Oct)",
+"competition": "Travis Etienne Jr. on IR (hamstring), out at least four games. Moore: 'Alvin and Kendre will handle that load really well. C.J. has kind of found his specific role' — short yardage (NewOrleansSaints.com, 1 Oct). Donaldson had the one goal-line chance in Week 3 (Sharp)",
+"passer": "Tyler Shough, not on the report",
+"checked": "NewOrleansSaints.com's and WWL's final report (3 Oct), SI's Saints site and Heavy (2 Oct), re-read today: Kamara and Shough aren't listed; Etienne is on IR for at least four games. Nothing dated Sunday. Every slot he could fill is locked",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Bench, and he can't be moved in: both RB slots and the flex have already played."
+}
+},
+{
+"playerId": 4711533,
+"name": "Ollie Gordon II",
+"slot": "BE",
+"position": "RB",
+"team": "MIA",
+"tier": "DEPTH",
+"detail": "MIA · @ MIN · in progress at the snapshot · Malik Willis · Wright back",
+"projection": 9,
+"actual": 18,
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "PLAYING — active; no injury reported",
+"role": "18.0 at the snapshot. The 22:04 live archive had 5 carries for 75 and 2 catches; before that 3 then 17 carries (archive)",
+"competition": "Jaylen Wright returned: 4 carries for 10 in the live archive. Heavy calls it 'a true split' (4 Oct); on yards it wasn't close",
+"passer": "Malik Willis, 6 of 12 for 45 into the third quarter (CBS box score)",
+"checked": "Heavy and the CBS box score, 4 Oct, plus the live archive. Not final at the snapshot. Miami's bye is Week 6, so he is available in Week 5",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "In progress: 18.0 on the bench against 9.0. The priority claim's first week counts as a bench week, and its best argument so far."
+}
+}
+],
+"lineupCheck": {
+"asSet": 124.0,
+"best": 124.0,
+"gap": 0.0,
+"verdict": "The lineup as set is the projection lineup; only Waller (tonight) is still to play, and no bench player can replace anyone.",
+"moves": [],
+"contingencies": []
+}
+},
+"trades": [],
+"worthALook": [
+{
+"playerId": 3116365,
+"name": "Mark Andrews",
+"positionTeam": "TE · BAL",
+"ownership": "79.1% owned",
+"tier": "DEPTH",
+"lead": "Waller is on bye in Week 5, so you need a tight end for one week. Andrews is the first name, and not tonight.",
+"case": [
+{
+"label": "The role",
+"body": "5 catches on 6 targets for 27 and a touchdown today: 13.7 (archive); 6, 7, 5, 6 targets over four games. Lamar Jackson left at half-time with an ankle injury and Tyler Huntley finished 8 of 9; Jackson's Week 5 status is unknown."
+},
+{
+"label": "The number that kills it tonight",
+"body": "He played today, so he's on waivers until Wed 7 Oct, 01:00 Mexico City, and a claim would drop you from 8th to last for the season. After that, if nobody claims him, he's a free agent and costs nothing."
+},
+{
+"label": "When to act",
+"body": "Tuesday's 16:00 brief decides: claim, or wait for him to clear and add him free on Wednesday. It also has to name the drop, and with Barkley and Rice hurt that isn't obvious tonight."
+}
+],
+"sources": "Week 1–4 archive · BaltimoreRavens.com · ESPN"
+},
+{
+"playerId": 4723086,
+"name": "Colston Loveland",
+"positionTeam": "TE · CHI",
+"ownership": "91.5% owned",
+"tier": "DEPTH",
+"lead": "The other bye-week tight end: nine targets today from a backup quarterback.",
+"case": [
+{
+"label": "The role",
+"body": "6 catches on 9 targets for 57: 11.7 (archive), Chicago's most-targeted player from Tyson Bagent; 3, 4, 9 targets in three weeks. Caleb Williams is out one or two more games (CBS)."
+},
+{
+"label": "The number that kills it",
+"body": "On waivers until Wed 01:00, same as Andrews, and 91% rostered, so he is less likely to clear. You dropped him on 25 Sep when he was drawing 3 and 4 targets."
+},
+{
+"label": "When to act",
+"body": "Tuesday, as the alternative if Andrews is claimed first or Jackson is ruled out."
+}
+],
+"sources": "Week 1–4 archive · CBS · Sun-Times"
+},
+{
+"playerId": -16023,
+"name": "Steelers D/ST",
+"positionTeam": "D/ST · PIT",
+"ownership": "94.8% owned",
+"tier": "DEPTH",
+"lead": "The D/ST comparison: the best defence available, and it isn't worth priority.",
+"case": [
+{
+"label": "The comparison",
+"body": "Steelers 8.3 projected this week and 6 scored on Thursday; your Ravens 6.9 and 6 (league file). Baltimore lost Marlon Humphrey to a calf injury today and play without Hendrickson."
+},
+{
+"label": "What would change it",
+"body": "The Steelers clearing waivers on Wednesday with Humphrey ruled out: then it's a free swap to compare on next week's projections."
+}
+],
+"sources": "ESPN league file · BaltimoreRavens.com"
+}
+],
+"doNotChase": [
+{
+"playerId": 4429835,
+"name": "George Holani",
+"positionTeam": "RB · SEA",
+"ownership": "+6.91 owned",
+"tier": "DEPTH",
+"lead": "The wire's biggest riser, and today's game answered this morning's condition against him.",
+"case": [
+{
+"label": "The rise",
+"body": "Jadarian Price went on injured reserve on Saturday (Seahawks.com), leaving two backs."
+},
+{
+"label": "The number that kills it",
+"body": "At half-time Emanuel Wilson had 10 carries, 44 yards and two touchdowns; Holani had 4 carries for 10 (live archive). Charbonnet was designated to return on 1 Oct and is eligible in Week 5 (PFT); KEI returns hold him."
+},
+{
+"label": "What would change it",
+"body": "Holani out-carrying Wilson in Week 5 with Charbonnet not activated."
+}
+],
+"sources": "Week 4 live archive · Seahawks.com · PFT"
+},
+{
+"playerId": 4428850,
+"name": "Dontayvion Wicks",
+"positionTeam": "WR · PHI",
+"ownership": "+4.07 owned",
+"tier": "DEPTH",
+"lead": "This morning's line was eight targets. He had five, for 18 yards.",
+"case": [
+{
+"label": "The rise",
+"body": "DeVonta Smith is 'at very best, questionable' for Week 5 (Garafolo via RotoWire, 4 Oct), so Wicks stays Philadelphia's nominal No. 1."
+},
+{
+"label": "The number that kills it",
+"body": "3 catches on 5 targets for 18 (archive). Hurts completed 12 passes; Darius Cooper caught both touchdowns. Tate drew 12 targets today and Golden 7."
+},
+{
+"label": "What would change it",
+"body": "Eight-plus targets in London in Week 5."
+}
+],
+"sources": "Week 4 archive · RotoWire · PhiladelphiaEagles.com"
+},
+{
+"playerId": 4569603,
+"name": "Malik Washington",
+"positionTeam": "WR · MIA",
+"ownership": "+2.64 owned",
+"tier": "DEPTH",
+"lead": "This morning's condition was ten targets and 15 points. He had two catches into the third quarter.",
+"case": [
+{
+"label": "The rise",
+"body": "8, 5, 10 targets in the first three weeks (archive)."
+},
+{
+"label": "The number that kills it",
+"body": "2 catches on 2 targets for 27 in the live archive, from a quarterback who was 6 of 12 for 45 (CBS box score)."
+},
+{
+"label": "What would change it",
+"body": "A different quarterback in Miami."
+}
+],
+"sources": "Week 1–4 archive · CBS"
+},
+{
+"playerId": 4870795,
+"name": "Makai Lemon",
+"positionTeam": "WR · PHI",
+"ownership": "+2.05 owned",
+"tier": "DEPTH",
+"lead": "Six targets with Smith out, one short of this morning's line, in an offence that completed 12 passes.",
+"case": [
+{
+"label": "The rise",
+"body": "Smith may miss more games (Garafolo via RotoWire, 4 Oct)."
+},
+{
+"label": "The number that kills it",
+"body": "3 catches on 6 targets for 27 (archive); the Eagles were 0-for-12 on third down (Eagles.com). Below all five of your receivers."
+},
+{
+"label": "What would change it",
+"body": "Eight-plus targets in London in Week 5."
+}
+],
+"sources": "Week 4 archive · RotoWire · PhiladelphiaEagles.com"
+},
+{
+"playerId": 4682745,
+"name": "Jaylen Wright",
+"positionTeam": "RB · MIA",
+"ownership": "+0.51 owned",
+"tier": "DEPTH",
+"lead": "Back from the foot injury, and well behind the back you own.",
+"case": [
+{
+"label": "The rise",
+"body": "Cleared and active; Heavy calls Miami's backfield 'a true split' (4 Oct)."
+},
+{
+"label": "The number that kills it",
+"body": "4 carries for 10 against Gordon's 5 for 75 in the live archive. He'd be a sixth back here, and on waivers."
+},
+{
+"label": "What would change it",
+"body": "Wright out-touching Gordon over the full game and again in Week 5."
+}
+],
+"sources": "Week 4 live archive · Heavy"
+}
+],
+"waiverAnalysis": {
+"verdict": "NOTHING",
+"summary": "Nothing on the wire beats this roster on usage, from three finished weeks, which is still thin. Same answer as this morning. The tool doesn't see byes: the Week 5 tight-end need is in Worth a look, not here.",
+"weeks": 3,
+"rising": [],
+"falling": []
+},
+"settled": [
+{
+"correct": false,
+"title": "Downs in the flex (the projection lineup, 13.6 to Tate's 11.9)",
+"result": "Archive: Downs 4.6, Tate 21.5 on the bench. A coin flip by projection, with no thesis written, and it lost by 16.9."
+},
+{
+"correct": false,
+"title": "'Keenan Allen out adds to Downs' share' (Saturday's and this morning's briefs)",
+"result": "Allen and Slayton were inactive and Downs drew 4 targets, a season low (archive). The Colts ran. The add thesis's target clause fired; closed WRONG."
+},
+{
+"correct": false,
+"title": "'Gordon: bench, leaning against the claim' (this morning's brief)",
+"result": "18.0 on the bench with his game in progress, more than either starting receiver. He was the lowest projection on the roster, so benching him was the projection's call; the lean against the claim looks worse."
+},
+{
+"correct": true,
+"title": "'Barkley and Rice carry no designation' (this morning's brief)",
+"result": "True before kickoff. Both left with hamstring injuries during their games. Not gradeable as calls."
+},
+{
+"correct": false,
+"title": "'Darren Waller: do not chase' (Saturday morning's brief)",
+"result": "You added him. Still ungraded: he plays tonight."
+},
+{
+"correct": false,
+"title": "Wait on Charbonnet; re-add him free once Seattle activate him (18 Sep)",
+"result": "KEI returns added him first. Closed WRONG."
+},
+{
+"correct": false,
+"title": "Tuten for Lamar, the standing trade (19 Sep)",
+"result": "Its falsifier fired on 30 Sep. Never sent. Closed WRONG. Jackson left today's game with an ankle injury."
+},
+{
+"correct": false,
+"title": "Add Gadsden as the second TE (23 Sep)",
+"result": "Archive: 0.0 in Week 3. Closed WRONG."
+},
+{
+"correct": false,
+"title": "Treat Rashee Rice as a sell-high (22 Sep)",
+"result": "Archive: 9 targets, 15.8 in Week 3. Closed WRONG."
+},
+{
+"correct": true,
+"title": "Don't claim Tate; take him if he clears (23 Sep)",
+"result": "Added free. 21.5 today on 12 targets (archive)."
+}
+],
+"cannotSee": [
+{
+"label": "Carolina's inactives",
+"body": "Due at 16:50; not on any page I could open by 17:05. Waller had no designation all week and every pre-game report has him available. If he were a surprise scratch there is nothing to do: you have no other tight end and the flex has locked."
+},
+{
+"label": "Barkley and Rice",
+"body": "Neither has a diagnosis or a timeline. 'Walking normally' is one reporter's observation. Rice's quarter and yardage differ by source, and ESPN shows 0 for him."
+},
+{
+"label": "The late games",
+"body": "Chiefs–Raiders, Chargers–Seahawks and Dolphins–Vikings weren't final at the snapshot. Rice, Myers and Gordon show live scores; box-score pages for those games were stale."
+},
+{
+"label": "Two clocks",
+"body": "Points are from the 16:49 league file. Targets and carries are from the live archive written at 16:04."
+},
+{
+"label": "Week 5 projections and byes",
+"body": "The league file carries Week 4 projections only. Rice and Waller are on bye in Week 5 (from the league file's bye table); who replaces them is next week's projection's call."
+},
+{
+"label": "Rival claims and what clears",
+"body": "ESPN returns only your own claims. Andrews, Loveland and everyone who played today clear on Wed 7 Oct at 01:00 Mexico City; whether either is still there afterwards can't be known. Brenton Strange isn't on the published wire, so I can't see his status at all."
+},
+{
+"label": "The wire screen",
+"body": "It counts today's live archive as a stat week, so its list changes as games finish. Most of its eighteen names are new since this morning. For Dohnte Meyers, Tyquan Thornton and Mike Washington Jr. I read headlines only."
+},
+{
+"label": "Reports I couldn't retrieve",
+"body": "ESPN's pages returned nothing; CBS, FOX and Yahoo box scores were stale for the late games; SB Nation sites, the Review-Journal and the Baltimore Sun were blocked. Pages were read through a summarising tool, so quoted wording is close but may not be exact."
+},
+{
+"label": "The trade",
+"body": "No trade this run. Lamar Jackson left with an ankle injury; any Tuten offer is off while Barkley's status is open."
+},
+{
+"label": "Josh Jacobs",
+"body": "Still on the commissioner's exempt list. Nothing newer than Rapoport on 27 September."
+}
+]
+}
