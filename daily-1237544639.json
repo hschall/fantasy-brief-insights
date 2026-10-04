@@ -1,1 +1,745 @@
-{"week":4,"leagueName":"Chem","teamName":"AVIATO","generatedAt":"2026-10-04T13:15:10Z","snapshotNote":"Snapshot 12:49 UTC 4 Oct · Sunday 06:49 Mexico City · Week 4: Warren's game is final, the London game kicked off after the snapshot · Coker is projected 0.0 and still in your flex · before Sunday's inactive lists: every status is provisional, re-check 90 minutes before each kickoff · this brief does not refresh on its own","sources":"Built from 58 web searches and about 145 page reads this run, made by four research passes · CBS Sports' inactives tracker, NBC Sports, RotoWire, Yahoo, SI, NFL.com, Vikings.com, ChicagoBears.com, Seahawks.com, BaltimoreRavens.com, Saints Wire, Heavy, Sharp Football, FantasyPros, Philadelphia Inquirer, Steelers Depot, Big Blue Interactive, Sun-Times, footballdb · ESPN league file (12:49 UTC 4 Oct), week archives 1–3 and the Week 4 live archive","tonight":{"headline":"Coker is unlikely to play, and he's still in your flex at 0.0","status":"WINNING","winProbability":42,"myScore":15.6,"theirScore":0,"opponent":"Aye-Aye","body":["Bad news first. Adam Schefter reported this morning that Jalen Coker is unlikely to play tonight, and ESPN cut his projection from 13.0 to 0.0. He's still in your flex. With Terry McLaurin officially inactive in London and Justin Jefferson out, three of your five receivers are down. As set, ESPN has you at 111.7 against Aye-Aye's 126.0, a 42% chance.","One move fixes most of it: put Alvin Kamara in the flex. That's worth 10.6 projected points and takes you to about 122. Do it now; if Coker is still there at 18:20 and sits, the slot locks at zero. Everything else is the projection lineup. It's before the inactive lists, so re-check each starter 90 minutes before his kickoff."],"case":[{"label":"Their side","body":"Aye-Aye start Tetairoa McMillan (15.9), who becomes Carolina's only established receiver if Coker sits, and Tyler Warren (13.1), who is playing in London now with Keenan Allen inactive. They're leaving Aaron Jones (18.1) on the bench behind Kyren Williams (13.1) in the flex; fixing that adds about 5 to their number."},{"label":"What would change it","body":"Coker active at 16:50 with a projection back above 12.6, or Aye-Aye moving Jones into their flex."}],"caseSources":"ESPN league file · NBC Sports · CBS Sports"},"doFirst":[{"id":"chem-w4-kamara-flex","tier":"ELITE","urgency":"Before Sunday 18:20","kind":"Lineup","deadlineLabel":"Do it now · the flex locks Sun 18:20 Mexico City with Coker in it","deadline":"2026-10-05T00:20:00Z","title":"Start Kamara in the flex; bench Coker","subtitle":"Schefter says Coker is unlikely to play and ESPN now projects him for 0.0. Your flex is worth nothing as set.","case":[{"label":"The news","body":"Adam Schefter reported on Sunday morning that Coker (quad) is unlikely to play against Detroit (NBC Sports and RotoWire notes, 4 Oct; ESPN's headline reads 'Coker also likely out vs. Lions'). He's still listed questionable and Canales wants to take it to game day (CatCrave, 4 Oct). ESPN moved him from 13.0 to 0.0 overnight, so this is priced: the move follows the projection."},{"label":"Why Kamara","body":"10.6, the highest projection on your bench (Gordon 9.0, Monangai 8.3). He isn't on the Saints' final report (Saints Wire, 3 Oct). It's a committee: 46.7% of snaps and 10 touches once Etienne left in Week 3, with Miller at 31.1% and CJ Donaldson taking the goal line (Sharp Football). Atlanta allow 3.1 yards a carry to backs, 4th-best. He's the projection's answer, not a good matchup."},{"label":"The clock","body":"If Coker is still in the flex at 18:20 tonight and sits, the slot locks at zero. Kamara plays Monday at 18:15, so the swap costs nothing to make now and can be reversed up to 18:20."},{"label":"If Coker is active","body":"Carolina's inactives come at 16:50. If he's active, look at ESPN's number then: swap back only if it's two or more above Kamara's 10.6. Under that, it's a coin flip on a receiver playing through a quad, and Kamara stays."},{"label":"Who is throwing","body":"Tyler Shough for Kamara, not on the Saints' report. Coker's quarterback, Bryce Young, has no designation."},{"label":"Falsified if","body":"Coker plays and outscores Kamara, or Gordon or Monangai outscores Kamara (archive). Free receivers at his level (Meyers 10.8, Malik Washington 10.3) were coin flips and weren't added."}],"sources":"NBC Sports · RotoWire · ESPN headline · CatCrave · Saints Wire · Sharp Football · lineup_check.py","ghost":false,"action":{"type":"SWAP","playerId":3054850,"dropPlayerId":4695883,"label":"Start Kamara · bench Coker"}}],"whatWentWrong":[{"id":"w1","title":"Coker went from 13.0 to 0.0 overnight","lead":"Saturday's brief said to leave him in the flex until 16:50. By this morning the projection itself says bench him.","case":[{"label":"The evidence","body":"Schefter: unlikely to play (NBC Sports and RotoWire notes, 4 Oct). SI's Panthers site had said on Saturday that Canales tied Ja'seem Reed's call-up to Coker not playing; the brief treated that as a hint because Legette's move to IR explained it equally well. The hint was right."},{"label":"What it changes","body":"The card above: Kamara into the flex now. And Tuesday: Legette is out at least four games, so Coker returns to a bigger role when the quad heals. He isn't a drop."},{"label":"What would change it","body":"Coker active at 16:50. Then ESPN's updated number decides, by the two-point rule on the card."}],"sources":"NBC Sports · RotoWire · SI · ESPN"},{"id":"w2","title":"Three of five receivers are down","lead":"Jefferson out, McLaurin inactive, Coker unlikely. The bench is three running backs and two injured receivers.","case":[{"label":"The evidence","body":"Jefferson has no return date and O'Connell won't rush him (Vikings.com, 2 Oct). McLaurin has no timeline. CatCrave expects Coker back after Carolina's bye, which is one writer's read."},{"label":"What it changes","body":"Nothing more today: the free receivers (Meyers 10.8, Malik Washington 10.3, Raymond 9.8) are within a coin flip of Kamara's 10.6. On Tuesday, Metcalf and Boston clear waivers and Monangai's seat goes to one of them."},{"label":"What would change it","body":"Nothing before Tuesday. Even if Jefferson and McLaurin practise on Wednesday, claims process first, so the claim still goes in."}],"sources":"Vikings.com · CBS Sports · CatCrave · ESPN"}],"roster":{"state":"THURSDAY","footnote":"At this snapshot (06:49 Mexico City) only Warren's game was final, so his row shows the result and every other row shows its matchup. Washington–Indianapolis kicked off in London at 07:30, after the snapshot; McLaurin is inactive for it. Tiles are footballdb's standard-scoring points allowed through Week 3; it has no PPR table. Every status here is before Sunday's inactive lists.","starting":[{"playerId":3918298,"name":"Josh Allen","slot":"QB","position":"QB","team":"BUF","tier":"ELITE","detail":"BUF · vs NE · SUN 11:00 · no designation","projection":22.5,"report":{"flags":[],"availability":"ACTIVE — no injury designation for Week 4; never on Buffalo's report (NFL.com status list, re-read 4 Oct). Provisional until Buffalo's inactives at 09:30","role":"29, 31, 26 pass attempts and 6, 14, 8 carries (archive); the only quarterback on the roster","checked":"NFL.com's status list and Yahoo's copy of the Patriots' Friday report, re-read 4 Oct: Allen isn't listed and practised from Wednesday; Brady 'not concerned' (SI 1 Oct). New England rule out CB Christian Gonzalez, CB Channing Canada, S Brenden Schooler and DT Christian Barmore. No Sunday-morning insider report on him. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Nothing changed overnight: never on the report, and New England are without two corners, a safety and their best interior rusher."},"grade":"POOR","gradeEvidence":"NE allows the 4th-fewest to QBs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct) — a sample from before Gonzalez, Canada and Barmore were ruled out"},{"playerId":4882093,"name":"Bhayshul Tuten","slot":"RB","position":"RB","team":"JAX","tier":"SOLID","detail":"JAX · @ CIN · SUN 11:00","projection":12.7,"report":{"flags":[],"availability":"ACTIVE — no Jaguars back carries a game status; Jacksonville list three defenders as questionable (NFL.com status list, re-read 3 Oct)","role":"15, 13, 15 carries; 60%, 59%, 65% of the backfield (archive). About 16 touches and 80 yards a game, RB16 in points per game; 6 red-zone carries to Rodriguez's 5 (FantasyPros Primer, 4 Oct)","competition":"Chris Rodriguez Jr. took 35% of the Week 3 carries (archive) and has 5 red-zone carries to Tuten's 6 (FantasyPros 1 Oct). Coen said Rodriguez 'gained momentum' after Week 3 (SI 30 Sep, carried)","passer":"Trevor Lawrence, not on the report","checked":"A to Z Sports' final report (2 Oct) and FantasyPros' Primer (4 Oct): no Jaguars skill player listed; Bengals S Kyle Dugger out, S Bryan Cook and RG Dalton Risner game-time decisions. No Sunday-morning report on him. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. No change: Jacksonville's lead back, off the report all week."},"grade":"SHAKY","gradeEvidence":"CIN allows the 10th-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried — no second table found today)"},{"playerId":4569987,"name":"Jaylen Warren","slot":"RB","position":"RB","team":"PIT","tier":"SOLID","detail":"PIT · @ CLE · final · L 24–27 · Dowdle inactive · Rodgers","projection":17,"report":{"flags":["ROLE_UP","VACATED"],"availability":"PLAYED — active Thursday; Rico Dowdle (toe) was ruled out for a second straight game (NFL.com status list)","role":"17 carries for 93 and 3 catches on 6 targets for 33: 15.6 (Week 4 live archive). 62 snaps, 97%, and a route on 73% of dropbacks (RotoWire box-score breakdown 2 Oct). Before that 10, 11, 17 carries (archive)","competition":"Dowdle out; Rapoport gives him a 'pretty good chance' to return in Week 5 against the Colts (NBC; Steelers Depot 1 Oct, carried). Kaboly expects both backs used when he's back (Steelers Depot 1 Oct, carried). Dowdle is on Chem waivers until Wed 01:00","passer":"Aaron Rodgers threw 40 times Thursday (archive)","checked":"NBC Sports' player note and Steelers.com's recap (1 Oct), re-read 4 Oct: 'workhorse again', no injury or early exit reported. Dowdle: nothing newer than Rapoport on 1 Oct ('pretty good chance' for Week 5)","verdict":"START","trigger":null,"fallback":null,"summary":"Final: 15.6 against 17.0 projected. Every backfield carry again; Dowdle's return is next week's question."},"grade":"SHAKY","gradeEvidence":"CLE allows the 9th-fewest to RBs (footballdb standard scoring, Weeks 1–3; re-read 3 Oct) — before Thursday's game","actual":15.6,"delta":-1.4},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","tier":"ELITE","detail":"NYJ · @ CHI · SUN 11:00 · Geno Smith · Hall, Mitchell and Taylor out","projection":16.5,"report":{"flags":["VACATED","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — not on the Jets' report at any point this week (NewYorkJets.com Friday report, read directly 3 Oct)","role":"7, 7, 13 targets; 30%, 19%, 45% of the Jets' targets (archive)","competition":"Adonai Mitchell (finger), Mason Taylor (thumb) and Breece Hall (quad) are ruled out; Kenyon Sadiq (back) is questionable after three limited days and leans toward playing (SI 4 Oct; FantasyPros' model 76%). ~12 targets a week vacated by Mitchell; if Sadiq sits too, this role grows again","passer":"Geno Smith, not on the report; a league-best 75.5% completion rate (ChicagoBears.com preview)","checked":"Bleacher Nation and Yahoo's copies of the Jets' final report (2 Oct), SI (4 Oct) and FantasyPros (3 Oct), read 4 Oct: Hall, Mitchell, Taylor and G Dylan Parham out; Sadiq still questionable, with Glenn 'encouraged' about the limited players and no insider report either way. Chicago: CB Kyler Gordon out, DB Cam Lewis doubtful. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Nothing changed overnight; Mitchell's absence was priced on Wednesday (15.4 → 16.5, carried) and the number hasn't moved."},"grade":"SHAKY","gradeEvidence":"CHI allows the 10th-fewest to WRs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct)"},{"playerId":4429205,"name":"Jordan Addison","slot":"WR","position":"WR","team":"MIN","tier":"SOLID","detail":"MIN · vs MIA · SUN 14:05 · Kyler Murray at QB · Jefferson out","projection":14.8,"report":{"flags":["ROLE_UP","VACATED","QB_CHANGE"],"availability":"ACTIVE — Minnesota's only offensive status is Jefferson, out (NFL.com status list, re-read 3 Oct)","role":"2, 5, 9 targets; 9%, 26%, 39% (archive); the Week 3 jump came after Jefferson left on his seventh snap","competition":"Justin Jefferson (ankle) is OUT. Hockenson 17% of Week 3 targets (archive); he says he's 'getting ready to take on a larger workload' with TE Josh Oliver on IR (Vikings.com 2 Oct)","passer":"Kyler Murray: CBS/RotoWire's 2 Oct note names him as the quarterback and he isn't on the report. No Week 4 article confirms the start in so many words. QB_CHANGE is the McCarthy trade; Addison's 5-for-90 on 9 targets came from Murray (archive)","checked":"Vikings.com's final report (2 Oct) and CBS/RotoWire's note (2 Oct), re-read 4 Oct: Jefferson out, no injured-reserve move found; Addison 'will be Vikes' top WR'. Miami CB Storm Duck is out. No Sunday-morning report on either. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts in Jefferson's slot. Minnesota's top receiver this week, against the defence allowing the 3rd-fewest points to receivers."},"grade":"POOR","gradeEvidence":"MIA allows the 3rd-fewest to WRs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct)"},{"playerId":4361050,"name":"Isaiah Likely","slot":"TE","position":"TE","team":"NYG","tier":"SOLID","detail":"NYG · vs ARI · SUN 11:00 · Jameis Winston at QB","projection":11.8,"report":{"flags":["QB_CHANGE"],"availability":"ACTIVE — the Giants have no injury designations at all (NFL.com status list, re-read 3 Oct)","role":"8, 10, 5 targets; 28%, 31%, 24% (archive). Week 3: 84.5% of snaps, a route on 84.6% of dropbacks and 22.7% of targets by FantasyPros (4 Oct); PFF had the route figure at 92.3% (carried). Either is far above the thesis's 60% line","competition":"Malik Nabers not on the report; Malachi Fields 10% of Week 3 targets (archive). LT Andrew Thomas (groin) returned limited on Friday and has no designation (Giants.com tracker)","passer":"Jameis Winston; 14 targets from him have produced 6 catches for 42 yards, against 9 for 82 and two scores on 9 targets from Dart (Big Blue Interactive 3 Oct). Winston was QB32 and QB31 the last two weeks (FantasyPros)","checked":"Big Blue Interactive (3 Oct), Yahoo's tracker (2 Oct) and FantasyPros' Primer (4 Oct): Winston starts, Nabers carries no designation, LT Andrew Thomas expected to play; Cardinals edge Josh Sweat questionable. Big Blue View's Nabers post is blocked. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Not on a report all week; the route share is intact and the quarterback is the problem."},"grade":"GREAT","gradeEvidence":"ARI allows the 4th-most to TEs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); FantasyPros has them 5th-most in yards per target to TEs (4 Oct)"},{"playerId":4695883,"name":"Jalen Coker","slot":"FLEX","position":"WR","team":"CAR","tier":"SOLID","detail":"CAR · vs DET · SUN 18:20 · QUESTIONABLE (quad) · Schefter: unlikely to play · ESPN projects 0.0","projection":0.0,"report":{"flags":["OWN_QUESTIONABLE"],"availability":"QUESTIONABLE — quad; not ruled out, but Adam Schefter reported on Sunday morning that he is unlikely to play (NBC Sports and RotoWire player notes, 4 Oct; ESPN headline 'Coker also likely out vs. Lions'). No practice Wednesday, limited Thursday and Friday. Official answer: Carolina's inactives at 16:50","role":"9, 9, 4 targets (archive); the Week 3 four is the injury exit","competition":"Xavier Legette went on injured reserve Saturday (ESPN says knee, SI's Panthers site says hamstring) and Ja'seem Reed was elevated. Behind McMillan: Tremayne, Metchie, David Moore, Reed (RotoWire). Waller drew 36% of Week 3 targets once Coker left (archive)","passer":"Bryce Young, no designation","checked":"NBC Sports and RotoWire player notes, Yahoo's copy of Pride of Detroit, SI's Panthers site and CatCrave, all 4 Oct. ESPN's own story returned an error, so Schefter's wording comes second-hand and I have no exact time for it. PRACTICE TREND answered: DNP, limited, limited","verdict":"BENCH","trigger":null,"fallback":"Alvin Kamara","summary":"Bench him now. ESPN cut him from 13.0 to 0.0 overnight after Schefter's report; Kamara takes the flex."},"grade":"GREAT","gradeEvidence":"DET allows the 4th-most to WRs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); SI has them 5th-most (4 Oct)"},{"playerId":-16016,"name":"Vikings D/ST","slot":"D/ST","position":"D/ST","team":"MIN","tier":"SOLID","detail":"MIN · vs MIA · SUN 14:05","projection":8.9,"report":{"availability":"ACTIVE — Minnesota rule out CB Charles Demmings (hamstring) and P Brett Thorson (NFL.com status list, re-read 3 Oct)","checked":"Vikings.com's final report (2 Oct) and Yahoo (3 Oct), re-read 4 Oct: CB Chuck Demmings out, LB Blake Cashman expected to play; Miami average 12.0 points and Malik Willis' 74.1 rating is fourth-worst among qualifiers. Best free D/ST: Bears 7.8","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. 8.9, the top projected defence; the best free one is the Bears at 7.8. Hold."},"grade":"GREAT","gradeEvidence":"MIA last in yards and no more than 13 points in any game (Yahoo, 3 Oct — a judgement, not a table)"},{"playerId":4034949,"name":"Eddy Pineiro","slot":"K","position":"K","team":"SF","tier":"DEPTH","detail":"SF · vs DEN · SUN 14:25","projection":8.8,"report":{"availability":"ACTIVE — not on San Francisco's final report (49ers Webzone 2 Oct; NFL.com status list 3 Oct: Bosa, Mykel Williams and James Thompson out; Evans, Greenlaw, Keion White and Dugger questionable)","checked":"NFL.com's Week 4 report and 49ers Webzone (2 Oct), re-read 4 Oct: no kicker listed. Purdy starts; Mike Evans (ribs) is a game-time decision (Rapoport via Last Word on Sports, 4 Oct). Comparison: Fairbairn 9.3 (free), Pineiro 8.8, Shrader 8.5, Carlson 8.4","verdict":"START","trigger":null,"fallback":null,"summary":"Starts. Fairbairn is free and 0.5 better; under a point isn't a move. Hold."},"grade":"GOOD","gradeEvidence":"DEN allows the 10th-most to kickers, tied 10th–12th (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried). FantasyTeamAdvice ranks Denver 29th of 32, the opposite read; I keep footballdb because it's a points table and Denver gave a kicker 16 in Week 3. Three games either way"}],"bench":[{"playerId":3121422,"name":"Terry McLaurin","slot":"BE","position":"WR","team":"WSH","tier":"SOLID","detail":"WSH · vs IND · SUN 07:30 · London · INACTIVE (hamstring)","projection":0.0,"report":{"flags":["OWN_OUT","ROLE_UP","QB_CHANGE"],"availability":"OUT — officially inactive in London (CBS Sports' inactives tracker and Yahoo's live blog, 4 Oct)","role":"4, 9, 9 targets; 29%, 26%, 41% of team targets (archive)","competition":"Stefon Diggs and Antonio Williams become the top two receivers, with Dyami Brown and Treylon Burks behind them (RotoWire 3 Oct). ROLE_UP answered: the 41% was Week 3 with Mariota, before the injury","passer":"Marcus Mariota starts; Jayden Daniels (elbow) is out, expected back in about three weeks or sooner (Yahoo live blog, 4 Oct — Heavy said Week 5 yesterday; the two disagree)","checked":"CBS Sports' Week 4 inactives tracker and Yahoo's live blog, 4 Oct: inactive. Hogs Haven's list is blocked. Nobody has given a timeline past today","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Inactive. Benched since Saturday; no timeline, so he isn't a drop. Wednesday's report is the next read."},"grade":"GOOD","gradeEvidence":"IND allows the 8th-most to WRs (footballdb standard scoring, Weeks 1–3; re-read 3 Oct)"},{"playerId":3054850,"name":"Alvin Kamara","slot":"BE","position":"RB","team":"NO","tier":"DEPTH","detail":"NO · vs ATL · MON 18:15 · Etienne on IR · committee with Miller and Donaldson · Shough at QB","projection":10.6,"report":{"flags":["ROLE_DOWN","VACATED"],"availability":"ACTIVE — not on the Saints' Saturday report at all, no game status (NewOrleansSaints.com, 3 Oct, 13:55)","role":"9 and 9 carries, 6 then 1 targets (archive; missed Week 1). With Etienne off the field in Week 3: 46.7% of snaps and 10 touches, to Miller's 31.1% and 6 (Sharp Football, 1 Oct)","competition":"Travis Etienne Jr. on IR (hamstring), out at least four games. Moore: 'Alvin and Kendre will handle that load really well. C.J. has kind of found his specific role' — short yardage (NewOrleansSaints.com, 1 Oct). Donaldson had the one goal-line chance in Week 3 (Sharp)","passer":"Tyler Shough, not on the report","checked":"Saints Wire's and WWL's copies of the final report (3 Oct), Heavy (2 Oct) and Sharp Football's Week 4 worksheet, read 4 Oct: Kamara and Shough aren't listed; Etienne on IR. ESPN's Katherine Terrell: Kamara, Miller and Donaldson 'will likely all be used'. VACATED answered: Etienne's ~13 carries are split three ways, and ESPN's 10.6 already has it","verdict":"START","trigger":null,"fallback":null,"summary":"Move him into the flex now. 10.6, the best bench projection, and the only bench player whose game is after Coker's."},"grade":"POOR","gradeEvidence":"ATL allows the 2nd-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); 3.1 yards a carry to backs, 4th-best (Sharp Football)"},{"playerId":4711533,"name":"Ollie Gordon II","slot":"BE","position":"RB","team":"MIA","tier":"DEPTH","detail":"MIA · @ MIN · SUN 14:05 · Malik Willis · Wright cleared","projection":9,"report":{"flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — Miami's statuses are Douglas, Duck and Beal, all out; he isn't listed (NFL.com status list, re-read 3 Oct)","role":"3 then 17 carries, 0 then 3 targets (archive); the 17 came with Wright inactive","competition":"Jaylen Wright (foot/stinger): full Thursday and Friday, no designation. Hafley: 'should be good to go'. Fowler: 'Gordon and Wright will share the load in the short term... Wright has big-play potential, while Gordon projects as more of an every-down back' (SI 2 Oct). ESPN: Gordon 9.0, Wright 7.5","passer":"Malik Willis, not on the report","checked":"NBC Sports (2 Oct), Yahoo (3 Oct) and Vikings.com's preview, re-read 4 Oct: Wright cleared, no designation; Fowler and the Dolphins' own preview both say the two share the load. One Yahoo writer expects Wright to get 'a substantial' role, which is opinion. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 9.0, behind Kamara for the flex, in a backfield Miami say they'll split, at the defence allowing the 4th-fewest to backs."},"grade":"POOR","gradeEvidence":"MIN allows the 4th-fewest to RBs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct)"},{"playerId":4608686,"name":"Kyle Monangai","slot":"BE","position":"RB","team":"CHI","tier":"DEPTH","detail":"CHI · vs NYJ · SUN 11:00 · Swift cleared · Bagent expected at QB","projection":8.3,"report":{"flags":["QB_CHANGE"],"availability":"ACTIVE — not on Chicago's report (ChicagoBears.com 2 Oct)","role":"10, 10, 10 carries; 36%, 38%, 33% of the backfield; 2, 2, 0 targets (archive). Snap share 43%, 34%, 31% (DraftKings Network 2 Oct)","competition":"D'Andre Swift (knee): DNP Thursday, full Friday, no designation. Ben Johnson: 'Whenever you get a short week with running backs, that's what happens' (ChicagoBears.com 2 Oct)","passer":"Tyson Bagent, by expectation (ESPN, Rapoport, Wiederer via Yahoo, 3 Oct); Ben Johnson hasn't confirmed it. Caleb Williams (hamstring) is out for weeks. LT Braxton Jones is on IR; Theo Benedet starts","checked":"Yahoo (3 Oct, citing ESPN, Rapoport and The Athletic's Wiederer), the Sun-Times (3 Oct) and ChicagoBears.com's preview, read 4 Oct: Bagent expected to start, still not announced by the team; Swift full on Friday with no designation; SI (4 Oct) says sit Monangai. Sunday's inactive lists come 90 minutes before each kickoff and weren't out at this snapshot","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Bench. 8.3, the lowest bench back; Swift is healthy and took 20 carries to his 10 last week."},"grade":"GOOD","gradeEvidence":"NYJ allows the 10th-most to RBs (footballdb standard scoring, Weeks 1–3; re-read 4 Oct; SI agrees)"},{"playerId":4262921,"name":"Justin Jefferson","slot":"BE","position":"WR","team":"MIN","tier":"ELITE","detail":"MIN · vs MIA · SUN 14:05 · OUT (ankle)","projection":0.0,"report":{"flags":["OWN_OUT","ROLE_DOWN","QB_CHANGE"],"availability":"OUT — ankle; did not practise Wednesday, Thursday or Friday (Vikings.com 2 Oct; NFL.com status list). O'Connell: 'day-to-day', and 'we will not rush Jefferson back' (carried)","role":"9, 6, 2 targets (archive); Week 3 is the injury exit on his seventh snap, not a role change","competition":"Jordan Addison takes his lineup slot and Minnesota's lead role: 9 targets and 20.0 points after Jefferson left in Week 3 (archive)","passer":"Kyler Murray. QB_CHANGE is the McCarthy trade to the Giants","checked":"Vikings.com's final report and NBC Sports (2 Oct), re-read 4 Oct: out with an ankle sprain, no injured-reserve move found, no return date; O'Connell won't rush him","verdict":"BENCH","trigger":null,"fallback":null,"summary":"Out. Benched, with Addison in his slot. Next Wednesday's report is the first read on Week 5."},"grade":"POOR","gradeEvidence":"MIA allows the 3rd-fewest to WRs, tied 3rd–5th (footballdb standard scoring, Weeks 1–3; re-read 3 Oct)"}],"lineupCheck":{"asSet":113.0,"best":123.6,"gap":10.6,"verdict":"The lineup as set is 10.6 points below the projection lineup: Coker is in the flex at 0.0 and the projection starts Kamara there.","moves":[{"start":"Alvin Kamara","over":"Jalen Coker","reason":"PROJECTION — 10.6 points. This follows the projection rather than overriding it: ESPN cut Coker from 13.0 to 0.0 after Adam Schefter reported on Sunday morning, 4 Oct, that he is unlikely to play."}],"contingencies":[{"player":"Jalen Coker","if":"Active at Sun 16:50 CDMX and ESPN projects him two or more points above Kamara's 10.6","then":"Move Coker back into the FLEX before 18:20; otherwise Kamara stays"}]}},"trades":[],"worthALook":[{"playerId":4047650,"name":"DK Metcalf","positionTeam":"WR · PIT","ownership":"88.4% owned","tier":"SOLID","lead":"88% rostered everywhere else and unowned here. He can't be added before Wednesday, so this is Tuesday's decision, and it got bigger overnight.","case":[{"label":"The role","body":"9 targets, 5 catches, 115 yards and 16.5 points on Thursday (Week 4 live archive) on 97% of snaps with 36% of Pittsburgh's air yards (RotoWire, 2 Oct, carried). 10, 9, 5, 9 targets over four games (archive)."},{"label":"The number that kills it today","body":"He has played Week 4 and is locked on waivers until Wed 7 Oct, 01:00 Mexico City. Nothing about him changed since Saturday; what changed is your room: Jefferson out, McLaurin inactive, Coker unlikely to play."},{"label":"When to act","body":"Tuesday's run, before claims process. Chem's priority resets weekly, so the claim costs nothing lasting. The drop would be Monangai: Swift is healthy and took 20 carries to his 10 in Week 3 (archive)."}],"sources":"Week 1–4 archive · RotoWire · ESPN"},{"playerId":3916433,"name":"Jakobi Meyers","positionTeam":"WR · JAX","ownership":"75.0% owned","tier":"DEPTH","lead":"A free agent projecting 10.8, two tenths above Kamara. A coin flip, so not a move today.","case":[{"label":"The role","body":"8 targets and 19.4 points in Week 3 (archive), when Brian Thomas Jr. ran a route on 43.8% of dropbacks. Limited with a thumb this week but no designation; he plays (SI's Jaguars site, 1 Oct)."},{"label":"The number that kills it","body":"2 and 1 targets in Weeks 1–2 (archive) and a 13.6% target share on the season; FantasyPros calls him a 'concerning start' because DJ Turner may shadow him (Primer, 4 Oct). 10.8 against Kamara's 10.6 is inside the coin-flip line, and adding him means dropping someone before 11:00."},{"label":"When to act","body":"Seven-plus targets again at Cincinnati today with Thomas still part-time: then he joins Metcalf and Boston in Tuesday's comparison for Monangai's seat. He's a free agent, so it can wait for the result."}],"sources":"Week 1–3 archive · FantasyPros · SI"},{"playerId":4038815,"name":"Rico Dowdle","positionTeam":"RB · PIT","ownership":"71.7% owned","tier":"DEPTH","lead":"On waivers until Wednesday. He's the man who takes carries from your Warren when he's back.","case":[{"label":"The role","body":"Missed Weeks 3 and 4 with the toe. Rapoport gave him a 'pretty good chance' for Week 5 against the Colts (Steelers Depot, 1 Oct); nothing newer today. With Dowdle active in Weeks 1–2, Warren took 56% and 55% of the backfield carries; without him, all of them (archive)."},{"label":"The number that kills it","body":"He'd be a handcuff to a player you already start, on a roster that needs a receiver first. On waivers until Wed 7 Oct, 01:00."},{"label":"What would change it","body":"Dowdle practising in full on Wednesday with a coach saying the split returns: a second free Chem claim on Tuesday is then worth making, after the receiver."}],"sources":"Steelers Depot · Week 1–4 archive"},{"playerId":2971573,"name":"Ka'imi Fairbairn","positionTeam":"K · HOU","ownership":"86.9% owned","tier":"DEPTH","lead":"The kicker comparison: a free agent, still only 0.5 better. Hold Pineiro.","case":[{"label":"The comparison","body":"ESPN: Fairbairn 9.3 (free agent), Pineiro 8.8, Shrader 8.5, Carlson 8.4. Neither is on a report. FantasyPros has Fairbairn K6 but is 'starting to worry': attempts are down and he missed from 50 in Week 3 (1 Oct)."},{"label":"What would change it","body":"A full point between them, or Pineiro appearing on a report before 14:25."}],"sources":"ESPN · FantasyPros · NFL.com"}],"doNotChase":[{"playerId":4429835,"name":"George Holani","positionTeam":"RB · SEA","ownership":"+7.06 owned","tier":"DEPTH","lead":"The wire's biggest riser again: Seattle's rookie starter is headed to injured reserve, and Holani is the smaller half of what's left.","case":[{"label":"The rise","body":"Jadarian Price (chest) was ruled out Friday and NBC Sports headlines dated 3 Oct have him going on injured reserve; I could read the headline, not the story. Holani caught 5 of 5 targets in Week 3 (archive) and has the passing downs: a route on 29.7% of dropbacks (FantasyPros, 4 Oct)."},{"label":"The number that kills it","body":"8, 4, 3 carries against Emanuel Wilson's 2, 21, 9 (archive); Wilson has 40% of the rush attempts and Guillo-tinas already hold him. Zach Charbonnet returned to practice and is eligible in Week 5 (Seahawks.com, 2 Oct). Holani projects 10.3, under Kamara's 10.6."},{"label":"What would change it","body":"Holani out-carrying Wilson today with Charbonnet not activated for Week 5: then he's in Tuesday's comparison."}],"sources":"Week 1–3 archive · NBC Sports · FantasyPros · Seahawks.com"},{"playerId":2576925,"name":"Darren Waller","positionTeam":"TE · CAR","ownership":"+3.14 owned","tier":"DEPTH","lead":"Rising because of your Coker's quad, at a position you have no second slot for.","case":[{"label":"The rise","body":"8 targets and 10.1 points in Week 3 once Coker left (archive); with Coker unlikely to play he faces the defence that has allowed the most points to tight ends, 100.1 in three games (NFL.com). ESPN lifted him from 9.3 to 10.1 overnight."},{"label":"The number that kills it","body":"Chem starts one tight end and the flex is RB/WR only. Likely projects 11.8 and hasn't been on a report all week."},{"label":"What would change it","body":"Likely on a Giants injury report."}],"sources":"Week 1–3 archive · NFL.com · ESPN"},{"playerId":-16003,"name":"Bears D/ST","positionTeam":"D/ST · CHI","ownership":"+2.87 owned","tier":"DEPTH","lead":"The biggest riser among defences, and a point below the one you start.","case":[{"label":"The rise","body":"6 takeaways in three games, tied 3rd, and 7 and 9 points allowed the last two weeks (ChicagoBears.com); the Jets are without Hall, Mitchell, Taylor and their left guard, and Geno Smith was sacked five times in Week 3."},{"label":"The number that kills it","body":"7.8 against the Vikings' 8.9. The Jets have turned it over once all season, and Chicago start a backup quarterback behind a new left tackle."},{"label":"What would change it","body":"A Vikings defensive starter beyond Demmings scratched at 12:35."}],"sources":"ChicagoBears.com · Yahoo · ESPN"},{"playerId":4870795,"name":"Makai Lemon","positionTeam":"WR · PHI","ownership":"+2.27 owned","tier":"DEPTH","lead":"A rookie rising because two Eagles receivers are out. He runs the routes; someone else gets the ball.","case":[{"label":"The rise","body":"DeVonta Smith (hamstring) is out and expected to miss two or three games beyond today (Inquirer, 2 Oct); Hollywood Brown is out too. Lemon ran a route on 83.9% of dropbacks last week (FantasyPros, 4 Oct)."},{"label":"The number that kills it","body":"A 10.2% target share and 0.45 yards per route (FantasyPros); 4, 1, 4 targets for 38 yards in three games (archive). Wicks is the one FantasyPros calls a flex, and Nicky Jam hold him. Lemon projects 10.5, a tenth under Kamara."},{"label":"What would change it","body":"Seven-plus targets against the Rams today: with Smith missing more games, he'd join Tuesday's comparison."}],"sources":"Week 1–3 archive · Philadelphia Inquirer · FantasyPros"},{"playerId":4569603,"name":"Malik Washington","positionTeam":"WR · MIA","ownership":"+1.84 owned","tier":"DEPTH","lead":"Miami's most-targeted receiver, in the league's lowest-scoring offence, against the defence you start.","case":[{"label":"The rise","body":"8, 5, 10 targets for 6.3, 8.7 and 11.1 points (archive); 12 catches for 152 yards, with four of 20-plus (Vikings.com preview)."},{"label":"The number that kills it","body":"23 targets have produced 26.1 points (archive), from Malik Willis, whose 74.1 rating is fourth-worst among qualifiers; Miami average 12.0 points. He projects 10.3, under Kamara's 10.6."},{"label":"What would change it","body":"Ten-plus targets and 15 points at Minnesota today: then he's compared with Metcalf and Boston on Tuesday for Monangai's seat."}],"sources":"Week 1–3 archive · Vikings.com"},{"playerId":2973405,"name":"Kalif Raymond","positionTeam":"WR · CHI","ownership":"+0.98 owned","tier":"DEPTH","lead":"A free agent producing every week, about to catch passes from his third quarterback in four games.","case":[{"label":"The rise","body":"9, 5, 7 targets for 16.4, 9.0 and 21.0 points (archive): a 20.4% target share and eight third-down catches, tied 2nd in the league (ChicagoBears.com; FantasyPros)."},{"label":"The number that kills it","body":"9.8, below Kamara's 10.6. Tyson Bagent is expected to start, not Case Keenum, who threw him the Week 3 game, and Chicago's left tackle went on IR. The waiver tool didn't surface him."},{"label":"What would change it","body":"A productive game from Bagent today: then he's part of Tuesday's comparison. He's a free agent, so nothing is lost by waiting."}],"sources":"Week 1–3 archive · ChicagoBears.com · FantasyPros · Yahoo"}],"waiverAnalysis":{"verdict":"QUESTIONS","summary":"One question, and it's an artefact: the tool counts the injured Jefferson as your weakest movable receiver, so Denzel Boston clears him. Three weeks of data, still thin. Nothing clears Monangai at running back. Same answer as Saturday.","weeks":3,"rising":[{"playerId":4832800,"name":"Denzel Boston","position":"WR","opportunities":[6.0,10.5,6.0],"ppg":14.2,"trend":0.0,"roleReason":"Cleveland's lead outside receiver: 95% of snaps, a route on 92% of dropbacks and 65% of the team's air yards on Thursday (RotoWire, 2 Oct, carried). The role is real. The comparison isn't: Jefferson's 3.0 in Week 3 is an ankle injury on his seventh snap.","action":"WATCH — on waivers until Wed 01:00 Mexico City; Tuesday's run compares him with Metcalf for Monangai's seat","sources":"RotoWire · Week 1–4 archive"}],"falling":[]},"settled":[{"correct":false,"title":"'Don't move Coker out today' (Saturday afternoon's brief)","result":"Overnight Schefter reported he's unlikely to play and ESPN cut him to 0.0. The brief read Saturday's call-up as a hint, not a ruling. No points lost: the swap to Kamara is open until 18:20 tonight. Graded on tonight's and Monday's scores."},{"correct":true,"title":"'McLaurin is expected to miss London' (Saturday afternoon's brief)","result":"Officially inactive this morning (CBS Sports' tracker). The swap away from him was already made."},{"correct":false,"title":"'Wright limited Thursday' (Thursday afternoon's brief)","result":"He was upgraded to a full practice (FantasyPros, NBC, RotoWire, CBS, 1 Oct). The brief went out about an hour after the report. Gordon's row is corrected: it's a split."},{"correct":false,"title":"Coker in the flex over McLaurin (21 Sep)","result":"Archive: Coker 3.8, McLaurin 19.7 on the bench. Closed WRONG. It was also a coin flip that should never have had a thesis."},{"correct":false,"title":"Hold Likely through the Giants' quarterback change (22 Sep)","result":"Archive: 3.3 on 5 targets, so the under-six clause fired. Closed WRONG, not EXPIRED."},{"correct":false,"title":"Hold Pineiro over McPherson (23 Sep)","result":"Archive: Pineiro 8, McPherson 11. The written falsifier didn't fire, so it stays open, but the hold lost 3 points."},{"correct":true,"title":"Start Warren over Tuten (13 Sep, reviewed weekly)","result":"Archive: 20.6 to 17.0 in Week 3; 2 of 3 weeks won. Closed RIGHT."},{"correct":true,"title":"Let Kyle Pitts go; Chem can't use a second TE (23 Sep)","result":"Archive: Pitts 1.5, Likely 3.3."},{"correct":true,"title":"Decline Jaxson Dart at 83% owned (23 Sep)","result":"Out for the season with knee damage (Bleacher Report, 28 Sep). Closed RIGHT."}],"cannotSee":[{"label":"Coker's official status","body":"'Unlikely to play' is Schefter, read second-hand through NBC Sports and RotoWire; ESPN's own story returned an error and I have no exact time for the report. He is still listed questionable. Carolina's inactives at 16:50 are the ruling."},{"label":"Sunday's inactives","body":"This ran at 07:00, before every list except London's. Allen, Tuten, Wilson, Addison, Likely and Pineiro carry no designation, but nothing is confirmed until 90 minutes before each kickoff: 09:30 for the 11:00 games, 12:35 and 12:55 for the afternoon games."},{"label":"The snapshot","body":"Every number is from the 06:49 league file. The London game kicked off at 07:30, so live scores for Aye-Aye's Tyler Warren aren't in it."},{"label":"Chicago's quarterback","body":"Bagent is expected by ESPN, Rapoport and The Athletic; the Bears haven't announced it. It touches Monangai, who is benched, and Raymond, who is a do-not-chase."},{"label":"Minnesota's quarterback","body":"Kyler Murray is named in a 2 Oct CBS/RotoWire note and isn't on the report. No Week 4 article I opened says 'Murray starts' in so many words."},{"label":"Matchup tiles","body":"footballdb's tables are standard scoring through Week 3. Five were re-read today (NE, CHI, MIA, MIN, NYJ); the rest are carried from Saturday's read of the same three weeks. Other sites disagree in places: FantasyTeamAdvice has Denver 29th against kickers where footballdb has them 10th-most. The Vikings D/ST tile is a judgement from Miami's scoring."},{"label":"Reports I couldn't retrieve","body":"ESPN's Coker story and inactives page, Hogs Haven, Pride of Detroit, Big Blue View, Big Cat Country and the Star Tribune were blocked or empty; RotoBaller returned navigation only. Pages were read through a summarising tool, so quoted wording is close but may not be exact."},{"label":"Rival claims","body":"ESPN returns only your own pending claims. Metcalf, Dowdle and Boston clear on Wed 7 Oct at 01:00 Mexico City; Meyers, Washington and Raymond are free agents anyone can add first. Footballers added Jaylen Wright on Saturday night."},{"label":"The wire screen","body":"wire_screen.py counts Week 4 as a stat week once one game is played, so its list is Steelers and Browns plus Tyler Higbee. Both passes returned the same eleven names as Saturday, so the verdicts are carried. It can't see Holani, Lemon, Washington or Raymond; they're in do-not-chase from the ownership column."},{"label":"Legette's injury","body":"ESPN and CatCrave say knee; SI's Panthers site says hamstring. Either way he's on injured reserve for at least four games."}]}
+{
+"week": 4,
+"leagueName": "Chem",
+"teamName": "AVIATO",
+"generatedAt": "2026-10-04T23:06:52Z",
+"snapshotNote": "Snapshot 22:49 UTC 4 Oct · Sunday 16:49 Mexico City · Week 4: the early games are final, Vikings–Dolphins and the 14:25 games were in progress, Lions–Panthers and Monday are to come · only Kamara is unlocked · scores move after this; the brief does not refresh on its own",
+"sources": "Built from 104 web searches and about 215 page reads this run, made by three research passes plus my own checks · NBC Sports, RotoWire, CBS Sports, Yahoo, SI, Heavy, FOX Sports/AP, Philadelphia Inquirer, PhiladelphiaEagles.com, Jaguars.com, Colts.com, BaltimoreRavens.com, Titans.com, Packers.com, Buccaneers.com, NewYorkJets.com, Sun-Times, Seahawks.com, TheRams.com, NewOrleansSaints.com, WWL, A to Z Sports, NESN, DraftSharks, FantasyPros, Last Word on Sports · ESPN league file (22:49 UTC 4 Oct), week archives 1–3 and the Week 4 live archive (22:04 UTC)",
+"tonight": {
+"headline": "Ahead by 17, projected to lose: 46 points sat on your bench",
+"status": "WINNING",
+"winProbability": 24,
+"myScore": 97.62,
+"theirScore": 80.2,
+"opponent": "Aye-Aye",
+"body": [
+"Bad news first. Kyle Monangai ran 30 times for 146 yards and two touchdowns and scored 28.0 on your bench, then left with a thumb injury. Ollie Gordon had 18.0 on the bench with his game still going. Garrett Wilson caught three passes for 5.7. You lead 97.6 to 80.2, but ESPN has it finishing 109 to 125 against you, a 24% chance: Aye-Aye still have Amon-Ra St. Brown and Tetairoa McMillan tonight, and you have only Alvin Kamara on Monday.",
+"Nothing to do. The lineup was the projection lineup, and the projection had Tuten (12.7) over Monangai (8.3); no brief overrode it. Kamara is already in the flex. The next decision is Tuesday's waiver run, and Monangai is no longer the obvious drop for it."
+],
+"case": [
+{
+"label": "Their side",
+"body": "Aye-Aye's Kyren Williams scored 36.7 in the flex. They left Aaron Jones (16.3 at the snapshot) on the bench. Still to come for them: St. Brown (20.2) and McMillan (15.9) tonight in Carolina, where Coker is unlikely to play; McCaffrey (6.3) and Herbert (6.6) were in progress."
+},
+{
+"label": "What would change it",
+"body": "St. Brown and McMillan combining for under 25 tonight, with Kamara at or above his 10.6 on Monday. Nothing on your side can be changed to help it."
+}
+],
+"caseSources": "ESPN league file · Week 4 live archive · RotoWire · Heavy"
+},
+"doFirst": [],
+"whatWentWrong": [
+{
+"id": "w1",
+"title": "Monangai scored 28.0 on your bench, and he was Tuesday's drop",
+"lead": "Every brief since Thursday named him as the seat to give up for a receiver. Today he carried 30 times.",
+"case": [
+{
+"label": "The evidence",
+"body": "30 carries, 146 yards, two touchdowns (archive); 10 carries in each of the first three weeks. D'Andre Swift was healthy and active, got 15 carries, fumbled in the third quarter and then barely played. Ben Johnson denied benching him (RotoWire, 4 Oct). Monangai left late with a thumb injury that is 'being evaluated' (Heavy)."
+},
+{
+"label": "What it changes",
+"body": "Tuesday's claim. There is no Do-first card today because nothing can be added or dropped before then; Tuesday's run has to name a different drop or make the case again from Monday's thumb news. The lineup call itself was the projection's, 12.7 to 8.3, and gets no new rule."
+},
+{
+"label": "What would change it",
+"body": "The thumb ruling him out for a stretch, or Johnson saying on Monday that Swift is still the starter: either puts him back in the comparison."
+}
+],
+"sources": "Week 1–4 archive · RotoWire · Heavy · Sun-Times"
+},
+{
+"id": "w2",
+"title": "The receiver room is still three down, and one of them now has a bye",
+"lead": "Jefferson and McLaurin were inactive, Coker is unlikely tonight and Carolina are off in Week 5.",
+"case": [
+{
+"label": "The evidence",
+"body": "Jefferson is reported 'hopeful' for Week 5 (Fowler via NBC Sports, 3 Oct). McLaurin was held out as a precaution with no timeline (AP, 4 Oct). Coker can't play before 18 Oct whatever happens tonight. Wilson's 5.7 came on four targets in a 15-pass game, with no injury."
+},
+{
+"label": "What it changes",
+"body": "Tuesday's claim again: Metcalf or Boston is still the move, and it matters more if Jefferson's Wednesday practice doesn't match the report. Claims process before that practice, so the claim goes in either way."
+},
+{
+"label": "What would change it",
+"body": "Nothing before Tuesday. A full Wednesday from both Jefferson and McLaurin would make the added receiver depth rather than a starter."
+}
+],
+"sources": "NBC Sports · AP · RotoWire · ESPN league file"
+}
+],
+"roster": {
+"state": "SUNDAY",
+"footnote": "Snapshot 16:49 Mexico City. The 11:00 games, London and Thursday are final and show a result against the projection; Addison, Gordon and the Vikings D/ST were in progress and show the live score; Kamara (Monday) and Coker (tonight) haven't kicked off and keep this morning's matchup tile, carried and not re-read. Targets and carries are from the 22:04 live archive, which is 45 minutes older than the scores.",
+"starting": [
+{
+"playerId": 3918298,
+"name": "Josh Allen",
+"slot": "QB",
+"position": "QB",
+"team": "BUF",
+"tier": "ELITE",
+"detail": "BUF · vs NE · final · L 26–29",
+"projection": 22.5,
+"actual": 18.5,
+"delta": -4.0,
+"report": {
+"flags": [],
+"availability": "PLAYED — active, no injury reported in the recaps read (NBC Sports, 4 Oct)",
+"role": "23 of 33 for 253, a touchdown, an interception and a rushing score on 5 carries: 18.5 (archive). Before that 29, 31, 26 attempts (archive)",
+"checked": "NBC Sports' recap and the CBS box score, 4 Oct: played the whole game, no injury mentioned; the Murray fallback never fired. Bills WR DJ Moore 'suffered injury' per NBC Washington, details not found",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 18.5 against 22.5 projected. Healthy; four points short in a three-point loss."
+}
+},
+{
+"playerId": 4569987,
+"name": "Jaylen Warren",
+"slot": "RB",
+"position": "RB",
+"team": "PIT",
+"tier": "SOLID",
+"detail": "PIT · @ CLE · final Thursday · L 24–27 · Dowdle inactive · Rodgers",
+"projection": 17,
+"actual": 15.6,
+"delta": -1.4,
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "PLAYED — active Thursday; no injury reported since (CBS Sports, 2 Oct; nothing newer found today)",
+"role": "17 carries for 93 and 3 catches on 6 targets for 33: 15.6 (Week 4 live archive). 62 snaps, 97%, and a route on 73% of dropbacks (RotoWire box-score breakdown 2 Oct). Before that 10, 11, 17 carries (archive)",
+"competition": "Dowdle out; Rapoport gives him a 'pretty good chance' to return in Week 5 against the Colts (NBC; Steelers Depot 1 Oct, carried). Kaboly expects both backs used when he's back (Steelers Depot 1 Oct, carried). Dowdle is on Chem waivers until Wed 01:00",
+"passer": "Aaron Rodgers threw 40 times Thursday (archive)",
+"checked": "CBS Sports (2 Oct) and a search today: no post-game injury; Dowdle has nothing newer than Rapoport's 'pretty good chance' for Week 5 (FantasyPros, 1 Oct)",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 15.6 against 17.0. Every backfield carry again; Dowdle's return is next week's question."
+}
+},
+{
+"playerId": 4882093,
+"name": "Bhayshul Tuten",
+"slot": "RB",
+"position": "RB",
+"team": "JAX",
+"tier": "SOLID",
+"detail": "JAX · @ CIN · final · W 22–17 · two rushing TDs wiped out by penalty",
+"projection": 12.7,
+"actual": 11.1,
+"delta": -1.6,
+"report": {
+"flags": [],
+"availability": "PLAYED — active, no injury reported (Jaguars.com, 4 Oct)",
+"role": "17 carries for 73 and 2 catches for 18: 11.1 (archive). 74% of the backfield carries, after 60%, 59%, 65%. Two rushing touchdowns were called back for penalties (Jaguars.com)",
+"competition": "Chris Rodriguez Jr.: 6 carries for 35 and the rushing touchdown that counted (Jaguars.com; archive 9.5)",
+"passer": "Trevor Lawrence, 18 of 23 for 227; only 23 throws",
+"checked": "Jaguars.com's recap and SI, 4 Oct: 17 carries, no injury; Jacksonville's exits were two safeties. His share of the carries rose; the score didn't",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 11.1 against 12.7. The projection started him over Monangai, who scored 28.0 on your bench. That was the projection's call, not an override, and it lost."
+}
+},
+{
+"playerId": 4569618,
+"name": "Garrett Wilson",
+"slot": "WR",
+"position": "WR",
+"team": "NYJ",
+"tier": "ELITE",
+"detail": "NYJ · @ CHI · final · L 12–23 · Geno Smith threw 15 passes",
+"projection": 16.5,
+"actual": 5.7,
+"delta": -10.8,
+"report": {
+"flags": [
+"VACATED"
+],
+"availability": "PLAYED — active, no injury; 'struggles along with entire offense' (RotoWire headline; NBC Sports, 4 Oct)",
+"role": "3 catches on 4 targets for 27: 5.7 (archive), after 7, 7, 13 targets. Geno Smith attempted only 15 passes, 8 complete for 119",
+"competition": "Mitchell, Taylor and Hall were inactive; Sadiq played and caught none of 4 targets. Isaiah Williams took a 73-yard touchdown on 3 targets (archive)",
+"passer": "Geno Smith, 8 of 15; Chicago ran 49 times and the Jets never had the ball",
+"checked": "NBC Sports, NewYorkJets.com and Last Word on Sports, 4 Oct: scheme and game script, not health; no Jets in-game injuries reported. VACATED answered: Mitchell's absence was priced (16.5) and the volume never came",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 5.7 against 16.5. Healthy; four targets in a 15-pass game. One box score, and it doesn't move him."
+}
+},
+{
+"playerId": 4429205,
+"name": "Jordan Addison",
+"slot": "WR",
+"position": "WR",
+"team": "MIN",
+"tier": "SOLID",
+"detail": "MIN · vs MIA · in progress at the snapshot · Kyler Murray · Jefferson inactive",
+"projection": 14.8,
+"actual": 9.1,
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED",
+"QB_CHANGE"
+],
+"availability": "PLAYING — active (Yahoo, 4 Oct); no injury reported",
+"role": "9.1 at the snapshot; the 22:04 live archive had 2 catches on 3 targets for 21. Before that 2, 5, 9 targets (archive)",
+"competition": "Jefferson inactive. Hockenson had 5 catches on 5 targets for 49 in the live archive",
+"passer": "Kyler Murray started (CBS box score; Yahoo, 4 Oct)",
+"checked": "Yahoo's inactives piece and the CBS box score, 4 Oct: Murray started, Addison active. The game wasn't final at the snapshot and no recap existed; the box-score pages I could open were stale",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "In progress: 9.1 against 14.8 at the snapshot. Minnesota's top receiver today; not final."
+}
+},
+{
+"playerId": 4361050,
+"name": "Isaiah Likely",
+"slot": "TE",
+"position": "TE",
+"team": "NYG",
+"tier": "SOLID",
+"detail": "NYG · vs ARI · final · W 36–24 · Jameis Winston",
+"projection": 11.8,
+"actual": 13.6,
+"delta": 1.8,
+"report": {
+"flags": [
+"QB_CHANGE"
+],
+"availability": "PLAYED — active, no injury (Yahoo/Big Blue View grades, 4 Oct)",
+"role": "7 catches on 12 targets for 66: 13.6 (archive), after 8, 10, 5 targets. The most targets he has had as a Giant",
+"competition": "Nabers 6 for 112 and a touchdown after a shoulder scare he returned from (Yahoo/BBV)",
+"passer": "Jameis Winston played the whole game: 18 of 29 for 250, 3 touchdowns, 2 interceptions (NBC/PFT; Giants.com)",
+"checked": "Yahoo/Big Blue View's grades, NBC/PFT and Giants.com, 4 Oct: 12 targets, no injury. QB_CHANGE answered: Winston finished the game; one piece floats McCarthy if he struggles, which is opinion",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 13.6 against 11.8. Twelve targets from Winston; the open thesis on his role held."
+}
+},
+{
+"playerId": 3054850,
+"name": "Alvin Kamara",
+"slot": "FLEX",
+"position": "RB",
+"team": "NO",
+"tier": "DEPTH",
+"detail": "NO · vs ATL · MON 18:15 · in your flex · Etienne on IR · committee with Miller and Donaldson · Shough at QB",
+"projection": 10.6,
+"grade": "POOR",
+"gradeEvidence": "ATL allows the 2nd-fewest to RBs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); 3.1 yards a carry to backs, 4th-best (Sharp Football) — carried from this morning, not re-read",
+"report": {
+"flags": [
+"ROLE_DOWN",
+"VACATED"
+],
+"availability": "ACTIVE — not on the Saints' final report at all (NewOrleansSaints.com, 3 Oct; WWL)",
+"role": "9 and 9 carries, 6 then 1 targets (archive; missed Week 1). With Etienne off the field in Week 3: 46.7% of snaps and 10 touches, to Miller's 31.1% and 6 (Sharp Football, 1 Oct)",
+"competition": "Travis Etienne Jr. on IR (hamstring), out at least four games. Moore: 'Alvin and Kendre will handle that load really well. C.J. has kind of found his specific role' — short yardage (NewOrleansSaints.com, 1 Oct). Donaldson had the one goal-line chance in Week 3 (Sharp)",
+"passer": "Tyler Shough, not on the report",
+"checked": "NewOrleansSaints.com's and WWL's final report (3 Oct), SI's Saints site and Heavy (2 Oct), re-read today: Kamara and Shough aren't listed; Etienne is on IR for at least four games; Saints rule out Elliss, Granderson and Jennings. Nothing dated Sunday. Monday's inactives come at 16:45 Mexico City",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "Starts in the flex, where you put him this morning. The only player you have left to play."
+}
+},
+{
+"playerId": -16016,
+"name": "Vikings D/ST",
+"slot": "D/ST",
+"position": "D/ST",
+"team": "MIN",
+"tier": "SOLID",
+"detail": "MIN · vs MIA · in progress at the snapshot",
+"projection": 8.9,
+"actual": 8,
+"report": {
+"availability": "PLAYING — Demmings and Thorson inactive; Jonathan Greenard left with an ankle injury (CBS tracker, 4 Oct)",
+"checked": "CBS's tracker and box score, 4 Oct: Miami had 3 points and 45 passing yards into the third quarter. Not final at the snapshot. Best D/ST on the wire: Bears 7.7 (they scored 7 today)",
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"summary": "In progress: 8 against 8.9 at the snapshot. Hold; nothing on the wire projected within a point."
+}
+},
+{
+"playerId": 2971573,
+"name": "Ka'imi Fairbairn",
+"slot": "K",
+"position": "K",
+"team": "HOU",
+"tier": "DEPTH",
+"detail": "HOU · vs DAL · final · L 30–34 · 3 of 3 on field goals",
+"projection": 9.3,
+"actual": 16,
+"delta": 6.7,
+"report": {
+"availability": "PLAYED — no injury reported (CBS snapshot; thesportsleader.com, 4 Oct). You added him at 08:45 for Pineiro",
+"checked": "A CBS in-game snapshot and thesportsleader.com, 4 Oct: field goals from 51, 39 and 54, all in the first half. This morning's brief called the swap from Pineiro (0.5 projected) not worth a move; you made it. Pineiro had 2 in the 22:04 archive with his game in progress",
+"verdict": "START",
+"summary": "Final: 16 against 9.3. Your swap, against this morning's hold, and so far it's 14 points better.",
+"trigger": null,
+"fallback": null
+}
+}
+],
+"bench": [
+{
+"playerId": 4711533,
+"name": "Ollie Gordon II",
+"slot": "BE",
+"position": "RB",
+"team": "MIA",
+"tier": "DEPTH",
+"detail": "MIA · @ MIN · in progress at the snapshot · Malik Willis · Wright back",
+"projection": 9,
+"actual": 18,
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "PLAYING — active; no injury reported",
+"role": "18.0 at the snapshot. The 22:04 live archive had 5 carries for 75 and 2 catches; before that 3 then 17 carries (archive)",
+"competition": "Jaylen Wright returned: 4 carries for 10 in the live archive. Heavy calls it 'a true split' (4 Oct); on yards it wasn't close",
+"passer": "Malik Willis, 6 of 12 for 45 into the third quarter (CBS box score)",
+"checked": "Heavy and the CBS box score, 4 Oct, plus the live archive. Not final at the snapshot, so the touch split isn't settled; the open claim's 12-touch clause is read on the final archive",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "In progress: 18.0 on your bench against 9.0 projected. Out-producing Wright; the final split decides the open thesis."
+}
+},
+{
+"playerId": 4608686,
+"name": "Kyle Monangai",
+"slot": "BE",
+"position": "RB",
+"team": "CHI",
+"tier": "SOLID",
+"detail": "CHI · vs NYJ · final · W 23–12 · 30 carries · left late with a thumb injury",
+"projection": 8.3,
+"actual": 28,
+"delta": 19.7,
+"report": {
+"flags": [
+"OWN_QUESTIONABLE",
+"QB_CHANGE",
+"ROLE_UP"
+],
+"availability": "QUESTIONABLE — left late with a thumb injury and didn't return. Ben Johnson: 'being evaluated'; Monangai said he'll know more Monday (Heavy; RotoWire via The Athletic, 4 Oct)",
+"role": "30 carries for 146 and two touchdowns, plus a catch: 28.0 (archive). He had exactly 10 carries in each of the first three games",
+"competition": "D'Andre Swift was active: 15 carries for 58, stopped twice at the goal line, then a third-quarter fumble, after which he barely played (RotoWire). Johnson denied a benching: 'No, nothing like that'. Heavy guesses at an injury; nothing confirms one",
+"passer": "Tyson Bagent played all but the opening snap, which Case Keenum took: 25 of 34 for 268 (Sun-Times). Caleb Williams is out one or two more games (CBS)",
+"checked": "Heavy, RotoWire, NBC Sports and the Sun-Times, 4 Oct. OWN_QUESTIONABLE answered: the tag is the thumb, from today. ROLE_UP: 30 carries is one game, and the coach says Swift wasn't benched, so I don't know yet whether the job changed",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Final: 28.0 on your bench, against 8.3 projected. This morning he was Tuesday's drop. He isn't now, until the thumb and Swift's role are known."
+}
+},
+{
+"playerId": 4262921,
+"name": "Justin Jefferson",
+"slot": "BE",
+"position": "WR",
+"team": "MIN",
+"tier": "ELITE",
+"detail": "MIN · vs MIA · INACTIVE (ankle) · Fowler: hopeful for Week 5",
+"projection": 0.0,
+"actual": 0,
+"report": {
+"flags": [
+"OWN_OUT",
+"ROLE_DOWN",
+"QB_CHANGE"
+],
+"availability": "OUT — inactive today (Yahoo; NBC Sports, 4 Oct). Jeremy Fowler reports he is 'hopeful' to return in Week 5 against the Saints (NBC Sports, 3 Oct); nothing newer today",
+"role": "9, 6, 2 targets (archive); Week 3 is the injury exit on his seventh snap, not a role change",
+"competition": "Jordan Addison takes his lineup slot and Minnesota's lead role: 9 targets and 20.0 points after Jefferson left in Week 3 (archive)",
+"passer": "Kyler Murray. QB_CHANGE is the McCarthy trade to the Giants",
+"checked": "Yahoo and NBC Sports, 3–4 Oct: inactive; 'hopeful' for Week 5. That is one reporter's word, not a practice report. Wednesday is the first read",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Inactive. Reported hopeful for Week 5; Wednesday's practice report is the evidence."
+}
+},
+{
+"playerId": 3121422,
+"name": "Terry McLaurin",
+"slot": "BE",
+"position": "WR",
+"team": "WSH",
+"tier": "SOLID",
+"detail": "WSH · vs IND · London · INACTIVE (hamstring) · final L 13–30",
+"projection": 0.0,
+"actual": 0,
+"delta": 0,
+"report": {
+"flags": [
+"OWN_OUT",
+"ROLE_UP",
+"QB_CHANGE"
+],
+"availability": "OUT — inactive in London (RotoWire; AP, 4 Oct), held out as a precaution after a Friday hamstring listing. Dan Quinn gave no update and nobody has a Week 5 timeline",
+"role": "4, 9, 9 targets; 29%, 26%, 41% of team targets (archive)",
+"competition": "Diggs 9 targets, Antonio Williams 8 (archive), for 35 and 21 yards",
+"passer": "Marcus Mariota left with a right knee injury on his second drive, believed to be an MCL, scan Monday; rookie Athan Kaliakmanis finished, 15 of 33. Jayden Daniels: 'He'll have a full week of practice. That's the goal' (Quinn via AP); Pelissero says the team hopes he starts Week 5",
+"checked": "AP, RotoWire and Yardbarker, 4 Oct: inactive, no timeline; Mariota hurt; Daniels targeted for Week 5. AP says the hamstring was hurt Friday, Heavy says Week 3; they disagree",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Inactive. No timeline; Washington's quarterback for Week 5 is open too. Wednesday's report is the next read."
+}
+},
+{
+"playerId": 4695883,
+"name": "Jalen Coker",
+"slot": "BE",
+"position": "WR",
+"team": "CAR",
+"tier": "SOLID",
+"detail": "CAR · vs DET · SUN 18:20 · QUESTIONABLE (quad) · Schefter: unlikely to play · ESPN projects 0.0 · bye in Week 5",
+"projection": 0.0,
+"grade": "GREAT",
+"gradeEvidence": "DET allows the 4th-most to WRs (footballdb standard scoring, Weeks 1–3; read 3 Oct, carried); SI has them 5th-most (4 Oct) — carried from this morning, not re-read",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — quad; Schefter: unlikely to play (RotoWire, FantasyPros, PFN, 4 Oct). Carolina's inactive list was due at 16:50 and I couldn't find it posted by 17:05. Carolina are on bye in Week 5, so his next possible game is 18 Oct",
+"role": "9, 9, 4 targets (archive); the Week 3 four is the injury exit",
+"competition": "Xavier Legette went on injured reserve Saturday (ESPN says knee, SI's Panthers site says hamstring) and Ja'seem Reed was elevated. Behind McMillan: Tremayne, Metchie, David Moore, Reed (RotoWire). Waller drew 36% of Week 3 targets once Coker left (archive)",
+"passer": "Bryce Young, no designation",
+"checked": "RotoWire, FantasyPros, Pro Football Network, Last Word on Sports and A to Z Sports, 4 Oct; ncfootballnews's inactives page still said 'to be added' at 17:05. One site (A to Z) words Schefter as 'would be inactive'; the rest say 'unlikely'",
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"summary": "Benched, as you set this morning. Projected 0.0; then a bye. With Legette on IR he returns to a bigger role, so he isn't a drop."
+}
+}
+],
+"lineupCheck": {
+"asSet": 124.1,
+"best": 124.1,
+"gap": 0.0,
+"verdict": "The lineup as set is the projection lineup. You made this morning's Kamara-for-Coker swap, and Kamara is the only starter left to play.",
+"moves": [],
+"contingencies": []
+}
+},
+"trades": [],
+"worthALook": [
+{
+"playerId": 4047650,
+"name": "DK Metcalf",
+"positionTeam": "WR · PIT",
+"ownership": "88.3% owned",
+"tier": "SOLID",
+"lead": "Still Tuesday's claim. What changed today is the other half of it: the drop.",
+"case": [
+{
+"label": "The role",
+"body": "9 targets, 5 catches, 115 yards and 16.5 points on Thursday (archive), on 97% of snaps (RotoWire, 2 Oct, carried). 10, 9, 5, 9 targets over four games. A search today turned up 'undisclosed injury' headlines; they are from before Week 1 and were discarded."
+},
+{
+"label": "The number that kills it today",
+"body": "He is locked on waivers until Wed 7 Oct, 01:00 Mexico City. And the seat he was going to take belonged to Monangai, who just scored 28.0."
+},
+{
+"label": "When to act",
+"body": "Tuesday's run, before claims process. Chem's priority resets weekly, so the claim is free. The drop has to be chosen then, from Monday's news on Monangai's thumb; Gordon, Kamara, Warren, Wilson and Addison all have an injured teammate and can't be it."
+}
+],
+"sources": "Week 1–4 archive · RotoWire · ESPN"
+},
+{
+"playerId": 4832800,
+"name": "Denzel Boston",
+"positionTeam": "WR · CLE",
+"ownership": "69.6% owned",
+"tier": "DEPTH",
+"lead": "The alternative to Metcalf on Tuesday, and the one the waiver tool surfaces.",
+"case": [
+{
+"label": "The role",
+"body": "4 catches on 7 targets for 89 on Thursday, a 21% target share and a route on every dropback, from Deshaun Watson (DraftSharks, 2 Oct). Harold Fannin and KC Concepcion have more targets on the season."
+},
+{
+"label": "The number that kills it",
+"body": "19% of Cleveland's targets on the season against Metcalf's steadier nine a game. You dropped him on Wednesday for Addison."
+},
+{
+"label": "When to act",
+"body": "Tuesday, and only if Metcalf's claim needs a second choice behind it."
+}
+],
+"sources": "DraftSharks · Week 1–4 archive"
+},
+{
+"playerId": 4038815,
+"name": "Rico Dowdle",
+"positionTeam": "RB · PIT",
+"ownership": "71.7% owned",
+"tier": "DEPTH",
+"lead": "On waivers until Wednesday. He's the man who takes carries from your Warren when he's back.",
+"case": [
+{
+"label": "The role",
+"body": "Missed Weeks 3 and 4 with the toe. Rapoport gave him a 'pretty good chance' for Week 5 against the Colts (FantasyPros, 1 Oct); nothing newer today. With him active, Warren took 56% and 55% of the carries; without him, all of them (archive)."
+},
+{
+"label": "The number that kills it",
+"body": "A handcuff to a player you start, on a roster that needs a receiver first and has no obvious drop."
+},
+{
+"label": "What would change it",
+"body": "A full Wednesday practice with a coach saying the split returns: then a second free claim is worth a look, after the receiver."
+}
+],
+"sources": "FantasyPros · Week 1–4 archive"
+}
+],
+"doNotChase": [
+{
+"playerId": 4429835,
+"name": "George Holani",
+"positionTeam": "RB · SEA",
+"ownership": "+6.91 owned",
+"tier": "DEPTH",
+"lead": "The wire's biggest riser, and today's game answered this morning's condition against him.",
+"case": [
+{
+"label": "The rise",
+"body": "Jadarian Price went on injured reserve on Saturday (Seahawks.com), leaving two backs."
+},
+{
+"label": "The number that kills it",
+"body": "At half-time Emanuel Wilson had 10 carries, 44 yards and two touchdowns; Holani had 4 carries for 10 (live archive). Zach Charbonnet was designated to return on 1 Oct and is eligible in Week 5 (PFT)."
+},
+{
+"label": "What would change it",
+"body": "Holani out-carrying Wilson in Week 5 with Charbonnet not activated."
+}
+],
+"sources": "Week 4 live archive · Seahawks.com · PFT"
+},
+{
+"playerId": 2576925,
+"name": "Darren Waller",
+"positionTeam": "TE · CAR",
+"ownership": "+4.73 owned",
+"tier": "DEPTH",
+"lead": "Rising because of your Coker's quad, at a position you have no second slot for, and on bye next week.",
+"case": [
+{
+"label": "The rise",
+"body": "8 targets in Week 3 once Coker left (archive); Coker is unlikely to play tonight against the defence that has allowed the most points to tight ends."
+},
+{
+"label": "The number that kills it",
+"body": "Chem starts one tight end and the flex is RB/WR only. Likely drew 12 targets today. Carolina are off in Week 5."
+},
+{
+"label": "What would change it",
+"body": "Likely on a Giants injury report."
+}
+],
+"sources": "Week 1–4 archive · ESPN"
+},
+{
+"playerId": -16003,
+"name": "Bears D/ST",
+"positionTeam": "D/ST · CHI",
+"ownership": "+4.60 owned",
+"tier": "DEPTH",
+"lead": "The biggest riser among defences. It scored 7 today; yours had 8 with a quarter to play.",
+"case": [
+{
+"label": "The rise",
+"body": "Held the Jets to 12 points and 15 pass attempts (NBC Sports, 4 Oct)."
+},
+{
+"label": "The number that kills it",
+"body": "7 points today (league file) against the Vikings' 8 and counting; the Vikings were DST1 by projection. Next: at Green Bay."
+},
+{
+"label": "What would change it",
+"body": "A Vikings defensive starter lost for weeks; Jonathan Greenard left today with an ankle injury and has no report yet."
+}
+],
+"sources": "ESPN league file · NBC Sports · CBS"
+},
+{
+"playerId": 4569603,
+"name": "Malik Washington",
+"positionTeam": "WR · MIA",
+"ownership": "+2.64 owned",
+"tier": "DEPTH",
+"lead": "This morning's condition was ten targets and 15 points. He had two catches into the third quarter.",
+"case": [
+{
+"label": "The rise",
+"body": "8, 5, 10 targets in the first three weeks (archive)."
+},
+{
+"label": "The number that kills it",
+"body": "2 catches on 2 targets for 27 in the live archive, from a quarterback who was 6 of 12 for 45 (CBS box score). Not final, but the condition isn't close."
+},
+{
+"label": "What would change it",
+"body": "A different quarterback in Miami."
+}
+],
+"sources": "Week 1–4 archive · CBS"
+},
+{
+"playerId": 4870795,
+"name": "Makai Lemon",
+"positionTeam": "WR · PHI",
+"ownership": "+2.05 owned",
+"tier": "DEPTH",
+"lead": "Six targets with Smith out, one short of this morning's line, in an offence that completed 12 passes.",
+"case": [
+{
+"label": "The rise",
+"body": "DeVonta Smith is 'at very best, questionable' for Week 5 and could miss more (Garafolo via RotoWire, 4 Oct)."
+},
+{
+"label": "The number that kills it",
+"body": "3 catches on 6 targets for 27 (archive). Hurts went 12 of 27 for 93 and the Eagles were 0-for-12 on third down; Darius Cooper caught both touchdowns (Eagles.com)."
+},
+{
+"label": "What would change it",
+"body": "Eight-plus targets in London in Week 5."
+}
+],
+"sources": "Week 4 archive · RotoWire · PhiladelphiaEagles.com"
+}
+],
+"waiverAnalysis": {
+"verdict": "QUESTIONS",
+"summary": "One question, the same as this morning, and it's an artefact: the tool counts the injured Jefferson as your weakest movable receiver, so Denzel Boston clears him. Three finished weeks of data, still thin. Nothing clears Monangai at running back, and that was before today's 30 carries.",
+"weeks": 3,
+"rising": [
+{
+"playerId": 4832800,
+"name": "Denzel Boston",
+"position": "WR",
+"opportunities": [
+6.0,
+10.5,
+6.0
+],
+"ppg": 14.2,
+"trend": 0.0,
+"roleReason": "Cleveland's lead outside receiver: a route on every dropback and 21% of targets on Thursday (DraftSharks, 2 Oct). The role is real. The comparison isn't: Jefferson's 3.0 in Week 3 is an ankle injury on his seventh snap.",
+"action": "WATCH — on waivers until Wed 01:00 Mexico City; Tuesday's run compares him with Metcalf",
+"sources": "DraftSharks · Week 1–4 archive"
+}
+],
+"falling": []
+},
+"settled": [
+{
+"correct": false,
+"title": "Tuten in the RB slot over the bench backs (the projection lineup; ghost card of 27 Sep)",
+"result": "Archive: Tuten 11.1, Monangai 28.0 on the bench. The card said it would be graded against the best bench back. Closed WRONG. No brief overrode the projection; the projection lost."
+},
+{
+"correct": false,
+"title": "'Fairbairn is 0.5 better; under a point isn't a move' (this morning's brief)",
+"result": "You made the swap. Fairbairn 16; Pineiro had 2 with his game in progress. Graded on the final archive, and it's losing by 14."
+},
+{
+"correct": true,
+"title": "'Start Kamara in the flex; bench Coker' (this morning's brief)",
+"result": "Done at 08:40. Coker is still projected 0.0. Ungraded until Kamara plays Monday; recorded now that Gordon (18.0) and Monangai (28.0) were both available for that slot."
+},
+{
+"correct": true,
+"title": "Hold Likely: 'today's route share is the test' (this morning's brief)",
+"result": "12 targets, 7 catches, 13.6 (archive). The role held."
+},
+{
+"correct": true,
+"title": "'Allen was never on the report' (the Murray fallback, 29 Sep)",
+"result": "He played and scored 18.5. The fallback never fired; closed EXPIRED, untested."
+},
+{
+"correct": false,
+"title": "'Seven-plus targets and Meyers joins Tuesday's comparison' (this morning's brief)",
+"result": "4 targets, 6.3 (archive). The condition failed; he's off the watch list."
+},
+{
+"correct": false,
+"title": "Coker in the flex over McLaurin (21 Sep)",
+"result": "Archive: Coker 3.8, McLaurin 19.7 on the bench. Closed WRONG."
+},
+{
+"correct": false,
+"title": "Hold Likely through the Giants' quarterback change (22 Sep)",
+"result": "Archive: 3.3 on 5 targets in Week 3. Closed WRONG, not EXPIRED."
+},
+{
+"correct": true,
+"title": "Start Warren over Tuten (13 Sep, reviewed weekly)",
+"result": "Archive: 2 of 3 weeks won. Closed RIGHT."
+},
+{
+"correct": true,
+"title": "Decline Jaxson Dart at 83% owned (23 Sep)",
+"result": "Out for the season. Closed RIGHT."
+}
+],
+"cannotSee": [
+{
+"label": "Carolina's inactives",
+"body": "Due at 16:50; not on any page I could open by 17:05. Coker is 'unlikely' by Schefter, read second-hand. He's on your bench, so it changes nothing for you; it matters for Aye-Aye's McMillan."
+},
+{
+"label": "The late games",
+"body": "Vikings–Dolphins and the 14:25 games weren't final at the snapshot. Addison, Gordon and the Vikings D/ST show live scores; every box-score page I could open for those games was stale or pre-game."
+},
+{
+"label": "Two clocks",
+"body": "Points are from the 16:49 league file. Targets and carries are from the live archive written at 16:04, so for the late games they are older than the scores beside them."
+},
+{
+"label": "Monangai's thumb and Swift's role",
+"body": "'Being evaluated', with more on Monday. Whether 30 carries was a job change or one game is unknown; the coach says Swift wasn't benched."
+},
+{
+"label": "Jefferson and McLaurin",
+"body": "'Hopeful for Week 5' is one reporter. McLaurin has no timeline, and AP and Heavy disagree on when he was hurt. Wednesday's practice reports are the evidence, and claims process before them."
+},
+{
+"label": "Rival claims",
+"body": "ESPN returns only your own pending claims. Metcalf, Boston, Dowdle and everyone who played today clear on Wed 7 Oct at 01:00 Mexico City. Tuesday's 16:00 brief is the last one before that."
+},
+{
+"label": "The wire screen",
+"body": "It counts today's live archive as a stat week, so its list changes as games finish. Thirteen of its eighteen names are new since this morning. For Dohnte Meyers, Tyquan Thornton and Mike Washington Jr. I read headlines only."
+},
+{
+"label": "Reports I couldn't retrieve",
+"body": "ESPN's pages returned nothing; CBS, FOX and Yahoo box scores were stale for the late games; SB Nation sites, the Baltimore Sun and the Houston Chronicle were blocked. Pages were read through a summarising tool, so quoted wording is close but may not be exact."
+},
+{
+"label": "Next week's projections",
+"body": "The league file carries Week 4 projections only. Who starts in Week 5 is next week's projection's call."
+}
+]
+}
