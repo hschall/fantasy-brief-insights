@@ -1,1 +1,646 @@
-{"lead":{"kicker":"SUNDAY NIGHT · IPADE · WEEK 6","headline":"Rice is out again and Pickens is quiet — but Bloodsports lead by 27.2 and the opponent is done","deck":"Golden and Pickens are playing in Green Bay, Daniels plays Monday, Los Cachanillas are final at 88.62. ESPN: 99% for a first win.","byline":"Fantasy Brief","dateline":"MEXICO CITY, Sunday night —","body":"Start with the bad news. Rashee Rice was inactive for a second week with no return date; George Pickens has 2.6 tonight, healthy but untargeted early (Yahoo); C.J. Stroud's 23.0 sat on the bench. None of it is costing the week: Tuten (24.7), Likely (23.9), Taylor (21.1) and Matt Gay (12, five better than the Myers he replaced) have Bloodsports up 115.8 to 88.62 with Los Cachanillas finished. Golden has 17.1 in progress and Daniels plays Monday. After that, Washington and Jacksonville are on bye: Stroud starts, and Josh Jacobs — off the exempt list Monday and expected to start at Detroit — or Gordon takes Tuten's slot on Tuesday's projections.","players":[{"playerId":4428331,"caption":"Rice — inactive again, no return date"},{"playerId":4426354,"caption":"Pickens — 2.6 so far, healthy"}]},"doFirst":{"headline":"Nothing to set tonight — one move after Monday","deck":"No bench player can replace Golden, Pickens or Daniels; when Week 7 opens, Stroud replaces Daniels.","note":"Do not claim Allgeier — priority never resets and Bam Knight split his work today. Do not reclaim Lawrence or Strange.","empty":"Nothing left to set this week: the three unplayed starters have no eligible replacement.","cards":[{"id":"w7-qb-bye-plan","kind":"byePlan","week":7,"playerId":null,"headline":"Week 7: Daniels and Tuten are off — Stroud starts","reason":"Washington and Jacksonville share the bye. Stroud (Houston, bye Week 8) is already on the roster; Jacobs is expected to start for Green Bay (SI 18 Oct) and Gordon is Miami's lead back. Confirm on Tuesday's projections.","rows":[["QB","C.J. Stroud"]]}]},"roster":{"deck":"The lineup as set is the projection lineup, 128.1; Golden and Pickens are playing and Daniels has no designation, and no bench player could replace any of them, so no contingency exists."},"wire":{"headline":"Nothing to claim — Allgeier is a watch, not a claim","deck":"Allgeier was out-gained by Bam Knight today, Love has no IR plan, and IPADE priority never resets. The rest of the screen is one-week vacancies.","candidates":[4373626]},"players":{"4242335":{"deck":"Final 21.1 on 21 carries.","reason":"Final; 21 carries against Tennessee","flags":["ROLE_DOWN"],"availability":"ACTIVE — not on Indianapolis's report (NFL.com: Dulin OUT, Tyler Warren and Mallory Q)","role":"Carries 19, 24, 23, 20, 15 — 75% of the backfield in Week 5 (archive); 15 carries in a game the Colts trailed and threw 44 times (DraftSharks 12 Oct)","competition":"Seth McGowan 25%+ of snaps two weeks running; DJ Giddens active for the first time in Week 5 (DraftSharks 12 Oct). ROLE_DOWN answered: script plus a third back, not a demotion","passer":"Daniel Jones; Ashton Dulin OUT","checked":"NFL.com Week 6 report; Titans.com report (Spears Q); DraftSharks 12 Oct — no change · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC 18 Oct: Colts lost to Tennessee; Sauce Gardner the Colts' listed exit (NFL.com) — no Taylor injury","vsProjection":{"tag":"Priced.","text":"McGowan's rise is in the archive the projection uses; 19.6 already reflects it. Tyler Warren's inactive (18 Oct) came after it — a short-yardage carrier removed, small upside."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"19.6, RB7, the top back here by far. McGowan's share was known and priced. 21 carries and 4 targets (archive). Nothing changes it.","matchupGrade":"16th vs RB (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"4882093":{"deck":"Final 24.7 on three touchdowns; on bye in Week 7.","reason":"Final; led the backfield in London","flags":["ROLE_UP"],"availability":"ACTIVE — not on the inactive list for London (Jaguars.com / HoustonTexans.com, 18 Oct)","role":"Carries 15, 13, 15, 17, 22 — 92% of the backfield in Week 5 (archive)","competition":"Chris Rodriguez Jr. active, 8% of Week 5 carries; fumbled his goal-line chance (Sharp 14 Oct). ROLE_UP answered: Rodriguez lost work, not injured","passer":"Trevor Lawrence","checked":"NFL.com Week 6 report; Sharp HOU-JAX preview 14 Oct (JAX -2.5, total 42.5; Houston 4th in yards per carry allowed) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NFL.com Sunday injuries: Jaguars' only listed exit was S Antonio Johnson — no change. Jacksonville bye Week 7","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"12.7 with no eligible alternative — Gordon on bye, Jacobs ineligible. Rodriguez's lost work was priced. 24.7 came on three touchdowns — efficiency, not a forecast. Week 7 bye.","matchupGrade":"5th vs RB (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"4569618":{"deck":"Final 8.4. No injury reported.","reason":"Final; Patriots 26-19","flags":["ROLE_UP","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — not on the Jets' final report","role":"Targets 7, 7, 13, 4, 11 — 44% of the Jets' targets in Week 5 (archive). ROLE_UP answered: Mitchell (finger) and Hall are OUT again, so the share holds","competition":"Kenyon Sadiq QUESTIONABLE (concussion; full Friday — Fantasy Footballers); Adonai Mitchell OUT (carried). RIVAL_QUESTIONABLE answered: Sadiq likely plays. ROLE_UP answered: 44% of targets in Week 5 with Mitchell out — description, priced. Gonzalez expected back (NewYorkJets.com 18 Oct)","passer":"Geno Smith, starting (NewYorkJets.com preview)","checked":"NFL.com Week 6 report; NewYorkJets.com preview — no change · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NewYorkJets.com recap 18 Oct: no Wilson injury mentioned. An SI 'Wilson knee, out Week 7' item is dated Oct 2025 — rejected","vsProjection":{"tag":"Priced.","text":"Mitchell's procedure (15 Oct) and Sadiq's Friday questionable tag are a day old and in the 14.8; believe it."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"14.8, 3.7 above Worthy (11.1) — a projection gap. No unpriced news. 6 targets (archive). Changes on a practice report, not the score.","matchupGrade":"13th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"4426354":{"deck":"2.6 in progress — healthy, slow start.","reason":"Healthy; untargeted early (Yahoo)","flags":["ROLE_UP"],"availability":"ACTIVE — not on Dallas's report; CeeDee Lamb (thigh/quad) full all week and off the final report (Packers.com 15 Oct; NFL.com)","role":"Targets 6, 8, 11, 3, 13 — 37% in Week 5 (archive)","competition":"Lamb returns: Week 5's 13 targets came with Lamb out (Sharp 14 Oct). ROLE_UP answered: the share spike was Lamb's absence; it shrinks back this week, and the projection already has Lamb active","passer":"Dak Prescott, not on the report","checked":"NFL.com Week 6 report; Packers.com joint report 15 Oct; Sharp DAL-GB preview (GB 25th vs outside receivers) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo 19 Oct 00:57Z: 'healthy and active, he just hasn't been targeted yet through two drives'; Turpin questionable to return (rib, NFL.com). 2.6 at the snapshot","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"13.6 against Worthy's 11.1 — 2.5, a projection gap, and Worthy is locked. Lamb's clearance was priced. Week 5's 13 targets came with Lamb out, so expect fewer.","matchupGrade":"10th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"4701936":{"deck":"17.1 in progress.","reason":"Active; Love throwing","flags":["VACATED"],"availability":"ACTIVE — not on Green Bay's report (NFL.com)","role":"Targets 12, 6, 12, 7, 7 — 30% in Week 5 (archive)","competition":"Christian Watson (6 TDs, NFL lead in end-zone targets) and Tucker Kraft active; Jayden Reed on IR — VACATED answered: ~1 target a week, nothing material (Sharp 14 Oct)","passer":"Jordan Love, not on the report","checked":"NFL.com Week 6 report; Sharp DAL-GB preview 14 Oct (Dallas 29th in points per target to WRs; GB -1.5, implied 27) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Packers inactives 18 Oct 22:54Z — Golden active; 17.1 in progress at the snapshot, no injury reported","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"15.7, WR10, 4.6 above Worthy — who locked at 14:25 anyway. Not on the report: priced. Jacobs is ineligible and Gordon on bye, so a scratch at 16:50 could not be covered.","matchupGrade":"25th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"-16017":{"deck":"Final, 6. Held over a coin-flip stream.","reason":"Final; two sacks, two fourth-down stops","flags":[],"availability":"Jets: Geno Smith starts; Hall, Mitchell OUT, Sadiq Q. Patriots: Davis, Prunty OUT; Gonzalez likely back","role":null,"competition":null,"passer":null,"checked":"NFL.com Week 6 report; NewYorkJets.com preview (Patriots 4th in points allowed). Best free: Rams D/ST 7.7 against 7.4 — coin flip; the seat is closed until 22 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker Patriots recap 18 Oct: two sacks, an interception, a forced fumble — no change","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"7.4 against the Rams' 7.7 — a coin flip, so the incumbent held. 6 final (archive).","matchupGrade":null},"4249087":{"deck":"Final 12, 1.4 above projection; beat Myers by 5.","reason":"Final 12; beat Myers by 5","flags":[],"availability":"ACTIVE — not on Las Vegas's report (NFL.com)","role":null,"competition":null,"passer":null,"checked":"NFL.com Week 6 report; Sharp BUF-LV preview (LV implied 24.25; Raiders 9th in points per game). Best free kicker Blake Grupe 9.7 against 10.6 — hold · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo Bills-Raiders 18 Oct: 33-30; Gay's onside attempt went long — no injury. Myers 7 final (archive): the owner's swap won by 5","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"10.6, above every free kicker (Grupe 9.7, hurt today). Final 12. The owner's swap from Myers won by 5 and closes RIGHT.","matchupGrade":null},"4428331":{"deck":"Out again, no return date. Tuesday decides whether he is the drop when a Week 7 need arises.","reason":"Inactive; hamstring and knee","flags":["OWN_OUT","ROLE_UP"],"availability":"OUT — hamstring and knee (Chiefs.com Friday report; NFL.com)","role":"Targets 2, 6, 9, -, - (archive)","competition":"Xavier Worthy and Travis Kelce; Thornton on IR","passer":"Patrick Mahomes","checked":"Chiefs.com report 16 Oct; NFL.com Week 6 report. OWN_OUT and ROLE_UP answered: the Week 3 spike is irrelevant while he cannot play; Reid: \"a week, could be two\" (carried) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Sports 18 Oct: inactive for Week 6 (hamstring); Yardbarker: still injured, no timeline reported","vsProjection":null,"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"0.0, out for a second week. No return date reported. Hold this week; Tuesday decides whether he is the drop when a Week 7 need arises.","matchupGrade":null},"4711533":{"deck":"On bye; Week 7 cover for Tuten.","reason":"Bye; Miami's lead back","flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — Miami on bye","role":"Carries -, 3, 17, 9, 18 — 75% of Miami's backfield in Week 5 (archive)","competition":"Jaylen Wright 25%; Achane on IR","passer":"Malik Willis","checked":"Miami on bye; RotoBaller Week 6 item frames him as the lead back (body not retrievable — thin). ROLE_UP and VACATED answered: Achane on IR (CBS12, carried) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker 18 Oct 14:01 ET: Gordon the clear lead back; Willis starts — no change","vsProjection":null,"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"0.0 on bye. Lead back with Achane on IR (Yardbarker 18 Oct); Week 7 candidate for Tuten's slot with Jacobs.","matchupGrade":null},"4047365":{"deck":"Inactive tonight; expected to start Week 7.","reason":"Off the exempt list Monday; starter at Detroit","flags":["OWN_QUESTIONABLE"],"availability":"Not eligible this week — comes off the Commissioner's Exempt List on 19 Oct, eligible for Week 7 at Detroit on 25 Oct (Washington Post 16 Oct; Athlon 17 Oct). ESPN's DAY_TO_DAY is the label for that","role":"No snaps in 2026; Green Bay's backfield has been MarShawn Lloyd (59% of carries in Week 5) and Kaleb Johnson (41%) (archive)","competition":"MarShawn Lloyd 44% of snaps, Pierre Strong 41% on passing downs (Sharp 14 Oct); Jacobs may not get a full workload at once (Bukowski via Athlon 17 Oct)","passer":"Jordan Love","checked":"Athlon 17 Oct; Washington Post 16 Oct. OWN_QUESTIONABLE answered: not an injury — eligibility. The NFL's review continues and could add discipline (Athlon) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): SI 18 Oct: inactive tonight, removed from the Commissioner's Exempt List Monday; Pelissero: returns immediately as the starter in Week 7; Schefter: the league may still add discipline","vsProjection":{"tag":"Priced.","text":"ESPN's 0.0 is right for this week; Week 7's number does not exist yet."},"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"0.0, inactive. Off the exempt list Monday; expected to return immediately as the starter (SI 18 Oct) — news Week 7's projection will price. The conduct review could still add games.","matchupGrade":null},"4426348":{"deck":"Starts Monday at San Francisco; on bye in Week 7.","reason":"No designation; Mariota OUT behind him","flags":[],"availability":"ACTIVE — left elbow, full Thursday, Friday and Saturday; no designation (Commanders.com game status 17 Oct)","role":"Pass attempts 34, 17, -, -, 25; carries 5, 7, -, -, 9 (archive)","competition":null,"passer":null,"checked":"Commanders.com game status 17 Oct (Mariota OUT, Croskey-Merritt OUT, Diggs Q); RotoWire 17 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): SI Commanders final report 17 Oct: not listed; Diggs questionable; Mariota and Croskey-Merritt OUT. Inactives Mon 16:45 CDMX — no change","vsProjection":{"tag":"Priced.","text":"The clearance matches the 18.9 ESPN carries."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"18.9, QB6, 4.2 above Stroud (14.7) — a projection gap. Cleared after full practices: priced. Week 7: Washington bye, Stroud starts. Only a Monday inactive changes tonight's plan, and it could not be covered.","matchupGrade":null},"4361050":{"deck":"Final 23.9. Healthy.","reason":"Final; Theo Johnson out","flags":["QB_CHANGE"],"availability":"ACTIVE — foot, full Wednesday to Friday, no designation (Giants.com report 16 Oct)","role":"Targets 8, 10, 5, 12, 13 — 25% of the Giants' targets in Week 5 (archive)","competition":"Theo Johnson OUT (neck) — the other tight end is gone","passer":"Jameis Winston — Dart on IR since 24 Sep; Giants.com (14 Oct) describes a plan built for Winston without naming the starter. QB_CHANGE answered","checked":"Giants.com report 16 Oct; Giants.com takeaways 14 Oct; NFL.com Week 6 report · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo Giants injury round-up 18 Oct: Newsome, Thomas, Mooney — no Likely injury","vsProjection":{"tag":"Upside, not priced.","text":"Johnson was ruled out on Friday's report, after the projection. Believe 14.8 as a floor."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"14.8, TE4 and the only tight end. Winston starting was priced; Theo Johnson's Friday ruling-out came after the projection, so it was upside, not priced. 11 targets, 23.9 (archive) — consistent with that, and one week. Nothing changes it.","matchupGrade":"22nd vs TE (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"},"4432577":{"deck":"Final 23.0 on the bench; the Week 7 starter.","reason":"Final; three touchdowns in London","flags":[],"availability":"ACTIVE — not on the inactive list for London (Jaguars.com / HoustonTexans.com, 18 Oct)","role":"Pass attempts 38, 55, 27, 31, 34; 19.9 in Week 5 (archive)","competition":null,"passer":null,"checked":"NFL.com Week 6 report; Sharp HOU-JAX preview (two straight 20-point games; HOU implied 20) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Sky Sports / Yahoo 18 Oct: 'excellent day' in London; Houston's only listed injury Blankenship (NFL.com) — no change. Houston bye Week 8","vsProjection":null,"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"14.7, 4.2 behind Daniels — a projection gap, so he sat. 23.0 (archive) does not override the projection; the call is graded on Monday's result. Starts in Week 7 while Washington are off.","matchupGrade":null},"4683062":{"deck":"Final 14.3 on 7 targets, healthy. Week 7 depth with Rice out.","reason":"Final; 100% catch rate with Thornton and Rice out","flags":["VACATED"],"availability":"ACTIVE — not on Kansas City's final report","role":"Targets 6, 7, 2, 7, - (archive); led Kansas City in routes in Week 4, 85% route rate (DraftSharks 5 Oct)","competition":"Rice OUT; Thornton dislocated an ankle, likely season-ending (DraftSharks 5 Oct). VACATED answered: ~9 targets a week open; Kelce active","passer":"Patrick Mahomes, full all week (knee), no game status (Chiefs.com)","checked":"Chiefs.com report 16 Oct (Rice OUT; Mahomes no status); DraftSharks 5 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker 18 Oct: 100% catch rate, 73 yards, stepping up for Thornton; no Worthy injury. Rice and Thornton both still hurt","vsProjection":{"tag":"Priced.","text":"Rice was ruled out Friday and has been absent since Week 4; the 11.1 already assumes it."},"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"11.1, 2.5 behind Pickens — benched on a projection gap. Rice out was priced. Final 14.3; one week does not override the projection.","matchupGrade":null},"4373626":{"deck":"A watch, not a claim: Knight out-gained him today.","reason":"Wire; 18 carries for 5.8, Knight 15 for 80","flags":["VACATED"],"availability":"ACTIVE — no designation; on IPADE waivers until Wed 21 Oct 01:00 CDMX","role":"18 carries and 2 targets for 5.8 in Week 6, to Bam Knight's 15 carries for 80 (archive; NBC 19 Oct); 55% share on the screen with Love out","competition":"Jeremiyah Love OUT (ankle), re-evaluated daily, 'no discussion of IR' (TSN 16 Oct)","passer":"Jacoby Brissett","checked":"Fantasy Footballers 16 Oct; TSN 16 Oct; ESPN activity feed (dropped 07:55Z) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Sports 19 Oct 00:33Z: Knight 'outplays Allgeier, possibly gets hurt'; Love OUT with no IR plan (4for4 16 Oct)","vsProjection":{"tag":"Priced.","text":"Love was ruled out Friday; 12.4 already reflects the lead role."},"verdict":"WATCH","trigger":null,"fallback":null,"drop":"Rashee Rice","addif":"Love placed on IR and Allgeier keeps 60%+ of Arizona's backfield work","logic":"Not rostered. 18 carries for 5.8 with Knight 15 for 80 (NBC 19 Oct; archive). Love has no IR plan and IPADE priority never resets — a patch is not worth it. ADD only if Love goes on IR and Knight is ruled out.","matchupGrade":null}},"screenInjured":["AJ Dillon","Adonai Mitchell","Alec Pierce","Ashton Dulin","Baker Mayfield","Ben Skowronek","Breece Hall","Carson Steele","David Montgomery","David Sills","De'Von Achane","Dillon Gabriel","Dylan Sampson","Jacory Croskey-Merritt","Jalen Hurts","Jaxson Dart","Jayden Reed","Jeremiyah Love","Jordyn Tyson","Josh Jacobs","Kyle Monangai","Ladd McConkey","Lamar Jackson","Marcus Mariota","Michael Pittman Jr.","Quinshon Judkins","Rashee Rice","Roman Wilson","Romeo Doubs","Saquon Barkley","Sean Tucker","Skyy Moore","Tank Dell","Theo Johnson","Travis Etienne Jr.","Tre Harris","Tyler Warren","Tyquan Thornton","Will Shipley","Zach Charbonnet"],"screen":[{"playerId":4362619,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: 12 touches in London, but Tuten led with a touchdown and two touchdown catches (AP 18 Oct; archive). Jacksonville are on bye in Week 7.","falsifiedIf":"Rodriguez out-touches Tuten again in Week 8.","drop":null},{"playerId":4722893,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer (pass 2 now includes the live Week 6 partial): Judkins inactive with the ankle (Washington Times 18 Oct); McLaughlin and Estime split the work — 4 and 3 touches about an hour in. A one-week patch while Judkins is day to day.","falsifiedIf":"Judkins misses Week 7 as well and McLaughlin takes 15+ touches today.","drop":null},{"playerId":4695404,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: Breece Hall inactive (quad, NESN pregame 18 Oct; week-to-week per Yahoo 13 Oct). Davis's share is a partial-game number with Hall out.","falsifiedIf":"Hall ruled out for Week 7 and Davis over 15 touches today.","drop":null},{"playerId":4569682,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: the other half of Cleveland's split with Judkins inactive (Washington Times 18 Oct); signed this week as cover (Yahoo 13 Oct). 3 touches so far.","falsifiedIf":"Judkins out beyond Week 7 and Estime leads the split.","drop":null},{"playerId":4599739,"verdict":"PASS","reason":"Re-checked tonight: 20 carries for 70 and the lead role over Kamara (NBC 18 Oct). Real, but 9.0 points and a waiver claim; Taylor, Jacobs and Gordon cover the backs. PASS.","falsifiedIf":"Kamara ruled out for Week 7 and Miller 15+ touches today.","drop":null},{"playerId":4685261,"verdict":"PASS","reason":"Re-checked tonight: 11 catches for 87 and the overtime winner (Buccaneers.com 18 Oct) as the every-down receiver with Pittman on IR (DraftSharks 12 Oct). Real role, but he would not start over Wilson, Golden or Pickens, and a claim spends never-resetting priority. PASS.","falsifiedIf":"6+ targets today and in Week 7.","drop":null},{"playerId":15818,"verdict":"PASS","reason":"Re-checked tonight: 8 of 11 for 82 with Tyler Warren out (NBC 18 Oct); would not start over Wilson, Golden or Pickens. PASS.","falsifiedIf":"Warren misses Week 7 too and Allen draws 8+ targets today.","drop":null},{"playerId":2977187,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: 10 targets on Thursday from a 51-attempt overtime loss to Denver (Fox13 15 Oct) — script volume, not a vacated role.","falsifiedIf":"8+ targets again on under 40 Darnold attempts in Week 7.","drop":null},{"playerId":4569559,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: Olave questionable with an illness (NFL.com); Vele went 4 for 26 in Week 5 (NBC 11 Oct). No durable change.","falsifiedIf":"Olave out and Vele 8+ targets today.","drop":null},{"playerId":4241463,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: no cause found — Cleveland's QB room is thin (Gabriel OUT, NFL.com) and his share is a partial-game number. A spike with no identified reason is a pass.","falsifiedIf":"A reported role change or 8+ targets today.","drop":null},{"playerId":3117256,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: 6 touches in London with Tank Dell out and Higgins lost for the season (Yahoo 13 Oct). A second tight end has no route into Chem's lineup; in IPADE Likely is the starter.","falsifiedIf":"6+ targets a game through Week 8.","drop":null},{"playerId":4430802,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: Freiermuth questionable with the calf (NFL.com), 2 touches so far. A blocking tight end's share.","falsifiedIf":"Freiermuth out and Washington 5+ targets in Week 7.","drop":null},{"playerId":4360248,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: Penix active after the ribs (Yahoo live, Bears-Falcons 18 Oct); 2 touches so far, share flat. No role change found.","falsifiedIf":"6+ targets today with Penix healthy.","drop":null},{"playerId":4430539,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: 7 touches, 9.4 in London (archive). Jacksonville on bye in Week 7; the owner already moved off him in IPADE.","falsifiedIf":"7+ targets in Week 8.","drop":null},{"playerId":4723086,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: Caleb Williams cleared to return (NBC 17 Oct), which helps him; but the tight-end seat changed hands four times since 3 Oct and Likely starts.","falsifiedIf":"Likely hurt, or Loveland 7+ targets in two straight games with Williams.","drop":null},{"playerId":4360310,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: four touchdowns in London (AP 18 Oct), but Jacksonville share Daniels's Week 7 bye, so he cannot cover the week that needs a quarterback.","falsifiedIf":"Not applicable for Week 7; revisit only if Daniels is hurt.","drop":null},{"playerId":4426338,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: 17 of 27 for 107 on Thursday (carried from Friday's research); not a starter here.","falsifiedIf":"Two straight 20-point games.","drop":null},{"playerId":4685201,"verdict":"PASS","reason":"Carried from the 12:20 run, no new reporting: Newcomer: first start of the season with Hurts on IR (calf) (Eagles.com 18 Oct). A fill-in; quarterback is covered in both leagues.","falsifiedIf":"Hurts out beyond Week 8 and McKee scores 18+ today.","drop":null},{"playerId":4373626,"verdict":"WATCH","reason":"Re-checked tonight: 18 carries for 5.8 while Bam Knight ran 15 for 80 (NBC 19 Oct 00:33Z); Love OUT, no IR plan. IPADE priority never resets — WATCH, not CLAIM.","falsifiedIf":"He goes unclaimed and scores over 15 a game in Weeks 7-8 as Arizona's lead back.","drop":"Rashee Rice"},{"playerId":4427728,"verdict":"PASS","reason":"Re-checked tonight: out-gained Allgeier, 15 for 80 (NBC 19 Oct), but 'possibly hurt' and a handcuff with Love due back; IPADE has Jacobs and Gordon for Week 7. PASS.","falsifiedIf":"Love goes on IR and Knight leads Arizona's backfield.","drop":null},{"playerId":4426386,"verdict":"PASS","reason":"Re-checked tonight: 13 carries, 51 yards, a touchdown and a lost fumble; Swift 16 carries and two touchdowns (Bears.com 18 Oct). A split back is not worth never-resetting priority. PASS.","falsifiedIf":"He out-touches Swift in two straight games.","drop":null},{"playerId":4427095,"verdict":"PASS","reason":"Newcomer: Doubs left with a shoulder injury, ruled out (CBS tracker 18 Oct); severity unknown, and Douglas would not start over Wilson, Golden or Pickens.","falsifiedIf":"Doubs is ruled out for Week 7 and Douglas draws 8+ targets.","drop":null},{"playerId":4870653,"verdict":"PASS","reason":"Newcomer: 8, 1 and 8 touches — a rookie's volatile role with Shedeur Sanders (ClutchPoints); would not start here.","falsifiedIf":"Two straight games at 8+ targets.","drop":null},{"playerId":4723820,"verdict":"PASS","reason":"Newcomer: back from IR this week (NewYorkJets.com 16 Oct); 22.3 on 7 touches is efficiency, not volume.","falsifiedIf":"7+ targets again in Week 7.","drop":null},{"playerId":4429086,"verdict":"PASS","reason":"Newcomer: Bowers healthy and active; Mayer is the complement (Raiders.com). Likely is the tight end and not on bye in Week 7.","falsifiedIf":"Bowers misses time.","drop":null},{"playerId":4242557,"verdict":"PASS","reason":"Newcomer: four touches as the Rams' 13-personnel tight end; not a starter here.","falsifiedIf":"Six-plus targets in two straight games.","drop":null},{"playerId":4596472,"verdict":"PASS","reason":"Newcomer: Tampa Bay's fill-in with Mayfield out (RotoBaller; Covers). Stroud covers Week 7, so a quarterback claim buys nothing.","falsifiedIf":"Stroud is hurt before Week 7.","drop":null},{"playerId":4595342,"verdict":"PASS","reason":"Newcomer: the Chargers' TE1 (RotoBaller) with McConkey concussed (NFL.com 18 Oct), but 4.7 in a 22-6 loss and a Week 7 bye; Likely is the tight end here.","falsifiedIf":"Six-plus targets a game after the bye — then a flex-eligible tight end is worth a look.","drop":null},{"playerId":5082630,"verdict":"PASS","reason":"Newcomer: 4 touches for 4.4 with Rice and Thornton both out; Worthy took the vacated lead role with a perfect catch rate (Yardbarker 18 Oct). A 17% share behind Worthy and Kelce; he would not start over Wilson, Golden or Pickens, and a claim spends never-resetting priority.","falsifiedIf":"Royals draws 6+ targets in Week 7 with Rice still out — then the vacated role is his, not Worthy's.","drop":null}],"unpriced":{},"notes":{"cannotSee":[{"label":"Inactives","body":"Washington's list comes Monday at 16:45 CDMX; this brief cannot reflect it, and no bench quarterback could replace Daniels anyway."},{"label":"Live games","body":"Dallas at Green Bay was in progress at the 01:50Z snapshot: Golden's 17.1 and Pickens's 2.6 are partials, and nothing here grades a call on them."},{"label":"Matchup grades","body":"No current points-allowed table was retrieved; grades are Tuesday's FootballDB read, carried and labelled. Kicker, defence and unread matchups are marked not researched."},{"label":"Week 7","body":"Washington, Jacksonville, Buffalo and the Chargers are on bye: Daniels and Tuten here. Week 7 projections do not exist yet; Jacobs's first-game workload is unknown."},{"label":"Rival claims","body":"Invisible: ESPN returns only this team's pending claims."},{"label":"Stale results rejected","body":"This run rejected an SI Garrett Wilson 'out for Week 7' knee item (Oct 2025) and a Newsweek Packers-Cowboys injury item (Sept 2025), both surfaced by Week 6 queries."}],"sources":"Built from 26 searches and 24 fetches this run (both leagues) · ESPN league files (01:50Z) and Week 6 live archive (01:05Z) · NFL.com Sunday Week 6 injuries 18 Oct · NBC Sports 18-19 Oct (Knight, Packers inactives, Kendre Miller, Keenan Allen, Judkins) · Yahoo 19 Oct 00:57Z (Pickens) · SI 18 Oct (Jacobs) · Yahoo Bills-Raiders 18 Oct · Bears.com · Buccaneers.com · NewYorkJets.com · Eagles.com · AtoZ Sports (Coker) · Yardbarker (Chiefs, Patriots, Dolphins) · Fantasy Nerds 18 Oct (Vikings) · SI Commanders final report 17 Oct · earlier runs' reads, marked carried"}}
+{
+"lead":{
+"kicker":"SUNDAY NIGHT · IPADE · WEEK 6",
+"headline":"Rice is out again — but Bloodsports have their first win locked, 131.8 to 88.62",
+"deck":"Golden (22.4) and Pickens (13.3) finished last night; Daniels plays Monday with nothing left to decide.",
+"byline":"Fantasy Brief",
+"dateline":"MEXICO CITY, Monday morning —",
+"body":"Start with the bad news. Rashee Rice missed a second straight week with no return date, Garrett Wilson finished 8.4 on six targets, and C.J. Stroud's 23.0 sat on the bench. It did not matter: Tuten (24.7), Likely (23.9), Golden (22.4) and Taylor (21.1) put Bloodsports at 131.8 against a finished 88.62, and Daniels still plays Monday. Two calls closed right overnight — Golden over Tate by 3.4, and the Pickens claim over Josh Downs. Week 7: Daniels and Tuten are on bye; Stroud starts at quarterback and Josh Jacobs, reinstated today, competes with Gordon for Tuten's slot on Tuesday's projection. The Giants have not named Likely's Week 7 quarterback.",
+"players":[
+{
+"playerId":4428331,
+"caption":"Rice — out again, no timeline"
+},
+{
+"playerId":4701936,
+"caption":"Golden — 22.4 on 13 targets"
+}
+]
+},
+"doFirst":{
+"headline":"Nothing to set today — one move after Monday night",
+"deck":"Week 6 is decided. When Week 7 opens, Stroud replaces Daniels.",
+"note":"Do not claim Allgeier — priority never resets and Knight is healthy. Do not reclaim Lawrence or Strange.",
+"empty":"Nothing left to decide in Week 6: the lead cannot be lost.",
+"cards":[
+{
+"id":"w7-qb-bye-plan",
+"kind":"byePlan",
+"week":7,
+"playerId":null,
+"headline":"Week 7: Daniels and Tuten are off — Stroud starts",
+"reason":"Washington and Jacksonville share the bye. Stroud (Houston, bye Week 8) is on the roster; Jacobs is reinstated today and Gordon is Miami's lead back. Confirm on Tuesday's projections.",
+"rows":[
+[
+"QB",
+"C.J. Stroud"
+]
+]
+}
+]
+},
+"roster":{
+"deck":"The lineup as set is the projection lineup, 128.1; only Daniels is left, he has no designation, and no bench quarterback is unplayed, so no contingency exists."
+},
+"wire":{
+"headline":"Nothing to claim — Allgeier is a watch, not a claim",
+"deck":"Knight out-gained Allgeier and was only cramping; IPADE priority never resets. The rest of the screen is one-week vacancies.",
+"candidates":[
+4373626
+]
+},
+"players":{
+"4242335":{
+"deck":"Final 21.1 on 21 carries.",
+"reason":"Final; 21 carries against Tennessee",
+"flags":[
+"ROLE_DOWN"
+],
+"availability":"ACTIVE — not on Indianapolis's report (NFL.com: Dulin OUT, Tyler Warren and Mallory Q)",
+"role":"Carries 19, 24, 23, 20, 15 — 75% of the backfield in Week 5 (archive); 15 carries in a game the Colts trailed and threw 44 times (DraftSharks 12 Oct)",
+"competition":"Seth McGowan 25%+ of snaps two weeks running; DJ Giddens active for the first time in Week 5 (DraftSharks 12 Oct). ROLE_DOWN answered: script plus a third back, not a demotion",
+"passer":"Daniel Jones; Ashton Dulin OUT",
+"checked":"NFL.com Week 6 report; Titans.com report (Spears Q); DraftSharks 12 Oct — no change · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC 18 Oct: Colts lost to Tennessee; Sauce Gardner the Colts' listed exit (NFL.com) — no Taylor injury · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): 21 carries to McGowan's 4 (archive); no injury reported (NBC 18 Oct)",
+"vsProjection":{
+"tag":"Priced.",
+"text":"McGowan's rise is in the archive the projection uses; 19.6 already reflects it. Tyler Warren's inactive (18 Oct) came after it — a short-yardage carrier removed, small upside."
+},
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"19.6, RB7, the top back here by far. McGowan's share was known and priced. 21 carries and 4 targets (archive). Nothing changes it.",
+"matchupGrade":"16th vs RB (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"4882093":{
+"deck":"Final 24.7 on three touchdowns; on bye in Week 7.",
+"reason":"Final; led the backfield in London",
+"flags":[
+"ROLE_UP"
+],
+"availability":"ACTIVE — not on the inactive list for London (Jaguars.com / HoustonTexans.com, 18 Oct)",
+"role":"Carries 15, 13, 15, 17, 22 — 92% of the backfield in Week 5 (archive)",
+"competition":"Chris Rodriguez Jr. active, 8% of Week 5 carries; fumbled his goal-line chance (Sharp 14 Oct). ROLE_UP answered: Rodriguez lost work, not injured",
+"passer":"Trevor Lawrence",
+"checked":"NFL.com Week 6 report; Sharp HOU-JAX preview 14 Oct (JAX -2.5, total 42.5; Houston 4th in yards per carry allowed) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NFL.com Sunday injuries: Jaguars' only listed exit was S Antonio Johnson — no change. Jacksonville bye Week 7 · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Rodriguez 11 carries to Tuten's 12 (archive); no Jaguars injury (Jaguars.com 18 Oct)",
+"vsProjection":null,
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"12.7 with no eligible alternative — Gordon on bye, Jacobs ineligible. Rodriguez's lost work was priced. 24.7 came on three touchdowns — efficiency, not a forecast. Week 7 bye.",
+"matchupGrade":"5th vs RB (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"4569618":{
+"deck":"Final 8.4. No injury reported.",
+"reason":"Final; Patriots 26-19",
+"flags":[
+"ROLE_UP",
+"RIVAL_QUESTIONABLE"
+],
+"availability":"ACTIVE — not on the Jets' final report",
+"role":"Targets 7, 7, 13, 4, 11 — 44% of the Jets' targets in Week 5 (archive). ROLE_UP answered: Mitchell (finger) and Hall are OUT again, so the share holds",
+"competition":"Kenyon Sadiq QUESTIONABLE (concussion; full Friday — Fantasy Footballers); Adonai Mitchell OUT (carried). RIVAL_QUESTIONABLE answered: Sadiq likely plays. ROLE_UP answered: 44% of targets in Week 5 with Mitchell out — description, priced. Gonzalez expected back (NewYorkJets.com 18 Oct)",
+"passer":"Geno Smith, starting (NewYorkJets.com preview)",
+"checked":"NFL.com Week 6 report; NewYorkJets.com preview — no change · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NewYorkJets.com recap 18 Oct: no Wilson injury mentioned. An SI 'Wilson knee, out Week 7' item is dated Oct 2025 — rejected · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): TSN/ESPN 18 Oct: frustrated, 6 targets, no injury",
+"vsProjection":{
+"tag":"Priced.",
+"text":"Mitchell's procedure (15 Oct) and Sadiq's Friday questionable tag are a day old and in the 14.8; believe it."
+},
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"14.8, 3.7 above Worthy (11.1) — a projection gap. No unpriced news. 6 targets (archive). Changes on a practice report, not the score.",
+"matchupGrade":"13th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"4426354":{
+"deck":"Final 13.3 on 11 targets; healthy.",
+"reason":"Final; 11 targets, Lamb drew 18",
+"flags":[
+"ROLE_UP"
+],
+"availability":"ACTIVE — not on Dallas's report; CeeDee Lamb (thigh/quad) full all week and off the final report (Packers.com 15 Oct; NFL.com)",
+"role":"Targets 6, 8, 11, 3, 13 — 37% in Week 5 (archive)",
+"competition":"Lamb returns: Week 5's 13 targets came with Lamb out (Sharp 14 Oct). ROLE_UP answered: the share spike was Lamb's absence; it shrinks back this week, and the projection already has Lamb active",
+"passer":"Dak Prescott, not on the report",
+"checked":"NFL.com Week 6 report; Packers.com joint report 15 Oct; Sharp DAL-GB preview (GB 25th vs outside receivers) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo 19 Oct 00:57Z: 'healthy and active, he just hasn't been targeted yet through two drives'; Turpin questionable to return (rib, NFL.com). 2.6 at the snapshot · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Packers.com 18 Oct: 6-73 on 11 targets; Dallas injuries Turpin and Winters only (DallasCowboys.com)",
+"vsProjection":null,
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"13.6 in the flex was the projection lineup; no unpriced news. Result 13.3, on projection — a slow start, not a role change: 11 targets with Lamb healthy.",
+"matchupGrade":"10th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"4701936":{
+"deck":"Final 22.4 on 13 targets; beat Tate.",
+"reason":"Final; 6 for 104 and a touchdown over Dallas",
+"flags":[
+"VACATED"
+],
+"availability":"ACTIVE — not on Green Bay's report (NFL.com)",
+"role":"Targets 12, 6, 12, 7, 7 — 30% in Week 5 (archive)",
+"competition":"Christian Watson (6 TDs, NFL lead in end-zone targets) and Tucker Kraft active; Jayden Reed on IR — VACATED answered: ~1 target a week, nothing material (Sharp 14 Oct)",
+"passer":"Jordan Love, not on the report",
+"checked":"NFL.com Week 6 report; Sharp DAL-GB preview 14 Oct (Dallas 29th in points per target to WRs; GB -1.5, implied 27) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Packers inactives 18 Oct 22:54Z — Golden active; 17.1 in progress at the snapshot, no injury reported · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Packers.com 18 Oct: 6-104-1, no injury",
+"vsProjection":null,
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"15.7 against Tate's 11.9 — a 4.2 projection gap, not a coin flip; no unpriced news. Result 22.4 to 19: the projection's call won by 3.4.",
+"matchupGrade":"25th vs WR (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"-16017":{
+"deck":"Final, 6. Held over a coin-flip stream.",
+"reason":"Final; two sacks, two fourth-down stops",
+"flags":[],
+"availability":"Jets: Geno Smith starts; Hall, Mitchell OUT, Sadiq Q. Patriots: Davis, Prunty OUT; Gonzalez likely back",
+"role":null,
+"competition":null,
+"passer":null,
+"checked":"NFL.com Week 6 report; NewYorkJets.com preview (Patriots 4th in points allowed). Best free: Rams D/ST 7.7 against 7.4 — coin flip; the seat is closed until 22 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker Patriots recap 18 Oct: two sacks, an interception, a forced fumble — no change · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Thursday night at Chicago in Week 7 (98.5 Sports Hub 18 Oct)",
+"vsProjection":null,
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"7.4 against the Rams' 7.7 — a coin flip, so the incumbent held. 6 final (archive).",
+"matchupGrade":null
+},
+"4249087":{
+"deck":"Final 12, 1.4 above projection; beat Myers by 5.",
+"reason":"Final 12; beat Myers by 5",
+"flags":[],
+"availability":"ACTIVE — not on Las Vegas's report (NFL.com)",
+"role":null,
+"competition":null,
+"passer":null,
+"checked":"NFL.com Week 6 report; Sharp BUF-LV preview (LV implied 24.25; Raiders 9th in points per game). Best free kicker Blake Grupe 9.7 against 10.6 — hold · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo Bills-Raiders 18 Oct: 33-30; Gay's onside attempt went long — no injury. Myers 7 final (archive): the owner's swap won by 5 · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): carried — no new item",
+"vsProjection":null,
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"10.6, above every free kicker (Grupe 9.7, hurt today). Final 12. The owner's swap from Myers won by 5 and closes RIGHT.",
+"matchupGrade":null
+},
+"4428331":{
+"deck":"Out again, no return date. Tuesday decides whether he is the drop when a Week 7 need arises.",
+"reason":"Inactive; hamstring and knee",
+"flags":[
+"OWN_OUT",
+"ROLE_UP"
+],
+"availability":"OUT — hamstring and knee (Chiefs.com Friday report; NFL.com)",
+"role":"Targets 2, 6, 9, -, - (archive)",
+"competition":"Xavier Worthy and Travis Kelce; Thornton on IR",
+"passer":"Patrick Mahomes",
+"checked":"Chiefs.com report 16 Oct; NFL.com Week 6 report. OWN_OUT and ROLE_UP answered: the Week 3 spike is irrelevant while he cannot play; Reid: \"a week, could be two\" (carried) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Sports 18 Oct: inactive for Week 6 (hamstring); Yardbarker: still injured, no timeline reported · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): NBC 18 Oct: inactive; no timeline as of Monday morning",
+"vsProjection":null,
+"verdict":"BENCH",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"0.0, out for a second week. No return date reported. Hold this week; Tuesday decides whether he is the drop when a Week 7 need arises.",
+"matchupGrade":null
+},
+"4711533":{
+"deck":"On bye; Week 7 cover for Tuten.",
+"reason":"Bye; Miami's lead back",
+"flags":[
+"ROLE_UP",
+"VACATED"
+],
+"availability":"ACTIVE — Miami on bye",
+"role":"Carries -, 3, 17, 9, 18 — 75% of Miami's backfield in Week 5 (archive)",
+"competition":"Jaylen Wright 25%; Achane on IR",
+"passer":"Malik Willis",
+"checked":"Miami on bye; RotoBaller Week 6 item frames him as the lead back (body not retrievable — thin). ROLE_UP and VACATED answered: Achane on IR (CBS12, carried) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker 18 Oct 14:01 ET: Gordon the clear lead back; Willis starts — no change · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): carried",
+"vsProjection":null,
+"verdict":"BENCH",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"0.0 on bye. Lead back with Achane on IR (Yardbarker 18 Oct); Week 7 candidate for Tuten's slot with Jacobs.",
+"matchupGrade":null
+},
+"4047365":{
+"deck":"Inactive in Week 6; reinstated today, expected to start Week 7.",
+"reason":"Reinstated today; eligible at Detroit in Week 7",
+"flags":[
+"OWN_QUESTIONABLE"
+],
+"availability":"Not eligible this week — comes off the Commissioner's Exempt List on 19 Oct, eligible for Week 7 at Detroit on 25 Oct (Washington Post 16 Oct; Athlon 17 Oct). ESPN's DAY_TO_DAY is the label for that",
+"role":"No snaps in 2026; Green Bay's backfield has been MarShawn Lloyd (59% of carries in Week 5) and Kaleb Johnson (41%) (archive)",
+"competition":"MarShawn Lloyd 44% of snaps, Pierre Strong 41% on passing downs (Sharp 14 Oct); Jacobs may not get a full workload at once (Bukowski via Athlon 17 Oct)",
+"passer":"Jordan Love",
+"checked":"Athlon 17 Oct; Washington Post 16 Oct. OWN_QUESTIONABLE answered: not an injury — eligibility. The NFL's review continues and could add discipline (Athlon) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): SI 18 Oct: inactive tonight, removed from the Commissioner's Exempt List Monday; Pelissero: returns immediately as the starter in Week 7; Schefter: the league may still add discipline · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Fantasy Alarm 16 Oct: off the list today, eligible Week 7, split with Lloyd at first; probe open",
+"vsProjection":{
+"tag":"Priced.",
+"text":"ESPN's 0.0 is right for this week; Week 7's number does not exist yet."
+},
+"verdict":"BENCH",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"0.0, inactive. Off the exempt list Monday; expected to return immediately as the starter (SI 18 Oct) — news Week 7's projection will price. The conduct review could still add games.",
+"matchupGrade":null
+},
+"4426348":{
+"deck":"Starts Monday at San Francisco; on bye in Week 7.",
+"reason":"No designation; Mariota OUT behind him",
+"flags":[],
+"availability":"ACTIVE — left elbow, full Thursday, Friday and Saturday; no designation (Commanders.com game status 17 Oct)",
+"role":"Pass attempts 34, 17, -, -, 25; carries 5, 7, -, -, 9 (archive)",
+"competition":null,
+"passer":null,
+"checked":"Commanders.com game status 17 Oct (Mariota OUT, Croskey-Merritt OUT, Diggs Q); RotoWire 17 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): SI Commanders final report 17 Oct: not listed; Diggs questionable; Mariota and Croskey-Merritt OUT. Inactives Mon 16:45 CDMX — no change · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): Covers 19 Oct: WSH +7.5; no designation; inactives 16:45 CDMX",
+"vsProjection":{
+"tag":"Priced.",
+"text":"The clearance matches the 18.9 ESPN carries."
+},
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"18.9, QB6, 4.2 above Stroud (14.7) — a projection gap. Cleared after full practices: priced. Plays Monday night with the week already decided; only Washington's 16:45 inactive list could change it, and it could not be covered. Week 7: Washington bye, Stroud starts.",
+"matchupGrade":null
+},
+"4361050":{
+"deck":"Final 23.9. Healthy.",
+"reason":"Final; Theo Johnson out",
+"flags":[
+"QB_CHANGE"
+],
+"availability":"ACTIVE — foot, full Wednesday to Friday, no designation (Giants.com report 16 Oct)",
+"role":"Targets 8, 10, 5, 12, 13 — 25% of the Giants' targets in Week 5 (archive)",
+"competition":"Theo Johnson OUT (neck) — the other tight end is gone",
+"passer":"Unsettled: Winston benched for J.J. McCarthy; Week 7 starter not named (Yahoo 19 Oct)",
+"checked":"Giants.com report 16 Oct; Giants.com takeaways 14 Oct; NFL.com Week 6 report · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yahoo Giants injury round-up 18 Oct: Newsome, Thomas, Mooney — no Likely injury · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): CBS 18 Oct: 99 yards and a TD from McCarthy; Week 7 QB undecided (Yahoo 19 Oct)",
+"vsProjection":{
+"tag":"Not priced.",
+"text":"The quarterback change came mid-game and Week 7's projection is not set; his target share held with both passers."
+},
+"verdict":"START",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"14.8, TE4 and the only tight end. Winston starting was priced; Theo Johnson's Friday ruling-out came after the projection, so it was upside, not priced. 11 targets, 23.9 (archive) — consistent with that, and one week. Nothing changes it.",
+"matchupGrade":"22nd vs TE (FootballDB points allowed, standard scoring, through Wk 5 — read Tue 13 Oct by an earlier run, not re-read; none of these defences has played since)"
+},
+"4432577":{
+"deck":"Final 23.0 on the bench; the Week 7 starter.",
+"reason":"Final; three touchdowns in London",
+"flags":[],
+"availability":"ACTIVE — not on the inactive list for London (Jaguars.com / HoustonTexans.com, 18 Oct)",
+"role":"Pass attempts 38, 55, 27, 31, 34; 19.9 in Week 5 (archive)",
+"competition":null,
+"passer":null,
+"checked":"NFL.com Week 6 report; Sharp HOU-JAX preview (two straight 20-point games; HOU implied 20) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Sky Sports / Yahoo 18 Oct: 'excellent day' in London; Houston's only listed injury Blankenship (NFL.com) — no change. Houston bye Week 8 · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): no Houston injury touching Stroud — carried",
+"vsProjection":null,
+"verdict":"BENCH",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"14.7, 4.2 behind Daniels — a projection gap, so he sat. 23.0 (archive) does not override the projection; the call is graded on Monday's result. Starts in Week 7 while Washington are off.",
+"matchupGrade":null
+},
+"4683062":{
+"deck":"Final 14.3 on 7 targets, healthy. Week 7 depth with Rice out.",
+"reason":"Final; 100% catch rate with Thornton and Rice out",
+"flags":[
+"VACATED"
+],
+"availability":"ACTIVE — not on Kansas City's final report",
+"role":"Targets 6, 7, 2, 7, - (archive); led Kansas City in routes in Week 4, 85% route rate (DraftSharks 5 Oct)",
+"competition":"Rice OUT; Thornton dislocated an ankle, likely season-ending (DraftSharks 5 Oct). VACATED answered: ~9 targets a week open; Kelce active",
+"passer":"Patrick Mahomes, full all week (knee), no game status (Chiefs.com)",
+"checked":"Chiefs.com report 16 Oct (Rice OUT; Mahomes no status); DraftSharks 5 Oct · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): Yardbarker 18 Oct: 100% catch rate, 73 yards, stepping up for Thornton; no Worthy injury. Rice and Thornton both still hurt · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): carried; exposure-protected",
+"vsProjection":{
+"tag":"Priced.",
+"text":"Rice was ruled out Friday and has been absent since Week 4; the 11.1 already assumes it."
+},
+"verdict":"BENCH",
+"trigger":null,
+"fallback":null,
+"drop":null,
+"addif":null,
+"logic":"11.1, 2.5 behind Pickens — benched on a projection gap. Rice out was priced. Final 14.3; one week does not override the projection.",
+"matchupGrade":null
+},
+"4373626":{
+"deck":"A watch, not a claim: Knight out-gained him today.",
+"reason":"Wire; 18 carries for 5.8, Knight 15 for 80",
+"flags":[
+"VACATED"
+],
+"availability":"ACTIVE — no designation; on IPADE waivers until Wed 21 Oct 01:00 CDMX",
+"role":"18 carries and 2 targets for 5.8 in Week 6, to Bam Knight's 15 carries for 80 (archive; NBC 19 Oct); 55% share on the screen with Love out",
+"competition":"Jeremiyah Love OUT (ankle), re-evaluated daily, 'no discussion of IR' (TSN 16 Oct)",
+"passer":"Jacoby Brissett",
+"checked":"Fantasy Footballers 16 Oct; TSN 16 Oct; ESPN activity feed (dropped 07:55Z) · Re-checked 02:05-02:40Z Mon (Sun 20:05 CDMX; 01:50Z snapshot): NBC Sports 19 Oct 00:33Z: Knight 'outplays Allgeier, possibly gets hurt'; Love OUT with no IR plan (4for4 16 Oct) · Re-checked Mon 19 Oct 07:00 CDMX run (12:50Z snapshot): azcardinals.com 18 Oct: Knight's exit was cramps; he returns to third back when Love is ready",
+"vsProjection":{
+"tag":"Priced.",
+"text":"Love was ruled out Friday; 12.4 already reflects the lead role."
+},
+"verdict":"WATCH",
+"trigger":null,
+"fallback":null,
+"drop":"Rashee Rice",
+"addif":"Love placed on IR and Allgeier keeps 60%+ of Arizona's backfield work",
+"logic":"Not rostered. 18 carries for 5.8 with Knight 15 for 80 (NBC 19 Oct; archive). Love has no IR plan and IPADE priority never resets — a patch is not worth it. ADD only if Love goes on IR and Knight is ruled out.",
+"matchupGrade":null
+}
+},
+"screenInjured":[
+"AJ Dillon",
+"Adonai Mitchell",
+"Alec Pierce",
+"Ashton Dulin",
+"Baker Mayfield",
+"Ben Skowronek",
+"Breece Hall",
+"Carson Steele",
+"David Montgomery",
+"David Sills",
+"De'Von Achane",
+"Dillon Gabriel",
+"Dylan Sampson",
+"Jacory Croskey-Merritt",
+"Jalen Hurts",
+"Jaxson Dart",
+"Jayden Reed",
+"Jeremiyah Love",
+"Jordyn Tyson",
+"Kyle Monangai",
+"Ladd McConkey",
+"Lamar Jackson",
+"Marcus Mariota",
+"Michael Pittman Jr.",
+"Quinshon Judkins",
+"Rashee Rice",
+"Roman Wilson",
+"Romeo Doubs",
+"Saquon Barkley",
+"Sean Tucker",
+"Skyy Moore",
+"Tank Dell",
+"Theo Johnson",
+"Travis Etienne Jr.",
+"Tre Harris",
+"Tyler Warren",
+"Tyquan Thornton",
+"Will Shipley",
+"Zach Charbonnet"
+],
+"screen":[
+{
+"playerId":4362619,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: 12 touches in London, but Tuten led with a touchdown and two touchdown catches (AP 18 Oct; archive). Jacksonville are on bye in Week 7.",
+"falsifiedIf":"Rodriguez out-touches Tuten again in Week 8.",
+"drop":null
+},
+{
+"playerId":4722893,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer (pass 2 now includes the live Week 6 partial): Judkins inactive with the ankle (Washington Times 18 Oct); McLaughlin and Estime split the work — 4 and 3 touches about an hour in. A one-week patch while Judkins is day to day.",
+"falsifiedIf":"Judkins misses Week 7 as well and McLaughlin takes 15+ touches today.",
+"drop":null
+},
+{
+"playerId":4695404,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: Breece Hall inactive (quad, NESN pregame 18 Oct; week-to-week per Yahoo 13 Oct). Davis's share is a partial-game number with Hall out.",
+"falsifiedIf":"Hall ruled out for Week 7 and Davis over 15 touches today.",
+"drop":null
+},
+{
+"playerId":4569682,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: the other half of Cleveland's split with Judkins inactive (Washington Times 18 Oct); signed this week as cover (Yahoo 13 Oct). 3 touches so far.",
+"falsifiedIf":"Judkins out beyond Week 7 and Estime leads the split.",
+"drop":null
+},
+{
+"playerId":4599739,
+"verdict":"PASS",
+"reason":"Re-checked tonight: 20 carries for 70 and the lead role over Kamara (NBC 18 Oct). Real, but 9.0 points and a waiver claim; Taylor, Jacobs and Gordon cover the backs. PASS.",
+"falsifiedIf":"Kamara ruled out for Week 7 and Miller 15+ touches today.",
+"drop":null
+},
+{
+"playerId":4685261,
+"verdict":"PASS",
+"reason":"Re-checked tonight: 11 catches for 87 and the overtime winner (Buccaneers.com 18 Oct) as the every-down receiver with Pittman on IR (DraftSharks 12 Oct). Real role, but he would not start over Wilson, Golden or Pickens, and a claim spends never-resetting priority. PASS.",
+"falsifiedIf":"6+ targets today and in Week 7.",
+"drop":null
+},
+{
+"playerId":15818,
+"verdict":"PASS",
+"reason":"Re-checked tonight: 8 of 11 for 82 with Tyler Warren out (NBC 18 Oct); would not start over Wilson, Golden or Pickens. PASS.",
+"falsifiedIf":"Warren misses Week 7 too and Allen draws 8+ targets today.",
+"drop":null
+},
+{
+"playerId":2977187,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: 10 targets on Thursday from a 51-attempt overtime loss to Denver (Fox13 15 Oct) — script volume, not a vacated role.",
+"falsifiedIf":"8+ targets again on under 40 Darnold attempts in Week 7.",
+"drop":null
+},
+{
+"playerId":4569559,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: Olave questionable with an illness (NFL.com); Vele went 4 for 26 in Week 5 (NBC 11 Oct). No durable change.",
+"falsifiedIf":"Olave out and Vele 8+ targets today.",
+"drop":null
+},
+{
+"playerId":4241463,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: no cause found — Cleveland's QB room is thin (Gabriel OUT, NFL.com) and his share is a partial-game number. A spike with no identified reason is a pass.",
+"falsifiedIf":"A reported role change or 8+ targets today.",
+"drop":null
+},
+{
+"playerId":3117256,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: 6 touches in London with Tank Dell out and Higgins lost for the season (Yahoo 13 Oct). A second tight end has no route into Chem's lineup; in IPADE Likely is the starter.",
+"falsifiedIf":"6+ targets a game through Week 8.",
+"drop":null
+},
+{
+"playerId":4430802,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: Freiermuth questionable with the calf (NFL.com), 2 touches so far. A blocking tight end's share.",
+"falsifiedIf":"Freiermuth out and Washington 5+ targets in Week 7.",
+"drop":null
+},
+{
+"playerId":4360248,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: Penix active after the ribs (Yahoo live, Bears-Falcons 18 Oct); 2 touches so far, share flat. No role change found.",
+"falsifiedIf":"6+ targets today with Penix healthy.",
+"drop":null
+},
+{
+"playerId":4430539,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: 7 touches, 9.4 in London (archive). Jacksonville on bye in Week 7; the owner already moved off him in IPADE.",
+"falsifiedIf":"7+ targets in Week 8.",
+"drop":null
+},
+{
+"playerId":4723086,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: Caleb Williams cleared to return (NBC 17 Oct), which helps him; but the tight-end seat changed hands four times since 3 Oct and Likely starts.",
+"falsifiedIf":"Likely hurt, or Loveland 7+ targets in two straight games with Williams.",
+"drop":null
+},
+{
+"playerId":4360310,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: four touchdowns in London (AP 18 Oct), but Jacksonville share Daniels's Week 7 bye, so he cannot cover the week that needs a quarterback.",
+"falsifiedIf":"Not applicable for Week 7; revisit only if Daniels is hurt.",
+"drop":null
+},
+{
+"playerId":4426338,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: 17 of 27 for 107 on Thursday (carried from Friday's research); not a starter here.",
+"falsifiedIf":"Two straight 20-point games.",
+"drop":null
+},
+{
+"playerId":4685201,
+"verdict":"PASS",
+"reason":"Carried from the 12:20 run, no new reporting: Newcomer: first start of the season with Hurts on IR (calf) (Eagles.com 18 Oct). A fill-in; quarterback is covered in both leagues.",
+"falsifiedIf":"Hurts out beyond Week 8 and McKee scores 18+ today.",
+"drop":null
+},
+{
+"playerId":4373626,
+"verdict":"WATCH",
+"reason":"Re-checked Monday: 18 carries for 5.8 while Knight ran 15 for 80; Knight was cramping, not hurt (azcardinals.com 18 Oct). Love OUT with no timeline. IPADE priority never resets — WATCH, not CLAIM.",
+"falsifiedIf":"He goes unclaimed and scores over 15 a game in Weeks 7-8 as Arizona's lead back.",
+"drop":"Rashee Rice"
+},
+{
+"playerId":4427728,
+"verdict":"PASS",
+"reason":"Re-checked Monday: out-gained Allgeier, 15 for 80, and the exit was cramps, not an injury (azcardinals.com 18 Oct). Still a handcuff who goes back to third back when Love returns; IPADE has Jacobs and Gordon for Week 7. PASS.",
+"falsifiedIf":"Love goes on IR and Knight leads Arizona's backfield.",
+"drop":null
+},
+{
+"playerId":4426386,
+"verdict":"PASS",
+"reason":"Re-checked tonight: 13 carries, 51 yards, a touchdown and a lost fumble; Swift 16 carries and two touchdowns (Bears.com 18 Oct). A split back is not worth never-resetting priority. PASS.",
+"falsifiedIf":"He out-touches Swift in two straight games.",
+"drop":null
+},
+{
+"playerId":4427095,
+"verdict":"PASS",
+"reason":"Newcomer: Doubs left with a shoulder injury, ruled out (CBS tracker 18 Oct); severity unknown, and Douglas would not start over Wilson, Golden or Pickens.",
+"falsifiedIf":"Doubs is ruled out for Week 7 and Douglas draws 8+ targets.",
+"drop":null
+},
+{
+"playerId":4870653,
+"verdict":"PASS",
+"reason":"Newcomer: 8, 1 and 8 touches — a rookie's volatile role with Shedeur Sanders (ClutchPoints); would not start here.",
+"falsifiedIf":"Two straight games at 8+ targets.",
+"drop":null
+},
+{
+"playerId":4723820,
+"verdict":"PASS",
+"reason":"Newcomer: back from IR this week (NewYorkJets.com 16 Oct); 22.3 on 7 touches is efficiency, not volume.",
+"falsifiedIf":"7+ targets again in Week 7.",
+"drop":null
+},
+{
+"playerId":4429086,
+"verdict":"PASS",
+"reason":"Newcomer: Bowers healthy and active; Mayer is the complement (Raiders.com). Likely is the tight end and not on bye in Week 7.",
+"falsifiedIf":"Bowers misses time.",
+"drop":null
+},
+{
+"playerId":4242557,
+"verdict":"PASS",
+"reason":"Newcomer: four touches as the Rams' 13-personnel tight end; not a starter here.",
+"falsifiedIf":"Six-plus targets in two straight games.",
+"drop":null
+},
+{
+"playerId":4596472,
+"verdict":"PASS",
+"reason":"Newcomer: Tampa Bay's fill-in with Mayfield out (RotoBaller; Covers). Stroud covers Week 7, so a quarterback claim buys nothing.",
+"falsifiedIf":"Stroud is hurt before Week 7.",
+"drop":null
+},
+{
+"playerId":4595342,
+"verdict":"PASS",
+"reason":"Newcomer: the Chargers' TE1 (RotoBaller) with McConkey concussed (NFL.com 18 Oct), but 4.7 in a 22-6 loss and a Week 7 bye; Likely is the tight end here.",
+"falsifiedIf":"Six-plus targets a game after the bye — then a flex-eligible tight end is worth a look.",
+"drop":null
+},
+{
+"playerId":5082630,
+"verdict":"PASS",
+"reason":"Newcomer: 4 touches for 4.4 with Rice and Thornton both out; Worthy took the vacated lead role with a perfect catch rate (Yardbarker 18 Oct). A 17% share behind Worthy and Kelce; he would not start over Wilson, Golden or Pickens, and a claim spends never-resetting priority.",
+"falsifiedIf":"Royals draws 6+ targets in Week 7 with Rice still out — then the vacated role is his, not Worthy's.",
+"drop":null
+}
+],
+"unpriced":{},
+"notes":{
+"cannotSee":[
+{
+"label":"Monday night",
+"body":"Washington at San Francisco kicks off 18:15 CDMX; inactives at 16:45. Daniels's score lands after this brief and cannot change the result."
+},
+{
+"label":"Week 7 projections",
+"body":"They do not exist until the week rolls. Washington and Jacksonville are on bye: Daniels (Stroud covers) and Tuten (Jacobs or Gordon). Jacobs's first-game workload is a guess until Packers practice reports."
+},
+{
+"label":"Rice and the Giants",
+"body":"No timeline exists for Rashee Rice's hamstring; the Giants have not named a Week 7 quarterback for Likely."
+},
+{
+"label":"Matchup grades",
+"body":"No current points-allowed table was retrieved; grades are Tuesday's FootballDB read, carried and labelled. Kicker, defence and unread matchups are marked not researched."
+},
+{
+"label":"Rival claims",
+"body":"Invisible: ESPN returns only this team's pending claims. Waivers clear Wed 07:00 UTC, 01:00 CDMX; Bloodsports are 7th in a priority order that never resets."
+},
+{
+"label":"Stale results rejected",
+"body":"This run rejected an SI Garrett Wilson knee item (12 Oct 2025) and an SI MarShawn Lloyd item (31 Jul 2025), both surfaced by this week's queries."
+}
+],
+"sources":"Built from 37 searches and 21 fetches this run (both leagues) · ESPN league files (12:50Z) and Week 6 live archive (12:05Z) · Packers.com SNF in-game updates 18 Oct · azcardinals.com 18 Oct (Knight) · CBS Sports 18 Oct (Likely, Kamara) · Yahoo 19 Oct (Giants QBs) · Fantasy Alarm 16 Oct (Jacobs) · Fantasy Nerds 18 Oct (Vikings) · 98.5 Sports Hub 18 Oct (Patriots) · TSN/ESPN 18 Oct (Jets) · Jaguars.com 18 Oct · Buccaneers.com 18 Oct · Commanders.com 15 Oct · Covers 19 Oct (MNF) · earlier runs' reads, marked carried"
+}
+}
