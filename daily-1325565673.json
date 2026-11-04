@@ -1,1 +1,694 @@
-{"week":9,"leagueName":"IPADE Football Leagu","teamName":"Bloodsports","generatedAt":"2026-11-04T13:16:00Z","snapshotNote":"Snapshot 12:50 UTC (published 12:50Z, 12 minutes old at pull) · Wednesday 07:00 Mexico City run, after claims processed at 01:00 CDMX · Week 9 · this brief does not refresh on its own","sources":"Built from 62 web searches (4 direct, 58 in three delegated team-by-team passes, ~50 page reads to date-check) · DK Network · Yahoo · CBS · ESPN · Athlon · Forbes · SI · NBC/Rotoworld · Steelers.com · Philadelphia Inquirer · FantasyFootballers · FOX6 · Bleacher Report · FantasyData · Panthers.com · StatChasers · SI/DraftKings odds","tonight":{"headline":"Three coin flips still unset — Tuten's locks Thursday","status":"TIED","winProbability":53,"myScore":0.0,"theirScore":0.0,"opponent":"Jackrabbits","body":["Bad news first. Bhayshul Tuten, still in the FLEX, missed Monday's and Tuesday's practices (DK 3 Nov; Yahoo 4 Nov) and locks into that slot at Thursday's 19:15 CDMX kickoff. Jonathan Taylor is in 'active and ongoing' trade talks before the NFL's 10 Nov deadline (Bleacher Report 31 Oct). Josh Jacobs faces new allegations with no league action (FFB ~31 Oct-2 Nov).","As set Bloodsports project 130.6 against Jackrabbits' 123.6; the projection lineup is 133.5. Overnight the owner dropped Pitts and added Woody Marks as a free agent — no priority spent. Make the three swaps, Gordon for Tuten first."],"case":[{"label":"Their lineup","body":"Jackrabbits start Henry and Zay Flowers at Baltimore Thursday, behind third-string rookie Joe Fagnano (CBS 3 Nov) — against your Jaguars D/ST. Burrow plays in Madrid."},{"label":"Falsified if","body":"Bloodsports set the projection lineup and still lose by more than 10 — then it was the roster, not the lineup."}],"caseSources":"ESPN · Yahoo · CBS · Bleacher Report · FFB"},"doFirst":[{"id":"w9-gordon-for-tuten","tier":"SOLID","urgency":"Before Thursday","kind":"Lineup","deadlineLabel":"Before Thu 5 Nov 19:15 CDMX (Tuten locks at kickoff)","deadline":"2026-11-06T01:15:00Z","title":"Start Gordon in the FLEX, bench Tuten","subtitle":"16.5 to 15.4 — a coin flip the projection takes, and two missed practices point the same way.","case":[{"label":"The flip","body":"Gordon 16.5, Tuten 15.4: inside two points. Take the projection; no thesis."},{"label":"The facts","body":"Tuten DNP Monday and Tuesday (DK 3 Nov; Yahoo 4 Nov 01:55Z). Gordon is Miami's lead back, 19 and 25 carries the last two weeks (archive). Once Jacksonville kick off Thursday, Tuten is locked in."},{"label":"Falsified if","body":"Tuten outscores Gordon in Week 9 (archive)."}],"sources":"lineup_check.py · research","ghost":false,"action":{"type":"SWAP","playerId":4711533,"dropPlayerId":4882093,"label":"Start Gordon · bench Tuten"}},{"id":"w9-rice-for-wilson","tier":"DEPTH","urgency":"Before Sunday","kind":"Lineup","deadlineLabel":"Before Sun 8 Nov 12:00 CDMX","deadline":"2026-11-08T18:00:00Z","title":"Start Rice, bench Garrett Wilson","subtitle":"13.9 to 12.8 — a coin flip; take the projection.","case":[{"label":"The flip","body":"Rice 13.9, Wilson 12.8: inside two points."},{"label":"The facts","body":"Rice back from the hamstring, 7-53-1 on 8 targets in Week 8 (FFB ~2 Nov); Wilson 12 targets but at Kansas City. Neither is a reason; the number is."},{"label":"Falsified if","body":"Wilson outscores Rice in Week 9 (archive)."}],"sources":"lineup_check.py · research","ghost":false,"action":{"type":"SWAP","playerId":4428331,"dropPlayerId":4569618,"label":"Start Rice · bench Wilson"}},{"id":"w9-likely-for-loveland","tier":"DEPTH","urgency":"Before Sunday","kind":"Lineup","deadlineLabel":"Before Sun 8 Nov 12:00 CDMX","deadline":"2026-11-08T18:00:00Z","title":"Start Likely at TE, bench Loveland","subtitle":"12.8 to 12.1 — a coin flip; take the projection.","case":[{"label":"The flip","body":"Likely 12.8, Loveland 12.1: inside one point."},{"label":"The facts","body":"Loveland drew 9 targets Monday with Kmet out for the season (FantasyData 3 Nov); Likely goes to Philadelphia, 2nd-toughest on TEs, with McCarthy's second start (Inquirer 4 Nov). Matchups are not overrides."},{"label":"Falsified if","body":"Loveland outscores Likely in Week 9 (archive)."}],"sources":"lineup_check.py · research","ghost":false,"action":{"type":"SWAP","playerId":4361050,"dropPlayerId":4723086,"label":"Start Likely · bench Loveland"}}],"whatWentWrong":[{"id":"w1","title":"Three coin flips are still set the wrong way","lead":"2.9 projected points unset, one on a player who has missed two practices and locks Thursday.","case":[{"label":"What happened","body":"The only move since Tuesday was the 08:14Z Pitts-for-Marks swap (activity log); the lineup is unchanged."},{"label":"The fix","body":"The three lineup cards above, Tuten's first."},{"label":"Falsified if","body":"The benched three outscore the started three in Week 9 (archive)."}],"sources":"lineup_check.py · activity log"}],"roster":{"state":"THURSDAY","footnote":"No Week 9 game has started. Rows show the lineup as set at 12:50Z; verdicts show the projection lineup. Grades are rank in fantasy points allowed to the position, StatChasers weeks 1-8 updated 3 Nov (half-PPR, 1 = toughest); D/ST and K not graded.","lineupCheck":{"asSet":130.6,"best":133.5,"gap":2.9,"verdict":"The lineup as set is 2.9 below the projection lineup across three coin flips — Gordon over Tuten, Rice over Wilson, Likely over Loveland; take the projection on all three.","moves":[],"contingencies":[{"player":"Josh Jacobs","if":"Suspended or returned to the commissioner's exempt list before Sun 8 Nov 15:25 CDMX (research-based, not a lineup_check contingency)","then":"Move Ollie Gordon II to RB and start George Pickens in the FLEX"}]},"starting":[{"playerId":4426348,"name":"Jayden Daniels","slot":"QB","position":"QB","team":"WSH","detail":"WSH · vs LAR · SUN 8 Nov 12:00 CDMX","projection":18.7,"tier":"ELITE","report":{"flags":[],"availability":"ACTIVE — elbow, played Week 8, no Week 9 designation yet (DK Network 3 Nov)","checked":"Wed 4 Nov 07:00 CDMX run: Commanders injuries (DK Network 3 Nov) — no change","verdict":"START","summary":"Starts. No rostered challenger; Mahomes is on another roster now.","role":"29 attempts and 2 carries in Week 8 (archive); 21.0 implied team total (FFB odds ~3 Nov)"},"grade":"SHAKY","gradeEvidence":"13th vs QB (LAR) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4242335,"name":"Jonathan Taylor","slot":"RB","position":"RB","team":"IND","detail":"IND · vs DAL · SUN 8 Nov 12:00 CDMX · Daniel Jones (Richardson pressing)","projection":19.6,"tier":"ELITE","report":{"flags":["ROLE_DOWN"],"availability":"ACTIVE — no injury; the Colts are 'open' to trading him, 'active and ongoing' talks, NFL deadline 10 Nov (Bleacher Report 31 Oct)","checked":"Wed 4 Nov 07:00 CDMX run: Colts trade talk (Bleacher Report 31 Oct); backfield and QB (FFB ~1-2 Nov)","verdict":"START","summary":"Starts — RB5 against the 3rd-softest run defence. A trade before Week 9's game is possible and would change everything.","role":"8 carries in the 42-7 Week 8 loss, 62% of the backfield (archive); 12 touches, 47 yards, a lost fumble (FFB ~1 Nov)","competition":"Seth McGowan 38% of the backfield in Weeks 7-8 (archive); DJ Giddens debuted with 6-43 (FFB). ROLE_DOWN answered: game script in a blowout plus McGowan's rise — one to watch, not a demotion","passer":"Daniel Jones named Sunday's starter (Steichen, FFB ~2 Nov) after Anthony Richardson replaced him in Week 8"},"grade":"GREAT","gradeEvidence":"30th vs RB (DAL) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4047365,"name":"Josh Jacobs","slot":"RB","position":"RB","team":"GB","detail":"GB · at NE · SUN 8 Nov 15:25 CDMX · Jordan Love","projection":16.6,"tier":"SOLID","report":{"flags":["ROLE_UP"],"availability":"ACTIVE — reinstated from the commissioner's exempt list and playing; newly released records show more allegations (FFB ~31 Oct); LaFleur expects him to remain with the team (FFB ~2 Nov). No new league action found","checked":"Wed 4 Nov 07:00 CDMX run: Packers news (FOX6 30 Oct; FFB ~31 Oct-2 Nov) — no ruling","verdict":"START","summary":"Starts; a league ruling before Sunday is the only thing that moves him.","role":"21 carries, 84% of the backfield in Week 8 (archive); 21-39-1 on TNF (FOX6 30 Oct)","competition":"MarShawn Lloyd 12% in Week 8 (archive). ROLE_UP answered: he took the job back on reinstatement","passer":"Jordan Love, 30/41, 288, 3 TD in Week 8 (FOX6 30 Oct)"},"grade":"POOR","gradeEvidence":"6th vs RB (NE) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4569618,"name":"Garrett Wilson","slot":"WR","position":"WR","team":"NYJ","detail":"NYJ · at KC · SUN 8 Nov 12:00 CDMX · Geno Smith","projection":12.8,"tier":"SOLID","report":{"flags":[],"availability":"ACTIVE — no injury","checked":"Wed 4 Nov 07:00 CDMX run: Jets news (FFB ~2-3 Nov) — no change; Breece Hall (quad) expected back","verdict":"BENCH","summary":"Bench for Rice — 12.8 to 13.9, a coin flip the projection takes.","role":"12 targets, 39% of the Jets' in Week 8 (archive); 6-83 (FFB 2 Nov)","competition":"Adonai Mitchell 9 targets, 7-142-1 in Week 8; Omar Cooper Jr. 0 targets (FFB 2 Nov)","passer":"Geno Smith, 20/32 for 290 in Week 8, no change signalled (FFB 2 Nov)"},"grade":"POOR","gradeEvidence":"2nd vs WR (KC) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4701936,"name":"Matthew Golden","slot":"WR","position":"WR","team":"GB","detail":"GB · at NE · SUN 8 Nov 15:25 CDMX · Jordan Love","projection":17.3,"tier":"ELITE","report":{"flags":["RIVAL_QUESTIONABLE"],"availability":"ACTIVE — earlier shoulder, 'should be fine' (RotoBaller, undated late Oct); no Week 9 designation","checked":"Wed 4 Nov 07:00 CDMX run: Packers receivers (FOX6 30 Oct; FFB ~2 Nov)","verdict":"START","summary":"Starts — Green Bay's target leader.","role":"13 targets, 34% of Green Bay's in Week 8 (archive); caught a TD on TNF (FOX6 30 Oct)","competition":"Christian Watson broke a rib in Week 8, finished 8-113, 'sore but doing great' (FOX6 30 Oct; FFB ~2 Nov): RIVAL_QUESTIONABLE answered — expected to play","passer":"Jordan Love"},"grade":"AVERAGE","gradeEvidence":"20th vs WR (NE) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4723086,"name":"Colston Loveland","slot":"TE","position":"TE","team":"CHI","detail":"CHI · vs TB · SUN 8 Nov 19:20 CDMX · Caleb Williams","projection":12.1,"tier":"SOLID","report":{"flags":["ROLE_UP","QB_CHANGE"],"availability":"ACTIVE — cleared a neck injury before Week 8 (FantasyData 3 Nov)","checked":"Wed 4 Nov 07:00 CDMX run: Bears news (FantasyData 3 Nov; AP 23 Oct)","verdict":"BENCH","summary":"Bench for Likely — 12.1 to 12.8, a coin flip the projection takes.","role":"9 targets, 26% in Week 8, 7-65 and a lost fumble (archive; FantasyData 3 Nov)","competition":"Cole Kmet — knee, season-ending (AP 23 Oct). Burden 26%, Odunze 18% (archive)","passer":"Caleb Williams, 24/34, 247 (FantasyData 3 Nov). QB_CHANGE answered: no change now"},"grade":"GOOD","gradeEvidence":"23rd vs TE (TB) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":-16030,"name":"Jaguars D/ST","slot":"D/ST","position":"D/ST","team":"JAX","detail":"JAX · at BAL · THU 5 Nov 19:15 CDMX · vs 3rd-string rookie Joe Fagnano","projection":8.8,"tier":"ELITE","report":{"flags":[],"availability":"Baltimore start undrafted rookie Joe Fagnano — Lamar Jackson thumb, IR, possibly season-ending; Tyler Huntley turf toe (CBS 3 Nov; Forbes 2 Nov). JAX -7.5, BAL implied 18.0 (SI/DK 2 Nov)","checked":"Wed 4 Nov 07:00 CDMX run: Ravens QB (CBS 3 Nov 21:03Z; Forbes 2 Nov; Ravens.com 2 Nov); odds (SI/DraftKings 2 Nov)","verdict":"START","summary":"Starts — DST1 against a first-start third-string quarterback."},"notResearched":true},{"playerId":4249087,"name":"Matt Gay","slot":"K","position":"K","team":"LV","detail":"LV · at SF · SUN 8 Nov 15:25 CDMX","projection":9.3,"tier":"DEPTH","report":{"flags":[],"availability":"ACTIVE — 1/1 FG, 5/5 XP in Week 8 (FFB ~2 Nov)","checked":"Wed 4 Nov 07:00 CDMX run: Raiders news (FFB ~2 Nov) — no change","verdict":"START","summary":"Starts. Zvada 10.4 and Fairbairn 9.8 are free agents, 1.1 and 0.5 better — coin flips, hold."},"notResearched":true},{"playerId":4882093,"name":"Bhayshul Tuten","slot":"FLEX","position":"RB","team":"JAX","detail":"JAX · at BAL · THU 5 Nov 19:15 CDMX · Lawrence; BAL start 3rd-string rookie Joe Fagnano","projection":15.4,"tier":"SOLID","report":{"flags":["OWN_QUESTIONABLE","ROLE_UP","RIVAL_QUESTIONABLE"],"availability":"QUESTIONABLE — ankle/foot; DNP Monday (DK Network 3 Nov) and missed Tuesday's practice too (Yahoo, 4 Nov 01:55Z). Wednesday's official report not out at 13:00Z","checked":"Wed 4 Nov 07:00 CDMX run: Jaguars practice (DK Network 3 Nov; Yahoo 4 Nov 01:55Z); Ravens QB (CBS 3 Nov; Forbes 2 Nov)","verdict":"BENCH","summary":"Bench for Gordon — 15.4 to 16.5, a coin flip, and two missed practices point the same way. He locks into the FLEX at Thursday's 19:15 kickoff if left there.","role":"16 carries, 73% of the backfield, 2 targets in Week 8 (archive)","competition":"Chris Rodriguez Jr. — hand, limited Mon and Tue (DK 3 Nov; Yahoo 4 Nov): RIVAL_QUESTIONABLE answered, he plays through it and is the early-down back if Tuten sits","passer":"Trevor Lawrence, not on any injury list (Yahoo 4 Nov)"},"grade":"SHAKY","gradeEvidence":"10th vs RB (BAL) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"}],"bench":[{"playerId":4428331,"name":"Rashee Rice","slot":"BE","position":"WR","team":"KC","detail":"KC · vs NYJ · SUN 8 Nov 12:00 CDMX · Patrick Mahomes","projection":13.9,"tier":"SOLID","report":{"flags":["ROLE_UP"],"availability":"ACTIVE — hamstring, returned in Week 8 with 7-53-1 on 8 targets (FFB ~2 Nov)","checked":"Wed 4 Nov 07:00 CDMX run: Chiefs news (FFB ~2 Nov) — no Week 9 injuries found","verdict":"START","summary":"Start at WR over Wilson — 13.9 to 12.8, the projection's coin flip.","role":"8 targets, 23% of Kansas City's in Week 8 (archive). ROLE_UP answered: his return from injury","competition":"Kelce 20%, Worthy 17% in Week 8 (archive); Worthy back to WR2 (FFB)","passer":"Patrick Mahomes, 30/41, 321, 3 TD in Week 8 (FFB)"},"grade":"SHAKY","gradeEvidence":"12th vs WR (NYJ) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4711533,"name":"Ollie Gordon II","slot":"BE","position":"RB","team":"MIA","detail":"MIA · vs DET · SUN 8 Nov 12:00 CDMX · Malik Willis","projection":16.5,"tier":"SOLID","report":{"flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — no injury reported (Rotoworld after Week 8)","checked":"Wed 4 Nov 07:00 CDMX run: Dolphins news (Rotoworld player page after Week 8; FFB) — no change","verdict":"START","summary":"Start in the FLEX over Tuten — 16.5 to 15.4, the projection's coin flip.","role":"Lead back for four-plus starts: 19 carries in Week 8, 25 in Week 7; 90% of the backfield (archive)","competition":"De'Von Achane — torn ACL in Week 3, season-ending IR (FFB): VACATED answered, priced since September. Jaylen Wright 2 carries in Week 8. ROLE_UP is the Achane injury, not noise","passer":"Malik Willis, the starter since Tua's March release (Axios Miami 9 Mar; FFB Week 8)"},"grade":"POOR","gradeEvidence":"4th vs RB (DET) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4426354,"name":"George Pickens","slot":"BE","position":"WR","team":"DAL","detail":"DAL · at IND · SUN 8 Nov 12:00 CDMX · Dak Prescott","projection":13.1,"tier":"DEPTH","report":{"flags":["RIVAL_QUESTIONABLE"],"availability":"ACTIVE — played Week 8 through shoulder and hamstring designations, 2-48 (FFB 30 Oct, ~2 Nov); nothing current on Week 9","checked":"Wed 4 Nov 07:00 CDMX run: Cowboys injuries (ESPN/Fowler and Machota via FFB ~2 Nov)","verdict":"BENCH","summary":"Bench — fourth receiver behind Golden, Rice and Wilson.","role":"4 targets, 17% of Dallas's in Week 8 (archive)","competition":"CeeDee Lamb 48% (11 targets). Jake Ferguson low-ankle sprain, 'chance to play' (Schottenheimer 2 Nov via FFB): RIVAL_QUESTIONABLE answered — a small bump if he sits","passer":"Dak Prescott"},"grade":"POOR","gradeEvidence":"8th vs WR (IND) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4361050,"name":"Isaiah Likely","slot":"BE","position":"TE","team":"NYG","detail":"NYG · at PHI · SUN 8 Nov 12:00 CDMX · J.J. McCarthy (2nd start)","projection":12.8,"tier":"SOLID","report":{"flags":["ROLE_DOWN","QB_CHANGE"],"availability":"ACTIVE — no injury found","checked":"Wed 4 Nov 07:00 CDMX run: Giants QB and injuries (Philadelphia Inquirer 4 Nov; DK 3 Nov) — nothing new on Likely","verdict":"START","summary":"Start at TE over Loveland — 12.8 to 12.1, the projection's coin flip.","role":"Week 8 bye; 4 targets, 15% in Week 7, McCarthy's first start (archive; 2-12, FFCalculator 25 Oct)","competition":"Malik Nabers the top target, healthy (Inquirer 4 Nov); Malachi Fields ~19%","passer":"J.J. McCarthy, second straight start; Jaxson Dart on IR (Inquirer 4 Nov 10:01Z; DK 3 Nov). QB_CHANGE answered; ROLE_DOWN is one game with the new QB — the question his week answers"},"grade":"POOR","gradeEvidence":"2nd vs TE (PHI) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"},{"playerId":4429059,"name":"Woody Marks","slot":"BE","position":"RB","team":"HOU","detail":"HOU · at LAC · SUN 8 Nov 15:05 CDMX · C.J. Stroud","projection":8.3,"tier":"DEPTH","report":{"flags":["ROLE_UP","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — briefly left Week 7 with a left-leg issue and returned (FFB 25 Oct); Houston had a Week 8 bye","checked":"Wed 4 Nov 07:00 CDMX run: Texans backfield (FFB ~2 Nov)","verdict":"BENCH","summary":"Bench — fifth back. Added overnight for Pitts as a free agent.","role":"19 carries in Week 7, 100% of the backfield in Weeks 6-7 (archive)","competition":"David Montgomery groin, missed 2+ games, 'no significant update' (Ryans via FFB ~2 Nov): RIVAL_QUESTIONABLE answered — if he returns, Marks loses the lead","passer":"C.J. Stroud"},"grade":"GOOD","gradeEvidence":"22nd vs RB (LAC) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"}]},"trades":[],"worthALook":[{"playerId":4686658,"name":"Mike Washington Jr.","positionTeam":"RB · LV","ownership":"25.7% owned","tier":"DEPTH","lead":"A free agent here — no priority — but the split was Kubiak's design, not an injury.","case":[{"label":"The player","body":"25 carries for 83 and 0 targets in his first start; Jeanty 2 carries and 64 receiving. Kubiak: Jeanty's light load was 'by design' and he is 'still going to be a big part' (Rotowire 1 Nov)."},{"label":"Why not","body":"Bloodsports now carry five backs including Marks, added this morning; a sixth would need a drop that is a starter elsewhere in the week."},{"label":"What would change it","body":"A second week as the lead at San Francisco — then a free-agent add for Marks if Montgomery is back in Houston."}],"sources":"Rotowire · FFB"}],"doNotChase":[{"playerId":4360248,"name":"Kyle Pitts Sr.","positionTeam":"TE · ATL","ownership":"-1.16 owned","tier":"DEPTH","lead":"Dropped this morning — don't claim him back.","case":[{"label":"The number that kills it","body":"2 catches for 6 on 5 targets in Week 8 with Penix 8-of-24, 4 INT (FFB ~2 Nov); a third tight end behind Likely and Loveland. Reclaiming him costs IPADE priority for the season and reverses today's move."},{"label":"What would change it","body":"Likely or Loveland hurt for weeks."}],"sources":"FFB · activity log"},{"playerId":4371733,"name":"Kenny Gainwell","positionTeam":"RB · TB","ownership":"+1.10 owned","tier":"DEPTH","lead":"25 carries in a zero-pass game, and a healthy Irving.","case":[{"label":"The number that kills it","body":"Tampa threw zero passes in Week 8; Irving 27 carries for 170, Gainwell 25 for 140; one target in two games (Week 8 recaps; DK 3 Nov)."},{"label":"What would change it","body":"An Irving injury."}],"sources":"DK Network · Week 8 recaps"},{"playerId":4597500,"name":"Adonai Mitchell","positionTeam":"WR · NYJ","ownership":"+13.13 owned","tier":"DEPTH","lead":"The wire's biggest riser, and a fifth receiver here.","case":[{"label":"The number that kills it","body":"9 targets in Week 8 after 3 and 0 (screen); at Kansas City, 2nd-toughest vs WR (StatChasers 3 Nov)."},{"label":"What would change it","body":"Eight-plus targets again and an injury among Golden, Rice, Wilson and Pickens."}],"sources":"FFB · StatChasers"}],"waiverAnalysis":{"verdict":"NOTHING","summary":"Nothing on the wire beats this roster on usage (waiver_analysis.py, 12:50Z file, eight weeks of data). IPADE priority never resets; free agents cost nothing.","weeks":8,"rising":[],"falling":[]},"settled":[{"correct":false,"title":"'Pitts for Worthy' (owner, 28 Oct)","result":"Week 8: Worthy 4.3, Pitts 2.6 (archive). Pitts dropped this morning after one game — closed CHURN."},{"correct":true,"title":"Week 8 result","result":"Won 149.48 to 95.88 (archive). Tuten 29.9, Jacobs 23.2, Golden 20.9, Jaguars D/ST 19."},{"correct":false,"title":"Points left on the bench, Week 8","result":"Rice 18.3 on the bench, Taylor 6.7 started: 11.6. The projection's call (15.7 to 12.7), no override."},{"correct":false,"title":"'Strange for Loveland' (owner, 14 Oct)","result":"Loveland outscored Strange in Weeks 6 and 8 — closed WRONG earlier."},{"correct":true,"title":"'Barkley + Tate for Daniels + Likely' (owner, 16 Oct)","result":"Weeks 6-8: Daniels and Likely 60.1, Barkley and Tate 56.4 (archive). Week 9 completes it."}],"cannotSee":[{"label":"Taylor and Jacobs","body":"A Taylor trade before the NFL's 10 Nov deadline and a Jacobs ruling are both possible and neither has a date. (The fantasy trade deadline here is 2 Dec; the 10 Nov date is the NFL's.)"},{"label":"Practice reports","body":"Wednesday's first official reports were not out at 13:00Z. Tuten's status rests on Monday's estimate and Yahoo's Tuesday note."},{"label":"Pending claims","body":"Rivals' claims are invisible. IPADE priority never resets; Bloodsports are 6th."},{"label":"Matchup grades","body":"One table — StatChasers, weeks 1-8, half-PPR, 3 Nov, ranked by this run from its FPPG values (±1). K and D/ST not graded."},{"label":"Trades","body":"No trade was researched this run. STRATEGY's window is weeks 9-11."}]}
+{
+"week": 9,
+"leagueName": "IPADE Football Leagu",
+"teamName": "Bloodsports",
+"generatedAt": "2026-11-04T22:45:00Z",
+"snapshotNote": "Snapshot 22:05 UTC (published 22:05Z, 6 minutes old at pull) · Wednesday 16:00 Mexico City refresh, after Wednesday's practice reports · Week 9 · this brief does not refresh on its own",
+"sources": "Built from 99 web searches (4 direct, 95 in four delegated passes: three team-by-team, one matchup/odds; ~85 page reads to date-check) · ESPN · NBC/Rotoworld · RotoWire · CBS · Yahoo/team Wires · packers.com · Ravens.com · The Big Lead · Bleacher Report · FantasyPros · StatChasers · Fox Sports/bet365 · WagerTalk · AtoZ Sports · Heavy · Cincinnati Enquirer",
+"tonight": {
+"headline": "Three coin flips still unset — Tuten's locks Thursday",
+"status": "TIED",
+"winProbability": 53,
+"myScore": 0.0,
+"theirScore": 0.0,
+"opponent": "Jackrabbits",
+"body": [
+"Bad news first. Bhayshul Tuten, still in the FLEX, did not practise all week and is a game-time decision for Thursday at Baltimore; he locks at the 19:15 CDMX kickoff. Garrett Wilson, in a WR slot, entered the concussion protocol today. Rashee Rice and George Pickens, the two receivers who would replace him, were both limited Wednesday.",
+"As set Bloodsports project 130.6 against Jackrabbits' 124.0; the projection lineup is 133.5. Make the three swaps, Gordon for Tuten first — the lineup has not changed since this morning."
+],
+"case": [
+{
+"label": "Their lineup",
+"body": "Jackrabbits start Henry and Zay Flowers behind rookie Joe Fagnano Thursday — against your Jaguars D/ST, 10-point road favourites (WagerTalk 4 Nov). Ashton Jeanty is in their FLEX after two touches in Week 8; Las Vegas are ready to give Mike Washington Jr. more (Bleacher Report 4 Nov)."
+},
+{
+"label": "Falsified if",
+"body": "Bloodsports set the projection lineup and still lose by more than 10 — then it was the roster, not the lineup."
+}
+],
+"caseSources": "ESPN · NBC · CBS · WagerTalk · Bleacher Report"
+},
+"doFirst": [
+{
+"id": "w9-gordon-for-tuten",
+"tier": "SOLID",
+"urgency": "Before Thursday",
+"kind": "Lineup",
+"deadlineLabel": "Before Thu 5 Nov 19:15 CDMX (Tuten locks at kickoff)",
+"deadline": "2026-11-06T01:15:00Z",
+"title": "Start Gordon in the FLEX, bench Tuten",
+"subtitle": "16.5 to 15.4 — a coin flip the projection takes, and three missed practices point the same way.",
+"case": [
+{
+"label": "The flip",
+"body": "Gordon 16.5, Tuten 15.4: inside two points. Take the projection; no thesis."
+},
+{
+"label": "The facts",
+"body": "Tuten did not practise Monday, Tuesday or Wednesday; officially a game-time decision (NBC, CBS 4 Nov). Gordon is Miami's lead back, 19 and 25 carries the last two weeks (archive), and both his backups were on Wednesday's report. Once Jacksonville kick off Thursday, Tuten is locked in."
+},
+{
+"label": "Falsified if",
+"body": "Tuten outscores Gordon in Week 9 (archive)."
+}
+],
+"sources": "lineup_check.py · NBC · CBS · Dolphins Wire",
+"ghost": false,
+"action": {
+"type": "SWAP",
+"playerId": 4711533,
+"dropPlayerId": 4882093,
+"label": "Start Gordon · bench Tuten"
+}
+},
+{
+"id": "w9-rice-for-wilson",
+"tier": "DEPTH",
+"urgency": "Before Sunday",
+"kind": "Lineup",
+"deadlineLabel": "Before Sun 8 Nov 12:00 CDMX",
+"deadline": "2026-11-08T18:00:00Z",
+"title": "Start Rice, bench Garrett Wilson",
+"subtitle": "13.9 to 12.8 — a coin flip; take the projection.",
+"case": [
+{
+"label": "The flip",
+"body": "Rice 13.9, Wilson 12.8: inside two points."
+},
+{
+"label": "The facts",
+"body": "Rice was limited Wednesday, called maintenance (AtoZ 4 Nov); Wilson entered the concussion protocol (ESPN 4 Nov 17:53Z). Neither is the reason; the number is."
+},
+{
+"label": "Falsified if",
+"body": "Wilson outscores Rice in Week 9 (archive)."
+}
+],
+"sources": "lineup_check.py · AtoZ · ESPN",
+"ghost": false,
+"action": {
+"type": "SWAP",
+"playerId": 4428331,
+"dropPlayerId": 4569618,
+"label": "Start Rice · bench Wilson"
+}
+},
+{
+"id": "w9-likely-for-loveland",
+"tier": "DEPTH",
+"urgency": "Before Sunday",
+"kind": "Lineup",
+"deadlineLabel": "Before Sun 8 Nov 12:00 CDMX",
+"deadline": "2026-11-08T18:00:00Z",
+"title": "Start Likely at TE, bench Loveland",
+"subtitle": "12.8 to 12.1 — a coin flip; take the projection.",
+"case": [
+{
+"label": "The flip",
+"body": "Likely 12.8, Loveland 12.1: inside one point."
+},
+{
+"label": "The facts",
+"body": "Loveland drew 9 targets Monday with Kmet out (NBC 3 Nov); Likely goes to Philadelphia, 2nd-toughest on TEs, where the Eagles now start Joe Milton III (ESPN 4 Nov). Matchups are not overrides."
+},
+{
+"label": "Falsified if",
+"body": "Loveland outscores Likely in Week 9 (archive)."
+}
+],
+"sources": "lineup_check.py · research",
+"ghost": false,
+"action": {
+"type": "SWAP",
+"playerId": 4361050,
+"dropPlayerId": 4723086,
+"label": "Start Likely · bench Loveland"
+}
+},
+{
+"id": "w9-rice-inactive",
+"tier": "DEPTH",
+"urgency": "Before Sunday",
+"kind": "Lineup",
+"deadlineLabel": "Fallback only — check Sun 8 Nov 10:30 CDMX",
+"deadline": "2026-11-08T18:00:00Z",
+"title": "If Rice is inactive Sunday, start Pickens",
+"subtitle": "Limited Wednesday as maintenance; Wilson, the other option, is in the concussion protocol.",
+"case": [
+{
+"label": "The injury",
+"body": "Hamstring/knee; limited Wednesday, described as planned maintenance (AtoZ, NBC 4 Nov). He returned in Week 8 with 8 targets (archive)."
+},
+{
+"label": "The fallback",
+"body": "Pickens 13.1, limited Wednesday with the hamstring and shoulder but 'moving well' (NBC 4 Nov 22:01Z). Wilson 12.8 is in the concussion protocol, so Pickens is the cover either way."
+},
+{
+"label": "Falsified if",
+"body": "Rice is active and Pickens would have outscored him (archive) — the contingency only fires on an inactive."
+}
+],
+"sources": "AtoZ · NBC · lineup_check.py",
+"ghost": true,
+"action": {
+"type": "SWAP",
+"playerId": 4426354,
+"dropPlayerId": 4428331,
+"label": "Start Pickens · bench Rice"
+}
+}
+],
+"whatWentWrong": [
+{
+"id": "w1",
+"title": "Three coin flips are still set the wrong way",
+"lead": "2.9 projected points unset, one on a player who has not practised all week and locks Thursday.",
+"case": [
+{
+"label": "What happened",
+"body": "The only move today was the 08:14Z Pitts-for-Marks swap (activity log); the lineup is unchanged since this morning."
+},
+{
+"label": "What changed since",
+"body": "Wilson, one of the three to bench, entered the concussion protocol; Tuten missed a third practice."
+},
+{
+"label": "The fix",
+"body": "The three lineup cards above, Tuten's first."
+},
+{
+"label": "Falsified if",
+"body": "The benched three outscore the started three in Week 9 (archive)."
+}
+],
+"sources": "lineup_check.py · activity log · ESPN · NBC"
+}
+],
+"roster": {
+"state": "THURSDAY",
+"footnote": "No Week 9 game has started. Rows show the lineup as set at 22:05Z; verdicts show the projection lineup. Grades are rank in fantasy points allowed to the position, StatChasers weeks 1-8 updated 3 Nov (half-PPR, 1 = toughest); D/ST and K not graded.",
+"lineupCheck": {
+"asSet": 130.6,
+"best": 133.5,
+"gap": 2.9,
+"verdict": "The lineup as set is 2.9 below the projection lineup across three coin flips — Gordon over Tuten, Rice over Wilson, Likely over Loveland; take the projection on all three.",
+"moves": [],
+"contingencies": [
+{
+"player": "Rashee Rice",
+"if": "Inactive at Sun 8 Nov 10:30 CDMX",
+"then": "Start George Pickens (13.1) in his WR slot"
+},
+{
+"player": "Josh Jacobs",
+"if": "Suspended or placed on the commissioner's exempt list before Sun 8 Nov 13:55 CDMX (research-based, not a lineup_check contingency)",
+"then": "Move Ollie Gordon II to RB and start Woody Marks (14.5) in the FLEX"
+}
+]
+},
+"starting": [
+{
+"playerId": 4426348,
+"name": "Jayden Daniels",
+"slot": "QB",
+"position": "QB",
+"team": "WSH",
+"detail": "WSH · vs LAR · SUN 8 Nov 12:00 CDMX",
+"projection": 18.7,
+"tier": "ELITE",
+"report": {
+"flags": [],
+"availability": "ACTIVE — elbow, played Week 8, no Week 9 designation yet (DK Network 3 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Commanders (The Big Lead 4 Nov — Diggs rest day; DK 3 Nov — elbow, played Week 8); Daniels' Wednesday participation not found",
+"verdict": "START",
+"summary": "Starts. No rostered challenger; Mahomes is on another roster now.",
+"role": "29 attempts and 2 carries in Week 8 (archive); 21.0 implied team total (FFB odds ~3 Nov)"
+},
+"grade": "SHAKY",
+"gradeEvidence": "13th vs QB (LAR) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4242335,
+"name": "Jonathan Taylor",
+"slot": "RB",
+"position": "RB",
+"team": "IND",
+"detail": "IND · vs DAL · SUN 8 Nov 12:00 CDMX · Daniel Jones (Richardson pressing)",
+"projection": 19.6,
+"tier": "ELITE",
+"report": {
+"flags": [
+"ROLE_DOWN"
+],
+"availability": "ACTIVE — no injury; the Colts are 'open' to trading him, 'active and ongoing' talks, NFL deadline 10 Nov (Bleacher Report 31 Oct)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Colts (NBC 4 Nov 16:35Z — Steichen: Taylor 'on our football team'; Bleacher Report 4 Nov — Colts want a first-round equivalent; Yahoo 2 Nov — Week 8 was game script)",
+"verdict": "START",
+"summary": "Starts — RB5 against Dallas, 30th vs RB. A trade before the NFL's 10 Nov deadline is possible but unreported; Steichen said Wednesday he is 'on our football team'.",
+"role": "8 carries in the 42-7 Week 8 loss, 62% of the backfield (archive); 12 touches, 47 yards, a lost fumble (FFB ~1 Nov)",
+"competition": "Seth McGowan 38% of the backfield in Weeks 7-8 (archive). ROLE_DOWN answered: Week 8's 8 carries were a 42-7 blowout — 'it wasn't like we had a number on (Taylor's) carries' (Steichen via Yahoo 2 Nov)",
+"passer": "Daniel Jones, confirmed Week 9 starter despite 12 turnovers (ESPN, NBC 2 Nov)"
+},
+"grade": "GREAT",
+"gradeEvidence": "30th vs RB (DAL) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4047365,
+"name": "Josh Jacobs",
+"slot": "RB",
+"position": "RB",
+"team": "GB",
+"detail": "GB · at NE · SUN 8 Nov 15:25 CDMX · Jordan Love",
+"projection": 16.6,
+"tier": "SOLID",
+"report": {
+"flags": [
+"ROLE_UP"
+],
+"availability": "ACTIVE — not on the Packers' Wednesday injury report (packers.com 4 Nov 20:55Z). The NFL is reviewing new allegations; no league action, not on the exempt list (ESPN 2 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Packers Wednesday report (packers.com 4 Nov); ESPN 2 Nov (LaFleur: 'I would anticipate him being a member of us moving forward')",
+"verdict": "START",
+"summary": "Starts — RB13. A league ruling could land any time; the research contingency stands with Marks as the cover.",
+"role": "21 carries, 84% of the backfield in Week 8 (archive); 21-39-1 on TNF (FOX6 30 Oct)",
+"competition": "MarShawn Lloyd 12% in Week 8 (archive). ROLE_UP answered: he took the job back on reinstatement",
+"passer": "Jordan Love, 30/41, 288, 3 TD in Week 8 (FOX6 30 Oct)"
+},
+"grade": "POOR",
+"gradeEvidence": "6th vs RB (NE) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4569618,
+"name": "Garrett Wilson",
+"slot": "WR",
+"position": "WR",
+"team": "NYJ",
+"detail": "NYJ · at KC · SUN 8 Nov 12:00 CDMX · Geno Smith",
+"projection": 12.8,
+"tier": "SOLID",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE",
+"RIVAL_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — in the concussion protocol, day-to-day (Aaron Glenn via ESPN/Cimini, 4 Nov 17:53Z)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Jets (ESPN 4 Nov 17:53Z; newyorkjets.com 4 Nov) — concussion protocol",
+"verdict": "BENCH",
+"summary": "Bench — Rice is the projection's WR2 (13.9 to 12.8), and Wilson's concussion points the same way.",
+"role": "12 targets, 39% of the Jets' in Week 8 (archive); 6-83 (FFB 2 Nov)",
+"competition": "Adonai Mitchell and rookie Omar Cooper Jr. take his targets if he sits. Mason Taylor no injury entry (DK 3 Nov): RIVAL_QUESTIONABLE answered",
+"passer": "Geno Smith, 20/32 for 290 in Week 8, no change signalled (FFB 2 Nov)"
+},
+"grade": "POOR",
+"gradeEvidence": "2nd vs WR (KC) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4701936,
+"name": "Matthew Golden",
+"slot": "WR",
+"position": "WR",
+"team": "GB",
+"detail": "GB · at NE · SUN 8 Nov 15:25 CDMX · Jordan Love",
+"projection": 17.3,
+"tier": "ELITE",
+"report": {
+"flags": [
+"RIVAL_QUESTIONABLE"
+],
+"availability": "ACTIVE — earlier shoulder, 'should be fine' (RotoBaller, undated late Oct); no Week 9 designation",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Packers Wednesday report (packers.com 4 Nov) — Golden not listed; Watson limited (rib)",
+"verdict": "START",
+"summary": "Starts — Green Bay's target leader.",
+"role": "13 targets, 34% of Green Bay's in Week 8 (archive); caught a TD on TNF (FOX6 30 Oct)",
+"competition": "Christian Watson limited Wednesday with the broken rib (packers.com 4 Nov); he finished Week 8 in a pad, 8-113. RIVAL_QUESTIONABLE answered — expected to play; Golden is the beneficiary if his role shrinks",
+"passer": "Jordan Love"
+},
+"grade": "AVERAGE",
+"gradeEvidence": "20th vs WR (NE) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4723086,
+"name": "Colston Loveland",
+"slot": "TE",
+"position": "TE",
+"team": "CHI",
+"detail": "CHI · vs TB · SUN 8 Nov 19:20 CDMX · Caleb Williams",
+"projection": 12.1,
+"tier": "SOLID",
+"report": {
+"flags": [
+"ROLE_UP",
+"QB_CHANGE"
+],
+"availability": "ACTIVE — cleared a neck injury before Week 8 (FantasyData 3 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Bears (NBC/Rotoworld 3 Nov 05:04Z — 7-65 on 9 targets; ESPN injury page — Kmet IR) — no Wednesday participation found after the Monday game",
+"verdict": "BENCH",
+"summary": "Bench for Likely — 12.1 to 12.8, a coin flip the projection takes.",
+"role": "9 targets, 26% in Week 8, 7-65 and a lost fumble (archive; FantasyData 3 Nov)",
+"competition": "Cole Kmet — knee, season-ending (AP 23 Oct). Burden 26%, Odunze 18% (archive)",
+"passer": "Caleb Williams, 24/34, 247 (FantasyData 3 Nov). QB_CHANGE answered: no change now"
+},
+"grade": "GOOD",
+"gradeEvidence": "23rd vs TE (TB) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": -16030,
+"name": "Jaguars D/ST",
+"slot": "D/ST",
+"position": "D/ST",
+"team": "JAX",
+"detail": "JAX · at BAL · THU 5 Nov 19:15 CDMX · vs 3rd-string rookie Joe Fagnano",
+"projection": 8.8,
+"tier": "ELITE",
+"report": {
+"flags": [],
+"availability": "Baltimore start undrafted rookie Joe Fagnano (ESPN 4 Nov); Lamar Jackson thumb surgery, Huntley turf toe — season over. Brissett is being traded in but is aimed at 16 Nov (ESPN 4 Nov). Line JAX -10, total 39.5, Baltimore implied ~14.75 (WagerTalk 4 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Ravens QB (ESPN 4 Nov); WagerTalk 4 Nov 16:16Z; FantasyPros Week 9 D/ST streams (3 Nov) — Jaguars #1",
+"verdict": "START",
+"summary": "Starts — FantasyPros' No. 1 stream. Best free agent (Bengals 6.5, Giants 8.0) is below 8.8; hold."
+},
+"notResearched": true
+},
+{
+"playerId": 4249087,
+"name": "Matt Gay",
+"slot": "K",
+"position": "K",
+"team": "LV",
+"detail": "LV · at SF · SUN 8 Nov 15:25 CDMX",
+"projection": 9.3,
+"tier": "DEPTH",
+"report": {
+"flags": [],
+"availability": "ACTIVE — 1/1 FG, 5/5 XP in Week 8 (FFB ~2 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Yahoo kicker ranks 3 Nov (Gay K14); NFL.com start/sit (start); at San Francisco, LV implied 21.0 (Fox/bet365 3 Nov)",
+"verdict": "START",
+"summary": "Starts. Zvada (free agent, 10.4) is 1.1 better — a coin flip; Zvada is an NFL.com sit and Yahoo's K15. Hold."
+},
+"notResearched": true
+},
+{
+"playerId": 4882093,
+"name": "Bhayshul Tuten",
+"slot": "FLEX",
+"position": "RB",
+"team": "JAX",
+"detail": "JAX · at BAL · THU 5 Nov 19:15 CDMX · Lawrence; BAL start 3rd-string rookie Joe Fagnano",
+"projection": 15.4,
+"tier": "SOLID",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE",
+"ROLE_UP"
+],
+"availability": "QUESTIONABLE — foot/ankle; did not practise Monday, Tuesday or Wednesday, officially a game-time decision (NBC Sports, CBS 4 Nov)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Jaguars report (NBC, CBS, RotoWire 4 Nov); Fagnano confirmed (ESPN 4 Nov)",
+"verdict": "BENCH",
+"summary": "Bench — Gordon takes the FLEX (16.5 to 15.4); swap before Jacksonville kick off Thursday 19:15 CDMX, when Tuten locks.",
+"role": "16 carries, 73% of the backfield, 2 targets in Week 8 (archive)",
+"competition": "Chris Rodriguez Jr. — hand, limited all week, 'good to go' (FantasyPros 4 Nov): RIVAL_QUESTIONABLE answered, he leads if Tuten sits",
+"passer": "Trevor Lawrence, not on any injury list (Yahoo 4 Nov)"
+},
+"grade": "SHAKY",
+"gradeEvidence": "10th vs RB (BAL) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+}
+],
+"bench": [
+{
+"playerId": 4428331,
+"name": "Rashee Rice",
+"slot": "BE",
+"position": "WR",
+"team": "KC",
+"detail": "KC · vs NYJ · SUN 8 Nov 12:00 CDMX · Patrick Mahomes",
+"projection": 13.9,
+"tier": "SOLID",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE",
+"ROLE_UP",
+"RIVAL_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — limited Wednesday (hamstring/knee), described as planned maintenance (AtoZ Sports, NBC 4 Nov ~21:40Z); designations come Friday",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Chiefs Wednesday report (AtoZ, NBC 4 Nov) — Rice LP, Kelce LP (ankle), Mahomes FP (knee)",
+"verdict": "CONDITIONAL",
+"summary": "Starts if active — the projection's WR2 over Wilson (13.9 to 12.8). If inactive, Pickens (13.1).",
+"role": "8 targets, 23% of Kansas City's in Week 8 (archive). ROLE_UP answered: his return from injury",
+"competition": "Kelce limited (ankle), called maintenance (AtoZ 4 Nov): RIVAL_QUESTIONABLE answered. Worthy not on the report",
+"passer": "Patrick Mahomes, 30/41, 321, 3 TD in Week 8 (FFB)",
+"trigger": "Active at Sun 8 Nov 10:30 CDMX",
+"fallback": "George Pickens"
+},
+"grade": "SHAKY",
+"gradeEvidence": "12th vs WR (NYJ) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4711533,
+"name": "Ollie Gordon II",
+"slot": "BE",
+"position": "RB",
+"team": "MIA",
+"detail": "MIA · vs DET · SUN 8 Nov 12:00 CDMX · Malik Willis",
+"projection": 16.5,
+"tier": "SOLID",
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "ACTIVE — not on the Dolphins' Wednesday report (Dolphins Wire 4 Nov 21:25Z)",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Dolphins Wednesday report (Dolphins Wire 4 Nov 21:25Z) — Gordon not listed; Wright DNP (quad), Kaytron Allen LP (quad)",
+"verdict": "START",
+"summary": "Starts in the FLEX over Tuten — 16.5, and both backups were on Wednesday's report.",
+"role": "Lead back for four-plus starts: 19 carries in Week 8, 25 in Week 7; 90% of the backfield (archive)",
+"competition": "De'Von Achane — torn ACL, season-ending IR (DK 3 Nov): VACATED answered, priced since September. Jaylen Wright DNP and Kaytron Allen LP Wednesday, both quad (Dolphins Wire 4 Nov)",
+"passer": "Malik Willis, full practice Wednesday through a minor groin (Dolphins Wire 4 Nov)"
+},
+"grade": "POOR",
+"gradeEvidence": "4th vs RB (DET) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4426354,
+"name": "George Pickens",
+"slot": "BE",
+"position": "WR",
+"team": "DAL",
+"detail": "DAL · at IND · SUN 8 Nov 12:00 CDMX · Dak Prescott",
+"projection": 13.1,
+"tier": "DEPTH",
+"report": {
+"flags": [
+"OWN_QUESTIONABLE",
+"RIVAL_QUESTIONABLE"
+],
+"availability": "QUESTIONABLE — limited Wednesday, hamstring and a lingering shoulder (NBC/Rotoworld 4 Nov 22:01Z); 'moving well' (Rotoballer). Limited all of last week too, then played",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Cowboys (NBC 4 Nov 22:01Z; RotoWire 4 Nov — Ferguson works with trainers, i.e. DNP)",
+"verdict": "BENCH",
+"summary": "Bench — the fallback if Rice is inactive Sunday; 13.1 behind Rice's 13.9.",
+"role": "4 targets, 17% of Dallas's in Week 8 (archive)",
+"competition": "CeeDee Lamb 48% of Week 8 targets (archive). Jake Ferguson low-ankle sprain, DNP Wednesday (RotoWire 4 Nov): RIVAL_QUESTIONABLE answered — if he sits, a few more targets for Pickens",
+"passer": "Dak Prescott"
+},
+"grade": "POOR",
+"gradeEvidence": "8th vs WR (IND) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4361050,
+"name": "Isaiah Likely",
+"slot": "BE",
+"position": "TE",
+"team": "NYG",
+"detail": "NYG · at PHI · SUN 8 Nov 12:00 CDMX · J.J. McCarthy (2nd start)",
+"projection": 12.8,
+"tier": "SOLID",
+"report": {
+"flags": [
+"ROLE_DOWN",
+"QB_CHANGE"
+],
+"availability": "ACTIVE — no injury found",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Giants Wednesday report (Giants Wire 4 Nov 21:24Z) — Likely not listed; Eagles start Joe Milton III (ESPN 4 Nov)",
+"verdict": "START",
+"summary": "Starts at TE over Loveland (12.8 to 12.1), a coin flip the projection takes.",
+"role": "Week 8 bye; 4 targets, 15% in Week 7, McCarthy's first start (archive; 2-12, FFCalculator 25 Oct)",
+"competition": "Malik Nabers the top target, healthy (Inquirer 4 Nov); Malachi Fields ~19%",
+"passer": "J.J. McCarthy, second straight start; Jaxson Dart on IR (Inquirer 4 Nov 10:01Z; DK 3 Nov). QB_CHANGE answered; ROLE_DOWN is one game with the new QB — the question his week answers"
+},
+"grade": "POOR",
+"gradeEvidence": "2nd vs TE (PHI) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+},
+{
+"playerId": 4429059,
+"name": "Woody Marks",
+"slot": "BE",
+"position": "RB",
+"team": "HOU",
+"detail": "HOU · at LAC · SUN 8 Nov 15:05 CDMX · C.J. Stroud",
+"projection": 14.5,
+"tier": "DEPTH",
+"report": {
+"flags": [
+"ROLE_UP",
+"VACATED"
+],
+"availability": "ACTIVE — briefly left Week 7 with a left-leg issue and returned (FFB 25 Oct); Houston had a Week 8 bye",
+"checked": "Wed 4 Nov 16:00 CDMX refresh: Texans (NBC 4 Nov 20:47Z — Ryans rules Montgomery out); an SI headline says Marks 'pops up' on the Week 9 report — date and details not confirmed",
+"verdict": "BENCH",
+"summary": "Bench — 14.5 behind Gordon's 16.5 for the FLEX. The cover if Jacobs is removed.",
+"role": "19 carries in Week 7, 100% of the backfield in Weeks 6-7 (archive)",
+"competition": "David Montgomery (groin) RULED OUT for Week 9, did not practise Wednesday (Ryans via NBC 4 Nov 20:47Z): RIVAL_QUESTIONABLE answered — Marks keeps the whole backfield, as in Weeks 6-7",
+"passer": "C.J. Stroud"
+},
+"grade": "GOOD",
+"gradeEvidence": "22nd vs RB (LAC) · StatChasers wks 1-8, upd. 3 Nov (half-PPR, 12% 2025 blend)"
+}
+]
+},
+"trades": [],
+"worthALook": [
+{
+"playerId": 4686658,
+"name": "Mike Washington Jr.",
+"positionTeam": "RB · LV",
+"ownership": "25.7% owned",
+"tier": "DEPTH",
+"lead": "A free agent here — no priority — but the split was Kubiak's design, not an injury.",
+"case": [
+{
+"label": "The player",
+"body": "25 carries for 83 and 0 targets in his first start; Jeanty 2 touches. Kubiak: 'We just wanted to give Mike a few more opportunities.' ESPN's Graziano says Las Vegas will give Washington more if Jeanty does not respond (Bleacher Report 4 Nov)."
+},
+{
+"label": "Why not",
+"body": "Bloodsports carry five backs, and Marks — the obvious drop — now has Houston's whole backfield with Montgomery ruled out (NBC 4 Nov)."
+},
+{
+"label": "When to act",
+"body": "A second week as the lead at San Francisco, and Montgomery back in Houston — then a free-agent add for Marks."
+}
+],
+"sources": "Bleacher Report · NBC"
+}
+],
+"doNotChase": [
+{
+"playerId": 4360248,
+"name": "Kyle Pitts Sr.",
+"positionTeam": "TE · ATL",
+"ownership": "-1.26 owned",
+"tier": "DEPTH",
+"lead": "Dropped this morning — don't claim him back.",
+"case": [
+{
+"label": "The number that kills it",
+"body": "2 catches for 6 on 5 targets in Week 8 with Penix 8-of-24, 4 INT (FFB ~2 Nov); a third tight end behind Likely and Loveland. Reclaiming him costs IPADE priority for the season and reverses today's move."
+},
+{
+"label": "What would change it",
+"body": "Likely or Loveland hurt for weeks."
+}
+],
+"sources": "FFB · activity log"
+},
+{
+"playerId": 4371733,
+"name": "Kenny Gainwell",
+"positionTeam": "RB · TB",
+"ownership": "+1.51 owned",
+"tier": "DEPTH",
+"lead": "25 carries in a zero-pass game, and a healthy Irving.",
+"case": [
+{
+"label": "The number that kills it",
+"body": "Tampa threw zero passes in Week 8; Irving 27 carries for 170, Gainwell 25 for 140; one target in two games (Week 8 recaps; DK 3 Nov)."
+},
+{
+"label": "What would change it",
+"body": "An Irving injury."
+}
+],
+"sources": "DK Network · Week 8 recaps"
+},
+{
+"playerId": 4597500,
+"name": "Adonai Mitchell",
+"positionTeam": "WR · NYJ",
+"ownership": "+17.13 owned",
+"tier": "DEPTH",
+"lead": "The wire's biggest riser, and a fifth receiver here.",
+"case": [
+{
+"label": "The number that kills it",
+"body": "9 targets in Week 8 after 3 and 0 (screen); at Kansas City, 2nd-toughest vs WR (StatChasers 3 Nov)."
+},
+{
+"label": "The new fact",
+"body": "Wilson's concussion (ESPN 4 Nov) frees targets — but Wilson is already benched here, and Pickens covers Rice."
+},
+{
+"label": "What would change it",
+"body": "Eight-plus targets again and an injury among Golden, Rice and Pickens."
+}
+],
+"sources": "FFB · StatChasers"
+}
+],
+"waiverAnalysis": {
+"verdict": "NOTHING",
+"summary": "Nothing on the wire beats this roster on usage (waiver_analysis.py, 22:05Z file, eight weeks of data). IPADE priority never resets; free agents cost nothing.",
+"weeks": 8,
+"rising": [],
+"falling": []
+},
+"settled": [
+{
+"correct": false,
+"title": "'Pitts for Worthy' (owner, 28 Oct)",
+"result": "Week 8: Worthy 4.3, Pitts 2.6 (archive). Pitts dropped this morning after one game — closed CHURN."
+},
+{
+"correct": true,
+"title": "Week 8 result",
+"result": "Won 149.48 to 95.88 (archive). Tuten 29.9, Jacobs 23.2, Golden 20.9, Jaguars D/ST 19."
+},
+{
+"correct": false,
+"title": "Points left on the bench, Week 8",
+"result": "Rice 18.3 on the bench, Taylor 6.7 started: 11.6. The projection's call (15.7 to 12.7), no override."
+},
+{
+"correct": false,
+"title": "'Strange for Loveland' (owner, 14 Oct)",
+"result": "Loveland outscored Strange in Weeks 6 and 8 — closed WRONG earlier."
+},
+{
+"correct": true,
+"title": "'Barkley + Tate for Daniels + Likely' (owner, 16 Oct)",
+"result": "Weeks 6-8: Daniels and Likely 60.1, Barkley and Tate 56.4 (archive). Week 9 completes it."
+}
+],
+"cannotSee": [
+{
+"label": "Taylor and Jacobs",
+"body": "A Taylor trade before the NFL's 10 Nov deadline and a Jacobs ruling are both possible and neither has a date. (The fantasy trade deadline here is 2 Dec; the 10 Nov date is the NFL's.)"
+},
+{
+"label": "Wilson's protocol",
+"body": "Clearance is decided by independent doctors; Friday's designation is the first real answer. He is benched on the number either way."
+},
+{
+"label": "Marks' report entry",
+"body": "An SI headline says Marks appears on Houston's Week 9 injury report; the article's date and contents could not be confirmed. Thursday's report decides whether the Jacobs cover holds."
+},
+{
+"label": "Pending claims",
+"body": "Rivals' claims are invisible. IPADE priority never resets; Bloodsports are 6th."
+},
+{
+"label": "Matchup grades",
+"body": "One table — StatChasers, weeks 1-8, half-PPR, 3 Nov, ranked by sorting its FPPG values (±1). K and D/ST not graded."
+},
+{
+"label": "Trades",
+"body": "No trade was researched this run. STRATEGY's window is weeks 9-11."
+}
+]
+}
