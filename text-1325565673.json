@@ -1,1 +1,390 @@
-{"lead":{"kicker":"MIDWEEK · IPADE · WEEK 9","headline":"Ahead after Thursday; Wilson and Pickens doubtful on the bench","deck":"Jaguars D/ST 10 against Fagnano; Tuten 8.9 in the FLEX; every Sunday starter practised.","byline":"Fantasy Brief","dateline":"MEXICO CITY, Friday 07:00 —","body":"The bad news first, and it is on the bench: Garrett Wilson missed Wednesday and Thursday in the concussion protocol, and George Pickens was limited both days with a hamstring. Bhayshul Tuten, moved into the FLEX last night, scored early at Baltimore and then sat as Jacksonville won 33-10 — 8.9. The Jaguars D/ST added 10. Bloodsports lead Jackrabbits 18.9 to 10.88 and ESPN gives a 61% chance. Every Sunday starter practised Thursday — Rice fully, Taylor fully after a rest day — so the lineup is the projection lineup and there is nothing to do. The Colts are in active trade talks over Jonathan Taylor before Tuesday's deadline; he plays for Indianapolis Sunday.","players":[{"playerId":4569618,"caption":"Wilson: protocol, DNP Wed-Thu"},{"playerId":4426354,"caption":"Pickens: hamstring, limited"}]},"doFirst":{"headline":"Nothing to set","deck":"The lineup is the projection lineup and no starter is in doubt.","note":"Free agents are open; nothing on the wire beats a starter, and Aubrey is not worth priority.","empty":"Nothing to decide before Sunday: every starter practised Thursday, and Thursday's two are locked.","cards":[]},"roster":{"deck":"The lineup as set is the projection lineup; Tuten and the Jaguars D/ST are already in, 18.9."},"wire":{"headline":"Nothing clears the bar","deck":"Thursday's movers are a Tuten handcuff and a garbage-time run; Aubrey is a kicker that costs priority.","candidates":[]},"players":{"4242335":{"deck":"Starts.","reason":"Dallas 30th vs RB; trade talks, plays Sunday","flags":["ROLE_DOWN"],"availability":"ACTIVE — rest day Wednesday, full Thursday (SI Colts 5 Nov)","role":"8 carries and 5 targets, 62% of the backfield in Week 8 (archive). ROLE_DOWN answered: game script — a 42-7 loss at Jacksonville, 79% of snaps before garbage time per PFF (Draft Sharks 2 Nov)","competition":"Seth McGowan and DJ Giddens took the second half of the blowout (Draft Sharks 2 Nov); no coach quote calling it a plan","passer":"Daniel Jones stays the starter after Richardson relieved him in the blowout (Steichen ~2 Nov)","checked":"Fri 6 Nov: Colts Thursday report (SI Colts 5 Nov); Draft Sharks 2 Nov; trade reporting (ESPN Schefter, NFL Network Rapoport, Pelissero; Bleacher Report 31 Oct)","vsProjection":{"tag":"Priced.","text":"The Week 8 dip was a blowout; ESPN's 19.6 is a full-workload number in a 51.5 total. Believe it."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"19.6, RB5. ROLE_DOWN is a 42-7 script, not a role change; DAL 30th vs RB. A trade would change his team after Sunday, not this week. Changes only on an injury.","matchupGrade":"GREAT · 30th vs RB (DAL) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4428331":{"deck":"Starts.","reason":"Full Thursday; Jets 12th vs WR","flags":["ROLE_UP"],"availability":"ACTIVE — hamstring/knee: limited Wednesday, FULL Thursday (AtoZ 5 Nov 21:36Z)","role":"8 targets, 23% of KC's targets in his Week 8 return, 7-53-1 (archive; FanDuel 2 Nov). ROLE_UP answered: back from a three-game absence","competition":"Kelce (ankle) full Thursday; Worthy off the report","passer":"Patrick Mahomes, full both days","checked":"Fri 6 Nov: Chiefs Thursday report (AtoZ 5 Nov; NBC 4 Nov)","vsProjection":{"tag":"Priced.","text":"Full Thursday removes the doubt; ESPN's 13.9 already assumes he plays."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"13.9 at WR against Pickens 13.3 (questionable) and Wilson 12.8 (protocol) on the bench — 0.6, a coin flip on paper, and both alternatives are in doubt. Projection keeps Rice, no thesis.","matchupGrade":"SHAKY · 12th vs WR (NYJ) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4569618":{"deck":"Bench.","reason":"Concussion protocol, DNP Wed-Thu; at KC, 2nd-toughest vs WR","flags":["OWN_QUESTIONABLE"],"availability":"QUESTIONABLE — concussion protocol after a helmet-to-helmet hit in Week 8; DNP Wednesday AND Thursday; Glenn 'day to day'; reports call a Week 9 return doubtful (Fox 4 Nov; Sporting News/Yahoo 5 Nov 19:08Z). Not ruled out; Friday's report is the first official answer","role":"12 targets, 39% of the Jets' targets in Week 8 (archive) — the WR1 when healthy","competition":"Adonai Mitchell (7-142-1 in Week 8) and rookie Omar Cooper Jr. carry the passing game if he sits (Fox 4 Nov; SN 5 Nov); Breece Hall close to returning","passer":"Geno Smith, implied starter, no change reported","checked":"Fri 6 Nov: Jets Wednesday/Thursday reports (newyorkjets.com; Fox 4 Nov; Sporting News/Yahoo 5 Nov 19:08Z). No Friday news yet","vsProjection":{"tag":"Not priced.","text":"ESPN still projects 12.8 for a full game. Two missed practices in the protocol and 'doubtful' reporting say otherwise — believe the reporting until the Jets clear him."},"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"12.8, behind Golden 17.3 and Rice 13.9 at WR. Out of the lineup on the number before availability enters it. Nothing to decide.","matchupGrade":"POOR · 2nd vs WR (KC) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4882093":{"deck":"Played Thursday in the FLEX: 8.9 on 12 carries and a TD.","reason":"Final: 8.9 — blowout gave the second half to Abdullah","flags":["ROLE_UP"],"availability":"PLAYED — cleared pregame after three DNPs (Rapoport, via ESPN recap 5 Nov); no aggravation reported (NBC/Rotoworld 6 Nov)","role":"12 carries, 0 targets, 8.9 points in Week 9 (archive, live); split the first half with Rodriguez, Ameer Abdullah took most of the second half at 33-3 (ESPN recap 5 Nov)","competition":"Chris Rodriguez Jr. 10 carries and a TD; Abdullah the garbage-time back (ESPN 5 Nov). Rotoworld expect Tuten's volume back up at Tennessee in Week 10 (6 Nov)","passer":"Trevor Lawrence, 16/26, 242, 1 TD (ESPN 5 Nov)","checked":"Fri 6 Nov: ESPN/AP TNF recap (5 Nov 23:08 ET); NBC/Rotoworld 6 Nov; archive week 9 live","vsProjection":{"tag":"Priced.","text":"ESPN's 15.4 assumed a full workload; the blowout handed the second half to Abdullah. Game script, not role — no new injury."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"The owner moved Tuten into the FLEX over Gordon at 23:23Z — a 1.1 coin flip the projection gave to Gordon. Final 8.9; Gordon plays Sunday. No thesis on a coin flip; graded only in the points-left-on-bench count.","matchupGrade":"SHAKY · 10th vs RB (BAL) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4701936":{"deck":"Starts.","reason":"Team target leader; Patriots CB Jones DNP Thursday","flags":["RIVAL_QUESTIONABLE"],"availability":"ACTIVE — off the report","role":"13 targets, 34% of Green Bay's targets in Week 8 — 30%+ in six of eight weeks (archive)","competition":"Christian Watson: broken rib, limited Wednesday and Thursday in pads, expected to play with some risk of leaving early (SI 5 Nov) — RIVAL_QUESTIONABLE answered; Tucker Kraft 16%","passer":"Jordan Love, off the report","checked":"Fri 6 Nov: Packers Thursday report (Packers.com 5 Nov; SI 5 Nov); Patriots defence: CB Marcus Jones (foot) DNP Thursday, Carlton Davis (neck) limited","vsProjection":{"tag":"Upside, not priced.","text":"Marcus Jones joined the report Thursday as a DNP; if Watson leaves early with the rib, more falls to Golden."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"17.3, WR10, the top receiver here. NE 20th vs WR; Marcus Jones' Thursday DNP is small unpriced upside. Nothing to decide.","matchupGrade":"AVERAGE · 20th vs WR (NE) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4711533":{"deck":"Bench — Tuten took the FLEX Thursday.","reason":"Achane out for the season; Detroit 4th-toughest vs RB, MIA +7","flags":["ROLE_UP","VACATED"],"availability":"ACTIVE — not on any report found","role":"19 and 25 carries in Weeks 8 and 7, 81-90% of Miami's backfield (archive); 69 carries, 332 yards, 4 TDs in four starts without Achane (NBC/Rotoworld ~1-2 Nov)","competition":"De'Von Achane: torn ACL 27 Sep, out for the season — VACATED answered, nothing to wait for; Jaylen Wright the change-of-pace back, no new news","passer":"Malik Willis, starting; full practice through a groin in Week 8 (Yahoo 28 Oct); no Week 9 report retrieved","checked":"Fri 6 Nov: Dolphins coverage (NBC/Rotoworld Week 8 recap; CBS12 on Achane); no Week 9 Dolphins report retrieved","vsProjection":{"tag":"Priced.","text":"Achane's ACL is seven weeks old; ESPN's 16.5 is a lead-back number already. Believe it."},"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"16.5 — the projection's FLEX on Thursday by 1.1 over Tuten, a coin flip; the owner chose Tuten and Tuten is locked. Nothing left to decide.","matchupGrade":"POOR · 4th vs RB (DET) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4426354":{"deck":"Bench.","reason":"Hamstring, limited Wed-Thu; Ferguson likely out","flags":["OWN_QUESTIONABLE","RIVAL_QUESTIONABLE"],"availability":"QUESTIONABLE — hamstring this week, limited Wednesday and Thursday (SI Colts 5 Nov); the earlier shoulder was Week 8 (4for4 22 Oct)","role":"4 targets, 17% of Dallas' targets in Week 8 (archive)","competition":"Jake Ferguson (low-ankle sprain) DNP Wednesday and Thursday, outlook poor; Spann-Ford fills in (RotoWire/NBC 5 Nov) — RIVAL_QUESTIONABLE answered; CeeDee Lamb off the report","passer":"Dak Prescott, off the report","checked":"Fri 6 Nov: Cowboys Thursday report (SI 5 Nov; RotoWire/NBC 5 Nov)","vsProjection":null,"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"13.3 against Rice's 13.9 at WR: 0.6, a coin flip the projection gives to Rice, who practised fully. Ferguson's absence is upside if Pickens plays. No thesis.","matchupGrade":"SHAKY · 9th vs WR (IND) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4249087":{"deck":"Starts.","reason":"51.5 total, but LV +10","flags":[],"availability":"ACTIVE — not on the Raiders' Wednesday report (Raiders.com)","role":null,"competition":null,"passer":null,"checked":"Fri 6 Nov: Raiders Wednesday report; SF -10, total 51.5 (VegasInsider 5 Nov)","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"9.3 against Zvada 10.4 (free agent) and Aubrey 10.5 (waivers): ~1 point. Below a real gap. Hold.","matchupGrade":null},"4047365":{"deck":"Starts.","reason":"Workhorse since his return; NE 5th-toughest vs RB","flags":["ROLE_UP","RIVAL_QUESTIONABLE"],"availability":"ACTIVE — off the report; the NFL is reviewing new accounts in police records (AP 31 Oct-2 Nov), LaFleur expects him to stay with the team","role":"21 carries, 84% of Green Bay's backfield and 6 targets in Week 8, 27 touches (archive; FantasyFootballers 30 Oct). ROLE_UP answered: back from the exempt list, he is the workhorse","competition":"MarShawn Lloyd (knee) limited Thursday (Packers.com 5 Nov) — RIVAL_QUESTIONABLE answered","passer":"Jordan Love, off the report","checked":"Fri 6 Nov: Packers Thursday report (Packers.com 5 Nov); AP 2 Nov on the league review","vsProjection":{"tag":"Priced.","text":"His workload since returning is in the 16.6. The discipline review is not priced, and no action has been reported."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"16.6 against Gordon's 16.5 on the bench: 0.1, a coin flip — the projection keeps Jacobs, no thesis. NE 5th-toughest vs RB priced. Changes on any league action.","matchupGrade":"POOR · 5th vs RB (NE) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4426348":{"deck":"Starts.","reason":"Full practice; 48.5 total","flags":[],"availability":"ACTIVE — full participant; elbow tag left over from Week 2 (SB Nation/Yahoo 5 Nov)","role":"29 pass attempts and 2 carries in Week 8 (archive)","competition":null,"passer":null,"checked":"Fri 6 Nov: Commanders Thursday coverage (SB Nation/Yahoo 5 Nov 23:38Z); LAR -4.5, total 48.5 (VegasInsider 5 Nov)","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"18.7, QB7, the only QB here. LAR 13th vs QB is middling; the total is the week's 4th-highest. Nothing to decide.","matchupGrade":"SHAKY · 13th vs QB (LAR) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4361050":{"deck":"Starts.","reason":"Nabers DNP Thursday (knee); Eagles 3rd-toughest vs TE","flags":["ROLE_DOWN","RIVAL_QUESTIONABLE","QB_CHANGE"],"availability":"ACTIVE — not on the Giants' Wednesday or Thursday report (SI Giants 5 Nov)","role":"4 targets, 15% in Week 7 after 11-13 a game in Weeks 4-6; bye Week 8 (archive). ROLE_DOWN answered: one game, no role news found","competition":"Malik Nabers (knee) added Thursday as DNP, says he'll 'be good' Sunday (SI Giants 6 Nov 01:30Z) — if he sits, Likely is the first read. Malachi Fields the WR2","passer":"J.J. McCarthy, the starter since Dart's season-ending knee (giants.com tracker; PhillyVoice 4 Nov) — QB_CHANGE answered, normal","checked":"Fri 6 Nov: Giants Thursday report (SI Giants 6 Nov); Eagles report (philadelphiaeagles.com 5 Nov 23:45Z); lines NYG -3.5, total 38.5 (VegasInsider 5 Nov)","vsProjection":{"tag":"Upside, not priced.","text":"Nabers' DNP was added Thursday, after the projection. He says he plays; if he does not, the targets go to Likely."},"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"12.8, TE4, against Loveland's 12.1 on the bench: 0.7, a coin flip the projection takes. PHI 3rd-toughest vs TE priced; Nabers' Thursday DNP is unpriced upside.","matchupGrade":"POOR · 3rd vs TE (PHI) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"4723086":{"deck":"Bench behind Likely at TE.","reason":"Kmet out for season; TB 23rd vs TE","flags":["ROLE_UP","QB_CHANGE"],"availability":"ACTIVE — off the Week 9 report; the Week 8 neck cleared (Sun-Times 30-31 Oct)","role":"9 targets, 26% of Chicago's targets in Week 8; 25-37-241-2 over his last five (archive; FantasyFootballers 31 Oct). ROLE_UP answered: Cole Kmet on IR, out for the season (theScore 23 Oct)","competition":"Rookie Sam Roush the TE2; Burden and Odunze healthy","passer":"Caleb Williams, off the report — QB_CHANGE answered, normal","checked":"Fri 6 Nov: Bears Thursday report (Sun-Times; theScore on Kmet); Buccaneers defence: Diaby DNP, Tykee Smith limited (Buccaneers.com 5 Nov)","vsProjection":null,"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"12.1 against Likely's 12.8 at TE: 0.7, a coin flip the projection gives to Likely; the FLEX was spent on Tuten Thursday. No thesis.","matchupGrade":"GOOD · 23rd vs TE (TB) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"},"-16030":{"deck":"Played: 10 points against Joe Fagnano.","reason":"Final: 10 — two INTs of Fagnano","flags":[],"availability":"PLAYED","role":null,"competition":null,"passer":null,"checked":"Fri 6 Nov: ESPN/AP recap (5 Nov) — two Fagnano interceptions, a fumbled kick return, 60 passing yards allowed; Baltimore's TD a 65-yard Justice Hill run at 33-3","vsProjection":null,"verdict":"START","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"Final 10 against 8.8 projected. The start was right on its face; nothing to decide.","matchupGrade":null},"4429059":{"deck":"Bench — the fifth back here.","reason":"Montgomery out; Chargers 23rd vs RB","flags":["ROLE_UP","VACATED"],"availability":"ACTIVE","role":"19 carries, 100% of Houston's backfield in Week 7 (archive). ROLE_UP/VACATED answered: Montgomery ruled OUT for Week 9 (Ryans, 4 Nov), third straight miss, not expected before 15 Nov","competition":"David Montgomery (groin) OUT; Ogunbowale and Vaughn behind","passer":"C.J. Stroud, no injury found","checked":"Fri 6 Nov: Texans coverage (FantasyFootballers 4 Nov; RotoWire 5 Nov)","vsProjection":{"tag":"Priced.","text":"Montgomery was ruled out Wednesday; the 14.5 is a lead-back number."},"verdict":"BENCH","trigger":null,"fallback":null,"drop":null,"addif":null,"logic":"14.5 behind Taylor 19.6, Jacobs 16.6, Gordon 16.5 and Tuten (locked). Montgomery's absence priced. Nothing to decide.","matchupGrade":"GOOD · 23rd vs RB (LAC) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"}},"screenInjured":["Jeremiyah Love","Lamar Jackson","Tyler Huntley","Jalen Hurts","Cole Kmet","De'Von Achane","Terry McLaurin","Jaxson Dart","David Montgomery","Tyrone Tracy Jr.","Michael Pittman Jr.","Sam Darnold","Kendrick Bourne","Zachariah Branch","Kyler Murray","Jacory Croskey-Merritt","Davante Adams"],"screen":[{"playerId":4362619,"verdict":"PASS","reason":"Tuten's partner: 10 carries and a TD Thursday, Abdullah the blowout back (ESPN 5 Nov); on waivers, and IPADE priority never resets — never on a handcuff.","falsifiedIf":"A Tuten injury.","drop":null},{"playerId":4038441,"verdict":"PASS","reason":"18.2 came on a 65-yard run at 33-3 (AP 5 Nov); a passing-down back behind a healthy Henry.","falsifiedIf":"A Derrick Henry injury.","drop":null},{"playerId":4427728,"verdict":"PASS","reason":"Concussion protocol, absent Wednesday and Thursday (FantasyFootballers 4-5 Nov); Allgeier leads Arizona with Love on IR.","falsifiedIf":"Knight clears and takes over 40% of Arizona's carries in Week 10.","drop":null},{"playerId":4360939,"verdict":"PASS","reason":"Not in Thursday's box summaries; 2 targets, 1.6, with Fagnano 10/18 for 60 (ESPN 5 Nov).","falsifiedIf":"Brissett starts and Bateman draws 7+ targets.","drop":null},{"playerId":4685415,"verdict":"PASS","reason":"1 target, -1.1 Thursday; no offensive role found (ESPN 5 Nov).","falsifiedIf":"A reported move to a full-time receiver role.","drop":null},{"playerId":3116365,"verdict":"PASS","reason":"2-19 on 2 targets with Fagnano (ESPN 5 Nov); a third tight end behind Likely and Loveland.","falsifiedIf":"Likely or Loveland hurt for weeks.","drop":null},{"playerId":4430539,"verdict":"PASS","reason":"Absent from Thursday's box summary; Boerkircher 2-61 (ESPN 5 Nov). Waivers, priority, third tight end.","falsifiedIf":"Likely or Loveland hurt for weeks.","drop":null},{"playerId":4429582,"verdict":"PASS","reason":"10/18, 60, 2 INT in his first start; Brissett arriving (ESPN 5 Nov). Daniels is the QB here.","falsifiedIf":"A Daniels injury — and even then not Fagnano.","drop":null}],"unpriced":{},"notes":{"cannotSee":[{"label":"Friday's injury reports","body":"Not out at 07:00 CDMX. No Bloodsports starter is on a report; Pickens and Wilson, on the bench, are."},{"label":"Taylor's trade market","body":"The Colts are in 'active and ongoing' talks (Schefter; Rapoport) before Tuesday's NFL deadline; Minnesota and the Giants reported favourites. He plays for Indianapolis Sunday either way; the fantasy deadline here is 2 Dec."},{"label":"Jacobs' review","body":"The NFL is reviewing new accounts (AP 31 Oct-2 Nov); no action, no timetable."},{"label":"Pending claims","body":"Rivals' claims are invisible. IPADE priority never resets."},{"label":"Matchup grades","body":"One table — StatChasers weeks 1-8, half-PPR with a 12% 2025 blend, updated 4 Nov. K and D/ST not graded."},{"label":"Trades","body":"No trade was researched this run. STRATEGY's window is weeks 9-11."}],"sources":"Built from 83 web searches across both leagues this run · ESPN · NFL.com · Vikings.com · newyorkjets.com · Saints.com · Packers.com · Buccaneers.com · philadelphiaeagles.com · SI team sites · Yahoo · Sporting News · RotoWire · NBC Sports/Rotoworld · FantasyFootballers · Draft Sharks · AtoZ · AP · StatChasers · VegasInsider"}}
+{
+"lead": {
+"kicker": "MIDWEEK · IPADE · WEEK 9",
+"headline": "Ahead after Thursday; Wilson ruled out on the bench",
+"deck": "Wilson OUT Friday, Pickens limited all week — both on the bench; every Sunday starter undesignated.",
+"byline": "Fantasy Brief",
+"dateline": "MEXICO CITY, Friday 16:00 —",
+"body": "The bad news first, and it stays on the bench: Garrett Wilson was ruled out on Friday with the concussion, and George Pickens finished a week of limited practices on his hamstring with ESPN still listing him questionable. Neither starts here. Every Sunday starter is clear: Rashee Rice practised fully, Jonathan Taylor fully after a rest day, and Green Bay listed MarShawn Lloyd questionable, which only firms up Josh Jacobs' workload. Bloodsports lead Jackrabbits 18.9 to 10.88 and ESPN gives a 61% chance. The lineup is the projection lineup; nothing to do. The Colts are still shopping Taylor before Tuesday's NFL deadline; he plays for Indianapolis Sunday.",
+"players": [
+{
+"playerId": 4569618,
+"caption": "Wilson: OUT, concussion"
+},
+{
+"playerId": 4426354,
+"caption": "Pickens: hamstring, limited all week"
+}
+]
+},
+"doFirst": {
+"headline": "Nothing to set",
+"deck": "The lineup is the projection lineup and no starter is in doubt.",
+"note": "Free agents are open; nothing on the wire beats a starter, and Aubrey is not worth priority.",
+"empty": "Nothing to decide before Sunday: no starter carries a designation, and Thursday's two are locked.",
+"cards": []
+},
+"roster": {
+"deck": "The lineup as set is the projection lineup; Tuten and the Jaguars D/ST are already in, 18.9."
+},
+"wire": {
+"headline": "Nothing clears the bar",
+"deck": "Thursday's movers are a Tuten handcuff and a garbage-time run; Aubrey is a kicker that costs priority, and Singletary is now rostered.",
+"candidates": []
+},
+"players": {
+"4242335": {
+"deck": "Starts.",
+"reason": "Dallas 30th vs RB; trade talks, plays Sunday",
+"flags": ["ROLE_DOWN"],
+"availability": "ACTIVE — rest day Wednesday, full Thursday (SI Colts 5 Nov)",
+"role": "8 carries and 5 targets, 62% of the backfield in Week 8 (archive). ROLE_DOWN answered: game script — a 42-7 loss at Jacksonville, 79% of snaps before garbage time per PFF (Draft Sharks 2 Nov)",
+"competition": "Seth McGowan and DJ Giddens took the second half of the blowout (Draft Sharks 2 Nov); no coach quote calling it a plan",
+"passer": "Daniel Jones stays the starter after Richardson relieved him in the blowout (Steichen ~2 Nov)",
+"checked": "Fri 6 Nov: Colts Thursday report (SI Colts 5 Nov); Draft Sharks 2 Nov; trade reporting (ESPN Schefter, NFL Network Rapoport, Pelissero; Bleacher Report 31 Oct)",
+"vsProjection": {
+"tag": "Priced.",
+"text": "The Week 8 dip was a blowout; ESPN's 19.6 is a full-workload number in a 51.5 total. Believe it."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "19.6, RB5. ROLE_DOWN is a 42-7 script, not a role change; DAL 30th vs RB. A trade would change his team after Sunday, not this week. Changes only on an injury.",
+"matchupGrade": "GREAT · 30th vs RB (DAL) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4428331": {
+"deck": "Starts.",
+"reason": "Full Thursday; Jets 12th vs WR",
+"flags": ["ROLE_UP"],
+"availability": "ACTIVE — hamstring/knee: limited Wednesday, FULL Thursday (AtoZ 5 Nov 21:36Z)",
+"role": "8 targets, 23% of KC's targets in his Week 8 return, 7-53-1 (archive; FanDuel 2 Nov). ROLE_UP answered: back from a three-game absence",
+"competition": "Kelce (ankle) full Thursday; Worthy off the report",
+"passer": "Patrick Mahomes, full both days",
+"checked": "Fri 6 Nov: Chiefs Thursday report (AtoZ 5 Nov; NBC 4 Nov)",
+"vsProjection": {
+"tag": "Priced.",
+"text": "Full Thursday removes the doubt; ESPN's 13.9 already assumes he plays."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "13.9 at WR against Pickens 13.3 (questionable) and Wilson 12.8 (protocol) on the bench — 0.6, a coin flip on paper, and both alternatives are in doubt. Projection keeps Rice, no thesis.",
+"matchupGrade": "SHAKY · 12th vs WR (NYJ) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4569618": {
+"deck": "Ruled out Friday; a fourth receiver here regardless.",
+"reason": "OUT — concussion, ruled out Friday (ESPN/NY Post 6 Nov)",
+"flags": ["OWN_OUT"],
+"availability": "OUT — ruled out Friday for Kansas City (concussion; ESPN NYJ injury page citing Brian Costello, NY Post, 6 Nov)",
+"role": "12 targets, 39% of the Jets' targets in Week 8 (archive) — the WR1 when healthy",
+"competition": "Adonai Mitchell (7-142-1 in Week 8) and rookie Omar Cooper Jr. carry the passing game if he sits (Fox 4 Nov; SN 5 Nov); Breece Hall close to returning",
+"passer": "Geno Smith, implied starter, no change reported",
+"checked": "Fri 6 Nov: Jets Friday ruling (ESPN NYJ page / NY Post 6 Nov)",
+"vsProjection": {
+"tag": "Priced.",
+"text": "ESPN now projects 0.0; Thursday's 12.8 was the unpriced part, and it is settled."
+},
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "Out, projection 0.0 — no comparison to make. Thursday's bench call on unpriced protocol news is confirmed. Changes when the Jets clear him for Week 10.",
+"matchupGrade": "POOR · 2nd vs WR (KC) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4882093": {
+"deck": "Played Thursday in the FLEX: 8.9 on 12 carries and a TD.",
+"reason": "Final: 8.9 — blowout gave the second half to Abdullah",
+"flags": ["ROLE_UP"],
+"availability": "PLAYED — cleared pregame after three DNPs (Rapoport, via ESPN recap 5 Nov); no aggravation reported (NBC/Rotoworld 6 Nov)",
+"role": "12 carries, 0 targets, 8.9 points in Week 9 (archive, live); split the first half with Rodriguez, Ameer Abdullah took most of the second half at 33-3 (ESPN recap 5 Nov)",
+"competition": "Chris Rodriguez Jr. 10 carries and a TD; Abdullah the garbage-time back (ESPN 5 Nov). Rotoworld expect Tuten's volume back up at Tennessee in Week 10 (6 Nov)",
+"passer": "Trevor Lawrence, 16/26, 242, 1 TD (ESPN 5 Nov)",
+"checked": "Fri 6 Nov: ESPN/AP TNF recap (5 Nov 23:08 ET); NBC/Rotoworld 6 Nov; archive week 9 live",
+"vsProjection": {
+"tag": "Priced.",
+"text": "ESPN's 15.4 assumed a full workload; the blowout handed the second half to Abdullah. Game script, not role — no new injury."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "The owner moved Tuten into the FLEX over Gordon at 23:23Z — a 1.1 coin flip the projection gave to Gordon. Final 8.9; Gordon plays Sunday. No thesis on a coin flip; graded only in the points-left-on-bench count.",
+"matchupGrade": "SHAKY · 10th vs RB (BAL) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4701936": {
+"deck": "Starts.",
+"reason": "Team target leader; Patriots CB Jones DNP Thursday",
+"flags": ["RIVAL_QUESTIONABLE"],
+"availability": "ACTIVE — off the report",
+"role": "13 targets, 34% of Green Bay's targets in Week 8 — 30%+ in six of eight weeks (archive)",
+"competition": "Christian Watson: broken rib, limited Wednesday and Thursday in pads, expected to play with some risk of leaving early (SI 5 Nov) — RIVAL_QUESTIONABLE answered; Tucker Kraft 16%",
+"passer": "Jordan Love, off the report",
+"checked": "Fri 6 Nov: Packers Thursday report (Packers.com 5 Nov; SI 5 Nov); Patriots defence: CB Marcus Jones (foot) DNP Thursday, Carlton Davis (neck) limited",
+"vsProjection": {
+"tag": "Upside, not priced.",
+"text": "Marcus Jones joined the report Thursday as a DNP; if Watson leaves early with the rib, more falls to Golden."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "17.3, WR10, the top receiver here. NE 20th vs WR; Marcus Jones' Thursday DNP is small unpriced upside. Nothing to decide.",
+"matchupGrade": "AVERAGE · 20th vs WR (NE) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4711533": {
+"deck": "Bench — Tuten took the FLEX Thursday.",
+"reason": "Achane out for the season; Detroit 4th-toughest vs RB, MIA +7",
+"flags": ["ROLE_UP", "VACATED"],
+"availability": "ACTIVE — not on any report found",
+"role": "19 and 25 carries in Weeks 8 and 7, 81-90% of Miami's backfield (archive); 69 carries, 332 yards, 4 TDs in four starts without Achane (NBC/Rotoworld ~1-2 Nov)",
+"competition": "De'Von Achane: torn ACL 27 Sep, out for the season — VACATED answered, nothing to wait for; Jaylen Wright the change-of-pace back, no new news",
+"passer": "Malik Willis, starting; full practice through a groin in Week 8 (Yahoo 28 Oct); no Week 9 report retrieved",
+"checked": "Fri 6 Nov: Dolphins coverage (NBC/Rotoworld Week 8 recap; CBS12 on Achane); no Week 9 Dolphins report retrieved",
+"vsProjection": {
+"tag": "Priced.",
+"text": "Achane's ACL is seven weeks old; ESPN's 16.5 is a lead-back number already. Believe it."
+},
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "16.5 — the projection's FLEX on Thursday by 1.1 over Tuten, a coin flip; the owner chose Tuten and Tuten is locked. Nothing left to decide.",
+"matchupGrade": "POOR · 4th vs RB (DET) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4426354": {
+"deck": "Bench.",
+"reason": "Hamstring, limited Wed-Thu; Ferguson likely out",
+"flags": ["OWN_QUESTIONABLE", "RIVAL_QUESTIONABLE"],
+"availability": "QUESTIONABLE (ESPN) — hamstring, limited Wednesday and Thursday; no Friday designation retrieved",
+"role": "4 targets, 17% of Dallas' targets in Week 8 (archive)",
+"competition": "Jake Ferguson (low-ankle sprain) DNP Wednesday and Thursday, outlook poor; Spann-Ford fills in (RotoWire/NBC 5 Nov) — RIVAL_QUESTIONABLE answered; CeeDee Lamb off the report",
+"passer": "Dak Prescott, off the report",
+"checked": "Fri 6 Nov: Cowboys Wed/Thu reports (dallascowboys.com 4 Nov; FantasyFootballers 5 Nov); Ferguson DNP Wed-Thu",
+"vsProjection": null,
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "13.3 against Rice's 13.9 at WR: 0.6, a coin flip the projection gives to Rice, who practised fully. Ferguson's absence is upside if Pickens plays. No thesis.",
+"matchupGrade": "SHAKY · 9th vs WR (IND) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4249087": {
+"deck": "Starts.",
+"reason": "51.5 total, but LV +10",
+"flags": [],
+"availability": "ACTIVE — not on the Raiders' Wednesday report (Raiders.com)",
+"role": null,
+"competition": null,
+"passer": null,
+"checked": "Fri 6 Nov: Raiders Wednesday report; SF -10, total 51.5 (VegasInsider 5 Nov)",
+"vsProjection": null,
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "9.3 against Zvada 10.4 (free agent) and Aubrey 10.5 (waivers): ~1 point. Below a real gap. Hold.",
+"matchupGrade": null
+},
+"4047365": {
+"deck": "Starts.",
+"reason": "Workhorse since his return; NE 5th-toughest vs RB",
+"flags": ["ROLE_UP", "RIVAL_QUESTIONABLE"],
+"availability": "ACTIVE — off the report; the NFL is reviewing new accounts in police records (AP 31 Oct-2 Nov), LaFleur expects him to stay with the team",
+"role": "21 carries, 84% of Green Bay's backfield and 6 targets in Week 8, 27 touches (archive; FantasyFootballers 30 Oct). ROLE_UP answered: back from the exempt list, he is the workhorse",
+"competition": "MarShawn Lloyd (knee) QUESTIONABLE Friday; Chris Brooks limited (FantasyPros 6 Nov)",
+"passer": "Jordan Love, off the report",
+"checked": "Fri 6 Nov: Packers Friday report via FantasyPros (6 Nov 13:35 ET)",
+"vsProjection": {
+"tag": "Priced.",
+"text": "His workload since returning is in the 16.6. The discipline review is not priced, and no action has been reported."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "16.6 against Gordon's 16.5 on the bench: 0.1, a coin flip — the projection keeps Jacobs, no thesis. NE 5th-toughest vs RB priced. Changes on any league action.",
+"matchupGrade": "POOR · 5th vs RB (NE) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4426348": {
+"deck": "Starts.",
+"reason": "Full practice; 48.5 total",
+"flags": [],
+"availability": "ACTIVE — full participant; elbow tag left over from Week 2 (SB Nation/Yahoo 5 Nov)",
+"role": "29 pass attempts and 2 carries in Week 8 (archive)",
+"competition": null,
+"passer": null,
+"checked": "Fri 6 Nov: Commanders Thursday coverage (SB Nation/Yahoo 5 Nov 23:38Z); LAR -4.5, total 48.5 (VegasInsider 5 Nov)",
+"vsProjection": null,
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "18.7, QB7, the only QB here. LAR 13th vs QB is middling; the total is the week's 4th-highest. Nothing to decide.",
+"matchupGrade": "SHAKY · 13th vs QB (LAR) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4361050": {
+"deck": "Starts.",
+"reason": "Nabers DNP Thursday (knee); Eagles 3rd-toughest vs TE",
+"flags": ["ROLE_DOWN", "RIVAL_QUESTIONABLE", "QB_CHANGE"],
+"availability": "ACTIVE — not on the Giants' Wednesday or Thursday report (SI Giants 5 Nov)",
+"role": "4 targets, 15% in Week 7 after 11-13 a game in Weeks 4-6; bye Week 8 (archive). ROLE_DOWN answered: one game, no role news found",
+"competition": "Malik Nabers (knee) added Thursday as DNP, says he'll 'be good' Sunday (SI Giants 6 Nov 01:30Z) — if he sits, Likely is the first read. Malachi Fields the WR2",
+"passer": "J.J. McCarthy, the starter since Dart's season-ending knee (giants.com tracker; PhillyVoice 4 Nov) — QB_CHANGE answered, normal",
+"checked": "Fri 6 Nov: Giants Thursday report (SI Giants 6 Nov); Eagles report (philadelphiaeagles.com 5 Nov 23:45Z); lines NYG -3.5, total 38.5 (VegasInsider 5 Nov)",
+"vsProjection": {
+"tag": "Upside, not priced.",
+"text": "Nabers' DNP was added Thursday, after the projection. He says he plays; if he does not, the targets go to Likely."
+},
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "12.8, TE4, against Loveland's 12.1 on the bench: 0.7, a coin flip the projection takes. PHI 3rd-toughest vs TE priced; Nabers' Thursday DNP is unpriced upside.",
+"matchupGrade": "POOR · 3rd vs TE (PHI) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"4723086": {
+"deck": "Bench behind Likely at TE.",
+"reason": "Kmet out for season; TB 23rd vs TE",
+"flags": ["ROLE_UP", "QB_CHANGE"],
+"availability": "ACTIVE — off the Week 9 report; the Week 8 neck cleared (Sun-Times 30-31 Oct)",
+"role": "9 targets, 26% of Chicago's targets in Week 8; 25-37-241-2 over his last five (archive; FantasyFootballers 31 Oct). ROLE_UP answered: Cole Kmet on IR, out for the season (theScore 23 Oct)",
+"competition": "Rookie Sam Roush the TE2; Burden and Odunze healthy",
+"passer": "Caleb Williams, off the report — QB_CHANGE answered, normal",
+"checked": "Fri 6 Nov: Bears Thursday report (Sun-Times; theScore on Kmet); Buccaneers defence: Diaby DNP, Tykee Smith limited (Buccaneers.com 5 Nov)",
+"vsProjection": null,
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "12.1 against Likely's 12.8 at TE: 0.7, a coin flip the projection gives to Likely; the FLEX was spent on Tuten Thursday. No thesis.",
+"matchupGrade": "GOOD · 23rd vs TE (TB) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+},
+"-16030": {
+"deck": "Played: 10 points against Joe Fagnano.",
+"reason": "Final: 10 — two INTs of Fagnano",
+"flags": [],
+"availability": "PLAYED",
+"role": null,
+"competition": null,
+"passer": null,
+"checked": "Fri 6 Nov: ESPN/AP recap (5 Nov) — two Fagnano interceptions, a fumbled kick return, 60 passing yards allowed; Baltimore's TD a 65-yard Justice Hill run at 33-3",
+"vsProjection": null,
+"verdict": "START",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "Final 10 against 8.8 projected. The start was right on its face; nothing to decide.",
+"matchupGrade": null
+},
+"4429059": {
+"deck": "Bench — the fifth back here.",
+"reason": "Montgomery out; Chargers 23rd vs RB",
+"flags": ["ROLE_UP", "VACATED"],
+"availability": "ACTIVE",
+"role": "19 carries, 100% of Houston's backfield in Week 7 (archive). ROLE_UP/VACATED answered: Montgomery ruled OUT for Week 9 (Ryans, 4 Nov), third straight miss, not expected before 15 Nov",
+"competition": "David Montgomery (groin) OUT; Ogunbowale and Vaughn behind",
+"passer": "C.J. Stroud, no injury found",
+"checked": "Fri 6 Nov: Texans coverage (FantasyFootballers 4 Nov; RotoWire 5 Nov)",
+"vsProjection": {
+"tag": "Priced.",
+"text": "Montgomery was ruled out Wednesday; the 14.5 is a lead-back number."
+},
+"verdict": "BENCH",
+"trigger": null,
+"fallback": null,
+"drop": null,
+"addif": null,
+"logic": "14.5 behind Taylor 19.6, Jacobs 16.6, Gordon 16.5 and Tuten (locked). Montgomery's absence priced. Nothing to decide.",
+"matchupGrade": "GOOD · 23rd vs RB (LAC) · StatChasers wks 1-8, upd. 4 Nov (half-PPR, 12% 2025 blend; ±1 rank)"
+}
+},
+"screenInjured": ["Jeremiyah Love", "Lamar Jackson", "Tyler Huntley", "Jalen Hurts", "Cole Kmet", "De'Von Achane", "Terry McLaurin", "Jaxson Dart", "David Montgomery", "Tyrone Tracy Jr.", "Michael Pittman Jr.", "Sam Darnold", "Kendrick Bourne", "Zachariah Branch", "Kyler Murray", "Jacory Croskey-Merritt", "Davante Adams", "Garrett Wilson", "Bam Knight", "Treylon Burks", "Dyami Brown", "DeVonta Smith", "CJ Donaldson"],
+"screen": [
+{
+"playerId": 4362619,
+"verdict": "PASS",
+"reason": "Tuten's partner: 10 carries and a TD Thursday, Abdullah the blowout back (ESPN 5 Nov); on waivers, and IPADE priority never resets — never on a handcuff.",
+"falsifiedIf": "A Tuten injury.",
+"drop": null
+},
+{
+"playerId": 4038441,
+"verdict": "PASS",
+"reason": "18.2 came on a 65-yard run at 33-3 (AP 5 Nov); a passing-down back behind a healthy Henry.",
+"falsifiedIf": "A Derrick Henry injury.",
+"drop": null
+},
+{
+"playerId": 4360939,
+"verdict": "PASS",
+"reason": "Not in Thursday's box summaries; 2 targets, 1.6, with Fagnano 10/18 for 60 (ESPN 5 Nov).",
+"falsifiedIf": "Brissett starts and Bateman draws 7+ targets.",
+"drop": null
+},
+{
+"playerId": 4685415,
+"verdict": "PASS",
+"reason": "1 target, -1.1 Thursday; no offensive role found (ESPN 5 Nov).",
+"falsifiedIf": "A reported move to a full-time receiver role.",
+"drop": null
+},
+{
+"playerId": 3116365,
+"verdict": "PASS",
+"reason": "2-19 on 2 targets with Fagnano (ESPN 5 Nov); a third tight end behind Likely and Loveland.",
+"falsifiedIf": "Likely or Loveland hurt for weeks.",
+"drop": null
+},
+{
+"playerId": 4430539,
+"verdict": "PASS",
+"reason": "Absent from Thursday's box summary; Boerkircher 2-61 (ESPN 5 Nov). Waivers, priority, third tight end.",
+"falsifiedIf": "Likely or Loveland hurt for weeks.",
+"drop": null
+},
+{
+"playerId": 4429582,
+"verdict": "PASS",
+"reason": "10/18, 60, 2 INT in his first start; Brissett arriving (ESPN 5 Nov). Daniels is the QB here.",
+"falsifiedIf": "A Daniels injury — and even then not Fagnano.",
+"drop": null
+}
+],
+"unpriced": {},
+"notes": {
+"cannotSee": [
+{
+"label": "Unretrieved Friday designations",
+"body": "No official Friday status found for Pickens, Ferguson or Rice; rows rest on Wed-Thu practice and ESPN's tags."
+},
+{
+"label": "Inactive lists",
+"body": "Sunday 10:30 CDMX for the 12:00 games, 13:55 for 15:25, 17:50 for Chicago."
+},
+{
+"label": "Pending claims",
+"body": "Rivals' claims are invisible. IPADE priority never resets."
+},
+{
+"label": "Matchup grades",
+"body": "Carried from this morning's StatChasers table (weeks 1-8, updated 4 Nov), not re-pulled."
+}
+],
+"sources": "Built from 99 web searches plus page reads across both leagues this run · ESPN team injury pages · NBC Sports/Rotoworld · ProFootballTalk · giants.com · Draft Sharks · FantasyPros · The Fantasy Footballers · RotoBaller · Saints.com · NFL.com · Steelers.com · Footballguys; grades carried from StatChasers (4 Nov)"
+}
+}
