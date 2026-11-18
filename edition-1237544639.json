@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1237544639-w11-20261118T1318Z",
+  "id": "1237544639-w11-20261118T2228Z",
   "leagueId": "1237544639",
   "leagueName": "Chem",
   "teamName": "AVIATO",
@@ -9,9 +9,9 @@
   "week": 11,
   "record": "4–6",
   "dateline": "WEDNESDAY, NOVEMBER 18, 2026",
-  "time": "07:18",
+  "time": "16:28",
   "state": "BEFORE INACTIVES",
-  "generatedAt": "2026-11-18T13:18:12Z",
+  "generatedAt": "2026-11-18T22:28:18Z",
   "dryRun": false
  },
  "chart": {
@@ -22,23 +22,23 @@
  "front": {
   "lead": {
    "kicker": "MIDWEEK",
-   "headline": "The claim landed; the lineup was already right",
-   "deck": "The Steelers D/ST replaced the bye. Nothing on the wire would start. Waddle still has not practised.",
-   "byline": "Fantasy Brief · Wednesday 07:00 CDMX",
+   "headline": "Tuten is questionable — and your lineup has no net under him",
+   "deck": "He was limited Wednesday. Move him to FLEX and Gordon to RB so Diggs can step in at 13:55.",
+   "byline": "Fantasy Brief · Wednesday 16:00 CDMX",
    "dateline": "MEXICO CITY, Wed 18 Nov —",
-   "body": "Bad news first: Waddle has no practice line since his Week 9 concussion and Denver's first report lands later today; Garrett Wilson's quarterback, Geno Smith, starts only if he practises; Warren draws a Philadelphia defence that allows the 5th-fewest running-back points; Boston is on bye. The Steelers D/ST claim landed at 02:59 CDMX for the Packers, so every seat is filled. The lineup as set is the projection lineup, and nothing on the wire would start for you.",
+   "body": "Bad news first: Bhayshul Tuten was limited on Wednesday with his ankle and foot, and ESPN now lists him questionable. After this afternoon's lineup change he sits in an RB slot with Diggs in FLEX, and every back on your bench kicks off at 12:00 — so if Jacksonville declare him inactive at 13:55, nobody can replace him. Put Gordon in an RB slot and Tuten in FLEX: it is the projection lineup, and Diggs (Monday) or Waddle (15:25) become live fallbacks. Waddle practised for the first time since his concussion but is not cleared; Geno Smith, Wilson's quarterback, was limited.",
    "players": [
+    {
+     "playerId": 4882093,
+     "name": "Bhayshul Tuten",
+     "caption": "RB · Jacksonville. Limited Wednesday — ankle/foot.",
+     "logo": "jax"
+    },
     {
      "playerId": 4372016,
      "name": "Jaylen Waddle",
-     "caption": "BE · Denver. No practice since the concussion.",
+     "caption": "BE · Denver. Practised; not yet cleared.",
      "logo": "den"
-    },
-    {
-     "playerId": -16023,
-     "name": "Steelers D/ST",
-     "caption": "D/ST · Pittsburgh. Claimed overnight.",
-     "logo": "pit"
     }
    ]
   },
@@ -46,14 +46,14 @@
    "me": {
     "name": "AVIATO",
     "live": 0,
-    "proj": 137.0
+    "proj": 136.3
    },
    "them": {
     "name": "Panda Attack",
     "live": 0,
-    "proj": 100.8
+    "proj": 128.2
    },
-   "winProb": 0.68,
+   "winProb": 0.54,
    "slots": [
     {
      "slot": "QB",
@@ -83,9 +83,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4361579,
-      "name": "Williams",
-      "value": 19.7,
+      "id": 3929630,
+      "name": "Barkley",
+      "value": 12,
       "final": false
      }
     },
@@ -100,9 +100,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4697815,
-      "name": "White",
-      "value": 7.7,
+      "id": 4361579,
+      "name": "Williams",
+      "value": 19.7,
       "final": false
      }
     },
@@ -129,14 +129,14 @@
       "id": 4569618,
       "name": "Wilson",
       "pos": "WR",
-      "proj": 14,
-      "value": 14,
+      "proj": 14.1,
+      "value": 14.1,
       "final": false
      },
      "theirs": {
-      "id": 4427095,
-      "name": "Douglas",
-      "value": 0,
+      "id": 4239993,
+      "name": "Higgins",
+      "value": 16.8,
       "final": false
      }
     },
@@ -151,26 +151,26 @@
       "final": false
      },
      "theirs": {
-      "id": 5083076,
-      "name": "Fannin",
-      "value": 0,
+      "id": 3117256,
+      "name": "Schultz",
+      "value": 8.7,
       "final": false
      }
     },
     {
      "slot": "FLEX",
      "mine": {
-      "id": 4711533,
-      "name": "Gordon",
-      "pos": "RB",
-      "proj": 13.9,
-      "value": 13.9,
+      "id": 2976212,
+      "name": "Diggs",
+      "pos": "WR",
+      "proj": 13,
+      "value": 13,
       "final": false
      },
      "theirs": {
-      "id": 4239993,
-      "name": "Higgins",
-      "value": 16.8,
+      "id": 4696981,
+      "name": "Skattebo",
+      "value": 14.5,
       "final": false
      }
     },
@@ -222,10 +222,10 @@
      "starters": [
       "Allen",
       "Warren",
-      "Gordon",
       "Steelers D/ST"
      ],
      "bench": [
+      "Gordon",
       "Metcalf",
       "Etienne"
      ]
@@ -256,25 +256,65 @@
     },
     {
      "time": "Mon 19:15",
-     "starters": [],
-     "bench": [
+     "starters": [
       "Diggs"
-     ]
+     ],
+     "bench": []
     }
    ]
   }
  },
  "doFirst": {
-  "headline": "Nothing to do today",
-  "deck": "The lineup is the projection lineup and the D/ST claim landed.",
-  "cards": [],
-  "note": "Thursday's brief re-checks the lineup after the first practice reports.",
-  "empty": "Nothing to do before Thursday: the claim landed, the lineup is the projection lineup, and nothing on the wire would start."
+  "headline": "One lineup move before Sunday noon",
+  "deck": "Gordon to RB, Tuten to FLEX, Diggs to the bench — then Tuten's fallback is live.",
+  "cards": [
+   {
+    "id": "w11-tuten-inactive",
+    "headline": "Start Tuten — if he is inactive, Diggs takes the FLEX",
+    "reason": "Limited Wednesday with the ankle/foot he played through last week. Works only once he is in FLEX and Gordon in an RB slot.",
+    "rows": [
+     {
+      "label": "FIRST",
+      "value": "Before 12:00: Gordon to RB, Tuten to FLEX, Diggs to the bench"
+     },
+     {
+      "label": "FALLBACK",
+      "value": "Stefon Diggs (Mon 19:15) — or Waddle (Sun 15:25) if cleared"
+     },
+     {
+      "label": "IF ACTIVE",
+      "value": "Keep Tuten (17.0)"
+     }
+    ],
+    "playerId": 4882093,
+    "urgency": "today",
+    "due": "2026-11-22T13:55:00-06:00",
+    "tag": "TODAY · 13:55 · INACTIVES",
+    "short": "TODAY 13:55",
+    "primary": {
+     "label": "START DIGGS",
+     "action": {
+      "type": "swap",
+      "start": 2976212,
+      "bench": 4882093
+     }
+    },
+    "secondary": {
+     "label": "TUTEN'S CARD",
+     "action": {
+      "type": "sheet",
+      "playerId": 4882093
+     }
+    }
+   }
+  ],
+  "note": "Friday's Jaguars report decides how likely the fallback is to be needed.",
+  "empty": null
  },
  "roster": {
-  "deck": "The lineup as set is the projection lineup; no starter is in doubt.",
-  "asSet": 137.1,
-  "best": 137.1,
+  "deck": "Projection lineup is 0.9 better (Gordon over Diggs, a coin flip) — take it, with Tuten in FLEX.",
+  "asSet": 136.3,
+  "best": 137.2,
   "lines": [
    {
     "playerId": 3918298,
@@ -445,7 +485,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — no Buffalo designation found; the only Bills injury news is Joshua Palmer to IR (NBC 17 Nov)",
+       "value": "ACTIVE — not on Buffalo's report (SI 18 Nov lists only Williams, Alford and Benford); Bills -16.5",
        "style": "plain"
       },
       {
@@ -455,7 +495,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC Week 11 injury roundup 17 Nov (Bills: Palmer only); Bills–Dolphins search 18 Nov: no change",
+       "value": "SI Dolphins–Bills preview 18 Nov (injuries, line); NBC Keon Coleman note 18 Nov 21:34Z: no Allen item",
        "style": "italic"
       }
      ],
@@ -489,34 +529,35 @@
     "logo": "jax",
     "slotLine": "RB · JAX",
     "starting": true,
-    "questionable": false,
+    "questionable": true,
     "proj": 17,
     "normal": 13.3,
     "normalEstimated": false,
     "pct": 28,
     "tag": "ELITE",
-    "reason": "26 carries and 87% of the backfield in Week 10",
+    "reason": "Limited Wednesday (ankle/foot); 26 carries, 87% of the backfield in Week 10",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "JAX @ NYG",
      "kickoff": "Sun 15:25",
-     "deck": "Lead back, off the injury report.",
+     "deck": "Start — but put him in FLEX.",
      "verdict": {
-      "kind": "START",
-      "text": "START"
+      "kind": "IF_ACTIVE",
+      "text": "START IF ACTIVE — ELSE STEFON DIGGS AT 13:55"
      },
      "flags": [
+      "OWN_QUESTIONABLE",
       "ROLE_UP"
      ],
      "figures": {
-      "experts": "RB10 (8–10)",
+      "experts": "RB10 (8–11)",
       "projMove": "17.3 → 17.0",
       "matchup": "AVERAGE · 16th fewest allowed vs RB"
      },
      "range": {
       "rank": 10,
       "best": 8,
-      "worst": 10
+      "worst": 11
      },
      "weeks": [
       {
@@ -655,7 +696,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — off Jacksonville's injury report since 13 Nov (NBC); no new ankle/foot item found",
+       "value": "QUESTIONABLE — limited Wednesday, ankle/foot (Jaguars report via SI 18 Nov; NBC 21:14Z 18 Nov). Last week he sat Wednesday and Thursday and still took 29 touches (NBC 15 Nov) — this week's limited start is an improvement",
        "style": "plain"
       },
       {
@@ -665,7 +706,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Chris Rodriguez Jr. 13% of carries in Week 10. ROLE_UP answered: a lopsided win fed the lead back after he was cleared — not a depth-chart change",
+       "value": "Chris Rodriguez Jr. limited Wednesday (hand) and LeQuint Allen Jr. limited (hamstring) — the cover is banged up too (SI 18 Nov). ROLE_UP answered: 87% of the backfield in a lopsided Week 10 win, not a depth-chart change",
        "style": "plain"
       },
       {
@@ -674,8 +715,13 @@
        "style": "plain"
       },
       {
+       "label": "VS PROJECTION",
+       "value": "Priced. ESPN still has 17.0 and he played through the same injury last week; believe the projection, but keep the fallback live.",
+       "style": "priced"
+      },
+      {
        "label": "CHECKED",
-       "value": "Tuten search 18 Nov (NBC player feed: last item 13 Nov, cleared); Jaguars–Giants search 18 Nov: no change",
+       "value": "Jaguars Wednesday report (SI 18 Nov); NBC Tuten note 18 Nov 21:14Z; NBC feed 11-15 Nov",
        "style": "italic"
       }
      ],
@@ -685,15 +731,15 @@
       "rows": [
        {
         "where": "BENCH",
-        "playerId": 4239996,
-        "name": "Travis Etienne Jr.",
-        "proj": 11.2,
-        "gap": 5.8,
+        "playerId": 4711533,
+        "name": "Ollie Gordon II",
+        "proj": 13.9,
+        "gap": 3.1,
         "gapLabel": null
        }
       ]
      },
-     "logic": "17.0, 3.1 above Gordon — outside the 2-point flip. The ROLE_UP flag is a lopsided win, priced. Changes if the ankle/foot reappears on a Jaguars report.",
+     "logic": "17.0, 3.1 above Gordon — outside the 2-point flip. The designation is a practice label, and last week's DNPs ended in 29 touches. Changes if he is DNP Thursday or Friday, or listed doubtful.",
      "next": {
       "playerId": 4569987,
       "surname": "Warren"
@@ -883,7 +929,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Rico Dowdle, active, out-routed him 20-12 in Week 10 (FF Hound 16 Nov, carried). Rotoworld still treats Warren as the committee lead and expects an RB2 rebound (NBC 16 Nov)",
+       "value": "Rico Dowdle, active, out-routed him 20-12 in Week 10 (FF Hound 16 Nov, carried). Philadelphia play without DT Jordan Davis (Inquirer 18 Nov) — the run defence the POOR tile describes is thinner this week, already partly in 15.8",
        "style": "plain"
       },
       {
@@ -893,7 +939,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC 16 Nov player note; NBC 17 Nov roundup; Steelers search 18 Nov: no change",
+       "value": "SportsNet Pittsburgh 18 Nov (Steelers injuries: Pittman, R. Wilson only); Inquirer Eagles preview 18 Nov",
        "style": "italic"
       }
      ],
@@ -903,11 +949,11 @@
       "rows": [
        {
         "where": "BENCH",
-        "playerId": 4239996,
-        "name": "Travis Etienne Jr.",
-        "proj": 11.2,
-        "gap": 4.6,
-        "gapLabel": null
+        "playerId": 4711533,
+        "name": "Ollie Gordon II",
+        "proj": 13.9,
+        "gap": 1.9,
+        "gapLabel": "coin flip"
        }
       ]
      },
@@ -1093,17 +1139,17 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Jordan Addison: thumb surgery, out several weeks (NBC; Forbes 17 Nov). RIVAL_QUESTIONABLE answered: O'Connell expects Hockenson (wrist/chest) to progress and possibly return to practice this week (Athletic via Fantasy Footballers 16 Nov) — his return trims Jefferson's 57%",
+       "value": "Jordan Addison: thumb surgery, did not practise (Vikings.com 18 Nov). RIVAL_QUESTIONABLE answered: Hockenson limited Wednesday (wrist) — a return trims Jefferson's 57% share, not his start",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Kirk Cousins — started and won in Week 10 (21 of 31, 2 TDs); Kyler Murray targets Week 12 (Pelissero). The tool reads McCarthy from the archive; McCarthy now starts for the Giants",
+       "value": "Kirk Cousins — Kyler Murray did not practise (hamstring, Vikings.com 18 Nov). The tool reads McCarthy from the archive; McCarthy now starts for the Giants",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Fantasy Footballers 16 Nov (Hockenson, Cousins, Murray); NBC Hockenson note 17 Nov; Vikings search 18 Nov",
+       "value": "Vikings.com Wednesday report 18 Nov",
        "style": "italic"
       }
      ],
@@ -1113,10 +1159,10 @@
       "rows": [
        {
         "where": "BENCH",
-        "playerId": 2976212,
-        "name": "Stefon Diggs",
-        "proj": 13,
-        "gap": 7,
+        "playerId": 4372016,
+        "name": "Jaylen Waddle",
+        "proj": 12.6,
+        "gap": 7.4,
         "gapLabel": null
        }
       ]
@@ -1138,12 +1184,12 @@
     "slotLine": "WR · NYJ",
     "starting": true,
     "questionable": false,
-    "proj": 14,
+    "proj": 14.1,
     "normal": 15.0,
     "normalEstimated": false,
-    "pct": -7,
+    "pct": -6,
     "tag": "NEUTRAL",
-    "reason": "Geno Smith's ankle: he starts if he practises; Klubnik otherwise",
+    "reason": "Geno Smith limited Wednesday; Cooper a long shot — more targets, shakier passer",
     "sheet": {
      "slotLine": "STARTING · WR",
      "opponent": "NYJ @ LAC",
@@ -1158,14 +1204,14 @@
       "PASSER_QUESTIONABLE"
      ],
      "figures": {
-      "experts": "WR12 (11–14)",
-      "projMove": "12.8 → 14.0",
+      "experts": "WR12 (11–13)",
+      "projMove": "12.8 → 14.1",
       "matchup": "GREAT · 30th fewest allowed vs WR"
      },
      "range": {
       "rank": 12,
       "best": 11,
-      "worst": 14
+      "worst": 13
      },
      "weeks": [
       {
@@ -1280,7 +1326,7 @@
      ],
      "current": {
       "week": 11,
-      "proj": 14
+      "proj": 14.1
      },
      "shareKey": "targets",
      "series": {
@@ -1314,40 +1360,40 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Omar Cooper Jr.: third ankle injury of the season, imaging pending; Isaiah Williams takes the slot if he sits (Yahoo/Jets 17 Nov). Adonai Mitchell No. 2",
+       "value": "Omar Cooper Jr. did not practise Wednesday and 'appears to be a long shot' (NBC 18 Nov 17:30Z, Cimini) — Wilson and Adonai Mitchell took 51% of the targets last week. RIVAL_QUESTIONABLE answered: the role grows if Cooper sits",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Geno Smith — tests showed nothing major; he starts 'if he practices during the week' (Yahoo 17 Nov 15:30Z); Glenn will not update until after the MRI read (Fantasy Footballers 16 Nov). Backup Cade Klubnik went 11 of 20, 137, 1 INT in relief",
+       "value": "Geno Smith — limited Wednesday with the ankle; Glenn will decide by how the week goes, Cade Klubnik starts if he is not cleared (RotoWire/NY Post 18 Nov). Klubnik went 11 of 20, 137, 1 INT in relief",
        "style": "plain"
       },
       {
        "label": "VS PROJECTION",
-       "value": "Priced. Smith's injury broke Sunday; ESPN's 14.0 assumes him. A Friday ruling for Klubnik would be the unpriced news.",
+       "value": "Priced. Smith's injury broke Sunday; ESPN's 14.1 assumes him. A Friday ruling for Klubnik would be the unpriced news.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "Yahoo Jets injury outlook 17 Nov; Fantasy Footballers 16 Nov; Forbes 17 Nov; Jets search 18 Nov",
+       "value": "RotoWire 18 Nov (Smith limited); NBC 18 Nov 17:30Z (Cooper DNP)",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "CLOSEST CHALLENGER",
-      "self": 14,
+      "self": 14.1,
       "rows": [
        {
         "where": "BENCH",
-        "playerId": 2976212,
-        "name": "Stefon Diggs",
-        "proj": 13,
-        "gap": 1,
+        "playerId": 4372016,
+        "name": "Jaylen Waddle",
+        "proj": 12.6,
+        "gap": 1.5,
         "gapLabel": "coin flip"
        }
       ]
      },
-     "logic": "14.0 against Diggs' 13.0 — inside the 2-point flip, so the projection decides. Volume is his: 35% of targets. Changes if Smith is ruled out and the projection flips.",
+     "logic": "14.1 against Diggs' 13.0 — inside the 2-point flip, so the projection decides. Volume is his: 35% of targets, more with Cooper out. Changes if Smith is ruled out and the projection flips.",
      "next": {
       "playerId": 4361050,
       "surname": "Likely"
@@ -1529,7 +1575,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — no designation; no Giants injury besides Skattebo's hamstring (Athlon/Yahoo 17 Nov)",
+       "value": "ACTIVE — not on the Giants' Wednesday report; Nabers also off it (SI 18 Nov)",
        "style": "plain"
       },
       {
@@ -1549,7 +1595,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Athlon/Yahoo 'stock up, stock down' 17 Nov 15:56Z; NBC 13 Nov; Giants search 18 Nov",
+       "value": "Giants Wednesday report (SI 18 Nov)",
        "style": "italic"
       }
      ],
@@ -1569,6 +1615,474 @@
      },
      "logic": "13.2, TE3 by projection; no second tight end can start in Chem. Changes only if he is ruled out.",
      "next": {
+      "playerId": 2976212,
+      "surname": "Diggs"
+     }
+    }
+   },
+   {
+    "playerId": 2976212,
+    "name": "Stefon Diggs",
+    "pos": "WR",
+    "team": "WSH",
+    "teamName": "Washington",
+    "logo": "wsh",
+    "slotLine": "FLEX · WR · WSH",
+    "starting": true,
+    "questionable": false,
+    "proj": 13,
+    "normal": 11.6,
+    "normalEstimated": false,
+    "pct": 12,
+    "tag": "FAVORABLE",
+    "reason": "Washington's No. 1 since McLaurin's injury; plays Monday night",
+    "sheet": {
+     "slotLine": "STARTING · FLEX",
+     "opponent": "WSH vs CIN",
+     "kickoff": "Mon 19:15",
+     "deck": "Bench him — he is Tuten's late fallback.",
+     "verdict": {
+      "kind": "BENCH",
+      "text": "BENCH"
+     },
+     "flags": [
+      "ROLE_UP",
+      "QB_CHANGE"
+     ],
+     "figures": {
+      "experts": "WR18 (17–19)",
+      "projMove": "10.3 → 13.0",
+      "matchup": "AVERAGE · 17th fewest allowed vs WR"
+     },
+     "range": {
+      "rank": 18,
+      "best": 17,
+      "worst": 19
+     },
+     "weeks": [
+      null,
+      {
+       "week": 2,
+       "pts": 21.7,
+       "proj": 10.3,
+       "touches": 6,
+       "eff": 3.62,
+       "posAvgPts": 16.1,
+       "posAvgTouches": 7.7,
+       "posAvgEff": 1.91,
+       "posAvgShare": 0.251,
+       "share": 0.176
+      },
+      {
+       "week": 3,
+       "pts": 7.3,
+       "proj": 10.8,
+       "touches": 7,
+       "eff": 1.04,
+       "posAvgPts": 15.9,
+       "posAvgTouches": 8.5,
+       "posAvgEff": 1.86,
+       "posAvgShare": 0.3,
+       "share": 0.318
+      },
+      {
+       "week": 4,
+       "pts": 8.5,
+       "proj": 12.8,
+       "touches": 9,
+       "eff": 0.94,
+       "posAvgPts": 16.3,
+       "posAvgTouches": 8.3,
+       "posAvgEff": 1.92,
+       "posAvgShare": 0.275,
+       "share": 0.333
+      },
+      null,
+      {
+       "week": 6,
+       "pts": 16.4,
+       "proj": null,
+       "touches": 7,
+       "eff": 2.34,
+       "posAvgPts": 12.5,
+       "posAvgTouches": 9.4,
+       "posAvgEff": 1.38,
+       "posAvgShare": 0.293,
+       "share": 0.269
+      },
+      null,
+      {
+       "week": 8,
+       "pts": 12.8,
+       "proj": 12.6,
+       "touches": 6,
+       "eff": 2.13,
+       "posAvgPts": 13.4,
+       "posAvgTouches": 8.2,
+       "posAvgEff": 1.51,
+       "posAvgShare": 0.278,
+       "share": 0.231
+      },
+      {
+       "week": 9,
+       "pts": 8.1,
+       "proj": 12.6,
+       "touches": 5,
+       "eff": 1.62,
+       "posAvgPts": 16.2,
+       "posAvgTouches": 8.7,
+       "posAvgEff": 1.87,
+       "posAvgShare": 0.306,
+       "share": 0.208
+      },
+      {
+       "week": 10,
+       "pts": 20.3,
+       "proj": 10.3,
+       "touches": 10,
+       "eff": 2.03,
+       "posAvgPts": 15.6,
+       "posAvgTouches": 8.5,
+       "posAvgEff": 1.81,
+       "posAvgShare": 0.282,
+       "share": 0.345
+      }
+     ],
+     "current": {
+      "week": 11,
+      "proj": 13
+     },
+     "shareKey": "targets",
+     "series": {
+      "points": {
+       "last": 20.3,
+       "avg": 13.59
+      },
+      "touches": {
+       "last": 10,
+       "avg": 7.14
+      },
+      "eff": {
+       "last": 2.03,
+       "avg": 1.96
+      },
+      "share": {
+       "last": 0.345,
+       "avg": 0.27
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — no designation; Quinn's Monday update named four injured players, none of them Diggs (Yahoo 17 Nov)",
+       "style": "plain"
+      },
+      {
+       "label": "ROLE",
+       "value": "10 targets, 34% of Washington's in Week 10 (archive); the de facto No. 1 since McLaurin's season-ending injury (NBC 17 Nov)",
+       "style": "plain"
+      },
+      {
+       "label": "COMPETITION",
+       "value": "Chig Okonkwo second in targets; Treylon Burks 10%",
+       "style": "plain"
+      },
+      {
+       "label": "PASSER",
+       "value": "Jayden Daniels, active — QB_CHANGE is his return, priced",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Commanders play Monday — first report Thursday; Commanders.com 18 Nov: no Diggs item",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 13,
+      "rows": [
+       {
+        "where": "BENCH",
+        "playerId": 4711533,
+        "name": "Ollie Gordon II",
+        "proj": 13.9,
+        "gap": -0.9,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "13.0 against Gordon's 13.9 — a 0.9 coin flip the projection takes. Benched, his Monday kickoff makes him the only late swap for Tuten. Changes if Tuten is ruled out before Sunday (then start both Gordon and Diggs).",
+     "next": {
+      "playerId": -16023,
+      "surname": "Steelers D/ST"
+     }
+    }
+   },
+   {
+    "playerId": -16023,
+    "name": "Steelers D/ST",
+    "pos": "DST",
+    "team": "PIT",
+    "teamName": "Pittsburgh",
+    "logo": "pit",
+    "slotLine": "D/ST · PIT",
+    "starting": true,
+    "questionable": false,
+    "proj": 9.4,
+    "normal": 7.9,
+    "normalEstimated": false,
+    "pct": 19,
+    "tag": "FAVORABLE",
+    "reason": "Philadelphia start a third-string quarterback",
+    "sheet": {
+     "slotLine": "STARTING · D/ST",
+     "opponent": "PIT @ PHI",
+     "kickoff": "Sun 12:00",
+     "deck": "Your claim landed — start them.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "D/ST1 (1–4)",
+      "projMove": "8.6 → 9.4",
+      "matchup": null
+     },
+     "range": {
+      "rank": 1,
+      "best": 1,
+      "worst": 4
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 18,
+       "proj": 7.7,
+       "posAvgPts": 6.9
+      },
+      {
+       "week": 2,
+       "pts": 8,
+       "proj": 7.4,
+       "posAvgPts": 5.8
+      },
+      {
+       "week": 3,
+       "pts": 5,
+       "proj": 7.6,
+       "posAvgPts": 6.8
+      },
+      {
+       "week": 4,
+       "pts": 6,
+       "proj": 8.6,
+       "posAvgPts": 6.1
+      },
+      {
+       "week": 5,
+       "pts": 1,
+       "proj": 7.5,
+       "posAvgPts": 6.6
+      },
+      {
+       "week": 6,
+       "pts": 10,
+       "proj": 8.4,
+       "posAvgPts": 6.2
+      },
+      {
+       "week": 7,
+       "pts": 8,
+       "proj": 7.5,
+       "posAvgPts": 4.2
+      },
+      {
+       "week": 8,
+       "pts": 19,
+       "proj": 8.6,
+       "posAvgPts": 9.7
+      },
+      null,
+      null
+     ],
+     "current": {
+      "week": 11,
+      "proj": 9.4
+     },
+     "shareKey": null,
+     "series": {
+      "points": {
+       "last": 19,
+       "avg": 9.38
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — claimed at 02:59 CDMX today for the Packers D/ST (activity log)",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "Joe Milton has started since Week 9 (Eagles change, 4 Nov); DeVonta Smith and Wicks expected back (Inquirer 18 Nov). Best wire D/ST Jets 7.9",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 9.4,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": -16020,
+        "name": "Jets D/ST",
+        "proj": 7.9,
+        "gap": 1.5,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "9.4 against the wire's best 7.9 (Jets). No stream needed. Changes if Philadelphia name a different starter and the projection drops.",
+     "next": {
+      "playerId": 2971573,
+      "surname": "Fairbairn"
+     }
+    }
+   },
+   {
+    "playerId": 2971573,
+    "name": "Ka'imi Fairbairn",
+    "pos": "K",
+    "team": "HOU",
+    "teamName": "Houston",
+    "logo": "hou",
+    "slotLine": "K · HOU",
+    "starting": true,
+    "questionable": false,
+    "proj": 10.1,
+    "normal": 9.2,
+    "normalEstimated": false,
+    "pct": 10,
+    "tag": "FAVORABLE",
+    "reason": "Thursday at home to the Colts",
+    "sheet": {
+     "slotLine": "STARTING · K",
+     "opponent": "HOU vs IND",
+     "kickoff": "Thu 19:15",
+     "deck": "Hold the kicker.",
+     "verdict": {
+      "kind": "START",
+      "text": "START"
+     },
+     "flags": [],
+     "figures": {
+      "experts": "K4 (1–6)",
+      "projMove": "9.5 → 10.1",
+      "matchup": null
+     },
+     "range": {
+      "rank": 4,
+      "best": 1,
+      "worst": 6
+     },
+     "weeks": [
+      {
+       "week": 1,
+       "pts": 9,
+       "proj": 9.2,
+       "posAvgPts": 5.9
+      },
+      {
+       "week": 2,
+       "pts": 5,
+       "proj": 9.3,
+       "posAvgPts": 7.2
+      },
+      {
+       "week": 3,
+       "pts": 5,
+       "proj": 8.8,
+       "posAvgPts": 8.6
+      },
+      {
+       "week": 4,
+       "pts": 16,
+       "proj": 9.3,
+       "posAvgPts": 10.9
+      },
+      {
+       "week": 5,
+       "pts": 16,
+       "proj": 8.5,
+       "posAvgPts": 9.6
+      },
+      {
+       "week": 6,
+       "pts": 10,
+       "proj": 7.9,
+       "posAvgPts": 6.5
+      },
+      {
+       "week": 7,
+       "pts": 11,
+       "proj": 10.7,
+       "posAvgPts": 7.5
+      },
+      null,
+      {
+       "week": 9,
+       "pts": 16,
+       "proj": 9.3,
+       "posAvgPts": 11.3
+      },
+      {
+       "week": 10,
+       "pts": 6,
+       "proj": 9.5,
+       "posAvgPts": 8.6
+      }
+     ],
+     "current": {
+      "week": 11,
+      "proj": 10.1
+     },
+     "shareKey": null,
+     "series": {
+      "points": {
+       "last": 6,
+       "avg": 10.44
+      }
+     },
+     "table": [
+      {
+       "label": "AVAILABILITY",
+       "value": "ACTIVE — not on Houston's final report for Thursday (PFT 18 Nov 20:54Z: Marks, Hunter, Harrison Jr., Jordan out)",
+       "style": "plain"
+      },
+      {
+       "label": "CHECKED",
+       "value": "PFT Texans final report 18 Nov",
+       "style": "italic"
+      }
+     ],
+     "challengers": {
+      "title": "CLOSEST CHALLENGER",
+      "self": 10.1,
+      "rows": [
+       {
+        "where": "FREE AGENT",
+        "playerId": 17372,
+        "name": "Chris Boswell",
+        "proj": 9.6,
+        "gap": 0.5,
+        "gapLabel": "coin flip"
+       }
+      ]
+     },
+     "logic": "10.1 against the wire's best (Boswell 9.6): no stream. Changes if Fairbairn is hurt.",
+     "next": {
       "playerId": 4711533,
       "surname": "Gordon"
      }
@@ -1581,8 +2095,8 @@
     "team": "MIA",
     "teamName": "Miami",
     "logo": "mia",
-    "slotLine": "FLEX · RB · MIA",
-    "starting": true,
+    "slotLine": "BE · RB · MIA",
+    "starting": false,
     "questionable": false,
     "proj": 13.9,
     "normal": 13.0,
@@ -1591,10 +2105,10 @@
     "tag": "NEUTRAL",
     "reason": "87% of Miami's carries; Buffalo allow the 5th-most RB points",
     "sheet": {
-     "slotLine": "STARTING · FLEX",
+     "slotLine": "BENCH · RB",
      "opponent": "MIA @ BUF",
      "kickoff": "Sun 12:00",
-     "deck": "Flex starter.",
+     "deck": "Start him at RB.",
      "verdict": {
       "kind": "START",
       "text": "START"
@@ -1760,509 +2274,41 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC Week 11 roundup 17 Nov (Dolphins); Dolphins–Bills search 18 Nov: no change",
-       "style": "italic"
-      }
-     ],
-     "challengers": {
-      "title": "CLOSEST CHALLENGER",
-      "self": 13.9,
-      "rows": [
-       {
-        "where": "BENCH",
-        "playerId": 2976212,
-        "name": "Stefon Diggs",
-        "proj": 13,
-        "gap": 0.9,
-        "gapLabel": "coin flip"
-       }
-      ]
-     },
-     "logic": "13.9 against Diggs' 13.0 for the flex — a coin flip the projection takes. Achane's absence is priced. Changes if the projection flips by Sunday.",
-     "next": {
-      "playerId": -16023,
-      "surname": "Steelers D/ST"
-     }
-    }
-   },
-   {
-    "playerId": -16023,
-    "name": "Steelers D/ST",
-    "pos": "DST",
-    "team": "PIT",
-    "teamName": "Pittsburgh",
-    "logo": "pit",
-    "slotLine": "D/ST · PIT",
-    "starting": true,
-    "questionable": false,
-    "proj": 9.4,
-    "normal": 7.9,
-    "normalEstimated": false,
-    "pct": 19,
-    "tag": "FAVORABLE",
-    "reason": "Philadelphia start a third-string quarterback",
-    "sheet": {
-     "slotLine": "STARTING · D/ST",
-     "opponent": "PIT @ PHI",
-     "kickoff": "Sun 12:00",
-     "deck": "Your claim landed — start them.",
-     "verdict": {
-      "kind": "START",
-      "text": "START"
-     },
-     "flags": [],
-     "figures": {
-      "experts": "D/ST1 (1–4)",
-      "projMove": "8.6 → 9.4",
-      "matchup": null
-     },
-     "range": {
-      "rank": 1,
-      "best": 1,
-      "worst": 4
-     },
-     "weeks": [
-      {
-       "week": 1,
-       "pts": 18,
-       "proj": 7.7,
-       "posAvgPts": 6.9
-      },
-      {
-       "week": 2,
-       "pts": 8,
-       "proj": 7.4,
-       "posAvgPts": 5.8
-      },
-      {
-       "week": 3,
-       "pts": 5,
-       "proj": 7.6,
-       "posAvgPts": 6.8
-      },
-      {
-       "week": 4,
-       "pts": 6,
-       "proj": 8.6,
-       "posAvgPts": 6.1
-      },
-      {
-       "week": 5,
-       "pts": 1,
-       "proj": 7.5,
-       "posAvgPts": 6.6
-      },
-      {
-       "week": 6,
-       "pts": 10,
-       "proj": 8.4,
-       "posAvgPts": 6.2
-      },
-      {
-       "week": 7,
-       "pts": 8,
-       "proj": 7.5,
-       "posAvgPts": 4.2
-      },
-      {
-       "week": 8,
-       "pts": 19,
-       "proj": 8.6,
-       "posAvgPts": 9.7
-      },
-      null,
-      null
-     ],
-     "current": {
-      "week": 11,
-      "proj": 9.4
-     },
-     "shareKey": null,
-     "series": {
-      "points": {
-       "last": 19,
-       "avg": 9.38
-      }
-     },
-     "table": [
-      {
-       "label": "AVAILABILITY",
-       "value": "ACTIVE — claimed at 02:59 CDMX today for the Packers D/ST (activity log)",
-       "style": "plain"
-      },
-      {
-       "label": "CHECKED",
-       "value": "NBC 'Getting Defensive' 17 Nov: a top-tier 'no-doubter' against a third-string QB; Philadelphia have 27 injured offensive starters and allow the 8th-most D/ST points. Best wire D/ST now Jets 7.9",
-       "style": "italic"
-      }
-     ],
-     "challengers": {
-      "title": "CLOSEST CHALLENGER",
-      "self": 9.4,
-      "rows": [
-       {
-        "where": "FREE AGENT",
-        "playerId": -16020,
-        "name": "Jets D/ST",
-        "proj": 7.9,
-        "gap": 1.5,
-        "gapLabel": "coin flip"
-       }
-      ]
-     },
-     "logic": "9.4 against the wire's best 7.9 (Jets). No stream needed. Changes if Philadelphia name a different starter and the projection drops.",
-     "next": {
-      "playerId": 2971573,
-      "surname": "Fairbairn"
-     }
-    }
-   },
-   {
-    "playerId": 2971573,
-    "name": "Ka'imi Fairbairn",
-    "pos": "K",
-    "team": "HOU",
-    "teamName": "Houston",
-    "logo": "hou",
-    "slotLine": "K · HOU",
-    "starting": true,
-    "questionable": false,
-    "proj": 10.1,
-    "normal": 9.2,
-    "normalEstimated": false,
-    "pct": 10,
-    "tag": "FAVORABLE",
-    "reason": "Thursday at home to the Colts",
-    "sheet": {
-     "slotLine": "STARTING · K",
-     "opponent": "HOU vs IND",
-     "kickoff": "Thu 19:15",
-     "deck": "Hold the kicker.",
-     "verdict": {
-      "kind": "START",
-      "text": "START"
-     },
-     "flags": [],
-     "figures": {
-      "experts": "K5 (1–7)",
-      "projMove": "9.5 → 10.1",
-      "matchup": null
-     },
-     "range": {
-      "rank": 5,
-      "best": 1,
-      "worst": 7
-     },
-     "weeks": [
-      {
-       "week": 1,
-       "pts": 9,
-       "proj": 9.2,
-       "posAvgPts": 5.9
-      },
-      {
-       "week": 2,
-       "pts": 5,
-       "proj": 9.3,
-       "posAvgPts": 7.2
-      },
-      {
-       "week": 3,
-       "pts": 5,
-       "proj": 8.8,
-       "posAvgPts": 8.6
-      },
-      {
-       "week": 4,
-       "pts": 16,
-       "proj": 9.3,
-       "posAvgPts": 10.9
-      },
-      {
-       "week": 5,
-       "pts": 16,
-       "proj": 8.5,
-       "posAvgPts": 9.6
-      },
-      {
-       "week": 6,
-       "pts": 10,
-       "proj": 7.9,
-       "posAvgPts": 6.5
-      },
-      {
-       "week": 7,
-       "pts": 11,
-       "proj": 10.7,
-       "posAvgPts": 7.5
-      },
-      null,
-      {
-       "week": 9,
-       "pts": 16,
-       "proj": 9.3,
-       "posAvgPts": 11.3
-      },
-      {
-       "week": 10,
-       "pts": 6,
-       "proj": 9.5,
-       "posAvgPts": 8.6
-      }
-     ],
-     "current": {
-      "week": 11,
-      "proj": 10.1
-     },
-     "shareKey": null,
-     "series": {
-      "points": {
-       "last": 6,
-       "avg": 10.44
-      }
-     },
-     "table": [
-      {
-       "label": "AVAILABILITY",
-       "value": "ACTIVE — not on any Houston report (Ryans 17 Nov: Montgomery, Al-Shaair only)",
-       "style": "plain"
-      },
-      {
-       "label": "CHECKED",
-       "value": "Yahoo/Texans Wire 18 Nov 00:58Z; best wire kicker Boswell 9.6, Lutz 9.4",
-       "style": "italic"
-      }
-     ],
-     "challengers": {
-      "title": "CLOSEST CHALLENGER",
-      "self": 10.1,
-      "rows": [
-       {
-        "where": "FREE AGENT",
-        "playerId": 17372,
-        "name": "Chris Boswell",
-        "proj": 9.6,
-        "gap": 0.5,
-        "gapLabel": "coin flip"
-       }
-      ]
-     },
-     "logic": "10.1 against the wire's best (Boswell 9.6): no stream. Changes if Fairbairn is hurt.",
-     "next": {
-      "playerId": 2976212,
-      "surname": "Diggs"
-     }
-    }
-   },
-   {
-    "playerId": 2976212,
-    "name": "Stefon Diggs",
-    "pos": "WR",
-    "team": "WSH",
-    "teamName": "Washington",
-    "logo": "wsh",
-    "slotLine": "BE · WR · WSH",
-    "starting": false,
-    "questionable": false,
-    "proj": 13,
-    "normal": 11.6,
-    "normalEstimated": false,
-    "pct": 12,
-    "tag": "FAVORABLE",
-    "reason": "Washington's No. 1 since McLaurin's injury",
-    "sheet": {
-     "slotLine": "BENCH · WR",
-     "opponent": "WSH vs CIN",
-     "kickoff": "Mon 19:15",
-     "deck": "Bench — by a point.",
-     "verdict": {
-      "kind": "BENCH",
-      "text": "BENCH"
-     },
-     "flags": [
-      "ROLE_UP",
-      "QB_CHANGE"
-     ],
-     "figures": {
-      "experts": "WR19 (17–21)",
-      "projMove": "10.3 → 13.0",
-      "matchup": "AVERAGE · 17th fewest allowed vs WR"
-     },
-     "range": {
-      "rank": 19,
-      "best": 17,
-      "worst": 21
-     },
-     "weeks": [
-      null,
-      {
-       "week": 2,
-       "pts": 21.7,
-       "proj": 10.3,
-       "touches": 6,
-       "eff": 3.62,
-       "posAvgPts": 16.1,
-       "posAvgTouches": 7.7,
-       "posAvgEff": 1.91,
-       "posAvgShare": 0.251,
-       "share": 0.176
-      },
-      {
-       "week": 3,
-       "pts": 7.3,
-       "proj": 10.8,
-       "touches": 7,
-       "eff": 1.04,
-       "posAvgPts": 15.9,
-       "posAvgTouches": 8.5,
-       "posAvgEff": 1.86,
-       "posAvgShare": 0.3,
-       "share": 0.318
-      },
-      {
-       "week": 4,
-       "pts": 8.5,
-       "proj": 12.8,
-       "touches": 9,
-       "eff": 0.94,
-       "posAvgPts": 16.3,
-       "posAvgTouches": 8.3,
-       "posAvgEff": 1.92,
-       "posAvgShare": 0.275,
-       "share": 0.333
-      },
-      null,
-      {
-       "week": 6,
-       "pts": 16.4,
-       "proj": null,
-       "touches": 7,
-       "eff": 2.34,
-       "posAvgPts": 12.5,
-       "posAvgTouches": 9.4,
-       "posAvgEff": 1.38,
-       "posAvgShare": 0.293,
-       "share": 0.269
-      },
-      null,
-      {
-       "week": 8,
-       "pts": 12.8,
-       "proj": 12.6,
-       "touches": 6,
-       "eff": 2.13,
-       "posAvgPts": 13.4,
-       "posAvgTouches": 8.2,
-       "posAvgEff": 1.51,
-       "posAvgShare": 0.278,
-       "share": 0.231
-      },
-      {
-       "week": 9,
-       "pts": 8.1,
-       "proj": 12.6,
-       "touches": 5,
-       "eff": 1.62,
-       "posAvgPts": 16.2,
-       "posAvgTouches": 8.7,
-       "posAvgEff": 1.87,
-       "posAvgShare": 0.306,
-       "share": 0.208
-      },
-      {
-       "week": 10,
-       "pts": 20.3,
-       "proj": 10.3,
-       "touches": 10,
-       "eff": 2.03,
-       "posAvgPts": 15.6,
-       "posAvgTouches": 8.5,
-       "posAvgEff": 1.81,
-       "posAvgShare": 0.282,
-       "share": 0.345
-      }
-     ],
-     "current": {
-      "week": 11,
-      "proj": 13
-     },
-     "shareKey": "targets",
-     "series": {
-      "points": {
-       "last": 20.3,
-       "avg": 13.59
-      },
-      "touches": {
-       "last": 10,
-       "avg": 7.14
-      },
-      "eff": {
-       "last": 2.03,
-       "avg": 1.96
-      },
-      "share": {
-       "last": 0.345,
-       "avg": 0.27
-      }
-     },
-     "table": [
-      {
-       "label": "AVAILABILITY",
-       "value": "ACTIVE — no designation; Quinn's Monday update named four injured players, none of them Diggs (Yahoo 17 Nov)",
-       "style": "plain"
-      },
-      {
-       "label": "ROLE",
-       "value": "10 targets, 34% of Washington's in Week 10 (archive); the de facto No. 1 since McLaurin's season-ending injury (NBC 17 Nov)",
-       "style": "plain"
-      },
-      {
-       "label": "COMPETITION",
-       "value": "Chig Okonkwo second in targets; Treylon Burks 10%",
-       "style": "plain"
-      },
-      {
-       "label": "PASSER",
-       "value": "Jayden Daniels, active — QB_CHANGE is his return, priced",
-       "style": "plain"
-      },
-      {
-       "label": "CHECKED",
-       "value": "Yahoo Commanders injury update 17 Nov 12:04Z; NBC 17 Nov; Commanders search 18 Nov",
+       "value": "Dolphins Wednesday report (Yahoo 18 Nov): not listed; Bills -16.5 (SI)",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "COULD START OVER",
-      "self": 13,
+      "self": 13.9,
       "rows": [
        {
         "where": "FLEX",
-        "playerId": 4711533,
-        "name": "Ollie Gordon II",
-        "proj": 13.9,
-        "gap": -0.9,
+        "playerId": 2976212,
+        "name": "Stefon Diggs",
+        "proj": 13,
+        "gap": 0.9,
         "gapLabel": "coin flip"
        },
        {
-        "where": "WR",
-        "playerId": 4569618,
-        "name": "Garrett Wilson",
-        "proj": 14,
-        "gap": -1,
+        "where": "RB",
+        "playerId": 4569987,
+        "name": "Jaylen Warren",
+        "proj": 15.8,
+        "gap": -1.9,
         "gapLabel": "coin flip"
        },
        {
-        "where": "WR",
-        "playerId": 4262921,
-        "name": "Justin Jefferson",
-        "proj": 20,
-        "gap": -7,
+        "where": "RB",
+        "playerId": 4882093,
+        "name": "Bhayshul Tuten",
+        "proj": 17,
+        "gap": -3.1,
         "gapLabel": null
        }
       ]
      },
-     "logic": "13.0 against Wilson's 14.0 and Gordon's 13.9 — coin flips the projection takes. Monday night makes him the last swap if Wilson's quarterback changes.",
+     "logic": "13.9, the projection's FLEX — 0.9 over Diggs, a coin flip, taken. In an RB slot he frees FLEX for Tuten. Buffalo allow the 5th-most RB points; a 16.5-point underdog script caps him. Changes on a Miami injury report listing.",
      "next": {
       "playerId": 4372016,
       "surname": "Waddle"
@@ -2284,12 +2330,12 @@
     "normalEstimated": false,
     "pct": 9,
     "tag": "FAVORABLE",
-    "reason": "No practice line since the Week 9 concussion",
+    "reason": "First practice since the Week 9 concussion; not yet cleared",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "DEN vs LV",
      "kickoff": "Sun 15:25",
-     "deck": "Bench until he practises.",
+     "deck": "Practised — not yet cleared.",
      "verdict": {
       "kind": "BENCH",
       "text": "BENCH"
@@ -2298,13 +2344,13 @@
       "OWN_QUESTIONABLE"
      ],
      "figures": {
-      "experts": "WR21 (19–22)",
+      "experts": "WR21 (20–22)",
       "projMove": "11.4 → 12.6",
       "matchup": "GOOD · 25th fewest allowed vs WR"
      },
      "range": {
       "rank": 21,
-      "best": 19,
+      "best": 20,
       "worst": 22
      },
      "weeks": [
@@ -2444,7 +2490,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "QUESTIONABLE — Week 9 concussion; no practice line yet. NBC 17 Nov: the bye 'should give him enough time to return without missing a game'; Klis 'hope' he clears for 22 Nov (Yahoo 9 Nov)",
+       "value": "QUESTIONABLE — present at practice Wednesday (Tomasson via CBS/RotoWire 18 Nov 21:50Z), first time since the Week 9 concussion; whether he has cleared the protocol has not been reported",
        "style": "plain"
       },
       {
@@ -2464,12 +2510,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Priced. ESPN carries him QUESTIONABLE at 12.6; a practice line is the next news.",
+       "value": "Priced. ESPN carries him QUESTIONABLE at 12.6; Friday's designation is the next news.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "NBC 17 Nov roundup; Yahoo 9 Nov; FantasyPros feed 18 Nov (no newer item); Denver's first post-bye report comes after this run",
+       "value": "CBS/RotoWire 18 Nov 16:50 ET",
        "style": "italic"
       }
      ],
@@ -2479,18 +2525,18 @@
       "rows": [
        {
         "where": "FLEX",
-        "playerId": 4711533,
-        "name": "Ollie Gordon II",
-        "proj": 13.9,
-        "gap": -1.3,
+        "playerId": 2976212,
+        "name": "Stefon Diggs",
+        "proj": 13,
+        "gap": -0.4,
         "gapLabel": "coin flip"
        },
        {
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14,
-        "gap": -1.4,
+        "proj": 14.1,
+        "gap": -1.5,
         "gapLabel": "coin flip"
        },
        {
@@ -2537,13 +2583,13 @@
      },
      "flags": [],
      "figures": {
-      "experts": "WR23 (22–31)",
+      "experts": "WR24 (23–31)",
       "projMove": "10.6 → 11.2",
       "matchup": "GOOD · 24th fewest allowed vs WR"
      },
      "range": {
-      "rank": 23,
-      "best": 22,
+      "rank": 24,
+      "best": 23,
       "worst": 31
      },
      "weeks": [
@@ -2693,7 +2739,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Germie Bernard, Pat Freiermuth, Darnell Washington 13% each in Week 10; Pittman and Roman Wilson on IR, McCarthy 'hopeful' for Week 11 (NBC 17 Nov)",
+       "value": "Michael Pittman Jr. and Roman Wilson returned to practice Wednesday with 21-day windows open; McCarthy will evaluate all week (SportsNet Pittsburgh 18 Nov). A Pittman return trims Metcalf's 26%",
        "style": "plain"
       },
       {
@@ -2703,7 +2749,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC 17 Nov roundup (Steelers); Steelers search 18 Nov",
+       "value": "SportsNet Pittsburgh 18 Nov",
        "style": "italic"
       }
      ],
@@ -2713,18 +2759,18 @@
       "rows": [
        {
         "where": "FLEX",
-        "playerId": 4711533,
-        "name": "Ollie Gordon II",
-        "proj": 13.9,
-        "gap": -2.7,
-        "gapLabel": null
+        "playerId": 2976212,
+        "name": "Stefon Diggs",
+        "proj": 13,
+        "gap": -1.8,
+        "gapLabel": "coin flip"
        },
        {
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14,
-        "gap": -2.8,
+        "proj": 14.1,
+        "gap": -2.9,
         "gapLabel": null
        },
        {
@@ -2864,7 +2910,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — played Week 10 off IR; Saints have no fantasy-relevant injuries listed (NBC 17 Nov)",
+       "value": "ACTIVE — not on the Saints' Wednesday report; Kamara rested (Saints.com 18 Nov 15:49)",
        "style": "plain"
       },
       {
@@ -2884,7 +2930,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC 17 Nov roundup (Saints: none); Saints–Bears search 18 Nov",
+       "value": "Saints.com Wednesday report 18 Nov",
        "style": "italic"
       }
      ],
@@ -2894,11 +2940,11 @@
       "rows": [
        {
         "where": "FLEX",
-        "playerId": 4711533,
-        "name": "Ollie Gordon II",
-        "proj": 13.9,
-        "gap": -2.7,
-        "gapLabel": null
+        "playerId": 2976212,
+        "name": "Stefon Diggs",
+        "proj": 13,
+        "gap": -1.8,
+        "gapLabel": "coin flip"
        },
        {
         "where": "RB",
@@ -3108,7 +3154,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "BYE — Cleveland do not play in Week 11 (league file); his toe injury was called 'minor' (Yahoo)",
+       "value": "BYE — Cleveland do not play in Week 11 (league file); the toe looked worse as he played through it in Week 10 (Fantasy Footballers 16 Nov)",
        "style": "plain"
       },
       {
@@ -3128,7 +3174,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "League file bye; Browns search 18 Nov (Yahoo: toe 'minor')",
+       "value": "League file bye; Fantasy Footballers 16 Nov",
        "style": "italic"
       }
      ],
@@ -3138,18 +3184,18 @@
       "rows": [
        {
         "where": "FLEX",
-        "playerId": 4711533,
-        "name": "Ollie Gordon II",
-        "proj": 13.9,
-        "gap": -13.9,
+        "playerId": 2976212,
+        "name": "Stefon Diggs",
+        "proj": 13,
+        "gap": -13,
         "gapLabel": null
        },
        {
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14,
-        "gap": -14,
+        "proj": 14.1,
+        "gap": -14.1,
         "gapLabel": null
        },
        {
@@ -3170,7 +3216,7 @@
  },
  "wire": {
   "headline": "Nothing worth adding",
-  "deck": "Twenty-two screened: two to watch, twenty passes. Nothing would start over this roster.",
+  "deck": "Twenty-two screened, no newcomers since 07:00: two to watch, twenty passes. Nothing would start over this roster.",
   "candidates": [],
   "market": {
    "kicker": {
@@ -3212,13 +3258,13 @@
       "mine": false
      },
      {
-      "name": "Bears D/ST",
-      "proj": 7.5,
+      "name": "Lions D/ST",
+      "proj": 7.7,
       "mine": false
      },
      {
-      "name": "Lions D/ST",
-      "proj": 7.1,
+      "name": "Bears D/ST",
+      "proj": 7.5,
       "mine": false
      }
     ]
@@ -3253,11 +3299,14 @@
     "jordan addison",
     "josh jacobs",
     "lamar jackson",
+    "marvin harrison jr.",
     "michael wilson",
+    "omar cooper jr.",
     "woody marks"
    ],
    "exposure": [
-    "Justin Jefferson"
+    "Justin Jefferson",
+    "Garrett Wilson"
    ],
    "rows": [
     {
@@ -3276,8 +3325,8 @@
       "INHERITS 100% (Woody Marks)"
      ],
      "verdict": "PASS",
-     "reason": "Inherits Marks' work only while Montgomery is out; Ryans says Montgomery is 'progressing in the right direction for Thursday' (Texans Wire 18 Nov).",
-     "falsifiedIf": "Montgomery ruled out Thursday and Demercado 15+ touches.",
+     "reason": "Inherits Marks' work only while Montgomery is out — Marks is ruled out Thursday but Montgomery has no designation after a full week (PFT 18 Nov 20:54Z).",
+     "falsifiedIf": "Montgomery inactive Thursday and Demercado 15+ touches.",
      "drop": null
     },
     {
@@ -3296,7 +3345,7 @@
       "INHERITS 40% (Josh Jacobs)"
      ],
      "verdict": "PASS",
-     "reason": "Led Green Bay's backs with 10 carries in Week 10 (NBC 15 Nov), but the Packers are on bye and Jacobs has a 'realistic chance' to return 25 Nov (Rapoport). Chem's backs are full.",
+     "reason": "Led Green Bay's backs with 10 carries in Week 10 (NBC 15 Nov), but the Packers are on bye and Jacobs has a 'realistic chance' to return 25 Nov (Rapoport). Chem's backs are full. (carried from 07:00 research; no new reporting)",
      "falsifiedIf": "Jacobs placed on IR or ruled out for Week 12.",
      "drop": null
     },
@@ -3352,7 +3401,7 @@
      "shareBefore": 0.43333333333333335,
      "flags": [],
      "verdict": "PASS",
-     "reason": "ESPN now projects him 4.2; Croskey-Merritt is 'trending in the right area' (Yahoo 17 Nov) and JuiceJam claimed him here.",
+     "reason": "Croskey-Merritt was designated to return Tuesday and takes the lead role once activated (RotoWire 17 Nov); JuiceJam claimed him here.",
      "falsifiedIf": "Croskey-Merritt not activated for Monday.",
      "drop": null
     },
@@ -3377,6 +3426,24 @@
      "drop": null
     },
     {
+     "playerId": 4869645,
+     "name": "Caleb Douglas",
+     "pos": "WR",
+     "team": "MIA",
+     "touches": [
+      6,
+      8,
+      8
+     ],
+     "share": 0.4,
+     "shareBefore": 0.33760683760683763,
+     "flags": [],
+     "verdict": "WATCH",
+     "reason": "Miami's target leader with McCord, now limited Wednesday with a shoulder (Yahoo 18 Nov); would not start over Jefferson, Wilson or Diggs.",
+     "falsifiedIf": "Waddle ruled out — then CLAIM IF SPACE for Boston's seat.",
+     "drop": null
+    },
+    {
      "playerId": 4686612,
      "name": "Tre' Harris",
      "pos": "WR",
@@ -3390,7 +3457,7 @@
      "shareBefore": 0.22435897435897434,
      "flags": [],
      "verdict": "PASS",
-     "reason": "His share rose with McConkey (back spasms) out; McConkey has missed two games with no timeline (NBC 17 Nov).",
+     "reason": "His share rose with McConkey (back spasms) out; McConkey has missed two games with no timeline (NBC 17 Nov). (carried from 07:00 research; no new reporting)",
      "falsifiedIf": "McConkey ruled out and Harris 8+ targets again.",
      "drop": null
     },
@@ -3408,26 +3475,8 @@
      "shareBefore": 0.14705882352941177,
      "flags": [],
      "verdict": "WATCH",
-     "reason": "Houston's No. 2 while Harrison Jr. likely misses a second straight game (NBC 17 Nov); Waddle's seat is closed until 22 Nov by the churn rule.",
-     "falsifiedIf": "Harrison Jr. back Thursday — the role ends.",
-     "drop": null
-    },
-    {
-     "playerId": 4869645,
-     "name": "Caleb Douglas",
-     "pos": "WR",
-     "team": "MIA",
-     "touches": [
-      6,
-      8,
-      8
-     ],
-     "share": 0.4,
-     "shareBefore": 0.33760683760683763,
-     "flags": [],
-     "verdict": "WATCH",
-     "reason": "Miami's target leader with McCord (NBC 16 Nov); would not start over Jefferson, Wilson or Diggs.",
-     "falsifiedIf": "Waddle ruled out — then CLAIM IF SPACE for Boston's seat.",
+     "reason": "Houston's No. 2 on Thursday with Harrison Jr. ruled out (PFT 18 Nov); Waddle's seat is closed until 22 Nov by the churn rule.",
+     "falsifiedIf": "Harrison Jr. back in Week 12 — the role ends.",
      "drop": null
     },
     {
@@ -3462,7 +3511,7 @@
      "shareBefore": 0.22275641025641027,
      "flags": [],
      "verdict": "PASS",
-     "reason": "High-end TE2 streamer — Chem's flex cannot take a second tight end. (carried from Tuesday's research)",
+     "reason": "Left Week 10 in the second quarter with a back injury (Commanders.com); a second tight end Chem's flex cannot take.",
      "falsifiedIf": "A Likely injury.",
      "drop": null
     },
@@ -3516,7 +3565,7 @@
      "shareBefore": 0.166875,
      "flags": [],
      "verdict": "PASS",
-     "reason": "Bowers is day-to-day with a non-serious ankle (Forbes 17 Nov); second tight end, no route in.",
+     "reason": "Bowers is day-to-day with a non-serious ankle (Forbes 17 Nov); second tight end, no route in. (carried from 07:00 research; no new reporting)",
      "falsifiedIf": "A Likely injury.",
      "drop": null
     },
@@ -3554,7 +3603,7 @@
       "NEW STARTER"
      ],
      "verdict": "PASS",
-     "reason": "Baltimore's spot starter with Lamar Jackson likely out for the regular season (NBC 17 Nov); Allen is your quarterback.",
+     "reason": "Baltimore's spot starter with Lamar Jackson likely out for the regular season (NBC 17 Nov); Allen is your quarterback. (carried from 07:00 research; no new reporting)",
      "falsifiedIf": "An Allen injury.",
      "drop": null
     },
@@ -3652,7 +3701,7 @@
       "NEW STARTER"
      ],
      "verdict": "PASS",
-     "reason": "Minnesota's starter — he matters as Jefferson's passer (21 of 31, 2 TDs in Week 10), not as a pickup.",
+     "reason": "Minnesota's starter — he matters as Jefferson's passer (21 of 31, 2 TDs in Week 10), not as a pickup. (carried from 07:00 research; no new reporting)",
      "falsifiedIf": "An Allen injury.",
      "drop": null
     },
@@ -3682,24 +3731,24 @@
  "notes": {
   "cannotSee": [
    {
+    "label": "Tuten's Friday",
+    "body": "Wednesday was limited; Thursday and Friday participation and the game designation land after this run."
+   },
+   {
     "label": "Waddle's protocol",
-    "body": "No practice line since the bye. Denver's first Week 11 report lands after this run."
+    "body": "He practised; clearance is not reported. Friday's designation decides."
    },
    {
     "label": "Wilson's quarterback",
-    "body": "Geno Smith starts if he practises; Jets designations come Friday. Klubnik would lower Wilson's ceiling, not the share."
+    "body": "Geno Smith limited Wednesday; the Jets decide late in the week. Klubnik would lower Wilson's ceiling, not his share."
    },
    {
-    "label": "Hockenson",
-    "body": "Expected to progress; no practice line yet. His return lowers Jefferson's share, not his start."
+    "label": "Washington",
+    "body": "Diggs' team plays Monday; its first practice report is Thursday."
    },
    {
     "label": "Defence grades",
-    "body": "From one public source's schedule-adjusted points allowed through Week 10 — judgement, not ESPN data. D/ST and kicker are not graded."
-   },
-   {
-    "label": "Projections move",
-    "body": "These are Wednesday morning's numbers; Thursday's brief re-checks the lineup before Houston–Indianapolis."
+    "body": "From one public source's schedule-adjusted points allowed through Week 10, fetched this morning — judgement, not ESPN data."
    },
    {
     "label": "Trades",
@@ -3707,6 +3756,6 @@
    }
   ],
   "lastWeek": "Week 10 left 11.2 points on the bench. The lineup scored 136.9 against 148.1 available — from the archive, not articles.",
-  "sources": "33 searches · ESPN league file and archive · NBC/Rotoworld · Yahoo/Forbes/Athlon · Fantasy Footballers · CBS · fantasyteamadvice DvP"
+  "sources": "35 searches · ESPN league file and archive · NBC · PFT · SI · CBS/RotoWire · Vikings.com · Saints.com · fantasyteamadvice DvP (carried)"
  }
 }
