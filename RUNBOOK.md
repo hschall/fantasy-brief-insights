@@ -1012,7 +1012,9 @@ for L in 1237544639 1325565673; do
 done
 ```
 
-The same gate applies: **do not publish an edition that fails.** A failed
+You build it here to validate your words; you publish only the text file
+(Step 8a), and the edition Action rebuilds it from that. The same gate
+applies: **do not publish the text of an edition that fails.** A failed
 edition costs him nothing visible — the app falls back to the brief — so a
 held-back edition is always better than a wrong one.
 
@@ -1069,12 +1071,21 @@ connector, at the repository root:
 
 - `daily-1237544639.json`
 - `daily-1325565673.json`
-- `edition-1237544639.json` and `text-1237544639.json`
-- `edition-1325565673.json` and `text-1325565673.json`
+- `text-1237544639.json`
+- `text-1325565673.json`
 
-The edition and its text layer go together; publish neither if the edition
-failed Step 7. Unlike the brief, an edition is never carried forward — each
-run's is built fresh from that run's snapshot.
+**Never publish `edition-<league>.json` yourself.** A GitHub Action
+(`.github/workflows/edition.yml`) builds it from your text file within about
+a minute of your push, with the same `edition.py` and the same
+`validate_edition.py` you ran in Step 7, and commits it. The edition is
+~57 KB of generated numbers: written inline through the connector it was too
+large to copy out reliably, and about half the runs skipped it. Your text file
+is all the paper needs.
+
+Publish a league's text file **only if its edition passed Step 7 locally** —
+the Action would build the same failing edition. Unlike the brief, an edition
+is never carried forward — each run's is built fresh from that run's text and
+the latest snapshot.
 
 Both already exist, so this is an update. Only publish a file that passed
 Step 7 — if one league failed validation, publish the other and say which you

@@ -1,0 +1,80 @@
+# The Insights editions, built here from each run's text layer.
+#
+# The brief agent publishes text-<league>.json (its words, ~20 KB). This job
+# runs the same deterministic builder the agent runs (edition.py), validates
+# the result, and commits edition-<league>.json. The agent no longer pushes the
+# ~57 KB edition itself: written inline through the GitHub connector it was too
+# large to copy out reliably, and roughly half the runs skipped it.
+name: edition
+on:
+  push:
+    branches: [main]
+    paths: ["text-*.json"]
+  workflow_dispatch:
+    inputs:
+      leagues:
+        description: "League ids to rebuild, space-separated"
+        default: "1237544639 1325565673"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: edition
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Which leagues changed
+        id: which
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            L="${{ inputs.leagues }}"
+          else
+            L=$(git diff --name-only HEAD~1 HEAD -- 'text-*.json' | sed -E 's/text-([0-9]+)\.json/\1/' | tr '\n' ' ')
+          fi
+          echo "leagues=$L" >> "$GITHUB_OUTPUT"
+          echo "Building: $L"
+      - name: Build and validate
+        id: build
+        run: |
+          failed=""
+          for L in ${{ steps.which.outputs.leagues }}; do
+            echo "::group::league $L"
+            if python3 edition.py $L --dir . && python3 validate_edition.py edition-$L.json league-$L.json; then
+              echo "league $L: built and passed"
+            else
+              echo "::error::Edition $L failed to build or validate — the previous edition stays live."
+              git checkout -- edition-$L.json 2>/dev/null || true
+              failed="$failed $L"
+            fi
+            echo "::endgroup::"
+          done
+          echo "failed=$failed" >> "$GITHUB_OUTPUT"
+      - name: Commit the editions
+        run: |
+          git config user.name "edition-bot"
+          git config user.email "edition-bot@users.noreply.github.com"
+          git add edition-*.json
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -q -m "Edition: built from the text layer (${{ steps.which.outputs.leagues }})"
+          for i in 1 2 3 4 5; do
+            git pull --rebase -q && git push -q && exit 0
+            sleep $((i * 5))
+          done
+          echo "::error::could not push after 5 tries"; exit 1
+      - name: Rebuild the player cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run cards.yml --ref main || echo "cards rebuild not started; the hourly run will pick it up"
+      - name: Fail if any league failed
+        if: steps.build.outputs.failed != ''
+        run: |
+          echo "::error::These editions did not publish:${{ steps.build.outputs.failed }}"
+          exit 1
