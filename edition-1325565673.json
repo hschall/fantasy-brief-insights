@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1325565673-w11-20261119T1320Z",
+  "id": "1325565673-w11-20261119T2228Z",
   "leagueId": "1325565673",
   "leagueName": "IPADE Football Leagu",
   "teamName": "Bloodsports",
@@ -9,9 +9,9 @@
   "week": 11,
   "record": "3–7",
   "dateline": "THURSDAY, NOVEMBER 19, 2026",
-  "time": "07:20",
+  "time": "16:28",
   "state": "BEFORE INACTIVES",
-  "generatedAt": "2026-11-19T13:20:21Z",
+  "generatedAt": "2026-11-19T22:28:13Z",
   "dryRun": false
  },
  "chart": {
@@ -22,16 +22,16 @@
  "front": {
   "lead": {
    "kicker": "MIDWEEK",
-   "headline": "Tuten is questionable, and his only cover locks at noon",
-   "deck": "Still limited Wednesday. Friday's report decides: doubtful or out means Rice before 12:00.",
-   "byline": "Fantasy Brief · Thursday 07:00 CDMX",
+   "headline": "Tuten missed Thursday, and his only cover locks at noon",
+   "deck": "Limited Wednesday, DNP Thursday. If he misses Friday too, or is listed doubtful, start Rice before 12:00.",
+   "byline": "Fantasy Brief · Thursday 16:00 CDMX",
    "dateline": "MEXICO CITY, Thu 19 Nov —",
-   "body": "Bad news first: Bhayshul Tuten was limited Wednesday with his ankle and foot and is still questionable. Woody Marks is out tonight with the concussion, Josh Jacobs is out and on bye, and Rice and Odunze kick off at 12:00 — so nobody can replace Tuten at Jacksonville's 13:55 inactives. The rule stands: if Friday lists him doubtful or out, move Gordon to RB and start Rice before noon; otherwise start Tuten. Jonathan Taylor opens your week tonight at Houston with no designation, but in a 29-18 carry split with Seth McGowan and with Indianapolis 12.5-point underdogs. Geno Smith, Wilson's quarterback, was limited; Rice practised in full.",
+   "body": "Bad news first: Bhayshul Tuten did not practise Thursday after a limited Wednesday with his ankle and foot. Woody Marks is out tonight with the concussion, Josh Jacobs is out and on bye, and Rice and Odunze kick off at 12:00 — so nobody can replace Tuten at Jacksonville's 13:55 inactives. The rule tightens: if he misses Friday's practice too, or is listed doubtful or out, move Gordon to RB and start Rice before noon; otherwise start Tuten. Jonathan Taylor opens your week tonight at Houston with no designation, but the Colts plan to use McGowan heavily too. Rice practised in full again; Geno Smith, Wilson's quarterback, says he intends to start.",
    "players": [
     {
      "playerId": 4882093,
      "name": "Bhayshul Tuten",
-     "caption": "RB · Jacksonville. Tuten — limited Wednesday",
+     "caption": "RB · Jacksonville. Tuten — DNP Thursday",
      "logo": "jax"
     },
     {
@@ -46,14 +46,14 @@
    "me": {
     "name": "Bloodsports",
     "live": 0,
-    "proj": 128.2
+    "proj": 128.1
    },
    "them": {
     "name": "KEI returns",
     "live": 0,
-    "proj": 116.8
+    "proj": 124.8
    },
-   "winProb": 0.56,
+   "winProb": 0.52,
    "slots": [
     {
      "slot": "QB",
@@ -83,9 +83,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4239996,
-      "name": "Etienne",
-      "value": 11.2,
+      "id": 4702555,
+      "name": "Coleman",
+      "value": 19.5,
       "final": false
      }
     },
@@ -100,9 +100,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4696981,
-      "name": "Skattebo",
-      "value": 14.5,
+      "id": 4832955,
+      "name": "Johnson",
+      "value": 20.3,
       "final": false
      }
     },
@@ -134,9 +134,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4880281,
-      "name": "Tyson",
-      "value": 11.8,
+      "id": 4686422,
+      "name": "Hutchinson",
+      "value": 10.7,
       "final": false
      }
     },
@@ -153,7 +153,7 @@
      "theirs": {
       "id": 4431459,
       "name": "Warren",
-      "value": 8.6,
+      "value": 8.7,
       "final": false
      }
     },
@@ -168,9 +168,9 @@
       "final": false
      },
      "theirs": {
-      "id": 4702555,
-      "name": "Coleman",
-      "value": 19.5,
+      "id": 4696981,
+      "name": "Skattebo",
+      "value": 14.5,
       "final": false
      }
     },
@@ -180,8 +180,8 @@
       "id": -16023,
       "name": "Steelers D/ST",
       "pos": "DST",
-      "proj": 9.2,
-      "value": 9.2,
+      "proj": 9,
+      "value": 9,
       "final": false
      },
      "theirs": {
@@ -259,12 +259,12 @@
  },
  "doFirst": {
   "headline": "One rule for Sunday",
-  "deck": "Tuten starts unless Friday sits him — then Rice, before noon.",
+  "deck": "Tuten starts unless he misses Friday too or is listed doubtful/out — then Rice, before noon.",
   "cards": [
    {
     "id": "w11-tuten-friday",
-    "headline": "Start Tuten — unless Friday lists him doubtful or out",
-    "reason": "Limited Wednesday with the ankle/foot he played through last week. Rice is the only cover and he locks at 12:00.",
+    "headline": "Start Tuten — unless he misses Friday too, or is doubtful or out",
+    "reason": "Limited Wednesday, DNP Thursday with the ankle/foot. Rice is the only cover and he locks at 12:00.",
     "rows": [
      {
       "label": "DEADLINE",
@@ -276,7 +276,7 @@
      },
      {
       "label": "IF ACTIVE",
-      "value": "Keep Tuten (17.0)"
+      "value": "Keep Tuten (17.0) after a limited or full Friday"
      }
     ],
     "playerId": 4882093,
@@ -306,8 +306,8 @@
  },
  "roster": {
   "deck": "The lineup as set is the projection lineup; Tuten is conditional, with no fallback after 12:00.",
-  "asSet": 128.3,
-  "best": 128.3,
+  "asSet": 128.1,
+  "best": 128.1,
   "lines": [
    {
     "playerId": 4426348,
@@ -456,7 +456,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — Washington play Monday; first practice report is Thursday, after this run",
+       "value": "ACTIVE — full participant (left elbow) on Washington's first report (Commanders.com 19 Nov)",
        "style": "plain"
       },
       {
@@ -466,7 +466,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Commanders preview (Commanders.com); Washington's Thursday report not yet out",
+       "value": "Commanders first report (Commanders.com 19 Nov)",
        "style": "italic"
       }
      ],
@@ -484,7 +484,7 @@
        }
       ]
      },
-     "logic": "18.4, QB7. Nothing on the wire within two points. Changes only if Thursday's report lists him.",
+     "logic": "18.4, QB7. Full practice on Washington's first report. Nothing on the wire within two points. Changes only if Friday's report lists him.",
      "next": {
       "playerId": 4242335,
       "surname": "Taylor"
@@ -506,7 +506,7 @@
     "normalEstimated": false,
     "pct": -10,
     "tag": "TOUGH",
-    "reason": "Colts +12.5; a 29-18 carry split with McGowan",
+    "reason": "Plays tonight; Colts to use him and McGowan heavily",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "IND @ HOU",
@@ -520,14 +520,14 @@
       "ROLE_DOWN"
      ],
      "figures": {
-      "experts": "RB14 (12–15)",
+      "experts": "RB14 (12–14)",
       "projMove": "17.9 → 16.6",
       "matchup": "GOOD · 21st vs RB (carried)"
      },
      "range": {
       "rank": 14,
       "best": 12,
-      "worst": 15
+      "worst": 14
      },
      "weeks": [
       {
@@ -677,7 +677,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on the Colts' report for tonight (NFL.com TNF report)",
+       "value": "ACTIVE — not on the Colts' final report (SI Texans/Colts final report)",
        "style": "plain"
       },
       {
@@ -687,7 +687,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "ROLE_DOWN answered: a 29-18 carry split with Seth McGowan over two games, Taylor handling nearly all the pass-catching; The Athletic's Boyd expects McGowan 'around a dozen touches' (NBC 18 Nov 17:09Z). A committee, priced",
+       "value": "Seth McGowan: 43% of the backfield in Week 10 (archive); the Colts 'will use Jonathan Taylor and Seth McGowan heavily Thursday night' (The Athletic via Yahoo 19 Nov 19:23Z). ROLE_DOWN answered: a real committee, already in his 16.6",
        "style": "plain"
       },
       {
@@ -702,7 +702,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "TNF injury report (NFL.com); NBC 18 Nov 17:09Z; SI odds 17 Nov (Colts +12.5)",
+       "value": "Colts/Texans final reports (SI); Yahoo 19 Nov; ESPN Playbook (Texans 87%, total 50.4)",
        "style": "italic"
       }
      ],
@@ -742,12 +742,12 @@
     "normalEstimated": false,
     "pct": 28,
     "tag": "ELITE",
-    "reason": "Limited Wednesday (ankle/foot); 87% of the backfield in Week 10",
+    "reason": "Limited Wednesday, DNP Thursday (ankle/foot); 87% of the backfield in Week 10",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "JAX @ NYG",
      "kickoff": "Sun 15:25",
-     "deck": "Start — unless Friday sits him.",
+     "deck": "Start — unless he misses Friday too.",
      "verdict": {
       "kind": "IF_ACTIVE",
       "text": "START IF ACTIVE — ELSE RASHEE RICE AT 13:55"
@@ -757,13 +757,13 @@
       "ROLE_UP"
      ],
      "figures": {
-      "experts": "RB10 (8–11)",
+      "experts": "RB10 (9–11)",
       "projMove": "17.3 → 17.0",
       "matchup": "AVERAGE · 16th fewest allowed vs RB (carried)"
      },
      "range": {
       "rank": 10,
-      "best": 8,
+      "best": 9,
       "worst": 11
      },
      "weeks": [
@@ -903,7 +903,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "QUESTIONABLE — limited Wednesday, ankle/foot (Giants.com Jaguars report 18 Nov 16:00 ET; sicscore roundup 19 Nov 00:41Z). Last week he sat Wednesday and Thursday and still took 29 touches (NBC 15 Nov, carried). Thursday's practice line lands after this run",
+       "value": "QUESTIONABLE — limited Wednesday, DID NOT PRACTISE Thursday (Jaguars report, Giants.com 19 Nov 16:00 ET; CBS/RotoWire 16:24 ET; NBC 21:16Z). Worked off to the side. Last week he sat two practices and took 29 touches (NBC 15 Nov, carried)",
        "style": "plain"
       },
       {
@@ -913,7 +913,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Chris Rodriguez Jr. limited (hand) and LeQuint Allen Jr. limited (hamstring) Wednesday — the cover is banged up too (Giants.com 18 Nov). ROLE_UP answered: 87% in a lopsided Week 10, not a depth-chart change",
+       "value": "Chris Rodriguez Jr. limited Wed and Thu (hand), 'could see his heaviest workload of the season' if Tuten sits (CBS/RotoWire 19 Nov); LeQuint Allen Jr. limited (hamstring). ROLE_UP answered: 87% in a lopsided Week 10, not a depth-chart change",
        "style": "plain"
       },
       {
@@ -923,12 +923,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Priced. ESPN still has 17.0 and he played through the same ankle last week; believe it unless Thursday or Friday turns into a DNP.",
+       "value": "Not priced. ESPN still has 17.0 after Thursday's DNP. The projection is right about what he does if he plays; it does not price whether he plays. Believe it for the slot, not for his availability.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "Jaguars Wednesday report (Giants.com 18 Nov); sicscore roundup 19 Nov; NBC 15 Nov (carried)",
+       "value": "Jaguars Wed + Thu report (Giants.com 19 Nov); CBS/RotoWire 19 Nov; NBC 19 Nov",
        "style": "italic"
       }
      ],
@@ -946,7 +946,7 @@
        }
       ]
      },
-     "logic": "17.0, 4.2 over Rice — outside the 2-point flip. The designation is a practice label. Rice locks at 12:00, so the call is made on Friday's report, not at inactives. Changes if he is DNP Thursday or Friday or listed doubtful.",
+     "logic": "17.0, 4.2 over Rice — outside the 2-point flip, so he starts if he practises Friday. Thursday's DNP is availability news the projection has not priced, and the morning's brief named it as the condition that changes the call: it moves the trigger from a doubtful tag to Friday's practice. Rice locks at 12:00, so the call is made on Friday's report, not at inactives. Changes if he practises in full Friday — then he starts without condition.",
      "next": {
       "playerId": 4569618,
       "surname": "Wilson"
@@ -1139,12 +1139,12 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Omar Cooper Jr. DNP Wednesday (ankle/hip) and NBC called him doubtful (17 Nov); Isaiah Williams DNP (ribs). If both sit, more of the targets are Wilson's — Adonai Mitchell is the other beneficiary",
+       "value": "Omar Cooper Jr. DNP Wednesday (ankle/hip) (NFL.com Week 11 list). RIVAL_QUESTIONABLE answered: Cooper sitting grows Wilson's share",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Geno Smith, LIMITED Wednesday (ankle; Jets.com 18 Nov). Glenn: 'Geno is our starter' if healthy (amNY 17 Nov). Else Cade Klubnik (11 of 20, 137 yards, 1 INT in relief vs Buffalo)",
+       "value": "Geno Smith — limited Wednesday (ankle), says starting is 'the plan' (Fox Sports Radio NJ 19 Nov 09:15 ET); Thursday's line not found. Else Cade Klubnik. PASSER_QUESTIONABLE answered",
        "style": "plain"
       },
       {
@@ -1154,7 +1154,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Jets Wednesday report (newyorkjets.com 18 Nov); amNY 17 Nov; NBC injury roundup 17 Nov",
+       "value": "Jets: Fox Sports Radio NJ 19 Nov; JetNation 19 Nov; NFL.com Week 11 list",
        "style": "italic"
       }
      ],
@@ -1365,7 +1365,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "VACATED answered: Jake Ferguson DNP Wednesday (knee/ankle), expected to miss multiple weeks (sicscore 19 Nov). Lamb 28% in Week 10, healthy. ROLE_UP: one big week after a hamstring listing on 12 Nov (carried) — volume, priced",
+       "value": "Jake Ferguson DNP Wednesday (knee/ankle) (Dallas Sports Journal 18 Nov). VACATED answered: Ferguson's ~2 targets go to Pickens and Lamb; ESPN's Playbook has the game's 59.4 total, the week's highest",
        "style": "plain"
       },
       {
@@ -1380,7 +1380,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Cowboys Wednesday report (Dallas Sports Journal 18 Nov); sicscore 19 Nov",
+       "value": "Cowboys Wed report (Dallas Sports Journal 18 Nov); Titans Thu report (Titans.com 19 Nov); ESPN Playbook 19 Nov",
        "style": "italic"
       }
      ],
@@ -1580,7 +1580,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on the Giants' Wednesday report (Giants.com 18 Nov)",
+       "value": "ACTIVE — not on the Giants' Wednesday or Thursday report (Giants.com 19 Nov)",
        "style": "plain"
       },
       {
@@ -1595,12 +1595,12 @@
       },
       {
        "label": "PASSER",
-       "value": "J.J. McCarthy — QB_CHANGE answered: the starter since Week 8, three starts (Giants.com storylines 18 Nov). Normal, not a backup",
+       "value": "J.J. McCarthy, not on the report (Giants.com 19 Nov). QB_CHANGE answered",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Giants Wednesday report and storylines (Giants.com 18 Nov)",
+       "value": "Giants Wed + Thu report (Giants.com 19 Nov)",
        "style": "italic"
       }
      ],
@@ -1618,7 +1618,7 @@
        }
       ]
      },
-     "logic": "13.2, TE3. No news since Sunday; the 9-for-11 Week 10 game is one week and changes nothing. Changes only if he appears on Thursday's or Friday's report.",
+     "logic": "13.2, TE3. Not on the Giants' Wednesday or Thursday report; the 9-for-11 Week 10 game is one week and changes nothing. Changes only if he appears on Friday's report.",
      "next": {
       "playerId": 4711533,
       "surname": "Gordon"
@@ -1656,13 +1656,13 @@
       "QB_CHANGE"
      ],
      "figures": {
-      "experts": "RB17 (16–20)",
+      "experts": "RB17 (17–20)",
       "projMove": "15.7 → 13.9",
       "matchup": "GREAT · 28th vs RB (carried)"
      },
      "range": {
       "rank": 17,
-      "best": 16,
+      "best": 17,
       "worst": 20
      },
      "weeks": [
@@ -1791,22 +1791,22 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on Miami's report (sicscore 19 Nov lists only Douglas for Miami)",
+       "value": "ACTIVE — not on the Dolphins' Wednesday report (DolphinsTalk 18 Nov)",
        "style": "plain"
       },
       {
        "label": "ROLE",
-       "value": "20 carries, 87% of Miami's backfield and 5 targets in Week 10 (archive)",
+       "value": "20 carries and a career-high 39 receiving yards in Week 10 (ESPN Playbook 19 Nov); 87% of Miami's backfield (archive)",
        "style": "plain"
       },
       {
        "label": "COMPETITION",
-       "value": "VACATED answered: De'Von Achane is out for the season with a torn ACL (NBC 17 Nov) — ESPN already has him on IR, so the role is priced. Jaylen Wright 13% (archive)",
+       "value": "De'Von Achane on injured reserve. VACATED answered: the lead role is already in ESPN's 13.9",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Kyle McCord — QB_CHANGE answered: starting with Malik Willis on IR (NBC 17 Nov). A backup",
+       "value": "Kyle McCord, expected starter (sicscore 19 Nov). QB_CHANGE answered",
        "style": "plain"
       },
       {
@@ -1816,7 +1816,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "NBC injury roundup 17 Nov; sicscore 19 Nov; archive Weeks 8-10",
+       "value": "Dolphins Wed report (DolphinsTalk 18 Nov); ESPN Playbook 19 Nov; sicscore 19 Nov",
        "style": "italic"
       }
      ],
@@ -1834,7 +1834,7 @@
        }
       ]
      },
-     "logic": "13.9, RB17. The bell-cow role is priced. Changes if Miami list him Thursday or Friday.",
+     "logic": "13.9, RB17. The bell-cow role is priced. If Tuten's rule fires he moves to RB and Rice takes FLEX. Changes if Miami list him Friday.",
      "next": {
       "playerId": -16023,
       "surname": "Steelers D/ST"
@@ -1851,11 +1851,11 @@
     "slotLine": "D/ST · PIT",
     "starting": true,
     "questionable": false,
-    "proj": 9.2,
+    "proj": 9,
     "normal": 7.6,
     "normalEstimated": false,
-    "pct": 20,
-    "tag": "ELITE",
+    "pct": 18,
+    "tag": "FAVORABLE",
     "reason": "Philadelphia start Joe Milton",
     "sheet": {
      "slotLine": "STARTING · D/ST",
@@ -1869,7 +1869,7 @@
      "flags": [],
      "figures": {
       "experts": "D/ST1 (1–4)",
-      "projMove": "8.4 → 9.2",
+      "projMove": "8.4 → 9.0",
       "matchup": null
      },
      "range": {
@@ -1921,7 +1921,7 @@
      ],
      "current": {
       "week": 11,
-      "proj": 9.2
+      "proj": 9
      },
      "shareKey": null,
      "series": {
@@ -1933,30 +1933,30 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — Watt and Heyward rest days, Herbig (hip/ribs) DNP Wednesday (Athlon 18 Nov)",
+       "value": "Plays at Philadelphia, who start Joe Milton for the second time (NBC Sports Philadelphia 19 Nov); DeVonta Smith and Wicks back at practice",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Joe Milton announced as Philadelphia's starter (NBC 18 Nov); Smith and Wicks limited Wednesday (sicscore 19 Nov). Best wire D/ST: Jaguars 8.1 (free agent)",
+       "value": "NBC Sports Philadelphia 19 Nov; Athlon Steelers Thursday report; ESPN Playbook (total 37.2, Steelers 85%)",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "CLOSEST CHALLENGER",
-      "self": 9.2,
+      "self": 9,
       "rows": [
        {
         "where": "FREE AGENT",
         "playerId": -16030,
         "name": "Jaguars D/ST",
         "proj": 8.1,
-        "gap": 1.1,
+        "gap": 0.9,
         "gapLabel": "coin flip"
        }
       ]
      },
-     "logic": "9.2 against the Jaguars' 8.1. Smith and Wicks may return for Philadelphia. Changes if the Eagles name another starter.",
+     "logic": "9.0 against the Jaguars' 8.1. Smith and Wicks are back at practice for Philadelphia, slightly better than the claim assumed. Changes if the Eagles name another starter.",
      "next": {
       "playerId": 17372,
       "surname": "Boswell"
@@ -2040,12 +2040,12 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on the Steelers' Wednesday report (Athlon 18 Nov)",
+       "value": "ACTIVE — not on the Steelers' Wednesday or Thursday report (Athlon 19 Nov)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Steelers Wednesday report (Athlon 18 Nov). Best wire K: Dicker 10.2 (free agent)",
+       "value": "Steelers Thursday report (Athlon 19 Nov)",
        "style": "italic"
       }
      ],
@@ -2085,7 +2085,7 @@
     "normalEstimated": false,
     "pct": -7,
     "tag": "NEUTRAL",
-    "reason": "Full practice Wednesday; 22% of the targets",
+    "reason": "Full practice Wednesday and Thursday; 22% of the targets",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "KC vs ARI",
@@ -2212,7 +2212,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — full practice Wednesday (knee; Chiefs.com 18 Nov)",
+       "value": "ACTIVE — full participant Wednesday and Thursday (knee) (Chiefs.com Week 11 report)",
        "style": "plain"
       },
       {
@@ -2232,7 +2232,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Chiefs Wednesday report (Chiefs.com 18 Nov); NBC injury roundup 17 Nov",
+       "value": "Chiefs Wed + Thu report (Chiefs.com 19 Nov)",
        "style": "italic"
       }
      ],
@@ -2266,7 +2266,7 @@
        }
       ]
      },
-     "logic": "12.8 against Gordon's 13.9 in FLEX and Tuten's 17.0. Starts only if Friday sits Tuten.",
+     "logic": "12.8 against Gordon's 13.9 in FLEX and Tuten's 17.0. Starts only if Tuten misses Friday or is listed doubtful or out.",
      "next": {
       "playerId": 4431299,
       "surname": "Odunze"
@@ -2303,14 +2303,14 @@
       "QB_CHANGE"
      ],
      "figures": {
-      "experts": "WR24 (23–27)",
+      "experts": "WR23 (22–24)",
       "projMove": "10.1 → 11.5",
       "matchup": "AVERAGE · 20th vs WR (carried)"
      },
      "range": {
-      "rank": 24,
-      "best": 23,
-      "worst": 27
+      "rank": 23,
+      "best": 22,
+      "worst": 24
      },
      "weeks": [
       {
@@ -2459,7 +2459,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "ROLE_UP answered: Luther Burden III cleared the concussion protocol and practised fully (Saints.com 18 Nov), so the extra share is gone. Loveland 19%",
+       "value": "Luther Burden III cleared to play against the Saints (Yahoo 18 Nov) — the Bears' top receiver is back, which caps Odunze's share",
        "style": "plain"
       },
       {
@@ -2469,7 +2469,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Bears estimated Wednesday report (neworleanssaints.com 18 Nov); SI odds (Bears -11.5)",
+       "value": "Yahoo 18 Nov (Burden); Bears report via sicscore 19 Nov",
        "style": "italic"
       }
      ],
@@ -2857,7 +2857,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "OUT — finger surgery; a 'realistic chance' to return 25 Nov vs the Rams (Rapoport via CBS 17 Nov). Green Bay on bye",
+       "value": "OUT — finger surgery; 'realistic chance' to return 25 Nov against the Rams (CBS/Rapoport 17 Nov). Green Bay on bye",
        "style": "plain"
       },
       {
@@ -2877,7 +2877,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "CBS 17 Nov (Rapoport); Yahoo 'Packers get injury return target'",
+       "value": "CBS 17 Nov (Rapoport); Packers on bye — no practice report",
        "style": "italic"
       }
      ],
@@ -3090,7 +3090,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "OUT — concussion, DNP all week; Houston's TNF report (NFL.com) and PFT 18 Nov 20:54Z (carried)",
+       "value": "OUT tonight — ruled out on Houston's final report (SI Texans)",
        "style": "plain"
       },
       {
@@ -3100,7 +3100,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "ROLE_UP answered: Montgomery's absence gave him the job; Montgomery practised in full this week and is on track for tonight (NFL.com; Fantasy Footballers)",
+       "value": "David Montgomery returns from a four-game absence and is 'expected to get a full workload' (Yahoo 19 Nov); Demercado behind him",
        "style": "plain"
       },
       {
@@ -3110,7 +3110,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "TNF injury report (NFL.com); SI preview 16 Nov",
+       "value": "Texans final report (SI); Yahoo 19 Nov",
        "style": "italic"
       }
      ],
@@ -3152,7 +3152,7 @@
  },
  "wire": {
   "headline": "Nothing worth priority",
-  "deck": "Twenty-one screened; one newcomer (Kaelon Black, a watch). One more to watch, nineteen passes.",
+  "deck": "Twenty-one screened; no newcomers since this morning. Two to watch, nineteen passes.",
   "candidates": [],
   "market": {
    "kicker": {
@@ -3185,7 +3185,7 @@
     "rows": [
      {
       "name": "Steelers D/ST",
-      "proj": 9.2,
+      "proj": 9,
       "mine": true
      },
      {
@@ -3235,6 +3235,7 @@
     "jalen hurts",
     "jordan addison",
     "josh jacobs",
+    "kyler murray",
     "lamar jackson",
     "marvin harrison jr.",
     "michael wilson",
@@ -3259,8 +3260,8 @@
       "INHERITS 100% (Woody Marks)"
      ],
      "verdict": "PASS",
-     "reason": "Inherits Marks' work only while Montgomery is out — Marks is ruled out Thursday but Montgomery has no designation after a full week (PFT 18 Nov 20:54Z). (carried from Wednesday's research; no newer reporting changes it)",
-     "falsifiedIf": "Montgomery inactive Thursday and Demercado 15+ touches.",
+     "reason": "Montgomery returns tonight from a four-game absence and is expected to take a full workload (Yahoo 19 Nov; SI Texans); Marks out. Demercado is the No. 2.",
+     "falsifiedIf": "Demercado 15+ touches tonight with Montgomery active.",
      "drop": null
     },
     {
@@ -3358,24 +3359,6 @@
      "drop": null
     },
     {
-     "playerId": 4869645,
-     "name": "Caleb Douglas",
-     "pos": "WR",
-     "team": "MIA",
-     "touches": [
-      6,
-      8,
-      8
-     ],
-     "share": 0.4,
-     "shareBefore": 0.33760683760683763,
-     "flags": [],
-     "verdict": "WATCH",
-     "reason": "Miami's target leader with McCord; limited Wednesday (shoulder), expects to play (sicscore 19 Nov). Behind five receivers once Golden returns.",
-     "falsifiedIf": "Douglas under 6 targets with McCord in Week 11",
-     "drop": null
-    },
-    {
      "playerId": 4870847,
      "name": "Ja'Kobi Lane",
      "pos": "WR",
@@ -3391,6 +3374,24 @@
      "verdict": "PASS",
      "reason": "11 targets but 3 catches and a goal-line drop with Brissett. (carried from Tuesday's research)",
      "falsifiedIf": "Lane 8+ targets again in Week 11.",
+     "drop": null
+    },
+    {
+     "playerId": 4869645,
+     "name": "Caleb Douglas",
+     "pos": "WR",
+     "team": "MIA",
+     "touches": [
+      6,
+      8,
+      8
+     ],
+     "share": 0.4,
+     "shareBefore": 0.33760683760683763,
+     "flags": [],
+     "verdict": "WATCH",
+     "reason": "Miami's target leader with McCord; limited again Thursday in a non-contact jersey (RotoWire 19 Nov). Behind five receivers once Golden returns.",
+     "falsifiedIf": "Douglas under 6 targets with McCord in Week 11",
      "drop": null
     },
     {
@@ -3647,20 +3648,16 @@
  "notes": {
   "cannotSee": [
    {
-    "label": "Tuten's Thursday and Friday",
-    "body": "Wednesday was limited; Friday's designation lands after this run and decides the fallback card."
+    "label": "Tuten's Friday",
+    "body": "Wednesday limited, Thursday DNP. Friday's practice and designation land after this run and decide the fallback card."
    },
    {
     "label": "Wilson's quarterback",
-    "body": "Geno Smith limited Wednesday; the Jets decide late in the week."
-   },
-   {
-    "label": "Washington",
-    "body": "Daniels plays Monday; Washington's first practice report lands Thursday afternoon."
+    "body": "Geno Smith limited Wednesday, intends to start; Thursday's line not retrieved."
    },
    {
     "label": "Jacobs' return",
-    "body": "A 'realistic chance' for 25 Nov (Rapoport) — not confirmed."
+    "body": "A 'realistic chance' for 25 Nov (Rapoport, 17 Nov) — not confirmed."
    },
    {
     "label": "Defence grades",
@@ -3668,7 +3665,7 @@
    },
    {
     "label": "Waiver order",
-    "body": "You are 7th; the order never resets. Rival pending claims are invisible."
+    "body": "You are 7th; the order never resets. Tonight's claims (Dobbins, Bryce Young, Zvada, Ravens D/ST clear 02:00 CDMX) are worth none of it. Rival pending claims are invisible."
    },
    {
     "label": "Trades",
@@ -3676,6 +3673,6 @@
    }
   ],
   "lastWeek": "Week 10 left 34.8 points on the bench. The lineup scored 136.3 against 171.1 available — from the archive, not articles.",
-  "sources": "34 searches · ESPN league file and archive · Giants.com · Jets.com · Chiefs.com · Saints.com · NFL.com · NBC · CBS · Yahoo · SI · Athlon · Dallas Sports Journal · sicscore · fantasyteamadvice DvP (carried)"
+  "sources": "32 searches · ESPN league file and week archive · Giants.com (both teams' Thursday report) · Commanders.com · Chiefs.com · Titans.com · Vikings.com · NBC · CBS/RotoWire · SI · Yahoo · Athlon · Dallas Sports Journal · ESPN Playbook · sicscore"
  }
 }
