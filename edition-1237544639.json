@@ -1,17 +1,17 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1237544639-w11-20261121T2225Z",
+  "id": "1237544639-w11-20261122T1317Z",
   "leagueId": "1237544639",
   "leagueName": "Chem",
   "teamName": "AVIATO",
   "label": "CHEM EDITION",
   "week": 11,
   "record": "4–6",
-  "dateline": "SATURDAY, NOVEMBER 21, 2026",
-  "time": "16:25",
+  "dateline": "SUNDAY, NOVEMBER 22, 2026",
+  "time": "07:17",
   "state": "GAMES UNDER WAY",
-  "generatedAt": "2026-11-21T22:25:53Z",
+  "generatedAt": "2026-11-22T13:17:19Z",
   "dryRun": false
  },
  "chart": {
@@ -21,23 +21,23 @@
  },
  "front": {
   "lead": {
-   "kicker": "MIDWEEK",
-   "headline": "Likely's Friday miss is still the only open question",
-   "deck": "Nothing new by Saturday afternoon, so he starts. If he is inactive at 13:55, add Okonkwo for Diggs. Diggs and Okonkwo cleared Saturday.",
-   "byline": "Fantasy Brief · Saturday 16:00 CDMX",
-   "dateline": "MEXICO CITY, Sat 21 Nov —",
-   "body": "Bad news first: Isaiah Likely, your only tight end, did not practise Friday with a groin injury, and nothing newer has appeared by Saturday afternoon. The Giants gave him no game status and RotoBaller calls him good to go, so he starts. Chem's flex takes no tight end. If Jacksonville–New York inactives at 13:55 Sunday list him, add Chig Okonkwo (free agent, Washington, Monday night, no designation on Saturday's report) and drop Stefon Diggs. Diggs also has no designation. Tuten is cleared. The lineup as set is the projection lineup; the one free improvement is still Tuten to FLEX before noon.",
+   "kicker": "BEFORE KICKOFF",
+   "headline": "Likely starts on a Friday DNP; the call holds until 13:55",
+   "deck": "Nothing new overnight. If he is inactive, add Okonkwo for Diggs. Tuten to FLEX before noon is still free insurance.",
+   "byline": "Fantasy Brief · Sunday 07:00 CDMX",
+   "dateline": "MEXICO CITY, Sun 22 Nov —",
+   "body": "Bad news first: Isaiah Likely, your only tight end, did not practise Friday with a groin injury, and nothing newer had appeared by 07:00 Sunday. The Giants gave him no status and Harbaugh called it 'a minor thing', so he starts. This is provisional until Jacksonville–New York inactives at 13:55 CDMX. Chem's flex takes no tight end. If he is out, add Chig Okonkwo (free agent, full practice all week, Monday night) and drop Stefon Diggs. Tuten is cleared. The lineup as set is the projection lineup. The one free improvement is Tuten to FLEX and Gordon to RB before noon.",
    "players": [
     {
      "playerId": 4361050,
      "name": "Isaiah Likely",
-     "caption": "TE · New York. Likely: DNP Friday (groin), no update",
+     "caption": "TE · New York. Likely: DNP Friday (groin), no update by Sunday",
      "logo": "nyg"
     },
     {
      "playerId": 4882093,
      "name": "Bhayshul Tuten",
-     "caption": "RB · Jacksonville. Tuten: cleared for Sunday",
+     "caption": "RB · Jacksonville. Tuten: cleared, still in an RB slot",
      "logo": "jax"
     }
    ]
@@ -266,11 +266,11 @@
   }
  },
  "doFirst": {
-  "headline": "Two things before Sunday",
-  "deck": "Swap Gordon and Tuten's slots before noon. At 13:55, check Likely.",
+  "headline": "Two checks before kickoff",
+  "deck": "Swap Gordon and Tuten before 12:00. At 13:55, check Likely.",
   "cards": [],
-  "note": "Both are insurance. Neither changes the projection lineup, which you set on Friday.",
-  "empty": "No card this run: the lineup is already the projection lineup. The two insurance moves are in the deck above."
+  "note": "Both are insurance. Neither changes the projection lineup, which you set on Friday. Lineup calls resting on inactives are provisional until each game's inactives.",
+  "empty": "No card this morning: the lineup is already the projection lineup. The two insurance checks are in the deck above."
  },
  "roster": {
   "deck": "The lineup as set is the projection lineup (137.1). Tuten would be safer in FLEX, and Likely has a Monday-night fallback.",
@@ -456,7 +456,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Walterfootball MIA-BUF hub (21 Nov); Bills final statuses (Yahoo 20 Nov, carried). No Saturday change. Re-checked Sat 16:00 CDMX: Walterfootball hub (21 Nov) lists Kincaid out; no Bills change.",
+       "value": "Sun 07:00 CDMX: Walterfootball MIA-BUF hub (Week 11 outs: Kincaid, Benford; Bills -16.5); SportsBettingDime roundup 22 Nov 06:24 ET (Kincaid DOUBTFUL, thumb). Nothing on Allen.",
        "style": "italic"
       }
      ],
@@ -656,7 +656,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE, no designation. Limited Wednesday, DNP Thursday, LIMITED Friday (ankle/foot) on the joint final report, game status blank (Giants.com 20 Nov 16:00). Rotowire: cleared for Sunday",
+       "value": "ACTIVE, no designation. Limited Wednesday, DNP Thursday, LIMITED Friday (ankle/foot); game status blank on the joint final report. Rotowire: cleared for Sunday (20 Nov). Nothing newer by 07:00 Sunday",
        "style": "plain"
       },
       {
@@ -681,7 +681,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Giants.com joint final report (20 Nov 16:00); Rotowire JAX-NYG page (cleared, 20 Nov). No Saturday news. Re-checked Sat 16:00 CDMX: Rotowire JAX-NYG ('cleared for Sunday', 20 Nov); USA Today via Yahoo ('set to play', 20 Nov 22:51Z). No Saturday change.",
+       "value": "Sun 07:00 CDMX: Rotowire JAX-NYG page (Tuten cleared, no designation, 20 Nov; no inactives posted yet); Giants Wire via Yahoo 20 Nov 21:10Z (Jaguars' outs are Green and Hainsey, no Tuten). Nothing newer than Friday.",
        "style": "italic"
       }
      ],
@@ -899,7 +899,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Steelers.com final report (20 Nov); Rotowire PIT-PHI page (Milton starts, Philadelphia implied 16.8). No Saturday change. Re-checked Sat 16:00 CDMX: Rotowire PIT-PHI 21 Nov: Eagles put Wicks on IR and activated Shipley (questionable); Barkley no designation after the bye. Steelers activated Roman Wilson. Nothing touches Warren.",
+       "value": "Sun 07:00 CDMX: Rotowire PIT-PHI page (items to 21 Nov: Herbig out, Pittman not back, Roman Wilson activated; Steelers 20.5, Eagles 17.0). Nothing touches Warren.",
        "style": "italic"
       }
      ],
@@ -1113,7 +1113,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Rotowire MIN-SF page (Murray out, Cousins starts, Hockenson no designation, Minnesota implied 21.5). No Saturday change. Re-checked Sat 16:00 CDMX: Rotowire MIN-SF unchanged (Cousins starts, Murray out, Hockenson cleared).",
+       "value": "Sun 07:00 CDMX: Rotowire MIN-SF page (Murray out, Hockenson no designation; Vikings 21.5, 49ers 25.0); SportsBettingDime 22 Nov (Cousins expected to start, Addison out). No change.",
        "style": "italic"
       }
      ],
@@ -1338,7 +1338,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Rotowire NYJ-LAC page (Cooper, Williams out; Geno cleared; Jets 19.5). The SI and NewYorkJets.com pages returned by search were 2020 content and were not used. Re-checked Sat 16:00 CDMX: Rotowire NYJ-LAC: Cooper and I. Williams still out; Breece Hall 'could see more touches' (21 Nov). No change for Wilson.",
+       "value": "Sun 07:00 CDMX: Rotowire NYJ-LAC page (Cooper and I. Williams out, Geno cleared, 20 Nov; McConkey expected to play, 22 Nov; Jets 19.5, Chargers 22.5). No change for Wilson.",
        "style": "italic"
       }
      ],
@@ -1538,7 +1538,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE, no game status — but DNP Friday with a groin injury, his only appearance on the report (Giants.com 20 Nov 16:00). Harbaugh: 'minor', expects him to be OK (NBC/Rotoworld 20 Nov). RotoBaller and Yahoo: good to go. No Saturday update found",
+       "value": "ACTIVE, no game status — but DNP Friday with a groin injury after full Wednesday and Thursday. Harbaugh: 'He'll be okay. Just a minor thing today so we held him out' (Giants Wire via Yahoo, 20 Nov). NBC: 'will play'. No Saturday or Sunday update by 07:00",
        "style": "plain"
       },
       {
@@ -1558,12 +1558,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Not priced. The Friday DNP came after ESPN's 13.2 was set. No designation and a coach calling it minor, so start him. The risk is a zero, not a lower score.",
+       "value": "Not priced. Friday's DNP (groin) came after the 13.2 was set, and Harbaugh calls it 'a minor thing'. Believe the projection, provisionally, until 13:55 inactives.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "Giants.com joint final report (20 Nov 16:00); NBC/Rotoworld 20 Nov; RotoBaller; Rotowire JAX-NYG page. Saturday search found nothing newer. Re-checked Sat 16:00 CDMX: Giants.com Week 11 tracker has no Saturday entry (latest 20 Nov); Rotowire JAX-NYG still reads DNP Friday, no designation; RotoBaller: good to go. Nothing newer.",
+       "value": "Sun 07:00 CDMX: Giants Wire via Yahoo (20 Nov 21:10Z: DNP Friday, no designation; Harbaugh: 'He'll be okay. Just a minor thing today'); NBC/Rotoworld 20 Nov 21:20Z; Rotowire JAX-NYG (no designation, no inactives yet). Nothing newer than Friday.",
        "style": "italic"
       }
      ],
@@ -1608,7 +1608,7 @@
      "slotLine": "STARTING · FLEX",
      "opponent": "MIA @ BUF",
      "kickoff": "Sun 12:00",
-     "deck": "Start, from FLEX, where you put him at 13:54.",
+     "deck": "Start, from FLEX, where you put him on Friday.",
      "verdict": {
       "kind": "START",
       "text": "START"
@@ -1779,7 +1779,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Dolphins search 21 Nov (nothing newer); Walterfootball MIA-BUF hub 21 Nov (Bills -16.5); MiamiDolphins.com 20 Nov (carried). Re-checked Sat 16:00 CDMX: Walterfootball hub (21 Nov) lists Achane out (IR); McCord starts (TSN 19 Nov). No Dolphins change.",
+       "value": "Sun 07:00 CDMX: Walterfootball MIA-BUF hub (Miami's Week 11 outs: Trader; Brewer limited); Fantasy Footballers 15 Nov (Week 10: 'all but four' of Miami's RB carries). No Dolphins change.",
        "style": "italic"
       }
      ],
@@ -1911,7 +1911,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Rotowire PIT-PHI page (items to 21 Nov); Steelers.com final report (20 Nov)",
+       "value": "Sun 07:00 CDMX: Rotowire PIT-PHI page (Milton starts, Sirianni 18 Nov; DeVonta Smith back from the hamstring; Wicks and Baun to IR 21 Nov; Eagles 17.0).",
        "style": "italic"
       }
      ],
@@ -2044,7 +2044,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Week 11 archive (6.0), game final. Unchanged",
+       "value": "Week 11 archive (6.0), game final. Unchanged.",
        "style": "italic"
       }
      ],
@@ -2224,7 +2224,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE. Not on Washington's report; Burks DNP Friday (foot). Saturday game statuses are out: no designation for Diggs, Daniels or Okonkwo; Burks has none and is expected available (Yahoo 21 Nov)",
+       "value": "ACTIVE. Not on Washington's report through Saturday (Commanders.com). Okonkwo and Daniels full all three days, no status",
        "style": "plain"
       },
       {
@@ -2244,7 +2244,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Commanders.com Week 11 report (Thu/Fri); Rotowire CIN-WSH page (Washington implied 24.0, Cincinnati 30.0). Saturday statuses re-checked 16:00 CDMX: Diggs no designation (Yahoo Commanders-Bengals report, 21 Nov)",
+       "value": "Sun 07:00 CDMX: Commanders.com Week 11 report through Saturday: Diggs not listed; Daniels and Okonkwo full all three days, no status; Croskey-Merritt full all week, questionable; White DNP Saturday, questionable. Rotowire CIN-WSH (Bengals 30.0, Commanders 24.0).",
        "style": "italic"
       }
      ],
@@ -2458,7 +2458,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE. Full practice all week, no designation (DenverBroncos.com 18 Nov; PFT 20 Nov, carried)",
+       "value": "ACTIVE. Full practice all three days, no game status (Raiders.com joint report 20 Nov)",
        "style": "plain"
       },
       {
@@ -2483,7 +2483,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "DenverBroncos.com 18 Nov; Broncos search 21 Nov found no final-status change. Re-checked Sat 16:00 CDMX: no Broncos change found.",
+       "value": "Sun 07:00 CDMX: Raiders.com joint report (20 Nov): Waddle full all three days, no game status; Bowers questionable. No Broncos change since.",
        "style": "italic"
       }
      ],
@@ -2664,7 +2664,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "ESPN NO-CHI game page (Bears -11.5, total 48.5); NewOrleansSaints.com Thursday report. Re-checked Sat 16:00 CDMX: Saints Thursday report: Kamara full (rest), Etienne not listed. No change.",
+       "value": "Sun 07:00 CDMX: Walterfootball NO-CHI hub (Bears -11.5; the Saints' Week 11 outs are linemen and defensive backs; Etienne not listed). No change.",
        "style": "italic"
       }
      ],
@@ -2898,7 +2898,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Steelers.com final report (20 Nov); Rotowire PIT-PHI page. Re-checked Sat 16:00 CDMX: Rotowire PIT-PHI (Roman Wilson activated, Pittman not expected back, 21 Nov).",
+       "value": "Sun 07:00 CDMX: Rotowire PIT-PHI (Roman Wilson activated 21 Nov; Pittman not back this week). No change.",
        "style": "italic"
       }
      ],
@@ -2954,7 +2954,7 @@
     "normalEstimated": true,
     "pct": 130,
     "tag": "ELITE",
-    "reason": "Tate questionable after a full Friday, so he is expected back",
+    "reason": "Tate expected back (Rapoport, 22 Nov) — the Week 10 share shrinks",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "TEN @ DAL",
@@ -3071,7 +3071,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE. Not on the Titans' final report. Carnell Tate QUESTIONABLE (shoulder) after a FULL Friday; Wan'Dale Robinson out for the season (TennesseeTitans.com 20 Nov; Rotowire)",
+       "value": "ACTIVE. Not on the Titans' final report. Carnell Tate EXPECTED TO PLAY (Rapoport via Rotowire, 22 Nov) after full practice to end the week; Wan'Dale Robinson out for the season",
        "style": "plain"
       },
       {
@@ -3081,7 +3081,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Carnell Tate QUESTIONABLE (shoulder) but 'considered likely' to be cleared (Rotowire TEN-DAL, 21 Nov), so he takes back the share Ayomanor had in Week 10. Wan'Dale Robinson out for the season; Tyjae Spears to IR Saturday (a back, not his volume). RIVAL_QUESTIONABLE and VACATED answered",
+       "value": "Carnell Tate EXPECTED TO PLAY (shoulder; Rapoport via Rotowire, 22 Nov), so he takes back the share Ayomanor had in Week 10. Wan'Dale Robinson out for the season; Tyjae Spears on IR (a back, not his volume). RIVAL_QUESTIONABLE and VACATED answered",
        "style": "plain"
       },
       {
@@ -3096,7 +3096,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "TennesseeTitans.com final report (updated 20 Nov 14:36); Rotowire TEN-DAL page (Dallas implied 31.0, Tennessee 23.5). Re-checked Sat 16:00 CDMX: Rotowire TEN-DAL (Tate likely cleared; Spears IR, 21 Nov).",
+       "value": "Sun 07:00 CDMX: Rotowire headline 22 Nov: Carnell Tate expected to play (Rapoport) after full practice to end the week; Rotowire TEN-DAL (Titans 23.5, Cowboys 31.0).",
        "style": "italic"
       }
      ],
@@ -3130,7 +3130,7 @@
        }
       ]
      },
-     "logic": "9.5, fifth receiver. His Week 10 role came from Tate sitting, and Tate is practising.",
+     "logic": "9.5, benched behind four receivers. Priced: Tate's return was expected after his full Friday, and Rapoport confirmed it Sunday, so it takes back Ayomanor's Week 10 share. No start is close. What would change it: Tate inactive at 10:30 CDMX.",
      "next": null
     }
    }
@@ -3138,7 +3138,7 @@
  },
  "wire": {
   "headline": "Nothing worth adding",
-  "deck": "Nine screened, the same nine as Friday, and no newcomers. Nine passes, carried with Saturday's checks. Okonkwo is a contingency for Likely, not an add. Ayomanor's seat is closed until 26 Nov.",
+  "deck": "Nine screened in pass 2, the same nine as Saturday, no newcomers. Nine passes, re-checked Sunday morning. Okonkwo is a contingency for Likely, not an add. Ayomanor's seat is closed until 26 Nov.",
   "candidates": [],
   "market": {
    "kicker": {
@@ -3215,6 +3215,7 @@
   },
   "screen": {
    "injured": [
+    "carson beck",
     "dalton kincaid",
     "de'von achane",
     "dontayvion wicks",
@@ -3222,6 +3223,7 @@
     "isaiah williams",
     "jake ferguson",
     "jalen hurts",
+    "jonathan mingo",
     "jordan addison",
     "josh jacobs",
     "kenneth walker iii",
@@ -3253,7 +3255,7 @@
      "shareBefore": 0.3721804511278195,
      "flags": [],
      "verdict": "PASS",
-     "reason": "Seth McGowan: 3 carries for 7 yards Thursday plus kick returns; Taylor kept 11 of 17 carries (Houston Chronicle via Yahoo 20 Nov). A committee No. 2 whose Week 11 is spent. Richardson takes over at QB for Week 12 (Yahoo 20 Nov). (Carried from Friday; Saturday checks found nothing new.) Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "Seth McGowan: 3 carries for 7 yards Thursday plus kick returns; Taylor kept 11 of 17 carries (Houston Chronicle via Yahoo 20 Nov). A committee No. 2 whose Week 11 is spent. Richardson takes over at QB for Week 12 (Yahoo 20 Nov). (Carried from Friday; Saturday checks found nothing new.) Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "McGowan passes 50% of Indianapolis' carries in Week 12.",
      "drop": null
     },
@@ -3273,7 +3275,7 @@
       "INHERITS 16% (Woody Marks)"
      ],
      "verdict": "PASS",
-     "reason": "Montgomery came back with 26 carries for 107; Demercado was the complement (Fantasy Footballers 18 Nov; Houston Chronicle via Yahoo). The vacated share went to Montgomery. (Carried; Saturday checks found nothing new.) Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "Montgomery came back with 26 carries for 107; Demercado was the complement (Fantasy Footballers 18 Nov; Houston Chronicle via Yahoo). The vacated share went to Montgomery. (Carried; Saturday checks found nothing new.) Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Montgomery hurt again and Demercado 15+ touches.",
      "drop": null
     },
@@ -3291,7 +3293,7 @@
      "shareBefore": 0.18949579831932772,
      "flags": [],
      "verdict": "PASS",
-     "reason": "3 catches for 27 on 4 targets Thursday (archive). A complementary receiver whose Week 11 is played. (Carried; Saturday checks found nothing new.) Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "3 catches for 27 on 4 targets Thursday (archive). A complementary receiver whose Week 11 is played. (Carried; Saturday checks found nothing new.) Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Dell 20% or more of Houston's targets in Week 12 with Harrison Jr. active.",
      "drop": null
     },
@@ -3309,7 +3311,7 @@
      "shareBefore": 0.20210084033613446,
      "flags": [],
      "verdict": "PASS",
-     "reason": "With Harrison Jr. out Thursday he still drew 3 targets for 3.3 points (archive). The borrowed role did not produce. (Carried; Saturday checks found nothing new.) Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "With Harrison Jr. out Thursday he still drew 3 targets for 3.3 points (archive). The borrowed role did not produce. (Carried; Saturday checks found nothing new.) Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Harrison Jr. out for Week 12 and Hutchinson 20% or more of the targets.",
      "drop": null
     },
@@ -3327,7 +3329,7 @@
      "shareBefore": 0.08781512605042018,
      "flags": [],
      "verdict": "PASS",
-     "reason": "2 catches for 40 and a TD Thursday on 2 targets (archive): efficiency, the fluke signature, and his week is played. (Carried; Saturday checks found nothing new.) Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "2 catches for 40 and a TD Thursday on 2 targets (archive): efficiency, the fluke signature, and his week is played. (Carried; Saturday checks found nothing new.) Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Boutte 6+ targets in Week 12 with Harrison Jr. back.",
      "drop": null
     },
@@ -3347,7 +3349,7 @@
       "INHERITS 39% (Michael Wilson)"
      ],
      "verdict": "PASS",
-     "reason": "One of four healthy Cardinals receivers after Michael Wilson's season-ending injury. Carson Beck was ruled out Saturday and Josh Johnson starts (Rotowire ARI-KC, 21 Nov), so the passer is now a journeyman backup against Kansas City. (Re-checked 16:00 CDMX.)",
+     "reason": "One of four healthy Cardinals receivers after Michael Wilson's season-ending injury. Carson Beck was ruled out Saturday and Josh Johnson starts (Rotowire ARI-KC, 21 Nov), so the passer is now a journeyman backup against Kansas City. Re-checked Sun 07:00 CDMX: Josh Johnson expected to start (Rotowire ARI-KC).",
      "falsifiedIf": "Duvernay 8+ targets against Kansas City.",
      "drop": null
     },
@@ -3365,7 +3367,7 @@
      "shareBefore": 0.3,
      "flags": [],
      "verdict": "PASS",
-     "reason": "0.0 on 1 target Thursday (archive). Indianapolis released Daniel Jones Friday and turn to Anthony Richardson (Yahoo 20 Nov 18:12Z). A new quarterback is no reason to chase a fourth receiver. Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "0.0 on 1 target Thursday (archive). Indianapolis released Daniel Jones Friday and turn to Anthony Richardson (Yahoo 20 Nov 18:12Z). A new quarterback is no reason to chase a fourth receiver. Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Treadwell 6+ targets in Week 12 with Richardson.",
      "drop": null
     },
@@ -3385,7 +3387,7 @@
       "INHERITS 15% (Dalton Kincaid)"
      ],
      "verdict": "PASS",
-     "reason": "NEW to the screen: Kincaid is DOUBTFUL (thumb/ankle; Brady, NBC 20 Nov 18:14Z), so Knox is the Bills' tight end at Miami at 12:00. Your tight end is Likely (TE3), and Knox's 12:00 kickoff is too early to cover Likely at 13:55. Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "NEW to the screen: Kincaid is DOUBTFUL (thumb/ankle; Brady, NBC 20 Nov 18:14Z), so Knox is the Bills' tight end at Miami at 12:00. Your tight end is Likely (TE3), and Knox's 12:00 kickoff is too early to cover Likely at 13:55. Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "Kincaid ruled out beyond Week 11 and Knox 6+ targets with Allen.",
      "drop": null
     },
@@ -3403,7 +3405,7 @@
      "shareBefore": null,
      "flags": [],
      "verdict": "PASS",
-     "reason": "Released by Indianapolis on Friday; Anthony Richardson Sr. is the starter (Yahoo 20 Nov 18:12Z; NFL.com). He has no team. Re-checked Sat 16:00 CDMX: still on the screen, no change.",
+     "reason": "Released by Indianapolis on Friday; Anthony Richardson Sr. is the starter (Yahoo 20 Nov 18:12Z; NFL.com). He has no team. Re-checked Sun 07:00 CDMX: still on pass 2, no change.",
      "falsifiedIf": "He signs somewhere as a starter and your quarterback misses a game.",
      "drop": null
     }
@@ -3414,15 +3416,19 @@
   "cannotSee": [
    {
     "label": "Likely's Sunday",
-    "body": "Friday's DNP (groin) is still the last report at 16:00 Saturday. The Giants posted no game status and the Giants.com tracker has no Saturday entry. Inactives come at 13:55 Sunday."
+    "body": "Friday's DNP (groin) is still the last report at 07:00 Sunday. Inactives for JAX–NYG come at 13:55 CDMX. Every call resting on his status is provisional until then."
+   },
+   {
+    "label": "Noon inactives",
+    "body": "Allen, Warren, Gordon, the Steelers D/ST, Metcalf, Etienne and Ayomanor play at 12:00. Inactives come at 10:30 CDMX, after this brief. None carries a designation."
    },
    {
     "label": "Monday night",
-    "body": "Washington's Saturday report is out: Diggs, Okonkwo and Daniels have no designation; Croskey-Merritt is questionable and decided Monday (Yahoo 21 Nov). Cincinnati's Burrow is cleared from an illness (Rotowire 21 Nov). Inactives for that game come Monday at 17:45 CDMX."
+    "body": "Washington's report through Saturday: Diggs not listed; Okonkwo and Daniels no status; Croskey-Merritt and White questionable (Commanders.com). Cincinnati's report was not retrieved; Burrow is cleared (Rotowire 21 Nov). Inactives Monday at 17:45 CDMX."
    },
    {
     "label": "Defence grades",
-    "body": "fantasyteamadvice's 2026 schedule-adjusted points allowed by position, refreshed 21 Nov. It is one public model, not ESPN data, and the ranks are inverted from its own (#1 there allows the most). Re-read Saturday 16:00 CDMX; the TE table lists 33 rows for 32 defences, so its ranks may be off by one."
+    "body": "fantasyteamadvice's 2026 schedule-adjusted points allowed by position. The WR table was re-read 22 Nov; QB, RB and TE are carried from 21 Nov. It is one public model, not ESPN data, and its tables list 33 rows for 32 defences, so ranks may be off by one."
    },
    {
     "label": "Trades",
@@ -3434,10 +3440,10 @@
    },
    {
     "label": "Okonkwo's availability",
-    "body": "He is still a free agent at 53.5% owned in the 22:05Z snapshot. Someone may add him before Sunday."
+    "body": "Still a free agent at 54.9% owned (+2.38) in the 12:50Z snapshot and rising. Someone may add him before 13:55."
    }
   ],
   "lastWeek": "Week 10 left 11.2 points on the bench. The lineup scored 136.9 against 148.1 available — from the archive, not articles.",
-  "sources": "Built from 32 searches and 27 page reads · ESPN league file (22:05Z) and week archive · Rotowire game pages (JAX-NYG, NYJ-LAC, MIN-SF, PIT-PHI, TEN-DAL, ARI-KC, CIN-WSH; items to 21 Nov) · Yahoo Commanders-Bengals Saturday report (21 Nov) · Giants.com Week 11 tracker · NewOrleansSaints.com Thursday report · Chiefs.com final report · DenverBroncos.com · Walterfootball MIA-BUF hub (21 Nov) · RotoBaller · NBC/Rotoworld · USA Today via Yahoo (Tuten, 20 Nov) · Fantasy Footballers · iHeart (Odunze, 20 Nov) · Sun-Times (Williams, 17 Nov) · fantasyteamadvice DvP (QB/RB/WR/TE tabs re-read 21 Nov 16:00 CDMX)"
+  "sources": "Built from 31 searches and 25 page reads · ESPN league file (12:50Z) and week archive · Rotowire game pages (JAX-NYG, NYJ-LAC, MIN-SF, PIT-PHI, TEN-DAL, ARI-KC, CIN-WSH; items to 22 Nov) · Rotowire Tate headline (22 Nov) · SportsBettingDime Week 11 roundup (22 Nov 06:24 ET) · Giants Wire via Yahoo (20 Nov 21:10Z) · NBC/Rotoworld (Likely, 20 Nov) · Commanders.com Week 11 report (through Saturday) · Raiders.com joint report (20 Nov) · Walterfootball hubs (MIA-BUF, NO-CHI) · Fantasy Footballers · Yardbarker (Golden, 17 Nov) · FanDuel Research (Bowers) · fantasyteamadvice DvP (WR tab re-read 22 Nov; QB/RB/TE carried from 21 Nov)"
  }
 }
