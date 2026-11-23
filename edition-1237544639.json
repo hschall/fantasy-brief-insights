@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1237544639-w11-20261123T1320Z",
+  "id": "1237544639-w11-20261123T2223Z",
   "leagueId": "1237544639",
   "leagueName": "Chem",
   "teamName": "AVIATO",
@@ -9,9 +9,9 @@
   "week": 11,
   "record": "4–6",
   "dateline": "MONDAY, NOVEMBER 23, 2026",
-  "time": "07:20",
+  "time": "16:23",
   "state": "GAMES UNDER WAY",
-  "generatedAt": "2026-11-23T13:20:48Z",
+  "generatedAt": "2026-11-23T22:23:12Z",
   "dryRun": false
  },
  "chart": {
@@ -22,22 +22,22 @@
  "front": {
   "lead": {
    "kicker": "SUNDAY NIGHT",
-   "headline": "Lost 125-71, and Tuten's leg is Week 12's question",
+   "headline": "Lost 125-71; Tuten's ankle 'not too bad', Metcalf not suspended",
    "deck": "Every AVIATO starter has played; 4-7. Diggs on the bench is all that is left.",
-   "byline": "Fantasy Brief · Monday 07:00 CDMX",
+   "byline": "Fantasy Brief · Monday 16:00 CDMX",
    "dateline": "MEXICO CITY, Mon 23 Nov —",
-   "body": "Bad news first: Bhayshul Tuten played hurt from the first snap and limped off again on Jacksonville's fourth-quarter drive (Yahoo); nothing has been released and the first Week 12 report is Wednesday. Likely caught one pass, Warren had 4.9, Allen threw two interceptions, and Metcalf, on your bench, was ejected and may be suspended for Friday (SteelerNation). AVIATO finish on 71.16 to Panda Attack's 125.2 — the projection lineup, with about 5 points on the bench before Diggs plays tonight. The Tuesday 16:00 run is the last before Wednesday's 02:00 claims.",
+   "body": "Bad news first: Bhayshul Tuten re-aggravated his ankle against the Giants (Coen, Monday) and scored 8.3; Likely caught one pass, Warren had 4.9 and Allen threw two interceptions. AVIATO finish on 71.16 to Panda Attack's 125.2, the projection lineup with about 4.9 points on the bench before Diggs plays tonight. Two Monday rulings help Week 12: Coen said Tuten's re-check 'wasn't too bad' with a decision on Friday, and the NFL will not suspend Metcalf, who plays Denver on Friday. The Tuesday 16:00 run is the last before claims process Wednesday 02:00 CDMX.",
    "players": [
     {
      "playerId": 4882093,
      "name": "Bhayshul Tuten",
-     "caption": "RB · Jacksonville. Limped off twice; no diagnosis.",
+     "caption": "RB · Jacksonville. Re-aggravated; 'not too bad'.",
      "logo": "jax"
     },
     {
      "playerId": 4047650,
      "name": "DK Metcalf",
-     "caption": "BE · Pittsburgh. Ejected; suspension reported.",
+     "caption": "BE · Pittsburgh. Not suspended.",
      "logo": "pit"
     }
    ]
@@ -269,8 +269,8 @@
   "headline": "Nothing to move today",
   "deck": "Every starter has played; the matchup is decided.",
   "cards": [],
-  "note": "Week 12 starts with two rulings this snapshot cannot see: Tuten's diagnosis (Wednesday's report) and Metcalf's discipline. The Tuesday 16:00 run is the last before claims process Wednesday 02:00 CDMX.",
-  "empty": "Nothing to decide this morning: every AVIATO starter is final and Diggs cannot enter a started slot."
+  "note": "Week 12 opens Wednesday. Tuten's practice week starts Wednesday with a Friday decision; Metcalf plays Friday. The Tuesday 16:00 run is the last before claims process Wednesday 02:00 CDMX.",
+  "empty": "Nothing to decide tonight: every AVIATO starter is final, Diggs cannot enter a started slot, and Monday's two rulings both went your way."
  },
  "roster": {
   "deck": "The lineup as set was the projection lineup (137.0); every starter has played.",
@@ -463,7 +463,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Allen item (22 Nov); NFL.com takeaways.",
+       "value": "Mon 16:00 CDMX: Heavy 'Allen could face a fine' for a facemask grab, no flag (23 Nov); SI/NBC: Bills host the Chiefs on Thanksgiving night (Thu 26 Nov). No injury.",
        "style": "italic"
       }
      ],
@@ -503,12 +503,12 @@
     "normalEstimated": false,
     "pct": 28,
     "tag": "ELITE",
-    "reason": "Hobbled from the first snap; limped off again in the fourth quarter",
+    "reason": "Re-aggravated ankle; Coen: re-check 'wasn't too bad', decision Friday",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "JAX @ NYG",
      "kickoff": "Sun 15:25",
-     "deck": "Played hurt. 8.3.",
+     "deck": "Played hurt. 'Not too bad'.",
      "verdict": {
       "kind": "START",
       "text": "START"
@@ -670,7 +670,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "Played hurt: dinged on the first snap, limped off several times in the third quarter (NBC 23 Nov 03:02Z), then went down after Andru Phillips' tackle on Jacksonville's go-ahead drive and limped off favouring his right leg (Yahoo 23 Nov 01:30Z). No diagnosis; the first Week 12 report is Wednesday 25 Nov",
+       "value": "Played hurt and re-aggravated the ankle (Coen, Mon 23 Nov via Yahoo 19:31Z): the re-check 'wasn't too bad' and it is 'business as usual' in practice (NBC 19:47Z). Expect DNP/limited days; Jacksonville decide Friday. Week 12 vs Tennessee, Sunday",
        "style": "plain"
       },
       {
@@ -680,7 +680,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Chris Rodriguez Jr.: 4 carries, 5.1 (archive); 'would take over as the lead back if Tuten misses time' (NBC 23 Nov 03:02Z). NBC adds Jacksonville 'could consider resting' Tuten against Tennessee",
+       "value": "Chris Rodriguez Jr. would lead if Tuten sits, LeQuint Allen the passing downs (Yahoo 23 Nov); NBC says Jacksonville could rest Tuten against Tennessee",
        "style": "plain"
       },
       {
@@ -690,12 +690,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Not priced. His Week 12 projection does not exist yet; when it appears, believe Wednesday's practice report over the number.",
+       "value": "Not priced. Coen's 'not too bad' came before any Week 12 number exists; believe Wednesday to Friday's practice reports over the projection when it appears.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Tuten and Rodriguez items (23 Nov 03:02Z); Yahoo Q4 injury (23 Nov 01:30Z).",
+       "value": "Mon 16:00 CDMX: Yahoo 'Tuten injury update casts doubt on Week 12' (23 Nov 19:31Z): Coen — 're-aggravated it, for sure', re-check 'wasn't too bad'; NBC 'Tuten reaggravates ankle, business as usual' (23 Nov 19:47Z): many DNP/limited days, decision Friday.",
        "style": "italic"
       }
      ],
@@ -713,7 +713,7 @@
        }
       ]
      },
-     "logic": "17.0 projected, 8.3 final. He played hurt from the first snap and went down again in the fourth quarter, so this game cannot grade the projection. What matters is Wednesday's report before Tennessee.",
+     "logic": "17.0 projected, 8.3 final. He played hurt and went down again in the fourth quarter, so this game cannot grade the projection. Coen's Monday update makes a Week 12 start more likely; Wednesday's report is the evidence.",
      "next": {
       "playerId": 4569987,
       "surname": "Warren"
@@ -920,7 +920,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: Steelers injury searches (Highsmith only).",
+       "value": "Mon 16:00 CDMX: CBS 'Metcalf will not be suspended' (23 Nov 16:16 ET); BTSC/Rotowire Highsmith 'unlikely for Week 12' (23 Nov); Rotoballer: Rodgers remains the starter. Nothing on Warren. Friday vs Denver.",
        "style": "italic"
       }
      ],
@@ -1131,7 +1131,7 @@
       },
       {
        "label": "PASSER",
-       "value": "Kirk Cousins: hit seven times, a pick-six (FOX Sports 22 Nov). QB_CHANGE answered: Murray out, Cousins started",
+       "value": "Kirk Cousins (acquired 10 Nov; pulled for Carson Wentz late in the 35-10 loss — NBC 23 Nov)",
        "style": "plain"
       },
       {
@@ -1141,7 +1141,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: FOX Sports MIN-SF takeaways; Fox9.",
+       "value": "Mon 16:00 CDMX: NBC 'Cousins, Vikings outclassed in Mexico loss' (23 Nov 04:40Z): 26/38/235, pulled for Wentz in Q4; Cousins acquired from Las Vegas 10 Nov. Rotowire headline: Addison 'likely out Week 12'. Falcons next. No Jefferson injury.",
        "style": "italic"
       }
      ],
@@ -1368,7 +1368,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Wilson and Geno Smith items (23 Nov); JetNation inactives.",
+       "value": "Mon 16:00 CDMX: JetNation inactives (22 Nov): Cooper Jr. and Isaiah Williams out; DraftSharks confirms Jets–Dolphins in Week 12. No Monday Jets injury news found — searches returned October items only.",
        "style": "italic"
       }
      ],
@@ -1590,12 +1590,12 @@
       },
       {
        "label": "PASSER",
-       "value": "J.J. McCarthy: 18 of 38 for 173 and a TD (Vavel). QB_CHANGE answered: McCarthy is the starter",
+       "value": "J.J. McCarthy, healthy but 18 of 38 (Yahoo 23 Nov 20:40Z: performance, not injury)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: Vavel JAX-NYG final.",
+       "value": "Mon 16:00 CDMX: Yahoo 'Giants' latest win comes with a J.J. McCarthy problem' (23 Nov 20:40Z): a performance problem, not an injury — 47.4%, 173 yards. Week 12 at Indianapolis (Richardson).",
        "style": "italic"
       }
      ],
@@ -1808,12 +1808,12 @@
       },
       {
        "label": "PASSER",
-       "value": "Kyle McCord, the starter: 12 of 33 for 102 yards with an interception in the second half (Yahoo). QB_CHANGE answered",
+       "value": "Kyle McCord, second start (Willis IR, eligible Week 14 — DraftSharks 23 Nov)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: Yahoo McCord story (22 Nov); AP 'Bills defense feasts' recap.",
+       "value": "Mon 16:00 CDMX: DraftSharks 'Gordon's situation continues to limit his upside' (23 Nov): 11 carries at 6.3, Wright 5; McCord's second start; Willis on IR until Week 14. Jets next.",
        "style": "italic"
       }
      ],
@@ -1945,7 +1945,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: Yahoo/BTSC Highsmith; SteelerNation (Friday vs Denver).",
+       "value": "Mon 16:00 CDMX: BTSC/Rotowire: Highsmith 'looking unlikely for Week 12' (23 Nov). Friday 27 Nov vs Denver (OG.com). No Week 12 D/ST numbers in this snapshot.",
        "style": "italic"
       }
      ],
@@ -2078,7 +2078,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: Texans search, nothing on Fairbairn. Thin.",
+       "value": "Mon 16:00 CDMX: Texans Monday (CBS 23 Nov): Marks trending, Ravens on Sunday. Nothing on Fairbairn — thin source.",
        "style": "italic"
       }
      ],
@@ -2267,7 +2267,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Chig Okonkwo and Treylon Burks carry no designation; Rachaad White (heel) and Croskey-Merritt (groin, IR, needs activation) questionable (SI final report)",
+       "value": "Chig Okonkwo and Treylon Burks not on the game-status list; Rachaad White (heel) and Jacory Croskey-Merritt (groin, full all week, 'trending in the right direction') questionable (Commanders.com game status)",
        "style": "plain"
       },
       {
@@ -2277,7 +2277,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: SI Commanders final report.",
+       "value": "Mon 16:00 CDMX: Commanders.com game status: Diggs not listed; Daniels full all week (left elbow). Inactives 17:45 CDMX, after this snapshot.",
        "style": "italic"
       }
      ],
@@ -2518,7 +2518,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Waddle (23 Nov 03:21Z).",
+       "value": "Mon 16:00 CDMX: No Monday Broncos news on Waddle found (search returned Week 9-10 concussion items only). Denver host Pittsburgh Friday 27 Nov.",
        "style": "italic"
       }
      ],
@@ -2692,7 +2692,7 @@
       },
       {
        "label": "ROLE",
-       "value": "14 of New Orleans' 16 running-back carries for 76 yards, 21 snaps, the most in the backfield (NBC 22 Nov 22:39Z). ROLE_DOWN answered: Week 10 was his return from the hamstring",
+       "value": "14 carries, 7.6 (archive). ROLE_DOWN answered: the opposite this week — 14 of 16 RB carries with Estime scratched (NBC 22 Nov 22:39Z); Kamara keeps the goal line",
        "style": "plain"
       },
       {
@@ -2707,7 +2707,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Etienne (22 Nov 22:39Z).",
+       "value": "Mon 16:00 CDMX: NBC 'Etienne totals 76 yards' (22 Nov 22:39Z): 14 of 16 RB carries, 21 snaps, Estime a healthy scratch; RB3 vs Cincinnati in Week 12. No newer Saints backfield item.",
        "style": "italic"
       }
      ],
@@ -2763,12 +2763,12 @@
     "normalEstimated": false,
     "pct": -9,
     "tag": "TOUGH",
-    "reason": "Ejected; a league source says a suspension for Friday is coming",
+    "reason": "NFL will not suspend him for the ejection; plays Denver Friday",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "PIT @ PHI",
      "kickoff": "Sun 12:00",
-     "deck": "Bench. Suspension reported.",
+     "deck": "Bench. Not suspended.",
      "verdict": {
       "kind": "BENCH",
       "text": "BENCH"
@@ -2928,7 +2928,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "EJECTED in the third quarter after two unsportsmanlike-conduct penalties. A league source told Benjamin Allbright of an additional suspension that would cost him Friday's game against Denver; nothing announced (SteelerNation 22 Nov 21:42Z; Yahoo 22 Nov 21:24Z)",
+       "value": "Not suspended: the NFL will not suspend him for the ejection (Schefter via CBS, 23 Nov 16:16 ET); available Friday vs Denver. A fine is still possible",
        "style": "plain"
       },
       {
@@ -2948,12 +2948,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Not priced. A suspension is not in any number yet; believe the announcement when it comes, and until then hold.",
+       "value": "Priced. No suspension means nothing to price; Friday's projection will be the number to believe.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: SteelerNation; Yahoo (22 Nov 21:24Z).",
+       "value": "Mon 16:00 CDMX: CBS 'Metcalf will not be suspended' (23 Nov 16:16 ET, Schefter): available Friday vs Denver, 'may face other discipline'; McCarthy: 'I believe in second chances'. Older results were last season's Lions-fan ban.",
        "style": "italic"
       }
      ],
@@ -2987,7 +2987,7 @@
        }
       ]
      },
-     "logic": "Bench at 11.1; 1.2 before the ejection. One game never moves the projection, but a suspension removes him from Friday's game entirely — that is the condition that frees his seat for a claim.",
+     "logic": "Bench at 11.1; 1.2 before the ejection. The suspension that would have freed his seat is not coming (CBS 23 Nov), so his seat is not open. One game never moves the projection.",
      "next": {
       "playerId": 4883647,
       "surname": "Ayomanor"
@@ -3005,9 +3005,9 @@
     "starting": false,
     "questionable": false,
     "proj": 9.5,
-    "normal": 3.4,
+    "normal": 3.2,
     "normalEstimated": true,
-    "pct": 181,
+    "pct": 195,
     "tag": "ELITE",
     "reason": "3 of 25 targets with Tate back",
     "sheet": {
@@ -3142,7 +3142,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Carnell Tate active (Rotowire 22 Nov); Chimere Dike 7 targets, Calvin Ridley 6 and a TD (archive). VACATED answered: Wan'Dale Robinson's share went to Dike and Ridley, not Ayomanor",
+       "value": "Carnell Tate back (2/58/TD); Chimere Dike now a full-time starter who led the team (Yahoo stock report 23 Nov); Wan'Dale Robinson on IR — his targets went to Dike and Ridley",
        "style": "plain"
       },
       {
@@ -3152,7 +3152,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "Mon 07:00 CDMX: NBC Ayomanor 3/27 (22 Nov).",
+       "value": "Mon 16:00 CDMX: Yahoo 'Titans stock report' (23 Nov): Dike started full-time and led with 6/69; Tate back, 2/58 and a TD; Ridley 5/68, mostly garbage time. Ayomanor not discussed.",
        "style": "italic"
       }
      ],
@@ -3194,7 +3194,7 @@
  },
  "wire": {
   "headline": "Nothing worth adding",
-  "deck": "Five newcomers on the screen, researched by team story: all PASS. Justice Hill drops to PASS with Henry cleared.",
+  "deck": "One newcomer on the screen, Khalil Shakir: PASS. Metcalf's non-suspension ends the Bernard question.",
   "candidates": [],
   "market": {
    "kicker": {
@@ -3298,7 +3298,6 @@
    ],
    "exposure": [
     "Garrett Wilson",
-    "Travis Etienne Jr.",
     "Elic Ayomanor"
    ],
    "rows": [
@@ -3357,24 +3356,6 @@
      "drop": null
     },
     {
-     "playerId": 4038441,
-     "name": "Justice Hill",
-     "pos": "RB",
-     "team": "BAL",
-     "touches": [
-      12,
-      10,
-      11
-     ],
-     "share": 0.3157894736842105,
-     "shareBefore": 0.28846153846153844,
-     "flags": [],
-     "verdict": "PASS",
-     "reason": "Henry cleared the concussion protocol and is expected against Houston (NBC 22 Nov, Baltimore Banner). Hill's 17.6 was one quarter as the lead. Was WATCH; the condition died.",
-     "falsifiedIf": "A Henry setback reported before Week 12 kickoff.",
-     "drop": null
-    },
-    {
      "playerId": 4685489,
      "name": "Jaydn Ott",
      "pos": "RB",
@@ -3392,6 +3373,24 @@
      "verdict": "PASS",
      "reason": "Walker was ruled out again (ESPN 20 Nov) but Emmett Johnson took 23 carries (archive), and the Chiefs expect Walker back Thanksgiving night (ESPN). (Researched Sun 22 Nov; carried — no newer news found.)",
      "falsifiedIf": "Walker out for Week 12 and Ott 10+ touches.",
+     "drop": null
+    },
+    {
+     "playerId": 4038441,
+     "name": "Justice Hill",
+     "pos": "RB",
+     "team": "BAL",
+     "touches": [
+      12,
+      10,
+      11
+     ],
+     "share": 0.3157894736842105,
+     "shareBefore": 0.28846153846153844,
+     "flags": [],
+     "verdict": "PASS",
+     "reason": "Henry cleared the concussion protocol and is expected against Houston (NBC 22 Nov, Baltimore Banner). Hill's 17.6 was one quarter as the lead. Was WATCH; the condition died.",
+     "falsifiedIf": "A Henry setback reported before Week 12 kickoff.",
      "drop": null
     },
     {
@@ -3462,26 +3461,26 @@
      "shareBefore": 0.13043478260869565,
      "flags": [],
      "verdict": "PASS",
-     "reason": "10 targets because Metcalf was ejected in the third quarter (Yahoo 22:00Z) — borrowed for one game. (Researched Sun 22 Nov; carried — no newer news found.)",
-     "falsifiedIf": "Metcalf suspended for Week 12 and Bernard 8+ targets.",
+     "reason": "10 targets because Metcalf was ejected — and the NFL will not suspend Metcalf (CBS 23 Nov 16:16 ET), so the borrowed role ends Friday.",
+     "falsifiedIf": "A Metcalf absence before Friday, or Bernard 8+ targets with Metcalf playing.",
      "drop": null
     },
     {
-     "playerId": 4869645,
-     "name": "Caleb Douglas",
+     "playerId": 4373678,
+     "name": "Khalil Shakir",
      "pos": "WR",
-     "team": "MIA",
+     "team": "BUF",
      "touches": [
-      8,
-      8,
-      10
+      4,
+      6,
+      11
      ],
-     "share": 0.3333333333333333,
-     "shareBefore": 0.4222222222222222,
+     "share": 0.23684210526315788,
+     "shareBefore": 0.14907407407407408,
      "flags": [],
      "verdict": "PASS",
-     "reason": "10 targets but 2 catches; McCord 12 of 33 after half-time (Yahoo 21:05Z). He would not start for you. (Researched Sun 22 Nov; carried — no newer news found.)",
-     "falsifiedIf": "9+ targets and 12+ points in Week 12.",
+     "reason": "5 of 9 for 101, 70 yards on two plays (NBC 22 Nov 21:24Z); no injury opened the role. A sixth receiver for AVIATO.",
+     "falsifiedIf": "9+ targets against Kansas City with two AVIATO receivers out.",
      "drop": null
     },
     {
@@ -3638,20 +3637,20 @@
  "notes": {
   "cannotSee": [
    {
-    "label": "Tuten's diagnosis",
-    "body": "Played hurt and limped off on the fourth-quarter drive; Jacksonville have released nothing and their first Week 12 report is Wednesday 25 Nov (Yahoo 23 Nov 01:30Z). That is after claims process at 02:00 CDMX Wednesday."
+    "label": "Tuten's practice week",
+    "body": "Coen called the re-check 'not too bad' and the decision comes Friday (NBC 23 Nov 19:47Z). Jacksonville's first report is Wednesday, after claims process at 02:00 CDMX, so the Tuesday run decides the Rodriguez Jr. question without practice data."
    },
    {
-    "label": "Metcalf's discipline",
-    "body": "Reported by Allbright from a league source, not announced (SteelerNation; Yahoo 22 Nov). Pittsburgh play Friday 27 Nov, so the ruling should come early in the week."
+    "label": "Metcalf",
+    "body": "Not suspended (CBS 23 Nov). A fine may still come; it does not affect Friday."
    },
    {
     "label": "Monday night",
-    "body": "Diggs plays at 19:15 CDMX; inactives at 17:45. His score grades the Tuten-over-Diggs thesis, not the matchup."
+    "body": "Diggs plays at 19:15 CDMX; inactives at 17:45, after this snapshot. His score grades the Tuten-over-Diggs thesis, not the matchup."
    },
    {
     "label": "Week 12",
-    "body": "This snapshot still carries Week 11's projections and kickoffs. Thanksgiving week: Green Bay–Rams is reported for Wednesday and Pittsburgh–Denver for Friday, so the Week 12 lineup work starts on the Tuesday run."
+    "body": "This snapshot still carries Week 11's projections and kickoffs. Thanksgiving week: Green Bay–Rams Wednesday; Bills–Chiefs Thursday night (Allen); Pittsburgh at Denver Friday (Warren, Metcalf, Waddle, your D/ST). Week 12 lineup work starts on the Tuesday run."
    },
    {
     "label": "Kicker and D/ST",
@@ -3663,10 +3662,10 @@
    },
    {
     "label": "Trades",
-    "body": "None proposed this run. Deadline 2 Dec; STRATEGY §7 says Week 12 is the week to price every asset against Weeks 15-17, which needs Week 12 projections."
+    "body": "None proposed. Deadline 2 Dec; STRATEGY §7 says Week 12 is the week to price every asset against Weeks 15-17, which needs Week 12 projections this snapshot does not have."
    }
   ],
   "lastWeek": "Week 10 left 11.2 points on the bench. The lineup scored 136.9 against 148.1 available — from the archive, not articles.",
-  "sources": "Built from 35 searches and 19 page reads · ESPN league file (12:50Z) and Week 11 live archive (12:05Z) · NBC/Rotoworld (Tuten 22 Nov, Rodriguez 23 Nov 03:02Z, Henry cleared 22 Nov, Etienne 22:39Z, Waddle 23 Nov 03:21Z, Wilson 23 Nov, Engram 23 Nov, Mason 23 Nov 04:44Z, Mayer 23 Nov 02:34Z) · Yahoo (Tuten Q4 injury 23 Nov 01:30Z; Metcalf discipline 22 Nov 21:24Z; Colts/Jones live page 20 Nov) · SteelerNation (Allbright report, 22 Nov) · CBS/RotoWire (Tuten vs NYG; Jacobs 17 Nov; Marks 18 Nov) · SI Commanders final report · Vavel JAX-NYG · FOX Sports MIN-SF takeaways · NFL.com Week 11 takeaways · Bleacher Report (Barkley) · Rotoballer (Kyren Williams)"
+  "sources": "Built from 33 searches and 26 page reads (this run) · ESPN league files (22:05Z) and Week 11 live archive · NBC/Rotoworld (Tuten \"business as usual\" 23 Nov 19:47Z; LaFleur on Jacobs 23 Nov 18:12Z; Cousins 23 Nov 04:40Z; Etienne 22 Nov 22:39Z; Shakir 22 Nov 21:24Z) · Yahoo (Coen on Tuten 23 Nov 19:31Z; Giants/McCarthy 23 Nov 20:40Z; Titans stock report 23 Nov; PFN waiver targets 23 Nov) · CBS (Metcalf not suspended 23 Nov 16:16 ET; Marks \"trending\" 23 Nov 14:05 ET) · Commanders.com MNF game status · Chiefs.com Week 12 estimated report (23 Nov) · DallasCowboys.com (22 Nov) · DraftSharks (Gordon 23 Nov) · SI Bears (23 Nov) · JetNation inactives (22 Nov) · Heavy (Allen, Colts) · NFL/SI Thanksgiving schedule"
  }
 }
