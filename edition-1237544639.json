@@ -1,17 +1,17 @@
 {
  "schema": 1,
  "edition": {
-  "id": "1237544639-w12-20261127T2230Z",
+  "id": "1237544639-w12-20261128T1317Z",
   "leagueId": "1237544639",
   "leagueName": "Chem",
   "teamName": "AVIATO",
   "label": "CHEM EDITION",
   "week": 12,
   "record": "4–7",
-  "dateline": "FRIDAY, NOVEMBER 27, 2026",
-  "time": "16:30",
+  "dateline": "SATURDAY, NOVEMBER 28, 2026",
+  "time": "07:17",
   "state": "GAMES UNDER WAY",
-  "generatedAt": "2026-11-27T22:30:53Z",
+  "generatedAt": "2026-11-28T13:17:29Z",
   "dryRun": false
  },
  "chart": {
@@ -22,16 +22,16 @@
  "front": {
   "lead": {
    "kicker": "MIDWEEK",
-   "headline": "Tuten ruled out; Diggs takes the seat",
-   "deck": "Jacksonville sat him after three missed practices. One swap before Sunday noon; Likely is cleared.",
-   "byline": "Fantasy Brief · Friday 16:00 CDMX",
-   "dateline": "MEXICO CITY, Fri 27 Nov —",
-   "body": "Bad news first. Jacksonville ruled Bhayshul Tuten out for Sunday on Friday afternoon, after he missed every practice of the week with the ankle and foot. He is still in your RB slot and ESPN still shows his 18.7 — that number will be a zero. Move Ollie Gordon II to RB and start Stefon Diggs in FLEX before 12:00 Sunday. The rest of the news is better: Isaiah Likely, limited twice with the groin, carries no designation on the Giants' final report, so his fallback is retired; Diggs practised in full Thursday; Cousins starts for Minnesota with Jordan Addison out. Warren had 4.4 at Pittsburgh at 22:05Z. You trail Footballers by 53.",
+   "headline": "Tuten still in the lineup; one swap left",
+   "deck": "Ruled out Friday and still sitting in your RB slot. Gordon to RB, Diggs to FLEX before Sunday noon.",
+   "byline": "Fantasy Brief · Saturday 07:00 CDMX",
+   "dateline": "MEXICO CITY, Sat 28 Nov —",
+   "body": "Bad news first. Bhayshul Tuten is ruled out with the ankle and foot, and at 06:50 he was still in your RB slot. ESPN has now zeroed him, so the lineup as set projects 111.3. Move Ollie Gordon II to RB and start Stefon Diggs in FLEX before 12:00 Sunday: it is worth 12.7. Friday night was no better. Jaylen Warren carried 20 times for 46 yards in Pittsburgh's 27-5 win, and the Steelers D/ST you dropped on Wednesday scored 27. Metcalf scored a touchdown on your bench. The rest of the week's news holds: Likely was cleared Friday, Diggs is off the report, and the Chargers D/ST face Tommy DeVito as FantasyPros' top streaming defence. You trail Footballers 9.1 to 61.4.",
    "players": [
     {
      "playerId": 4882093,
      "name": "Bhayshul Tuten",
-     "caption": "RB · Jacksonville. Ruled out Friday",
+     "caption": "RB · Jacksonville. Still in your RB slot",
      "logo": "jax"
     },
     {
@@ -45,15 +45,15 @@
   "matchup": {
    "me": {
     "name": "AVIATO",
-    "live": 8.04,
-    "proj": 89.4
+    "live": 9.14,
+    "proj": 87.4
    },
    "them": {
     "name": "Footballers",
     "live": 61.4,
-    "proj": 145.3
+    "proj": 143.9
    },
-   "winProb": 0.16,
+   "winProb": 0.15,
    "slots": [
     {
      "slot": "QB",
@@ -78,14 +78,14 @@
       "id": 4882093,
       "name": "Tuten",
       "pos": "RB",
-      "proj": 18.7,
-      "value": 18.7,
+      "proj": 0,
+      "value": 0,
       "final": false
      },
      "theirs": {
       "id": 4685382,
       "name": "Hampton",
-      "value": 13.6,
+      "value": 12.8,
       "final": false
      }
     },
@@ -96,7 +96,7 @@
       "name": "Warren",
       "pos": "RB",
       "proj": 14.8,
-      "value": 4.5,
+      "value": 5.6,
       "final": true
      },
      "theirs": {
@@ -129,8 +129,8 @@
       "id": 4569618,
       "name": "Wilson",
       "pos": "WR",
-      "proj": 14.2,
-      "value": 14.2,
+      "proj": 14.3,
+      "value": 14.3,
       "final": false
      },
      "theirs": {
@@ -180,8 +180,8 @@
       "id": -16024,
       "name": "Chargers D/ST",
       "pos": "DST",
-      "proj": 8.2,
-      "value": 8.2,
+      "proj": 8.1,
+      "value": 8.1,
       "final": false
      },
      "theirs": {
@@ -204,7 +204,7 @@
      "theirs": {
       "id": 4362081,
       "name": "Dicker",
-      "value": 9,
+      "value": 8.4,
       "final": false
      }
     }
@@ -266,7 +266,7 @@
    {
     "id": "w12-tuten-out",
     "headline": "Tuten is out: start Diggs",
-    "reason": "Ruled out Friday (jaguars.com; NBC 20:56Z). Do it before 12:00 Sunday.",
+    "reason": "Ruled out Friday (NFL.com; CBS). Still in your lineup. Do it before 12:00 Sunday.",
     "rows": [
      {
       "label": "THE MOVE",
@@ -274,7 +274,7 @@
      },
      {
       "label": "WHY DIGGS",
-      "value": "0.7 over Etienne — a coin flip, by projection"
+      "value": "0.7 over Etienne: a coin flip, by projection"
      }
     ],
     "playerId": 4882093,
@@ -299,12 +299,12 @@
     }
    }
   ],
-  "note": "The contingency set on Wednesday fired: Tuten ruled out Friday. Make the swap before Gordon's 12:00 kickoff. Likely has no designation; nothing else to move.",
+  "note": "Still not made at 06:50 CDMX. Make the swap before Gordon's 12:00 kickoff. Nothing else on the roster needs touching.",
   "empty": null
  },
  "roster": {
-  "deck": "Tuten is out: Gordon to RB and Diggs to FLEX gains 12.7 on a lineup ESPN still prices with his 18.7.",
-  "asSet": 130.0,
+  "deck": "Tuten is out: Gordon to RB and Diggs to FLEX gains 12.7. The lineup as set projects 111.3, the projection lineup 124.0.",
+  "asSet": 111.3,
   "best": 124.0,
   "lines": [
    {
@@ -491,7 +491,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "PLAYED — no injury reported (NBC/Rotoworld 27 Nov 04:39Z)",
+       "value": "PLAYED. No injury reported after the game (NBC/Rotoworld 27 Nov; nothing new in Saturday's searches)",
        "style": "plain"
       },
       {
@@ -501,7 +501,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: archive Week 12 (3.5, final); no post-game injury news found in this run's searches; NBC/Rotoworld recap 27 Nov, carried",
+       "value": "07:00 CDMX Sat: archive Week 12 (3.5, final); Bills-Chiefs recaps (Yahoo: Bass 57-yard field goal at the buzzer). No post-game injury",
        "style": "italic"
       }
      ],
@@ -519,7 +519,7 @@
        }
       ]
      },
-     "logic": "18.3 projected, the only quarterback. Final 3.5 against it: a performance in heavy rain, not an injury, so no lineup lesson — no alternative existed and one week never overrides the projection.",
+     "logic": "Projected 18.3, scored 3.5 in a downpour (archive, final). There was no alternative quarterback, so the call cannot be graded. It was a performance, not an injury; one week does not move the projection.",
      "next": {
       "playerId": 4882093,
       "surname": "Tuten"
@@ -536,12 +536,12 @@
     "slotLine": "RB · JAX",
     "starting": true,
     "questionable": false,
-    "proj": 18.7,
+    "proj": 0,
     "normal": 13.7,
     "normalEstimated": false,
-    "pct": 37,
-    "tag": "FAVORABLE",
-    "reason": "Ruled out Friday (ankle/foot); three straight DNPs",
+    "pct": -100,
+    "tag": "AVOID",
+    "reason": "Ruled out Friday (ankle/foot); still sitting in your RB slot",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "JAX vs TEN",
@@ -555,14 +555,14 @@
       "OWN_OUT"
      ],
      "figures": {
-      "experts": "RB4 (2–5)",
-      "projMove": "17.0 → 18.7",
+      "experts": "RB4 (3–4)",
+      "projMove": "17.0 → 0.0",
       "matchup": "AVERAGE · allows 14th-most PPR pts to RB"
      },
      "range": {
       "rank": 4,
-      "best": 2,
-      "worst": 5
+      "best": 3,
+      "worst": 4
      },
      "weeks": [
       {
@@ -689,7 +689,7 @@
      ],
      "current": {
       "week": 12,
-      "proj": 18.7
+      "proj": 0
      },
      "shareKey": "carries",
      "series": {
@@ -713,7 +713,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "OUT — ruled out Friday after not practising Wednesday, Thursday or Friday (jaguars.com Friday Quick Hits 27 Nov; NBC 27 Nov 20:56Z). ESPN still shows 18.7 — not zeroed",
+       "value": "OUT. Ruled out Friday after missing Wednesday, Thursday and Friday practice (NFL.com Week 12 report; CBS 27 Nov 22:11Z). ESPN has now zeroed his projection (0.0 in the 12:50Z file)",
        "style": "plain"
       },
       {
@@ -723,40 +723,40 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Chris Rodriguez Jr., Ameer Abdullah and LeQuint Allen Jr. share the backfield; Coen: 'That whole room is going to need to elevate' (jaguars.com 27 Nov). Rodriguez is rostered by Footballers",
+       "value": "Chris Rodriguez Jr. is 'slated to operate as the Jaguars' top backfield option' (CBS 27 Nov). He is rostered by Footballers. Tennessee have allowed 40+ points in three straight games and rank 25th against the run (CBS)",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Trevor Lawrence, active; Parker Washington also ruled out (jaguars.com)",
+       "value": "Trevor Lawrence, active. Parker Washington also out (NFL.com)",
        "style": "plain"
       },
       {
        "label": "VS PROJECTION",
-       "value": "Not priced. ESPN still shows 18.7 for a player ruled out on Friday. Believe the ruling; the number is a zero.",
+       "value": "Priced. ESPN has now zeroed him (0.0 in the 12:50Z file). The ruling and the number agree.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: jaguars.com Friday Quick Hits 27 Nov; NBC 'Jaguars rule out Bhayshul Tuten' 27 Nov 20:56Z",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report; CBS Rodriguez note 27 Nov 22:11Z; Yahoo 'Jaguars rule out Tuten'",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "CLOSEST CHALLENGER",
-      "self": 18.7,
+      "self": 0,
       "rows": [
        {
         "where": "BENCH",
         "playerId": 4239996,
         "name": "Travis Etienne Jr.",
         "proj": 12,
-        "gap": 6.7,
+        "gap": -12,
         "gapLabel": null
        }
       ]
      },
-     "logic": "Ruled out Friday (jaguars.com; NBC 20:56Z) — the news came after the 18.7 was set, so it is not priced. Gordon moves to RB and Diggs takes FLEX: 0.7 over Etienne, inside the 2-point line, so it goes to the projection with no thesis. Nothing changes this until next week.",
+     "logic": "Ruled out Friday after three missed practices (NFL.com; CBS). ESPN has now priced it at 0.0. Gordon moves to RB and Diggs takes FLEX. Diggs is 0.7 over Etienne, inside the 2-point line, so the seat goes to the projection with no thesis. Nothing changes this before Sunday; Week 13 depends on a timeline nobody has published.",
      "next": {
       "playerId": 4569987,
       "surname": "Warren"
@@ -778,25 +778,25 @@
     "normalEstimated": false,
     "pct": -4,
     "tag": "NEUTRAL",
-    "reason": "14 carries for 34 and a safety at Pittsburgh; Rudolph's first start",
+    "reason": "PIT 27-5 over DEN; 20 carries, 46 yards, Rudolph's first start",
     "sheet": {
      "slotLine": "STARTING · RB",
      "opponent": "PIT vs DEN",
      "kickoff": "Fri 14:00",
-     "deck": "Live: 4.4 at 22:05Z.",
+     "deck": "Final 5.6 — 20 carries for 46.",
      "verdict": {
       "kind": "START",
       "text": "START"
      },
      "flags": [],
      "figures": {
-      "experts": "RB11 (10–12)",
+      "experts": "RB12",
       "projMove": "15.7 → 14.8",
       "matchup": "GOOD · allows 7th-most PPR pts to RB"
      },
      "range": {
-      "rank": 11,
-      "best": 10,
+      "rank": 12,
+      "best": 12,
       "worst": 12
      },
      "weeks": [
@@ -924,7 +924,14 @@
      ],
      "current": {
       "week": 12,
-      "proj": 14.8
+      "proj": 14.8,
+      "pts": 5.6,
+      "touches": 22,
+      "eff": 0.25,
+      "share": 0.645,
+      "posAvgTouches": 24,
+      "posAvgEff": 0.88,
+      "posAvgShare": 0.767
      },
      "shareKey": "carries",
      "series": {
@@ -948,12 +955,12 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "PLAYING — 14 carries for 34, one catch, 4.4 at 22:05Z (archive Week 12 live); tackled for a safety in the end zone (Yahoo headline). No injury reported",
+       "value": "PLAYED: 20 carries for 46, 1 catch, 5.6 (archive, final). No in-game injury for either team (ESPN recap 27 Nov)",
        "style": "plain"
       },
       {
        "label": "ROLE",
-       "value": "9 carries, 11 touches in Week 11; 64% of Pittsburgh's carries (archive). SI usage report (25 Nov): 'time to panic', a matchup flex in a split with Dowdle",
+       "value": "20 of Pittsburgh's 31 backfield carries in Week 12, with Dowdle taking 11 for 71 (archive). A volume-without-production week",
        "style": "plain"
       },
       {
@@ -963,17 +970,12 @@
       },
       {
        "label": "PASSER",
-       "value": "Mason Rudolph — named the starter for Friday and expected to start the rest of the season after Rodgers' release (Bleacher Report 26 Nov)",
+       "value": "Mason Rudolph started after Rodgers was benched following a public dispute with the club. His first five passes went for 94 yards (ESPN 27 Nov)",
        "style": "plain"
       },
       {
-       "label": "VS PROJECTION",
-       "value": "Priced. Rudolph has carried a starter's projection (14.5) since the change, and Warren's 14.8 held through the updates since. Its effect on a back is unclear either way; keep the projection.",
-       "style": "priced"
-      },
-      {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: archive Week 12 live; Yahoo live blog (Steelers lead after a pick-six and a sack-fumble TD); Yahoo final injury report 27 Nov, carried",
+       "value": "07:00 CDMX Sat: ESPN Steelers-Broncos recap 27 Nov; archive Week 12 final. Pittsburgh host Houston on 6 Dec",
        "style": "italic"
       }
      ],
@@ -991,7 +993,7 @@
        }
       ]
      },
-     "logic": "Locked and live. 14.8 against Diggs' 12.7 put him in the lineup; graded on the outcome when the game is final. A partial game does not move next week.",
+     "logic": "Projected 14.8, scored 5.6 on 20 of 31 backfield carries (archive). The projection started him over a bench with no higher RB, so there was no alternative to grade against. Volume without production; one week does not move next week's order.",
      "next": {
       "playerId": 4262921,
       "surname": "Jefferson"
@@ -1175,7 +1177,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE",
+       "value": "ACTIVE. Not on Minnesota's final report (NFL.com Week 12: Addison, Darrisaw, Rodgers out; Harrison Smith questionable)",
        "style": "plain"
       },
       {
@@ -1195,7 +1197,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: AtoZ Sports Vikings final injury report 27 Nov; vikings.com Thursday report",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report (Falcons-Vikings); AtoZ Sports Vikings final report 27 Nov, carried. No Saturday change found",
        "style": "italic"
       }
      ],
@@ -1230,10 +1232,10 @@
     "slotLine": "WR · NYJ",
     "starting": true,
     "questionable": false,
-    "proj": 14.2,
+    "proj": 14.3,
     "normal": 14.9,
     "normalEstimated": false,
-    "pct": -5,
+    "pct": -4,
     "tag": "NEUTRAL",
     "reason": "Cooper ruled out; Miami allow the 4th-fewest WR points",
     "sheet": {
@@ -1249,13 +1251,13 @@
       "RIVAL_QUESTIONABLE"
      ],
      "figures": {
-      "experts": "WR11 (9–12)",
-      "projMove": "14.1 → 14.2",
+      "experts": "WR10 (8–12)",
+      "projMove": "14.1 → 14.3",
       "matchup": "POOR · allows 29th-most PPR pts to WR"
      },
      "range": {
-      "rank": 11,
-      "best": 9,
+      "rank": 10,
+      "best": 8,
       "worst": 12
      },
      "weeks": [
@@ -1383,7 +1385,7 @@
      ],
      "current": {
       "week": 12,
-      "proj": 14.2
+      "proj": 14.3
      },
      "shareKey": "targets",
      "series": {
@@ -1407,7 +1409,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE",
+       "value": "ACTIVE. Not on New York's final report (NFL.com Week 12)",
        "style": "plain"
       },
       {
@@ -1417,30 +1419,30 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Omar Cooper Jr. RULED OUT (ankle/groin) — NBC 27 Nov 15:53Z; Isaiah Williams questionable (ribs); Adonai Mitchell active",
+       "value": "Omar Cooper Jr. OUT (ankle/groin), ruled out by Glenn (NBC 27 Nov; NFL.com roundup 27 Nov). Adonai Mitchell active",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Geno Smith, not designated (Footballguys Week 12)",
+       "value": "Geno Smith, not designated (NFL.com)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: NBC Cooper ruled out 27 Nov 15:53Z; Footballguys Week 12 (Jets: Trayanum, Cooper out)",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report; NBC Cooper ruled out 27 Nov; NFL.com Friday roundup",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "CLOSEST CHALLENGER",
-      "self": 14.2,
+      "self": 14.3,
       "rows": [
        {
         "where": "BENCH",
         "playerId": 2976212,
         "name": "Stefon Diggs",
         "proj": 12.7,
-        "gap": 1.5,
+        "gap": 1.6,
         "gapLabel": "coin flip"
        }
       ]
@@ -1467,12 +1469,12 @@
     "normalEstimated": false,
     "pct": -2,
     "tag": "NEUTRAL",
-    "reason": "Limited Wed/Thu (groin), then no Friday designation; Colts 28th in points allowed",
+    "reason": "Full Friday, off the report; J.J. McCarthy throwing at Indianapolis",
     "sheet": {
      "slotLine": "STARTING · TE",
      "opponent": "NYG @ IND",
      "kickoff": "Sun 12:00",
-     "deck": "No designation — starts.",
+     "deck": "Starts — cleared Friday.",
      "verdict": {
       "kind": "START",
       "text": "START"
@@ -1640,7 +1642,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — limited Wednesday and Thursday (groin), and no designation on the Giants' final report: only Shelby Harris out, 'No other designations were issued' (Yahoo 27 Nov 21:04Z). Footballguys still lists him questionable; it also still lists Derrick Henry, whom NBC had cleared — read as stale",
+       "value": "ACTIVE. Upgraded to full Friday and cleared (NBC 27 Nov); the Giants' final report lists only Shelby Harris out (NFL.com Week 12)",
        "style": "plain"
       },
       {
@@ -1660,12 +1662,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Priced. 12.3 assumed he plays; the Giants' final report agrees. Footballguys' 'questionable' is a stale listing.",
+       "value": "Priced. Cleared Friday (NBC) before the 12.3 settled. No contingency is needed.",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: Yahoo Giants final injury report 27 Nov 21:04Z; giants.com Week 12 tracker (Thu report); Footballguys (stale, see availability)",
+       "value": "07:00 CDMX Sat: NBC 'Likely upgrades to full, cleared' 27 Nov; FantasyPros 'off injury report'; NFL.com Week 12 report",
        "style": "italic"
       }
      ],
@@ -1720,13 +1722,13 @@
       "QB_CHANGE"
      ],
      "figures": {
-      "experts": "RB15 (14–16)",
+      "experts": "RB13 (12–16)",
       "projMove": "13.9 → 14.0",
       "matchup": "GOOD · allows 11th-most PPR pts to RB"
      },
      "range": {
-      "rank": 15,
-      "best": 14,
+      "rank": 13,
+      "best": 12,
       "worst": 16
      },
      "weeks": [
@@ -1867,7 +1869,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on Miami's report; Achane and Malik Willis out (Footballguys Week 12)",
+       "value": "ACTIVE. Not on Miami's final report (NFL.com Week 12: Wayne, Brents and Pinion out)",
        "style": "plain"
       },
       {
@@ -1882,12 +1884,12 @@
       },
       {
        "label": "PASSER",
-       "value": "Kyle McCord — Malik Willis is on IR (groin), earliest return Week 14 (Heavy 23 Nov)",
+       "value": "Kyle McCord, in line for his third straight start with Malik Willis on IR (Florida Press 25 Nov)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: Footballguys Week 12 report (Achane, Willis out; Chris Bell questionable); Goal.com preview (McCord starts), carried",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report; Florida Press Jets-Dolphins preview 25 Nov; NFL.com Friday roundup (Austin Jackson expected to play)",
        "style": "italic"
       }
      ],
@@ -1922,12 +1924,12 @@
     "slotLine": "D/ST · LAC",
     "starting": true,
     "questionable": false,
-    "proj": 8.2,
+    "proj": 8.1,
     "normal": 8.0,
     "normalEstimated": false,
-    "pct": 2,
+    "pct": 1,
     "tag": "NEUTRAL",
-    "reason": "New England start DeVito; Maye fractured fibula",
+    "reason": "FantasyPros' top stream vs DeVito; Herbert out on the other side",
     "sheet": {
      "slotLine": "STARTING · D/ST",
      "opponent": "LAC vs NE",
@@ -1940,7 +1942,7 @@
      "flags": [],
      "figures": {
       "experts": "D/ST4 (2–12)",
-      "projMove": "8.0 → 8.2",
+      "projMove": "8.0 → 8.1",
       "matchup": null
      },
      "range": {
@@ -1968,7 +1970,7 @@
      ],
      "current": {
       "week": 12,
-      "proj": 8.2
+      "proj": 8.1
      },
      "shareKey": null,
      "series": {
@@ -1980,30 +1982,30 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "Active unit. New England start Tommy DeVito: Maye, A.J. Brown, Henderson out; Doubs questionable (Footballguys; CBS 27 Nov). Herbert questionable in protocol — DJ Uiagalelei if he sits (CBS 27 Nov)",
+       "value": "Active unit. New England start Tommy DeVito; Maye, A.J. Brown, Doubs and Carlton Davis are out (NFL.com Week 12). Herbert is out, so Uiagalelei starts for LA (Yahoo)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: CBS 'Herbert not spotted Friday' 27 Nov; Footballguys Week 12 (Patriots, Chargers)",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report; Yahoo 'Uiagalelei to make first start'; FantasyPros Week 12 streaming defences (Chargers ranked 1st)",
        "style": "italic"
       }
      ],
      "challengers": {
       "title": "CLOSEST CHALLENGER",
-      "self": 8.2,
+      "self": 8.1,
       "rows": [
        {
         "where": "FREE AGENT",
         "playerId": -16006,
         "name": "Cowboys D/ST",
         "proj": 8.5,
-        "gap": -0.3,
+        "gap": -0.4,
         "gapLabel": "coin flip"
        }
       ]
      },
-     "logic": "8.2 vs the Bengals' 8.0, the best free agent. Hold; the seat changed hands on Tuesday.",
+     "logic": "8.1 against the Bengals' 8.0 on the wire: 0.1, hold. The Steelers D/ST you dropped scored 27, and the Chargers need 28 to save the add-thesis.",
      "next": {
       "playerId": 2971573,
       "surname": "Fairbairn"
@@ -2037,14 +2039,14 @@
      },
      "flags": [],
      "figures": {
-      "experts": "K7 (2–8)",
+      "experts": "K6 (2–7)",
       "projMove": "10.1 → 9.3",
       "matchup": null
      },
      "range": {
-      "rank": 7,
+      "rank": 6,
       "best": 2,
-      "worst": 8
+      "worst": 7
      },
      "weeks": [
       {
@@ -2123,12 +2125,12 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not designated. Baltimore start Jacoby Brissett; Derrick Henry cleared off the report (NBC 27 Nov); Lamar Jackson out (Footballguys)",
+       "value": "ACTIVE. Not designated. Baltimore start Jacoby Brissett with Lamar Jackson out; Houston are favourites (Houston Press 27 Nov; NFL.com Week 12)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: NBC Henry cleared 27 Nov; Footballguys Week 12 (Texans: Mertz, Boutte, Noel out)",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report (Texans: Boutte, Jordan, Rutledge, Hunter out); Houston Press preview 27 Nov",
        "style": "italic"
       }
      ],
@@ -2168,7 +2170,7 @@
     "normalEstimated": false,
     "pct": 8,
     "tag": "NEUTRAL",
-    "reason": "Full Thursday after Wednesday's personal day; Daniels throwing",
+    "reason": "Off the report Thursday; Daniels full all week",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "WSH @ ARI",
@@ -2182,13 +2184,13 @@
       "QB_CHANGE"
      ],
      "figures": {
-      "experts": "WR14 (10–15)",
+      "experts": "WR14 (9–15)",
       "projMove": "13.0 → 12.7",
       "matchup": "GOOD · allows 11th-most PPR pts to WR"
      },
      "range": {
       "rank": 14,
-      "best": 10,
+      "best": 9,
       "worst": 15
      },
      "weeks": [
@@ -2318,7 +2320,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — personal absence Wednesday, full practice Thursday; no Washington player ruled out (Arizona Sports, Fri 27 Nov 14:10 MT). Yahoo's Thursday-morning report read DNP twice; the later source is used",
+       "value": "ACTIVE. On Wednesday's report for personal reasons and removed Thursday (SI Commanders-Cardinals final report 27 Nov). Only Amik Robertson is out for Washington (NFL.com)",
        "style": "plain"
       },
       {
@@ -2338,12 +2340,12 @@
       },
       {
        "label": "VS PROJECTION",
-       "value": "Priced. His 12.7 already reflects a full Thursday. Arizona Sports' Friday update is the later report; Yahoo's Thursday-morning DNP read is not used.",
+       "value": "Priced. His 12.7 reflects a full week. The 'Diggs out' search headline is Wednesday's personal day (SI 27 Nov).",
        "style": "priced"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: Arizona Sports Cardinals-Commanders report (Fri 14:10 MT); Yahoo Commanders report 27 Nov 03:11Z; parlae/Sleeper 25 Nov (questionable, superseded)",
+       "value": "07:00 CDMX Sat: SI Commanders final report 27 Nov; NFL.com Week 12 report; Arizona Sports Friday report, carried",
        "style": "italic"
       }
      ],
@@ -2363,8 +2365,8 @@
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14.2,
-        "gap": -1.5,
+        "proj": 14.3,
+        "gap": -1.6,
         "gapLabel": "coin flip"
        },
        {
@@ -2411,14 +2413,14 @@
      },
      "flags": [],
      "figures": {
-      "experts": "RB19 (18–24)",
+      "experts": "RB17 (16–22)",
       "projMove": "11.9 → 12.0",
       "matchup": "SHAKY · allows 20th-most PPR pts to RB"
      },
      "range": {
-      "rank": 19,
-      "best": 18,
-      "worst": 24
+      "rank": 17,
+      "best": 16,
+      "worst": 22
      },
      "weeks": [
       {
@@ -2514,12 +2516,12 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE — not on New Orleans' Friday report (neworleanssaints.com 27 Nov: Juwan Johnson out; Fant, Fuaga, Richards questionable)",
+       "value": "ACTIVE. Not on New Orleans' final report (NFL.com Week 12: Juwan Johnson out; Fant, Fuaga, Richards questionable)",
        "style": "plain"
       },
       {
        "label": "ROLE",
-       "value": "14 carries, 14 of the Saints' 16 backfield carries in Week 11; Kamara six snaps (SI usage report 25 Nov)",
+       "value": "63.6% of the Saints' rushing work and a 25% route share in Week 11 (FantasyPros 26 Nov). Cincinnati allowed the second-highest rushing success rate over their last five (FantasyPros)",
        "style": "plain"
       },
       {
@@ -2534,7 +2536,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: neworleanssaints.com Friday report 27 Nov",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report; FantasyPros Etienne Week 12 outlook 26 Nov",
        "style": "italic"
       }
      ],
@@ -2542,6 +2544,14 @@
       "title": "COULD START OVER",
       "self": 12,
       "rows": [
+       {
+        "where": "RB",
+        "playerId": 4882093,
+        "name": "Bhayshul Tuten",
+        "proj": 0,
+        "gap": 12,
+        "gapLabel": null
+       },
        {
         "where": "FLEX",
         "playerId": 4711533,
@@ -2556,14 +2566,6 @@
         "name": "Jaylen Warren",
         "proj": 14.8,
         "gap": -2.8,
-        "gapLabel": null
-       },
-       {
-        "where": "RB",
-        "playerId": 4882093,
-        "name": "Bhayshul Tuten",
-        "proj": 18.7,
-        "gap": -6.7,
         "gapLabel": null
        }
       ]
@@ -2590,26 +2592,26 @@
     "normalEstimated": false,
     "pct": -12,
     "tag": "TOUGH",
-    "reason": "4 catches on 7 targets; Nix pressured into two defensive TDs",
+    "reason": "5 of 8 for 53 behind Bo Nix's three-turnover night",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "DEN @ PIT",
      "kickoff": "Fri 14:00",
-     "deck": "Live on the bench: 7.9 at 22:05Z.",
+     "deck": "Final 10.3 on the bench.",
      "verdict": {
       "kind": "BENCH",
       "text": "BENCH"
      },
      "flags": [],
      "figures": {
-      "experts": "WR24 (24–26)",
+      "experts": "WR24",
       "projMove": "12.6 → 10.2",
       "matchup": "SHAKY · allows 21st-most PPR pts to WR"
      },
      "range": {
       "rank": 24,
       "best": 24,
-      "worst": 26
+      "worst": 24
      },
      "weeks": [
       {
@@ -2736,7 +2738,14 @@
      ],
      "current": {
       "week": 12,
-      "proj": 10.2
+      "proj": 10.2,
+      "pts": 10.3,
+      "touches": 8,
+      "eff": 1.29,
+      "share": 0.229,
+      "posAvgTouches": 8.1,
+      "posAvgEff": 1.93,
+      "posAvgShare": 0.293
      },
      "shareKey": "targets",
      "series": {
@@ -2760,12 +2769,12 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "PLAYING — 4 catches on 7 targets, 39 yards, 7.9 at 22:05Z (archive Week 12 live); no injury reported",
+       "value": "PLAYED: 5 catches on 8 targets, 53 yards, 10.3 (archive, final). No injury reported (Yahoo takeaways 27 Nov)",
        "style": "plain"
       },
       {
        "label": "ROLE",
-       "value": "6 targets, 3-61, used deep (NBC 22 Nov); 22% (archive)",
+       "value": "8 targets, the most among Denver receivers after Sutton's 8 (archive). Sutton caught 1 for 4",
        "style": "plain"
       },
       {
@@ -2775,12 +2784,12 @@
       },
       {
        "label": "PASSER",
-       "value": "Bo Nix — a pick-six and a strip-sack returned for a touchdown against him (Yahoo live blog)",
+       "value": "Bo Nix: 22 of 40, 169 yards, two interceptions and a lost fumble. Payton defended him afterwards (ESPN; Yahoo 27 Nov)",
        "style": "plain"
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: archive Week 12 live; Yahoo live blog",
+       "value": "07:00 CDMX Sat: Yahoo Broncos-Steelers takeaways 27 Nov; ESPN 'Nix let the team down'; archive final",
        "style": "italic"
       }
      ],
@@ -2800,8 +2809,8 @@
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14.2,
-        "gap": -4.0,
+        "proj": 14.3,
+        "gap": -4.1,
         "gapLabel": null
        },
        {
@@ -2814,7 +2823,7 @@
        }
       ]
      },
-     "logic": "Locked on the bench. His add-thesis against Allgeier turns on tonight's final and Allgeier's Sunday.",
+     "logic": "Projected 10.2, scored 10.3 on 8 targets (archive): the projection was right. Benched correctly behind Diggs' 12.7 for the FLEX seat. His add-thesis against Allgeier is settled by Allgeier's Sunday: more than 10.3 is strike two.",
      "next": {
       "playerId": 4047650,
       "surname": "Metcalf"
@@ -2836,12 +2845,12 @@
     "normalEstimated": false,
     "pct": -18,
     "tag": "TOUGH",
-    "reason": "3 catches on 4 targets at Pittsburgh; Pittman back from IR",
+    "reason": "3 of 4 for 36 and a 22-yard TD from Rudolph",
     "sheet": {
      "slotLine": "BENCH · WR",
      "opponent": "PIT vs DEN",
      "kickoff": "Fri 14:00",
-     "deck": "Live on the bench: 12.6 at 22:05Z.",
+     "deck": "Final 12.6 on the bench, with a touchdown.",
      "verdict": {
       "kind": "BENCH",
       "text": "BENCH"
@@ -2850,14 +2859,14 @@
       "ROLE_DOWN"
      ],
      "figures": {
-      "experts": "WR27 (26–32)",
+      "experts": "WR29",
       "projMove": "11.1 → 9.9",
       "matchup": "POOR · allows 27th-most PPR pts to WR"
      },
      "range": {
-      "rank": 27,
-      "best": 26,
-      "worst": 32
+      "rank": 29,
+      "best": 29,
+      "worst": 29
      },
      "weeks": [
       {
@@ -2984,7 +2993,14 @@
      ],
      "current": {
       "week": 12,
-      "proj": 9.9
+      "proj": 9.9,
+      "pts": 12.6,
+      "touches": 4,
+      "eff": 3.15,
+      "share": 0.308,
+      "posAvgTouches": 8.1,
+      "posAvgEff": 1.93,
+      "posAvgShare": 0.293
      },
      "shareKey": "targets",
      "series": {
@@ -3008,22 +3024,22 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "PLAYING — 3 catches on 4 targets, 36 yards, 12.6 at 22:05Z (archive Week 12 live); no injury reported",
+       "value": "PLAYED: 3 catches on 4 targets, 36 yards and a 22-yard touchdown from Rudolph, 12.6 (archive; ESPN recap 27 Nov)",
        "style": "plain"
       },
       {
        "label": "ROLE",
-       "value": "4 targets, 11% in Week 11 before the ejection; two or fewer catches in four straight games (FantasyPros 24 Nov). ROLE_DOWN answered: the ejection plus a falling share",
+       "value": "4 targets in Week 12 and 4 in Week 11 (archive). ROLE_DOWN answered: four or fewer targets in each of the last two games with Pittman back",
        "style": "plain"
       },
       {
        "label": "COMPETITION",
-       "value": "Michael Pittman Jr. back from IR — 1 catch on 2 targets so far (archive); Germie Bernard, Roman Wilson; Ben Skowronek out",
+       "value": "Michael Pittman Jr. back from IR: 1 catch on 2 targets (archive). Germie Bernard had a 58-yard catch-and-run",
        "style": "plain"
       },
       {
        "label": "PASSER",
-       "value": "Mason Rudolph — Rodgers released (Bleacher Report 26 Nov)",
+       "value": "Mason Rudolph started after Rodgers was benched (ESPN 27 Nov)",
        "style": "plain"
       },
       {
@@ -3033,7 +3049,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: archive Week 12 live; Yahoo live blog",
+       "value": "07:00 CDMX Sat: ESPN recap 27 Nov; archive Week 12 final",
        "style": "italic"
       }
      ],
@@ -3053,8 +3069,8 @@
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14.2,
-        "gap": -4.3,
+        "proj": 14.3,
+        "gap": -4.4,
         "gapLabel": null
        },
        {
@@ -3067,7 +3083,7 @@
        }
       ]
      },
-     "logic": "Locked on the bench with 12.6 live — above Warren's 4.4, but the projection call (14.8 to 9.9) is graded on the final, and one game never overrides the projection.",
+     "logic": "Projected 9.9 on the bench behind Diggs (12.7, Sunday). 12.6 on 4 targets is efficiency, not role: 4 targets in each of the last two weeks. Graded against Diggs once Sunday is final; one touchdown does not move the order.",
      "next": {
       "playerId": 4883647,
       "surname": "Ayomanor"
@@ -3101,13 +3117,13 @@
      },
      "flags": [],
      "figures": {
-      "experts": "WR46 (42–48)",
+      "experts": "WR42 (38–48)",
       "projMove": "9.5 → 6.9",
       "matchup": "AVERAGE · allows 16th-most PPR pts to WR"
      },
      "range": {
-      "rank": 46,
-      "best": 42,
+      "rank": 42,
+      "best": 38,
       "worst": 48
      },
      "weeks": [
@@ -3215,7 +3231,7 @@
      "table": [
       {
        "label": "AVAILABILITY",
-       "value": "ACTIVE",
+       "value": "ACTIVE. Tennessee's final report lists only Flott and Burgess out, with Dan Moore Jr. and Carmona questionable (NFL.com Week 12). No receiver is designated",
        "style": "plain"
       },
       {
@@ -3225,7 +3241,7 @@
       },
       {
        "label": "COMPETITION",
-       "value": "Carnell Tate probable (shoulder), full Wednesday and Thursday; Chimere Dike; Wan'Dale Robinson out for the season (Footballguys Week 12; Titans' official report)",
+       "value": "Carnell Tate active, not designated (NFL.com Week 12). Chimere Dike; Wan'Dale Robinson out for the season",
        "style": "plain"
       },
       {
@@ -3235,7 +3251,7 @@
       },
       {
        "label": "CHECKED",
-       "value": "16:00 CDMX Fri: tennesseetitans.com report (Wed/Thu; Friday column not posted at fetch); Footballguys Week 12 (Tate probable, Spears out)",
+       "value": "07:00 CDMX Sat: NFL.com Week 12 report (Titans-Jaguars)",
        "style": "italic"
       }
      ],
@@ -3255,8 +3271,8 @@
         "where": "WR",
         "playerId": 4569618,
         "name": "Garrett Wilson",
-        "proj": 14.2,
-        "gap": -7.3,
+        "proj": 14.3,
+        "gap": -7.4,
         "gapLabel": null
        },
        {
@@ -3277,7 +3293,7 @@
  },
  "wire": {
   "headline": "Nothing worth adding",
-  "deck": "Five new names on the screen, four from tonight's Pittsburgh-Denver game; all pass. Likely's clearance retires the Hockenson fallback.",
+  "deck": "Three new names from Friday's Pittsburgh-Denver game, and all three pass. Meyers at 14.1 is 1.4 over Diggs, a coin flip that is not worth Etienne.",
   "candidates": [],
   "market": {
    "kicker": {
@@ -3310,7 +3326,7 @@
     "rows": [
      {
       "name": "Chargers D/ST",
-      "proj": 8.2,
+      "proj": 8.1,
       "mine": true
      },
      {
@@ -3325,7 +3341,7 @@
      },
      {
       "name": "Buccaneers D/ST",
-      "proj": 7.6,
+      "proj": 7.5,
       "mine": false
      }
     ]
@@ -3353,26 +3369,35 @@
     "aaron rodgers",
     "alec pierce",
     "bhayshul tuten",
+    "brevin jordan",
     "brian robinson jr.",
+    "brock purdy",
     "carson beck",
     "christian watson",
     "colston loveland",
     "davante adams",
+    "davis allen",
     "de'von achane",
     "drake maye",
     "erick all",
+    "jahan dotson",
     "jake ferguson",
     "jalen hurts",
     "james conner",
+    "jared wayne",
     "jaxson dart",
     "jayden higgins",
     "jayden reed",
     "jaylin noel",
     "jeremiyah love",
     "jordan addison",
+    "jordan watkins",
     "josh jacobs",
     "joshua palmer",
+    "justin herbert",
     "juwan johnson",
+    "kayshon boutte",
+    "keaton mitchell",
     "kendrick bourne",
     "kenneth walker iii",
     "lamar jackson",
@@ -3382,6 +3407,7 @@
     "parker washington",
     "puka nacua",
     "rj harvey",
+    "romeo doubs",
     "seth mcgowan",
     "terrance ferguson",
     "terry mclaurin",
@@ -3391,7 +3417,9 @@
     "tyler higbee",
     "tyquan thornton",
     "tyrone tracy jr.",
-    "wan'dale robinson"
+    "wan'dale robinson",
+    "will mallory",
+    "zachariah branch"
    ],
    "exposure": [
     "Elic Ayomanor"
@@ -3434,6 +3462,24 @@
      "drop": null
     },
     {
+     "playerId": 4038815,
+     "name": "Rico Dowdle",
+     "pos": "RB",
+     "team": "PIT",
+     "touches": [
+      7,
+      10,
+      12
+     ],
+     "share": 0.3548387096774194,
+     "shareBefore": 0.3869047619047619,
+     "flags": [],
+     "verdict": "PASS",
+     "reason": "Updated with the final: 11 carries for 71 and 1 catch, 6.4 (archive), against Warren's 20 carries. Warren is healthy, so nothing opened; Dowdle is the 35% partner in a split, and every Chem RB seat is filled by a top-24 back.",
+     "falsifiedIf": "Dowdle out-carries Warren in Week 13.",
+     "drop": null
+    },
+    {
      "playerId": 4912274,
      "name": "Sione Vaki",
      "pos": "RB",
@@ -3449,24 +3495,6 @@
      "verdict": "PASS",
      "reason": "Carried from Thursday's research (non-Tuesday run). Detroit's No. 2 back behind Gibbs, who ran 21 times for 205 and three touchdowns on Thanksgiving (Bleacher Report; archive); 9 touches, 3.5. A backup's share rose because the game went long, not because a role opened.",
      "falsifiedIf": "Gibbs misses a game and Vaki draws 15+ touches.",
-     "drop": null
-    },
-    {
-     "playerId": 4038815,
-     "name": "Rico Dowdle",
-     "pos": "RB",
-     "team": "PIT",
-     "touches": [
-      7,
-      10,
-      7
-     ],
-     "share": 0.3,
-     "shareBefore": 0.3869047619047619,
-     "flags": [],
-     "verdict": "PASS",
-     "reason": "New on the screen from tonight's game: 7 touches, 4.4 at 22:05Z (archive), Warren's 30% share partner. Warren is healthy and playing, so nothing opened a role; on waivers in Chem.",
-     "falsifiedIf": "Warren leaves tonight's game injured and Pittsburgh name Dowdle the lead back.",
      "drop": null
     },
     {
@@ -3503,6 +3531,24 @@
      "verdict": "PASS",
      "reason": "Carried from this morning's research (non-Tuesday run). 6 targets, 6.3 in the rain (archive); he bobbled the screen that became Allen's second interception (NBC 27 Nov). No injury opened a role; he would be the seventh receiver here and is on waivers until Wednesday.",
      "falsifiedIf": "A Buffalo receiver injury and Shakir 9+ targets in Week 13.",
+     "drop": null
+    },
+    {
+     "playerId": 4600981,
+     "name": "Pat Bryant",
+     "pos": "WR",
+     "team": "DEN",
+     "touches": [
+      null,
+      4,
+      7
+     ],
+     "share": 0.2,
+     "shareBefore": 0.14814814814814814,
+     "flags": [],
+     "verdict": "PASS",
+     "reason": "New this morning: 7 targets, 4 catches, 42 yards, 8.2 in Denver's 27-5 loss (archive). Sutton drew 8 and caught 1 for 4 (Yahoo takeaways 27 Nov), so the share came from a game Denver chased all night with Nix turning it over three times (ESPN). No injury opened the role, and Denver host Miami on 6 Dec. He would be your seventh receiver.",
+     "falsifiedIf": "Bryant draws 20%+ of Denver's targets again in Week 13 with Sutton active.",
      "drop": null
     },
     {
@@ -3560,24 +3606,6 @@
      "drop": null
     },
     {
-     "playerId": 4035687,
-     "name": "Michael Pittman Jr.",
-     "pos": "WR",
-     "team": "PIT",
-     "touches": [
-      0,
-      0,
-      2
-     ],
-     "share": 0.18181818181818182,
-     "shareBefore": null,
-     "flags": [],
-     "verdict": "PASS",
-     "reason": "New: activated off IR for Rudolph's first start (CBS game page; Bleacher Report 26 Nov, carried) — 1 catch on 2 targets at 22:05Z (archive). One partial game back from a foot injury is not a role.",
-     "falsifiedIf": "He finishes tonight with 6+ targets and Pittsburgh's Week 13 report has him full.",
-     "drop": null
-    },
-    {
      "playerId": 4242557,
      "name": "Colby Parkinson",
      "pos": "TE",
@@ -3595,24 +3623,6 @@
      "verdict": "PASS",
      "reason": "Carried from this morning's research (non-Tuesday run). Would be the Rams' receiving tight end if Higbee's chest injury is serious (PFF 25 Nov), but his Week 12 game is over and Chem cannot start a second tight end.",
      "falsifiedIf": "Likely ruled out for the season and Parkinson draws 6+ targets with Higbee out.",
-     "drop": null
-    },
-    {
-     "playerId": 3121023,
-     "name": "Dallas Goedert",
-     "pos": "TE",
-     "team": "PHI",
-     "touches": [
-      null,
-      1,
-      2
-     ],
-     "share": 0.08,
-     "shareBefore": 0.047619047619047616,
-     "flags": [],
-     "verdict": "PASS",
-     "reason": "Carried from this morning's research (non-Tuesday run). Left Thanksgiving with a shoulder injury in the first quarter (Yahoo 26 Nov; philadelphiaeagles.com), one catch for 9 before he went. On waivers; not a starting tight end here.",
-     "falsifiedIf": "Goedert cleared for Week 13 and 6+ targets with Likely out.",
      "drop": null
     },
     {
@@ -3634,21 +3644,39 @@
      "drop": null
     },
     {
-     "playerId": 3051876,
-     "name": "Evan Engram",
+     "playerId": 3121023,
+     "name": "Dallas Goedert",
      "pos": "TE",
-     "team": "DEN",
+     "team": "PHI",
      "touches": [
       null,
-      8,
+      1,
       2
      ],
-     "share": 0.08695652173913043,
-     "shareBefore": 0.2962962962962963,
+     "share": 0.08,
+     "shareBefore": 0.047619047619047616,
      "flags": [],
      "verdict": "PASS",
-     "reason": "New: 2 targets, 0.0 at 22:05Z (archive) after 30% of Denver's targets in Week 11; Bo Nix has thrown a pick-six and lost a fumble for a touchdown (Yahoo live blog). Chem cannot start a second tight end and Likely is undesignated.",
-     "falsifiedIf": "Likely misses Week 13 and Engram's share returns to 25%+.",
+     "reason": "Carried from this morning's research (non-Tuesday run). Left Thanksgiving with a shoulder injury in the first quarter (Yahoo 26 Nov; philadelphiaeagles.com), one catch for 9 before he went. On waivers; not a starting tight end here.",
+     "falsifiedIf": "Goedert cleared for Week 13 and 6+ targets with Likely out.",
+     "drop": null
+    },
+    {
+     "playerId": 4361411,
+     "name": "Pat Freiermuth",
+     "pos": "TE",
+     "team": "PIT",
+     "touches": [
+      3,
+      6,
+      1
+     ],
+     "share": 0.07692307692307693,
+     "shareBefore": 0.13466183574879226,
+     "flags": [],
+     "verdict": "PASS",
+     "reason": "New this morning: 1 target, 1 yard, 1.1 in Rudolph's first start (archive). Rudolph spread 9 completions across Metcalf, Bernard, Pittman and Roman Wilson (ESPN recap). A falling share (8% from 13%) behind a new quarterback, and Likely is your tight end.",
+     "falsifiedIf": "Freiermuth 5+ targets from Rudolph in Week 13.",
      "drop": null
     },
     {
@@ -3665,26 +3693,8 @@
      "shareBefore": 0.11447368421052631,
      "flags": [],
      "verdict": "PASS",
-     "reason": "New: 1 touch, 0.0 on Thanksgiving (archive); Kincaid is back ahead of him (roundtable.io 27 Nov, carried from IPADE). A third tight end's snaps.",
+     "reason": "Carried from Friday's research (non-Tuesday run). New: 1 touch, 0.0 on Thanksgiving (archive); Kincaid is back ahead of him (roundtable.io 27 Nov, carried from IPADE). A third tight end's snaps.",
      "falsifiedIf": "Kincaid misses Week 13.",
-     "drop": null
-    },
-    {
-     "playerId": 4360698,
-     "name": "Joe Milton",
-     "pos": "QB",
-     "team": "PHI",
-     "touches": [
-      null,
-      26,
-      34
-     ],
-     "share": null,
-     "shareBefore": null,
-     "flags": [],
-     "verdict": "PASS",
-     "reason": "Carried from this morning's research (non-Tuesday run). 30.7 on Thanksgiving as Philadelphia came back from 21 down (archive; Inquirer 26 Nov), with Hurts out. One-quarterback leagues with entrenched starters — no seat.",
-     "falsifiedIf": "Your starting quarterback ruled out for Week 13 and Hurts still out.",
      "drop": null
     },
     {
@@ -3706,6 +3716,24 @@
      "drop": null
     },
     {
+     "playerId": 4360698,
+     "name": "Joe Milton",
+     "pos": "QB",
+     "team": "PHI",
+     "touches": [
+      null,
+      26,
+      34
+     ],
+     "share": null,
+     "shareBefore": null,
+     "flags": [],
+     "verdict": "PASS",
+     "reason": "Carried from this morning's research (non-Tuesday run). 30.7 on Thanksgiving as Philadelphia came back from 21 down (archive; Inquirer 26 Nov), with Hurts out. One-quarterback leagues with entrenched starters — no seat.",
+     "falsifiedIf": "Your starting quarterback ruled out for Week 13 and Hurts still out.",
+     "drop": null
+    },
+    {
      "playerId": 3116407,
      "name": "Mason Rudolph",
      "pos": "QB",
@@ -3713,7 +3741,7 @@
      "touches": [
       null,
       null,
-      12
+      15
      ],
      "share": null,
      "shareBefore": null,
@@ -3721,8 +3749,8 @@
       "NEW STARTER"
      ],
      "verdict": "PASS",
-     "reason": "New starter: Pittsburgh's quarterback for the rest of the season after Rodgers' release (Bleacher Report 26 Nov, carried); 8.2 at 22:05Z (archive). A one-quarterback league with Allen entrenched.",
-     "falsifiedIf": "Allen is ruled out for Week 13.",
+     "reason": "Updated with the final: 9.7 in Chem, 9.2 in IPADE, in a 27-5 win. His first five passes went for 94 yards (ESPN 27 Nov). He started after Rodgers was benched following a public dispute; ESPN's recap does not say he keeps the job, and Bleacher Report's 'released' reading conflicts. You start Allen in Chem and Daniels in IPADE, so he is not a starter for either of you.",
+     "falsifiedIf": "Your starting quarterback misses a game while Rudolph is still starting.",
      "drop": null
     }
    ]
@@ -3732,38 +3760,34 @@
   "cannotSee": [
    {
     "label": "Inactives",
-    "body": "Friday's reports are in; inactives come at 10:30 Sunday. Likely has no designation, so no contingency is carried — a surprise inactive would leave the TE slot empty with no bench tight end."
-   },
-   {
-    "label": "Tonight's game",
-    "body": "Warren, Metcalf and Waddle were live at 22:05Z. This brief sees their numbers to that moment, not the final."
+    "body": "Friday's reports are final; inactives come at 10:30 Sunday CDMX. No starter is designated, so no contingency is carried. A surprise inactive at tight end would leave the slot empty, because there is no bench tight end."
    },
    {
     "label": "Footballers' lineup",
-    "body": "Bowers is questionable for Sunday night; Herbert (their Hampton and Dicker's quarterback) is questionable in protocol. Their bench moves are visible only after they make them."
+    "body": "Bowers is questionable for Sunday night, and Uiagalelei starts for Hampton and Dicker. Footballers can start Chris Rodriguez Jr. from their bench. Their moves are visible only after they make them."
    },
    {
     "label": "Conflicting reports",
-    "body": "Yahoo's Thursday-morning Commanders report read Diggs as DNP; Arizona Sports' Friday update has him full Thursday. Footballguys lists Likely questionable against the Giants' own final report. In each case the later, primary report is used."
+    "body": "A search headline reads 'Diggs out'. It is Wednesday's personal-reason absence; he came off the report Thursday (SI 27 Nov). Footballguys had Meyers questionable, but NFL.com's final listing does not. The primary report is used in both cases."
    },
    {
     "label": "Pending claims",
-    "body": "Rivals' claims are invisible. Antonio Williams clears waivers Sun 02:00 CDMX."
+    "body": "Rivals' claims are invisible. Antonio Williams clears waivers at Sun 02:00 CDMX."
    },
    {
     "label": "Matchup grades",
-    "body": "statpro.io season PPR points allowed, researched Tuesday and carried; five games have been played since. Kicker and D/ST are not graded."
+    "body": "statpro.io season PPR points allowed, researched Tuesday and carried; six games have been played since. Kicker and D/ST are not graded."
    },
    {
     "label": "Kicker and D/ST",
-    "body": "Chargers D/ST 8.2 vs Bengals 8.0 (free agent): hold. Fairbairn 9.3 vs Szmyt 10.3: hold, 1.0 is under the stream bar."
+    "body": "Fairbairn 9.3 against Szmyt 10.3 is a 1.0 gap: hold. The Chargers (8.1, FantasyPros' top stream) against the Bengals (8.0): hold. The Cowboys D/ST (8.5) show highest on the wire but played on Thanksgiving, so they are locked and on waivers."
    },
    {
     "label": "Trades",
-    "body": "None proposed. Deadline 2 Dec. At 4-7 with 16% this week, the season is Weeks 13-14; no two-way offer was found that clears both sides' lineups."
+    "body": "None proposed. The deadline is 2 Dec. At 4-7 the season is Weeks 13-14, and no two-way offer was found."
    }
   ],
   "lastWeek": "Week 11 left 5.8 points on the bench. The lineup scored 71.2 against 77.0 available — from the archive, not articles.",
-  "sources": "Built from 34 searches this run · ESPN league file 22:05Z · week archive (Week 12 live) · jaguars.com · NBC/Rotoworld · Yahoo · Arizona Sports · AtoZ Sports · neworleanssaints.com · CBS · Footballguys · ESPN (Rams-Packers) · statpro.io grades carried from Tuesday"
+  "sources": "Built from 30 searches and 22 page reads this run · ESPN league file 12:50Z · week archive (Week 12, 12:05Z) · NFL.com Week 12 injury report · ESPN (Steelers-Broncos recap) · CBS · NBC · Yahoo · SI · FantasyPros · ABC7 · Houston Press · statpro.io grades carried from Tuesday"
  }
 }
